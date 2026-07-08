@@ -1,0 +1,168 @@
+{
+  "tw": {
+    "cover": {
+      "date": "2026-07-07",
+      "tier": "watch",
+      "title": "金管會提醒民眾轉帳時核對受款人戶名，加強防範詐騙",
+      "paras": [
+        "金融監督管理委員會（FSC）於 7 月 7 日發布提醒，呼籲民眾轉帳前務必核對受款人戶名是否與預期對象相符，並注意近期詐騙手法翻新，包含假冒親友、假投資平台等話術誘導受害人轉帳。這則新聞稿屬於金管會例行的防詐宣導，並非新政策或重大事件。",
+        "會特別把這則放進來，是因為本週台灣金融科技圈沒有出現足夠份量的重大新聞（詳見下方「本週要聞」），與其硬挑一則勉強湊數，不如誠實標示為「本日觀察」——本週真正值得關注的，其實是六月底三讀通過、目前仍在後續發展中的《虛擬資產服務法》（見下方「過往相關新聞」）。"
+      ]
+    },
+    "sources": [
+      {
+        "name": "金融監督管理委員會",
+        "title": "金管會提醒民眾轉帳時核對受款人戶名，並注意防範詐騙",
+        "url": "https://www.fsc.gov.tw/ch/home.jsp?id=2&parentpath=0"
+      }
+    ],
+    "coverSocial": [],
+    "context": [
+      {
+        "date": "2026-06-30",
+        "title": "立法院三讀通過《虛擬資產服務法》，金管會估最快 2027 年第 1 季子法上路",
+        "body": "立法院院會三讀通過台灣首部虛擬資產專法，虛擬資產服務商（VASP）與穩定幣發行改採許可制。金管會證期局表示將盡速完成 9 項子法，最快 2027 年第 1 季母法與子法同步施行；現有 8 家完成洗錢防制登記的業者（含 MaiCoin、BitoGroup、XREX 等）最長有約 2 年過渡期換照。"
+      }
+    ],
+    "others": [
+      {
+        "date": "2026-06-30",
+        "read": "6 分",
+        "title": "《虛擬資產服務法》三讀通過：VASP 全面許可制、穩定幣三重門檻",
+        "paras": [
+          "立法院院會三讀通過《虛擬資產服務法》，台灣虛擬資產監理正式從洗錢防制登記制，全面升級為許可制（licensing regime）。法案將 VASP 分為交換、交易平台、移轉、保管、承銷、借貸及其他共 7 類，業者依實際經營業務分別申請牌照；穩定幣專章則規定境內發行需經央行同意及金管會許可，發行人須維持十足準備資產並交付信託、以面額發行贖回、不得支付利息。",
+          "對照過去單靠洗錢防制法「登記即可營業」的低門檻，許可制大幅墊高合規成本，市場預估短期交易量恐萎縮一到兩成，但也讓虛擬資產首度進入「業務監理＋投資人保護＋金融穩定」的完整框架。三讀後附帶決議要求金管會 1 年內提出虛擬資產衍生性商品開放規劃，後續 9 項子法的訂定進度，將是觀察台灣虛擬資產市場能否照表操課上路的關鍵指標。"
+        ],
+        "sources": [
+          {
+            "name": "中央社",
+            "title": "虛擬資產服務法三讀 金管會：最快明年首季上路",
+            "url": "https://www.cna.com.tw/news/afe/202606300370.aspx"
+          },
+          {
+            "name": "資誠 PwC Taiwan",
+            "title": "立法院三讀通過虛擬資產服務法 資誠解析五重點",
+            "url": "https://www.pwc.tw/zh/news/press-release/press-20260630.html"
+          }
+        ],
+        "social": []
+      },
+      {
+        "date": "2026-07-02",
+        "read": "3 分",
+        "title": "金管會對中國信託商業銀行前行員挪用 ATM 清算款及財金清算款所涉缺失予以處分",
+        "paras": [
+          "金管會公布對中國信託商業銀行的行政處分，起因為該行前行員挪用 ATM 清算款及財金資訊清算款項，凸顯銀行內部在跨行清算作業與員工職務分工上的控管缺口，處分內容包含要求銀行檢討內控與稽核機制。",
+          "跨行清算款項的內控缺失，凸顯的不只是單一個案，而是銀行後台清算系統在人員授權與異常監控上的共同課題——這也是金管會近年持續推動「監理科技（SupTech）」與銀行監理資料數位申報機制的背景之一。"
+        ],
+        "sources": [
+          {
+            "name": "銀行局全球資訊網",
+            "title": "金管會對中國信託商業銀行前行員挪用清算款所涉缺失之行政處分",
+            "url": "https://www.banking.gov.tw/"
+          }
+        ],
+        "social": []
+      }
+    ]
+  },
+  "global": {
+    "cover": {
+      "date": "2026-07-07",
+      "tier": "top",
+      "title": "Visa 於剛果民主共和國試辦跨境穩定幣結算，卡組織正式加入穩定幣基礎建設賽局",
+      "paras": [
+        "Visa 宣布在剛果民主共和國（DRC）啟動新試辦計畫，透過既有的 Visa Pay 服務，將 M-Pesa 行動錢包儲值交易的後台結算改用穩定幣（stablecoin）完成，並與 M-Pesa Africa、跨境支付網路 Onafriq 合作。Visa CEMEA 產品與解決方案資深副總 Godfrey Sullivan 表示，消費者儲值 M-Pesa 錢包時，交易在背景會以穩定幣完成結算。此舉緊接在競爭對手 Mastercard 五月與非洲穩定幣基礎設施業者 Yellow Card 合作測試跨境匯款之後。",
+        "這則試辦只是本週穩定幣結算浪潮的其中一角：六月底由新創公司 Open Standard 主導、逾 140 家企業（含 Visa、Mastercard、Stripe、BlackRock、Coinbase 等）共同支持的穩定幣 Open USD（OUSD）甫上線，Mastercard 也同步宣布擴大結算能力、支援全年無休的法幣與穩定幣雙軌卡片清算。當卡組織開始把穩定幣視為基礎建設的一部分，而非單純的加密資產議題，代表這場「支付軌道之爭」已經從新創圈蔓延到傳統金融業的核心結算層。"
+      ]
+    },
+    "sources": [
+      {
+        "name": "FinTech Futures",
+        "title": "Visa tests cross-border stablecoin settlement in DR Congo with M-Pesa Africa",
+        "url": "https://www.fintechfutures.com/blockchain-crypto-digital-assets/visa-tests-cross-border-stablecoin-settlement-in-dr-congo-with-m-pesa-africa"
+      },
+      {
+        "name": "Banking Dive",
+        "title": "Banks, card networks, fintechs partner on 'low-cost' stablecoin",
+        "url": "https://www.bankingdive.com/news/stablecoin-open-standard-bridge-abrams-bny-stripe-mastercard-visa-coinbase-adyen/824200/"
+      }
+    ],
+    "coverSocial": [
+      {
+        "plat": "X",
+        "who": "Jeremy Allaire（Circle CEO）",
+        "url": "https://news.bitcoin.com/open-usd-backlash-consortium-faces-allegations-of-faking-key-stablecoin-partnerships/",
+        "body": "針對 OUSD 部分合作夥伴被列名卻未實際同意一事，公開喊話「誠信至關重要」，暗批這次聯盟公告誠信有虧。"
+      },
+      {
+        "plat": "新聞引述",
+        "who": "The Big Whale 執行長 Raphaël Bloch",
+        "url": "https://news.bitcoin.com/open-usd-backlash-consortium-faces-allegations-of-faking-key-stablecoin-partnerships/",
+        "body": "直接聯繫多家被列名企業後發現，內部員工根本不清楚這個倡議實際內容為何，形容整起事件「宣傳效果大於實際進展」。"
+      }
+    ],
+    "context": [
+      {
+        "date": "2026-06-30",
+        "title": "140 家企業共同支持的穩定幣 Open USD（OUSD）正式亮相",
+        "body": "由 Open Standard 主導、Bridge 共同創辦人 Zach Abrams 暫代執行長，OUSD 主打免鑄造與贖回手續費、準備金收益回饋給參與企業的共享治理模式，被視為對 Circle（USDC）與 Tether（USDT）既有獲利模式的直接挑戰，消息一出 Circle 股價單日重挫逾 15%。"
+      }
+    ],
+    "others": [
+      {
+        "date": "2026-07-06",
+        "read": "3 分",
+        "title": "跨境支付商 Cedar Money 與穩定幣基礎設施業者 Noah 攜手打通非洲跨境金流",
+        "paras": [
+          "專注新興市場的跨境支付與外匯基礎設施公司 Cedar Money，宣布與 API 優先的穩定幣支付平台 Noah 建立策略合作，目標是解決非洲與國際市場之間長期存在的痛點：西方合規要求難以覆蓋非洲商戶的徵信與盡職調查。Cedar 負責在其金融機構執照下辦理 KYC、洗錢防制與制裁名單篩查等合規把關，Noah 則提供穩定幣支付基礎設施，包括具名的歐元與美元虛擬帳戶與多幣別可程式化撥款。",
+          "Cedar Money 同時具備美國 FinCEN、加拿大 FINTRAC 註冊資格，並受加拿大零售支付活動法（RPAA）規範，這類「合規層＋穩定幣結算層」的分工模式，正成為新興市場跨境支付業者繞開傳統代理行銀行網路的常見組合。"
+        ],
+        "sources": [
+          {
+            "name": "FinTech.Global",
+            "title": "Cedar and Noah partner to unlock African cross-border payments",
+            "url": "https://fintech.global/2026/07/06/cedar-and-noah-partner-to-unlock-african-cross-border-payments/"
+          }
+        ],
+        "social": []
+      },
+      {
+        "date": "2026-07-07",
+        "read": "3 分",
+        "title": "機構加密交易平台 EDX Markets 完成 7,600 萬美元 C 輪融資，由 SBI Holdings 領投",
+        "paras": [
+          "專攻機構客戶的加密貨幣交易平台 EDX Markets，宣布完成由日本 SBI Holdings 領投的 7,600 萬美元 C 輪融資，資金將用於產品開發與國際市場擴張。EDX 的核心設計是透過中央清算機構，將交易與保管、結算分離以降低交易對手風險，近期更推出「FlowConnect」服務，讓金融機構能將加密交易能力包裝提供給自己的客戶，並已透過美國貨幣監理署（OCC）申請國家信託銀行執照。",
+          "SBI 是這輪融資的主導者，本身也是近期日本加密貨幣圈整併浪潮的主角之一：SBI 稍早已同意以約 2.89 億美元收購日本交易所 Bitbank，整併後估計將擁有約 292 萬個加密資產帳戶、約 68 億美元的資產保管規模。EDX 的這輪募資，可視為 SBI 在機構級加密基礎設施的又一筆布局。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "EDX Markets raises $76 million in funding round led by SBI Holdings",
+            "url": "https://www.coindesk.com/business/2026/07/07/edx-markets-raises-usd76-million-in-funding-round-led-by-sbi-holdings"
+          }
+        ],
+        "social": []
+      },
+      {
+        "date": "2026-07-01",
+        "read": "4 分",
+        "title": "歐盟 MiCA 過渡期正式結束，Binance 遭鎖出歐盟市場",
+        "paras": [
+          "歐盟《加密資產市場監理規則》（MiCA）第 143(3) 條所定的過渡期於 7 月 1 日正式屆滿：先前依各國既有規範合法營運、同時申請 MiCA 完整許可的加密資產服務業者（CASP），若尚未取得許可，法律上已不能再繼續服務歐盟客戶。第一週的市場反應立竿見影，Binance 因未完成授權而被排除在歐盟市場之外，同時匈牙利發出一張電子貨幣機構（EMI）執照給業者 Pay10，資金持續往已取得執照的合規業者靠攏。",
+          "與 MiCA 同步收緊的還有歐盟數位營運韌性法（DORA），其 2026 年監理周期已從「輔導改善」轉向「正式執法」，兩套法規疊加，讓歐洲支付業者面臨最高全球營收 10% 或 1000 萬歐元（以較高者為準）的罰鍰風險，資深經理人並可能面臨最高 100 萬歐元的個人責任。"
+        ],
+        "sources": [
+          {
+            "name": "Advapay",
+            "title": "Fintech This Week: The MiCA Deadline Passes, Binance Is Locked Out",
+            "url": "https://advapay.eu/resources/fintech-news-commentary-week-of-6-july-2026"
+          }
+        ],
+        "social": []
+      }
+    ]
+  },
+  "_generated_at": "2026-07-08T14:04:43.537Z",
+  "_note": "初始版本，由 2026-07-06~08 手動抓取的真實新聞產生；之後由排程任務每次覆寫"
+}
