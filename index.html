@@ -32,7 +32,7 @@
   html{ scroll-behavior:smooth; }
   body{
     margin:0; background:var(--page-bg); color:var(--page-text);
-    font-family:'Inter', sans-serif; -webkit-font-smoothing:antialiased;
+    font-family:'Inter', -apple-system, 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif; -webkit-font-smoothing:antialiased;
     transition:background 0.35s ease, color 0.35s ease;
   }
   a{ color:inherit; text-decoration:none; }
@@ -93,7 +93,7 @@
   .eyebrow.is-watch{ color:var(--dark-text-faint); }
   .eyebrow.is-watch::before{ background:var(--dark-text-faint); }
 
-  .cover-band h2{ font-family:'Newsreader', serif; font-weight:600; font-style:italic; font-size:clamp(28px, 4.2vw, 44px); line-height:1.16; margin:0 0 24px; max-width:22ch; color:var(--dark-text); }
+  .cover-band h2{ font-family:'Newsreader', 'Songti TC', 'PMingLiU', serif; font-weight:600; font-style:italic; font-size:clamp(28px, 4.2vw, 44px); line-height:1.16; margin:0 0 24px; max-width:22ch; color:var(--dark-text); }
   .story-copy p{ margin:0 0 12px; font-size:15.5px; line-height:1.85; }
   .cover-band .story-copy p{ color:var(--dark-text); }
   .story-copy p:last-child{ margin-bottom:0; }
@@ -128,7 +128,7 @@
   .ask-row{ display:flex; align-items:center; margin:22px 0 26px; position:relative; }
   .ask-wrap{ position:relative; display:inline-flex; }
   .ask-main, .ask-chevron-btn{
-    display:flex; align-items:center; gap:7px; font-family:'Inter', sans-serif; font-size:12.5px;
+    display:flex; align-items:center; gap:7px; font-family:'Inter', -apple-system, 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif; font-size:12.5px;
     padding:8px 13px; cursor:pointer; background:transparent; color:inherit;
     transition:border-color 0.32s cubic-bezier(.4,0,.2,1), color 0.32s cubic-bezier(.4,0,.2,1), background-color 0.32s cubic-bezier(.4,0,.2,1);
   }
@@ -152,7 +152,7 @@
   .ask-menu.open{ opacity:1; transform:translateY(0); pointer-events:auto; }
   .ask-menu button{
     display:flex; width:100%; align-items:center; gap:8px; text-align:left; border:none;
-    background:transparent; cursor:pointer; font-family:'Inter', sans-serif; font-size:12.5px;
+    background:transparent; cursor:pointer; font-family:'Inter', -apple-system, 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif; font-size:12.5px;
     padding:8px 9px; border-radius:5px; color:inherit; transition:background 0.2s ease, color 0.2s ease;
   }
   .cover-band .ask-menu button{ color:var(--dark-text-dim); }
@@ -166,7 +166,7 @@
   .tri-row .ask-main{ flex:1; min-width:0; }
   .tri-toggle{
     display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%;
-    font-family:'Inter', sans-serif; font-size:12.5px; padding:8px 13px; border-radius:7px;
+    font-family:'Inter', -apple-system, 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif; font-size:12.5px; padding:8px 13px; border-radius:7px;
     border:1px solid; cursor:pointer; background:transparent; color:inherit;
     transition:border-color 0.32s cubic-bezier(.4,0,.2,1), color 0.32s cubic-bezier(.4,0,.2,1), background-color 0.32s cubic-bezier(.4,0,.2,1);
   }
@@ -193,13 +193,13 @@
   .cover-band .context-item{ border-top:1px solid var(--dark-border-soft); }
   .context-item:first-of-type{ border-top:none; margin-top:12px; padding-top:0; }
   .context-item .cdate{ font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--dark-text-faint); }
-  .context-item h4{ font-family:'Newsreader', serif; font-weight:500; font-size:16px; margin:4px 0 6px; color:var(--dark-text); }
+  .context-item h4{ font-family:'Newsreader', 'Songti TC', 'PMingLiU', serif; font-weight:500; font-size:16px; margin:4px 0 6px; color:var(--dark-text); }
   .context-item p{ margin:0; font-size:13.5px; line-height:1.7; color:var(--dark-text-dim); }
 
   main{ max-width:960px; margin:0 auto; padding:0 24px 100px; }
 
   .rail-header{ display:flex; align-items:baseline; padding:48px 0 22px; }
-  .rail-header h3{ font-family:'Newsreader', serif; font-style:italic; font-weight:500; font-size:22px; margin:0; color:var(--page-text); display:flex; align-items:baseline; gap:12px; }
+  .rail-header h3{ font-family:'Newsreader', 'Songti TC', 'PMingLiU', serif; font-style:italic; font-weight:500; font-size:22px; margin:0; color:var(--page-text); display:flex; align-items:baseline; gap:12px; }
   .rail-header .count{ font-family:'IBM Plex Mono', monospace; font-size:13px; font-style:normal; color:var(--page-text); background:var(--accent-soft); padding:3px 11px; border-radius:999px; letter-spacing:0.03em; }
 
   .rail{ position:relative; padding-left:34px; }
@@ -209,7 +209,7 @@
   .story .dot{ position:absolute; left:-34px; top:5px; width:19px; height:19px; border-radius:50%; background:var(--page-surface); border:1px solid var(--page-border); display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono', monospace; font-size:9.5px; color:var(--page-text-faint); }
   .story.rank-1 .dot{ border-color:var(--accent-strong); color:var(--page-text); box-shadow:0 0 0 3px var(--accent-soft); }
   .story .story-meta{ display:flex; gap:12px; align-items:center; margin-bottom:8px; font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--page-text-faint); }
-  .story h4{ font-family:'Newsreader', serif; font-weight:600; font-size:19px; margin:0 0 12px; line-height:1.35; color:var(--page-text); }
+  .story h4{ font-family:'Newsreader', 'Songti TC', 'PMingLiU', serif; font-weight:600; font-size:19px; margin:0 0 12px; line-height:1.35; color:var(--page-text); }
   .story .story-copy p{ font-size:14.5px; color:var(--page-text-dim); }
   .story .panel-label{ color:var(--page-text-faint); margin:16px 0 10px; }
 
@@ -348,8 +348,15 @@ const SOURCES = {
 
 let scope = 'tw';
 
+const CJK_RANGE = '\\u4e00-\\u9fff\\u3400-\\u4dbf\\uf900-\\ufaff\\u3040-\\u30ff';
+function cjkSpace(text){
+  if(!text) return text;
+  return text
+    .replace(new RegExp(`([${CJK_RANGE}])([A-Za-z0-9])`, 'g'), '$1 $2')
+    .replace(new RegExp(`([A-Za-z0-9])([${CJK_RANGE}])`, 'g'), '$1 $2');
+}
 function storyCopy(paras){
-  return `<div class="story-copy">${paras.map(p => `<p>${p}</p>`).join('')}</div>`;
+  return `<div class="story-copy">${paras.map(p => `<p>${cjkSpace(p)}</p>`).join('')}</div>`;
 }
 function stripHtml(html){
   return html.replace(/<[^>]+>/g, '').trim();
@@ -447,7 +454,7 @@ function render(){
   document.getElementById('coverSection').innerHTML = `
     <p class="prompt-line"><span class="sym">$</span> signal fetch --scope=${scope} --date=<span class="accent-date">${d.cover.date}（${weekdayZh(d.cover.date)}）</span><span class="cursor">_</span></p>
     <p class="eyebrow${d.cover.tier === 'watch' ? ' is-watch' : ''}">${d.cover.tier === 'watch' ? '本日觀察' : '本日最重點'}</p>
-    <h2>${d.cover.title}</h2>
+    <h2>${cjkSpace(d.cover.title)}</h2>
     ${storyCopy(d.cover.paras)}
     ${triRow('cover', d.cover.title, d.cover.paras, d.sources, d.coverSocial)}
     ${d.context.length ? `
@@ -456,8 +463,8 @@ function render(){
       ${d.context.map(c => `
         <div class="context-item">
           <span class="cdate mono">${c.date}</span>
-          <h4>${c.title}</h4>
-          <p>${c.body}</p>
+          <h4>${cjkSpace(c.title)}</h4>
+          <p>${cjkSpace(c.body)}</p>
         </div>`).join('')}
     </details>` : ''}
   `;
@@ -469,7 +476,7 @@ function render(){
     <div class="story ${i===0 ? 'rank-1' : ''}">
       <span class="dot">${String(i+2).padStart(2,'0')}</span>
       <div class="story-meta"><span>${s.date}（${weekdayZh(s.date)}）</span></div>
-      <h4>${s.title}</h4>
+      <h4>${cjkSpace(s.title)}</h4>
       ${storyCopy(s.paras)}
       ${triRow('story-'+i, s.title, s.paras, s.sources, s.social)}
       ${s.context && s.context.length ? `
@@ -478,8 +485,8 @@ function render(){
         ${s.context.map(c => `
           <div class="context-item">
             <span class="cdate mono">${c.date}</span>
-            <h4>${c.title}</h4>
-            <p>${c.body}</p>
+            <h4>${cjkSpace(c.title)}</h4>
+            <p>${cjkSpace(c.body)}</p>
           </div>`).join('')}
       </details>` : ''}
     </div>
