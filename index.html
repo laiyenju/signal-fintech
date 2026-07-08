@@ -224,6 +224,12 @@
   .story .context-item h4{ font-size:16px; margin:4px 0 6px; color:var(--page-text); }
   .story .context-item .cdate{ color:var(--page-text-faint); }
   .story .context-item p{ color:var(--page-text-dim); }
+  details.more-stories{ margin:6px 0 0 0; }
+  details.more-stories > summary{ cursor:pointer; list-style:none; display:flex; align-items:center; gap:8px; font-family:'IBM Plex Mono', monospace; font-size:12.5px; letter-spacing:0.03em; color:var(--page-text-dim); padding:10px 0 24px; }
+  details.more-stories > summary:hover{ color:var(--accent); }
+  details.more-stories > summary::-webkit-details-marker{ display:none; }
+  details.more-stories > summary::after{ content:'▾'; color:var(--page-text-faint); }
+  details.more-stories[open] > summary::after{ content:'▴'; }
 
   details.more summary{ cursor:pointer; list-style:none; font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--page-text-faint); text-transform:uppercase; letter-spacing:0.06em; display:inline-flex; gap:6px; align-items:center; border-bottom:1px dashed var(--page-border); padding-bottom:2px; }
   details.more summary::-webkit-details-marker{ display:none; }
@@ -451,9 +457,10 @@ function render(){
     </details>` : ''}
   `;
 
-  document.getElementById('weekCount').textContent = `${d.others.length} 則`;
+  const sortedOthers = [...d.others].sort((a, b) => b.date.localeCompare(a.date));
+  document.getElementById('weekCount').textContent = `${sortedOthers.length} 則`;
 
-  document.getElementById('railList').innerHTML = d.others.map((s, i) => `
+  const storyCard = (s, i) => `
     <div class="story ${i===0 ? 'rank-1' : ''}">
       <span class="dot">${String(i+2).padStart(2,'0')}</span>
       <div class="story-meta"><span>${s.date}（${weekdayZh(s.date)}）</span></div>
@@ -471,7 +478,18 @@ function render(){
           </div>`).join('')}
       </details>` : ''}
     </div>
-  `).join('');
+  `;
+
+  const VISIBLE_COUNT = 5;
+  const visible = sortedOthers.slice(0, VISIBLE_COUNT).map(storyCard).join('');
+  const rest = sortedOthers.slice(VISIBLE_COUNT);
+  const restHtml = rest.length ? `
+    <details class="more-stories">
+      <summary>顯示更多本週要聞・還有 ${rest.length} 則</summary>
+      ${rest.map((s, i) => storyCard(s, i + VISIBLE_COUNT)).join('')}
+    </details>` : '';
+
+  document.getElementById('railList').innerHTML = visible + restHtml;
 
   document.getElementById('btnTW').classList.toggle('active', scope==='tw');
   document.getElementById('btnGlobal').classList.toggle('active', scope==='global');
