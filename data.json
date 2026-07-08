@@ -1,19 +1,19 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "tier": "watch",
-      "title": "中國信託銀行攜手瑞典殷拓集團（EQT），獨家引進增值型基礎建設投資策略",
+      "title": "MaiCoin 推出 LINE Bank 帳戶綁定扣款，購買虛擬貨幣免先儲值",
       "paras": [
-        "中國信託銀行 7 月 8 日宣布，攜手瑞典另類資產管理機構殷拓集團（EQT）合作，獨家在台引進「增值型基礎建設投資策略」（value-add infrastructure investment strategy），為銀行客戶新增一項另類投資（alternative investment）管道。",
-        "這是中信銀行今年持續擴大財富管理產品線、將國際機構資金管理策略引進台灣市場的最新動作；不過中信銀行與 EQT 在這次公告中並未進一步揭露該策略的投資規模、報酬目標或適用客群門檻，相關細節仍待雙方後續說明。"
+        "加密貨幣交易所 MaiCoin 於 7 月 8 日宣布新增付款方式：用戶可將平台綁定銀行帳戶改為 LINE Bank（連線商業銀行），透過交易頁面或個人設定頁面完成綁定後，購買虛擬貨幣（cryptocurrency）時即可直接從 LINE Bank 帳戶即時扣款，不必像過去一樣先把台幣儲值進 MaiCoin 錢包，整個流程可在 App 內一次完成，並享有與台幣餘額支付相同的優惠價格。",
+        "這是台灣加密貨幣交易所持續與純網路銀行（digital-native bank）合作、簡化法幣入金（fiat on-ramp）流程的最新一例；不過 MaiCoin 官方公告並未揭露交易金額上限、處理時間限制，也沒有引用官方人士說法或提及其他金融機構同步跟進，實際影響力仍待觀察，因此列為本日觀察而非本日最重點。"
       ]
     },
     "sources": [
       {
-        "name": "Yahoo 財經",
-        "title": "中信銀行攜手EQT　獨家引進增值型基礎建設投資策略",
-        "url": "https://tw.news.yahoo.com/%E4%B8%AD%E4%BF%A1%E9%8A%80%E8%A1%8C%E6%94%9C%E6%89%8Beqt-%E7%8D%A8%E5%AE%B6%E5%BC%95%E9%80%B2%E5%A2%9E%E5%80%BC%E5%9E%8B%E5%9F%BA%E7%A4%8E%E5%BB%BA%E8%A8%AD%E6%8A%95%E8%B3%87%E7%AD%96%E7%95%A5-135051186.html"
+        "name": "MaiCoin Blog",
+        "title": "MaiCoin 新增 LINE Bank 綁定扣款｜買幣更快更方便",
+        "url": "https://blog.maicoin.com/2026/07/08/maicoin-line-bank/"
       }
     ],
     "coverSocial": [],
@@ -135,5 +135,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-08T15:30:46.000Z"
+  "_generated_at": "2026-07-08T19:11:20.000Z"
 }
