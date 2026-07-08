@@ -2,18 +2,23 @@
   "tw": {
     "cover": {
       "date": "2026-07-09",
-      "tier": "watch",
-      "title": "MaiCoin 推出 LINE Bank 帳戶綁定扣款，購買虛擬貨幣免先儲值",
+      "tier": "top",
+      "title": "台股零股交易開盤時間擬提前至9時整，最快今年底上路",
       "paras": [
-        "加密貨幣交易所 MaiCoin 於 7 月 8 日宣布新增付款方式：用戶可將平台綁定銀行帳戶改為 LINE Bank（連線商業銀行），透過交易頁面或個人設定頁面完成綁定後，購買虛擬貨幣（cryptocurrency）時即可直接從 LINE Bank 帳戶即時扣款，不必像過去一樣先把台幣儲值進 MaiCoin 錢包，整個流程可在 App 內一次完成，並享有與台幣餘額支付相同的優惠價格。",
-        "這是台灣加密貨幣交易所持續與純網路銀行（digital-native bank）合作、簡化法幣入金（fiat on-ramp）流程的最新一例；不過 MaiCoin 官方公告並未揭露交易金額上限、處理時間限制，也沒有引用官方人士說法或提及其他金融機構同步跟進，實際影響力仍待觀察，因此列為本日觀察而非本日最重點。"
+        "證交所董事長林修銘於今（8）日在立法院備詢時表示，台股零股（odd-lot）交易的開盤時間將從現行的9時10分，提前到與整股交易同步的9時整，最快今年底前就可望正式上路。零股交易讓投資人能以低於一張（1,000股）的零散股數買賣個股，此次調整等於讓零股與整股同步開盤，簡化市場交易時序。",
+        "另有報導指出，這項調整只是台股從今年底到明年中一連串交易制度改革的其中一步；至於市場先前關注、可能延長整體交易時間的方案，目前暫不會實施，優先落地的是零股開盤時間與整股對齊。"
       ]
     },
     "sources": [
       {
-        "name": "MaiCoin Blog",
-        "title": "MaiCoin 新增 LINE Bank 綁定扣款｜買幣更快更方便",
-        "url": "https://blog.maicoin.com/2026/07/08/maicoin-line-bank/"
+        "name": "公視新聞",
+        "title": "證交所：零股交易開盤擬提前至9時整 最快今年底前實施",
+        "url": "https://news.pts.org.tw/article/816669"
+      },
+      {
+        "name": "Yahoo 財經",
+        "title": "台股延長交易踩煞車　零股提前於9點開盤",
+        "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%BB%B6%E9%95%B7%E4%BA%A4%E6%98%93%E8%B8%A9%E7%85%9E%E8%BB%8A-%E9%9B%B6%E8%82%A1%E6%8F%90%E5%89%8D%E6%96%BC9%E9%BB%9E%E9%96%8B%E7%9B%A4-192348052.html"
       }
     ],
     "coverSocial": [],
@@ -83,23 +88,6 @@
     ],
     "others": [
       {
-        "date": "2026-07-06",
-        "title": "跨境支付商 Cedar Money 與穩定幣基礎設施業者 Noah 攜手打通非洲跨境金流",
-        "paras": [
-          "專注新興市場的跨境支付與外匯基礎設施公司 Cedar Money，宣布與 API 優先的穩定幣支付平台 Noah 建立策略合作，目標是解決非洲與國際市場之間長期存在的痛點：西方合規要求難以覆蓋非洲商戶的徵信與盡職調查。Cedar 負責在其金融機構執照下辦理 KYC、洗錢防制與制裁名單篩查等合規把關，Noah 則提供穩定幣支付基礎設施，包括具名的歐元與美元虛擬帳戶與多幣別可程式化撥款。",
-          "Cedar Money 同時具備美國 FinCEN、加拿大 FINTRAC 註冊資格，並受加拿大零售支付活動法（RPAA）規範，這類「合規層＋穩定幣結算層」的分工模式，正成為新興市場跨境支付業者繞開傳統代理行銀行網路的常見組合。"
-        ],
-        "sources": [
-          {
-            "name": "FinTech.Global",
-            "title": "Cedar and Noah partner to unlock African cross-border payments",
-            "url": "https://fintech.global/2026/07/06/cedar-and-noah-partner-to-unlock-african-cross-border-payments/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
         "date": "2026-07-07",
         "title": "機構加密交易平台 EDX Markets 完成 7,600 萬美元 C 輪融資，由 SBI Holdings 領投",
         "paras": [
@@ -117,17 +105,17 @@
         "context": []
       },
       {
-        "date": "2026-07-01",
-        "title": "歐盟 MiCA 過渡期正式結束，Binance 遭鎖出歐盟市場",
+        "date": "2026-07-06",
+        "title": "跨境支付商 Cedar Money 與穩定幣基礎設施業者 Noah 攜手打通非洲跨境金流",
         "paras": [
-          "歐盟《加密資產市場監理規則》（MiCA）第 143(3) 條所定的過渡期於 7 月 1 日正式屆滿：先前依各國既有規範合法營運、同時申請 MiCA 完整許可的加密資產服務業者（CASP），若尚未取得許可，法律上已不能再繼續服務歐盟客戶。第一週的市場反應立竿見影，Binance 因未完成授權而被排除在歐盟市場之外，同時匈牙利發出一張電子貨幣機構（EMI）執照給業者 Pay10，資金持續往已取得執照的合規業者靠攏。",
-          "與 MiCA 同步收緊的還有歐盟數位營運韌性法（DORA），其 2026 年監理周期已從「輔導改善」轉向「正式執法」，兩套法規疊加，讓歐洲支付業者面臨最高全球營收 10% 或 1000 萬歐元（以較高者為準）的罰鍰風險，資深經理人並可能面臨最高 100 萬歐元的個人責任。"
+          "專注新興市場的跨境支付與外匯基礎設施公司 Cedar Money，宣布與 API 優先的穩定幣支付平台 Noah 建立策略合作，目標是解決非洲與國際市場之間長期存在的痛點：西方合規要求難以覆蓋非洲商戶的徵信與盡職調查。Cedar 負責在其金融機構執照下辦理 KYC、洗錢防制與制裁名單篩查等合規把關，Noah 則提供穩定幣支付基礎設施，包括具名的歐元與美元虛擬帳戶與多幣別可程式化撥款。",
+          "Cedar Money 同時具備美國 FinCEN、加拿大 FINTRAC 註冊資格，並受加拿大零售支付活動法（RPAA）規範，這類「合規層＋穩定幣結算層」的分工模式，正成為新興市場跨境支付業者繞開傳統代理行銀行網路的常見組合。"
         ],
         "sources": [
           {
-            "name": "Advapay",
-            "title": "Fintech This Week: The MiCA Deadline Passes, Binance Is Locked Out",
-            "url": "https://advapay.eu/resources/fintech-news-commentary-week-of-6-july-2026"
+            "name": "FinTech.Global",
+            "title": "Cedar and Noah partner to unlock African cross-border payments",
+            "url": "https://fintech.global/2026/07/06/cedar-and-noah-partner-to-unlock-african-cross-border-payments/"
           }
         ],
         "social": [],
@@ -135,5 +123,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-08T19:11:20.000Z"
+  "_generated_at": "2026-07-08T21:07:35.000Z"
 }
