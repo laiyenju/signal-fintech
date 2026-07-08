@@ -53,7 +53,6 @@ FEEDS = [
 
     # ---- 公司來源 ----
     {"name": "Stripe Blog", "scope": "global", "url": "https://stripe.com/blog/feed.rss"},
-    {"name": "Stripe Newsroom", "scope": "global", "url": "https://stripe.com/newsroom/feed.rss"},
     {"name": "PayPal Newsroom", "scope": "global", "url": "https://newsroom.paypal-corp.com/news?pagetemplate=rss"},
     {"name": "MaiCoin Blog", "scope": "tw", "url": "https://blog.maicoin.com/feed/"},
 ]
