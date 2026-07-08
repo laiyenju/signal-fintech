@@ -26,9 +26,12 @@ import feedparser
 FEEDS = [
     # ---- 新聞媒體 ----
     {"name": "TechCrunch Fintech", "scope": "global", "url": "https://techcrunch.com/category/fintech/feed/"},
-    {"name": "Axios", "scope": "global", "url": "https://api.axios.com/feed/"},
-    {"name": "The Verge", "scope": "global", "url": "https://www.theverge.com/rss/index.xml"},
     {"name": "Bankless", "scope": "global", "url": "https://www.bankless.com/feed"},
+    {"name": "PYMNTS", "scope": "global", "url": "https://www.pymnts.com/feed/"},
+    {"name": "Finextra", "scope": "global", "url": "https://www.finextra.com/rss/headlines.aspx"},
+    {"name": "Banking Dive", "scope": "global", "url": "https://www.bankingdive.com/feeds/news/"},
+    {"name": "The Fintech Times", "scope": "global", "url": "https://www.thefintechtimes.com/feed/"},
+    {"name": "CoinDesk", "scope": "global", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
     {"name": "經濟日報", "scope": "tw", "url": "https://money.udn.com/rssfeed/news/1001?ch=money"},
     {"name": "科技新報", "scope": "tw", "url": "https://technews.tw/feed/"},
     {"name": "公視新聞", "scope": "tw", "url": "https://news.pts.org.tw/xml/newsfeed.xml"},
@@ -38,7 +41,6 @@ FEEDS = [
 
     # ---- 分析評論 ----
     {"name": "TLDR Fintech", "scope": "global", "url": "https://tldr.tech/api/rss/fintech"},
-    {"name": "TLDR Tech", "scope": "global", "url": "https://tldr.tech/api/rss/tech"},
 
     # ---- 監管機構 ----
     {"name": "美國 SEC", "scope": "global", "url": "https://www.sec.gov/news/pressreleases.rss"},
