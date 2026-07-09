@@ -1,7 +1,7 @@
 """
 fetch_news.py
-每小時執行的第一步：抓取「來源盤點.md」中已確認有 RSS 的來源，
-把過去 48 小時內的項目整理成 raw_items.json，供 select_and_write.py 使用。
+排程任務每次執行的第一步：抓取 FEEDS 清單中的來源，
+把過去 48 小時內的項目整理成 raw_items.json，供排程任務（見 排程任務指令.md）讀取後自行選稿改寫。
 
 需要套件：feedparser
     pip install feedparser --break-system-packages
@@ -18,10 +18,9 @@ from datetime import datetime, timezone, timedelta
 import feedparser
 
 # ---------------------------------------------------------------------------
-# 來源清單：只放「已確認有 RSS」的來源（對應 來源盤點.md 的 ✅ / 🟡 項目）
+# 來源清單：只放「已確認有 RSS」的來源
 # scope: "tw" | "global"（決定要進網站的哪一邊清單）
-# 有些來源（金管會、CNA）官方提供的是「訂閱頁」而非單一 feed 網址，
-# 這裡先留一個明顯的 TODO，麻煩你到訂閱頁挑一個實際的分類 feed 網址填進來。
+# 新增來源時記得同步更新 index.html 的 SOURCES 物件（追蹤來源清單顯示用）
 # ---------------------------------------------------------------------------
 FEEDS = [
     # ---- 新聞媒體 ----

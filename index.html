@@ -159,15 +159,14 @@
   .cover-band .ask-menu button:hover{ background:var(--dark-border-soft); }
 
   /* ---------- tri-column: ask-AI / sources / social (cover only) ---------- */
-  .tri-row{ display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin:22px 0 0; }
-  .tri-row .ask-wrap{ display:flex; width:100%; }
-  .tri-row .ask-main{ flex:1; min-width:0; }
+  .tri-row{ display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin:22px 0 0; }
   .tri-toggle{
-    display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%;
+    display:flex; align-items:center; justify-content:center; gap:8px;
     font-family:'Inter', -apple-system, 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif; font-size:12.5px; padding:8px 13px; border-radius:7px;
     border:1px solid; cursor:pointer; background:transparent; color:inherit;
     transition:border-color 0.32s cubic-bezier(.4,0,.2,1), color 0.32s cubic-bezier(.4,0,.2,1), background-color 0.32s cubic-bezier(.4,0,.2,1);
   }
+  .tri-toggle[data-toggle="source"]{ margin-left:auto; }
   .cover-band .tri-toggle{ border-color:var(--dark-border); color:var(--dark-text-dim); }
   .tri-toggle:hover{ border-color:var(--accent-strong); color:var(--page-text); background:var(--accent-soft); }
   .tri-toggle.active{ border-color:var(--accent-strong); color:var(--page-text); background:var(--accent-soft); }
