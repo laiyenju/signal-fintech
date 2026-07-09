@@ -34,6 +34,7 @@ FEEDS = [
     {"name": "The Block", "scope": "global", "url": "https://www.theblock.co/rss.xml"},
     {"name": "Bloomberg Markets", "scope": "global", "url": "https://feeds.bloomberg.com/markets/news.rss"},
     {"name": "Hacker News", "scope": "global", "url": "https://news.ycombinator.com/rss"},
+    {"name": "Techmeme", "scope": "global", "url": "https://www.techmeme.com/feed.xml"},
     {"name": "經濟日報", "scope": "tw", "url": "https://money.udn.com/rssfeed/news/1001?ch=money"},
     {"name": "科技新報", "scope": "tw", "url": "https://technews.tw/feed/"},
     {"name": "公視新聞", "scope": "tw", "url": "https://news.pts.org.tw/xml/newsfeed.xml"},
@@ -43,6 +44,8 @@ FEEDS = [
 
     # ---- 分析評論 ----
     {"name": "TLDR Fintech", "scope": "global", "url": "https://tldr.tech/api/rss/fintech"},
+    {"name": "TLDR AI", "scope": "global", "url": "https://tldr.tech/api/rss/ai"},
+    {"name": "TLDR Dev", "scope": "global", "url": "https://tldr.tech/api/rss/dev"},
 
     # ---- 監管機構 ----
     {"name": "美國 SEC", "scope": "global", "url": "https://www.sec.gov/news/pressreleases.rss"},
