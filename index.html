@@ -97,7 +97,6 @@
   .story-copy p{ margin:0 0 12px; font-size:15.5px; line-height:1.85; }
   .cover-band .story-copy p{ color:var(--dark-text); }
   .story-copy p:last-child{ margin-bottom:0; }
-  .demo-tag{ font-style:italic; opacity:0.6; font-size:0.85em; }
 
   .panel-label{ font-family:'IBM Plex Mono', monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:0.1em; margin:22px 0 10px; }
   .cover-band .panel-label{ color:var(--dark-text-faint); }
@@ -125,7 +124,6 @@
   .social-card p{ margin:0; }
 
   /* ---------- ask-AI action row ---------- */
-  .ask-row{ display:flex; align-items:center; margin:22px 0 26px; position:relative; }
   .ask-wrap{ position:relative; display:inline-flex; }
   .ask-main, .ask-chevron-btn{
     display:flex; align-items:center; gap:7px; font-family:'Inter', -apple-system, 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif; font-size:12.5px;
@@ -349,11 +347,11 @@ const SOURCES = {
 let scope = 'tw';
 
 const CJK_RANGE = '\\u4e00-\\u9fff\\u3400-\\u4dbf\\uf900-\\ufaff\\u3040-\\u30ff';
+const CJK_BEFORE_LATIN = new RegExp(`([${CJK_RANGE}])([A-Za-z0-9])`, 'g');
+const CJK_AFTER_LATIN = new RegExp(`([A-Za-z0-9])([${CJK_RANGE}])`, 'g');
 function cjkSpace(text){
   if(!text) return text;
-  return text
-    .replace(new RegExp(`([${CJK_RANGE}])([A-Za-z0-9])`, 'g'), '$1 $2')
-    .replace(new RegExp(`([A-Za-z0-9])([${CJK_RANGE}])`, 'g'), '$1 $2');
+  return text.replace(CJK_BEFORE_LATIN, '$1 $2').replace(CJK_AFTER_LATIN, '$1 $2');
 }
 function storyCopy(paras){
   return `<div class="story-copy">${paras.map(p => `<p>${cjkSpace(p)}</p>`).join('')}</div>`;
@@ -407,10 +405,6 @@ function askWrapMarkup(id){
         <button data-action="gemini">在 Gemini 提問</button>
       </div>
     </div>`;
-}
-function askRow(id, title, paras, sources, social){
-  registerAskText(id, title, paras, sources, social);
-  return `<div class="ask-row">${askWrapMarkup(id)}</div>`;
 }
 function chevronSvg(){
   return `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 8l5 5 5-5"/></svg>`;

@@ -12,8 +12,8 @@ fetch_news.py
     raw_items.json（與本檔案同目錄）
 """
 
+import calendar
 import json
-import time
 from datetime import datetime, timezone, timedelta
 import feedparser
 
@@ -65,7 +65,7 @@ def parse_published(entry):
     for key in ("published_parsed", "updated_parsed"):
         t = entry.get(key)
         if t:
-            return datetime.fromtimestamp(time.mktime(t), tz=timezone.utc)
+            return datetime.fromtimestamp(calendar.timegm(t), tz=timezone.utc)
     return None
 
 
@@ -74,10 +74,6 @@ def fetch_all():
     items = []
 
     for feed in FEEDS:
-        if feed["url"].startswith("PLEASE_FILL_IN"):
-            print(f"[skip] {feed['name']}：尚未填入實際 feed 網址")
-            continue
-
         try:
             parsed = feedparser.parse(feed["url"])
         except Exception as e:
