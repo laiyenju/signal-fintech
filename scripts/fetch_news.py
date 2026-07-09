@@ -31,6 +31,9 @@ FEEDS = [
     {"name": "Banking Dive", "scope": "global", "url": "https://www.bankingdive.com/feeds/news/"},
     {"name": "The Fintech Times", "scope": "global", "url": "https://www.thefintechtimes.com/feed/"},
     {"name": "CoinDesk", "scope": "global", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
+    {"name": "The Block", "scope": "global", "url": "https://www.theblock.co/rss.xml"},
+    {"name": "Bloomberg Markets", "scope": "global", "url": "https://feeds.bloomberg.com/markets/news.rss"},
+    {"name": "Hacker News", "scope": "global", "url": "https://news.ycombinator.com/rss"},
     {"name": "經濟日報", "scope": "tw", "url": "https://money.udn.com/rssfeed/news/1001?ch=money"},
     {"name": "科技新報", "scope": "tw", "url": "https://technews.tw/feed/"},
     {"name": "公視新聞", "scope": "tw", "url": "https://news.pts.org.tw/xml/newsfeed.xml"},
@@ -47,6 +50,7 @@ FEEDS = [
     {"name": "歐盟 EBA", "scope": "global", "url": "https://www.eba.europa.eu/news-press/news/rss.xml"},
     {"name": "英國 FCA", "scope": "global", "url": "https://www.fca.org.uk/news/rss.xml"},
     {"name": "日本金融庁", "scope": "global", "url": "https://www.fsa.go.jp/fsaEnNewsList_rss2.xml"},
+    {"name": "BIS（國際清算銀行）", "scope": "global", "url": "https://www.bis.org/doclist/all_pressrels.rss"},
     {"name": "台灣金管會（新聞稿1）", "scope": "tw", "url": "https://www.fsc.gov.tw/RSS/Messages?serno=201202290001&language=chinese"},
     {"name": "台灣金管會（新聞稿2）", "scope": "tw", "url": "https://www.fsc.gov.tw/RSS/Messages?serno=201202290009&language=chinese"},
 
@@ -54,6 +58,9 @@ FEEDS = [
     {"name": "Stripe Blog", "scope": "global", "url": "https://stripe.com/blog/feed.rss"},
     {"name": "PayPal Newsroom", "scope": "global", "url": "https://newsroom.paypal-corp.com/news?pagetemplate=rss"},
     {"name": "MaiCoin Blog", "scope": "tw", "url": "https://blog.maicoin.com/feed/"},
+
+    # ---- 社群討論（不是新聞候選，只用來配對 coverSocial / social）----
+    {"name": "Hacker News 留言", "scope": "social", "url": "https://hnrss.org/newcomments"},
 ]
 
 LOOKBACK_HOURS = 48  # 只保留過去 48 小時內的項目，避免每次都重複收到舊文章
