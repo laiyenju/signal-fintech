@@ -168,19 +168,19 @@
   },
   "global": {
     "cover": {
-      "date": "2026-07-11",
+      "date": "2026-07-12",
       "tier": "watch",
-      "title": "TLDR Fintech 摘要：Klarna 尋求美國銀行執照、Fiserv 評估出售簽帳卡網路、Visa 推出旅遊支付平台",
+      "title": "兩檔新 ETF 明確排除馬斯克相關企業，SpaceX、Tesla 皆不入列",
       "paras": [
-        "電子報 TLDR Fintech 於7月9日的摘要標題顯示，先買後付（BNPL）業者 Klarna 傳出正尋求美國銀行執照（US bank charter），此舉若成真，意味著其在美國市場的營運模式可能從純線上分期服務，走向具備銀行資格的機構化型態。",
-        "同一份摘要同時提到，支付與金融科技基礎設施業者 Fiserv 正評估出售旗下簽帳卡網路（debit card network）事業，而 Visa 則推出新的旅遊支付平台（travel platform）。這份來源目前仍只提供標題層級的摘要、未附完整報導內文，截至這次更新為止也還沒有看到其他媒體的後續報導，三則消息的細節仍待正式報導出爐後才能進一步確認。"
+        "科技媒體 TechCrunch 報導，市場出現兩檔新推出的指數股票型基金（ETF），選股邏輯明確排除由 Elon Musk 創辦、掌控或領導的公司，意味著持股名單中不會出現 SpaceX 或 Tesla。這類「排除特定創辦人」的篩選邏輯，是 ETF 在傳統依產業、指數規則選股之外，針對企業創辦人個人風險延伸出的新設計。",
+        "不過，這篇報導目前只提供基金設計理念的概略描述，並未提及發行商名稱、基金代碼或實際募集規模等細節，截至這次更新為止也還沒有看到其他財經媒體的後續報導或市場反應數據。加上這次抓取時多個監理機關與加密貨幣媒體來源因技術問題未能取得最新內容，全球新聞候選明顯偏少，這則消息先列為本日觀察，細節有待後續報導補齊。"
       ]
     },
     "sources": [
       {
-        "name": "TLDR Fintech",
-        "title": "Klarna seeks US bank charter, Fiserv explores sale of debit card network, Visa launches travel platform",
-        "url": "https://tldr.tech/fintech/2026-07-09"
+        "name": "TechCrunch Fintech",
+        "title": "Don’t want to invest in Elon Musk? Two new ETFs explicitly exclude him",
+        "url": "https://techcrunch.com/2026/07/09/dont-want-to-invest-in-elon-musk-two-new-etfs-explicitly-exclude-him/"
       }
     ],
     "coverSocial": [],
@@ -222,5 +222,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-11T18:09:36Z"
+  "_generated_at": "2026-07-11T21:05:59Z"
 }
