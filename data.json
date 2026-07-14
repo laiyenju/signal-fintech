@@ -129,6 +129,33 @@
         "context": []
       },
       {
+        "date": "2026-07-14",
+        "title": "Anthropic新模型掀資安挑戰，金管會籲金融業強化防禦",
+        "paras": [
+          "中央社報導，金管會（Financial Supervisory Commission, FSC）14日示警，美國AI公司Anthropic今年4月揭露的新一代AI模型Claude Mythos Preview（Mythos），具備快速挖掘資安（cybersecurity）系統漏洞的能力，可能大幅壓縮金融機構修補漏洞的因應時間，是金管會首度就特定AI模型對金融業資安防禦的衝擊公開表態。",
+          "金管會呼籲金融業者應儘速盤點內部漏洞修補的優先順序，並可考慮引進AI工具強化資安防禦規劃，以「用AI對抗AI」的方式因應這波挑戰；經濟日報、Yahoo財經與中央社財經同步引述同一份中央社通稿報導此事，目前這則警示屬於監理機關口頭呼籲，尚未見到具體修法或強制規範措施。"
+        ],
+        "sources": [
+          {
+            "name": "中央社 CNA（財經）",
+            "title": "Anthropic新模型掀資安挑戰　金管會籲金融業強化防禦",
+            "url": "https://www.cna.com.tw/news/afe/202607140338.aspx"
+          },
+          {
+            "name": "Yahoo 財經",
+            "title": "Anthropic新模型掀資安挑戰　金管會籲金融業強化防禦",
+            "url": "https://tw.news.yahoo.com/anthropic%E6%96%B0%E6%A8%A1%E5%9E%8B%E6%8E%80%E8%B3%87%E5%AE%89%E6%8C%91%E6%88%B0-%E9%87%91%E7%AE%A1%E6%9C%83%E7%B1%B2%E9%87%91%E8%9E%8D%E6%A5%AD%E5%BC%B7%E5%8C%96%E9%98%B2%E7%A6%A6-140705894.html"
+          },
+          {
+            "name": "經濟日報",
+            "title": "Anthropic新模型掀資安挑戰　金管會籲金融業強化防禦",
+            "url": "https://money.udn.com/money/story/5613/9627871"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-13",
         "title": "金管會核准玉山金收購三商美邦人壽100%股權，8月19日下市前最後交易",
         "paras": [
@@ -456,5 +483,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-14T12:09:31Z"
+  "_generated_at": "2026-07-14T15:07:58Z"
 }
