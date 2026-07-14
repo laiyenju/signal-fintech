@@ -299,19 +299,19 @@
   },
   "global": {
     "cover": {
-      "date": "2026-07-12",
+      "date": "2026-07-14",
       "tier": "watch",
-      "title": "兩檔新 ETF 明確排除馬斯克相關企業，SpaceX、Tesla 皆不入列",
+      "title": "TLDR Fintech 摘要：預測市場監理趨嚴、Anthropic 延攬前聯準會主席、Block 達成4,500萬美元和解",
       "paras": [
-        "科技媒體 TechCrunch 報導，市場出現兩檔新推出的指數股票型基金（ETF），選股邏輯明確排除由 Elon Musk 創辦、掌控或領導的公司，意味著持股名單中不會出現 SpaceX 或 Tesla。這類「排除特定創辦人」的篩選邏輯，是 ETF 在傳統依產業、指數規則選股之外，針對企業創辦人個人風險延伸出的新設計。",
-        "不過，這篇報導目前只提供基金設計理念的概略描述，並未提及發行商名稱、基金代碼或實際募集規模等細節，截至這次更新為止也還沒有看到其他財經媒體的後續報導或市場反應數據。加上這次抓取時多個監理機關與加密貨幣媒體來源因技術問題未能取得最新內容，全球新聞候選明顯偏少，這則消息先列為本日觀察，細節有待後續報導補齊。"
+        "電子報 TLDR Fintech 於7月13日一期的標題摘要提到，美國預測市場（prediction markets，讓使用者針對選舉結果、經濟數據等未來事件下注的平台）近期監理規則趨於收緊；同一期摘要也提到，支付與金融服務業者 Block（原 Square，旗下擁有 Cash App）已就一起爭議達成4,500萬美元的和解。",
+        "摘要另提到，AI 公司 Anthropic 延攬一位前美國聯準會（Federal Reserve）主席加入公司。由於這份來源目前只提供標題層級的摘要、未附完整報導內文，是哪個監理機關收緊了預測市場的哪些規則、Block 這起和解案的具體緣由與對象、Anthropic 延攬的是哪一任前主席與其擔任的角色，這些細節都還不清楚，截至這次更新為止也還沒有看到其他媒體的後續報導，先列為本日觀察，待更完整報導出爐後再進一步確認。"
       ]
     },
     "sources": [
       {
-        "name": "TechCrunch Fintech",
-        "title": "Don’t want to invest in Elon Musk? Two new ETFs explicitly exclude him",
-        "url": "https://techcrunch.com/2026/07/09/dont-want-to-invest-in-elon-musk-two-new-etfs-explicitly-exclude-him/"
+        "name": "TLDR Fintech",
+        "title": "Rules tighten on prediction markets 📈, Anthropic appoints former Fed chair 🪑, Block reaches $45 million settlement 💰",
+        "url": "https://tldr.tech/fintech/2026-07-13"
       }
     ],
     "coverSocial": [],
@@ -336,5 +336,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-13T21:07:30Z"
+  "_generated_at": "2026-07-14T00:07:34Z"
 }
