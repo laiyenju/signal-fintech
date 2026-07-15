@@ -365,9 +365,7 @@ function stripHtml(html){
   return html.replace(/<[^>]+>/g, '').trim();
 }
 function weekdayZh(dateStr){
-  const map = ['日','一','二','三','四','五','六'];
-  const d = new Date(dateStr + 'T00:00:00');
-  return '週' + map[d.getDay()];
+  return new Date(dateStr + 'T00:00:00').toLocaleDateString('zh-TW', { weekday:'short' });
 }
 let summaryMap = {};
 function buildAskText(title, paras, sources, social){
@@ -402,7 +400,7 @@ function askWrapMarkup(id){
         <span class="ask-label">複製詢問 AI</span>
       </button>
       <button class="ask-chevron-btn" data-action="toggle" aria-haspopup="true" aria-label="選擇要開啟的 AI">
-        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 8l5 5 5-5"/></svg>
+        ${chevronSvg()}
       </button>
       <div class="ask-menu">
         <button data-action="chatgpt">在 ChatGPT 提問</button>
@@ -530,18 +528,7 @@ const AI_URLS = {
 const CHECK_ICON = '<path d="M4 10.5l4 4 8-9"/>';
 
 function copyText(text){
-  if(navigator.clipboard && navigator.clipboard.writeText){
-    navigator.clipboard.writeText(text).catch(() => fallbackCopy(text));
-  } else {
-    fallbackCopy(text);
-  }
-}
-function fallbackCopy(text){
-  const ta = document.createElement('textarea');
-  ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
-  document.body.appendChild(ta); ta.select();
-  try{ document.execCommand('copy'); } catch(e){}
-  document.body.removeChild(ta);
+  navigator.clipboard.writeText(text);
 }
 function flashCopied(wrap, message){
   const mainBtn = wrap.querySelector('.ask-main');
@@ -555,11 +542,9 @@ function flashCopied(wrap, message){
   clearTimeout(mainBtn._resetT);
   label.textContent = message;
   icon.innerHTML = CHECK_ICON;
-  mainBtn.classList.add('copied');
   mainBtn._resetT = setTimeout(() => {
     label.textContent = mainBtn.dataset.original;
     icon.innerHTML = mainBtn.dataset.originalIcon;
-    mainBtn.classList.remove('copied');
   }, 1700);
 }
 function closeAllMenus(exceptWrap){
@@ -569,7 +554,6 @@ function closeAllMenus(exceptWrap){
     const c = w.querySelector('.ask-chevron-btn');
     if(m) m.classList.remove('open');
     if(c) c.classList.remove('open');
-    w.classList.remove('menu-open');
   });
 }
 
@@ -608,7 +592,6 @@ document.addEventListener('click', (e) => {
     closeAllMenus(willOpen ? wrap : null);
     menu.classList.toggle('open', willOpen);
     chevronBtn.classList.toggle('open', willOpen);
-    wrap.classList.toggle('menu-open', willOpen);
   } else if(AI_URLS[action]){
     copyText(summaryMap[id] || '');
     window.open(AI_URLS[action], '_blank', 'noopener');
