@@ -37,6 +37,9 @@ FEEDS = [
     {"name": "CoinDesk", "scope": "global", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
     {"name": "The Block", "scope": "global", "url": "https://www.theblock.co/rss.xml"},
     {"name": "Bloomberg Markets", "scope": "global", "url": "https://feeds.bloomberg.com/markets/news.rss"},
+    {"name": "NYT Dealbook", "scope": "global", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml"},
+    {"name": "NYT Economy", "scope": "global", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml"},
+    {"name": "NYT Technology", "scope": "global", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"},
     {"name": "Hacker News", "scope": "global", "url": "https://news.ycombinator.com/rss"},
     {"name": "Techmeme", "scope": "global", "url": "https://www.techmeme.com/feed.xml"},
     {"name": "經濟日報", "scope": "tw", "url": "https://money.udn.com/rssfeed/news/1001?ch=money"},
@@ -67,10 +70,9 @@ FEEDS = [
     {"name": "Stripe Blog", "scope": "global", "url": "https://stripe.com/blog/feed.rss"},
     {"name": "PayPal Newsroom", "scope": "global", "url": "https://newsroom.paypal-corp.com/news?pagetemplate=rss"},
     {"name": "MaiCoin Blog", "scope": "tw", "url": "https://blog.maicoin.com/feed/"},
-
-    # ---- 社群討論（不是新聞候選，只用來配對 coverSocial / social）----
-    {"name": "Hacker News 留言", "scope": "social", "url": "https://hnrss.org/newcomments"},
 ]
+# 社群討論（coverSocial / social）不再走 RSS：改由排程任務在選稿後，
+# 用 Algolia HN Search API 逐則反查對應討論串（見 排程任務指令.md 步驟 3）
 
 LOOKBACK_HOURS = 48  # 只保留過去 48 小時內的項目，避免每次都重複收到舊文章
 

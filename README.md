@@ -37,11 +37,11 @@ Configured in [`scripts/fetch_news.py`](./scripts/fetch_news.py) (`FEEDS` list),
 
 **Taiwan** — 經濟日報, 科技新報, 公視新聞, Yahoo 財經, 中央社 CNA（科技／財經）, 台灣金管會（新聞稿）, MaiCoin Blog
 
-**Global — news & regulators** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, The Block, Bloomberg Markets, Hacker News, Techmeme, US SEC, EU ESMA, EU EBA, UK FCA, Japan FSA, BIS, Stripe Blog, PayPal Newsroom
+**Global — news & regulators** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, The Block, Bloomberg Markets, NYT (Dealbook / Economy / Technology), Hacker News, Techmeme, US SEC, EU ESMA, EU EBA, UK FCA, Japan FSA, BIS, Stripe Blog, PayPal Newsroom
 
 **Digests** — TLDR Fintech / AI / Dev. These feeds carry titles only, so the fetcher opens each issue page and **explodes it into individual stories** — each with its headline, blurb, and the *original* outlet's link (Reuters, CNBC, Finextra…). They then compete for selection like any other candidate, and are always credited to the original outlet, never to TLDR itself.
 
-**Social** — Hacker News comments, used only to attach community discussion to already-selected stories, never as news candidates.
+**Social** — community discussion is matched per selected story at selection time via the Algolia Hacker News Search API (free, keyless): find the story's HN thread, pull a few substantive top-level comments. No thread, no comments — social sections stay honestly empty rather than fabricated.
 
 Fetching is a plain RSS pull (`feedparser`, 48-hour lookback) — no AI involved and no cost. Sources with no reachable feed are skipped without failing the run.
 
