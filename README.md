@@ -37,7 +37,11 @@ Configured in [`scripts/fetch_news.py`](./scripts/fetch_news.py) (`FEEDS` list),
 
 **Taiwan** — 經濟日報, 科技新報, 公視新聞, Yahoo 財經, 中央社 CNA（科技／財經）, 台灣金管會（新聞稿）, MaiCoin Blog
 
-**Global — news & regulators** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, TLDR Fintech, US SEC, EU ESMA, EU EBA, UK FCA, Japan FSA, Stripe Blog, PayPal Newsroom
+**Global — news & regulators** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, The Block, Bloomberg Markets, Hacker News, Techmeme, US SEC, EU ESMA, EU EBA, UK FCA, Japan FSA, BIS, Stripe Blog, PayPal Newsroom
+
+**Digests** — TLDR Fintech / AI / Dev. These feeds carry titles only, so the fetcher opens each issue page and **explodes it into individual stories** — each with its headline, blurb, and the *original* outlet's link (Reuters, CNBC, Finextra…). They then compete for selection like any other candidate, and are always credited to the original outlet, never to TLDR itself.
+
+**Social** — Hacker News comments, used only to attach community discussion to already-selected stories, never as news candidates.
 
 Fetching is a plain RSS pull (`feedparser`, 48-hour lookback) — no AI involved and no cost. Sources with no reachable feed are skipped without failing the run.
 
@@ -46,7 +50,8 @@ Fetching is a plain RSS pull (`feedparser`, 48-hour lookback) — no AI involved
 1. **Score every candidate** on two 0–5 axes: *coverage* (how many tracked sources reported it) and *impact* (regulatory action, real money/market size involved, relevance to Taiwan/global fintech, and evidence — not speculation — of ripple effects). Composite score = impact × 60% + coverage × 40%.
 2. **Today's Top Story is decided once per day.** The first run of the day picks the highest-scoring story from the prior 12 hours; if nothing clears an impact threshold, the slot becomes "Today's Watch" instead of forcing a pick. Every later run that day leaves it untouched, no matter what else comes in.
 3. **This Week is a 7-day rolling list, not a per-run top-5.** Existing entries older than 7 days are dropped; new candidates scoring ≥2.5 are added; follow-ups on an already-listed story are appended as `context` on the existing entry instead of duplicating it; the list is re-sorted newest-first after every run.
-4. **No fabrication.** Content, sources, and quotes must trace back to the raw RSS data — thin evidence means a shorter brief, never an invented one. Crypto-only stories (CoinDesk/Bankless) are capped so they can't crowd out the rest of a run's picks.
+4. **Both scopes get the full treatment.** Taiwan and Global each run the complete selection pipeline independently; the This Week list must never shrink between runs except through 7-day expiry, so one scope can't silently go stale while the other keeps updating.
+5. **No fabrication.** Content, sources, and quotes must trace back to the raw RSS data — thin evidence means a shorter brief, never an invented one. Crypto-only stories (CoinDesk/Bankless) are capped so they can't crowd out the rest of a run's picks. Newsletter digests are never presented as a story themselves — only the individual articles they point to.
 
 ## Tech stack
 
