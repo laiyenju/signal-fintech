@@ -1,79 +1,149 @@
 # SIGNAL
 
-A fintech news desk that curates itself. SIGNAL watches 22 RSS feeds across Taiwan and global sources, scores what it finds, and rewrites the most important stories into a two-paragraph brief — automatically, every 3 hours, with no per-run API billing.
+A fintech news desk that curates itself. SIGNAL watches RSS feeds across Taiwan and global sources, scores what it finds, and rewrites the most important stories into a two-paragraph brief — automatically every 3 hours, with **no per-run API billing**.
 
 **Live site:** https://laiyenju.github.io/signal-fintech/
 
+> Content generation runs inside a Claude Code cloud routine on subscription quota (not metered API). Fetching is plain RSS — zero AI cost. Hosting is free GitHub Pages.
+
 ---
 
-## What SIGNAL is
+## What it is
 
-SIGNAL is a static news site with two feeds — **Taiwan (tw)** and **Global** — each showing:
+A static news site with two scopes — **Taiwan (tw)** and **Global** — each showing:
 
-- **本日最重點 / Today's Top Story** — the single most important story of the day, or **本日觀察 / Today's Watch** on quieter days when nothing clears the bar
-- **本週要聞 / This Week** — a rolling 7-day list of qualifying stories, newest first, with progressive disclosure past the first 5
-- **Sources** and **social discussion** chips per story, plus an "ask AI" shortcut that copies the story context for follow-up questions in ChatGPT / Claude / Gemini
+- **本日最重點 / Today's Top Story** — the single most important story of the day, or **本日觀察 / Today's Watch** when nothing clears the bar
+- **本週要聞 / This Week** — a rolling 7-day list of qualifying stories, newest first (first 5 shown; the rest expand on demand)
+- **Sources** and **social discussion** chips per story, plus **複製詢問 AI** — copies story context and can open ChatGPT / Claude / Gemini for follow-up questions
 
-There's no backend, no database, and no paid API calls in the loop — content generation runs entirely inside a Claude Code scheduled cloud routine, using subscription quota rather than metered API usage.
+No backend, no database, no paid API calls in the loop.
+
+---
 
 ## How it works
 
 ```
-Claude Code cloud routine (wakes every 3 hours)
-    -> scripts/fetch_news.py fetches 22 RSS feeds (plain fetch, no AI, zero cost)
-    -> Claude Code pulls last 48h from Readwise Reader (human-curated newsletters)
-    -> Claude Code reads the rules below and does the selection + rewrite itself
-    -> writes data.json, opens a PR from a claude/* branch, merges it into main
-GitHub Pages (free static hosting)
-    -> auto-deploys main on every push
+Claude Code cloud routine (every 3 hours)
+    -> scripts/fetch_news.py pulls RSS feeds (plain fetch, no AI, zero cost)
+    -> Claude Code pulls last 48h from Readwise Reader (optional human-curated layer)
+    -> Claude Code applies selection + rewrite rules from 排程任務指令.md
+    -> writes data.json, opens a PR from a claude/* branch, merges into main
+GitHub Pages
+    -> deploys main on every push
 Browser
     -> index.html fetches data.json from the same directory and renders it
 ```
 
-Routine behavior is fully defined in [`排程任務指令.md`](./排程任務指令.md) (the literal prompt pasted into the scheduled task) — editing that file changes selection/rewrite behavior without touching code. Manual setup steps live in [`設定步驟.md`](./設定步驟.md).
+Operator docs (Traditional Chinese): full routine prompt in [`排程任務指令.md`](./排程任務指令.md); one-time setup in [`設定步驟.md`](./設定步驟.md). Editing the routine prompt changes selection/rewrite behavior without touching application code.
+
+---
+
+## Quick start
+
+### Preview the site locally
+
+`index.html` loads `data.json` via `fetch`, so open it through a local server (not `file://`):
+
+```bash
+python3 -m http.server 8000
+# open http://localhost:8000
+```
+
+### Fetch RSS candidates only
+
+```bash
+pip install feedparser
+python scripts/fetch_news.py
+# writes scripts/raw_items.json (48h lookback, no AI)
+```
+
+### Prerequisites for the full automated loop
+
+| Piece | Role |
+|---|---|
+| Python 3 + `feedparser` | RSS fetch |
+| Claude Code subscription with cloud Scheduled Tasks / Routines | Selection, rewrite, commit |
+| GitHub repo + Pages from `main` | Hosting |
+| `gh` CLI in the routine environment | PR create + merge |
+| Readwise connector (optional) | Extra newsletter / email-feed candidates |
+
+Full cloud setup: see [`設定步驟.md`](./設定步驟.md).
+
+---
 
 ## Data sources
 
-Configured in [`scripts/fetch_news.py`](./scripts/fetch_news.py) (`FEEDS` list) — that file is the single source of truth; the names below reflect its current state.
+**Source of truth for RSS:** the `FEEDS` list in [`scripts/fetch_news.py`](./scripts/fetch_news.py). Names below match the current list; count and membership can change.
 
-**Taiwan** — 經濟日報, 科技新報, 公視新聞, Yahoo 財經, 中央社 CNA（科技／財經）
+**Taiwan** — 經濟日報, 科技新報, 公視新聞, Yahoo 財經, 中央社 CNA (tech + finance)
 
 **Global — news & analysis** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, The Block, NYT (Dealbook / Economy / Technology), Hacker News, Techmeme
 
-**Readwise Reader** — the routine also pulls the last 48h of the owner's Reader feed (RSS + email newsletters) via the Readwise connector: a human-curated layer covering sources plain RSS can't reach (email-only newsletters like 區塊勢, member feeds). Only stories with public URLs get cited; paid-newsletter content is reference-only, never republished.
+**Digests** — TLDR Fintech / AI / Dev. RSS items are issue titles only, so the fetcher opens each issue page and **explodes it into individual stories** (headline, blurb, original outlet URL). Stories compete like any other candidate and are credited to the **original outlet**, never TLDR.
 
-**Digests** — TLDR Fintech / AI / Dev. These feeds carry titles only, so the fetcher opens each issue page and **explodes it into individual stories** — each with its headline, blurb, and the *original* outlet's link (Reuters, CNBC, Finextra…). They then compete for selection like any other candidate, and are always credited to the original outlet, never to TLDR itself.
+**Readwise Reader** (routine step, optional) — last 48h of the owner's Reader feed (RSS + email newsletters). Covers sources plain RSS can't reach. Only public URLs may be cited; paid-newsletter body is reference-only and never republished. If the connector fails, the run continues without it.
 
-**Social** — community discussion is matched per selected story at selection time via the Algolia Hacker News Search API (free, keyless): find the story's HN thread, pull a few substantive top-level comments. No thread, no comments — social sections stay honestly empty rather than fabricated.
+**Social** — after selection, the routine matches each new story via the Algolia Hacker News Search API (free, keyless). No matching thread → empty social section (never fabricated). **HN only** today; X and Reddit are not wired.
 
-Fetching is a plain RSS pull (`feedparser`, 48-hour lookback) — no AI involved and no cost. Sources with no reachable feed are skipped without failing the run.
+Unreachable feeds are skipped; a single bad source does not fail the run.
 
-## Selection & filtering
+### Adding a feed
 
-1. **Score every candidate** on two 0–5 axes: *coverage* (how many tracked sources reported it) and *impact* (regulatory action, real money/market size involved, relevance to Taiwan/global fintech, and evidence — not speculation — of ripple effects). Composite score = impact × 60% + coverage × 40%.
-2. **Today's Top Story is decided once per day.** The first run of the day picks the highest-scoring story from the prior 12 hours; if nothing clears an impact threshold, the slot becomes "Today's Watch" instead of forcing a pick. Every later run that day leaves it untouched, no matter what else comes in.
-3. **This Week is a 7-day rolling list, not a per-run top-5.** Existing entries older than 7 days are dropped; new candidates scoring ≥2.5 are added; follow-ups on an already-listed story are appended as `context` on the existing entry instead of duplicating it; the list is re-sorted newest-first after every run.
-4. **Both scopes get the full treatment.** Taiwan and Global each run the complete selection pipeline independently; the This Week list must never shrink between runs except through 7-day expiry, so one scope can't silently go stale while the other keeps updating.
-5. **No fabrication.** Content, sources, and quotes must trace back to the raw RSS data — thin evidence means a shorter brief, never an invented one. Crypto-only stories (CoinDesk/Bankless) are capped so they can't crowd out the rest of a run's picks. Newsletter digests are never presented as a story themselves — only the individual articles they point to.
+1. Add an entry to `FEEDS` in `scripts/fetch_news.py` (`scope`: `"tw"` or `"global"`; set `"digest": True` for TLDR-style digests).
+2. **Also** update the `SOURCES` object in `index.html` so the on-site source directory stays in sync.
+
+---
+
+## Editorial rules (summary)
+
+Full rules live in [`排程任務指令.md`](./排程任務指令.md). Day boundaries use **Taiwan time** (`Asia/Taipei`).
+
+1. **Score** each candidate on two 0–5 axes: *coverage* (how many tracked sources reported it) and *impact* (regulation, real money/market size, Taiwan or global fintech relevance, and *evidence* of ripple effects — not speculation). Composite = impact × 60% + coverage × 40%.
+2. **Today's Top Story is locked once per day.** First run of the day (when `cover.date` ≠ today) picks the highest-scoring story in a ~12h window ending at 06:00 Taiwan time (falls back to 24–48h if needed). Impact must be **≥ 3** for `tier: "top"`; otherwise the slot is **Today's Watch** (`tier: "watch"`). Later runs that day never replace the cover.
+3. **This Week is a 7-day rolling list**, not a per-run top-N. Drop entries older than 7 days; add new candidates with composite **≥ 2.5**; same-event follow-ups append to `context` instead of duplicating; sort newest-first. No hard cap — the UI collapses past the first 5.
+4. **Taiwan and Global run independently.** A scope's This Week list must not shrink between runs except by 7-day expiry.
+5. **No fabrication.** Thin evidence → shorter brief, never invented facts, sources, or quotes. Pure crypto noise is capped (**at most 2 new pure-crypto items per run** for global). Digest issues are never published as stories — only the articles they point to.
+
+---
 
 ## Tech stack
 
-- **Frontend:** single static `index.html` (vanilla JS, no build step, no framework)
-- **Data:** `scripts/fetch_news.py` (Python + `feedparser`) → `data.json`, fetched client-side
-- **Automation:** Claude Code cloud Scheduled Task / Routine — runs the fetch script, applies the rules above, commits, and merges via `gh pr create` + `gh pr merge`
-- **Hosting:** GitHub Pages, deployed from `main`
+- **Frontend:** single static `index.html` (vanilla JS, no build step)
+- **Data:** `scripts/fetch_news.py` → `scripts/raw_items.json` → routine writes root `data.json` (client-fetched; `_generated_at` drives the site footer timestamp)
+- **Automation:** Claude Code cloud Scheduled Task / Routine — fetch, select, rewrite, `gh pr create` + `gh pr merge`
+- **Hosting:** GitHub Pages from `main`
+
+---
 
 ## Repo structure
 
 ```
-index.html              Site UI — fetches data.json on load, renders both scopes
-data.json               Current content; overwritten (per the rules above) by the routine
-scripts/fetch_news.py   RSS fetcher — outputs scripts/raw_items.json, zero-cost, no AI
-排程任務指令.md            The routine's full instruction set (selection, rewrite, and commit rules)
-設定步驟.md                One-time manual setup guide (repo, Pages, routine)
+index.html              Site UI — fetches data.json, renders both scopes
+data.json               Published content (updated by the routine)
+scripts/fetch_news.py   RSS fetcher → scripts/raw_items.json (no AI)
+scripts/raw_items.json  Last fetch output (generated)
+排程任務指令.md            Routine prompt (selection, rewrite, commit) — Chinese
+設定步驟.md                One-time setup (repo, Pages, routine) — Chinese
 ```
+
+---
 
 ## Honesty principles
 
-- **Say less rather than make it up.** Anything that can't be backed by the actual RSS data doesn't get written — including social discussion, sources, and figures.
-- **"Today's Watch" is a feature, not a bug.** If nothing in Taiwan cleared the bar that day, the site says so honestly instead of stretching old news to fill the slot.
+- **Say less rather than make it up.** Anything that can't be backed by real source data doesn't get written — including social discussion, sources, and figures.
+- **"Today's Watch" is a feature, not a bug.** If a scope cleared no bar that day, the site says so instead of stretching old news to fill the slot.
+
+---
+
+## Related docs
+
+| Doc | Language | Purpose |
+|---|---|---|
+| [`排程任務指令.md`](./排程任務指令.md) | Chinese | Full prompt pasted into the Claude Code scheduled task |
+| [`設定步驟.md`](./設定步驟.md) | Chinese | One-time setup: repo, GitHub Pages, cloud routine |
+
+---
+
+## License
+
+Personal project. No open-source license is declared yet; treat the code and content as all rights reserved unless stated otherwise.
