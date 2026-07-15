@@ -36,7 +36,8 @@ FEEDS = [
     {"name": "The Fintech Times", "scope": "global", "url": "https://www.thefintechtimes.com/feed/"},
     {"name": "CoinDesk", "scope": "global", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
     {"name": "The Block", "scope": "global", "url": "https://www.theblock.co/rss.xml"},
-    {"name": "Bloomberg Markets", "scope": "global", "url": "https://feeds.bloomberg.com/markets/news.rss"},
+    # Bloomberg Markets RSS（feeds.bloomberg.com）已確認無法抓到內容，停用。
+    # Bloomberg 報導仍可透過 TLDR AI digest 轉入。
     {"name": "NYT Dealbook", "scope": "global", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml"},
     {"name": "NYT Economy", "scope": "global", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml"},
     {"name": "NYT Technology", "scope": "global", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"},
@@ -55,21 +56,6 @@ FEEDS = [
     {"name": "TLDR Fintech", "scope": "global", "url": "https://tldr.tech/api/rss/fintech", "digest": True},
     {"name": "TLDR AI", "scope": "global", "url": "https://tldr.tech/api/rss/ai", "digest": True},
     {"name": "TLDR Dev", "scope": "global", "url": "https://tldr.tech/api/rss/dev", "digest": True},
-
-    # ---- 監管機構 ----
-    {"name": "美國 SEC", "scope": "global", "url": "https://www.sec.gov/news/pressreleases.rss"},
-    {"name": "歐盟 ESMA", "scope": "global", "url": "https://www.esma.europa.eu/rss.xml"},
-    {"name": "歐盟 EBA", "scope": "global", "url": "https://www.eba.europa.eu/news-press/news/rss.xml"},
-    {"name": "英國 FCA", "scope": "global", "url": "https://www.fca.org.uk/news/rss.xml"},
-    {"name": "日本金融庁", "scope": "global", "url": "https://www.fsa.go.jp/fsaEnNewsList_rss2.xml"},
-    {"name": "BIS（國際清算銀行）", "scope": "global", "url": "https://www.bis.org/doclist/all_pressrels.rss"},
-    {"name": "台灣金管會（新聞稿1）", "scope": "tw", "url": "https://www.fsc.gov.tw/RSS/Messages?serno=201202290001&language=chinese"},
-    {"name": "台灣金管會（新聞稿2）", "scope": "tw", "url": "https://www.fsc.gov.tw/RSS/Messages?serno=201202290009&language=chinese"},
-
-    # ---- 公司來源 ----
-    {"name": "Stripe Blog", "scope": "global", "url": "https://stripe.com/blog/feed.rss"},
-    {"name": "PayPal Newsroom", "scope": "global", "url": "https://newsroom.paypal-corp.com/news?pagetemplate=rss"},
-    {"name": "MaiCoin Blog", "scope": "tw", "url": "https://blog.maicoin.com/feed/"},
 ]
 # 社群討論（coverSocial / social）不再走 RSS：改由排程任務在選稿後，
 # 用 Algolia HN Search API 逐則反查對應討論串（見 排程任務指令.md 步驟 3）
