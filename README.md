@@ -1,6 +1,6 @@
 # SIGNAL
 
-A fintech news desk that curates itself. SIGNAL watches ~20 fintech, banking, and regulatory RSS feeds across Taiwan and global sources, scores what it finds, and rewrites the most important stories into a two-paragraph brief — automatically, every 3 hours, with no per-run API billing.
+A fintech news desk that curates itself. SIGNAL watches 22 RSS feeds across Taiwan and global sources, scores what it finds, and rewrites the most important stories into a two-paragraph brief — automatically, every 3 hours, with no per-run API billing.
 
 **Live site:** https://laiyenju.github.io/signal-fintech/
 
@@ -20,7 +20,8 @@ There's no backend, no database, and no paid API calls in the loop — content g
 
 ```
 Claude Code cloud routine (wakes every 3 hours)
-    -> scripts/fetch_news.py fetches ~20 RSS feeds (plain fetch, no AI, zero cost)
+    -> scripts/fetch_news.py fetches 22 RSS feeds (plain fetch, no AI, zero cost)
+    -> Claude Code pulls last 48h from Readwise Reader (human-curated newsletters)
     -> Claude Code reads the rules below and does the selection + rewrite itself
     -> writes data.json, opens a PR from a claude/* branch, merges it into main
 GitHub Pages (free static hosting)
@@ -33,11 +34,11 @@ Routine behavior is fully defined in [`排程任務指令.md`](./排程任務指
 
 ## Data sources
 
-Configured in [`scripts/fetch_news.py`](./scripts/fetch_news.py) (`FEEDS` list), currently:
+Configured in [`scripts/fetch_news.py`](./scripts/fetch_news.py) (`FEEDS` list) — that file is the single source of truth; the names below reflect its current state.
 
-**Taiwan** — 經濟日報, 科技新報, 公視新聞, Yahoo 財經, 中央社 CNA（科技／財經）, 台灣金管會（新聞稿）, MaiCoin Blog
+**Taiwan** — 經濟日報, 科技新報, 公視新聞, Yahoo 財經, 中央社 CNA（科技／財經）
 
-**Global — news & regulators** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, The Block, Bloomberg Markets, NYT (Dealbook / Economy / Technology), Hacker News, Techmeme, US SEC, EU ESMA, EU EBA, UK FCA, Japan FSA, BIS, Stripe Blog, PayPal Newsroom
+**Global — news & analysis** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, The Block, NYT (Dealbook / Economy / Technology), Hacker News, Techmeme
 
 **Readwise Reader** — the routine also pulls the last 48h of the owner's Reader feed (RSS + email newsletters) via the Readwise connector: a human-curated layer covering sources plain RSS can't reach (email-only newsletters like 區塊勢, member feeds). Only stories with public URLs get cited; paid-newsletter content is reference-only, never republished.
 
@@ -66,8 +67,8 @@ Fetching is a plain RSS pull (`feedparser`, 48-hour lookback) — no AI involved
 
 ```
 index.html              Site UI — fetches data.json on load, renders both scopes
-data.json                Current content; overwritten (per the rules above) by the routine
-scripts/fetch_news.py    RSS fetcher — outputs scripts/raw_items.json, zero-cost, no AI
+data.json               Current content; overwritten (per the rules above) by the routine
+scripts/fetch_news.py   RSS fetcher — outputs scripts/raw_items.json, zero-cost, no AI
 排程任務指令.md            The routine's full instruction set (selection, rewrite, and commit rules)
 設定步驟.md                One-time manual setup guide (repo, Pages, routine)
 ```
