@@ -39,6 +39,8 @@ Configured in [`scripts/fetch_news.py`](./scripts/fetch_news.py) (`FEEDS` list),
 
 **Global — news & regulators** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, The Block, Bloomberg Markets, NYT (Dealbook / Economy / Technology), Hacker News, Techmeme, US SEC, EU ESMA, EU EBA, UK FCA, Japan FSA, BIS, Stripe Blog, PayPal Newsroom
 
+**Readwise Reader** — the routine also pulls the last 48h of the owner's Reader feed (RSS + email newsletters) via the Readwise connector: a human-curated layer covering sources plain RSS can't reach (email-only newsletters like 區塊勢, member feeds). Only stories with public URLs get cited; paid-newsletter content is reference-only, never republished.
+
 **Digests** — TLDR Fintech / AI / Dev. These feeds carry titles only, so the fetcher opens each issue page and **explodes it into individual stories** — each with its headline, blurb, and the *original* outlet's link (Reuters, CNBC, Finextra…). They then compete for selection like any other candidate, and are always credited to the original outlet, never to TLDR itself.
 
 **Social** — community discussion is matched per selected story at selection time via the Algolia Hacker News Search API (free, keyless): find the story's HN thread, pull a few substantive top-level comments. No thread, no comments — social sections stay honestly empty rather than fabricated.
