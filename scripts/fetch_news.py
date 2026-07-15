@@ -13,8 +13,12 @@ fetch_news.py
 """
 
 import calendar
+import html
 import json
+import re
 from datetime import datetime, timezone, timedelta
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.request import Request, urlopen
 import feedparser
 
 # ---------------------------------------------------------------------------
@@ -43,9 +47,11 @@ FEEDS = [
     {"name": "中央社 CNA（財經）", "scope": "tw", "url": "https://feeds.feedburner.com/rsscna/finance"},
 
     # ---- 分析評論 ----
-    {"name": "TLDR Fintech", "scope": "global", "url": "https://tldr.tech/api/rss/fintech"},
-    {"name": "TLDR AI", "scope": "global", "url": "https://tldr.tech/api/rss/ai"},
-    {"name": "TLDR Dev", "scope": "global", "url": "https://tldr.tech/api/rss/dev"},
+    # digest: RSS 只有「當期標題＋連結」沒有內文，抓取時會再抓當期網頁，
+    # 拆成一則一則的新聞（標題／摘要／原始媒體連結）當作獨立候選
+    {"name": "TLDR Fintech", "scope": "global", "url": "https://tldr.tech/api/rss/fintech", "digest": True},
+    {"name": "TLDR AI", "scope": "global", "url": "https://tldr.tech/api/rss/ai", "digest": True},
+    {"name": "TLDR Dev", "scope": "global", "url": "https://tldr.tech/api/rss/dev", "digest": True},
 
     # ---- 監管機構 ----
     {"name": "美國 SEC", "scope": "global", "url": "https://www.sec.gov/news/pressreleases.rss"},
@@ -78,6 +84,50 @@ def parse_published(entry):
     return None
 
 
+# TLDR 當期網頁裡每則新聞的固定結構：
+# <article><a href="原始連結"><h3>標題 (N minute read)</h3></a><div class="newsletter-html">摘要</div></article>
+TLDR_ARTICLE_RE = re.compile(
+    r'<article[^>]*>\s*<a[^>]*href="([^"]+)"[^>]*>\s*<h3>(.*?)</h3>\s*</a>'
+    r'\s*<div class="newsletter-html">(.*?)</div>',
+    re.S,
+)
+
+
+def strip_utm(url):
+    p = urlsplit(url)
+    q = [(k, v) for k, v in parse_qsl(p.query, keep_blank_values=True) if not k.startswith("utm_")]
+    return urlunsplit(p._replace(query=urlencode(q)))
+
+
+def expand_digest(entry, feed, published):
+    """把 TLDR 這類「一期一項」的電子報，拆成一則一則的新聞項目。"""
+    try:
+        req = Request(entry.link, headers={"User-Agent": "Mozilla/5.0"})
+        page = urlopen(req, timeout=30).read().decode("utf-8", "replace")
+    except Exception as e:
+        print(f"[warn] {feed['name']}：無法抓取當期網頁 {entry.link}（{e}）")
+        return []
+
+    items = []
+    for url, title, blurb in TLDR_ARTICLE_RE.findall(page):
+        title = html.unescape(re.sub(r"<[^>]+>", "", title))
+        title = re.sub(r"\s*\(\d+ minute read\)\s*$", "", title).strip()
+        blurb = html.unescape(re.sub(r"<[^>]+>", " ", blurb))
+        blurb = re.sub(r"\s+", " ", blurb).strip()
+        # 略過贊助內容與 TLDR 站內連結（訂閱、徵才等非新聞項目）
+        if "sponsor" in title.lower() or "tldr.tech" in url:
+            continue
+        items.append({
+            "source": feed["name"],
+            "scope": feed["scope"],
+            "title": title,
+            "link": strip_utm(url),
+            "summary": blurb,
+            "published": published.isoformat() if published else None,
+        })
+    return items
+
+
 def fetch_all():
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
     items = []
@@ -97,6 +147,10 @@ def fetch_all():
             published = parse_published(entry)
             if published and published < cutoff:
                 continue  # 太舊的先跳過
+
+            if feed.get("digest"):
+                items.extend(expand_digest(entry, feed, published))
+                continue
 
             items.append({
                 "source": feed["name"],
