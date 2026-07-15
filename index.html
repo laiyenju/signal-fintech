@@ -306,20 +306,21 @@
 <script>
 let DATA = null;
 
+// Keep in sync with FEEDS in scripts/fetch_news.py (plus HN social matching).
+// Do not list sources we no longer fetch (e.g. broken Bloomberg RSS, regulators without feeds).
 const SOURCES = {
   "新聞媒體": [
-    {name:"TechCrunch", url:"https://techcrunch.com/"},
+    {name:"TechCrunch Fintech", url:"https://techcrunch.com/category/fintech/"},
     {name:"Bankless", url:"https://www.bankless.com/"},
-    {name:"Techmeme", url:"https://www.techmeme.com/"},
     {name:"PYMNTS", url:"https://www.pymnts.com/"},
     {name:"Finextra", url:"https://www.finextra.com/"},
     {name:"Banking Dive", url:"https://www.bankingdive.com/"},
     {name:"The Fintech Times", url:"https://thefintechtimes.com/"},
     {name:"CoinDesk", url:"https://www.coindesk.com/"},
     {name:"The Block", url:"https://www.theblock.co/"},
-    {name:"Bloomberg Markets", url:"https://www.bloomberg.com/markets"},
     {name:"NYT（Dealbook／Economy／Tech）", url:"https://www.nytimes.com/section/business"},
     {name:"Hacker News", url:"https://news.ycombinator.com/"},
+    {name:"Techmeme", url:"https://www.techmeme.com/"},
     {name:"經濟日報", url:"https://money.udn.com/money/index"},
     {name:"科技新報", url:"https://technews.tw/"},
     {name:"公視新聞", url:"https://news.pts.org.tw/"},
@@ -327,23 +328,9 @@ const SOURCES = {
     {name:"中央社 CNA", url:"https://www.cna.com.tw/about/rss.aspx"}
   ],
   "分析評論": [
-    {name:"TLDR AI", url:"https://tldr.tech/ai"},
     {name:"TLDR Fintech", url:"https://tldr.tech/fintech"},
+    {name:"TLDR AI", url:"https://tldr.tech/ai"},
     {name:"TLDR Dev", url:"https://tldr.tech/dev"}
-  ],
-  "監管機構": [
-    {name:"台灣金管會", url:"https://www.fsc.gov.tw/"},
-    {name:"美國 SEC", url:"https://www.sec.gov/"},
-    {name:"歐盟 ESMA", url:"https://www.esma.europa.eu/"},
-    {name:"歐盟 EBA", url:"https://www.eba.europa.eu/"},
-    {name:"英國 FCA", url:"https://www.fca.org.uk/"},
-    {name:"日本金融庁", url:"https://www.fsa.go.jp/en/"},
-    {name:"BIS", url:"https://www.bis.org/"}
-  ],
-  "公司來源": [
-    {name:"Stripe", url:"https://stripe.com/blog"},
-    {name:"PayPal Newsroom", url:"https://newsroom.paypal-corp.com/"},
-    {name:"MaiCoin Blog", url:"https://blog.maicoin.com/"}
   ],
   "社群評論": [
     {name:"Hacker News 討論串", url:"https://news.ycombinator.com/"}
@@ -603,7 +590,7 @@ document.addEventListener('click', (e) => {
 
 renderSources();
 
-// 內容改為開站時載入外部 data.json（由排程任務每小時覆寫產生）。
+// 內容改為開站時載入外部 data.json（由排程任務每 3 小時更新）。
 // data.json 必須與本頁部署在同一位置（同一 GitHub Pages repo 根目錄），
 // 否則瀏覽器會因跨網域限制而無法讀取。
 // 加上時間戳參數避免瀏覽器/CDN 快取到舊檔。
