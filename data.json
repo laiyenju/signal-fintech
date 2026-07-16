@@ -726,7 +726,30 @@
     ],
     "coverSocial": [],
     "context": [],
-    "others": []
+    "others": [
+      {
+        "date": "2026-07-16",
+        "title": "AI原生私人銀行新創Flex完成7,000萬美元B1輪融資，估值翻倍至12億美元",
+        "paras": [
+          "金融科技媒體Finextra報導，鎖定高資產企業主的AI原生私人銀行（AI-native private banking）新創Flex，完成7,000萬美元B1輪（Series B1）融資，由Halo Fund領投，Portage Ventures、Wellington、Crosslink Capital、53 Stations、Titanium Ventures、Spice、Florida Funders等機構跟投；Flex表示，這筆資金將用於布局全球市場，並計畫在2026年底前將現有110人團隊規模擴大一倍。",
+          "Yahoo Finance報導，這輪募資也讓Flex估值翻倍至約12億美元，躋身金融科技獨角獸（unicorn）之列；Flex主打以AI驅動的財務管理平台，鎖定傳統金融科技業者與地區銀行較少顧及的中型企業客戶群，盼填補這塊市場空缺。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "AI private banking startup Flex raises $70m",
+            "url": "https://www.finextra.com/newsarticle/48092/ai-private-banking-startup-flex-raises-70m"
+          },
+          {
+            "name": "Yahoo Finance",
+            "title": "AI finance startup Flex doubles valuation to about $1.2B",
+            "url": "https://finance.yahoo.com/technology/ai/articles/ai-finance-startup-flex-doubles-113702299.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      }
+    ]
   },
-  "_generated_at": "2026-07-16T12:10:19Z"
+  "_generated_at": "2026-07-16T15:09:10Z"
 }
