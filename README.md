@@ -98,11 +98,13 @@ Unreachable feeds are skipped; a single bad source does not fail the run.
 
 Full rules live in [`排程任務指令.md`](./排程任務指令.md). Day boundaries use **Taiwan time** (`Asia/Taipei`).
 
-1. **Score** each candidate on two 0–5 axes: *coverage* (how many tracked sources reported it) and *impact* (regulation, real money/market size, Taiwan or global fintech relevance, and *evidence* of ripple effects — not speculation). Composite = impact × 60% + coverage × 40%.
-2. **Today's Top Story is locked once per day.** First run of the day (when `cover.date` ≠ today) picks the highest-scoring story in a ~12h window ending at 06:00 Taiwan time (falls back to 24–48h if needed). Impact must be **≥ 3** for `tier: "top"`; otherwise the slot is **Today's Watch** (`tier: "watch"`). Later runs that day never replace the cover.
-3. **This Week is a 7-day rolling list**, not a per-run top-N. Drop entries older than 7 days; add new candidates with composite **≥ 2.5**; same-event follow-ups append to `context` instead of duplicating; sort newest-first. No hard cap — the UI collapses past the first 5.
-4. **Taiwan and Global run independently.** A scope's This Week list must not shrink between runs except by 7-day expiry.
-5. **No fabrication.** Thin evidence → shorter brief, never invented facts, sources, or quotes. Pure crypto noise is capped (**at most 2 new pure-crypto items per run** for global). Digest issues are never published as stories — only the articles they point to.
+1. **Fintech-first eligibility comes before scoring.** New content is classified as direct fintech (A), major finance-adjacent with a concrete fintech consequence (B), or general finance (C, rejected). Technology, a digital product, or new infrastructure must be central for A; earnings, premiums, market moves, mortgages, and routine enforcement do not qualify by scale or coverage alone.
+2. **Newly admitted content follows an 80/20 mix per scope and run.** At least 80% must be A; B is optional and capped at `floor(new content × 0.2)`, so batches smaller than 5 admit no B stories. B stories cannot become the cover. The policy applies only to newly written covers, list entries, and context — existing content is never retroactively reclassified or removed.
+3. **Score** eligible A/B candidates on two 0–5 axes: *coverage* (how many tracked sources reported it) and *impact* (regulation, real money/market size, Taiwan or global fintech relevance, and *evidence* of ripple effects — not speculation). Composite = impact × 60% + coverage × 40%.
+4. **Today's Top Story is locked once per day.** On the first run of a new day, the previous sourced cover rolls into This Week unchanged, then the routine picks the highest-scoring A story in a ~12h window ending at 06:00 Taiwan time (falls back to 24–48h if needed). Impact must be **≥ 3** for `tier: "top"`; otherwise the slot is **Today's Watch** (`tier: "watch"`). Later runs that day never replace the cover. Status-only watches with no sources are not rolled over.
+5. **This Week is a 7-day rolling list**, not a per-run top-N. Drop entries older than 7 days; preserve all unexpired entries unchanged; add eligible new candidates with composite **≥ 2.5**; same-event follow-ups append to `context` instead of duplicating; sort newest-first. No hard cap — the UI collapses past the first 5.
+6. **Taiwan and Global run independently.** A scope's This Week list must not shrink between runs except by 7-day expiry.
+7. **No fabrication.** Thin evidence → shorter brief, never invented facts, sources, or quotes. Pure price/trading crypto stories are rejected; other eligible crypto topics are capped at 2 new items per global run. Digest issues are never published as stories — only the articles they point to.
 
 ---
 
