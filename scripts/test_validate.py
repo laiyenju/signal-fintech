@@ -56,6 +56,44 @@ def test_others_item_not_dict():
     bad["tw"]["others"] = ["not a dict"]
     assert "structure.others_item" in rules(bad)  # must NOT raise
 
+def _meta(scope_items):
+    return {"today": "2026-07-18", "tw": {"newItems": scope_items}, "global": {"newItems": []}}
+
+A = {"eventKey": "e1", "role": "others", "class": "A", "impact": 3, "volume": 2, "score": 2.6, "isCrypto": False}
+
+def test_80_20_b_over_cap():
+    # N=3, B=1 → floor(3*0.2)=0 → 超標
+    items = [dict(A, eventKey="e1"), dict(A, eventKey="e2"),
+             dict(A, eventKey="e3", **{"class": "B"})]
+    assert "quota.8020" in rules(GOOD, meta=_meta(items))
+
+def test_80_20_ok_large_batch():
+    # N=5, B=1 → floor(5*0.2)=1 → 剛好，A>=ceil(5*0.8)=4
+    items = [dict(A, eventKey=f"e{i}") for i in range(4)] + [dict(A, eventKey="e5", **{"class": "B"})]
+    assert "quota.8020" not in rules(GOOD, meta=_meta(items))
+
+def test_crypto_over_two():
+    items = [dict(A, eventKey=f"e{i}", isCrypto=True) for i in range(3)]  # 3 crypto others
+    # N=3 全 A，80/20 過；只驗 crypto
+    assert "quota.crypto" in rules(GOOD, meta=_meta(items))
+
+def test_others_score_below_threshold():
+    items = [dict(A, eventKey="e1", score=2.4)]
+    assert "quota.others_score" in rules(GOOD, meta=_meta(items))
+
+def test_b_class_as_cover():
+    items = [dict(A, eventKey="e1", role="cover", **{"class": "B"})]
+    assert "quota.cover_class" in rules(GOOD, meta=_meta(items))
+
+def test_cover_top_needs_impact_3():
+    # candidate.tw.cover.tier=top，但 meta cover impact=2 → 應為 watch
+    items = [dict(A, eventKey="e1", role="cover", impact=2)]
+    assert "quota.cover_tier" in rules(GOOD, meta=_meta(items))
+
+def test_duplicate_eventkey_in_batch():
+    items = [dict(A, eventKey="dup"), dict(A, eventKey="dup")]
+    assert "quota.dup_eventkey" in rules(GOOD, meta=_meta(items))
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for fn in fns:
