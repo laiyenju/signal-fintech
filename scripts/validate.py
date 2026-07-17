@@ -21,6 +21,9 @@ def check_structure(candidate):
             v.append({"rule": "structure.scope", "detail": f"{scope} 不是物件"})
             continue
         cover = s.get("cover", {})
+        if not isinstance(cover, dict):
+            v.append({"rule": "structure.cover", "detail": f"{scope}.cover 不是物件"})
+            cover = {}
         if cover.get("tier") not in TIERS:
             v.append({"rule": "structure.tier", "detail": f"{scope}.cover.tier={cover.get('tier')!r} 非 top/watch"})
         if not (isinstance(cover.get("paras"), list) and len(cover["paras"]) == 2):
@@ -29,6 +32,9 @@ def check_structure(candidate):
             if not isinstance(s.get(fld), list):
                 v.append({"rule": "structure.arrays", "detail": f"{scope}.{fld} 必須是陣列（不得為 null/缺）"})
         for i, o in enumerate(s.get("others", []) if isinstance(s.get("others"), list) else []):
+            if not isinstance(o, dict):
+                v.append({"rule": "structure.others_item", "detail": f"{scope}.others[{i}] 不是物件"})
+                continue
             if not (isinstance(o.get("paras"), list) and len(o["paras"]) == 2):
                 v.append({"rule": "structure.paras", "detail": f"{scope}.others[{i}].paras 必須恰兩段"})
     return v

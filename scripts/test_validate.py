@@ -44,6 +44,18 @@ def test_array_field_null():
     bad["tw"]["sources"] = None
     assert "structure.arrays" in rules(bad)
 
+def test_cover_not_dict():
+    import copy
+    bad = copy.deepcopy(GOOD)
+    bad["tw"]["cover"] = None
+    assert "structure.cover" in rules(bad)  # must NOT raise
+
+def test_others_item_not_dict():
+    import copy
+    bad = copy.deepcopy(GOOD)
+    bad["tw"]["others"] = ["not a dict"]
+    assert "structure.others_item" in rules(bad)  # must NOT raise
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for fn in fns:
