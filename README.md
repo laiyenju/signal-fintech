@@ -27,7 +27,11 @@ Claude Code cloud routine (every 3 hours)
     -> scripts/fetch_news.py pulls RSS feeds (plain fetch, no AI, zero cost)
     -> Claude Code pulls last 48h from Readwise Reader (optional human-curated layer)
     -> Claude Code applies selection + rewrite rules from 排程任務指令.md
-    -> writes data.json, opens a PR from a claude/* branch, merges into main
+    -> writes candidate.json + candidate.meta.json (staged, not data.json)
+    -> gate 1: scripts/validate.py (deterministic: dates, counts, quotas, schema)
+    -> gate 2: signal-reviewer subagent (editorial: selection, miscategorization, fabrication)
+    -> both pass -> overwrite data.json, open PR from claude/* branch, merge into main
+       any fail  -> fix loop (max 3); still failing -> keep old data.json, report
 GitHub Pages
     -> deploys main on every push
 Browser
