@@ -14,6 +14,13 @@ def _age(today, d):
     return (_d(today) - _d(d)).days
 
 
+def _safe_age(today, d):
+    try:
+        return _age(today, d)
+    except (ValueError, TypeError):
+        return None
+
+
 def check_structure(candidate):
     v = []
     for key in ("tw", "global", "_generated_at"):
@@ -92,22 +99,35 @@ def check_state(candidate, prev, today):
         if not isinstance(p, dict):
             p = {}
         # cover 鎖定：舊 cover.date == today → cover/sources/coverSocial 必逐欄相同
-        if p.get("cover", {}).get("date") == today:
+        p_cover = p.get("cover")
+        if isinstance(p_cover, dict) and p_cover.get("date") == today:
             for fld in ("cover", "sources", "coverSocial"):
                 if s.get(fld) != p.get(fld):
                     v.append({"rule": "state.cover_locked", "detail": f"{scope} 今日 cover 已鎖定，{fld} 不得變動"})
         others = s.get("others", []) if isinstance(s.get("others"), list) else []
-        dates = [o.get("date") for o in others if isinstance(o, dict) and o.get("date")]
+        # Collect dates with safe age calculation; skip items with unparsable dates
+        dates_with_age = []
+        for o in others:
+            if isinstance(o, dict) and o.get("date"):
+                age = _safe_age(today, o["date"])
+                if age is not None:
+                    dates_with_age.append((o["date"], age))
+        dates = [d for d, _ in dates_with_age]
         # 7 天窗口
-        for d in dates:
-            if _age(today, d) > 7:
+        for d, age in dates_with_age:
+            if age > 7:
                 v.append({"rule": "state.others_window", "detail": f"{scope} others 含超過 7 天項目 {d}"})
         # 由新到舊排序
         if dates != sorted(dates, reverse=True):
             v.append({"rule": "state.others_sorted", "detail": f"{scope} others 未依日期由新到舊排序"})
         # 數量不得減少（扣除因超 7 天而移除者）
         prev_others = p.get("others", []) if isinstance(p.get("others"), list) else []
-        expired = sum(1 for o in prev_others if isinstance(o, dict) and o.get("date") and _age(today, o["date"]) > 7)
+        expired = 0
+        for o in prev_others:
+            if isinstance(o, dict) and o.get("date"):
+                age = _safe_age(today, o.get("date"))
+                if age is not None and age > 7:
+                    expired += 1
         expected_min = len(prev_others) - expired
         if len(others) < expected_min:
             v.append({"rule": "state.others_count", "detail": f"{scope} others {len(others)} < 應保留下限 {expected_min}"})

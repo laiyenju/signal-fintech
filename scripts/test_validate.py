@@ -133,6 +133,33 @@ def test_others_count_decreased():
     cand["tw"]["others"] = _others(["2026-07-15"])  # 剩 1 則、無過期理由 → 違規
     assert "state.others_count" in rules(cand, prev=prev)
 
+def test_prev_cover_none_no_crash():
+    import copy
+    prev = copy.deepcopy(PREV)
+    prev["tw"]["cover"] = None
+    # must NOT raise
+    validate(copy.deepcopy(GOOD), GOOD_META, prev, "2026-07-18")
+
+def test_others_bad_date_no_crash():
+    import copy
+    bad = copy.deepcopy(GOOD)
+    bad["tw"]["others"] = [{"date": "not-a-date", "title": "x", "paras": ["a", "b"],
+                            "sources": [], "social": [], "context": []}]
+    # must NOT raise
+    validate(bad, GOOD_META, PREV, "2026-07-18")
+
+def test_others_window_boundary():
+    import copy
+    # age exactly 7 passes, age 8 violates
+    ok = copy.deepcopy(GOOD)
+    ok["tw"]["others"] = [{"date": "2026-07-11", "title": "x", "paras": ["a", "b"],
+                           "sources": [], "social": [], "context": []}]  # 2026-07-18 - 7d
+    assert "state.others_window" not in {v["rule"] for v in validate(ok, GOOD_META, PREV, "2026-07-18")}
+    bad = copy.deepcopy(GOOD)
+    bad["tw"]["others"] = [{"date": "2026-07-10", "title": "x", "paras": ["a", "b"],
+                            "sources": [], "social": [], "context": []}]  # 8 days
+    assert "state.others_window" in {v["rule"] for v in validate(bad, GOOD_META, PREV, "2026-07-18")}
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for fn in fns:
