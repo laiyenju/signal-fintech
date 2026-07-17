@@ -610,7 +610,13 @@
           }
         ],
         "social": [],
-        "context": []
+        "context": [
+          {
+            "date": "2026-07-17",
+            "title": "PayPal董事會認為Stripe收購報價低估公司價值",
+            "body": "科技新報報導，PayPal董事會認為Stripe與私募股權公司Advent International聯合提出的約530億美元收購要約，低估了公司的實際價值，暫不急於出售。"
+          }
+        ]
       },
       {
         "date": "2026-07-16",
@@ -658,5 +664,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-17T03:15:00Z"
+  "_generated_at": "2026-07-17T09:12:26Z"
 }
