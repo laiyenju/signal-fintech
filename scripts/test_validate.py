@@ -160,6 +160,21 @@ def test_others_window_boundary():
                             "sources": [], "social": [], "context": []}]  # 8 days
     assert "state.others_window" in {v["rule"] for v in validate(bad, GOOD_META, PREV, "2026-07-18")}
 
+def test_quotas_meta_scope_none_no_crash():
+    m = {"today": "2026-07-18", "tw": None, "global": {"newItems": []}}
+    validate(GOOD, m, PREV, "2026-07-18")  # must NOT raise
+
+def test_quotas_newitems_non_dict_no_crash():
+    m = {"today": "2026-07-18", "tw": {"newItems": ["oops", None]}, "global": {"newItems": []}}
+    validate(GOOD, m, PREV, "2026-07-18")  # must NOT raise
+
+def test_quotas_newitems_not_list_no_crash():
+    m = {"today": "2026-07-18", "tw": {"newItems": None}, "global": {"newItems": []}}
+    validate(GOOD, m, PREV, "2026-07-18")  # must NOT raise
+
+def test_toplevel_non_dict_no_crash():
+    validate([], [], [], "2026-07-18")  # must NOT raise
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for fn in fns:

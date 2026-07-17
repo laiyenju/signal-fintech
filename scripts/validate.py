@@ -54,7 +54,10 @@ def check_structure(candidate):
 def check_quotas(candidate, meta):
     v = []
     for scope in ("tw", "global"):
-        new = meta.get(scope, {}).get("newItems", [])
+        sc = meta.get(scope)
+        new = sc.get("newItems", []) if isinstance(sc, dict) else []
+        if not isinstance(new, list): new = []
+        new = [i for i in new if isinstance(i, dict)]
         n = len(new)
         if n == 0:
             continue
@@ -135,6 +138,9 @@ def check_state(candidate, prev, today):
 
 
 def validate(candidate, meta, prev, today):
+    if not isinstance(candidate, dict): candidate = {}
+    if not isinstance(meta, dict): meta = {}
+    if not isinstance(prev, dict): prev = {}
     v = []
     v += check_structure(candidate)
     v += check_quotas(candidate, meta)
