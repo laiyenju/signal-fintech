@@ -633,8 +633,30 @@
         ],
         "social": [],
         "context": []
+      },
+      {
+        "date": "2026-07-16",
+        "title": "預測市場交易所Kalshi推出AI運算力遠期曲線，估值傳衝上400億美元",
+        "paras": [
+          "彭博（Bloomberg）14日報導，美國商品期貨交易委員會（CFTC）監管的預測市場交易所Kalshi，推出以未來GPU租賃價格為標的的「遠期曲線」（forward curve）預測市場合約，讓AI運算成本首度有公開的未來價格參考；報導指出，這項產品有機會成為期貨、選擇權等避險工具的基礎，協助AI公司在基礎建設支出持續擴大、運算力日益「商品化」的趨勢下，管理成本波動風險。",
+          "金融科技電子報Lex Newsletter報導，Kalshi傳出正以約400億美元估值進行新一輪募資，較18個月前的估值成長約8倍，約為對手Polymarket（估值約150億美元）的兩倍；報導指出，兩家預測市場業者採取相反的商業模式，Kalshi作為CFTC監管交易所，每筆交易約收取1%手續費（年化營收約20億美元），Polymarket過去多年則不對交易收費，顯示預測市場產業版圖持續擴大之際，兩種商業模式的路線之爭也隨之升溫。"
+        ],
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "title": "Kalshi ramps up effort to build markets for AI computing power",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-14/kalshi-ramps-up-effort-to-build-markets-for-ai-computing-power?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA0MDE5MywiZXhwIjoxNzg0NjQ0OTkzLCJhcnRpY2xlSWQiOiJUSFo5WjFUOTZPU0cwMCIsImJjb25uZWN0SWQiOiJBODlERUQ0MjI1Qjk0Q0I4QkJBRUE0ODAwRTE5Mjk4NiJ9.ZYUUqKf6TBKRDVGB6YLO4s-gXfHTmFM4tpYgTYmAzOQ"
+          },
+          {
+            "name": "Lex Newsletter",
+            "title": "DeFi: Should prediction markets get $40B valuations?",
+            "url": "https://lex.substack.com/p/defi-kalshi-is-still-worth-2x-polymarket"
+          }
+        ],
+        "social": [],
+        "context": []
       }
     ]
   },
-  "_generated_at": "2026-07-16T18:13:37Z"
+  "_generated_at": "2026-07-17T03:15:00Z"
 }
