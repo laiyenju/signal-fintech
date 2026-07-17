@@ -695,8 +695,25 @@
         ],
         "social": [],
         "context": []
+      },
+      {
+        "date": "2026-07-16",
+        "title": "英國BNPL新規上路：FCA 7月15日起正式監理「遞延支付信貸」商品",
+        "paras": [
+          "金融科技媒體Finextra報導，英國監理焦點自7月15日起出現轉變：BNPL（先買後付，Buy Now Pay Later）服務中常見的核心商品型態「遞延支付信貸」（Deferred Payment Credit, DPC）——一種短期、免息的信貸商品，正式被納入英國金融行為監理總署（Financial Conduct Authority, FCA）的監理範圍。",
+          "報導指出，長期以來BNPL多半被視為商業工具：對商家而言，有助於提高結帳轉換率、拉高平均客單價；對消費者而言，則是不必申請傳統信用產品、就能將消費金額分期攤還的簡便方式。隨著DPC正式納入FCA監理，英國BNPL業者預期將面臨新的監理規範；由於目前僅此單一來源報導，DPC監理上路後的具體合規細節與業者因應做法，仍待更多報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "BNPL regulation changes the checkout conversation",
+            "url": "https://www.finextra.com/blogposting/32274/bnpl-regulation-changes-the-checkout-conversation"
+          }
+        ],
+        "social": [],
+        "context": []
       }
     ]
   },
-  "_generated_at": "2026-07-17T18:13:59Z"
+  "_generated_at": "2026-07-17T21:10:54Z"
 }
