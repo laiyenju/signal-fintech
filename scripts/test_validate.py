@@ -1,6 +1,7 @@
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 from validate import validate
+import copy as _copy
 
 GOOD = {
     "tw": {"cover": {"date": "2026-07-18", "tier": "top", "title": "t", "paras": ["a", "b"]},
@@ -104,6 +105,33 @@ def test_cover_top_needs_impact_3():
 def test_duplicate_eventkey_in_batch():
     items = [dict(A, eventKey="dup"), dict(A, eventKey="dup")]
     assert "quota.dup_eventkey" in rules(GOOD, meta=_meta(items))
+
+def _others(dates):
+    return [{"date": d, "title": d, "paras": ["a", "b"], "sources": [], "social": [], "context": []} for d in dates]
+
+def test_cover_locked_changed():
+    prev = _copy.deepcopy(PREV)
+    prev["tw"]["cover"]["date"] = "2026-07-18"  # 今天已鎖
+    prev["tw"]["cover"]["title"] = "locked"
+    cand = _copy.deepcopy(GOOD)  # cover.title="t" 不同 → 違規
+    assert "state.cover_locked" in rules(cand, prev=prev)
+
+def test_others_older_than_7_days():
+    cand = _copy.deepcopy(GOOD)
+    cand["tw"]["others"] = _others(["2026-07-01"])  # 距 07-18 為 17 天
+    assert "state.others_window" in rules(cand)
+
+def test_others_not_sorted():
+    cand = _copy.deepcopy(GOOD)
+    cand["tw"]["others"] = _others(["2026-07-12", "2026-07-15"])  # 舊在前 → 未由新到舊
+    assert "state.others_sorted" in rules(cand)
+
+def test_others_count_decreased():
+    prev = _copy.deepcopy(PREV)
+    prev["tw"]["others"] = _others(["2026-07-15", "2026-07-14", "2026-07-13"])  # 3 則皆在窗內
+    cand = _copy.deepcopy(GOOD)
+    cand["tw"]["others"] = _others(["2026-07-15"])  # 剩 1 則、無過期理由 → 違規
+    assert "state.others_count" in rules(cand, prev=prev)
 
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
