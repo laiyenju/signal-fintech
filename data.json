@@ -1,24 +1,41 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-07-17",
-      "tier": "top",
-      "title": "首家電支跨境匯兌開先例：歐付寶獲准兼營移工小額匯兌，第4季開辦",
+      "date": "2026-07-18",
+      "tier": "watch",
+      "title": "拍付國際爆個資外洩，交易系統未受影響、逾500元超商票券補償用戶",
       "paras": [
-        "金管會（Financial Supervisory Commission, FSC）16日表示，電子支付機構（electronic payment institution）歐付寶（O'Pay）已獲准經營「國外小額匯兌業務」及「兼營外籍移工國外小額匯兌業務」，成為國內第一家取得跨境匯兌資格的電子支付業者。此前電子支付機構的業務範圍多侷限於境內轉帳與消費支付，這次核准等於首度讓電支業者跨入過去主要由銀行與傳統匯兌業者經營的跨境小額匯款領域。",
-        "依金管會說明，歐付寶預計今年第4季先開辦「外籍移工國外小額匯兌業務」，讓在台工作的菲律賓籍、印尼籍及越南籍移工可透過歐付寶把薪資匯回母國；至於一般性質的「國外小額匯兌業務」，則規劃自明年（2027年）下半年開辦，屆時可匯款至越南。目前僅歐付寶單一業者取得這項資格，其他電子支付機構是否跟進申請，仍待觀察。"
+        "第三方支付服務業者拍付國際（PChome網路家庭旗下）17日公布資安事故調查結果，確認部分會員姓名、手機號碼及車牌號碼等個人資料外洩；拍付國際強調，公司交易系統本身並未遭入侵，會員帳號密碼、交易紀錄與信用卡號等核心金流資料均未受影響。",
+        "中央社報導，針對個資確認遭存取的受影響會員，拍付國際將提供合計優惠逾新台幣500元的超商飲品電子票券作為補償；作為PChome旗下的第三方支付基礎設施業者，這起個資外洩事故也讓電子支付與收單服務業者的會員資料安全防護，再度受到外界關注。"
       ]
     },
     "sources": [
       {
         "name": "中央社 CNA（財經）",
-        "title": "首家電支歐付寶獲准兼營移工小額匯兌　第4季開辦",
-        "url": "https://www.cna.com.tw/news/afe/202607160383.aspx"
+        "title": "拍付國際個資外洩　受影響用戶可領逾500元票券",
+        "url": "https://www.cna.com.tw/news/ahel/202607170268.aspx"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-07-17",
+        "title": "首家電支跨境匯兌開先例：歐付寶獲准兼營移工小額匯兌，第4季開辦",
+        "paras": [
+          "金管會（Financial Supervisory Commission, FSC）16日表示，電子支付機構（electronic payment institution）歐付寶（O'Pay）已獲准經營「國外小額匯兌業務」及「兼營外籍移工國外小額匯兌業務」，成為國內第一家取得跨境匯兌資格的電子支付業者。此前電子支付機構的業務範圍多侷限於境內轉帳與消費支付，這次核准等於首度讓電支業者跨入過去主要由銀行與傳統匯兌業者經營的跨境小額匯款領域。",
+          "依金管會說明，歐付寶預計今年第4季先開辦「外籍移工國外小額匯兌業務」，讓在台工作的菲律賓籍、印尼籍及越南籍移工可透過歐付寶把薪資匯回母國；至於一般性質的「國外小額匯兌業務」，則規劃自明年（2027年）下半年開辦，屆時可匯款至越南。目前僅歐付寶單一業者取得這項資格，其他電子支付機構是否跟進申請，仍待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "中央社 CNA（財經）",
+            "title": "首家電支歐付寶獲准兼營移工小額匯兌　第4季開辦",
+            "url": "https://www.cna.com.tw/news/afe/202607160383.aspx"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-07-16",
         "title": "富邦金奪上半年金控獲利王，13家金控上半年大賺4,408.7億元創新高",
@@ -577,24 +594,41 @@
   },
   "global": {
     "cover": {
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "tier": "watch",
-      "title": "Visa發表AI理財助理，開放銀行以對話介面嵌入既有App",
+      "title": "Cash App攜手Square推在地訂餐，Block打造雙邊商務網路",
       "paras": [
-        "全球支付網路業者Visa發表全新「AI Financial Assistant」（AI理財助理），以加值服務（value-added service）形式提供給合作銀行，讓金融機構得以在既有App中，透過對話式介面（conversational interface），協助用戶理解自身消費狀況、取得個人化洞察（personalised insights），並直接在App內採取行動，不必額外跳轉到其他工具或頁面。",
-        "Visa引述研究指出，超過66%曾使用生成式AI（generative AI）的美國民眾，已將這項技術用於尋求理財建議；但同一份研究也顯示，消費者仍普遍認為銀行是最值得信賴、足以保護個人資料的機構，且有85%受訪者表示，只要AI能提供明確的價值主張，就願意分享更多個人資料給既有的金融服務提供者。Visa這次推出AI理財助理，被視為希望借助銀行既有的信任基礎，把生成式AI導入日常銀行App使用情境。"
+        "支付巨頭Block旗下Cash App，透過既有的Neighborhoods（社區）計畫，把旗下行動支付應用Cash App約5,900萬名月活躍用戶（monthly active users），與商用收單子公司Square約450萬家商家連結，首波鎖定在地餐飲外帶訂餐、會員點數（loyalty rewards）與到店取餐（pickup）等場景，讓Cash App使用者能直接在App內完成從探索餐廳到付款取餐的完整流程。",
+        "根據PaymentsDive報導，這項策略被視為Block打造「雙邊商務網路」（two-sided commerce network）的關鍵一步：一方面可望提高Cash App用戶的黏著度與交易量，另一方面則讓餐飲商家多一個相對外送平台（動輒收取20%至30%抽成）成本更低的訂單來源，藉此強化Cash App與Square兩大業務線之間的綜效。"
       ]
     },
     "sources": [
       {
-        "name": "Finextra",
-        "title": "Visa unveils AI assistant for banking apps",
-        "url": "https://www.finextra.com/newsarticle/48094/visa-unveils-ai-assistant-for-banking-apps"
+        "name": "PaymentsDive",
+        "title": "Why Cash App wants food orders",
+        "url": "https://www.paymentsdive.com/news/why-cash-app-wants-food-orders-square-merchants-dining/825040/"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-07-17",
+        "title": "Visa發表AI理財助理，開放銀行以對話介面嵌入既有App",
+        "paras": [
+          "全球支付網路業者Visa發表全新「AI Financial Assistant」（AI理財助理），以加值服務（value-added service）形式提供給合作銀行，讓金融機構得以在既有App中，透過對話式介面（conversational interface），協助用戶理解自身消費狀況、取得個人化洞察（personalised insights），並直接在App內採取行動，不必額外跳轉到其他工具或頁面。",
+          "Visa引述研究指出，超過66%曾使用生成式AI（generative AI）的美國民眾，已將這項技術用於尋求理財建議；但同一份研究也顯示，消費者仍普遍認為銀行是最值得信賴、足以保護個人資料的機構，且有85%受訪者表示，只要AI能提供明確的價值主張，就願意分享更多個人資料給既有的金融服務提供者。Visa這次推出AI理財助理，被視為希望借助銀行既有的信任基礎，把生成式AI導入日常銀行App使用情境。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "Visa unveils AI assistant for banking apps",
+            "url": "https://www.finextra.com/newsarticle/48094/visa-unveils-ai-assistant-for-banking-apps"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-07-16",
         "title": "Stripe據傳攜手Advent International，出價逾530億美元收購PayPal",
@@ -664,5 +698,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-17T09:12:26Z"
+  "_generated_at": "2026-07-17T18:13:59Z"
 }
