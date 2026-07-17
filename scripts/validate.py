@@ -47,6 +47,7 @@ def check_quotas(candidate, meta):
         n = len(new)
         if n == 0:
             continue
+        scope_obj = candidate.get(scope) if isinstance(candidate.get(scope), dict) else {}
         a = sum(1 for i in new if i.get("class") == "A")
         b = sum(1 for i in new if i.get("class") == "B")
         b_cap = 0 if n < 5 else math.floor(n * 0.2)
@@ -61,10 +62,11 @@ def check_quotas(candidate, meta):
             if i.get("role") == "others" and i.get("score", 0) < 2.5:
                 v.append({"rule": "quota.others_score", "detail": f"{scope} others {i.get('eventKey')} 分數 {i.get('score')} < 2.5"})
         cover_items = [i for i in new if i.get("role") == "cover"]
+        cover_obj = scope_obj.get("cover", {}) if isinstance(scope_obj.get("cover"), dict) else {}
         for ci in cover_items:
             if ci.get("class") != "A":
                 v.append({"rule": "quota.cover_class", "detail": f"{scope} cover 必為 A 類，實為 {ci.get('class')}"})
-            tier = candidate.get(scope, {}).get("cover", {}).get("tier")
+            tier = cover_obj.get("tier")
             if tier == "top" and ci.get("impact", 0) < 3:
                 v.append({"rule": "quota.cover_tier", "detail": f"{scope} tier=top 需 impact≥3，實為 {ci.get('impact')}"})
             if tier == "watch" and ci.get("impact", 0) >= 3:

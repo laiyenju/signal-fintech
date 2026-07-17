@@ -56,6 +56,17 @@ def test_others_item_not_dict():
     bad["tw"]["others"] = ["not a dict"]
     assert "structure.others_item" in rules(bad)  # must NOT raise
 
+def test_quotas_scope_not_dict():
+    import copy
+    bad = copy.deepcopy(GOOD)
+    bad["tw"] = None
+    meta = {"today": "2026-07-18",
+            "tw": {"newItems": [{"eventKey": "e1", "role": "cover", "class": "A",
+                                 "impact": 4, "volume": 3, "score": 3.6, "isCrypto": False}]},
+            "global": {"newItems": []}}
+    # must NOT raise; structure layer will flag the None scope, quotas must not crash
+    validate(bad, meta, PREV, "2026-07-18")  # no exception = pass
+
 def _meta(scope_items):
     return {"today": "2026-07-18", "tw": {"newItems": scope_items}, "global": {"newItems": []}}
 
