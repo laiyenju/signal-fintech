@@ -14,6 +14,8 @@ DECISION_LABEL = {"cover": "✅ cover", "others": "▫️ others",
 def source_activity(raw_items, meta, feeds=FEEDS):
     window = Counter((it.get("source"), it.get("scope"))
                      for it in raw_items if isinstance(it, dict))
+    # ponytail: contrib keyed by source name only; correct because feed names are
+    # globally unique (enforced by test_feeds.py). Key by (name, scope) if that changes.
     contrib = Counter()
     for scope in ("tw", "global"):
         pool = (meta.get(scope) or {}).get("scoredPool") or []
