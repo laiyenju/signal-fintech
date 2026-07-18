@@ -32,6 +32,8 @@ Claude Code cloud routine (every 3 hours)
     -> gate 2: signal-reviewer subagent (editorial: selection, miscategorization, fabrication)
     -> both pass -> overwrite data.json, open PR from claude/* branch, merge into main
        any fail  -> fix loop (max 3); still failing -> keep old data.json, report
+    -> every run (incl. no-change / fail-safe): scripts/newsroom.py appends
+       newsroom/<date>.json + renders newsroom/<date>.md (selection audit log), commits it
 GitHub Pages
     -> deploys main on every push
 Browser
@@ -77,7 +79,7 @@ Full cloud setup: see [`設定步驟.md`](./設定步驟.md).
 
 ## Data sources
 
-**Source of truth for RSS:** the `FEEDS` list in [`scripts/fetch_news.py`](./scripts/fetch_news.py). Names below match the current list; count and membership can change.
+**Source of truth for RSS:** the `FEEDS` list in [`scripts/feeds.py`](./scripts/feeds.py). Names below match the current list; count and membership can change.
 
 **Taiwan** — 經濟日報, 科技新報, 公視新聞, Yahoo 財經, 中央社 CNA (tech + finance)
 
@@ -112,6 +114,20 @@ Full rules live in [`排程任務指令.md`](./排程任務指令.md). Day bound
 
 ---
 
+## Selection log (newsroom)
+
+Every 3-hour run writes an audit trail to `newsroom/`, so the AI's picks are reviewable:
+
+- **`newsroom/<date>.json`** — structured: for each run, per-source update counts
+  (`windowItems`) and whether each source fed a selected story (`contributed`), plus the
+  scored candidate pool with each item's `decision` and a one-line `reason`.
+- **`newsroom/<date>.md`** — a readable editorial diary re-rendered from the JSON each run.
+
+Logged on **every** run, including no-change and fail-safe runs. `contributed` staying 0
+while `windowItems` stays high over time flags a feed worth dropping.
+
+---
+
 ## Tech stack
 
 - **Frontend:** single static `index.html` (vanilla JS, no build step)
@@ -128,6 +144,10 @@ index.html              Site UI — fetches data.json, renders both scopes
 data.json               Published content (updated by the routine)
 scripts/fetch_news.py   RSS fetcher → scripts/raw_items.json (no AI)
 scripts/raw_items.json  Last fetch output (generated)
+scripts/feeds.py        Canonical feed roster (imported by fetch_news + newsroom)
+scripts/newsroom.py     Renders the per-run selection log
+newsroom/<date>.json    Structured selection record, one entry per run (committed)
+newsroom/<date>.md      Human-readable editorial diary, re-rendered each run
 排程任務指令.md            Routine prompt (selection, rewrite, commit) — Chinese
 設定步驟.md                One-time setup (repo, Pages, routine) — Chinese
 ```
