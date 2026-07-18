@@ -1,0 +1,262 @@
+{
+  "date": "2026-07-19",
+  "runs": [
+    {
+      "runAt": "2026-07-18T18:11:25Z",
+      "outcome": "published",
+      "notes": "本輪RSS抓取因執行環境網路政策，多個global fintech來源（Finextra、PYMNTS、CoinDesk等）與Hacker News/Algolia均遭proxy 403阻擋，TLDR Fintech最新一期也落在48小時窗口外，導致global完全無合格新cover/others候選，如實產出『本日觀察』；tw僅VASP穩定幣結算一則候選通過A類資格但分數偏低，列為watch cover。signal-reviewer審查後補列一則先前未篩查進scoredPool的global候選（Ramp AI token支出追蹤，經評分1.6分仍未達門檻，不影響本輪結論）。",
+      "sources": [
+        {
+          "name": "Banking Dive",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Bankless",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "CoinDesk",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Finextra",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Hacker News",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Dealbook",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Economy",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Technology",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "PYMNTS",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR AI",
+          "scope": "global",
+          "windowItems": 15,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Dev",
+          "scope": "global",
+          "windowItems": 15,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TechCrunch Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Techmeme",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Block",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Fintech Times",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Yahoo 財經",
+          "scope": "tw",
+          "windowItems": 30,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（科技）",
+          "scope": "tw",
+          "windowItems": 9,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（財經）",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 1
+        },
+        {
+          "name": "公視新聞",
+          "scope": "tw",
+          "windowItems": 25,
+          "contributed": 0
+        },
+        {
+          "name": "科技新報",
+          "scope": "tw",
+          "windowItems": 40,
+          "contributed": 0
+        },
+        {
+          "name": "經濟日報",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        }
+      ],
+      "tw": {
+        "cover": {
+          "tier": "watch",
+          "headline": "台廠跨境金流新解方，VASP搶進企業穩定幣結算服務",
+          "eventKey": "tw-vasp-stablecoin-cross-border-settlement-20260718"
+        },
+        "scoredPool": [
+          {
+            "eventKey": "tw-vasp-stablecoin-cross-border-settlement-20260718",
+            "source": "中央社 CNA（財經）",
+            "class": "A",
+            "impact": 2,
+            "volume": 1,
+            "score": 1.6,
+            "decision": "cover",
+            "reason": "唯一通過A類資格審查的tw候選；因僅單一來源報導、無具體金額或監理決議，影響力僅2分，未達3分門檻，故列為tier watch而非top。"
+          },
+          {
+            "eventKey": "tw-xrex-virtual-asset-act-dca-bitcoin-20260718",
+            "source": "科技新報",
+            "class": "C",
+            "impact": null,
+            "volume": null,
+            "score": null,
+            "decision": "dropped",
+            "reason": "內容核心為XREX交易所定期定額用戶的比特幣配置比例統計，屬純交易熱度/持有偏好統計，拿掉虛擬資產專法背景敘述後仍完整成立，判定為C類，直接淘汰。"
+          },
+          {
+            "eventKey": "tw-travel-inconvenience-insurance-claim-relax-20260718",
+            "source": "中央社 CNA（財經）",
+            "class": "C",
+            "impact": null,
+            "volume": null,
+            "score": null,
+            "decision": "dropped",
+            "reason": "旅遊不便險理賠上限放寬為既有事件（金管會責成產險公會統一從優解釋）的後續，但內容屬保險理賠作業規則調整，不涉及任何科技或數位基礎設施，判定為C類，不得附加為context。"
+          },
+          {
+            "eventKey": "tw-korea-leveraged-etf-margin-freeze-20260717",
+            "source": "科技新報",
+            "class": "C",
+            "impact": null,
+            "volume": null,
+            "score": null,
+            "decision": "dropped",
+            "reason": "南韓政府凍結單一股票槓桿ETF、提高保證金門檻，屬一般證券市場監理措施，未直接改變Fintech產品、基礎設施或合規方式，判定為C類，不得附加為既有『韓股槓桿ETF重挫』事件的context。"
+          },
+          {
+            "eventKey": "tw-atm-facial-covering-alert-duplicate-20260718",
+            "source": "中央社 CNA（財經）",
+            "class": "C",
+            "impact": null,
+            "volume": null,
+            "score": null,
+            "decision": "dropped",
+            "reason": "與現有others『1,600台ATM試行臉部遮蔽示警』事件完全相同（同一統計數字、同一天），僅來源不同，未提供新資訊，判定為重複報導，不新增亦不附加context。"
+          },
+          {
+            "eventKey": "tw-wealth-management-trust-asset-hub-20260718",
+            "source": "經濟日報",
+            "class": "C",
+            "impact": null,
+            "volume": null,
+            "score": null,
+            "decision": "dropped",
+            "reason": "股權控管信託／家族辦公室屬亞洲資產管理中心政策下的傳統財富管理法制報導，拿掉政策背景敘述後仍完整成立，不涉及數位產品或新型基礎設施，判定為C類。"
+          }
+        ],
+        "rejectedSummary": {
+          "total": 6,
+          "eligible": 1,
+          "ineligible": 5
+        }
+      },
+      "global": {
+        "cover": {
+          "tier": "watch",
+          "headline": "本日觀察：本輪未發現符合資格的全球金融科技新聞候選",
+          "eventKey": null
+        },
+        "scoredPool": [
+          {
+            "eventKey": "global-ramp-ai-token-spend-tracking-20260716",
+            "source": "TLDR AI",
+            "class": "A",
+            "impact": 2,
+            "volume": 1,
+            "score": 1.6,
+            "decision": "dropped",
+            "reason": "Ramp（企業支出管理fintech業者）擴增AI token支出追蹤功能，屬A類Fintech產品新聞，但僅SiliconANGLE單一來源報導、無具體金額或監理事件，影響力僅2分，綜合分數1.6未達others 2.5分門檻；且發布時間早於cover 24小時回溯窗口，亦不具cover候選資格，故淘汰。"
+          },
+          {
+            "eventKey": "global-dtcc-tokenized-markets-blackrock-jpmorgan-nyse-20260716",
+            "source": "Readwise（Tokenized newsletter, mailto轉寄）",
+            "class": null,
+            "impact": null,
+            "volume": null,
+            "score": null,
+            "decision": "dropped",
+            "reason": "主題涉及DTCC與BlackRock、JPMorgan、NYSE代幣化市場測試，方向上屬A類候選，但文件為mailto轉寄的電子報，內文僅含beehiiv追蹤重定向連結，抽不出任何可驗證的公開原始媒體連結，依規則無法收錄，未進入評分。"
+          },
+          {
+            "eventKey": "global-stripe-paypal-buyout-commentary-20260717",
+            "source": "Readwise（Titan's Take investment newsletter, mailto轉寄）",
+            "class": null,
+            "impact": null,
+            "volume": null,
+            "score": null,
+            "decision": "dropped",
+            "reason": "為既有『Stripe據傳收購PayPal』事件的投顧觀點評論文章，內容未提供超出既有context的實質新資訊，且為mailto轉寄的付費投顧通訊，內文僅含braze追蹤連結，無可驗證的公開原始媒體連結，依規則無法收錄或作為context來源。"
+          }
+        ],
+        "rejectedSummary": {
+          "total": 3,
+          "eligible": 1,
+          "ineligible": 2
+        }
+      }
+    }
+  ]
+}
