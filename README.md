@@ -95,7 +95,7 @@ Unreachable feeds are skipped; a single bad source does not fail the run.
 
 ### Adding a feed
 
-1. Add an entry to `FEEDS` in `scripts/fetch_news.py` (`scope`: `"tw"` or `"global"`; set `"digest": True` for TLDR-style digests).
+1. Add an entry to `FEEDS` in `scripts/feeds.py` (`scope`: `"tw"` or `"global"`; set `"digest": True` for TLDR-style digests).
 2. **Also** update the `SOURCES` object in `index.html` so the on-site source directory stays in sync.
 
 ---
@@ -119,7 +119,7 @@ Full rules live in [`排程任務指令.md`](./排程任務指令.md). Day bound
 Every 3-hour run writes an audit trail to `newsroom/`, so the AI's picks are reviewable:
 
 - **`newsroom/<date>.json`** — structured: for each run, per-source update counts
-  (`windowItems`) and whether each source fed a selected story (`contributed`), plus the
+  (`windowItems`) and how many of them fed a selected story (`contributed`), plus the
   scored candidate pool with each item's `decision` and a one-line `reason`.
 - **`newsroom/<date>.md`** — a readable editorial diary re-rendered from the JSON each run.
 
