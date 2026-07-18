@@ -217,6 +217,203 @@
           "ineligible": 29
         }
       }
+    },
+    {
+      "runAt": "2026-07-18T12:11:19Z",
+      "outcome": "no_change",
+      "notes": "多個 global fintech 專屬來源（Finextra、PYMNTS、Banking Dive、CoinDesk、The Block、The Fintech Times、Bankless、NYT Dealbook/Economy、Hacker News、Techmeme）本輪遭 proxy 回應 403/407 拒絕，無法抓取，大幅限縮 global 候選池；TechCrunch Fintech 於過去48小時窗口內無新項目。tw 與 global 各自僅有的 A 類候選（VASP企業穩定幣結算、XREX虛擬資產專法報導、Ramp AI token 支出追蹤功能）因僅單一來源、缺乏具體規模或連鎖效應證據，影響力與報導量綜合分數均未達 others 2.5 門檻，予以割捨；今日 cover 已鎖定，無合格新進內容，data.json 本輪無變化。",
+      "sources": [
+        {
+          "name": "Banking Dive",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Bankless",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "CoinDesk",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Finextra",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Hacker News",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Dealbook",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Economy",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Technology",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "PYMNTS",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR AI",
+          "scope": "global",
+          "windowItems": 15,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Dev",
+          "scope": "global",
+          "windowItems": 15,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TechCrunch Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Techmeme",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Block",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Fintech Times",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Yahoo 財經",
+          "scope": "tw",
+          "windowItems": 30,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（科技）",
+          "scope": "tw",
+          "windowItems": 9,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（財經）",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        },
+        {
+          "name": "公視新聞",
+          "scope": "tw",
+          "windowItems": 25,
+          "contributed": 0
+        },
+        {
+          "name": "科技新報",
+          "scope": "tw",
+          "windowItems": 40,
+          "contributed": 0
+        },
+        {
+          "name": "經濟日報",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        }
+      ],
+      "tw": {
+        "cover": {
+          "tier": "watch",
+          "headline": "拍付國際爆個資外洩，交易系統未受影響、逾500元超商票券補償用戶",
+          "eventKey": null
+        },
+        "scoredPool": [
+          {
+            "eventKey": "tw-vasp-stablecoin-settlement-20260718",
+            "source": "中央社 CNA（財經）",
+            "class": "A",
+            "impact": 2,
+            "volume": 1,
+            "score": 1.6,
+            "decision": "dropped",
+            "reason": "VASP推出企業穩定幣跨境結算服務，屬金融科技核心基礎設施，但僅中央社單一來源報導、無具體規模或連鎖效應證據，綜合分數1.6未達others 2.5門檻"
+          },
+          {
+            "eventKey": "tw-xrex-vasl-dca-bitcoin-20260718",
+            "source": "科技新報",
+            "class": "A",
+            "impact": 2,
+            "volume": 1,
+            "score": 1.6,
+            "decision": "dropped",
+            "reason": "報導台灣《虛擬資產服務法》三讀後XREX交易所定期定額比特幣配置觀察，惟原文摘要遭截斷、可用細節不足，且僅單一來源，綜合分數1.6未達others 2.5門檻"
+          }
+        ],
+        "rejectedSummary": {
+          "total": 3,
+          "eligible": 2,
+          "ineligible": 1
+        }
+      },
+      "global": {
+        "cover": {
+          "tier": "watch",
+          "headline": "Cash App攜手Square推在地訂餐，Block打造雙邊商務網路",
+          "eventKey": null
+        },
+        "scoredPool": [
+          {
+            "eventKey": "global-ramp-ai-token-spend-20260717",
+            "source": "TLDR AI",
+            "class": "A",
+            "impact": 2,
+            "volume": 1,
+            "score": 1.6,
+            "decision": "dropped",
+            "reason": "Ramp擴大AI Token支出追蹤功能，屬Fintech產品更新，但僅SiliconANGLE單一來源、非重大規模或監理事件，綜合分數1.6未達others 2.5門檻"
+          }
+        ],
+        "rejectedSummary": {
+          "total": 1,
+          "eligible": 1,
+          "ineligible": 0
+        }
+      }
     }
   ]
 }
