@@ -414,6 +414,223 @@
           "ineligible": 0
         }
       }
+    },
+    {
+      "runAt": "2026-07-18T15:12:13Z",
+      "outcome": "no_change",
+      "notes": "兩個 scope 的 cover 今日已鎖定，本輪僅評估新進 others/context。國際來源（PYMNTS、Finextra、CoinDesk、Bankless、NYT、Hacker News 等）與個別文章頁面（CNA、technews、siliconangle、hn.algolia.com）皆遭代理 403 阻擋，僅能依賴 RSS 摘要文字撰寫。複審後修正：VASP穩定幣結算候選原給 volume=2 係誤將『多家業者』的業務廣度算進報導量，改依獨立來源數重算為 volume=1，score降至2.2，未達2.5門檻，本輪最終無新進 others/context，data.json 內容不變。",
+      "sources": [
+        {
+          "name": "Banking Dive",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Bankless",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "CoinDesk",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Finextra",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Hacker News",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Dealbook",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Economy",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Technology",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "PYMNTS",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR AI",
+          "scope": "global",
+          "windowItems": 15,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Dev",
+          "scope": "global",
+          "windowItems": 15,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TechCrunch Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Techmeme",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Block",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Fintech Times",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Yahoo 財經",
+          "scope": "tw",
+          "windowItems": 30,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（科技）",
+          "scope": "tw",
+          "windowItems": 9,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（財經）",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        },
+        {
+          "name": "公視新聞",
+          "scope": "tw",
+          "windowItems": 25,
+          "contributed": 0
+        },
+        {
+          "name": "科技新報",
+          "scope": "tw",
+          "windowItems": 40,
+          "contributed": 0
+        },
+        {
+          "name": "經濟日報",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        }
+      ],
+      "tw": {
+        "cover": {
+          "tier": "watch",
+          "headline": "拍付國際爆個資外洩，交易系統未受影響、逾500元超商票券補償用戶",
+          "eventKey": null
+        },
+        "scoredPool": [
+          {
+            "eventKey": "tw-vasp-cross-border-stablecoin-settlement-20260718",
+            "source": "中央社 CNA（財經）",
+            "class": "A",
+            "impact": 3,
+            "volume": 1,
+            "score": 2.2,
+            "decision": "dropped",
+            "reason": "複審修正：僅中央社單一來源報導，報導量應依獨立來源數計為1（而非誤將『多家VASP業者』的業務廣度算入），score=3*0.6+1*0.4=2.2，未達others 2.5門檻。"
+          },
+          {
+            "eventKey": "tw-xrex-virtual-asset-act-dca-bitcoin-20260718",
+            "source": "科技新報",
+            "class": "A",
+            "impact": 2,
+            "volume": 1,
+            "score": 1.6,
+            "decision": "dropped",
+            "reason": "僅單一來源報導單一交易所的用戶配置統計，無金額規模或連鎖效應佐證，綜合分數未達2.5門檻。"
+          },
+          {
+            "eventKey": "tw-atm-facial-mask-warning-duplicate-20260718",
+            "source": "中央社 CNA（財經）",
+            "class": "A",
+            "impact": 3,
+            "volume": 2,
+            "score": 2.6,
+            "decision": "dropped",
+            "reason": "與本輪稍早已收錄之同日 others（1,600台ATM試行臉部遮蔽示警）為同一事件，數字與內容完全相同，無實質新資訊，依規則不重複收錄。"
+          },
+          {
+            "eventKey": "tw-typhoon-travel-insurance-claim-clarification-20260718",
+            "source": "中央社 CNA（財經）",
+            "class": "C",
+            "impact": null,
+            "volume": null,
+            "score": null,
+            "decision": "dropped",
+            "reason": "產險公會就旅遊不便險理賠認定發布釋疑（富邦產險/新光產物保險理賠倍數與上限調整），屬既有others事件（2026-07-14颱風理賠爭議）之實質後續，但內容為保險理賠標準行政認定，無科技/數位/基礎設施元素，屬第2節C類（同壽險理賠統計例示），且4.1節明定不得因監理機關或公會介入而收錄C類；經審查後判定即使是真實後續也不符context資格門檻，故不附加。"
+          }
+        ],
+        "rejectedSummary": {
+          "total": 61,
+          "eligible": 3,
+          "ineligible": 58
+        }
+      },
+      "global": {
+        "cover": {
+          "tier": "watch",
+          "headline": "Cash App攜手Square推在地訂餐，Block打造雙邊商務網路",
+          "eventKey": null
+        },
+        "scoredPool": [
+          {
+            "eventKey": "global-ramp-ai-token-spend-tracking-20260717",
+            "source": "TLDR AI",
+            "class": "A",
+            "impact": 2,
+            "volume": 1,
+            "score": 1.6,
+            "decision": "dropped",
+            "reason": "僅單一來源（SiliconANGLE）報導Ramp擴充AI token支出追蹤功能，無金額規模、監理或同業跟進等佐證，綜合分數未達2.5門檻。"
+          }
+        ],
+        "rejectedSummary": {
+          "total": 2,
+          "eligible": 1,
+          "ineligible": 1
+        }
+      }
     }
   ]
 }
