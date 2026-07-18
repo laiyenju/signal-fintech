@@ -68,3 +68,37 @@ def append_run(day_path, run, date):
     with open(day_path, "w", encoding="utf-8") as f:
         json.dump(day, f, ensure_ascii=False, indent=2)
     return day
+
+
+def render_markdown(day):
+    lines = [f"# {day.get('date')} 選稿日誌", ""]
+    for run in day.get("runs", []):
+        hhmm = (run.get("runAt") or "")[11:16]
+        lines.append(f"## {hhmm} UTC（{run.get('outcome')}）")
+        for scope, label in (("tw", "TW"), ("global", "Global")):
+            cover = (run.get(scope) or {}).get("cover") or {}
+            lines.append(f"**{label} 頭條**：{cover.get('headline') or '—'}"
+                         f"（{cover.get('tier') or '—'}）")
+        srcs = run.get("sources", [])
+        silent = [s["name"] for s in srcs if not s.get("windowItems")]
+        active = sorted((s for s in srcs if s.get("windowItems")),
+                        key=lambda s: -s["windowItems"])[:3]
+        lines.append("")
+        note = f"（{'、'.join(silent)}）" if silent else ""
+        lines.append(f"**資料源動態**：{len(srcs)} 源、{len(silent)} 源靜默{note}。")
+        if active:
+            lines.append("最活躍：" +
+                         "、".join(f"{s['name']}({s['windowItems']})" for s in active) + "。")
+        for scope, label in (("tw", "TW"), ("global", "Global")):
+            pool = (run.get(scope) or {}).get("scoredPool") or []
+            if not pool:
+                continue
+            lines += ["", f"**編輯決策（{label}）**"]
+            for e in pool:
+                tag = DECISION_LABEL.get(e.get("decision"), e.get("decision"))
+                lines.append(f"- {tag}　{e.get('eventKey')} score {e.get('score')}"
+                             f" — {e.get('reason', '')}")
+        if run.get("notes"):
+            lines += ["", f"_編輯註記：{run['notes']}_"]
+        lines += ["", "---", ""]
+    return "\n".join(lines)

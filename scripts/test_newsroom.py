@@ -54,3 +54,24 @@ def test_append_run_idempotent_and_sorted():
         assert on_disk == day
     finally:
         shutil.rmtree(d)
+
+
+def test_render_markdown_contains_key_facts():
+    from newsroom import render_markdown
+    day = {"date": "2026-07-18", "runs": [{
+        "runAt": "2026-07-18T05:00:00Z", "outcome": "published", "notes": "重點在支付",
+        "sources": [{"name": "A", "scope": "tw", "windowItems": 6, "contributed": 1},
+                    {"name": "靜默源", "scope": "tw", "windowItems": 0, "contributed": 0}],
+        "tw": {"cover": {"tier": "top", "headline": "支付大新聞", "eventKey": "e1"},
+               "scoredPool": [{"eventKey": "e1", "score": 3.6, "decision": "cover", "reason": "最高分 A"},
+                              {"eventKey": "e2", "score": 2.1, "decision": "dropped", "reason": "未達 2.5"}],
+               "rejectedSummary": {}},
+        "global": {"cover": {"tier": "watch", "headline": None, "eventKey": None},
+                   "scoredPool": [], "rejectedSummary": {}}}]}
+    md = render_markdown(day)
+    assert "# 2026-07-18 選稿日誌" in md
+    assert "05:00 UTC" in md and "published" in md
+    assert "支付大新聞" in md            # 頭條
+    assert "靜默源" in md                # 靜默源被點名
+    assert "e2" in md and "未達 2.5" in md  # 落選項與理由都在
+    assert "重點在支付" in md            # 編輯註記
