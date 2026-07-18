@@ -1,6 +1,6 @@
-import sys, os
+import sys, os, json, tempfile, shutil
 sys.path.insert(0, os.path.dirname(__file__))
-from newsroom import source_activity, build_run
+from newsroom import source_activity, build_run, append_run
 
 def test_source_activity_counts_silent_and_dropped():
     feeds = [{"name": "A", "scope": "tw"}, {"name": "Silent", "scope": "tw"}]
@@ -35,3 +35,22 @@ def test_build_run_shape():
     assert len(run["tw"]["scoredPool"]) == 2
     assert run["tw"]["rejectedSummary"]["eligible"] == 2
     assert isinstance(run["sources"], list)
+
+
+def test_append_run_idempotent_and_sorted():
+    d = tempfile.mkdtemp()
+    try:
+        p = os.path.join(d, "2026-07-18.json")
+        r1 = {"runAt": "2026-07-18T08:00:00Z", "outcome": "published"}
+        r0 = {"runAt": "2026-07-18T05:00:00Z", "outcome": "no_change"}
+        append_run(p, r1, "2026-07-18")
+        append_run(p, r0, "2026-07-18")           # 較早時戳，應排在前
+        day = append_run(p, dict(r1, outcome="fail_safe"), "2026-07-18")  # 同 runAt → 取代非新增
+        assert day["date"] == "2026-07-18"
+        assert [r["runAt"] for r in day["runs"]] == \
+               ["2026-07-18T05:00:00Z", "2026-07-18T08:00:00Z"]
+        assert day["runs"][1]["outcome"] == "fail_safe"   # 被取代
+        on_disk = json.load(open(p, encoding="utf-8"))
+        assert on_disk == day
+    finally:
+        shutil.rmtree(d)

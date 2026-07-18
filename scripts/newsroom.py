@@ -49,3 +49,22 @@ def build_run(meta, candidate, raw_items, feeds=FEEDS):
             "scoredPool": m.get("scoredPool") or [],
             "rejectedSummary": m.get("rejectedSummary") or {}}
     return run
+
+
+def append_run(day_path, run, date):
+    if os.path.exists(day_path):
+        with open(day_path, encoding="utf-8") as f:
+            day = json.load(f)
+        if not isinstance(day, dict):
+            day = {}
+    else:
+        day = {}
+    day["date"] = date
+    runs = [r for r in day.get("runs", [])
+            if isinstance(r, dict) and r.get("runAt") != run.get("runAt")]
+    runs.append(run)
+    runs.sort(key=lambda r: r.get("runAt") or "")
+    day["runs"] = runs
+    with open(day_path, "w", encoding="utf-8") as f:
+        json.dump(day, f, ensure_ascii=False, indent=2)
+    return day
