@@ -102,3 +102,60 @@ def render_markdown(day):
             lines += ["", f"_編輯註記：{run['notes']}_"]
         lines += ["", "---", ""]
     return "\n".join(lines)
+
+
+def main(argv):
+    with open(argv[1], encoding="utf-8") as f:
+        meta = json.load(f)
+    with open(argv[2], encoding="utf-8") as f:
+        candidate = json.load(f)
+    with open(argv[3], encoding="utf-8") as f:
+        raw_items = json.load(f)
+    outcome = argv[4] if len(argv) > 4 else meta.get("outcome")
+    meta["outcome"] = outcome
+    today = meta.get("today")
+    os.makedirs("newsroom", exist_ok=True)
+    day_path = os.path.join("newsroom", f"{today}.json")
+    run = build_run(meta, candidate, raw_items)
+    run["outcome"] = outcome
+    day = append_run(day_path, run, today)
+    md_path = os.path.join("newsroom", f"{today}.md")
+    with open(md_path, "w", encoding="utf-8") as f:
+        f.write(render_markdown(day))
+    print(f"[newsroom] {today} {run.get('runAt')} ({outcome}) → {len(day['runs'])} runs, "
+          f"{day_path} + {md_path}")
+    return 0
+
+
+def demo():
+    import tempfile, shutil
+    feeds = [{"name": "A", "scope": "tw"}, {"name": "Silent", "scope": "tw"}]
+    raw = [{"source": "A", "scope": "tw"}]
+    meta = {"today": "2026-07-18", "runAt": "2026-07-18T05:00:00Z", "outcome": "published",
+            "notes": "n",
+            "tw": {"newItems": [], "scoredPool": [
+                {"eventKey": "e1", "source": "A", "score": 3.6, "decision": "cover", "reason": "最高分"}]},
+            "global": {"newItems": [], "scoredPool": []}}
+    cand = {"tw": {"cover": {"tier": "top", "title": "標題"}},
+            "global": {"cover": {"tier": "watch", "title": "g"}}}
+    sa = {s["name"]: (s["windowItems"], s["contributed"]) for s in source_activity(raw, meta, feeds)}
+    assert sa == {"A": (1, 1), "Silent": (0, 0)}, sa
+    run = build_run(meta, cand, raw, feeds)
+    run["outcome"] = "published"
+    d = tempfile.mkdtemp()
+    try:
+        p = os.path.join(d, "day.json")
+        append_run(p, run, "2026-07-18")
+        day = append_run(p, run, "2026-07-18")   # 同 runAt 不重複
+        assert len(day["runs"]) == 1
+        md = render_markdown(day)
+        assert "標題" in md and "e1" in md and "最高分" in md
+    finally:
+        shutil.rmtree(d)
+    print("newsroom demo OK")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        sys.exit(main(sys.argv))
+    demo()
