@@ -25,3 +25,27 @@ def source_activity(raw_items, meta, feeds=FEEDS):
             "contributed": contrib.get(f["name"], 0)} for f in feeds]
     out.sort(key=lambda s: (s["scope"], s["name"]))
     return out
+
+
+def _cover_key(scope_meta):
+    for e in (scope_meta.get("scoredPool") or []):
+        if isinstance(e, dict) and e.get("decision") == "cover":
+            return e.get("eventKey")
+    return None
+
+
+def build_run(meta, candidate, raw_items, feeds=FEEDS):
+    run = {"runAt": meta.get("runAt"), "outcome": meta.get("outcome"),
+           "notes": meta.get("notes", "") or "",
+           "sources": source_activity(raw_items, meta, feeds)}
+    cand = candidate if isinstance(candidate, dict) else {}
+    for scope in ("tw", "global"):
+        m = meta.get(scope) or {}
+        cover = (cand.get(scope) or {}).get("cover") or {}
+        run[scope] = {
+            "cover": {"tier": cover.get("tier"),
+                      "headline": cover.get("title"),
+                      "eventKey": _cover_key(m)},
+            "scoredPool": m.get("scoredPool") or [],
+            "rejectedSummary": m.get("rejectedSummary") or {}}
+    return run

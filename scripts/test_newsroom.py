@@ -1,6 +1,6 @@
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
-from newsroom import source_activity
+from newsroom import source_activity, build_run
 
 def test_source_activity_counts_silent_and_dropped():
     feeds = [{"name": "A", "scope": "tw"}, {"name": "Silent", "scope": "tw"}]
@@ -14,3 +14,24 @@ def test_source_activity_counts_silent_and_dropped():
     assert got["A"]["contributed"] == 1          # dropped 不算
     assert got["Silent"]["windowItems"] == 0     # 沒更新的源仍列出
     assert got["Silent"]["contributed"] == 0
+
+
+def _meta():
+    return {"today": "2026-07-18", "runAt": "2026-07-18T05:00:00Z",
+            "outcome": "published", "notes": "本輪重點在支付",
+            "tw": {"newItems": [], "scoredPool": [
+                {"eventKey": "e1", "source": "A", "score": 3.6, "decision": "cover", "reason": "最高分 A"},
+                {"eventKey": "e2", "source": "A", "score": 2.1, "decision": "dropped", "reason": "未達 2.5"}],
+                "rejectedSummary": {"total": 10, "eligible": 2, "ineligible": 8}},
+            "global": {"newItems": [], "scoredPool": []}}
+
+def test_build_run_shape():
+    cand = {"tw": {"cover": {"tier": "top", "title": "支付大新聞"}},
+            "global": {"cover": {"tier": "watch", "title": "g"}}}
+    run = build_run(_meta(), cand, [{"source": "A", "scope": "tw"}])
+    assert run["runAt"] == "2026-07-18T05:00:00Z"
+    assert run["notes"] == "本輪重點在支付"
+    assert run["tw"]["cover"] == {"tier": "top", "headline": "支付大新聞", "eventKey": "e1"}
+    assert len(run["tw"]["scoredPool"]) == 2
+    assert run["tw"]["rejectedSummary"]["eligible"] == 2
+    assert isinstance(run["sources"], list)
