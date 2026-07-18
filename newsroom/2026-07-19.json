@@ -257,6 +257,193 @@
           "ineligible": 2
         }
       }
+    },
+    {
+      "runAt": "2026-07-18T21:08:58Z",
+      "outcome": "no_change",
+      "notes": "本輪台灣與全球候選新聞均未發現符合資格的全新事件：XREX虛擬資產專法報導屬單一來源之交易所行銷性數據（C類）、Pi拍錢包資安事故後續為既有事件之重複報導無實質新資訊、旅遊不便險理賠從寬認定雖含具體新結論（1.2倍上限、溯及4月）但屬純保險理賠條款調整、無科技或數位產品要素，依規則屬C類，C類不得作為既有事件的context收錄，Ramp代幣支出追蹤功能僅單一來源且影響力未達收錄門檻；兩個scope的cover均已於今日鎖定，data.json本輪無變動。",
+      "sources": [
+        {
+          "name": "Banking Dive",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Bankless",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "CoinDesk",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Finextra",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Hacker News",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Dealbook",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Economy",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Technology",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "PYMNTS",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR AI",
+          "scope": "global",
+          "windowItems": 15,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Dev",
+          "scope": "global",
+          "windowItems": 15,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TechCrunch Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Techmeme",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Block",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Fintech Times",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Yahoo 財經",
+          "scope": "tw",
+          "windowItems": 30,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（科技）",
+          "scope": "tw",
+          "windowItems": 9,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（財經）",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        },
+        {
+          "name": "公視新聞",
+          "scope": "tw",
+          "windowItems": 25,
+          "contributed": 0
+        },
+        {
+          "name": "科技新報",
+          "scope": "tw",
+          "windowItems": 40,
+          "contributed": 0
+        },
+        {
+          "name": "經濟日報",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        }
+      ],
+      "tw": {
+        "cover": {
+          "tier": "watch",
+          "headline": "台廠跨境金流新解方，VASP搶進企業穩定幣結算服務",
+          "eventKey": null
+        },
+        "scoredPool": [
+          {
+            "eventKey": "paifu-pi-card-wallet-breach-followup",
+            "source": "公視新聞",
+            "class": "A",
+            "impact": 2,
+            "volume": 1,
+            "score": 1.6,
+            "decision": "dropped",
+            "reason": "與既有「拍付國際爆個資外洩」事件（已收錄於context）完全相同，內容為2019/2022會員個資外洩、消基會批評補償標準過低，無任何實質新資訊，判定為重複報導略過。"
+          }
+        ],
+        "rejectedSummary": {
+          "total": 3,
+          "eligible": 1,
+          "ineligible": 2
+        }
+      },
+      "global": {
+        "cover": {
+          "tier": "watch",
+          "headline": "本日觀察：本輪未發現符合資格的全球金融科技新聞候選",
+          "eventKey": null
+        },
+        "scoredPool": [
+          {
+            "eventKey": "ramp-ai-token-spend-tracking",
+            "source": "TLDR AI",
+            "class": "A",
+            "impact": 2,
+            "volume": 1,
+            "score": 1.6,
+            "decision": "dropped",
+            "reason": "Ramp擴大AI代幣支出追蹤功能，屬既有產品的功能擴充而非重大事件，且僅SiliconAngle單一來源報導，綜合分數1.6未達others收錄門檻2.5分。"
+          }
+        ],
+        "rejectedSummary": {
+          "total": 1,
+          "eligible": 1,
+          "ineligible": 0
+        }
+      }
     }
   ]
 }
