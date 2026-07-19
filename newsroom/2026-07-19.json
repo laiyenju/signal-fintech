@@ -444,6 +444,171 @@
           "ineligible": 0
         }
       }
+    },
+    {
+      "runAt": "2026-07-19T00:09:08Z",
+      "outcome": "no_change",
+      "notes": "本輪RSS取得143則tw候選，但多為台股大盤、半導體與地緣政治等C類新聞；已鎖定之VASP企業穩定幣結算cover與ATM遮臉示警others僅是既有事件重複報導。XREX虛擬資產定期定額統計（純交易熱度）、旅遊不便險理賠上限調整、青安3.0房貸攻略等3則屬既有事件後續或無科技要素，判定C類不予收錄。Global scope本輪RSS多數來源遭網路政策阻擋、TechCrunch最新報導已逾48小時窗口、TLDR最新一期未落入窗口，Readwise Reader 18則候選亦均非金融科技核心主題，故兩scope均無合格新進內容，data.json維持原狀。",
+      "sources": [
+        {
+          "name": "Banking Dive",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Bankless",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "CoinDesk",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Finextra",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Hacker News",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Dealbook",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Economy",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Technology",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "PYMNTS",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR AI",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Dev",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TechCrunch Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Techmeme",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Block",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Fintech Times",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Yahoo 財經",
+          "scope": "tw",
+          "windowItems": 29,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（科技）",
+          "scope": "tw",
+          "windowItems": 9,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（財經）",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        },
+        {
+          "name": "公視新聞",
+          "scope": "tw",
+          "windowItems": 25,
+          "contributed": 0
+        },
+        {
+          "name": "科技新報",
+          "scope": "tw",
+          "windowItems": 40,
+          "contributed": 0
+        },
+        {
+          "name": "經濟日報",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        }
+      ],
+      "tw": {
+        "cover": {
+          "tier": "watch",
+          "headline": "台廠跨境金流新解方，VASP搶進企業穩定幣結算服務",
+          "eventKey": null
+        },
+        "scoredPool": [],
+        "rejectedSummary": {
+          "total": 3,
+          "eligible": 0,
+          "ineligible": 3
+        }
+      },
+      "global": {
+        "cover": {
+          "tier": "watch",
+          "headline": "本日觀察：本輪未發現符合資格的全球金融科技新聞候選",
+          "eventKey": null
+        },
+        "scoredPool": [],
+        "rejectedSummary": {
+          "total": 0,
+          "eligible": 0,
+          "ineligible": 0
+        }
+      }
     }
   ]
 }
