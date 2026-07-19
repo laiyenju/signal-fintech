@@ -88,7 +88,7 @@ Full cloud setup: see [`設定步驟.md`](./設定步驟.md).
 
 **Digests** — TLDR Fintech / AI / Dev. RSS items are issue titles only, so the fetcher opens each issue page and **explodes it into individual stories** (headline, blurb, original outlet URL). Stories compete like any other candidate and are credited to the **original outlet**, never TLDR.
 
-**Readwise Reader** (routine step, optional) — last 48h of the owner's Reader feed (RSS + email newsletters). Covers sources plain RSS can't reach. Only public URLs may be cited; paid-newsletter body is reference-only and never republished. If the connector fails, the run continues without it.
+**Readwise Reader** (routine step, optional) — last 48h of the owner's Reader feed (RSS + email newsletters). Covers sources plain RSS can't reach. Email (`mailto:`) newsletters are now eligible: cite the story's original outlet link when the body contains one, otherwise the newsletter's own public "read online" link (credited to that newsletter). Only real public URLs — paid-newsletter body stays reference-only and is never republished. If the connector fails, the run continues without it.
 
 **Social** — after selection, the routine matches each new story via the Algolia Hacker News Search API (free, keyless). No matching thread → empty social section (never fabricated). **HN only** today; X and Reddit are not wired.
 
