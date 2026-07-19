@@ -33,7 +33,8 @@ Claude Code cloud routine (every 3 hours)
     -> both pass -> overwrite data.json, open PR from claude/* branch, merge into main
        any fail  -> fix loop (max 3); still failing -> keep old data.json, report
     -> every run (incl. no-change / fail-safe): scripts/newsroom.py appends
-       newsroom/<date>.json + renders newsroom/<date>.md (selection audit log), commits it
+       <date>.json + renders <date>.md (selection audit log) into the GitHub
+       Wiki repo (NEWSROOM_DIR), pushed directly — kept out of the main repo
 GitHub Pages
     -> deploys main on every push
 Browser
@@ -116,12 +117,16 @@ Full rules live in [`排程任務指令.md`](./排程任務指令.md). Day bound
 
 ## Selection log (newsroom)
 
-Every 3-hour run writes an audit trail to `newsroom/`, so the AI's picks are reviewable:
+Every 3-hour run writes an audit trail to the **GitHub Wiki** (the
+`signal-fintech.wiki.git` repo, one page per day), kept out of the main repo so
+daily logs never bloat it. The routine sets `NEWSROOM_DIR` to a wiki clone and
+pushes it directly (no PR). The AI's picks stay reviewable:
 
-- **`newsroom/<date>.json`** — structured: for each run, per-source update counts
+- **`<date>.json`** — structured: for each run, per-source update counts
   (`windowItems`) and how many of them fed a selected story (`contributed`), plus the
   scored candidate pool with each item's `decision` and a one-line `reason`.
-- **`newsroom/<date>.md`** — a readable editorial diary re-rendered from the JSON each run.
+- **`<date>.md`** — a readable editorial diary re-rendered from the JSON each run
+  (browsable as a Wiki page).
 
 Logged on **every** run, including no-change and fail-safe runs. `contributed` staying 0
 while `windowItems` stays high over time flags a feed worth dropping.
@@ -145,9 +150,9 @@ data.json               Published content (updated by the routine)
 scripts/fetch_news.py   RSS fetcher → scripts/raw_items.json (no AI)
 scripts/raw_items.json  Last fetch output (generated)
 scripts/feeds.py        Canonical feed roster (imported by fetch_news + newsroom)
-scripts/newsroom.py     Renders the per-run selection log
-newsroom/<date>.json    Structured selection record, one entry per run (committed)
-newsroom/<date>.md      Human-readable editorial diary, re-rendered each run
+scripts/newsroom.py     Renders the per-run selection log (into $NEWSROOM_DIR)
+(wiki) <date>.json      Structured selection record, one entry per run (pushed to Wiki)
+(wiki) <date>.md        Human-readable editorial diary, re-rendered each run (Wiki page)
 排程任務指令.md            Routine prompt (selection, rewrite, commit) — Chinese
 設定步驟.md                One-time setup (repo, Pages, routine) — Chinese
 ```

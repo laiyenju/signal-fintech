@@ -2,7 +2,8 @@
 用法（排程任務每輪呼叫一次）：
     python scripts/newsroom.py candidate.meta.json candidate.json scripts/raw_items.json <outcome>
     <outcome> = published | no_change | fail_safe
-輸出：newsroom/<today>.json（append 一筆 run）與 newsroom/<today>.md（完整重繪）。"""
+輸出：$NEWSROOM_DIR/<today>.json（append 一筆 run）與 <today>.md（完整重繪）。
+$NEWSROOM_DIR 預設 "newsroom"；排程時指向 wiki clone 目錄。"""
 import json, os, sys
 from collections import Counter
 from feeds import FEEDS
@@ -116,12 +117,13 @@ def main(argv):
     outcome = argv[4] if len(argv) > 4 else meta.get("outcome")
     meta["outcome"] = outcome
     today = meta.get("today")
-    os.makedirs("newsroom", exist_ok=True)
-    day_path = os.path.join("newsroom", f"{today}.json")
+    base = os.environ.get("NEWSROOM_DIR", "newsroom")  # 排程指向 wiki clone；本機/測試預設 newsroom
+    os.makedirs(base, exist_ok=True)
+    day_path = os.path.join(base, f"{today}.json")
     run = build_run(meta, candidate, raw_items)
     run["outcome"] = outcome
     day = append_run(day_path, run, today)
-    md_path = os.path.join("newsroom", f"{today}.md")
+    md_path = os.path.join(base, f"{today}.md")
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(render_markdown(day))
     print(f"[newsroom] {today} {run.get('runAt')} ({outcome}) → {len(day['runs'])} runs, "
