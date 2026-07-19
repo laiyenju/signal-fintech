@@ -609,6 +609,182 @@
           "ineligible": 0
         }
       }
+    },
+    {
+      "runAt": "2026-07-19T03:11:19Z",
+      "outcome": "no_change",
+      "notes": "tw、global 兩個 scope 的 cover 皆已於今日鎖定，維持既有內容；本輪重新抓取 RSS 後，多數項目為既有 cover／others／context 的重複報導，唯一新事件（XREX 談虛擬資產服務法三讀與定期定額比特幣配置比例）因單一來源、原文無法讀取且細節不足，評分未達 others 門檻而不予收錄；Readwise Reader 本輪 feed 文件亦無金融科技相關且可用之公開候選。",
+      "sources": [
+        {
+          "name": "Banking Dive",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Bankless",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "CoinDesk",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Finextra",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Hacker News",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Dealbook",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Economy",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "NYT Technology",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "PYMNTS",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR AI",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Dev",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TLDR Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "TechCrunch Fintech",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Techmeme",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Block",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "The Fintech Times",
+          "scope": "global",
+          "windowItems": 0,
+          "contributed": 0
+        },
+        {
+          "name": "Yahoo 財經",
+          "scope": "tw",
+          "windowItems": 30,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（科技）",
+          "scope": "tw",
+          "windowItems": 8,
+          "contributed": 0
+        },
+        {
+          "name": "中央社 CNA（財經）",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        },
+        {
+          "name": "公視新聞",
+          "scope": "tw",
+          "windowItems": 25,
+          "contributed": 0
+        },
+        {
+          "name": "科技新報",
+          "scope": "tw",
+          "windowItems": 40,
+          "contributed": 0
+        },
+        {
+          "name": "經濟日報",
+          "scope": "tw",
+          "windowItems": 20,
+          "contributed": 0
+        }
+      ],
+      "tw": {
+        "cover": {
+          "tier": "watch",
+          "headline": "台廠跨境金流新解方，VASP搶進企業穩定幣結算服務",
+          "eventKey": null
+        },
+        "scoredPool": [
+          {
+            "eventKey": "tw-xrex-virtual-asset-service-act-2026-07-18",
+            "source": "科技新報",
+            "class": "A",
+            "impact": 3,
+            "volume": 1,
+            "score": 2.2,
+            "decision": "dropped",
+            "reason": "僅科技新報單一來源報導，原文因網路限制無法讀取、RSS摘要於關鍵處被截斷，且內容偏向交易所自報之定期定額比特幣配置比例統計，法案具體條文與影響規模等細節均無法查證；評分2.2未達others 2.5門檻，且證據不足以支撐更高影響力分數，予以捨棄。"
+          }
+        ],
+        "rejectedSummary": {
+          "total": 5,
+          "eligible": 1,
+          "ineligible": 4
+        }
+      },
+      "global": {
+        "cover": {
+          "tier": "watch",
+          "headline": "本日觀察：本輪未發現符合資格的全球金融科技新聞候選",
+          "eventKey": null
+        },
+        "scoredPool": [],
+        "rejectedSummary": {
+          "total": 0,
+          "eligible": 0,
+          "ineligible": 0
+        }
+      }
     }
   ]
 }
