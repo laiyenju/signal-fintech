@@ -638,6 +638,40 @@
       },
       {
         "date": "2026-07-16",
+        "title": "DTCC實測代幣化股票與美債交易，貝萊德、摩根大通等近40家機構參與、10月正式上線",
+        "paras": [
+          "金融科技電子報Fintech Brainfood本週號彙整、引述《華爾街日報》（WSJ）報導指出，包含貝萊德（BlackRock）、摩根大通（JPMorgan）、高盛（Goldman Sachs）與紐約證券交易所（NYSE）在內、近40家機構，透過美國證券集中保管結算機構DTCC（Depository Trust & Clearing Corporation）實測代幣化（tokenized）股票與美國公債交易；摩根大通將QQQ ETF股份轉為代幣後再轉回，示範可在正式環境完成代幣化與逆向贖回，發行相關ETF的Vanguard與Invesco也參與其中。首批標的包括微軟（Microsoft）股票、Circle股票、QQQ、SPY、SGOV，以及不同天期的美國公債，並在美國證券交易委員會（SEC）三年期不採取行動函（no-action letter）下、於Hyperledger Besu與Canton兩條區塊鏈完成結算，預計今年10月正式上線。",
+          "報導指出，DTCC是美股所有權登錄的核心基礎設施，保管約114兆美元的美國證券、去年處理達4.7千兆（quadrillion）美元交易，此次被形容為1970年代華爾街將紙本股票憑證電子化以來、這套結算基礎設施最大的一次變革；DTCC做的是「數位分身」（digital twin）——代幣在鏈上流通、過戶代理人仍保有法定登錄。初期應用聚焦擔保品移轉、附買回（repo）與保證金，摩根大通已實際以代幣化資產支應芝加哥商品交易所（CME）的追繳保證金。由於本則內容僅來自單一金融科技電子報的彙整轉述，實際參與機構名單與後續上線細節仍待更多原始報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Yahoo Finance",
+            "title": "DTCC executes first live trades of tokenized stocks and US Treasuries",
+            "url": "https://finance.yahoo.com/markets/crypto/articles/dtcc-executes-first-live-trades-175751804.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-16",
+        "title": "Visa推出穩定幣平台VSP，開放銀行自行鑄造與贖回數位美元Open USD",
+        "paras": [
+          "金融科技電子報Fintech Brainfood彙整、引述Visa公告指出，支付網路巨頭Visa推出「Visa Stablecoin Platform」（VSP，Visa穩定幣平台），提供由Visa統一管理的環境，讓金融機構、金融科技業者與加密原生業者可鑄造（mint）、銷毀（burn）、持有與移轉穩定幣（stablecoin），首波支援Open USD（OUSD）。平台同時推出「錢包即服務」（Wallet-as-a-Service），並內建雙人覆核（銀行「四眼原則」）、可設定允許移轉對象的白名單（allowlist）與完整稽核紀錄；銀行只需連結一個銀行帳戶、設定核准政策，即可在既有的Visa關係下，把OUSD的鑄造與贖回納入資金調度、清算與流動性作業，目前平台正與部分客戶進行beta測試。",
+          "報導指出，Open USD是Open Standard聯盟推出的穩定幣，合作夥伴逾140家、包含Visa與Mastercard，預計今年稍晚上線；VSP主打改善傳統清算的痛點——電匯有截止時間、假日不運作，跨境還需經過速度較慢的通匯銀行，而以OUSD鑄造清算可轉為全年無休、全天候的鏈上移轉。此外，相較現有穩定幣多由發行商賺取準備金孳息，Open USD規劃將大部分孳息回饋給負責鑄造與分銷的夥伴，等於讓銀行持有的清算餘額也能生息。不過報導也提到，銀行在資產負債表上如何認列OUSD餘額（是否視為約當現金）等會計與資本處理，將牽動這類穩定幣清算的規模，仍有待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "Visa",
+            "title": "Visa Introduces Platform for Stablecoin Minting, Movement and Management",
+            "url": "https://investor.visa.com/news/news-details/2026/Visa-Introduces-Platform-for-Stablecoin-Minting-Movement-and-Management/default.aspx"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-16",
         "title": "Stripe據傳攜手Advent International，出價逾530億美元收購PayPal",
         "paras": [
           "TechCrunch報導，數位支付公司Stripe據傳已與私募股權公司Advent International攜手，向同業PayPal提出收購要約，交易對價約534億美元（約每股60.50美元，較前一交易日收盤價溢價約28%），目前已取得500億美元銀行融資承諾；若交易完成，將整合數位支付產業兩大龍頭。報導指出，Stripe近期才以逾1,590億美元估值完成公開收購要約，市值已遠高於PayPal，這次出手併購PayPal，被視為Stripe跨入消費端支付市場的重要一步。",
@@ -722,5 +756,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-19T09:12:35Z"
+  "_generated_at": "2026-07-19T15:12:10Z"
 }
