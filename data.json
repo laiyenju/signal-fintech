@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "tier": "watch",
       "title": "本日觀察：本輪未發現符合資格的台灣金融科技新聞新候選",
       "paras": [
-        "本輪（台灣時間2026年7月20日凌晨）執行時，RSS來源共取得136則台灣財經與科技候選新聞，但內容高度集中在台股與韓股槓桿ETF連動重挫、半導體與能源等一般財經與產業題材；真正以金融科技為核心的候選，多屬既有內容的後續（如日本收單業者「全東信」破產後續、颱風旅遊不便險理賠從寬認定），或屬一般金融、交易行為統計等C類，均不符合本輪新收錄資格。",
-        "依「寧缺勿濫」原則，本輪台灣scope未發現可擔任新cover的A類新進金融科技新聞，故誠實維持「本日觀察」狀態，不以B類或C類新聞替代。前一則watch cover（台廠VASP企業穩定幣結算服務）因跨日已依規完整轉存為others保留；兩則超過7天的舊項目（台股5月銀行未實現利得、以房養老核貸統計）則依7天滾動移除，其餘既有others與其context均維持不變。"
+        "本輪（台灣時間2026年7月21日凌晨）執行時，RSS來源共取得142則台灣財經與科技候選新聞，但內容高度集中在台股上沖下洗與被動元件、散熱、矽晶圓等半導體個股表現，以及能源ETF、青安房貸、空屋與房市信心等一般財經題材；少數與保險或金流沾邊的新候選（如富邦產旅遊不便險理賠改以最後一天住宿為基準、南山人壽熱傷害保單、韓股槓桿ETF後續與金融教育統計、歐盟對阿里全球速賣通開罰等），核心皆非科技、數位產品或新型金融基礎設施，屬一般金融或財經新聞（C類），不符合本輪新收錄資格。",
+        "依「寧缺勿濫」原則，本輪台灣scope未發現可擔任新cover的A類新進金融科技新聞，故誠實維持「本日觀察」狀態，不以B類或C類新聞替代。前一則cover同為「無合格新聞」的狀態型本日觀察（來源為空），依規不轉存為others；兩則已超過7天的舊others（國安基金史上最長護盤結算、金管會核准玉山金收購三商美邦人壽）依7天滾動移除，其餘既有others與其context均維持不變。"
       ]
     },
     "sources": [],
@@ -503,69 +503,26 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-13",
-        "title": "金管會核准玉山金收購三商美邦人壽100%股權，8月19日下市前最後交易",
-        "paras": [
-          "經濟日報、Yahoo 財經與中央社財經同步報導，金管會（Financial Supervisory Commission, FSC）7月7日核准玉山金控以股份轉換（share swap）方式取得三商美邦人壽100%股權，三商美邦人壽13日進一步公告，股票最後交易日訂為8月19日，股份轉換基準日為9月1日，並將依相關法令向台灣證券交易所申請於股份轉換基準日終止上市。",
-          "這起收購案完成後，三商美邦人壽將自資本市場下市，正式併入玉山金控旗下，是金管會近期核准的金控併購保險公司案例之一，反映台灣金控集團持續透過併購擴大保險業務版圖；由於目前僅見公告內容被各媒體同步引述報導，後續整合細節仍待官方進一步揭露。"
-        ],
-        "sources": [
-          {
-            "name": "經濟日報",
-            "title": "三商美邦人壽9月1日終止上市　8月19日為股票最後交易日",
-            "url": "https://money.udn.com/money/story/5613/9625280"
-          },
-          {
-            "name": "Yahoo 財經",
-            "title": "三商美邦人壽9/1終止上市　8/19為股票最後交易日",
-            "url": "https://tw.news.yahoo.com/%E4%B8%89%E5%95%86%E7%BE%8E%E9%82%A6%E4%BA%BA%E5%A3%BD9-1%E7%B5%82%E6%AD%A2%E4%B8%8A%E5%B8%82-8-19%E7%82%BA%E8%82%A1%E7%A5%A8%E6%9C%80%E5%BE%8C%E4%BA%A4%E6%98%93%E6%97%A5-112731654.html"
-          },
-          {
-            "name": "中央社 CNA（財經）",
-            "title": "三商美邦人壽9/1終止上市　8/19為股票最後交易日",
-            "url": "https://www.cna.com.tw/news/afe/202607130297.aspx"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-13",
-        "title": "國安基金史上最長一次護盤結算，淨利99.32億元、報酬率81%",
-        "paras": [
-          "Yahoo 財經與中央社財經報導，國家金融安定基金（國安基金）13日公布第9次執行安定股市任務的最終成果：基金自2025年進場護盤，期間動用資金新台幣122.5億元，至2026年5月6日全數出清持股、正式退場，累計創造淨利99.32億元，報酬率約81%，是歷來耗時最長的一次護盤行動。",
-          "國安基金表示，進場期間成功穩定市場信心，退場過程也未對台股造成明顯衝擊；後續將持續密切關注整體政經情勢，適時依相關規定評估是否再度採行必要措施因應。這次結算績效也在網路上引發討論，但因相關留言出現在新聞網站留言區、而非 X／Reddit／Hacker News 等社群平台，未列入本則社群討論摘錄。"
-        ],
-        "sources": [
-          {
-            "name": "Yahoo 財經",
-            "title": "國安基金護盤超狂績效曝光　報酬率81%！國庫大賺近百億",
-            "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E8%AD%B7%E7%9B%A4%E8%B6%85%E7%8B%82%E7%B8%BE%E6%95%88%E6%9B%9D%E5%85%89-%E5%A0%B1%E9%85%AC%E7%8E%8781-%E5%9C%8B%E5%BA%AB%E5%A4%A7%E8%B3%BA%E8%BF%91%E7%99%BE%E5%84%84-113221347.html"
-          },
-          {
-            "name": "中央社 CNA（財經）",
-            "title": "國安基金持股全數出清　淨利99.32億報酬率81%",
-            "url": "https://www.cna.com.tw/news/afe/202607130288.aspx"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-07-20",
-      "tier": "watch",
-      "title": "本日觀察：本輪未發現符合資格的全球金融科技新聞候選",
+      "date": "2026-07-21",
+      "tier": "top",
+      "title": "Citadel Securities砸4億美元投資Crypto.com，以200億美元估值搶進加密市場基礎設施",
       "paras": [
-        "本輪（台灣時間2026年7月20日凌晨）執行時，原訂閱的全球金融科技RSS來源（Finextra、PYMNTS、Banking Dive、The Fintech Times、CoinDesk、The Block、TechCrunch、TLDR Fintech等）多因所在執行環境的網路政策限制回傳403而無法連線，或最新一期落在48小時擷取窗口之外，本輪未能取得任何全球RSS候選新聞。",
-        "Readwise Reader中本輪新增文件涉及金融科技者，僅有Fintech Brainfood最新一期（2026年7月19日），其三則重點—Stripe聯手Advent約534億美元收購PayPal、DTCC代幣化股票與美債實測、Kalshi推出GPU運算力遠期曲線—均已在global others收錄；且該電子報內文連結全為beehiiv追蹤連結，無法抽出可驗證的公開原始媒體連結，依規不得新增或改寫。因此本輪「全球」scope誠實維持「本日觀察」狀態，既有others清單（日期均在7天內）全數保留不變。"
+        "The Block報導，美國造市與交易巨頭Citadel Securities對加密貨幣交易所Crypto.com進行4億美元（US$400M）策略性投資，交易以200億美元（US$20B）估值進行，是Crypto.com首次機構融資輪（first institutional funding round）；Crypto.com表示，將運用這筆資金擴展代幣化證券（tokenized securities）與衍生性商品（derivatives）業務。",
+        "報導指出，這筆交易同時凸顯Citadel Securities持續加大對加密市場基礎設施（crypto market infrastructure）的布局——此前已陸續投資Kraken、Ripple、Canton等機構級數位資產平台。由於目前僅見The Block單一來源報導，具體交易架構、資金到位時程，以及Crypto.com代幣化證券與衍生品業務的後續進展等細節，仍待更多報導佐證。"
       ]
     },
-    "sources": [],
+    "sources": [
+      {
+        "name": "The Block",
+        "title": "Citadel Securities invests $400 million in Crypto.com at $20 billion valuation",
+        "url": "https://www.theblock.co/post/408688/citadel-securities-invests-400-million-crypto-com-20-billion-valuation"
+      }
+    ],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -745,5 +702,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-20T15:11:29Z"
+  "_generated_at": "2026-07-20T18:12:34Z"
 }
