@@ -549,6 +549,40 @@
         "context": []
       },
       {
+        "date": "2026-07-20",
+        "title": "AI代理人支付新創Natural完成3,000萬美元A輪，喊話正面對決Stripe",
+        "paras": [
+          "TechCrunch報導，成立僅約一年的金融科技新創Natural完成3,000萬美元（US$30M）A輪（Series A）募資，由Forerunner Ventures創辦人暨管理合夥人Kirsten Green領投，累計募資已達4,000萬美元；Natural將自己定位為AI代理人（AI agents）的支付協調層（orchestration layer），讓自主運作的AI代理人能自行移動與保管資金、發動與收取付款，並與人類或其他代理人完成交易。",
+          "報導指出，Natural由執行長Kahlil Lalji（曾共同創辦Ivella，2023年售予Earnin）等人於2025年創立，團隊成員來自Stripe、Ramp與Square；公司主張現行信用卡與ACH等金流基礎設施是為「人類發動」的交易而設計、需要人工授權，難以支撐AI代理人的自主支付，因此規劃同時支援美元穩定幣（USD-backed stablecoin）與傳統銀行支付，並把支付巨頭Stripe與新創Skyfire視為主要競爭對手。Lalji估計，未來全球可能發生的支付筆數，將較目前多出二到四個數量級；由於目前僅見TechCrunch單一來源報導，實際產品進度與客戶採用情況仍待更多報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
+            "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-20",
+        "title": "2026上半年全球金融科技募資年增23%達286億美元，資金集中AI大案、IPO仍停滯",
+        "paras": [
+          "金融科技媒體Finextra報導，2026年上半年全球金融科技（fintech）新創共募得286億美元（US$28.6B），較去年同期成長23%；不過同期募資輪數反而年減26%，顯示資金正集中流向數量更少、但規模更大的交易。報導指出，AI仍是投資人最感興趣的主題，Ramp、Ebury與Alan等公司的大型募資（mega round）貢獻其中相當比重，美國更包辦整體投入資金的半數以上。",
+          "報導同時指出，儘管募資金額回升，金融科技業的IPO（首次公開發行）市場仍大致停滯，多家業者選擇按兵不動、延後上市。由於本則內容來自單一來源的產業彙整，各細分領域的募資分布與後續走勢，仍待更多原始報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "H1 global fintech funding grows 23% YoY",
+            "url": "https://www.finextra.com/newsarticle/48109/h1-global-fintech-funding-grows-23-yoy"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-18",
         "title": "Cash App攜手Square推在地訂餐，Block打造雙邊商務網路",
         "paras": [
@@ -702,5 +736,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-20T18:12:34Z"
+  "_generated_at": "2026-07-20T21:11:39Z"
 }
