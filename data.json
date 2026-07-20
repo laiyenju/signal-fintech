@@ -570,6 +570,28 @@
     "context": [],
     "others": [
       {
+        "date": "2026-07-20",
+        "title": "逾40家金融與科技巨頭加入Linux基金會，成立x402基金會推動AI代理人網路原生支付標準",
+        "paras": [
+          "金融科技媒體Finextra報導，逾40家金融與科技公司加入Linux基金會（Linux Foundation），共同成立「x402基金會」（x402 Foundation）這個開放治理組織，推動一項讓支付能「原生地」直接在網路上流動的開放協定；x402標準最初由加密貨幣交易所Coinbase貢獻，設計目標是讓AI代理人（AI agents）、API與各類應用程式能像交換資料一樣輕鬆地完成交易，並支援從信用卡到穩定幣（stablecoin）等多種支付方式。",
+          "PaymentsDive報導，加入x402基金會的成員橫跨支付與科技兩大陣營，包括Visa、Mastercard、American Express、Stripe、Coinbase、Fiserv、Circle，以及Google、AWS、Adyen與Shopify等業者，目標是為由AI代理人與軟體發起的支付制定開放標準；報導指出，這項協定若獲廣泛採用，可望成為「AI驅動商務」（AI-driven commerce）的基礎設施，讓自動化軟體有一套標準化方式在網路上收發款項。由於目前仍屬倡議與治理組織成立階段，實際落地時程與各成員的具體投入方式，仍待更多報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "Finance and tech firms unite around Internet payments protocol x402",
+            "url": "https://www.finextra.com/newsarticle/48105/finance-and-tech-firms-unite-around-internet-payments-protocol-x402"
+          },
+          {
+            "name": "PaymentsDive",
+            "title": "Visa, Stripe join AI payments protocol project",
+            "url": "https://www.paymentsdive.com/news/visa-stripe-join-ai-protocol-project/825499/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-18",
         "title": "Cash App攜手Square推在地訂餐，Block打造雙邊商務網路",
         "paras": [
@@ -723,5 +745,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-19T18:13:04Z"
+  "_generated_at": "2026-07-20T15:11:29Z"
 }
