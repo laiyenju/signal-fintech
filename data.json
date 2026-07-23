@@ -193,6 +193,23 @@
     "others": [
       {
         "date": "2026-07-21",
+        "title": "螞蟻國際完成12億美元募資，將擴大全球商戶支付與企業金融服務",
+        "paras": [
+          "路透（Reuters）報導，金融科技公司螞蟻國際（Ant International）完成12億美元（US$1.2B）募資，投資方包括螞蟻集團（Ant Group）與阿里巴巴（Alibaba）；這家總部設於新加坡的公司先前估值約100億美元，將以這筆資金擴大面向企業的商戶支付（merchant payments）、帳戶管理與各項金融服務。",
+          "報導指出，螞蟻國際表示其網路橫跨亞洲、歐洲、中東與拉丁美洲，涵蓋約1.5億家商戶與20億個用戶帳戶，此輪募資將支援其全球擴張布局。由於目前僅見路透單一來源報導，具體資金用途分配、各市場擴張時程與後續實際進展等細節，仍待更多報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Reuters",
+            "title": "Ant International raises $1.2 billion in global expansion push",
+            "url": "https://www.reuters.com/world/asia-pacific/ant-international-raises-12-billion-global-expansion-push-2026-07-21/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-21",
         "title": "Citadel Securities砸4億美元投資Crypto.com，以200億美元估值搶進加密市場基礎設施",
         "paras": [
           "The Block報導，美國造市與交易巨頭Citadel Securities對加密貨幣交易所Crypto.com進行4億美元（US$400M）策略性投資，交易以200億美元（US$20B）估值進行，是Crypto.com首次機構融資輪（first institutional funding round）；Crypto.com表示，將運用這筆資金擴展代幣化證券（tokenized securities）與衍生性商品（derivatives）業務。",
@@ -418,5 +435,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-22T18:10:02Z"
+  "_generated_at": "2026-07-23T15:09:42Z"
 }
