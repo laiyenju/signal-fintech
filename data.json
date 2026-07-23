@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "tier": "watch",
       "title": "本日觀察：本輪台灣範疇未出現尚未收錄的全新金融科技重點新聞",
       "paras": [
-        "本輪（台灣時間2026年7月23日凌晨）執行、回看最近24小時的候選新聞中，台灣範疇來源以一般金融與財經內容為主，屬第2節定義的C類：包括全體證券商上半年稅後純益1,440億元（年增3.24倍）、金管會「金融共好論壇」主委彭金隆倡議「信任金融」的經營理念、保發中心論壇上金管會揭示保險監理三方向（推AI科技轉型、綠色金融、全齡金融與微型保險）、台積電發行185億元綠色公司債，以及台股與新台幣匯率、壽險與金控投資部位等市況；這些多屬傳統金融獲利、政策宣示或市場行情，缺乏以科技、數位產品或新型基礎設施為事件核心的具體進展，未能構成可擔任「本日最重點」的全新A類金融科技事件。",
-        "唯一與金融科技直接相關的新進消息，是第三方支付「Pi拍錢包」（拍付國際）約350萬名用戶個資外洩、補償方案引發反彈；惟此事件已於先前執行時，以同事件後續（context）附加於「本週要聞」既有的拍付國際個資外洩項目之下，本輪不重複發稿。依「寧缺勿濫」與「不重複發稿」原則，台灣範疇本輪誠實維持「本日觀察」狀態；前一則具實際來源（中央社）的頭條「《虛擬資產服務法》設穩定幣專章三讀通過」為7月22日設定，因換日改決cover，已依規完整轉存為一則「本週要聞」（others）保存，其餘既有others與其context均維持不變。"
+        "本輪（台灣時間2026年7月24日凌晨）執行、回看最近24小時的台灣範疇候選新聞，仍以一般金融與財經、監理宣示及產業／科技內容為主，屬第2節定義的C類：包括上市金控與證券商獲利、股市融資餘額衝破新台幣8,000億元創新高、離岸風電開發銀行融資達6,389億元、金融三業對中國曝險創9個月新高、AI算力中心BOO案首波2業者申請投資近430億元、金管會對金控副董事長薪資揭露與是否鬆綁基金經理人手機禁令的回應，以及台股、新台幣匯率與國際油價等市況。這些多屬傳統金融獲利、監理宣示或市場行情，缺乏以科技、數位產品或新型基礎設施為事件核心的具體進展，未構成足以擔任「本日最重點」的全新A類金融科技事件。",
+        "依「寧缺勿濫」與「不得虛構」原則，且本輪台灣範疇來源（含RSS與Readwise Reader訂閱源）未出現尚未收錄、可追溯的全新A類金融科技事件，台灣範疇本輪誠實維持「本日觀察」狀態。前一輪（7月23日）的cover本身即為「無合格新聞」的狀態說明（無來源），依規不轉存為「本週要聞」；既有「本週要聞」清單僅移除已超過7天的項目（7月16日的富邦金獲利王、土銀財管2.0、金管會不開放單一個股ETF三則），其餘項目與其後續（context）均維持不變。"
       ]
     },
     "sources": [],
@@ -113,81 +113,26 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-16",
-        "title": "富邦金奪上半年金控獲利王，13家金控上半年大賺4,408.7億元創新高",
-        "paras": [
-          "經濟日報報導，國內13家上市金控2026年上半年獲利成績單15日全數揭曉，13家金控6月單月稅後純益合計達734.9億元，累計上半年獲利達4,408.7億元，刷新歷史同期新高紀錄，年增率達101%，連續繳出三位數成長的成績單。",
-          "報導指出，其中富邦金控以上半年稅後純益973億元、每股稅後純益（EPS）6.67元，超越先前暫居冠軍的國泰金控（EPS 4.95元），奪下金控業上半年獲利王寶座，為這波上市金控獲利創新高熱潮寫下最終定局。"
-        ],
-        "sources": [
-          {
-            "name": "經濟日報",
-            "title": "富邦金奪金控上半年獲利王 純益973億元 EPS 6.67元冠同業",
-            "url": "https://money.udn.com/money/story/5613/9630461"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-16",
-        "title": "土銀取得財管2.0執照，25家銀行搶進高資產商機",
-        "paras": [
-          "金管會（Financial Supervisory Commission, FSC）16日宣布，同意台灣土地銀行辦理高資產客戶適用的金融商品及服務（財富管理2.0業務，簡稱財管2.0），原則上年底前有機會正式開辦；金管會表示，加計這次核准案，目前累計已有25家銀行取得辦理高資產業務的許可。",
-          "報導指出，先前已有遠東商銀、台灣銀行、台灣中小企業銀行等銀行陸續獲准辦理相關業務，土地銀行是最新一家取得執照的公股行庫，顯示財管2.0這項鎖定高資產客戶的業務，正持續在國內銀行業擴散普及。"
-        ],
-        "sources": [
-          {
-            "name": "經濟日報",
-            "title": "土銀取得財管2.0執照　25家銀行開搶高資產商機",
-            "url": "https://money.udn.com/money/story/5613/9632583"
-          },
-          {
-            "name": "Yahoo 財經",
-            "title": "土銀獲准高資產財管執照　25家銀行搶進財管2.0業務",
-            "url": "https://tw.news.yahoo.com/%E5%9C%9F%E9%8A%80%E7%8D%B2%E5%87%86%E9%AB%98%E8%B3%87%E7%94%A2%E8%B2%A1%E7%AE%A1%E5%9F%B7%E7%85%A7-25%E5%AE%B6%E9%8A%80%E8%A1%8C%E6%90%B6%E9%80%B2%E8%B2%A1%E7%AE%A12-0%E6%A5%AD%E5%8B%99-114200539.html"
-          },
-          {
-            "name": "Yahoo 財經",
-            "title": "土銀取得財管2.0執照　25家銀行開搶高資產商機",
-            "url": "https://tw.news.yahoo.com/%E5%9C%9F%E9%8A%80%E5%8F%96%E5%BE%97%E8%B2%A1%E7%AE%A12-0%E5%9F%B7%E7%85%A7-25%E5%AE%B6%E9%8A%80%E8%A1%8C%E9%96%8B%E6%90%B6%E9%AB%98%E8%B3%87%E7%94%A2%E5%95%86%E6%A9%9F-111554389.html"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-16",
-        "title": "拒步南韓後塵，金管會表態不開放台股單一個股ETF",
-        "paras": [
-          "南韓股市今年5月推出追蹤三星電子（Samsung Electronics）與SK海力士（SK Hynix）的單一股票槓桿ETF，近期引爆大規模斷頭賣壓；對於台灣是否可能出現類似商品，金管會（Financial Supervisory Commission, FSC）16日回應，國內基金與ETF依規範都必須具備分散性原則，且ETF持股單一個股比重依規定不得超過30%，因此「現行沒有要開放」單一個股ETF。",
-          "報導指出，這是金管會首度就是否開放單一個股ETF的問題做出明確回應，也被視為以南韓這波槓桿ETF風暴為戒，先行為台灣ETF市場劃出監理界線。"
-        ],
-        "sources": [
-          {
-            "name": "Yahoo 財經",
-            "title": "拒步南韓後塵！金管會：不開放台股單一個股ETF",
-            "url": "https://tw.news.yahoo.com/%E6%8B%92%E6%AD%A5%E5%8D%97%E9%9F%93%E5%BE%8C%E5%A1%B5-%E9%87%91%E7%AE%A1%E6%9C%83-%E4%B8%8D%E9%96%8B%E6%94%BE%E5%8F%B0%E8%82%A1%E5%96%AE-%E5%80%8B%E8%82%A1etf-112100644.html"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "tier": "watch",
-      "title": "本日觀察：本輪全球範疇未出現尚未收錄的全新金融科技重點新聞",
+      "title": "Amazon Business將Affirm納為首個「先買後付」選項，把BNPL延伸至美國B2B企業採購",
       "paras": [
-        "本輪（台灣時間2026年7月23日凌晨）執行、回看最近24小時的候選新聞中，全球範疇的RSS與Readwise Reader候選，壓倒性地由一般AI與科技產業內容構成，屬C類或與金融科技無直接關聯：包括Google、OpenAI、Meta等新模型發布、AI資料中心與算力議題、OpenAI自主AI代理測試意外入侵Hugging Face等資安事件，以及各家開發者工具與產業評論。真正以金融科技為事件核心的候選，多為7月16日至21日已收錄的既有事件（如x402支付協定基金會、AI代理人支付新創Natural、Visa穩定幣平台VSP與AI理財助理、DTCC代幣化證券實測、Stripe傳收購PayPal、Citadel Securities投資Crypto.com等），在本次往前24小時的新cover候選窗口內，未出現尚未收錄、且足以擔任「本日最重點」的全新A類金融科技事件。",
-        "少數新出現、與金融科技相關的線索（如策展型電子報與Podcast提及的Cloudflare以穩定幣支援x402收費、預測市場Kalshi在美遭法院裁定受阻、企業穩定幣鏈上外匯等），或屬付費／策展內容而缺乏可追溯的公開原始媒體連結，或落在本次24小時cover窗口之外，無法核實為足以上站的全新A類事件。依「不得虛構」與「寧缺勿濫」原則，全球範疇本輪誠實維持「本日觀察」狀態；前一則cover本身即為「本日觀察」狀態說明（無來源），依規不轉存為「本週要聞」，既有others與其context均維持不變。"
+        "Amazon旗下企業採購平台Amazon Business宣布，把先買後付（Buy Now, Pay Later, BNPL）業者Affirm，納為平台首個「先買後付／延後付款」（pay-over-time）選項，開放給符合資格的美國獨資企業主（sole proprietors）使用；獲核准的客戶可將採購金額分3至48個月分期償還，且不收取逾期費用或隱藏費用。此舉把過去多見於消費端的BNPL付款方式，正式帶進企業對企業（B2B）的線上採購結帳流程。",
+        "報導指出，這項合作把Affirm與Amazon既有的消費端合作關係，進一步延伸到B2B商務場景，讓小型企業在採購營運所需商品時，多一種管理現金流、支應營運支出的融資彈性。由於本則目前僅來自Amazon官方新聞稿單一來源，實際適用的商品與賣家範圍、核准條件、分期利率，以及未來是否擴大開放對象等細節，仍待更多原始報導佐證。"
       ]
     },
-    "sources": [],
+    "sources": [
+      {
+        "name": "Amazon",
+        "title": "Amazon Business adds Affirm as its first buy now, pay later option",
+        "url": "https://www.aboutamazon.com/news/small-business/amazon-business-affirm-buy-now-pay-later"
+      }
+    ],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -314,126 +259,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-16",
-        "title": "DTCC實測代幣化股票與美債交易，貝萊德、摩根大通等近40家機構參與、10月正式上線",
-        "paras": [
-          "金融科技電子報Fintech Brainfood本週號彙整、引述《華爾街日報》（WSJ）報導指出，包含貝萊德（BlackRock）、摩根大通（JPMorgan）、高盛（Goldman Sachs）與紐約證券交易所（NYSE）在內、近40家機構，透過美國證券集中保管結算機構DTCC（Depository Trust & Clearing Corporation）實測代幣化（tokenized）股票與美國公債交易；摩根大通將QQQ ETF股份轉為代幣後再轉回，示範可在正式環境完成代幣化與逆向贖回，發行相關ETF的Vanguard與Invesco也參與其中。首批標的包括微軟（Microsoft）股票、Circle股票、QQQ、SPY、SGOV，以及不同天期的美國公債，並在美國證券交易委員會（SEC）三年期不採取行動函（no-action letter）下、於Hyperledger Besu與Canton兩條區塊鏈完成結算，預計今年10月正式上線。",
-          "報導指出，DTCC是美股所有權登錄的核心基礎設施，保管約114兆美元的美國證券、去年處理達4.7千兆（quadrillion）美元交易，此次被形容為1970年代華爾街將紙本股票憑證電子化以來、這套結算基礎設施最大的一次變革；DTCC做的是「數位分身」（digital twin）——代幣在鏈上流通、過戶代理人仍保有法定登錄。初期應用聚焦擔保品移轉、附買回（repo）與保證金，摩根大通已實際以代幣化資產支應芝加哥商品交易所（CME）的追繳保證金。由於本則內容僅來自單一金融科技電子報的彙整轉述，實際參與機構名單與後續上線細節仍待更多原始報導佐證。"
-        ],
-        "sources": [
-          {
-            "name": "Yahoo Finance",
-            "title": "DTCC executes first live trades of tokenized stocks and US Treasuries",
-            "url": "https://finance.yahoo.com/markets/crypto/articles/dtcc-executes-first-live-trades-175751804.html"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-16",
-        "title": "Visa推出穩定幣平台VSP，開放銀行自行鑄造與贖回數位美元Open USD",
-        "paras": [
-          "金融科技電子報Fintech Brainfood彙整、引述Visa公告指出，支付網路巨頭Visa推出「Visa Stablecoin Platform」（VSP，Visa穩定幣平台），提供由Visa統一管理的環境，讓金融機構、金融科技業者與加密原生業者可鑄造（mint）、銷毀（burn）、持有與移轉穩定幣（stablecoin），首波支援Open USD（OUSD）。平台同時推出「錢包即服務」（Wallet-as-a-Service），並內建雙人覆核（銀行「四眼原則」）、可設定允許移轉對象的白名單（allowlist）與完整稽核紀錄；銀行只需連結一個銀行帳戶、設定核准政策，即可在既有的Visa關係下，把OUSD的鑄造與贖回納入資金調度、清算與流動性作業，目前平台正與部分客戶進行beta測試。",
-          "報導指出，Open USD是Open Standard聯盟推出的穩定幣，合作夥伴逾140家、包含Visa與Mastercard，預計今年稍晚上線；VSP主打改善傳統清算的痛點——電匯有截止時間、假日不運作，跨境還需經過速度較慢的通匯銀行，而以OUSD鑄造清算可轉為全年無休、全天候的鏈上移轉。此外，相較現有穩定幣多由發行商賺取準備金孳息，Open USD規劃將大部分孳息回饋給負責鑄造與分銷的夥伴，等於讓銀行持有的清算餘額也能生息。不過報導也提到，銀行在資產負債表上如何認列OUSD餘額（是否視為約當現金）等會計與資本處理，將牽動這類穩定幣清算的規模，仍有待觀察。"
-        ],
-        "sources": [
-          {
-            "name": "Visa",
-            "title": "Visa Introduces Platform for Stablecoin Minting, Movement and Management",
-            "url": "https://investor.visa.com/news/news-details/2026/Visa-Introduces-Platform-for-Stablecoin-Minting-Movement-and-Management/default.aspx"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-16",
-        "title": "Stripe據傳攜手Advent International，出價逾530億美元收購PayPal",
-        "paras": [
-          "TechCrunch報導，數位支付公司Stripe據傳已與私募股權公司Advent International攜手，向同業PayPal提出收購要約，交易對價約534億美元（約每股60.50美元，較前一交易日收盤價溢價約28%），目前已取得500億美元銀行融資承諾；若交易完成，將整合數位支付產業兩大龍頭。報導指出，Stripe近期才以逾1,590億美元估值完成公開收購要約，市值已遠高於PayPal，這次出手併購PayPal，被視為Stripe跨入消費端支付市場的重要一步。",
-          "報導指出，這起收購案目前仍處於初步接觸階段，PayPal態度保留、尚未積極回應收購方；分析人士認為，PayPal近年面臨Apple Pay、Shop Pay與Klarna等對手夾擊，品牌支付成長動能放緩，是促成這次收購提案的背景之一，但PayPal已延攬新任執行長並著手推動重組計畫，是否接受收購仍有待觀察，交易後續能否敲定仍需雙方進一步協商。"
-        ],
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "title": "Stripe and Advent reportedly offered to buy PayPal for around $53.4B",
-            "url": "https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b/"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-07-17",
-            "title": "PayPal董事會認為Stripe收購報價低估公司價值",
-            "body": "科技新報報導，PayPal董事會認為Stripe與私募股權公司Advent International聯合提出的約530億美元收購要約，低估了公司的實際價值，暫不急於出售。"
-          }
-        ]
-      },
-      {
-        "date": "2026-07-16",
-        "title": "AI原生私人銀行新創Flex完成7,000萬美元B1輪融資，估值翻倍至12億美元",
-        "paras": [
-          "金融科技媒體Finextra報導，鎖定高資產企業主的AI原生私人銀行（AI-native private banking）新創Flex，完成7,000萬美元B1輪（Series B1）融資，由Halo Fund領投，Portage Ventures、Wellington、Crosslink Capital、53 Stations、Titanium Ventures、Spice、Florida Funders等機構跟投；Flex表示，這筆資金將用於布局全球市場，並計畫在2026年底前將現有110人團隊規模擴大一倍。",
-          "Yahoo Finance報導，這輪募資也讓Flex估值翻倍至約12億美元，躋身金融科技獨角獸（unicorn）之列；Flex主打以AI驅動的財務管理平台，鎖定傳統金融科技業者與地區銀行較少顧及的中型企業客戶群，盼填補這塊市場空缺。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "AI private banking startup Flex raises $70m",
-            "url": "https://www.finextra.com/newsarticle/48092/ai-private-banking-startup-flex-raises-70m"
-          },
-          {
-            "name": "Yahoo Finance",
-            "title": "AI finance startup Flex doubles valuation to about $1.2B",
-            "url": "https://finance.yahoo.com/technology/ai/articles/ai-finance-startup-flex-doubles-113702299.html"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-16",
-        "title": "預測市場交易所Kalshi推出AI運算力遠期曲線，估值傳衝上400億美元",
-        "paras": [
-          "彭博（Bloomberg）14日報導，美國商品期貨交易委員會（CFTC）監管的預測市場交易所Kalshi，推出以未來GPU租賃價格為標的的「遠期曲線」（forward curve）預測市場合約，讓AI運算成本首度有公開的未來價格參考；報導指出，這項產品有機會成為期貨、選擇權等避險工具的基礎，協助AI公司在基礎建設支出持續擴大、運算力日益「商品化」的趨勢下，管理成本波動風險。",
-          "金融科技電子報Lex Newsletter報導，Kalshi傳出正以約400億美元估值進行新一輪募資，較18個月前的估值成長約8倍，約為對手Polymarket（估值約150億美元）的兩倍；報導指出，兩家預測市場業者採取相反的商業模式，Kalshi作為CFTC監管交易所，每筆交易約收取1%手續費（年化營收約20億美元），Polymarket過去多年則不對交易收費，顯示預測市場產業版圖持續擴大之際，兩種商業模式的路線之爭也隨之升溫。"
-        ],
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "title": "Kalshi ramps up effort to build markets for AI computing power",
-            "url": "https://www.bloomberg.com/news/articles/2026-07-14/kalshi-ramps-up-effort-to-build-markets-for-ai-computing-power?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA0MDE5MywiZXhwIjoxNzg0NjQ0OTkzLCJhcnRpY2xlSWQiOiJUSFo5WjFUOTZPU0cwMCIsImJjb25uZWN0SWQiOiJBODlERUQ0MjI1Qjk0Q0I4QkJBRUE0ODAwRTE5Mjk4NiJ9.ZYUUqKf6TBKRDVGB6YLO4s-gXfHTmFM4tpYgTYmAzOQ"
-          },
-          {
-            "name": "Lex Newsletter",
-            "title": "DeFi: Should prediction markets get $40B valuations?",
-            "url": "https://lex.substack.com/p/defi-kalshi-is-still-worth-2x-polymarket"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-16",
-        "title": "英國BNPL新規上路：FCA 7月15日起正式監理「遞延支付信貸」商品",
-        "paras": [
-          "金融科技媒體Finextra報導，英國監理焦點自7月15日起出現轉變：BNPL（先買後付，Buy Now Pay Later）服務中常見的核心商品型態「遞延支付信貸」（Deferred Payment Credit, DPC）——一種短期、免息的信貸商品，正式被納入英國金融行為監理總署（Financial Conduct Authority, FCA）的監理範圍。",
-          "報導指出，長期以來BNPL多半被視為商業工具：對商家而言，有助於提高結帳轉換率、拉高平均客單價；對消費者而言，則是不必申請傳統信用產品、就能將消費金額分期攤還的簡便方式。隨著DPC正式納入FCA監理，英國BNPL業者預期將面臨新的監理規範；由於目前僅此單一來源報導，DPC監理上路後的具體合規細節與業者因應做法，仍待更多報導佐證。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "BNPL regulation changes the checkout conversation",
-            "url": "https://www.finextra.com/blogposting/32274/bnpl-regulation-changes-the-checkout-conversation"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-07-23T15:09:42Z"
+  "_generated_at": "2026-07-23T18:12:38Z"
 }
