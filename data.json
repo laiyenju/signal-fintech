@@ -137,6 +137,74 @@
     "context": [],
     "others": [
       {
+        "date": "2026-07-23",
+        "title": "Chime在銀行App內推出投資功能，開放免佣股票與ETF交易搶攻「全方位金融平台」",
+        "paras": [
+          "金融科技媒體Finovate報導，美國數位銀行業者Chime在其銀行App內推出投資（investing）功能，提供免佣金（commission-free）的股票與ETF交易，並搭配由專業團隊管理的投資組合（professionally managed portfolios），且無帳戶最低門檻（no account minimums），讓用戶直接在既有App內完成投資。此舉把財富管理（wealth management）加入Chime原本的銀行、信用養成（credit-building）與現金流工具，延續其打造「全方位金融平台」（all-in-one financial platform）的策略。",
+          "報導指出，這反映金融科技業將銀行、投資、借貸等多種金融服務整合進單一App、以提高用戶黏著度與終身價值（customer lifetime value）的整體趨勢。由於本則目前僅來自Finovate單一來源，實際上線範圍、投資組合的收費方式與後續採用情形等細節，仍待更多原始報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Finovate",
+            "title": "Chime launches in-app investing",
+            "url": "https://finovate.com/chime-launches-in-app-investing/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-23",
+        "title": "Ramp推出「AI用量支出管控」平台，協助企業監控OpenAI、Anthropic等token花費",
+        "paras": [
+          "金融科技業者Ramp推出一套財務平台，協助企業監控、優化並管控在OpenAI、Anthropic、Gemini與Cursor等供應商上的AI支出，因為AI的token用量正快速成為企業一項迅速攀升的營運費用（operating expense）。Ramp引述自家數據指出，其客戶的AI token支出自2025年6月以來已成長20.7倍；新產品提供即時可視化（real-time visibility）、支出上限、異常警示（anomaly alerts）與AI生成的洞察，協助財務團隊減少浪費。",
+          "報導指出，早期使用者中有三分之一找出可將工作負載切換到更低成本模型的機會，部分客戶透過prompt caching等優化，回報每月最多省下約1萬美元（US$10,000）。由於本則目前僅來自單一來源（Yahoo Finance轉載），實際產品功能範圍、定價與各企業實際節省成效等細節，仍待更多原始報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Yahoo Finance",
+            "title": "Ramp launches AI token spend controls",
+            "url": "https://finance.yahoo.com/technology/ai/articles/ramp-launches-ai-token-spend-130000381.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-23",
+        "title": "Intuit推出可與QuickBooks原生同步的企業信用卡，主打自動對帳與現金流可視化",
+        "paras": [
+          "金融科技媒體Finextra報導，Intuit推出全新的「Intuit Business Credit Card」，是一張World Elite Business Mastercard產品，鎖定小型企業在單一介面管理支出、取得信貸並掌握自身財務健康狀況。對QuickBooks用戶而言，這張卡可與他們既有使用的QuickBooks平台原生同步（syncs natively），自動將收據與交易對帳（matching receipts to transactions），並在同一處提供支出與現金流的可視化。",
+          "依報導，這張卡提供日常消費無上限2%現金回饋，以及在Intuit產品與服務上5%現金回饋。由於本則來自Finextra單一來源的業者發布訊息（press release），實際核卡條件、適用市場與後續採用情形等細節，仍待更多原始報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "Intuit launches business credit card that syncs natively with QuickBooks",
+            "url": "https://www.finextra.com/pressarticle/110474/intuit-launches-business-credit-card-that-syncs-natively-with-quickbooks"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-21",
+        "title": "三星推出Galaxy Card信用卡，深化與Samsung Wallet整合、進軍金融科技",
+        "paras": [
+          "科技媒體AppleInsider報導，三星（Samsung）推出自有信用卡「Galaxy Card」，是一張由Barclays發行的Visa卡，對三星商品消費提供最高5%現金回饋，透過Samsung Wallet進行的交易則提供3%回饋；此舉被視為三星在Apple於七年前推出Apple Card之後，進一步深化其在金融科技（fintech）領域的布局。",
+          "報導指出，這張卡的吸引力，將取決於回饋與支付在Samsung Wallet內運作的順暢程度，以及用戶是否願意優先使用它、而非其他接受度更廣的數位錢包。由於本則目前僅來自AppleInsider單一來源，實際發行地區、申辦條件與市場反應等細節，仍待更多原始報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "AppleInsider",
+            "title": "Seven years after Apple Card, Samsung leaps into fintech with its own credit card",
+            "url": "https://appleinsider.com/articles/26/07/21/seven-years-after-apple-card-samsung-leaps-into-fintech-with-its-own-credit-card"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-21",
         "title": "螞蟻國際完成12億美元募資，將擴大全球商戶支付與企業金融服務",
         "paras": [
@@ -262,5 +330,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-23T18:12:38Z"
+  "_generated_at": "2026-07-23T21:11:48Z"
 }
