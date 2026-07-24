@@ -126,10 +126,14 @@ pushes it directly (no PR). The AI's picks stay reviewable:
   (`windowItems`) and how many of them fed a selected story (`contributed`), plus the
   scored candidate pool with each item's `decision` and a one-line `reason`.
 - **`<date>.md`** — a readable editorial diary re-rendered from the JSON each run
-  (browsable as a Wiki page).
+  (browsable as a Wiki page). Includes a day summary, Taipei time, candidate funnel
+  (`rejectedSummary`), score breakdown (`class` / impact / volume / source),
+  silent sources (count + up to 3 names), and which feeds `contributed`.
 
 Logged on **every** run, including no-change and fail-safe runs. `contributed` staying 0
-while `windowItems` stays high over time flags a feed worth dropping.
+while `windowItems` stays high over time flags a feed worth dropping. To rebuild MD
+from an existing day JSON without appending a run:
+`python scripts/newsroom.py --render-only path/to/YYYY-MM-DD.json`.
 
 ---
 
