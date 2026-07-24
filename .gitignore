@@ -1,7 +1,16 @@
+# Runtime / schedule outputs (never commit)
 raw_items.json
-newsroom/
-__pycache__/
-*.pyc
-.gstack/
+scripts/raw_items.json
 candidate.json
 candidate.meta.json
+newsroom/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Tooling / local agent scratch
+.gstack/
+.superpowers/
+.DS_Store
