@@ -119,10 +119,12 @@ Full rules live in [`排程任務指令.md`](./排程任務指令.md). Day bound
 
 Every 3-hour run writes an audit trail to the **GitHub Wiki** (the
 `laiyenju/signal-fintech.wiki` repo, one page per day), kept out of the main repo so
-daily logs never bloat it. The routine clones the wiki (prefer `gh repo clone`, SSH
-fallback), sets `NEWSROOM_DIR`, and pushes directly (no PR). Wiki write is
-**soft-fail**: it must not block `data.json` publish, but every run must print a
-status line `newsroom_wiki=ok|failed|skipped` (also required in the data PR body).
+daily logs never bloat it. The routine runs `scripts/newsroom_wiki.sh`, which clones
+with an authenticated HTTPS remote (env `NEWSROOM_WIKI_TOKEN` or `GH_TOKEN` /
+`GITHUB_TOKEN` — a token that can push the **wiki** repo, not a main-only deploy
+key), renders via `newsroom.py`, and pushes. Wiki write is **soft-fail**: it must
+not block `data.json` publish, but every run must print
+`newsroom_wiki=ok|failed|skipped` (also required in the data PR body).
 
 - **`<date>.json`** — structured: for each run, per-source update counts
   (`windowItems`) and how many of them fed a selected story (`contributed`), plus the
