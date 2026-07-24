@@ -138,6 +138,40 @@
     "others": [
       {
         "date": "2026-07-23",
+        "title": "Nubank將收購投資銀行Banco Porto Real de Investimentos，強化巴西金融版圖",
+        "paras": [
+          "金融科技媒體Finextra報導，拉丁美洲數位銀行（digital bank）巨頭Nubank宣布，將收購巴西投資銀行Banco Porto Real de Investimentos，藉此進一步強化其在巴西本土市場的金融服務布局。作為以行動App為核心、不設實體分行的數位銀行，Nubank可望透過這樁併購，把投資銀行相關的業務能力，接入其既有的帳戶、信貸與儲蓄服務體系。",
+          "報導指出，Nubank表示目前巴西已有約3,150萬人透過Nubank取得帳戶、信貸與儲蓄等金融服務，這次收購被定位為深化巴西營運的一步。由於本則目前僅來自Finextra單一來源，且未揭露具體交易金額與完成時程，實際併購對價、監理核准與後續整合細節等，仍待更多原始報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "Nubank to acquire Banco Porto Real de Investimentos, strengthen Brazil operation",
+            "url": "https://www.finextra.com/newsarticle/48135/nubank-to-acquire-banco-porto-real-de-investimentos-strengthen-brazil-operation"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-23",
+        "title": "美元清算業者Augustus完成1.8億美元B輪，主打為全球銀行與金融科技業者提供美元通路",
+        "paras": [
+          "金融科技媒體Finextra報導，主打「清算銀行」（clearing bank）業務的Augustus完成1.8億美元（US$180M）B輪（Series B）募資。Augustus的核心定位，是為全球各地的銀行與金融科技（fintech）業者提供美元（US dollar）資金通路（dollar access），協助這些機構在跨境金流與美元清算環節，取得所需的基礎設施支援。",
+          "對缺乏美元清算與代理行（correspondent banking）管道的海外銀行及金融科技業者而言，這類「美元通路」型基礎設施，攸關其能否順利完成跨境收付與美元結算。由於本則目前僅來自Finextra單一來源、揭露細節有限，這輪1.8億美元B輪的具體資金用途、實際投資方、估值與服務涵蓋範圍等，仍待更多原始報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "Augustus secures $180 million Series B",
+            "url": "https://www.finextra.com/newsarticle/48134/augustus-secures-180-million-series-b"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-23",
         "title": "Chime在銀行App內推出投資功能，開放免佣股票與ETF交易搶攻「全方位金融平台」",
         "paras": [
           "金融科技媒體Finovate報導，美國數位銀行業者Chime在其銀行App內推出投資（investing）功能，提供免佣金（commission-free）的股票與ETF交易，並搭配由專業團隊管理的投資組合（professionally managed portfolios），且無帳戶最低門檻（no account minimums），讓用戶直接在既有App內完成投資。此舉把財富管理（wealth management）加入Chime原本的銀行、信用養成（credit-building）與現金流工具，延續其打造「全方位金融平台」（all-in-one financial platform）的策略。",
@@ -330,5 +364,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-23T21:11:48Z"
+  "_generated_at": "2026-07-24T00:14:45Z"
 }
