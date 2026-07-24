@@ -118,9 +118,11 @@ Full rules live in [`排程任務指令.md`](./排程任務指令.md). Day bound
 ## Selection log (newsroom)
 
 Every 3-hour run writes an audit trail to the **GitHub Wiki** (the
-`signal-fintech.wiki.git` repo, one page per day), kept out of the main repo so
-daily logs never bloat it. The routine sets `NEWSROOM_DIR` to a wiki clone and
-pushes it directly (no PR). The AI's picks stay reviewable:
+`laiyenju/signal-fintech.wiki` repo, one page per day), kept out of the main repo so
+daily logs never bloat it. The routine clones the wiki (prefer `gh repo clone`, SSH
+fallback), sets `NEWSROOM_DIR`, and pushes directly (no PR). Wiki write is
+**soft-fail**: it must not block `data.json` publish, but every run must print a
+status line `newsroom_wiki=ok|failed|skipped` (also required in the data PR body).
 
 - **`<date>.json`** — structured: for each run, per-source update counts
   (`windowItems`) and how many of them fed a selected story (`contributed`), plus the
@@ -135,6 +137,7 @@ Logged on **every** run, including no-change and fail-safe runs. `contributed` s
 while `windowItems` stays high over time flags a feed worth dropping. To rebuild MD
 from an existing day JSON without appending a run:
 `python scripts/newsroom.py --render-only path/to/YYYY-MM-DD.json`.
+Setup and connectivity notes: `設定步驟.md` (Wiki 選稿日誌連通).
 
 ---
 
