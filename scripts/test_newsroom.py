@@ -75,19 +75,28 @@ def test_render_markdown_contains_key_facts():
                    "scoredPool": [], "rejectedSummary": {"total": 3, "eligible": 0, "ineligible": 3}}}]}
     md = render_markdown(day)
     assert "# 2026-07-18 選稿日誌" in md
-    assert "本日一覽" in md and "published 1" in md
+    assert "本日一覽" in md
+    assert "| published | 1 |" in md
     assert "05:00 UTC / 13:00 台北" in md and "published" in md
-    assert "支付大新聞" in md            # 頭條
-    assert "`e1`" in md                 # cover eventKey
-    assert "候選 10 → 合格 2" in md      # funnel
-    assert "候選 3 → 合格 0" in md
-    assert "靜默源" in md                # 靜默源被點名
-    assert "本輪有貢獻：A(1)" in md
-    assert "A類" in md and "impact=4" in md and "volume=3" in md
-    assert "score=3.6" in md and "score=—" in md  # None → em dash
+    assert "支付大新聞" in md
+    assert "`e1`" in md
+    # cover + funnel table
+    assert "| Scope | 頭條 | tier | eventKey | 候選 | 合格 |" in md
+    assert "| TW | 支付大新聞 | top | `e1` | 10 | 2 |" in md
+    assert "| Global | — | watch | — | 3 | 0 |" in md
+    # sources table (single combined)
+    assert "| 類型 | 源 | 視窗條數 / 貢獻 |" in md
+    assert "| 最活躍 | A | window=6 |" in md
+    assert "| 靜默（前3） | 靜默源 | 0 |" in md
+    assert "| 有貢獻 | A | contributed=1 |" in md
+    # decision table, reason last col; score None → —
+    assert "| 決策 | eventKey | class | impact | volume | score | source | reason |" in md
+    assert "| ✅ cover | `e1` | A | 4 | 3 | 3.6 | A | 最高分 A |" in md
+    assert "| ✗ dropped | `e3` | C | — | — | — | B | C 類淘汰 |" in md
     assert "None" not in md
-    assert "e2" in md and "未達 2.5" in md  # 落選項與理由都在
-    assert "重點在支付" in md            # 編輯註記
+    assert "未達 2.5" in md
+    assert "<details><summary>編輯註記</summary>" in md
+    assert "重點在支付" in md
 
 
 def test_render_markdown_silent_names_capped_at_three():
@@ -103,10 +112,14 @@ def test_render_markdown_silent_names_capped_at_three():
         "global": {"cover": {"tier": "watch", "headline": "g", "eventKey": None},
                    "scoredPool": [], "rejectedSummary": {}}}]}
     md = render_markdown(day)
-    assert "5 源靜默（S0、S1、S2 等 2 源）" in md
+    assert "共 6 源、靜默 5 源" in md
+    assert "| 靜默（前3） | S0 | 0 |" in md
+    assert "| 靜默（前3） | S1 | 0 |" in md
+    assert "| 靜默（前3） | S2 | 0 |" in md
+    assert "| 靜默（其餘） | 等 2 源 | 0 |" in md
     assert "S3" not in md and "S4" not in md
-    assert "本輪有貢獻：無（無源貢獻進稿）" in md
-    assert "no_change 1" in md
+    assert "| 有貢獻 | — | 無源貢獻進稿 |" in md
+    assert "| no_change | 1 |" in md
 
 
 def test_render_only_rewrites_md_from_json():

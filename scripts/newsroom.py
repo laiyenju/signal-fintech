@@ -104,83 +104,124 @@ def _format_run_heading(run):
     return f"## {hhmm} UTC / {tpe} 台北（{outcome}）"
 
 
-def _format_funnel(rs):
-    if not isinstance(rs, dict):
-        return ""
-    total, eligible = rs.get("total"), rs.get("eligible")
-    if total is None and eligible is None:
-        return ""
-    t = total if total is not None else "—"
-    e = eligible if eligible is not None else "—"
-    return f"｜候選 {t} → 合格 {e}"
-
-
 def _format_score(score):
     return "—" if score is None else score
 
 
-def _format_decision_line(e):
-    tag = DECISION_LABEL.get(e.get("decision"), e.get("decision"))
-    key = e.get("eventKey") or "—"
-    bits = []
-    if e.get("class"):
-        bits.append(f"{e['class']}類")
-    if e.get("impact") is not None:
-        bits.append(f"impact={e['impact']}")
-    if e.get("volume") is not None:
-        bits.append(f"volume={e['volume']}")
-    bits.append(f"score={_format_score(e.get('score'))}")
-    if e.get("source"):
-        bits.append(e["source"])
-    meta = " · ".join(str(b) for b in bits)
-    reason = e.get("reason") or ""
-    head = f"- {tag} `{key}` {meta}".rstrip()
-    if reason:
-        return f"{head}\n  — {reason}"
-    return head
+def _md_cell(value):
+    """Escape pipe/newlines so GFM tables stay aligned."""
+    if value is None or value == "":
+        return "—"
+    return str(value).replace("|", "\\|").replace("\n", " ").strip() or "—"
+
+
+def _md_table(headers, rows):
+    lines = [
+        "| " + " | ".join(headers) + " |",
+        "| " + " | ".join("---" for _ in headers) + " |",
+    ]
+    for row in rows:
+        cells = [_md_cell(c) for c in row]
+        # pad/truncate to header width
+        while len(cells) < len(headers):
+            cells.append("—")
+        lines.append("| " + " | ".join(cells[:len(headers)]) + " |")
+    return lines
 
 
 def _day_summary_lines(day):
     runs = [r for r in day.get("runs", []) if isinstance(r, dict)]
     counts = Counter(r.get("outcome") or "—" for r in runs)
-    parts = [f"{k} {counts[k]}" for k in ("published", "no_change", "fail_safe") if counts.get(k)]
-    extra = [f"{k} {n}" for k, n in sorted(counts.items())
-             if k not in ("published", "no_change", "fail_safe")]
-    parts.extend(extra)
-    breakdown = "、".join(parts) if parts else "—"
-    lines = ["## 本日一覽",
-             f"- 輪次：{len(runs)}" + (f"（{breakdown}）" if runs else ""),
-             ""]
+    lines = ["## 本日一覽", ""]
+    outcome_rows = [["輪次", len(runs)]]
+    for k in ("published", "no_change", "fail_safe"):
+        if counts.get(k):
+            outcome_rows.append([k, counts[k]])
+    for k, n in sorted(counts.items()):
+        if k not in ("published", "no_change", "fail_safe"):
+            outcome_rows.append([k, n])
+    lines += _md_table(["項目", "內容"], outcome_rows)
+    lines.append("")
     if runs:
         last = runs[-1]
+        cover_rows = []
         for scope, label in (("tw", "TW"), ("global", "Global")):
             cover = (last.get(scope) or {}).get("cover") or {}
-            hl = cover.get("headline") or "—"
-            tier = cover.get("tier") or "—"
-            lines.append(f"- 最新 {label} 頭條：{hl}（{tier}）")
+            cover_rows.append([
+                label,
+                cover.get("headline") or "—",
+                cover.get("tier") or "—",
+            ])
+        lines += _md_table(["Scope", "最新頭條", "tier"], cover_rows)
         lines.append("")
     return lines
 
 
-def _silent_note(silent_names, cap=_SILENT_NAME_CAP):
-    if not silent_names:
-        return ""
-    shown = silent_names[:cap]
-    note = "、".join(shown)
-    rest = len(silent_names) - len(shown)
-    if rest > 0:
-        note += f" 等 {rest} 源"
-    return f"（{note}）"
+def _cover_funnel_table(run):
+    rows = []
+    for scope, label in (("tw", "TW"), ("global", "Global")):
+        scope_data = run.get(scope) or {}
+        cover = scope_data.get("cover") or {}
+        rs = scope_data.get("rejectedSummary") or {}
+        total = rs.get("total") if isinstance(rs, dict) else None
+        eligible = rs.get("eligible") if isinstance(rs, dict) else None
+        key = cover.get("eventKey")
+        rows.append([
+            label,
+            cover.get("headline") or "—",
+            cover.get("tier") or "—",
+            f"`{key}`" if key else "—",
+            total if total is not None else "—",
+            eligible if eligible is not None else "—",
+        ])
+    return _md_table(
+        ["Scope", "頭條", "tier", "eventKey", "候選", "合格"], rows)
 
 
-def _contributed_line(srcs):
+def _sources_table(srcs, cap=_SILENT_NAME_CAP):
+    srcs = srcs or []
+    silent = [s for s in srcs if not s.get("windowItems")]
+    active = sorted((s for s in srcs if s.get("windowItems")),
+                    key=lambda s: (-s.get("windowItems", 0), s.get("name") or ""))[:3]
     contrib = sorted(
         (s for s in srcs if s.get("contributed")),
         key=lambda s: (-s.get("contributed", 0), s.get("name") or ""))
-    if not contrib:
-        return "本輪有貢獻：無（無源貢獻進稿）。"
-    body = "、".join(f"{s['name']}({s['contributed']})" for s in contrib)
-    return f"本輪有貢獻：{body}。"
+    rows = []
+    for s in active:
+        rows.append(["最活躍", s.get("name"), f"window={s.get('windowItems')}"])
+    for s in silent[:cap]:
+        rows.append(["靜默（前3）", s.get("name"), "0"])
+    if len(silent) > cap:
+        rows.append(["靜默（其餘）", f"等 {len(silent) - cap} 源", "0"])
+    if contrib:
+        for s in contrib:
+            rows.append(["有貢獻", s.get("name"), f"contributed={s.get('contributed')}"])
+    else:
+        rows.append(["有貢獻", "—", "無源貢獻進稿"])
+    intro = f"**資料源**：共 {len(srcs)} 源、靜默 {len(silent)} 源"
+    return [intro, ""] + _md_table(["類型", "源", "視窗條數 / 貢獻"], rows)
+
+
+def _decision_table(pool):
+    rows = []
+    for e in pool:
+        if not isinstance(e, dict):
+            continue
+        tag = DECISION_LABEL.get(e.get("decision"), e.get("decision"))
+        key = e.get("eventKey") or "—"
+        rows.append([
+            tag,
+            f"`{key}`",
+            e.get("class") if e.get("class") is not None else "—",
+            e.get("impact") if e.get("impact") is not None else "—",
+            e.get("volume") if e.get("volume") is not None else "—",
+            _format_score(e.get("score")),
+            e.get("source") or "—",
+            e.get("reason") or "—",
+        ])
+    return _md_table(
+        ["決策", "eventKey", "class", "impact", "volume", "score", "source", "reason"],
+        rows)
 
 
 def render_markdown(day):
@@ -188,36 +229,25 @@ def render_markdown(day):
     lines += _day_summary_lines(day)
     for run in day.get("runs", []):
         lines.append(_format_run_heading(run))
-        for scope, label in (("tw", "TW"), ("global", "Global")):
-            scope_data = run.get(scope) or {}
-            cover = scope_data.get("cover") or {}
-            funnel = _format_funnel(scope_data.get("rejectedSummary") or {})
-            key = cover.get("eventKey")
-            key_bit = f" · `{key}`" if key else ""
-            lines.append(
-                f"**{label} 頭條**：{cover.get('headline') or '—'}"
-                f"（{cover.get('tier') or '—'}{key_bit}）{funnel}")
-        srcs = run.get("sources", [])
-        silent = [s["name"] for s in srcs if not s.get("windowItems")]
-        active = sorted((s for s in srcs if s.get("windowItems")),
-                        key=lambda s: -s["windowItems"])[:3]
         lines.append("")
-        lines.append(
-            f"**資料源動態**：{len(srcs)} 源、{len(silent)} 源靜默"
-            f"{_silent_note(silent)}。")
-        if active:
-            lines.append("最活躍：" +
-                         "、".join(f"{s['name']}({s['windowItems']})" for s in active) + "。")
-        lines.append(_contributed_line(srcs))
+        lines += _cover_funnel_table(run)
+        lines.append("")
+        lines += _sources_table(run.get("sources") or [])
         for scope, label in (("tw", "TW"), ("global", "Global")):
             pool = (run.get(scope) or {}).get("scoredPool") or []
             if not pool:
                 continue
-            lines += ["", f"**編輯決策（{label}）**"]
-            for e in pool:
-                lines.append(_format_decision_line(e if isinstance(e, dict) else {}))
+            lines += ["", f"**編輯決策（{label}）**", ""]
+            lines += _decision_table(pool)
         if run.get("notes"):
-            lines += ["", f"_編輯註記：{run['notes']}_"]
+            lines += [
+                "",
+                "<details><summary>編輯註記</summary>",
+                "",
+                run["notes"],
+                "",
+                "</details>",
+            ]
         lines += ["", "---", ""]
     return "\n".join(lines)
 
@@ -282,8 +312,9 @@ def demo():
         md = render_markdown(day)
         assert "標題" in md and "e1" in md and "最高分" in md
         assert "05:00 UTC / 13:00 台北" in md
-        assert "本輪有貢獻：A(1)" in md
-        assert "本日一覽" in md and "published 1" in md
+        assert "| 有貢獻 | A | contributed=1 |" in md
+        assert "本日一覽" in md and "| published | 1 |" in md
+        assert "| Scope | 頭條 | tier | eventKey | 候選 | 合格 |" in md
     finally:
         shutil.rmtree(d)
     print("newsroom demo OK")
