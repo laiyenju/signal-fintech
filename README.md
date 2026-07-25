@@ -158,6 +158,7 @@ Full rules live in [`排程任務指令.md`](./排程任務指令.md). Day bound
 5. **This Week is a 7-day rolling list**, not a per-run top-N. Drop entries older than 7 days; preserve all unexpired entries unchanged; add eligible new candidates with composite **≥ 2.5**; same-event follow-ups append to `context` instead of duplicating; sort newest-first. No hard cap — the UI collapses past the first 5.
 6. **Taiwan and Global run independently.** A scope's This Week list must not shrink between runs except by 7-day expiry.
 7. **No fabrication.** Thin evidence → shorter brief, never invented facts, sources, or quotes. Pure price/trading crypto stories are rejected; Taiwan and Global each cap other eligible crypto or digital-asset topics at 2 new top-level stories per run. Digest issues are never published as stories — only the articles they point to.
+8. **Reader-facing copy follows a style guide** (`排程任務指令.md` §6.2.1): no internal pipeline terms (rule sections, story classes, source plumbing) in published text, no boilerplate single-source disclaimers, restrained parenthetical glosses, and half-width spaces between CJK and Latin/digits. A banned-term subset is enforced deterministically by `scripts/validate.py` (`style.*` rules); the rest is checked editorially by `signal-reviewer`.
 
 ---
 

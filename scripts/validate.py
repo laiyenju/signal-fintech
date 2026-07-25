@@ -5,6 +5,15 @@ from datetime import date
 TIERS = {"top", "watch"}
 ARRAY_FIELDS = ("sources", "coverSocial", "context", "others")
 
+# 讀者面文字禁用的內部術語（排程任務指令.md §6.2.1）。
+# 只列不會誤傷正常新聞用語的詞；cover/context 等英文欄位名可能撞公司名，交給 reviewer。
+BANNED_TERMS = (
+    "第2節", "第 2 節",
+    "A類", "B類", "C類", "A 類", "B 類", "C 類",
+    "寧缺勿濫", "不得虛構", "轉存", "報導佐證",
+    "80/20", "Readwise", "raw_items", "TLDR",
+)
+
 
 def _d(s):
     return date.fromisoformat(s)
@@ -137,6 +146,68 @@ def check_state(candidate, prev, today):
     return v
 
 
+def _as_list(x):
+    return x if isinstance(x, list) else []
+
+
+def _iter_reader_texts(candidate):
+    """走訪讀者面文字欄位，產出 (位置, 文字)。sources 一律不檢查（外媒原題）。"""
+    for scope in ("tw", "global"):
+        s = candidate.get(scope)
+        if not isinstance(s, dict):
+            continue
+        cover = s.get("cover") if isinstance(s.get("cover"), dict) else {}
+        yield f"{scope}.cover.title", cover.get("title")
+        for i, t in enumerate(_as_list(cover.get("paras"))):
+            yield f"{scope}.cover.paras[{i}]", t
+        for i, c in enumerate(_as_list(s.get("context"))):
+            if isinstance(c, dict):
+                yield f"{scope}.context[{i}].title", c.get("title")
+                yield f"{scope}.context[{i}].body", c.get("body")
+        for i, so in enumerate(_as_list(s.get("coverSocial"))):
+            if isinstance(so, dict):
+                yield f"{scope}.coverSocial[{i}].body", so.get("body")
+        for i, o in enumerate(_as_list(s.get("others"))):
+            if not isinstance(o, dict):
+                continue
+            yield f"{scope}.others[{i}].title", o.get("title")
+            for j, t in enumerate(_as_list(o.get("paras"))):
+                yield f"{scope}.others[{i}].paras[{j}]", t
+            for j, c in enumerate(_as_list(o.get("context"))):
+                if isinstance(c, dict):
+                    yield f"{scope}.others[{i}].context[{j}].title", c.get("title")
+                    yield f"{scope}.others[{i}].context[{j}].body", c.get("body")
+            for j, so in enumerate(_as_list(o.get("social"))):
+                if isinstance(so, dict):
+                    yield f"{scope}.others[{i}].social[{j}].body", so.get("body")
+
+
+def check_style(candidate):
+    v = []
+    for path, text in _iter_reader_texts(candidate):
+        if not isinstance(text, str):
+            continue
+        for term in BANNED_TERMS:
+            if term in text:
+                v.append({"rule": "style.banned_term", "detail": f"{path} 含內部術語「{term}」"})
+    # 每則（cover 與各 others 分別計）「報導指出」至多 1 次
+    for scope in ("tw", "global"):
+        s = candidate.get(scope)
+        if not isinstance(s, dict):
+            continue
+        cover = s.get("cover") if isinstance(s.get("cover"), dict) else {}
+        units = [(f"{scope}.cover", cover.get("paras"))]
+        for i, o in enumerate(_as_list(s.get("others"))):
+            if isinstance(o, dict):
+                units.append((f"{scope}.others[{i}]", o.get("paras")))
+        for path, paras in units:
+            joined = "".join(t for t in _as_list(paras) if isinstance(t, str))
+            n = joined.count("報導指出")
+            if n > 1:
+                v.append({"rule": "style.baodao_repeat", "detail": f"{path} 「報導指出」出現 {n} 次（至多 1 次）"})
+    return v
+
+
 def validate(candidate, meta, prev, today):
     if not isinstance(candidate, dict): candidate = {}
     if not isinstance(meta, dict): meta = {}
@@ -145,6 +216,7 @@ def validate(candidate, meta, prev, today):
     v += check_structure(candidate)
     v += check_quotas(candidate, meta)
     v += check_state(candidate, prev, today)
+    v += check_style(candidate)
     return v
 
 
