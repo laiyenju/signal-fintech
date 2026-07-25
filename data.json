@@ -114,6 +114,40 @@
     "context": [],
     "others": [
       {
+        "date": "2026-07-25",
+        "title": "Robinhood Chain 代幣化真實資產兩週內暴增五倍至約 7,000 萬美元，代幣化股票開始上量交易",
+        "paras": [
+          "CoinDesk 報導，Robinhood 自建區塊鏈 Robinhood Chain 上的代幣化真實世界資產（tokenized real-world assets, RWA）市值，在不到兩週內約成長五倍至約 7,000 萬美元，先前為此鏈設計的代幣化股票（tokenized equities）終於開始以較大規模交易。鏈上一檔代幣化 GameStop 股票單日成交約 2,660 萬美元，Nvidia、SpaceX 分居其後；目前有 12 檔代幣化股票單日成交突破 50 萬美元，其中 5 檔逾百萬美元。",
+          "這條鏈最初上線時活動由投機性迷因幣（memecoin）主導，代幣化這個原始目的一度只占約 4%，如今相關業務開始兌現當初訴求。不過整體而言，代幣化股票每日約 5,500 萬美元成交，仍不到全鏈近 6 億美元去中心化交易所（DEX）成交量的十分之一，穩定幣（stablecoin）與迷因幣仍是鏈上主力；Robinhood Chain 的鎖倉總值（TVL）自 7 月中以來約增至 3.12 億美元。相關數字主要來自 DefiLlama、Token Terminal 等鏈上數據與 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Robinhood Chain's real-world assets jump fivefold as tokenized stocks start trading in bigger size",
+            "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-24",
+        "title": "巴西農民把乳牛「代幣化」向 B3 交易所融資，繞過銀行放貸限制的全球首例",
+        "paras": [
+          "CoinDesk 報導，巴西 Parana 州農民成為全球首批把牲畜代幣化的案例：農牧科技公司 Cowmed 把 10 頭乳牛化為數位代幣，掛上巴西 B3 全國證券交易所交易，並以牛隻為擔保取得近 2 萬美元信貸。在銀行對小型農企放貸限制日益嚴格之際，這被視為以真實世界資產（RWA）代幣化作為融資工具的實測。",
+          "為讓牛隻成為可信擔保品，Cowmed 為乳牛戴上 AI「Smarty Collar」項圈，即時監控健康、行為與位置，把資料轉為與 B3 信貸合約綁定的加密數位身分，藉此防止同一頭牛被重複質押，並允許以活牛替換死牛。Cowmed 目前追蹤逾 1,000 座農場、約 10 萬頭乳牛，牛群價值逾 3.95 億美元，預期網路中最多 20% 採用這套代幣化融資模式，可望釋出約 7,760 萬美元新增信貸。實際規模與後續採用仍待觀察，目前主要見於 CoinDesk 與其引述的 CNNBrasil。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits",
+            "url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-24",
         "title": "Sam Altman 支持的 World Network 完成 5,250 萬美元募資，主打「真人驗證」數位身分對抗 AI 深偽",
         "paras": [
@@ -358,5 +392,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-25T05:44:40Z"
+  "_generated_at": "2026-07-25T15:52:19Z"
 }
