@@ -175,6 +175,42 @@ def test_quotas_newitems_not_list_no_crash():
 def test_toplevel_non_dict_no_crash():
     validate([], [], [], "2026-07-18")  # must NOT raise
 
+def test_style_banned_term_in_paras():
+    bad = _copy.deepcopy(GOOD)
+    bad["tw"]["cover"]["paras"] = ["這屬第2節定義的C類內容", "b"]
+    assert "style.banned_term" in rules(bad)
+
+def test_style_banned_term_in_nested_context():
+    bad = _copy.deepcopy(GOOD)
+    bad["tw"]["others"] = _others(["2026-07-15"])
+    bad["tw"]["others"][0]["context"] = [{"date": "2026-07-16", "title": "x",
+                                          "body": "依規不轉存為本週要聞"}]
+    assert "style.banned_term" in rules(bad)
+
+def test_style_sources_not_checked():
+    ok = _copy.deepcopy(GOOD)
+    ok["tw"]["others"] = _others(["2026-07-15"])
+    ok["tw"]["others"][0]["sources"] = [{"name": "TLDR Fintech",
+                                         "title": "Readwise raw_items cover 80/20",
+                                         "url": "https://example.com"}]
+    assert "style.banned_term" not in rules(ok)
+
+def test_style_baodao_repeat():
+    bad = _copy.deepcopy(GOOD)
+    bad["tw"]["cover"]["paras"] = ["報導指出甲。", "報導指出乙。"]
+    assert "style.baodao_repeat" in rules(bad)
+
+def test_style_baodao_once_ok():
+    ok = _copy.deepcopy(GOOD)
+    ok["tw"]["cover"]["paras"] = ["報導指出甲。", "乙。"]
+    assert "style.baodao_repeat" not in rules(ok)
+
+def test_style_malformed_no_crash():
+    bad = _copy.deepcopy(GOOD)
+    bad["tw"]["cover"]["paras"] = "not a list"
+    bad["tw"]["context"] = ["not a dict"]
+    validate(bad, GOOD_META, PREV, "2026-07-18")  # must NOT raise
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for fn in fns:
