@@ -115,6 +115,23 @@
     "others": [
       {
         "date": "2026-07-24",
+        "title": "Sam Altman支持的World Network完成5,250萬美元募資，主打「真人驗證」數位身分對抗AI深偽",
+        "paras": [
+          "加密媒體CoinDesk報導，營運World Network、前身為Worldcoin的非營利組織World Foundation宣布，透過對策略投資人的鎖倉代幣銷售（locked token sale）完成5,250萬美元（US$52.5M）募資，由Pantera Capital領投，Bain Capital Crypto與Eightco Holdings參與。這筆資金將用來把其「真人驗證」（Proof of Human）數位身分（digital identity）技術，整合進企業軟體與AI代理人（AI agents）平台；該協定以自有硬體「Orb」發放不需犧牲隱私的身分憑證（World ID），用以辨識真人、阻擋機器人與AI假冒身分。",
+          "報導指出，World Network至今已有逾3,900萬人加入、逾1,800萬人經Orb完成驗證，World ID憑證累計使用逾4.75億次；其代幣WLD目前價格約0.37美元、市值約13億美元，去年5月首輪曾自a16z與Bain Capital Crypto募得1.35億美元。在AI深偽（deepfake）與機器人氾濫、線上真偽難辨的背景下，World藉這筆資金從「擴張網路」轉向「擴大應用」，把布局延伸至驗證、支付與網路服務。由於本則目前僅來自CoinDesk單一來源，實際企業採用進度、整合範圍與後續落地細節，仍待更多原始報導佐證。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
+            "url": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-24",
         "title": "Amazon Business將Affirm納為首個「先買後付」選項，把BNPL延伸至美國B2B企業採購",
         "paras": [
           "Amazon旗下企業採購平台Amazon Business宣布，把先買後付（Buy Now, Pay Later, BNPL）業者Affirm，納為平台首個「先買後付／延後付款」（pay-over-time）選項，開放給符合資格的美國獨資企業主（sole proprietors）使用；獲核准的客戶可將採購金額分3至48個月分期償還，且不收取逾期費用或隱藏費用。此舉把過去多見於消費端的BNPL付款方式，正式帶進企業對企業（B2B）的線上採購結帳流程。",
@@ -341,5 +358,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-24T16:17:05Z"
+  "_generated_at": "2026-07-25T03:53:20Z"
 }
