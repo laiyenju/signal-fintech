@@ -12,8 +12,21 @@ def test_source_activity_counts_silent_and_dropped():
     got = {s["name"]: s for s in source_activity(raw, meta, feeds)}
     assert got["A"]["windowItems"] == 2
     assert got["A"]["contributed"] == 1          # dropped 不算
+    assert got["A"]["status"] == "active_rss"
     assert got["Silent"]["windowItems"] == 0     # 沒更新的源仍列出
     assert got["Silent"]["contributed"] == 0
+    assert got["Silent"]["status"] == "silent"
+
+
+def test_source_activity_marks_readwise_only_active():
+    feeds = [{"name": "CoinDesk", "scope": "global"}]
+    raw = [{"source": "CoinDesk", "scope": "global", "via": "readwise"}]
+    meta = {"tw": {"scoredPool": []}, "global": {"scoredPool": []}}
+    got = source_activity(raw, meta, feeds)[0]
+    assert got["windowItems"] == 1
+    assert got["viaReadwise"] == 1
+    assert got["viaRss"] == 0
+    assert got["status"] == "active_readwise"
 
 
 def _meta():

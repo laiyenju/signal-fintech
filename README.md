@@ -4,7 +4,7 @@ A fintech news desk that curates itself. SIGNAL watches RSS feeds across Taiwan 
 
 **Live site:** https://laiyenju.github.io/signal-fintech/
 
-> Content generation runs inside a Claude Code cloud routine on subscription quota (not metered API). Fetching is plain RSS — zero AI cost. Hosting is free GitHub Pages.
+> Content generation runs inside a Claude Code cloud routine on subscription quota (not metered API). Fetching is deterministic (RSS + optional Readwise CLI) — zero AI cost. Hosting is free GitHub Pages.
 
 ---
 
@@ -24,8 +24,8 @@ No backend, no database, no paid API calls in the loop.
 
 ```
 Claude Code cloud routine (every 3 hours)
-    -> scripts/fetch_news.py pulls RSS feeds (plain fetch, no AI, zero cost)
-    -> Claude Code pulls last 48h from Readwise Reader (optional human-curated layer)
+    -> scripts/fetch_news.py pulls designated sources (RSS first; optional Readwise CLI fallback)
+    -> Claude Code may also pull last 48h from Readwise Reader feed (exploratory layer)
     -> Claude Code applies selection + rewrite rules from 排程任務指令.md
     -> writes candidate.json + candidate.meta.json (staged, not data.json)
     -> gate 1: scripts/validate.py (deterministic: dates, counts, quotas, schema)
@@ -56,23 +56,25 @@ python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-### Fetch RSS candidates only
+### Fetch designated sources only
 
 ```bash
 pip install feedparser
 python scripts/fetch_news.py
-# writes scripts/raw_items.json (48h lookback, no AI)
+# → scripts/raw_items.json + scripts/feeds_health.json (48h lookback, no AI)
+python scripts/audit_feeds.py   # optional: RSS vs Readwise coverage report
 ```
 
 ### Prerequisites for the full automated loop
 
 | Piece | Role |
 |---|---|
-| Python 3 + `feedparser` | RSS fetch |
+| Python 3 + `feedparser` | Designated-source fetch |
 | Claude Code subscription with cloud Scheduled Tasks / Routines | Selection, rewrite, commit |
 | GitHub repo + Pages from `main` | Hosting |
 | `gh` CLI in the routine environment | PR create + merge |
-| Readwise connector (optional) | Extra newsletter / email-feed candidates |
+| Readwise CLI (`@readwise/cli`, logged in) | Optional: FEEDS fallback + exploratory Reader feed |
+| Readwise MCP / connector | Optional alternative to CLI for the exploratory step only |
 
 Full cloud setup: see [`設定步驟.md`](./設定步驟.md).
 
@@ -80,24 +82,68 @@ Full cloud setup: see [`設定步驟.md`](./設定步驟.md).
 
 ## Data sources
 
-**Source of truth for RSS:** the `FEEDS` list in [`scripts/feeds.py`](./scripts/feeds.py). Names below match the current list; count and membership can change.
+Canonical roster: [`scripts/feeds.py`](./scripts/feeds.py) (`FEEDS`). Fetcher: [`scripts/fetch_news.py`](./scripts/fetch_news.py). One bad source never fails the run.
 
-**Taiwan** — 經濟日報, 科技新報, 公視新聞, Yahoo 財經, 中央社 CNA (tech + finance)
+### Two intake lanes
 
-**Global — news & analysis** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, The Block, NYT (Dealbook / Economy / Technology), Hacker News, Techmeme
+| Lane | What | Role |
+|---|---|---|
+| **A. Designated (`FEEDS`)** | Named outlets SIGNAL always tracks | Drives newsroom “silent / active”; credited as the FEED `name` |
+| **B. Exploratory (routine)** | Last 48h of the owner’s **Readwise Reader** feed | Newsletters / sources RSS can’t list; optional — skip if unavailable |
 
-**Digests** — TLDR Fintech / AI / Dev. RSS items are issue titles only, so the fetcher opens each issue page and **explodes it into individual stories** (headline, blurb, original outlet URL). Stories compete like any other candidate and are credited to the **original outlet**, never TLDR.
+Lane A is deterministic Python. Lane B is the routine prompt ([`排程任務指令.md`](./排程任務指令.md) §9): public `http` links only; email digests may be split to original outlet URLs; paid body is never republished.
 
-**Readwise Reader** (routine step, optional) — last 48h of the owner's Reader feed (RSS + email newsletters). Covers sources plain RSS can't reach. Email (`mailto:`) newsletters are now eligible: cite the story's original outlet link when the body contains one, otherwise the newsletter's own public "read online" link (credited to that newsletter). Only real public URLs — paid-newsletter body stays reference-only and is never republished. If the connector fails, the run continues without it.
+### How a designated source is fetched (Lane A)
 
-**Social** — after selection, the routine matches each new story via the Algolia Hacker News Search API (free, keyless). No matching thread → empty social section (never fabricated). **HN only** today; X and Reddit are not wired.
+Each `FEEDS` row has `url` (RSS), `scope`, optional `digest`, and:
 
-Unreachable feeds are skipped; a single bad source does not fail the run.
+| Field | Meaning |
+|---|---|
+| `policy` | `rss_only` (default) · `rss_primary_readwise_fallback` · `readwise_only` |
+| `readwise_match` | `{ domains, site_names }` — used only when policy needs Readwise |
 
-### Adding a feed
+**Per run:**
 
-1. Add an entry to `FEEDS` in `scripts/feeds.py` (`scope`: `"tw"` or `"global"`; set `"digest": True` for TLDR-style digests).
-2. **Also** update the `SOURCES` object in `index.html` so the on-site source directory stays in sync.
+1. Try RSS for every non-`readwise_only` source (HTTP **308** followed; some hosts break on a trailing `/` — prefer the working URL).
+2. Keep items in the last **48h** (undated items kept).
+3. If `rss_primary_readwise_fallback` and RSS **errors or yields 0 items**, load Reader feed **once** via CLI (`readwise reader-list-documents --location feed`) and keep docs matching `readwise_match`.
+4. Emit `raw_items.json` (each item may include `via: "rss" | "readwise"`) and `feeds_health.json`.
+
+**Design choice:** do not switch a source to Readwise only because one run is quiet. Fallback is for **broken / empty transport** when Reader already covers that domain (e.g. CoinDesk after a bad RSS URL). Occasional `windowItems=0` with a healthy feed (Yahoo 財經, TLDR Fintech between issues) is normal — not a failure.
+
+### Silent vs healthy (newsroom)
+
+`windowItems == 0` for a FEED means **no items in this 48h window**, not “this outlet never worked.”
+
+| Status | Meaning |
+|---|---|
+| `active_rss` | Items from RSS |
+| `active_readwise` | Items only via Readwise fallback (still counts as active) |
+| `silent` | Zero items this window |
+
+`contributed` still means “selected into the desk,” not “fetched.” High `windowItems` + long-term `contributed=0` → consider dropping the feed.
+
+### Current roster (names may change)
+
+- **Taiwan** — 經濟日報, 科技新報, 公視新聞, Yahoo 財經, 中央社 CNA (tech + finance)
+- **Global** — TechCrunch Fintech, PYMNTS, Finextra, Banking Dive, The Fintech Times, Bankless, CoinDesk, The Block, NYT (Dealbook / Economy / Technology), Hacker News, Techmeme
+- **Digests** — TLDR Fintech / AI / Dev: issue RSS → open issue page → **explode** into per-story candidates credited to the **original outlet**, never TLDR
+
+**Social** (post-selection): Algolia HN Search only; no thread → empty social (never fabricated).
+
+### Ops: audit, add, change policy
+
+```bash
+python scripts/audit_feeds.py
+# verdicts: healthy | use_readwise_fallback | subscribe_in_readwise | fix_rss_url | …
+```
+
+| Task | Do this |
+|---|---|
+| Add a source | 1) `FEEDS` in `feeds.py` 2) `SOURCES` in `index.html` |
+| RSS broken, Reader has it | Set `policy: "rss_primary_readwise_fallback"` + `readwise_match`; fix `url` if possible |
+| RSS weak, not in Reader | Fix URL or subscribe in Reader first — fallback cannot invent coverage |
+| Digest-style letter | `"digest": True` (TLDR pattern) |
 
 ---
 
@@ -126,28 +172,22 @@ key), renders via `newsroom.py`, and pushes. Wiki write is **soft-fail**: it mus
 not block `data.json` publish, but every run must print
 `newsroom_wiki=ok|failed|skipped` (also required in the data PR body).
 
-- **`<date>.json`** — structured: for each run, per-source update counts
-  (`windowItems`) and how many of them fed a selected story (`contributed`), plus the
-  scored candidate pool with each item's `decision` and a one-line `reason`.
-- **`<date>.md`** — a readable editorial diary re-rendered from the JSON each run
-  (browsable as a Wiki page). Comparable fields are GFM tables: day summary, cover +
-  funnel (TW/Global), sources (active / silent ≤3 / contributed in one table), and
-  scored decisions (`class` / impact / volume / score / source / reason). Notes stay
-  in a collapsible block.
+- **`<date>.json`** — per run: source activity (`windowItems`, `viaRss` / `viaReadwise`,
+  `status`, `contributed`) and the scored pool (`decision` + one-line `reason`).
+- **`<date>.md`** — editorial diary from that JSON (Wiki page): day summary, cover +
+  funnel, sources (active / Readwise backfill / silent ≤3 / contributed), decisions.
 
-Logged on **every** run, including no-change and fail-safe runs. `contributed` staying 0
-while `windowItems` stays high over time flags a feed worth dropping. To rebuild MD
-from an existing day JSON without appending a run:
+Logged on **every** run (including no-change / fail-safe). Rebuild MD only:
 `python scripts/newsroom.py --render-only path/to/YYYY-MM-DD.json`.
-Setup and connectivity notes: `設定步驟.md` (Wiki 選稿日誌連通).
+Wiki setup: `設定步驟.md`.
 
 ---
 
 ## Tech stack
 
 - **Frontend:** single static `index.html` (vanilla JS, no build step)
-- **Data:** `scripts/fetch_news.py` → `scripts/raw_items.json` → routine writes root `data.json` (client-fetched; `_generated_at` drives the site footer timestamp)
-- **Automation:** Claude Code cloud Scheduled Task / Routine — fetch, select, rewrite, `gh pr create` + `gh pr merge`
+- **Data:** `fetch_news.py` → `raw_items.json` (+ `feeds_health.json`) → routine writes root `data.json`
+- **Automation:** Claude Code cloud routine — fetch, select, rewrite, `gh pr` merge
 - **Hosting:** GitHub Pages from `main`
 
 ---
@@ -155,16 +195,16 @@ Setup and connectivity notes: `設定步驟.md` (Wiki 選稿日誌連通).
 ## Repo structure
 
 ```
-index.html              Site UI — fetches data.json, renders both scopes
-data.json               Published content (updated by the routine)
-scripts/fetch_news.py   RSS fetcher → scripts/raw_items.json (no AI)
-scripts/raw_items.json  Last fetch output (generated)
-scripts/feeds.py        Canonical feed roster (imported by fetch_news + newsroom)
-scripts/newsroom.py     Renders the per-run selection log (into $NEWSROOM_DIR)
-(wiki) <date>.json      Structured selection record, one entry per run (pushed to Wiki)
-(wiki) <date>.md        Human-readable editorial diary, re-rendered each run (Wiki page)
-排程任務指令.md            Routine prompt (selection, rewrite, commit) — Chinese
-設定步驟.md                One-time setup (repo, Pages, routine) — Chinese
+index.html                 Site UI — fetches data.json
+data.json                  Published content (routine)
+scripts/feeds.py           Canonical FEEDS roster + policy / readwise_match
+scripts/fetch_news.py      Designated-source fetch → raw_items.json, feeds_health.json
+scripts/audit_feeds.py     Offline RSS vs Readwise coverage audit
+scripts/newsroom.py        Selection log → $NEWSROOM_DIR
+scripts/validate.py        Gate 1 schema / quotas
+(wiki) <date>.json|.md     Per-day newsroom audit (not in main repo)
+排程任務指令.md               Routine prompt — Chinese
+設定步驟.md                   One-time setup — Chinese
 ```
 
 ---

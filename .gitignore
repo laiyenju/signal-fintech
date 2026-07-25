@@ -1,6 +1,8 @@
 # Runtime / schedule outputs (never commit)
 raw_items.json
 scripts/raw_items.json
+scripts/feeds_health.json
+scripts/feeds_audit.json
 candidate.json
 candidate.meta.json
 newsroom/

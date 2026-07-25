@@ -20,6 +20,12 @@ _SILENT_NAME_CAP = 3
 def source_activity(raw_items, meta, feeds=FEEDS):
     window = Counter((it.get("source"), it.get("scope"))
                      for it in raw_items if isinstance(it, dict))
+    # via 分計：rss / readwise（供報表辨識 fallback 是否生效）
+    via_counts = Counter()
+    for it in raw_items:
+        if not isinstance(it, dict):
+            continue
+        via_counts[(it.get("source"), it.get("via") or "rss")] += 1
     # ponytail: contrib keyed by source name only; correct because feed names are
     # globally unique (enforced by test_feeds.py). Key by (name, scope) if that changes.
     contrib = Counter()
@@ -28,9 +34,25 @@ def source_activity(raw_items, meta, feeds=FEEDS):
         for e in pool:
             if isinstance(e, dict) and e.get("decision") != "dropped":
                 contrib[e.get("source")] += 1
-    out = [{"name": f["name"], "scope": f["scope"],
-            "windowItems": window.get((f["name"], f["scope"]), 0),
-            "contributed": contrib.get(f["name"], 0)} for f in feeds]
+    out = []
+    for f in feeds:
+        n = window.get((f["name"], f["scope"]), 0)
+        n_rss = via_counts.get((f["name"], "rss"), 0)
+        n_rw = via_counts.get((f["name"], "readwise"), 0)
+        if n_rw and not n_rss:
+            status = "active_readwise"
+        elif n:
+            status = "active_rss"
+        else:
+            status = "silent"
+        out.append({
+            "name": f["name"], "scope": f["scope"],
+            "windowItems": n,
+            "viaRss": n_rss,
+            "viaReadwise": n_rw,
+            "status": status,
+            "contributed": contrib.get(f["name"], 0),
+        })
     out.sort(key=lambda s: (s["scope"], s["name"]))
     return out
 
@@ -180,7 +202,9 @@ def _cover_funnel_table(run):
 
 def _sources_table(srcs, cap=_SILENT_NAME_CAP):
     srcs = srcs or []
+    # 真靜默：windowItems=0。靠 Readwise 補上的不算靜默。
     silent = [s for s in srcs if not s.get("windowItems")]
+    via_rw = [s for s in srcs if s.get("viaReadwise") and s.get("windowItems")]
     active = sorted((s for s in srcs if s.get("windowItems")),
                     key=lambda s: (-s.get("windowItems", 0), s.get("name") or ""))[:3]
     contrib = sorted(
@@ -188,7 +212,17 @@ def _sources_table(srcs, cap=_SILENT_NAME_CAP):
         key=lambda s: (-s.get("contributed", 0), s.get("name") or ""))
     rows = []
     for s in active:
-        rows.append(["最活躍", s.get("name"), f"window={s.get('windowItems')}"])
+        via = []
+        if s.get("viaRss"):
+            via.append(f"rss={s['viaRss']}")
+        if s.get("viaReadwise"):
+            via.append(f"rw={s['viaReadwise']}")
+        via_s = (" " + " ".join(via)) if via else ""
+        rows.append(["最活躍", s.get("name"), f"window={s.get('windowItems')}{via_s}"])
+    for s in via_rw[:cap]:
+        if s not in active:
+            rows.append(["Readwise補", s.get("name"),
+                         f"window={s.get('windowItems')} rw={s.get('viaReadwise')}"])
     for s in silent[:cap]:
         rows.append(["靜默（前3）", s.get("name"), "0"])
     if len(silent) > cap:
@@ -198,7 +232,8 @@ def _sources_table(srcs, cap=_SILENT_NAME_CAP):
             rows.append(["有貢獻", s.get("name"), f"contributed={s.get('contributed')}"])
     else:
         rows.append(["有貢獻", "—", "無源貢獻進稿"])
-    intro = f"**資料源**：共 {len(srcs)} 源、靜默 {len(silent)} 源"
+    intro = (f"**資料源**：共 {len(srcs)} 源、靜默 {len(silent)} 源"
+             + (f"、Readwise 補 {len(via_rw)} 源" if via_rw else ""))
     return [intro, ""] + _md_table(["類型", "源", "視窗條數 / 貢獻"], rows)
 
 
