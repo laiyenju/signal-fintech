@@ -138,6 +138,28 @@
         "context": []
       },
       {
+        "date": "2026-07-24",
+        "title": "Stripe 傳以約 100 億美元洽購 AI 模型平台 OpenRouter，跨足 AI 基礎設施",
+        "paras": [
+          "支付巨頭 Stripe 傳出正洽談收購 AI 模型市集平台 OpenRouter，交易金額可能達約 100 億美元。OpenRouter 讓開發者透過單一介面切換、呼叫多家 AI 模型，今年 5 月一輪募資估值約 13 億美元；若以 100 億美元成交，估值將在兩個多月內大幅跳升。Stripe 今年稍早估值約 1,590 億美元，OpenRouter 本身即使用 Stripe 處理金流，雙方原已有業務往來。",
+          "對 Stripe 而言，這將是從核心支付業務跨入 AI 基礎設施的一大步，形同同時掌握 AI 交易的收單端與模型調度端。這樁交易最初由《華爾街日報》（WSJ）披露，PYMNTS、Axios 等多家媒體跟進；報導指出談判仍在進行、可能生變，且已有其他科技業者評估競標。最終是否成局與確切價格，目前尚未確定。"
+        ],
+        "sources": [
+          {
+            "name": "PYMNTS",
+            "title": "Stripe Eyes $10 Billion Deal for AI Model Marketplace OpenRouter",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/stripe-eyes-10-billion-deal-for-ai-model-marketplace-openrouter/"
+          },
+          {
+            "name": "Axios",
+            "title": "AI currency driving Stripe's OpenRouter move",
+            "url": "https://www.axios.com/2026/07/24/stripe-openrouter-merger-ai-currency"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-23",
         "title": "Nubank 將收購投資銀行 Banco Porto Real de Investimentos，強化巴西金融版圖",
         "paras": [
@@ -217,6 +239,28 @@
             "name": "Finextra",
             "title": "Intuit launches business credit card that syncs natively with QuickBooks",
             "url": "https://www.finextra.com/pressarticle/110474/intuit-launches-business-credit-card-that-syncs-natively-with-quickbooks"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-22",
+        "title": "Revolut 二級股權出售估值衝上 1,150 億美元，成全球最有價值私人金融科技公司",
+        "paras": [
+          "英國數位銀行 Revolut 啟動一輪讓員工出售持股的二級股權交易（secondary share sale），估值達 1,150 億美元，每股定價約 2,017 美元，較 2025 年 11 月的 750 億美元估值大漲逾五成。彭博（Bloomberg）報導，這使 Revolut 成為全球估值最高的私人金融科技公司，超越 Stripe，並高於巴克萊（Barclays）、德意志銀行（Deutsche Bank）等歐洲上市銀行。",
+          "估值躍升的背後，是一連串監理里程碑：Revolut 於 2026 年 3 月取得英國審慎監理局（PRA）完整銀行執照，結束多年等待，隨後向美國通貨監理署（OCC）申請國家銀行執照，持續擴大跨國版圖。實際出售股數、參與員工人數與後續 IPO 時程，報導並未完整揭露。"
+        ],
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "title": "Revolut Confirms $115 Billion Valuation in Latest Share Sale",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-22/revolut-confirms-115-billion-valuation-in-secondary-share-sale"
+          },
+          {
+            "name": "TechFundingNews",
+            "title": "Revolut hits $115B valuation, making its CEO worth more than $36B on paper",
+            "url": "https://techfundingnews.com/revolut-115b-valuation-nik-storonsky-net-worth/"
           }
         ],
         "social": [],
@@ -331,5 +375,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-25T18:52:24Z"
+  "_generated_at": "2026-07-26T15:54:34Z"
 }
