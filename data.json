@@ -54,6 +54,50 @@
     "others": [
       {
         "date": "2026-07-27",
+        "title": "Circle 向 IBM 收購近 1,000 項區塊鏈專利，成為全美最大區塊鏈專利持有者",
+        "paras": [
+          "CoinDesk 報導，穩定幣（stablecoin）發行商 Circle（美股代號 CRCL）向 IBM 收購近 1,000 項已核准的區塊鏈相關專利，並表示此舉使其成為全美最大的區塊鏈專利持有者。這批專利涵蓋逾 680 個專利家族，橫跨區塊鏈技術、銀行、金融服務、保險、企業基礎設施、供應鏈驗證與雲端資安，交易金額未揭露。IBM 出售前本就名列美國前段班的區塊鏈專利持有者，專利分析公司 PatSnap 於 2025 年 12 月估其持有約 790 項相關專利。",
+          "Circle 表示，這批專利將用於支援旗下 USDC、Circle Payments Network、自建的 Arc 區塊鏈，以及為 AI 代理人設計的金融工具，雙方並計畫探索進一步的商業合作。公司未說明其中多少專利於美國核准、IBM 是否保留授權權利，或是否打算對外授權或主張這些專利。穩定幣龍頭以整併專利組合鞏固數位資產基礎設施的智慧財產布局，顯示產業競爭正延伸到專利層面；相關內容目前主要見於 CoinDesk 與 Circle 的公開新聞稿。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Circle buys nearly 1,000 blockchain patents from IBM",
+            "url": "https://www.coindesk.com/business/2026/07/27/circle-buys-nearly-1-000-blockchain-patents-from-ibm"
+          },
+          {
+            "name": "Business Wire",
+            "title": "Circle Acquires IBM Blockchain Patent Portfolio",
+            "url": "https://www.businesswire.com/news/home/20260727291555/en/Circle-Acquires-IBM-Blockchain-Patent-Portfolio"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-27",
+        "title": "運動電商 Fanatics 收購受監理交易所與清算所，切入快速成長的預測市場",
+        "paras": [
+          "CoinDesk 報導，美國運動電商 Fanatics 大舉切入預測市場（prediction markets）：週一宣布同意向 BGC Group 收購 Water Street Labs 與 CX Clearinghouse，取得一個受聯邦監理的交易所與清算所，交易金額未揭露。掌握自有的交易與清算基礎設施後，Fanatics 可自行上架、掛牌與結算合約，更能掌控產品內容與新市場上線速度，並計畫與 BGC 共同開發結合預測市場活動與傳統金融數據的新型數據產品。",
+          "預測市場是近一年金融領域成長最快的區塊之一，動能主要來自受美國商品期貨交易委員會（CFTC）監理的 Kalshi，以及在區塊鏈上營運的 Polymarket；Coinbase 已與 Kalshi 合作把預測市場帶進 50 州，Robinhood 也透過同一交易所提供事件合約（event contracts）。Fanatics 押注龐大的運動用戶基礎能把預測市場推向更廣大的消費族群，其 Markets 平台自 2024 年底上線、目前覆蓋 23 州與 4 個美國屬地，DraftKings 等博弈業者亦相繼跨入這塊市場。相關內容目前主要見於 CoinDesk 與 Fanatics 的公開新聞稿。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Fanatics buys regulated exchange in bid to grow prediction markets business",
+            "url": "https://www.coindesk.com/markets/2026/07/27/fanatics-buys-regulated-exchange-in-bid-to-grow-prediction-markets-business"
+          },
+          {
+            "name": "GlobeNewswire",
+            "title": "Fanatics to Acquire Exchange and Clearinghouse from BGC; Parties to Partner on Prediction Markets",
+            "url": "https://www.globenewswire.com/news-release/2026/07/27/3333493/0/en/fanatics-to-acquire-exchange-and-clearinghouse-from-bgc-parties-to-partner-on-prediction-markets.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-27",
         "title": "南韓最大貿易商 POSCO International 攜手 LG CNS 把貿易應收帳款上鏈代幣化，測試以區塊鏈加速跨國付款",
         "paras": [
           "南韓最大貿易商 POSCO International（去年營收約 222 億美元，業務橫跨鋼鐵、能源與電池材料）與 LG 集團旗下科技公司 LG CNS 合作，在 layer-1 區塊鏈 Injective 上發行、移轉與結算「貿易應收帳款」（trade receivables），測試以區塊鏈加速旗下跨國子公司之間的商業付款。這次概念驗證（PoC）採用 POSCO 海外據點與交易對手之間的真實貿易資料，而非模擬交易；應收帳款代表貨物出貨後、尚未收款前的債權，過去由買方、賣方與銀行各自分開記錄，對帳往往需要數日才能放款。",
@@ -392,5 +436,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-27T00:50:22Z"
+  "_generated_at": "2026-07-27T15:58:00Z"
 }
