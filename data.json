@@ -53,6 +53,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-07-27",
+        "title": "南韓最大貿易商 POSCO International 攜手 LG CNS 把貿易應收帳款上鏈代幣化，測試以區塊鏈加速跨國付款",
+        "paras": [
+          "南韓最大貿易商 POSCO International（去年營收約 222 億美元，業務橫跨鋼鐵、能源與電池材料）與 LG 集團旗下科技公司 LG CNS 合作，在 layer-1 區塊鏈 Injective 上發行、移轉與結算「貿易應收帳款」（trade receivables），測試以區塊鏈加速旗下跨國子公司之間的商業付款。這次概念驗證（PoC）採用 POSCO 海外據點與交易對手之間的真實貿易資料，而非模擬交易；應收帳款代表貨物出貨後、尚未收款前的債權，過去由買方、賣方與銀行各自分開記錄，對帳往往需要數日才能放款。",
+          "兩家公司表示，把應收帳款放上共享的區塊鏈帳本可建立單一紀錄，讓資產在移轉與結算時同時攜帶合規規則；POSCO 計畫在今年稍晚完成試辦後，把這套做法擴大到正式生產環境。這也延續南韓企業近期的上鏈布局——車廠現代（Hyundai）已開始以穩定幣（stablecoin）在美墨營運之間進行內部資金調度，穩定幣發行商 Circle 也與 Kakao、Toss Bank 探索支付基礎設施；LG CNS 先前參與韓國央行數位貨幣（CBDC）試點，並為 KOSCOM 與未來資產證券（Mirae Asset Securities）營運代幣化平台。相關內容目前主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "South Korea trading giant puts receivables onchain in tokenization test with LG CNS",
+            "url": "https://www.coindesk.com/business/2026/07/26/south-korea-trading-giant-puts-receivables-onchain-in-tokenization-test-with-lg-cns"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-26",
         "title": "俄羅斯最大銀行 Sberbank 將於年底前建置加密交易與託管基礎設施，把加密資產納入受監理金融體系",
         "paras": [
@@ -375,5 +392,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-26T18:55:54Z"
+  "_generated_at": "2026-07-27T00:50:22Z"
 }
