@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "tier": "watch",
-      "title": "本日觀察：過去 24 小時台灣沒有新的金融科技重點事件",
+      "title": "本日觀察：過去 24 小時台灣沒有以金融科技為核心的重點事件",
       "paras": [
-        "過去 24 小時的台灣財經與科技新聞，主力仍集中在半導體與 AI 硬體供應鏈（輝達 GPU、台積電 2 奈米、費半重挫逾 4%）、聯準會（Fed）利率決策前的觀望，以及美國 301 關稅對台課 10% 等總體與產業消息。這些屬於一般財經與科技產業動態，支付、數位銀行或金融基礎設施並非事件核心。",
-        "少數沾到金融的內容多屬傳統銀行與信用業務，例如國銀 6 月不動產放款與房貸單月大增、建融逾放暴增、金管會關注房貸與信貸成長並研議防堵「四貸同堂」授信資訊落差，以及印尼首發熊貓債籌資 10 億美元；這些以既有金融流程與監理為主、科技非核心。綜合而言，今日台灣暫無以金融科技為核心的重點事件。"
+        "過去 24 小時的台灣財經與科技新聞，主力仍集中在半導體與 AI 硬體供應鏈（長鑫存儲掛牌首日暴漲、台積電 3 奈米布局、記憶體因 AI 需求漲價），以及 6 月景氣燈號連七紅、聯準會（Fed）利率決議前的市場觀望等總體與產業消息。這些屬於一般財經與科技產業動態，支付、數位銀行或金融基礎設施並非事件核心。",
+        "少數沾到金融的內容仍以傳統銀行與資本市場業務為主，例如五家國銀透過國際金融業務分行（OBU）合計注資 OpenAI 約 7.5 億美元、國銀新南向澳洲授信大增、芝商所推出涵蓋輝達與台積電 ADR 的單一股票期貨，以及金管會關注「四貸同堂」授信風險等；這些以既有金融流程與監理為主、科技並非核心。綜合而言，今日台灣暫無以金融科技為核心的重點事件。"
       ]
     },
     "sources": [],
@@ -34,19 +34,19 @@
   },
   "global": {
     "cover": {
-      "date": "2026-07-27",
-      "tier": "watch",
-      "title": "本日觀察：加密貨幣交易所 BitMart 宣布結束營運，平台代幣 BMX 單日崩跌 58%",
+      "date": "2026-07-28",
+      "tier": "top",
+      "title": "代幣化平台 Securitize 取得美國 SEC 投資顧問牌照，強化華爾街與鏈上投資布局",
       "paras": [
-        "CoinDesk 報導，成立九年的加密貨幣交易所 BitMart 宣布將結束營運，給用戶約一個月時間關閉交易部位、約六個月時間提領資產；消息傳出後，平台自家代幣 BMX 單日崩跌約 58%。BitMart 並未說明具體的關閉原因。",
-        "一家營運多年的中型加密貨幣交易所無預警收攤，凸顯在市場低迷之際部分交易平台承壓，用戶須在期限內把資產移轉至他處以免受影響。BitMart 未交代結束營運的財務或監理背景，影響範圍目前相對侷限，且僅見 CoinDesk 單一來源報導，是否牽動更廣泛的加密交易所版圖仍有待觀察。"
+        "CoinDesk 報導，代幣化（tokenization）平台 Securitize 取得美國證券交易委員會（SEC）核發的註冊投資顧問（registered investment adviser, RIA）牌照。Securitize 是資產管理巨頭貝萊德（BlackRock）的代幣化合作夥伴，這張牌照擴大了公司可提供的服務範圍，讓它在把真實世界資產搬上區塊鏈的業務上，站上更接近華爾街主流金融的位置。",
+        "這項進展發生在監理機關正研議鏈上（onchain）投資產品規則之際，凸顯代幣化業務持續擴張、並逐步被納入既有的證券監理架構。牌照具體涵蓋的業務範圍，以及後續與貝萊德等機構的合作細節，目前尚未完整揭露，相關內容主要見於 CoinDesk。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
-        "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58"
+        "title": "Securitize builds Wall Street credentials with SEC adviser license as tokenization expands",
+        "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands"
       }
     ],
     "coverSocial": [],
@@ -108,6 +108,23 @@
             "name": "CoinDesk",
             "title": "South Korea trading giant puts receivables onchain in tokenization test with LG CNS",
             "url": "https://www.coindesk.com/business/2026/07/26/south-korea-trading-giant-puts-receivables-onchain-in-tokenization-test-with-lg-cns"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-27",
+        "title": "本日觀察：加密貨幣交易所 BitMart 宣布結束營運，平台代幣 BMX 單日崩跌 58%",
+        "paras": [
+          "CoinDesk 報導，成立九年的加密貨幣交易所 BitMart 宣布將結束營運，給用戶約一個月時間關閉交易部位、約六個月時間提領資產；消息傳出後，平台自家代幣 BMX 單日崩跌約 58%。BitMart 並未說明具體的關閉原因。",
+          "一家營運多年的中型加密貨幣交易所無預警收攤，凸顯在市場低迷之際部分交易平台承壓，用戶須在期限內把資產移轉至他處以免受影響。BitMart 未交代結束營運的財務或監理背景，影響範圍目前相對侷限，且僅見 CoinDesk 單一來源報導，是否牽動更廣泛的加密交易所版圖仍有待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
+            "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58"
           }
         ],
         "social": [],
@@ -328,6 +345,23 @@
         "context": []
       },
       {
+        "date": "2026-07-22",
+        "title": "加密永續合約挾約 90 兆美元交易量叩關華爾街，大型銀行審慎觀望",
+        "paras": [
+          "CoinDesk 報導，永續期貨（perpetual futures，加密圈俗稱 perps）這項在加密貨幣交易中最熱門、累計交易規模達約 90 兆美元的金融產品，正以受監理的形式進入美國市場。這類合約沒有到期日，長期是加密交易者的主力工具；如今被引進華爾街，象徵加密原生的交易產品進一步向傳統金融靠攏。",
+          "不過大型華爾街銀行態度審慎，傾向等到監理規則更明確、市場流動性更充足後再加入；反倒是規模較小的交易商與交易所動作更快，搶先卡位這塊新市場。實際上線的商品設計、參與機構與監理配套，目前仍待觀察，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Crypto's favorite $90 trillion trading product is coming to Wall Street, but big banks are taking it slow",
+            "url": "https://www.coindesk.com/markets/2026/07/22/crypto-s-favorite-usd90-trillion-trading-product-is-coming-to-wall-street-but-big-banks-are-taking-it-slow"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-21",
         "title": "三星推出 Galaxy Card 信用卡，深化與 Samsung Wallet 整合、進軍金融科技",
         "paras": [
@@ -377,64 +411,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-20",
-        "title": "逾 40 家金融與科技巨頭加入 Linux 基金會，成立 x402 基金會推動 AI 代理人網路原生支付標準",
-        "paras": [
-          "逾 40 家金融與科技公司加入 Linux 基金會，共同成立開放治理組織「x402 基金會」，推動一項讓支付能原生在網路上流動的開放協定。x402 標準最初由 Coinbase 貢獻，目標是讓 AI 代理人、API 與各類應用程式能像交換資料一樣完成交易，支付方式涵蓋信用卡到穩定幣。",
-          "PaymentsDive 報導，成員橫跨支付與科技兩大陣營，包括 Visa、Mastercard、Stripe 與 Coinbase，以及 Google、AWS、Adyen 與 Shopify 等業者。若獲廣泛採用，這項協定可望成為 AI 驅動商務的基礎設施；目前仍在治理組織成立階段，實際落地時程與各成員的投入方式未定。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "Finance and tech firms unite around Internet payments protocol x402",
-            "url": "https://www.finextra.com/newsarticle/48105/finance-and-tech-firms-unite-around-internet-payments-protocol-x402"
-          },
-          {
-            "name": "PaymentsDive",
-            "title": "Visa, Stripe join AI payments protocol project",
-            "url": "https://www.paymentsdive.com/news/visa-stripe-join-ai-protocol-project/825499/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-20",
-        "title": "AI 代理人支付新創 Natural 完成 3,000 萬美元 A 輪，喊話正面對決 Stripe",
-        "paras": [
-          "TechCrunch 報導，成立僅約一年的金融科技新創 Natural 完成 3,000 萬美元 A 輪募資，由 Forerunner Ventures 創辦人暨管理合夥人 Kirsten Green 領投，累計募資達 4,000 萬美元。Natural 把自己定位為 AI 代理人的支付協調層，讓自主運作的代理人能自行保管與移動資金、發動與收取付款，並與人類或其他代理人完成交易。",
-          "執行長 Kahlil Lalji 曾共同創辦 Ivella（2023 年售予 Earnin），團隊成員來自 Stripe、Ramp 與 Square。公司主張現行信用卡與 ACH 等金流基礎設施是為「人類發動」的交易而設計，難以支撐 AI 代理人的自主支付，因此規劃同時支援美元穩定幣與傳統銀行支付，並把 Stripe 與新創 Skyfire 視為主要競爭對手。"
-        ],
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
-            "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-20",
-        "title": "2026 上半年全球金融科技募資年增 23% 達 286 億美元，資金集中 AI 大案、IPO 仍停滯",
-        "paras": [
-          "Finextra 報導，2026 年上半年全球金融科技新創共募得 286 億美元，較去年同期成長 23%；同期募資輪數反而年減 26%，顯示資金正集中流向數量更少、規模更大的交易。AI 仍是投資人最感興趣的主題，Ramp、Ebury 與 Alan 等公司的大型募資貢獻相當比重，美國更包辦整體投入資金的半數以上。",
-          "儘管募資金額回升，金融科技業的 IPO 市場仍大致停滯，多家業者選擇按兵不動、延後上市。各細分領域的募資分布與後續走勢，這份產業彙整並未完整揭露。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "H1 global fintech funding grows 23% YoY",
-            "url": "https://www.finextra.com/newsarticle/48109/h1-global-fintech-funding-grows-23-yoy"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-07-27T15:58:00Z"
+  "_generated_at": "2026-07-27T18:57:23Z"
 }
