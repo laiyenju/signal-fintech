@@ -68,24 +68,41 @@
   },
   "global": {
     "cover": {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "tier": "watch",
-      "title": "以太坊基金會分拆新創 EthSystems 押注「隱私」是銀行上鏈關鍵，為機構打造保密基礎設施",
+      "title": "本日觀察：代幣化業者 Ondo 放棄自建公有代幣化資產鏈，改推私有高速交易網路",
       "paras": [
-        "CoinDesk 報導，今年稍早自以太坊基金會（Ethereum Foundation）分拆獨立的新創 EthSystems，押注阻擋金融機構把業務搬上公有區塊鏈的最大障礙是「隱私」而非「可擴充性」。這家源自基金會「機構隱私任務小組」的公司不打算另建新鏈，而是為銀行、資產管理業者與政府打造保密（confidentiality）基礎設施，讓敏感的交易資料在以太坊上完成結算的同時仍維持機密，藉此支援代幣化（tokenization）資產、穩定幣（stablecoin）等金融應用。",
-        "共同創辦人 Mo Jalil 表示，幾乎每家金融機構都需要某種程度的保密，但這不等於匿名或隱藏，而是要能控管「誰、在何時、以何種方式」看到哪些資料。市場上 Canton Network（有高盛、法國巴黎銀行 BNP Paribas 與美國存託清算公司 DTCC 等機構支持），以及 Aztec、Miden 等以太坊原生隱私協定，也在耕耘同一領域；EthSystems 定位為顧問並提供客製基礎設施與開源研究，選擇與既有專案並存而非重造整套隱私堆疊。公司稱機構需求已從創新實驗團隊轉向實際營運交易與管理資產的業務單位，這輪布局的募資規模與客戶名單尚未揭露，相關內容目前主要見於 CoinDesk。"
+        "CoinDesk 報導，主打真實世界資產代幣化（tokenization）的 Ondo，放棄原先自建一條公有代幣化資產區塊鏈的計畫，改為打造一個私有、高速的交易網路。這個新網路先用於支援 Ondo 近期上線的永續期貨（perpetual futures）平台，未來將擴大支援各類鏈上（onchain）金融資產的交易。",
+        "這代表這家代幣化業者在基礎設施路線上的一次重大轉向——從押注開放的公有鏈，改以自有、可控且強調速度的私有網路承載交易。實際的技術架構、支援的資產範圍與正式上線時程尚未完整揭露，這項調整目前主要見於 CoinDesk 的報導。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
-        "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains"
+        "title": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network",
+        "url": "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-07-28",
+        "title": "以太坊基金會分拆新創 EthSystems 押注「隱私」是銀行上鏈關鍵，為機構打造保密基礎設施",
+        "paras": [
+          "CoinDesk 報導，今年稍早自以太坊基金會（Ethereum Foundation）分拆獨立的新創 EthSystems，押注阻擋金融機構把業務搬上公有區塊鏈的最大障礙是「隱私」而非「可擴充性」。這家源自基金會「機構隱私任務小組」的公司不打算另建新鏈，而是為銀行、資產管理業者與政府打造保密（confidentiality）基礎設施，讓敏感的交易資料在以太坊上完成結算的同時仍維持機密，藉此支援代幣化（tokenization）資產、穩定幣（stablecoin）等金融應用。",
+          "共同創辦人 Mo Jalil 表示，幾乎每家金融機構都需要某種程度的保密，但這不等於匿名或隱藏，而是要能控管「誰、在何時、以何種方式」看到哪些資料。市場上 Canton Network（有高盛、法國巴黎銀行 BNP Paribas 與美國存託清算公司 DTCC 等機構支持），以及 Aztec、Miden 等以太坊原生隱私協定，也在耕耘同一領域；EthSystems 定位為顧問並提供客製基礎設施與開源研究，選擇與既有專案並存而非重造整套隱私堆疊。公司稱機構需求已從創新實驗團隊轉向實際營運交易與管理資產的業務單位，這輪布局的募資規模與客戶名單尚未揭露，相關內容目前主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
+            "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-07-28",
         "title": "代幣化平台 Securitize 取得美國 SEC 投資顧問牌照，強化華爾街與鏈上投資布局",
@@ -517,5 +534,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-28T18:56:35Z"
+  "_generated_at": "2026-07-28T21:51:09Z"
 }
