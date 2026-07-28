@@ -131,6 +131,23 @@
         "context": []
       },
       {
+        "date": "2026-07-27",
+        "title": "法院暫時擋下明尼蘇達州預測市場禁令，Kalshi、Polymarket 與 CFTC 主張牴觸聯邦監理",
+        "paras": [
+          "CoinDesk 報導，美國一名法官暫時擋下明尼蘇達州一項禁止預測市場（prediction markets）的州法，認為該法很可能與聯邦規範相牴觸。事件合約交易所 Kalshi、鏈上預測市場 Polymarket 與美國商品期貨交易委員會（CFTC）都主張，這項州法干擾了聯邦層級的監理權限；法院的暫緩裁定將維持到做出最終判決為止。",
+          "這起訴訟凸顯預測市場在美國快速擴張之際，聯邦與各州監理權限的界線爭議正逐漸浮上檯面。Kalshi 受 CFTC 監理、Polymarket 則在區塊鏈上營運，兩者近來都積極把事件合約（event contracts）推向全美市場；州級禁令與聯邦監理孰輕孰重，將牽動整個預測市場產業的合規版圖，相關內容目前主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Kalshi, Polymarket win pause against Minnesota's prediction market ban",
+            "url": "https://www.coindesk.com/policy/2026/07/27/kalshi-polymarket-win-pause-against-minnesota-s-prediction-market-ban"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-26",
         "title": "俄羅斯最大銀行 Sberbank 將於年底前建置加密交易與託管基礎設施，把加密資產納入受監理金融體系",
         "paras": [
@@ -323,6 +340,23 @@
         "context": []
       },
       {
+        "date": "2026-07-23",
+        "title": "Wise 申請美國全國信託銀行執照遭駁回，股價下跌逾一成",
+        "paras": [
+          "彭博（Bloomberg）報導，跨境匯款金融科技業者 Wise 申請美國「全國信託銀行執照」（national trust bank charter）遭監理機關駁回，理由與反洗錢（AML）及法遵疑慮有關；消息傳出後，Wise 股價一度下跌逾一成。取得美國銀行執照原本被視為 Wise 深化美國市場、把更多金流與資金業務納入自有基礎設施的關鍵一步。",
+          "這項決定顯示，即使是規模與名聲都相對成熟的金融科技公司，在申請銀行牌照時仍面臨升高的監理審查。Wise 表示已強化法遵計畫，並打算重新提出申請，同時把旗下基礎設施定位為未來以穩定幣（stablecoin）驅動支付的準備。牌照被拒的完整理由、重新申請時程與後續影響尚未完整揭露，相關內容主要見於彭博報導。"
+        ],
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "title": "Banking regulator rejects fintech Wise's US trust charter bid",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-23/banking-regulator-rejects-fintech-wise-s-us-trust-charter-bid"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-22",
         "title": "Revolut 二級股權出售估值衝上 1,150 億美元，成全球最有價值私人金融科技公司",
         "paras": [
@@ -414,5 +448,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-27T18:57:23Z"
+  "_generated_at": "2026-07-28T00:55:48Z"
 }
