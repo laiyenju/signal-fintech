@@ -87,6 +87,57 @@
     "context": [],
     "others": [
       {
+        "date": "2026-07-28",
+        "title": "摩根士丹利推出以太幣、Solana 兩檔 ETP，數位資產產品線從比特幣再擴張",
+        "paras": [
+          "摩根士丹利（Morgan Stanley）推出追蹤以太幣（ETH）與 Solana（SOL）的交易所交易產品（ETP）：Morgan Stanley Ethereum Trust（代號 MSSE）與 Morgan Stanley Solana Trust（代號 MSOL）在紐約證交所 Arca 掛牌，分別追蹤 CoinDesk 的 ETH 與 SOL 4PM 紐約結算基準價，讓投資人不必直接持有代幣即可取得部位。兩檔產品收取市場最低的 0.14% 管理費，並計畫將部分持倉質押（staking），把質押獎勵回饋給投資人而非留給公司。",
+          "這延續摩根士丹利今年稍早推出的現貨比特幣信託（MSBT）——截至 7 月 16 日已累積逾 3.81 億美元資產。挾旗下財富管理部門約 1.6 萬名理財顧問、逾 9 兆美元客戶資產，以及 E*TRADE 觸及的自主投資人，摩根士丹利具備強大通路優勢；此舉反映大型資產管理業者持續把數位資產產品線從比特幣擴展到 ETH 與 SOL，SOL 現貨產品更成為機構競逐的新戰場，相關內容目前主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Morgan Stanley debuts ether, solana exchange-traded products after bitcoin fund success",
+            "url": "https://www.coindesk.com/markets/2026/07/28/morgan-stanley-debuts-ether-and-solana-etps-after-bitcoin-fund-success"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-28",
+        "title": "馬斯克旗下 X 在美推出「X Money」銀行服務，加速打造萬能 App",
+        "paras": [
+          "馬斯克（Elon Musk）旗下社群平台 X 於 7 月 27 日正式向全美 Premium 與 Premium+ 付費訂閱用戶推出「X Money」銀行服務，是 X 邁向「萬能 App」（everything app）的重要一步。此舉把支付與資金功能整合進社群平台，讓 X 從內容與訊息服務跨入數位金融領域。",
+          "X Money 的推出，延續馬斯克把 X 打造成集社交、支付與金融於一身的超級 App 願景，對標亞洲以微信（WeChat）為代表的「萬能 App」模式。實際的功能設計、合作銀行與後續開放對象尚未完整揭露，目前主要見於中央社引述外電的報導。"
+        ],
+        "sources": [
+          {
+            "name": "中央社 CNA（財經）",
+            "title": "X平台在美推X Money銀行服務　馬斯克擬打造萬能App",
+            "url": "https://www.cna.com.tw/news/aopl/202607280343.aspx"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-27",
+        "title": "Visa 攜手 Airwallex 把跨境支付嵌入貨運平台，切入結算冗長的物流付款",
+        "paras": [
+          "Visa 與跨境支付金融科技業者 Airwallex 宣布合作，把跨境支付、多幣別（multi-currency）與營運資金（working capital）工具直接嵌入貨運與航運平台，協助物流業者加速資金流動、降低付款摩擦。這鎖定一個國際結算最長可達 42 天、付款行政作業占運輸成本近兩成的產業痛點。",
+          "透過把金融科技能力內嵌進貨運平台，Visa 與 Airwallex 意在把嵌入式金融（embedded finance）帶進長期仰賴傳統跨境結算的物流供應鏈。實際上線的平台夥伴、覆蓋市場與費率結構尚待雙方進一步公布，目前主要見於 Fintech Magazine。"
+        ],
+        "sources": [
+          {
+            "name": "Fintech Magazine",
+            "title": "Visa & Airwallex bring fintech overhaul to freight payments",
+            "url": "https://fintechmagazine.com/news/visa-airwallex-bring-fintech-overhaul-to-freight-payments"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-27",
         "title": "Circle 向 IBM 收購近 1,000 項區塊鏈專利，成為全美最大區塊鏈專利持有者",
         "paras": [
@@ -202,7 +253,13 @@
           }
         ],
         "social": [],
-        "context": []
+        "context": [
+          {
+            "date": "2026-07-28",
+            "title": "俄羅斯央行公布首批「數位託管」草案規則，把證券市場監理延伸至加密資產",
+            "body": "俄羅斯央行（Bank of Russia）公布首批加密貨幣監理草案，計畫把現行證券市場的交易、託管、紀錄與揭露制度延伸到數位資產，並為記錄加密資產持有部位的「數位託管機構」（digital depository）設定資本要求——依業務類型須具備 5,000 萬至 2.5 億盧布（約 57 萬至 280 萬美元）資本，其中結算型託管機構門檻最高、能控制加密位址或委由境外託管者次之。這批草案依 7 月 21 日國家杜馬（State Duma）通過、7 月 24 日聯邦委員會（Federation Council）批准的數位資產法制定，整體框架預定 9 月生效，目前仍在公開徵詢階段，是 Sberbank 等業者布局加密基礎設施的上位法源，相關內容主要見於 CoinDesk。"
+          }
+        ]
       },
       {
         "date": "2026-07-25",
@@ -494,5 +551,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-28T09:52:01Z"
+  "_generated_at": "2026-07-28T15:55:00Z"
 }
