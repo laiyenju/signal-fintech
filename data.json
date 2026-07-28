@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "tier": "watch",
-      "title": "本日觀察：過去 24 小時台灣沒有以金融科技為核心的重點事件",
+      "title": "本日觀察：過去 24 小時台灣缺乏以金融科技為核心的重點事件",
       "paras": [
-        "過去 24 小時的台灣財經與科技新聞，主力仍集中在半導體與 AI 硬體供應鏈（長鑫存儲掛牌首日暴漲、台積電 3 奈米布局、記憶體因 AI 需求漲價），以及 6 月景氣燈號連七紅、聯準會（Fed）利率決議前的市場觀望等總體與產業消息。這些屬於一般財經與科技產業動態，支付、數位銀行或金融基礎設施並非事件核心。",
-        "少數沾到金融的內容仍以傳統銀行與資本市場業務為主，例如五家國銀透過國際金融業務分行（OBU）合計注資 OpenAI 約 7.5 億美元、國銀新南向澳洲授信大增、芝商所推出涵蓋輝達與台積電 ADR 的單一股票期貨，以及金管會關注「四貸同堂」授信風險等；這些以既有金融流程與監理為主、科技並非核心。綜合而言，今日台灣暫無以金融科技為核心的重點事件。"
+        "過去 24 小時的台灣財經新聞，主力集中在投資與資本市場商品，例如統一投信推出股債傘型主動式 ETF、野村與國泰投信分別主打科技與 AI 類股 ETF 布局，以及壽險業外幣保單前 5 月新契約保費達 2,334 億元、創 4 年新高等；這些屬於一般理財與保險業務動態，數位產品或金融基礎設施並非事件核心。",
+        "監理面則有金管會核准 7 家銀行採用內部評等法（IRB）、預計第 4 季適用，以及關注多重借款「四貸同堂」授信風險等，皆以傳統銀行資本與授信監理為主。少數與金融科技相關者，如純網銀 LINE Bank 綁定 MaiCoin 的加密貨幣一鍵扣款，已收錄於本週要聞；綜合而言，今日台灣暫無足以擔任本日最重點的金融科技核心事件。"
       ]
     },
     "sources": [],
@@ -69,23 +69,40 @@
   "global": {
     "cover": {
       "date": "2026-07-28",
-      "tier": "top",
-      "title": "代幣化平台 Securitize 取得美國 SEC 投資顧問牌照，強化華爾街與鏈上投資布局",
+      "tier": "watch",
+      "title": "以太坊基金會分拆新創 EthSystems 押注「隱私」是銀行上鏈關鍵，為機構打造保密基礎設施",
       "paras": [
-        "CoinDesk 報導，代幣化（tokenization）平台 Securitize 取得美國證券交易委員會（SEC）核發的註冊投資顧問（registered investment adviser, RIA）牌照。Securitize 是資產管理巨頭貝萊德（BlackRock）的代幣化合作夥伴，這張牌照擴大了公司可提供的服務範圍，讓它在把真實世界資產搬上區塊鏈的業務上，站上更接近華爾街主流金融的位置。",
-        "這項進展發生在監理機關正研議鏈上（onchain）投資產品規則之際，凸顯代幣化業務持續擴張、並逐步被納入既有的證券監理架構。牌照具體涵蓋的業務範圍，以及後續與貝萊德等機構的合作細節，目前尚未完整揭露，相關內容主要見於 CoinDesk。"
+        "CoinDesk 報導，今年稍早自以太坊基金會（Ethereum Foundation）分拆獨立的新創 EthSystems，押注阻擋金融機構把業務搬上公有區塊鏈的最大障礙是「隱私」而非「可擴充性」。這家源自基金會「機構隱私任務小組」的公司不打算另建新鏈，而是為銀行、資產管理業者與政府打造保密（confidentiality）基礎設施，讓敏感的交易資料在以太坊上完成結算的同時仍維持機密，藉此支援代幣化（tokenization）資產、穩定幣（stablecoin）等金融應用。",
+        "共同創辦人 Mo Jalil 表示，幾乎每家金融機構都需要某種程度的保密，但這不等於匿名或隱藏，而是要能控管「誰、在何時、以何種方式」看到哪些資料。市場上 Canton Network（有高盛、法國巴黎銀行 BNP Paribas 與美國存託清算公司 DTCC 等機構支持），以及 Aztec、Miden 等以太坊原生隱私協定，也在耕耘同一領域；EthSystems 定位為顧問並提供客製基礎設施與開源研究，選擇與既有專案並存而非重造整套隱私堆疊。公司稱機構需求已從創新實驗團隊轉向實際營運交易與管理資產的業務單位，這輪布局的募資規模與客戶名單尚未揭露，相關內容目前主要見於 CoinDesk。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Securitize builds Wall Street credentials with SEC adviser license as tokenization expands",
-        "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands"
+        "title": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
+        "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-07-28",
+        "title": "代幣化平台 Securitize 取得美國 SEC 投資顧問牌照，強化華爾街與鏈上投資布局",
+        "paras": [
+          "CoinDesk 報導，代幣化（tokenization）平台 Securitize 取得美國證券交易委員會（SEC）核發的註冊投資顧問（registered investment adviser, RIA）牌照。Securitize 是資產管理巨頭貝萊德（BlackRock）的代幣化合作夥伴，這張牌照擴大了公司可提供的服務範圍，讓它在把真實世界資產搬上區塊鏈的業務上，站上更接近華爾街主流金融的位置。",
+          "這項進展發生在監理機關正研議鏈上（onchain）投資產品規則之際，凸顯代幣化業務持續擴張、並逐步被納入既有的證券監理架構。牌照具體涵蓋的業務範圍，以及後續與貝萊德等機構的合作細節，目前尚未完整揭露，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Securitize builds Wall Street credentials with SEC adviser license as tokenization expands",
+            "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-07-28",
         "title": "摩根士丹利推出以太幣、Solana 兩檔 ETP，數位資產產品線從比特幣再擴張",
@@ -497,59 +514,8 @@
             "body": "CoinDesk 報導，美國商品期貨交易委員會（CFTC）數週前核准首檔加密永續合約掛牌，正式為 perps 進入受監理市場開啟大門；但大型衍生性商品交易所芝加哥商品交易所（CME）出面反對，認為 CFTC 的做法偏離現行法律規範，雙方對鏈上（onchain）永續合約監理界線的角力浮上檯面。這延續 perps 挾龐大交易量叩關華爾街的走向，顯示產品雖獲監理鬆綁，主管機關與既有交易所之間的法規爭議才正要展開；相關內容主要見於 CoinDesk。"
           }
         ]
-      },
-      {
-        "date": "2026-07-21",
-        "title": "三星推出 Galaxy Card 信用卡，深化與 Samsung Wallet 整合、進軍金融科技",
-        "paras": [
-          "三星推出自有信用卡 Galaxy Card，由 Barclays 發行、走 Visa 網路，三星商品消費提供最高 5% 現金回饋，透過 Samsung Wallet 的交易則回饋 3%。AppleInsider 形容，這是三星在 Apple Card 問世七年後，進一步跨入金融科技領域的布局。",
-          "這張卡的吸引力，將取決於回饋與支付在 Samsung Wallet 內運作的順暢程度，以及用戶是否願意優先使用它，而非其他接受度更廣的數位錢包。實際發行地區、申辦條件與市場反應仍待觀察。"
-        ],
-        "sources": [
-          {
-            "name": "AppleInsider",
-            "title": "Seven years after Apple Card, Samsung leaps into fintech with its own credit card",
-            "url": "https://appleinsider.com/articles/26/07/21/seven-years-after-apple-card-samsung-leaps-into-fintech-with-its-own-credit-card"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-21",
-        "title": "螞蟻國際完成 12 億美元募資，將擴大全球商戶支付與企業金融服務",
-        "paras": [
-          "路透報導，螞蟻國際（Ant International）完成 12 億美元募資，投資方包括螞蟻集團與阿里巴巴。這家總部設於新加坡的公司先前估值約 100 億美元，將以這筆資金擴大面向企業的商戶支付、帳戶管理與各項金融服務。",
-          "螞蟻國際表示，其網路橫跨亞洲、歐洲、中東與拉丁美洲，涵蓋約 1.5 億家商戶與 20 億個用戶帳戶，此輪募資將支援全球擴張布局。資金的具體分配與各市場擴張時程，路透報導未進一步說明。"
-        ],
-        "sources": [
-          {
-            "name": "Reuters",
-            "title": "Ant International raises $1.2 billion in global expansion push",
-            "url": "https://www.reuters.com/world/asia-pacific/ant-international-raises-12-billion-global-expansion-push-2026-07-21/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-21",
-        "title": "Citadel Securities 砸 4 億美元投資 Crypto.com，以 200 億美元估值搶進加密市場基礎設施",
-        "paras": [
-          "The Block 報導，美國造市與交易巨頭 Citadel Securities 以 200 億美元估值，對加密貨幣交易所 Crypto.com 進行 4 億美元策略性投資，是 Crypto.com 首次機構融資。Crypto.com 表示，將運用這筆資金擴展代幣化證券與衍生性商品業務。",
-          "這筆交易凸顯 Citadel Securities 持續加碼加密市場基礎設施——此前已陸續投資 Kraken、Ripple 與 Canton 等機構級數位資產平台。具體交易架構與資金到位時程，目前未見進一步細節。"
-        ],
-        "sources": [
-          {
-            "name": "The Block",
-            "title": "Citadel Securities invests $400 million in Crypto.com at $20 billion valuation",
-            "url": "https://www.theblock.co/post/408688/citadel-securities-invests-400-million-crypto-com-20-billion-valuation"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-07-28T15:55:00Z"
+  "_generated_at": "2026-07-28T18:56:35Z"
 }
