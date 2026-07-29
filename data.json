@@ -88,6 +88,45 @@
     "others": [
       {
         "date": "2026-07-28",
+        "title": "香港金管局公布首份銀行業「量子準備指數」，僅 2.3 分揭後量子密碼布局嚴重落後",
+        "paras": [
+          "香港金融管理局（HKMA）於 7 月 27 日發布銀行業量子準備白皮書，並首度公布「量子準備指數」（Quantum Preparedness Index），整體僅得 2.3 分（滿分 10 分），顯示當地銀行業多半仍停留在認識風險的初期階段。這份在第八屆 FiNETech 會議發表、依今年稍早問卷調查編製的白皮書顯示，約 68% 受訪銀行至少已有一定認知，或進入規劃與試點階段，其餘則尚未起步；約半數銀行仍未擬定遷移至後量子密碼學（post-quantum cryptography, PQC）的正式計畫，雖有約半數已在董事會層級討論，卻只有三分之一實際著手探索或測試相關技術。",
+          "量子準備之所以重要，在於量子運算對支撐現代金融的加密技術構成長期威脅，銀行尤其易受「先蒐集、後解密」（harvest now, decrypt later）攻擊——不肖人士可先囤積今日加密的資料，待量子硬體成熟後再行破解，國際清算銀行（BIS）Project Leap 已將其列為金融體系的即時風險。目前具規模、足以破解銀行加密與比特幣、以太坊等區塊鏈的量子電腦尚不存在，但外界估計相關風險最快可能在 2029 年浮現。HKMA 訂出 2030 年指數要達滿分 10 的目標，並與香港科技大學商學院合作推出後量子密碼工具箱、開辦系列工作坊；同期美國總統川普也簽署兩項行政命令，分別加速量子運算發展、要求聯邦政府於 2030 至 2031 年完成後量子密碼遷移。相關內容主要見於 CoinDesk 與 HKMA 白皮書。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Hong Kong's central bank puts a number on lenders' quantum preparedness. It's very low.",
+            "url": "https://www.coindesk.com/markets/2026/07/28/hong-kong-s-central-bank-puts-a-number-on-lenders-quantum-preparedness-it-s-very-low"
+          },
+          {
+            "name": "香港金融管理局 HKMA",
+            "title": "HKMA whitepaper on the quantum preparedness of the banking industry",
+            "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/07/20260727-3/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-28",
+        "title": "紐時揭幣安悄改法遵政策，多國執法凍結贓款受阻、美司法部示警",
+        "paras": [
+          "《紐約時報》（NYT）7 月 28 日披露，全球最大加密貨幣交易所幣安（Binance）自 2025 年 4 月起悄悄調整與各國執法機關的合作方式，讓調查人員更難取得用戶資料、打擊詐騙與洗錢。據該報，多數協查請求被導向幣安受監理實體所在的阿拉伯聯合大公國（UAE，受阿布達比全球市場 ADGM 監管）政府，外國執法機關須改走曠日費時的「刑事司法互助條約」（MLAT）程序，回應時間大幅拉長；今年 6 月荷蘭一場執法會議上，五個歐洲國家的警方都描述了向幣安取證的困難，布魯克林助理地檢官 Alona Katz 直言「取得紀錄的快慢，往往決定一個案件的成敗」。涉及兒少性剝削、恐怖主義或立即危及生命的案件，幣安仍會直接回應。",
+          "這與幣安過去直接協助凍結可疑帳戶、提供受查用戶資訊的做法明顯不同。幣安發言人否認放慢合作，強調近年「逐年增加」與全球執法機關的合作，此次調整是「刻意強化」治理與防護控管，符合受監理機構應有的標準。這則消息接續科技媒體 The Information 稍早引述美國司法部（DOJ）內部備忘錄的內容——該備忘錄提醒承辦加密案件的檢察官，在凍結或扣押資產時要有幣安協助減少的心理準備；先前《華爾街日報》與《財星》也曾報導幣安解雇調查涉伊朗交易的法遵人員，幣安均予否認。在監理機關持續檢視幣安法遵作業之際，這起爭議凸顯全球最大加密交易所與各國執法、監理體系之間的張力，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Binance makes fighting crypto crime more difficult, says new report",
+            "url": "https://www.coindesk.com/business/2026/07/28/binance-makes-fighting-crypto-crime-more-difficult-says-new-nyt-article"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-28",
         "title": "以太坊基金會分拆新創 EthSystems 押注「隱私」是銀行上鏈關鍵，為機構打造保密基礎設施",
         "paras": [
           "CoinDesk 報導，今年稍早自以太坊基金會（Ethereum Foundation）分拆獨立的新創 EthSystems，押注阻擋金融機構把業務搬上公有區塊鏈的最大障礙是「隱私」而非「可擴充性」。這家源自基金會「機構隱私任務小組」的公司不打算另建新鏈，而是為銀行、資產管理業者與政府打造保密（confidentiality）基礎設施，讓敏感的交易資料在以太坊上完成結算的同時仍維持機密，藉此支援代幣化（tokenization）資產、穩定幣（stablecoin）等金融應用。",
@@ -534,5 +573,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-28T21:51:09Z"
+  "_generated_at": "2026-07-29T00:52:28Z"
 }
