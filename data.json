@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣缺乏以金融科技為核心的重點事件",
       "paras": [
-        "過去 24 小時的台灣財經新聞，主力集中在投資與資本市場商品，例如統一投信推出股債傘型主動式 ETF、野村與國泰投信分別主打科技與 AI 類股 ETF 布局，以及壽險業外幣保單前 5 月新契約保費達 2,334 億元、創 4 年新高等；這些屬於一般理財與保險業務動態，數位產品或金融基礎設施並非事件核心。",
-        "監理面則有金管會核准 7 家銀行採用內部評等法（IRB）、預計第 4 季適用，以及關注多重借款「四貸同堂」授信風險等，皆以傳統銀行資本與授信監理為主。少數與金融科技相關者，如純網銀 LINE Bank 綁定 MaiCoin 的加密貨幣一鍵扣款，已收錄於本週要聞；綜合而言，今日台灣暫無足以擔任本日最重點的金融科技核心事件。"
+        "過去 24 小時台灣財經新聞由股市重挫與總體經濟波動主導：台股兩天累計暴跌逾 3,500 點、創史上第七大跌點，市場情緒受 AI 概念股修正、南韓股市連續熔斷與聯準會（Fed）利率按兵不動牽動。這些屬於大盤與總經層面的波動，數位金融產品或基礎設施並非事件核心。",
+        "其餘與金融相關的消息，多為傳統金融的監理與司法個案，例如金管會強調資本市場與金融服務並進、期貨交易所推出高價股與黃金交易更有彈性的新制，以及街口支付創辦人因違反證券投資信託及顧問法一審遭判刑。綜合而言，今日台灣暫無足以擔任本日最重點的金融科技核心事件。"
       ]
     },
     "sources": [],
@@ -46,41 +46,24 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-22",
-        "title": "台灣《虛擬資產服務法》設穩定幣專章三讀通過，境外穩定幣採折衷開放、由金管會審核把關",
-        "paras": [
-          "立法院於 6 月底三讀通過《虛擬資產服務法》，並設立穩定幣（stablecoin）專章，為台灣虛擬資產服務業者（VASP）建立專門的法律框架。台灣大學法律系副教授楊岳平分析，對境外發行的穩定幣，台灣不採全面開放或全面禁止，而是交由金管會審核把關，展現相對包容的監理態度。",
-          "新法同時明定借貸牌照機制，在開放虛擬資產借貸業務的同時納入相應監管，兼顧市場開放與風險控管。這是台灣首度為虛擬資產服務業者立專法，穩定幣審核標準、發照時程與相關子法仍待金管會訂定，目前主要見於中央社報導與學者分析。"
-        ],
-        "sources": [
-          {
-            "name": "中央社 CNA（財經）",
-            "title": "虛擬資產服務法設穩定幣專章　學者：台灣採折衷開放",
-            "url": "https://www.cna.com.tw/news/afe/202607210365.aspx"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "tier": "watch",
-      "title": "本日觀察：代幣化業者 Ondo 放棄自建公有代幣化資產鏈，改推私有高速交易網路",
+      "title": "穩定幣基礎設施商 Brale 推出 ION Protocol，以「銷毀—鑄造」跨鏈機制解決客製穩定幣流動性瓶頸",
       "paras": [
-        "CoinDesk 報導，主打真實世界資產代幣化（tokenization）的 Ondo，放棄原先自建一條公有代幣化資產區塊鏈的計畫，改為打造一個私有、高速的交易網路。這個新網路先用於支援 Ondo 近期上線的永續期貨（perpetual futures）平台，未來將擴大支援各類鏈上（onchain）金融資產的交易。",
-        "這代表這家代幣化業者在基礎設施路線上的一次重大轉向——從押注開放的公有鏈，改以自有、可控且強調速度的私有網路承載交易。實際的技術架構、支援的資產範圍與正式上線時程尚未完整揭露，這項調整目前主要見於 CoinDesk 的報導。"
+        "CoinDesk 報導，穩定幣（stablecoin）基礎設施公司 Brale 推出跨鏈互通協定 ION Protocol，主打解決客製穩定幣數量暴增後、在不同區塊鏈之間移動的瓶頸。ION 讓參與的穩定幣在一條鏈上銷毀（burn）、在另一條鏈上鑄造（mint）等量代幣；與多數需要在每條鏈預先注入流動性池的跨鏈橋（bridge）不同，它不必事先在每條支援鏈上鎖定資金。這套做法類似 USDC 發行商 Circle 的跨鏈傳輸協定（CCTP），差別在於把模式從單一代幣擴大到任何參與的穩定幣發行商。首波在測試網（testnet）上線，夥伴包括 Monad、Rain、Coinflow、Turnkey、Etherfuse、Spark 與 Canton。",
+        "目前全球穩定幣市場規模約 3,000 億美元，由 Tether 的 USDT 與 Circle 的 USDC 主導。不過銀行、金融科技業者、加密公司與資產管理業者正大量投入，發行自家品牌代幣用於支付、結算與資產代幣化（tokenization），資料商 CoinGecko 已追蹤逾 350 種穩定幣。Brale 執行長 Ben Milne 受訪表示，公司已支援逾一百個穩定幣方案、橫跨 30 多條區塊鏈，許多客戶每月處理數十億美元支付量卻僅維持相對小額餘額。他並直言，穩定幣方案之間的流動性是擴展客製穩定幣的頭號障礙，全世界的資本都不足以靠預先注資的流動性池來解決。實際正式上線時程、費用與網路採用情況尚待進一步公布，相關內容目前主要見於 CoinDesk。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network",
-        "url": "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network"
+        "title": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
+        "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens"
       }
     ],
     "coverSocial": [],
@@ -120,6 +103,23 @@
             "name": "CoinDesk",
             "title": "Company behind AI trade that caused $60 million crypto liquidations to cover all losses",
             "url": "https://www.coindesk.com/markets/2026/07/29/company-behind-ai-trade-that-caused-usd60-million-crypto-liquidations-to-cover-all-losses"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-29",
+        "title": "本日觀察：代幣化業者 Ondo 放棄自建公有代幣化資產鏈，改推私有高速交易網路",
+        "paras": [
+          "CoinDesk 報導，主打真實世界資產代幣化（tokenization）的 Ondo，放棄原先自建一條公有代幣化資產區塊鏈的計畫，改為打造一個私有、高速的交易網路。這個新網路先用於支援 Ondo 近期上線的永續期貨（perpetual futures）平台，未來將擴大支援各類鏈上（onchain）金融資產的交易。",
+          "這代表這家代幣化業者在基礎設施路線上的一次重大轉向——從押注開放的公有鏈，改以自有、可控且強調速度的私有網路承載交易。實際的技術架構、支援的資產範圍與正式上線時程尚未完整揭露，這項調整目前主要見於 CoinDesk 的報導。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network",
+            "url": "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network"
           }
         ],
         "social": [],
@@ -586,53 +586,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-22",
-        "title": "Revolut 二級股權出售估值衝上 1,150 億美元，成全球最有價值私人金融科技公司",
-        "paras": [
-          "英國數位銀行 Revolut 啟動一輪讓員工出售持股的二級股權交易（secondary share sale），估值達 1,150 億美元，每股定價約 2,017 美元，較 2025 年 11 月的 750 億美元估值大漲逾五成。彭博（Bloomberg）報導，這使 Revolut 成為全球估值最高的私人金融科技公司，超越 Stripe，並高於巴克萊（Barclays）、德意志銀行（Deutsche Bank）等歐洲上市銀行。",
-          "估值躍升的背後，是一連串監理里程碑：Revolut 於 2026 年 3 月取得英國審慎監理局（PRA）完整銀行執照，結束多年等待，隨後向美國通貨監理署（OCC）申請國家銀行執照，持續擴大跨國版圖。實際出售股數、參與員工人數與後續 IPO 時程，報導並未完整揭露。"
-        ],
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "title": "Revolut Confirms $115 Billion Valuation in Latest Share Sale",
-            "url": "https://www.bloomberg.com/news/articles/2026-07-22/revolut-confirms-115-billion-valuation-in-secondary-share-sale"
-          },
-          {
-            "name": "TechFundingNews",
-            "title": "Revolut hits $115B valuation, making its CEO worth more than $36B on paper",
-            "url": "https://techfundingnews.com/revolut-115b-valuation-nik-storonsky-net-worth/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-22",
-        "title": "加密永續合約挾約 90 兆美元交易量叩關華爾街，大型銀行審慎觀望",
-        "paras": [
-          "CoinDesk 報導，永續期貨（perpetual futures，加密圈俗稱 perps）這項在加密貨幣交易中最熱門、累計交易規模達約 90 兆美元的金融產品，正以受監理的形式進入美國市場。這類合約沒有到期日，長期是加密交易者的主力工具；如今被引進華爾街，象徵加密原生的交易產品進一步向傳統金融靠攏。",
-          "不過大型華爾街銀行態度審慎，傾向等到監理規則更明確、市場流動性更充足後再加入；反倒是規模較小的交易商與交易所動作更快，搶先卡位這塊新市場。實際上線的商品設計、參與機構與監理配套，目前仍待觀察，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Crypto's favorite $90 trillion trading product is coming to Wall Street, but big banks are taking it slow",
-            "url": "https://www.coindesk.com/markets/2026/07/22/crypto-s-favorite-usd90-trillion-trading-product-is-coming-to-wall-street-but-big-banks-are-taking-it-slow"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-07-28",
-            "title": "CFTC 核准首檔加密永續合約掛牌，CME 出面反對挑戰監理界線",
-            "body": "CoinDesk 報導，美國商品期貨交易委員會（CFTC）數週前核准首檔加密永續合約掛牌，正式為 perps 進入受監理市場開啟大門；但大型衍生性商品交易所芝加哥商品交易所（CME）出面反對，認為 CFTC 的做法偏離現行法律規範，雙方對鏈上（onchain）永續合約監理界線的角力浮上檯面。這延續 perps 挾龐大交易量叩關華爾街的走向，顯示產品雖獲監理鬆綁，主管機關與既有交易所之間的法規爭議才正要展開；相關內容主要見於 CoinDesk。"
-          }
-        ]
       }
     ]
   },
-  "_generated_at": "2026-07-29T12:54:22Z"
+  "_generated_at": "2026-07-29T18:58:38Z"
 }
