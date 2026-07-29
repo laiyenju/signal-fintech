@@ -88,6 +88,23 @@
     "others": [
       {
         "date": "2026-07-29",
+        "title": "紐約梅隆銀行 BNY 把服務約 8.6 兆美元的過戶代理業務搬上區塊鏈，貝萊德、Baillie Gifford 率先採用",
+        "paras": [
+          "據 CoinDesk 引述《金融時報》（FT）報導，全球最大託管銀行紐約梅隆（BNY，託管與管理資產逾 59 兆美元）將把旗下核心的過戶代理（transfer agency）業務推出區塊鏈版本。這項服務目前為約 8.6 兆美元、橫跨 760 萬個帳戶的基金資產記錄持有權與過戶，BNY 打算把這套「基金交易背後的簿記」搬上鏈，建立單一的所有權紀錄，省去多重中介與昂貴的對帳流程。首席產品與創新長 Carolyn Weinberg 形容此舉是「把每一筆基金交易背後的簿記上鏈」，資產服務全球主管 Emily Portney 也強調傳統軌道仍會與新系統長期並存。",
+          "已管理逾 2,610 億美元的資產管理業者 Baillie Gifford 將率先使用這套服務，推出雙方稱為英國首檔完全原生、受英國監理的代幣化（tokenization）基金；貝萊德（BlackRock）與 BNY 旗下貨幣市場與現金管理事業 Dreyfus 也預計用於規劃中的基金。這延續華爾街近期把基金基礎設施上鏈的趨勢——貝萊德、富蘭克林坦伯頓已推出代幣化貨幣市場基金，摩根大通、花旗與美國銀行也計畫在 2027 年上半年建置共享的代幣化存款網路以抵禦穩定幣（stablecoin）競爭。BNY 強調不預期舊系統消失、仍有數兆美元基金會留在既有軌道，並坦承區塊鏈帶來智慧合約與跨鏈橋接的資安風險；相關內容目前主要見於 CoinDesk（引述 FT）。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "BNY targets $8.6 trillion transfer agency market on blockchain rails",
+            "url": "https://www.coindesk.com/business/2026/07/29/bny-targets-usd8-6-trillion-transfer-agency-market-on-blockchain-rails"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-29",
         "title": "掛鉤 SK 海力士的鏈上永續合約閃崩至約 900 美元、觸發約 6,000 萬美元清算，Trade.xyz 稱預言機「如設計運作」並將一次性全額補償",
         "paras": [
           "南韓記憶體晶片大廠 SK 海力士（SK Hynix，本月 ADR 於 Nasdaq 掛牌）連動的鏈上永續合約（perpetual futures），於 UTC 7 月 27 日 23:00 至 23:01 間在永續合約去中心化交易所 Hyperliquid 閃崩約 19% 至 20%、跌到約 900 美元，下一分鐘隨即反彈至 1,000 美元上方，合約以美元穩定幣（stablecoin）USDC 計價與交易。約一小時後南韓股市開盤走弱、由晶片股領跌，SK 海力士當日收跌約 15%、基準 Kospi 指數重挫 11%；這波行情觸發的清算金額約達 6,000 萬美元。",
@@ -617,5 +634,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-29T09:50:56Z"
+  "_generated_at": "2026-07-29T12:54:22Z"
 }
