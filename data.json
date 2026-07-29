@@ -110,6 +110,28 @@
       },
       {
         "date": "2026-07-28",
+        "title": "貝萊德、富達、高盛等華爾街巨頭力挺《CLARITY Act》，加密市場結構法案獲主流金融背書",
+        "paras": [
+          "多家主流華爾街機構近期公開支持《數位資產市場明確法》（Digital Asset Market Clarity Act，簡稱 CLARITY Act）。過去一週內，資產管理巨頭貝萊德（BlackRock）、富達（Fidelity）、富蘭克林坦伯頓（Franklin Templeton）、投資銀行高盛（Goldman Sachs）與金融科技業者 SoFi 都呼籲國會通過這項法案。該法將為美國加密產業建立全新監理框架，並大幅調整證券交易委員會（SEC）與商品期貨交易委員會（CFTC）對此領域的分工；支持者主張，明確規則可保護投資人、給企業監理確定性，並在數位資產走向主流之際維持美國競爭力。",
+          "這波背書也凸顯傳統金融內部的分歧：摩根大通（JPMorgan Chase）在穩定幣（stablecoin）收益的限制上與加密交易所 Coinbase 對立，主張部分條文恐讓穩定幣發行商相對傳統存款取得不公平優勢，Coinbase 等業者則反駁此舉會削弱法案、拖慢創新。參議院近期公布合併眾議院與參議院版本的新法案文本，首度納入涉及加密事務的政府高層倫理限制條款，但多數黨領袖 Thune 已把議程轉向司法提名與對俄制裁案，法案仍在等待排入院會表決；參議院預定 8 月 8 日進入夏季休會，留給推進法案的時間所剩不多，相關內容目前主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
+            "url": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act"
+          },
+          {
+            "name": "CoinDesk",
+            "title": "Goldman Sachs CEO backs Clarity Act despite banking industry's concerns over stablecoin rules",
+            "url": "https://www.coindesk.com/policy/2026/07/23/goldman-sachs-ceo-backs-clarity-act-despite-banking-industry-s-concerns-over-stablecoin-rules"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-28",
         "title": "香港金管局公布首份銀行業「量子準備指數」，僅 2.3 分揭後量子密碼布局嚴重落後",
         "paras": [
           "香港金融管理局（HKMA）於 7 月 27 日發布銀行業量子準備白皮書，並首度公布「量子準備指數」（Quantum Preparedness Index），整體僅得 2.3 分（滿分 10 分），顯示當地銀行業多半仍停留在認識風險的初期階段。這份在第八屆 FiNETech 會議發表、依今年稍早問卷調查編製的白皮書顯示，約 68% 受訪銀行至少已有一定認知，或進入規劃與試點階段，其餘則尚未起步；約半數銀行仍未擬定遷移至後量子密碼學（post-quantum cryptography, PQC）的正式計畫，雖有約半數已在董事會層級討論，卻只有三分之一實際著手探索或測試相關技術。",
@@ -595,5 +617,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-29T06:53:10Z"
+  "_generated_at": "2026-07-29T09:50:56Z"
 }
