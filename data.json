@@ -87,6 +87,28 @@
     "context": [],
     "others": [
       {
+        "date": "2026-07-29",
+        "title": "掛鉤 SK 海力士的鏈上永續合約閃崩至約 900 美元、觸發約 6,000 萬美元清算，Trade.xyz 稱預言機「如設計運作」並將一次性全額補償",
+        "paras": [
+          "南韓記憶體晶片大廠 SK 海力士（SK Hynix，本月 ADR 於 Nasdaq 掛牌）連動的鏈上永續合約（perpetual futures），於 UTC 7 月 27 日 23:00 至 23:01 間在永續合約去中心化交易所 Hyperliquid 閃崩約 19% 至 20%、跌到約 900 美元，下一分鐘隨即反彈至 1,000 美元上方，合約以美元穩定幣（stablecoin）USDC 計價與交易。約一小時後南韓股市開盤走弱、由晶片股領跌，SK 海力士當日收跌約 15%、基準 Kospi 指數重挫 11%；這波行情觸發的清算金額約達 6,000 萬美元。",
+          "去中心化永續合約交易所 Trade.xyz 表示，用於計算損益與清算的標記價格（mark price）從約 1,128 美元跌至 917 美元，是多家獨立數據供應商轉傳、追蹤南韓盤前主要交易場所的一筆真實成交所致，而非系統故障或人為操縱——公司稱其預言機（oracle，把鏈外資料引入區塊鏈系統的工具）「如設計般運作」，只是該場所流動性太薄、單一委託就能把價格推動近五分之一。Trade.xyz 將以一次性、酌情方式全額補償被清算的交易者，資格細則後續公布、數日內撥付，並表示會重新檢視對外部場所的依賴、未來更倚重自家訂單簿的價格形成；這起事件凸顯鏈上真實世界資產（RWA）永續合約在流動性稀薄時段的預言機設計風險，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Perpetuals tied to SK Hynix hit by flash crash to $900 on Hyperliquid",
+            "url": "https://www.coindesk.com/markets/2026/07/28/perpetuals-tied-to-sk-hynix-suffer-a-flash-crash-to-usd900-on-hyperliquid"
+          },
+          {
+            "name": "CoinDesk",
+            "title": "Company behind AI trade that caused $60 million crypto liquidations to cover all losses",
+            "url": "https://www.coindesk.com/markets/2026/07/29/company-behind-ai-trade-that-caused-usd60-million-crypto-liquidations-to-cover-all-losses"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-28",
         "title": "香港金管局公布首份銀行業「量子準備指數」，僅 2.3 分揭後量子密碼布局嚴重落後",
         "paras": [
@@ -573,5 +595,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-29T00:52:28Z"
+  "_generated_at": "2026-07-29T06:53:10Z"
 }
