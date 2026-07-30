@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣缺乏以金融科技為核心的重點事件",
       "paras": [
-        "過去 24 小時台灣財經新聞由股市重挫與總體經濟波動主導：台股兩天累計暴跌逾 3,500 點、創史上第七大跌點，市場情緒受 AI 概念股修正、南韓股市連續熔斷與聯準會（Fed）利率按兵不動牽動。這些屬於大盤與總經層面的波動，數位金融產品或基礎設施並非事件核心。",
-        "其餘與金融相關的消息，多為傳統金融的監理與司法個案，例如金管會強調資本市場與金融服務並進、期貨交易所推出高價股與黃金交易更有彈性的新制，以及街口支付創辦人因違反證券投資信託及顧問法一審遭判刑。綜合而言，今日台灣暫無足以擔任本日最重點的金融科技核心事件。"
+        "過去 24 小時台灣財經新聞由股市與總體經濟主導：台股接連走弱、盤中一度失守 4 萬點大關，融資餘額再減逾百億、跌破 5,000 億元，市場處於去槓桿階段；聯準會（Fed）連續第五次按兵不動、維持 3.5% 至 3.75% 利率區間，鄰近的南韓股市更出現 KOSPI 單月重挫約 33% 的歷史級崩跌。這些屬於大盤與總經層面的波動，數位金融產品或基礎設施並非事件核心。",
+        "其餘與金融相關的消息多為傳統金融的獲利、監理與司法個案，例如保險業上半年稅前大賺約 3,094 億元、壽險淨值衝上新高，金管會第三階段將 12 家融資租賃公司納管、9 月 15 日上路，以及泰山前後任董座涉「賣全家」內線交易遭偵辦。綜合而言，今日台灣暫無足以擔任本日最重點的金融科技核心事件。"
       ]
     },
     "sources": [],
@@ -51,24 +51,46 @@
   },
   "global": {
     "cover": {
-      "date": "2026-07-30",
-      "tier": "watch",
-      "title": "穩定幣基礎設施商 Brale 推出 ION Protocol，以「銷毀—鑄造」跨鏈機制解決客製穩定幣流動性瓶頸",
+      "date": "2026-07-31",
+      "tier": "top",
+      "title": "BIS「Project Agorá」集結 28 家大型銀行完成代幣化貨幣跨境實測，約 80 秒結清六幣別付款",
       "paras": [
-        "CoinDesk 報導，穩定幣（stablecoin）基礎設施公司 Brale 推出跨鏈互通協定 ION Protocol，主打解決客製穩定幣數量暴增後、在不同區塊鏈之間移動的瓶頸。ION 讓參與的穩定幣在一條鏈上銷毀（burn）、在另一條鏈上鑄造（mint）等量代幣；與多數需要在每條鏈預先注入流動性池的跨鏈橋（bridge）不同，它不必事先在每條支援鏈上鎖定資金。這套做法類似 USDC 發行商 Circle 的跨鏈傳輸協定（CCTP），差別在於把模式從單一代幣擴大到任何參與的穩定幣發行商。首波在測試網（testnet）上線，夥伴包括 Monad、Rain、Coinflow、Turnkey、Etherfuse、Spark 與 Canton。",
-        "目前全球穩定幣市場規模約 3,000 億美元，由 Tether 的 USDT 與 Circle 的 USDC 主導。不過銀行、金融科技業者、加密公司與資產管理業者正大量投入，發行自家品牌代幣用於支付、結算與資產代幣化（tokenization），資料商 CoinGecko 已追蹤逾 350 種穩定幣。Brale 執行長 Ben Milne 受訪表示，公司已支援逾一百個穩定幣方案、橫跨 30 多條區塊鏈，許多客戶每月處理數十億美元支付量卻僅維持相對小額餘額。他並直言，穩定幣方案之間的流動性是擴展客製穩定幣的頭號障礙，全世界的資本都不足以靠預先注資的流動性池來解決。實際正式上線時程、費用與網路採用情況尚待進一步公布，相關內容目前主要見於 CoinDesk。"
+        "國際清算銀行（BIS）主導的代幣化實驗「Project Agorá」完成一輪真實跨境付款測試：這項計畫集結五家央行與 28 家商業銀行，成員涵蓋摩根大通（JPMorgan）、花旗（Citi）、瑞銀（UBS）、德意志銀行（Deutsche Bank）與渣打（Standard Chartered），以美元、歐元、英鎊、日圓、瑞士法郎與南韓元共六種貨幣，處理約 100 萬美元（80 萬瑞士法郎）的實值交易。測試把「代幣化的央行準備金」與「代幣化的商業銀行存款」用於企業付款、銀行間清算與外匯結算，即使原型尚未與銀行既有支付系統直接整合，平均仍約 80 秒即完成結算。",
+        "與 Circle、Tether 等民間發行的穩定幣（stablecoin）不同，Project Agorá 代幣化的是兩種傳統銀行貨幣——央行準備金與客戶的商業銀行存款。傳統跨境付款往往須經多家代理行、各自維護帳本，Agorá 改把代幣化貨幣放上共享帳本，讓參與銀行共用單一的所有權與付款狀態紀錄；它並測試外匯的「同步收付」，讓兩種貨幣同時交割、降低一方付款卻收不到對價的結算風險，且定位為與現有系統並存而非取代。這是歐洲央行（ECB）、英格蘭銀行（BoE）等一連串大額（wholesale）代幣化布局的一環，顯示代幣化正逐步走進全球金融的底層管道；相關內容主要見於 CoinDesk 引述 BIS 報告。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
-        "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens"
+        "title": "Global banks test tokenized money for cross-border payments in $1 million BIS pilot",
+        "url": "https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot"
+      },
+      {
+        "name": "國際清算銀行 BIS",
+        "title": "Project Agorá",
+        "url": "https://www.bis.org/about/bisih/topics/fmis/agora/rvt.htm"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-07-30",
+        "title": "穩定幣基礎設施商 Brale 推出 ION Protocol，以「銷毀—鑄造」跨鏈機制解決客製穩定幣流動性瓶頸",
+        "paras": [
+          "CoinDesk 報導，穩定幣（stablecoin）基礎設施公司 Brale 推出跨鏈互通協定 ION Protocol，主打解決客製穩定幣數量暴增後、在不同區塊鏈之間移動的瓶頸。ION 讓參與的穩定幣在一條鏈上銷毀（burn）、在另一條鏈上鑄造（mint）等量代幣；與多數需要在每條鏈預先注入流動性池的跨鏈橋（bridge）不同，它不必事先在每條支援鏈上鎖定資金。這套做法類似 USDC 發行商 Circle 的跨鏈傳輸協定（CCTP），差別在於把模式從單一代幣擴大到任何參與的穩定幣發行商。首波在測試網（testnet）上線，夥伴包括 Monad、Rain、Coinflow、Turnkey、Etherfuse、Spark 與 Canton。",
+          "目前全球穩定幣市場規模約 3,000 億美元，由 Tether 的 USDT 與 Circle 的 USDC 主導。不過銀行、金融科技業者、加密公司與資產管理業者正大量投入，發行自家品牌代幣用於支付、結算與資產代幣化（tokenization），資料商 CoinGecko 已追蹤逾 350 種穩定幣。Brale 執行長 Ben Milne 受訪表示，公司已支援逾一百個穩定幣方案、橫跨 30 多條區塊鏈，許多客戶每月處理數十億美元支付量卻僅維持相對小額餘額。他並直言，穩定幣方案之間的流動性是擴展客製穩定幣的頭號障礙，全世界的資本都不足以靠預先注資的流動性池來解決。實際正式上線時程、費用與網路採用情況尚待進一步公布，相關內容目前主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
+            "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-07-30",
         "title": "PayPal 攜手 Amazon，8 月起在德國、奧地利推出分期付款（BNPL）",
@@ -501,110 +523,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-23",
-        "title": "Nubank 將收購投資銀行 Banco Porto Real de Investimentos，強化巴西金融版圖",
-        "paras": [
-          "Finextra 報導，拉丁美洲數位銀行巨頭 Nubank 宣布收購巴西投資銀行 Banco Porto Real de Investimentos，進一步強化在巴西本土市場的金融服務布局。以行動 App 為核心、不設實體分行的 Nubank，可望藉這樁併購把投資銀行業務能力，接入既有的帳戶、信貸與儲蓄服務體系。",
-          "Nubank 表示，目前巴西已有約 3,150 萬人透過其平台取得帳戶、信貸與儲蓄等金融服務，這次收購被定位為深化巴西營運的一步。交易金額、完成時程與監理核准進度尚未揭露。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "Nubank to acquire Banco Porto Real de Investimentos, strengthen Brazil operation",
-            "url": "https://www.finextra.com/newsarticle/48135/nubank-to-acquire-banco-porto-real-de-investimentos-strengthen-brazil-operation"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-23",
-        "title": "美元清算業者 Augustus 完成 1.8 億美元 B 輪，為全球銀行與金融科技業者提供美元通路",
-        "paras": [
-          "主打「清算銀行」（clearing bank）業務的 Augustus 完成 1.8 億美元 B 輪募資。公司的核心定位，是為全球各地的銀行與金融科技業者提供美元資金通路，支援這些機構在跨境金流與美元清算環節所需的基礎設施。",
-          "對缺乏美元清算與代理行管道的海外銀行與金融科技業者而言，這類服務攸關能否順利完成跨境收付與美元結算。Finextra 報導未揭露這輪募資的投資方、估值與具體資金用途。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "Augustus secures $180 million Series B",
-            "url": "https://www.finextra.com/newsarticle/48134/augustus-secures-180-million-series-b"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-23",
-        "title": "Chime 在銀行 App 內推出投資功能，開放免佣股票與 ETF 交易搶攻一站式金融平台",
-        "paras": [
-          "美國數位銀行業者 Chime 在銀行 App 內推出投資功能，提供免佣金的股票與 ETF 交易，搭配專業團隊管理的投資組合，且沒有帳戶最低門檻。這把財富管理加進 Chime 原有的銀行、信用養成與現金流工具，延續其打造一站式金融平台的策略。",
-          "Finovate 分析，這反映金融科技業把銀行、投資、借貸等服務整合進單一 App，以提高用戶黏著度與終身價值的整體趨勢。實際上線範圍與投資組合的收費方式，仍有待 Chime 進一步公布。"
-        ],
-        "sources": [
-          {
-            "name": "Finovate",
-            "title": "Chime launches in-app investing",
-            "url": "https://finovate.com/chime-launches-in-app-investing/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-23",
-        "title": "Ramp 推出「AI 用量支出管控」平台，協助企業監控 OpenAI、Anthropic 等 token 花費",
-        "paras": [
-          "金融科技業者 Ramp 推出一套財務平台，協助企業監控、優化並管控在 OpenAI、Anthropic、Gemini 與 Cursor 等供應商上的 AI 支出。Ramp 引述自家數據指出，客戶的 AI token 支出自 2025 年 6 月以來已成長 20.7 倍；新產品提供即時可視化、支出上限、異常警示與 AI 生成的洞察，協助財務團隊減少浪費。",
-          "早期使用者中有三分之一找出可把工作負載換到更低成本模型的機會，部分客戶透過 prompt caching 等優化，回報每月最多省下約 1 萬美元。產品定價與各企業實際節省成效，目前僅見 Yahoo Finance 轉載的說法。"
-        ],
-        "sources": [
-          {
-            "name": "Yahoo Finance",
-            "title": "Ramp launches AI token spend controls",
-            "url": "https://finance.yahoo.com/technology/ai/articles/ramp-launches-ai-token-spend-130000381.html"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-23",
-        "title": "Intuit 推出可與 QuickBooks 原生同步的企業信用卡，主打自動對帳與現金流可視化",
-        "paras": [
-          "Intuit 推出全新的 Intuit Business Credit Card，屬 World Elite Business Mastercard 等級，鎖定小型企業在單一介面管理支出、取得信貸並掌握財務狀況。對 QuickBooks 用戶而言，這張卡可與既有平台原生同步，自動把收據與交易對帳，並在同一處呈現支出與現金流。",
-          "回饋方面，日常消費提供無上限 2% 現金回饋，Intuit 產品與服務消費則有 5%。目前資訊主要來自業者新聞稿，核卡條件與適用市場尚待公布。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "Intuit launches business credit card that syncs natively with QuickBooks",
-            "url": "https://www.finextra.com/pressarticle/110474/intuit-launches-business-credit-card-that-syncs-natively-with-quickbooks"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-23",
-        "title": "Wise 申請美國全國信託銀行執照遭駁回，股價下跌逾一成",
-        "paras": [
-          "彭博（Bloomberg）報導，跨境匯款金融科技業者 Wise 申請美國「全國信託銀行執照」（national trust bank charter）遭監理機關駁回，理由與反洗錢（AML）及法遵疑慮有關；消息傳出後，Wise 股價一度下跌逾一成。取得美國銀行執照原本被視為 Wise 深化美國市場、把更多金流與資金業務納入自有基礎設施的關鍵一步。",
-          "這項決定顯示，即使是規模與名聲都相對成熟的金融科技公司，在申請銀行牌照時仍面臨升高的監理審查。Wise 表示已強化法遵計畫，並打算重新提出申請，同時把旗下基礎設施定位為未來以穩定幣（stablecoin）驅動支付的準備。牌照被拒的完整理由、重新申請時程與後續影響尚未完整揭露，相關內容主要見於彭博報導。"
-        ],
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "title": "Banking regulator rejects fintech Wise's US trust charter bid",
-            "url": "https://www.bloomberg.com/news/articles/2026-07-23/banking-regulator-rejects-fintech-wise-s-us-trust-charter-bid"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-07-30T15:53:59Z"
+  "_generated_at": "2026-07-30T18:51:53Z"
 }
