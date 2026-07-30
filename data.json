@@ -70,6 +70,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-07-30",
+        "title": "PayPal 攜手 Amazon，8 月起在德國、奧地利推出分期付款（BNPL）",
+        "paras": [
+          "PayPal 與 Amazon 宣布，自 8 月起，符合資格的德國與奧地利 Amazon 用戶，將可在未來數週內於 Amazon.de 與 Amazon App 使用 PayPal 的分期付款服務 PayPal Ratenzahlung，對符合資格的商品有更多分期支付的彈性。這把分期付款（英文常稱先買後付，BNPL，Buy Now Pay Later）直接內嵌進 Amazon 在德語區的結帳流程。",
+          "此舉把全球最大線上支付業者之一與最大電商平台之間的既有合作，延伸到德、奧兩地的消費分期場景，等同以嵌入式金融（embedded finance）方式強化雙方在當地 BNPL 市場的競爭位置。具體適用商品範圍、分期利率、核准條件與完整開通時程尚未完整揭露，目前資訊主要來自 Finextra 轉載的雙方新聞稿。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "PayPal and Amazon launch BNPL payments for customers in Germany and Austria",
+            "url": "https://www.finextra.com/pressarticle/110525/paypal-and-amazon-launch-bnpl-payments-for-customers-in-germany-and-austria"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-29",
         "title": "紐約梅隆銀行 BNY 把服務約 8.6 兆美元的過戶代理業務搬上區塊鏈，貝萊德、Baillie Gifford 率先採用",
         "paras": [
@@ -589,5 +606,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-29T18:58:38Z"
+  "_generated_at": "2026-07-30T15:53:59Z"
 }
