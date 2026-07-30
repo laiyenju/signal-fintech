@@ -294,6 +294,28 @@
         "context": []
       },
       {
+        "date": "2026-07-28",
+        "title": "十家歐洲金融機構成立合作社，推出受監理區塊鏈網路 RL1（Regulated Layer One），承接 SWIAT 逾 7 億歐元代幣化基礎設施",
+        "paras": [
+          "ABN AMRO、DekaBank、DZ BANK、LBBW、法國外貿銀行（Natixis CIB）、法國互助信貸（Crédit Mutuel Alliance Fédérale）、西班牙 Cecabank、Chartered Investment、渣打旗下 SC Ventures 與 Seturion 等十家歐洲金融機構，於 7 月 28 日共同成立受監理的區塊鏈網路「Regulated Layer One」（RL1）。RL1 以盧森堡的歐洲合作社（European Cooperative Society, SCE）形式設立，各成員擁有平等的治理與投票權，沒有單一銀行掌控整套基礎設施，並為機構打造發行、託管、結算與擔保品管理的共用帳本。這套網路承接德國金融科技公司 SWIAT 的既有正式生產網路——該網路三年來已處理逾 50 筆、總額超過 7 億歐元的交易，SWIAT 仍擔任技術營運方；英國 NatWest 列名「即將加入」，德國國有的 KfW 與 L-Bank 則以支持者身分參與。",
+          "RL1 一上線即支援債券代幣化（tokenization），並把數位證券、擔保品、附買回（repo）、證券借貸、穩定幣（stablecoin）與央行、商業銀行貨幣列為潛在用途，目標是為分散的歐洲代幣化市場提供統一且合規的基礎設施。這也是近期一連串機構級代幣化布局的一環——與國際清算銀行（BIS）主導、正測試跨境結算的 Project Agorá，以及規劃中的歐元穩定幣聯盟 Qivalis、美國 The Clearing House 的代幣化存款清算、環球銀行金融電信協會（SWIFT）的協調層等並進。不過共用帳本要真正發揮效益，仍須跨越互通性與流動性難題：在 RL1 發行的債券，可能仍得透過另一套系統的託管機構買進、以央行或商業銀行貨幣結算，各環節分屬不同規則與責任框架，後續能否累積實際發行與結算量仍有待觀察，相關內容主要見於 RL1 官方公告與 The Defiant 等外電報導。"
+        ],
+        "sources": [
+          {
+            "name": "Regulated Layer One（RL1）官方",
+            "title": "European Blockchain Initiative 'Regulated Layer One' Goes Live",
+            "url": "https://rl1.network/news/rl1-launch/"
+          },
+          {
+            "name": "The Defiant",
+            "title": "10 European Banks Launch RL1 Blockchain Cooperative",
+            "url": "https://thedefiant.io/converge/tradfi-and-fintech/10-european-banks-launch-rl1-blockchain-cooperative"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-27",
         "title": "Visa 攜手 Airwallex 把跨境支付嵌入貨運平台，切入結算冗長的物流付款",
         "paras": [
@@ -526,5 +548,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-30T18:51:53Z"
+  "_generated_at": "2026-07-30T21:55:00Z"
 }
