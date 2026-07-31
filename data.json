@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣缺乏以金融科技為核心的重點事件",
       "paras": [
-        "過去 24 小時台灣財經新聞由股市與總體經濟主導：台股接連走弱、盤中一度失守 4 萬點大關，融資餘額再減逾百億、跌破 5,000 億元，市場處於去槓桿階段；聯準會（Fed）連續第五次按兵不動、維持 3.5% 至 3.75% 利率區間，鄰近的南韓股市更出現 KOSPI 單月重挫約 33% 的歷史級崩跌。這些屬於大盤與總經層面的波動，數位金融產品或基礎設施並非事件核心。",
-        "其餘與金融相關的消息多為傳統金融的獲利、監理與司法個案，例如保險業上半年稅前大賺約 3,094 億元、壽險淨值衝上新高，金管會第三階段將 12 家融資租賃公司納管、9 月 15 日上路，以及泰山前後任董座涉「賣全家」內線交易遭偵辦。綜合而言，今日台灣暫無足以擔任本日最重點的金融科技核心事件。"
+        "過去 24 小時台灣主要財經與科技新聞集中在半導體與 AI 供應鏈、資料中心投資，以及台股單日大漲逾三千點、市值單日增加逾九兆元的大盤行情，缺乏以支付、數位銀行、金融基礎設施或數位資產為核心的重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
+        "本週已收錄的純網銀 LINE Bank 攜手 MaiCoin 推出虛擬貨幣下單主帳戶自動扣款，以及 LINE Pay Money 串接八大公股行庫等進展仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
       ]
     },
     "sources": [],
@@ -51,26 +51,15 @@
   },
   "global": {
     "cover": {
-      "date": "2026-07-31",
-      "tier": "top",
-      "title": "BIS「Project Agorá」集結 28 家大型銀行完成代幣化貨幣跨境實測，約 80 秒結清六幣別付款",
+      "date": "2026-08-01",
+      "tier": "watch",
+      "title": "本日觀察：過去 24 小時全球缺乏重量級金融科技新進展",
       "paras": [
-        "國際清算銀行（BIS）主導的代幣化實驗「Project Agorá」完成一輪真實跨境付款測試：這項計畫集結五家央行與 28 家商業銀行，成員涵蓋摩根大通（JPMorgan）、花旗（Citi）、瑞銀（UBS）、德意志銀行（Deutsche Bank）與渣打（Standard Chartered），以美元、歐元、英鎊、日圓、瑞士法郎與南韓元共六種貨幣，處理約 100 萬美元（80 萬瑞士法郎）的實值交易。測試把「代幣化的央行準備金」與「代幣化的商業銀行存款」用於企業付款、銀行間清算與外匯結算，即使原型尚未與銀行既有支付系統直接整合，平均仍約 80 秒即完成結算。",
-        "與 Circle、Tether 等民間發行的穩定幣（stablecoin）不同，Project Agorá 代幣化的是兩種傳統銀行貨幣——央行準備金與客戶的商業銀行存款。傳統跨境付款往往須經多家代理行、各自維護帳本，Agorá 改把代幣化貨幣放上共享帳本，讓參與銀行共用單一的所有權與付款狀態紀錄；它並測試外匯的「同步收付」，讓兩種貨幣同時交割、降低一方付款卻收不到對價的結算風險，且定位為與現有系統並存而非取代。這是歐洲央行（ECB）、英格蘭銀行（BoE）等一連串大額（wholesale）代幣化布局的一環，顯示代幣化正逐步走進全球金融的底層管道；相關內容主要見於 CoinDesk 引述 BIS 報告。"
+        "過去一日全球金融科技最受關注的兩起事件——Coldcard 硬體錢包因舊版韌體瑕疵遭盜走約 594 枚比特幣，以及穩定幣（stablecoin）發行商 Circle 取得紐約州有限目的信託牌照——皆已於前一輪收錄，列於下方本週要聞。最近 24 小時內未再出現規模或監理意義足以擔任「本日最重點」的全新事件，故今日暫以觀察形式呈現。",
+        "當日其餘消息多屬幣價區間盤整與交易所、持幣公司財報等一般行情範疇。國際清算銀行（BIS）「Project Agorá」代幣化跨境付款實測亦列於下方本週要聞持續追蹤；一旦出現具體且可查證的新事件，將即時更新本日最重點。"
       ]
     },
-    "sources": [
-      {
-        "name": "CoinDesk",
-        "title": "Global banks test tokenized money for cross-border payments in $1 million BIS pilot",
-        "url": "https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot"
-      },
-      {
-        "name": "國際清算銀行 BIS",
-        "title": "Project Agorá",
-        "url": "https://www.bis.org/about/bisih/topics/fmis/agora/rvt.htm"
-      }
-    ],
+    "sources": [],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -103,6 +92,28 @@
             "name": "CoinDesk",
             "title": "Circle secures New York trust charter as crypto regulatory push accelerates",
             "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-31",
+        "title": "BIS「Project Agorá」集結 28 家大型銀行完成代幣化貨幣跨境實測，約 80 秒結清六幣別付款",
+        "paras": [
+          "國際清算銀行（BIS）主導的代幣化實驗「Project Agorá」完成一輪真實跨境付款測試：這項計畫集結五家央行與 28 家商業銀行，成員涵蓋摩根大通（JPMorgan）、花旗（Citi）、瑞銀（UBS）、德意志銀行（Deutsche Bank）與渣打（Standard Chartered），以美元、歐元、英鎊、日圓、瑞士法郎與南韓元共六種貨幣，處理約 100 萬美元（80 萬瑞士法郎）的實值交易。測試把「代幣化的央行準備金」與「代幣化的商業銀行存款」用於企業付款、銀行間清算與外匯結算，即使原型尚未與銀行既有支付系統直接整合，平均仍約 80 秒即完成結算。",
+          "與 Circle、Tether 等民間發行的穩定幣（stablecoin）不同，Project Agorá 代幣化的是兩種傳統銀行貨幣——央行準備金與客戶的商業銀行存款。傳統跨境付款往往須經多家代理行、各自維護帳本，Agorá 改把代幣化貨幣放上共享帳本，讓參與銀行共用單一的所有權與付款狀態紀錄；它並測試外匯的「同步收付」，讓兩種貨幣同時交割、降低一方付款卻收不到對價的結算風險，且定位為與現有系統並存而非取代。這是歐洲央行（ECB）、英格蘭銀行（BoE）等一連串大額（wholesale）代幣化布局的一環，顯示代幣化正逐步走進全球金融的底層管道；相關內容主要見於 CoinDesk 引述 BIS 報告。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Global banks test tokenized money for cross-border payments in $1 million BIS pilot",
+            "url": "https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot"
+          },
+          {
+            "name": "國際清算銀行 BIS",
+            "title": "Project Agorá",
+            "url": "https://www.bis.org/about/bisih/topics/fmis/agora/rvt.htm"
           }
         ],
         "social": [],
@@ -506,108 +517,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-24",
-        "title": "巴西農民把乳牛「代幣化」向 B3 交易所融資，繞過銀行放貸限制的全球首例",
-        "paras": [
-          "CoinDesk 報導，巴西 Parana 州農民成為全球首批把牲畜代幣化的案例：農牧科技公司 Cowmed 把 10 頭乳牛化為數位代幣，掛上巴西 B3 全國證券交易所交易，並以牛隻為擔保取得近 2 萬美元信貸。在銀行對小型農企放貸限制日益嚴格之際，這被視為以真實世界資產（RWA）代幣化作為融資工具的實測。",
-          "為讓牛隻成為可信擔保品，Cowmed 為乳牛戴上 AI「Smarty Collar」項圈，即時監控健康、行為與位置，把資料轉為與 B3 信貸合約綁定的加密數位身分，藉此防止同一頭牛被重複質押，並允許以活牛替換死牛。Cowmed 目前追蹤逾 1,000 座農場、約 10 萬頭乳牛，牛群價值逾 3.95 億美元，預期網路中最多 20% 採用這套代幣化融資模式，可望釋出約 7,760 萬美元新增信貸。實際規模與後續採用仍待觀察，目前主要見於 CoinDesk 與其引述的 CNNBrasil。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits",
-            "url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-24",
-        "title": "Sam Altman 支持的 World Network 完成 5,250 萬美元募資，主打「真人驗證」數位身分對抗 AI 深偽",
-        "paras": [
-          "CoinDesk 報導，營運 World Network、前身為 Worldcoin 的非營利組織 World Foundation，透過對策略投資人的鎖倉代幣銷售完成 5,250 萬美元募資，由 Pantera Capital 領投，Bain Capital Crypto 與 Eightco Holdings 參與。資金將用於把「真人驗證」（Proof of Human）數位身分技術整合進企業軟體與 AI 代理人平台；該協定以自有硬體 Orb 發放身分憑證 World ID，用來辨識真人、阻擋機器人與 AI 假冒身分。",
-          "World Network 至今已有逾 3,900 萬人加入、逾 1,800 萬人完成 Orb 驗證，World ID 憑證累計使用逾 4.75 億次，代幣 WLD 市值約 13 億美元。在深偽與機器人氾濫、線上真偽難辨的背景下，World 正從「擴張網路」轉向「擴大應用」，把布局延伸至驗證、支付與網路服務；實際企業採用進度，目前僅見 CoinDesk 這一家報導。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
-            "url": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-24",
-        "title": "Amazon Business 將 Affirm 納為首個「先買後付」選項，把 BNPL 延伸至美國 B2B 企業採購",
-        "paras": [
-          "Amazon 旗下企業採購平台 Amazon Business 宣布，將「先買後付」（BNPL）業者 Affirm 納為平台首個延後付款選項，開放給符合資格的美國獨資企業主使用。獲核准的客戶可把採購金額分 3 至 48 個月償還，不收逾期費用或隱藏費用，把過去多見於消費端的 BNPL 正式帶進 B2B 線上採購結帳流程。",
-          "這項合作把 Affirm 與 Amazon 既有的消費端關係延伸到企業採購場景，讓小型企業在採購營運所需商品時，多一種管理現金流的融資彈性。實際適用的商品與賣家範圍、核准條件與分期利率，Amazon 新聞稿尚未完整說明。"
-        ],
-        "sources": [
-          {
-            "name": "Amazon",
-            "title": "Amazon Business adds Affirm as its first buy now, pay later option",
-            "url": "https://www.aboutamazon.com/news/small-business/amazon-business-affirm-buy-now-pay-later"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-24",
-        "title": "Stripe 傳以約 100 億美元洽購 AI 模型平台 OpenRouter，跨足 AI 基礎設施",
-        "paras": [
-          "支付巨頭 Stripe 傳出正洽談收購 AI 模型市集平台 OpenRouter，交易金額可能達約 100 億美元。OpenRouter 讓開發者透過單一介面切換、呼叫多家 AI 模型，今年 5 月一輪募資估值約 13 億美元；若以 100 億美元成交，估值將在兩個多月內大幅跳升。Stripe 今年稍早估值約 1,590 億美元，OpenRouter 本身即使用 Stripe 處理金流，雙方原已有業務往來。",
-          "對 Stripe 而言，這將是從核心支付業務跨入 AI 基礎設施的一大步，形同同時掌握 AI 交易的收單端與模型調度端。這樁交易最初由《華爾街日報》（WSJ）披露，PYMNTS、Axios 等多家媒體跟進；報導指出談判仍在進行、可能生變，且已有其他科技業者評估競標。最終是否成局與確切價格，目前尚未確定。"
-        ],
-        "sources": [
-          {
-            "name": "PYMNTS",
-            "title": "Stripe Eyes $10 Billion Deal for AI Model Marketplace OpenRouter",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/stripe-eyes-10-billion-deal-for-ai-model-marketplace-openrouter/"
-          },
-          {
-            "name": "Axios",
-            "title": "AI currency driving Stripe's OpenRouter move",
-            "url": "https://www.axios.com/2026/07/24/stripe-openrouter-merger-ai-currency"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-24",
-        "title": "OCC 一年來首度否決金融科技信託牌照：跨境支付業者 Wise 遭拒，Erebor、Augustus 則過關",
-        "paras": [
-          "美國通貨監理署（OCC）否決跨境支付金融科技業者 Wise（前身 TransferWise）申請「國家信託銀行」（national trust bank）牌照，是該署在一年內核准逾兩打新牌照後、首度公開對金融科技業者說「不」。據 Reuters 與 Banking Dive，OCC 在 7 月 21 日簽署的決定書指出，Wise 美國實體存在長期的反洗錢（AML）／銀行保密法（BSA）遵循缺失、管理層與董事會經驗不足，且缺乏信託（fiduciary）業務歷練；Wise 美國先前已於 2025 年 7 月與多州監理達成和解、支付約 420 萬美元，即因可疑活動監控與通報等 BSA/AML 缺失。Wise 是重量級跨境玩家，去年度為 1,900 萬名客戶移轉約 2,435 億美元、季度跨境金額已達花旗（Citi）約六成。",
-          "對照之下，OCC 今年發牌步調空前寬鬆：由 Palmer Luckey 與 Founders Fund 支持、對準科技與加密圈的 Erebor 銀行，已取得附 FDIC 保險的國家牌照、2 月開業，存款在數月內衝上約 40 億美元；主打 AI 時代「清算銀行」的新創 Augustus 也取得 OCC 有條件核准，並以 10 億美元估值募得 1.8 億美元。除了團隊經驗差異，牌照「類型」也是關鍵——聯準會（Fed）5 月提出的「支付帳戶」（payment account）架構，要求準備銀行暫緩處理第三類（Tier 3，即未受 FDIC 保險的信託銀行）機構的主帳戶（master account）申請，而 Wise 選擇的正是未保險信託牌照，即使獲准也會卡在這道門前。這波發牌熱凸顯監理天平正倒向監理機關熟悉、合規紀錄乾淨的新面孔，牽動跨境支付基礎設施的競爭格局；相關內容見於 Reuters、Banking Dive 與 Fintech Brainfood 的分析。"
-        ],
-        "sources": [
-          {
-            "name": "Reuters",
-            "title": "Wise tumbles after US declines national trust bank application",
-            "url": "https://www.reuters.com/legal/transactional/wise-tumbles-after-us-declines-national-trust-bank-application-2026-07-24/"
-          },
-          {
-            "name": "Banking Dive",
-            "title": "OCC denies Wise trust charter application over AML deficiencies",
-            "url": "https://www.bankingdive.com/news/occ-denies-wise-trust-charter-application-aml-deficiencies/826156/"
-          },
-          {
-            "name": "Fintech Brainfood",
-            "title": "Augustus, Wise and Erebor walk into the OCC",
-            "url": "https://www.fintechbrainfood.com/p/augustus-wise-and-erebor"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-07-31T15:54:56Z"
+  "_generated_at": "2026-07-31T19:01:30Z"
 }
