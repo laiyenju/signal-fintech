@@ -92,6 +92,23 @@
         "context": []
       },
       {
+        "date": "2026-07-31",
+        "title": "Circle 取得紐約州「有限目的信託牌照」，USDC 發行商再添監理背書",
+        "paras": [
+          "全球第二大穩定幣（stablecoin）USDC 的發行商 Circle（美股代號 CRCL）宣布，取得紐約州金融服務署（NYDFS）核發的「有限目的信託牌照」（limited purpose trust charter）。這是一種州級銀行授權，允許持牌者依紐約州銀行法合法提供受託（fiduciary）、託管（custody）與資產管理服務。USDC 市值超過 718 億美元；執行長 Jeremy Allaire 表示，取得紐約信託牌照是公司長期目標，能帶來更明確的監理定位。",
+          "這是 Circle 近期一連串監理布局的一環——本月稍早（7 月 10 日）該公司才獲美國通貨監理署（OCC）核准設立「國家信託銀行」，用以強化 USDC 儲備的安全與監理，並為機構客戶提供數位資產託管與相關服務；國家信託銀行可提供託管與受託服務，但不吸收消費者存款、也不承作放款。在 Circle 之前，Coinbase、MoonPay、BitGo 與 Paxos 等業者也已取得 NYDFS 的信託牌照，而 Circle 更是多年前首家取得 NYDFS「BitLicense」的公司。相關內容目前主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Circle secures New York trust charter as crypto regulatory push accelerates",
+            "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-30",
         "title": "穩定幣基礎設施商 Brale 推出 ION Protocol，以「銷毀—鑄造」跨鏈機制解決客製穩定幣流動性瓶頸",
         "paras": [
@@ -562,8 +579,35 @@
         ],
         "social": [],
         "context": []
+      },
+      {
+        "date": "2026-07-24",
+        "title": "OCC 一年來首度否決金融科技信託牌照：跨境支付業者 Wise 遭拒，Erebor、Augustus 則過關",
+        "paras": [
+          "美國通貨監理署（OCC）否決跨境支付金融科技業者 Wise（前身 TransferWise）申請「國家信託銀行」（national trust bank）牌照，是該署在一年內核准逾兩打新牌照後、首度公開對金融科技業者說「不」。據 Reuters 與 Banking Dive，OCC 在 7 月 21 日簽署的決定書指出，Wise 美國實體存在長期的反洗錢（AML）／銀行保密法（BSA）遵循缺失、管理層與董事會經驗不足，且缺乏信託（fiduciary）業務歷練；Wise 美國先前已於 2025 年 7 月與多州監理達成和解、支付約 420 萬美元，即因可疑活動監控與通報等 BSA/AML 缺失。Wise 是重量級跨境玩家，去年度為 1,900 萬名客戶移轉約 2,435 億美元、季度跨境金額已達花旗（Citi）約六成。",
+          "對照之下，OCC 今年發牌步調空前寬鬆：由 Palmer Luckey 與 Founders Fund 支持、對準科技與加密圈的 Erebor 銀行，已取得附 FDIC 保險的國家牌照、2 月開業，存款在數月內衝上約 40 億美元；主打 AI 時代「清算銀行」的新創 Augustus 也取得 OCC 有條件核准，並以 10 億美元估值募得 1.8 億美元。除了團隊經驗差異，牌照「類型」也是關鍵——聯準會（Fed）5 月提出的「支付帳戶」（payment account）架構，要求準備銀行暫緩處理第三類（Tier 3，即未受 FDIC 保險的信託銀行）機構的主帳戶（master account）申請，而 Wise 選擇的正是未保險信託牌照，即使獲准也會卡在這道門前。這波發牌熱凸顯監理天平正倒向監理機關熟悉、合規紀錄乾淨的新面孔，牽動跨境支付基礎設施的競爭格局；相關內容見於 Reuters、Banking Dive 與 Fintech Brainfood 的分析。"
+        ],
+        "sources": [
+          {
+            "name": "Reuters",
+            "title": "Wise tumbles after US declines national trust bank application",
+            "url": "https://www.reuters.com/legal/transactional/wise-tumbles-after-us-declines-national-trust-bank-application-2026-07-24/"
+          },
+          {
+            "name": "Banking Dive",
+            "title": "OCC denies Wise trust charter application over AML deficiencies",
+            "url": "https://www.bankingdive.com/news/occ-denies-wise-trust-charter-application-aml-deficiencies/826156/"
+          },
+          {
+            "name": "Fintech Brainfood",
+            "title": "Augustus, Wise and Erebor walk into the OCC",
+            "url": "https://www.fintechbrainfood.com/p/augustus-wise-and-erebor"
+          }
+        ],
+        "social": [],
+        "context": []
       }
     ]
   },
-  "_generated_at": "2026-07-31T09:53:07Z"
+  "_generated_at": "2026-07-31T15:54:56Z"
 }
