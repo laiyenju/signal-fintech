@@ -75,6 +75,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-07-31",
+        "title": "Coldcard 硬體錢包爆韌體漏洞，25 分鐘內遭盜走 594 枚比特幣（約 3,800 萬美元）",
+        "paras": [
+          "加密資產硬體錢包製造商 Coinkite 旗下的 Coldcard 出現韌體（firmware）安全漏洞。據 CoinDesk，這項瑕疵使錢包的私密金鑰（secret key）變得可被推測，攻擊者因而在約 25 分鐘內橫掃盜走 594 枚比特幣，價值約 3,800 萬美元。問題可追溯至 2021 年 3 月釋出的一版韌體，凡以該版本軟體產生的錢包都受到影響。",
+          "Coinkite 與資安團隊已對用戶提出警示，並表示較新型號不受此漏洞影響。比特幣等數位資產強調由用戶自行保管（self-custody）金鑰，硬體錢包正是這套自保管基礎設施的關鍵一環；一款廣被使用的硬體錢包因舊版韌體導致金鑰可被推測、進而遭大額盜領，凸顯數位資產自保管在底層安全設計上的風險。實際受影響的錢包數量、完整修補方式與後續補償安排尚未揭露，相關內容目前主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Major bitcoin wallet flaw drains 594 BTC in 25-minute sweep",
+            "url": "https://www.coindesk.com/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-30",
         "title": "穩定幣基礎設施商 Brale 推出 ION Protocol，以「銷毀—鑄造」跨鏈機制解決客製穩定幣流動性瓶頸",
         "paras": [
@@ -548,5 +565,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-30T21:55:00Z"
+  "_generated_at": "2026-07-31T09:53:07Z"
 }
