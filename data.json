@@ -116,6 +116,11 @@
             "date": "2026-08-01",
             "title": "Galaxy Research 完整還原 Coldcard 盜領：規模上修至逾 1,000 枚比特幣（約 7,000 萬美元），肇因韌體跳過硬體亂數產生器",
             "body": "Galaxy Research 完整重建此次事件，將損失自初報的 594 枚比特幣（約 3,800 萬美元）上修至逾 1,000 枚、約 7,000 萬美元：實際於 7 月 30 日 UTC 01:10 至 01:51 間、跨六個區塊掃走 1,082.65 枚比特幣，波及 1,196 個錢包，贓款集中於四個位址且尚未移動；初期僅掌握其中一個位址，金額才看似較小。技術上，Coldcard 韌體本應向專用硬體亂數產生器（RNG）取數，但一個內部建置設定令其跳過該產生器，支援函式庫又只檢查該設定是否存在、而非是否啟用，使金鑰改由以晶片序號與時脈暫存器為種子的軟體方式產生，可能金鑰範圍從天文數字塌縮到 Mk4、Q、Mk5 約 40 億組，Mk2、Mk3 更可被完全推定——攻擊者只需在自有機器上窮舉候選種子、比對公開鏈上位址即可盜領，全程不觸及使用者裝置，且用戶無從自行檢測是否曝險。Block 的報告把 Mk2、Mk4、Q、Mk5 都列入受影響範圍，較 Coinkite「僅 Mk3 受影響、新機種安全」的說法更廣；Galaxy 警告若不儘速移轉資金，恐有後續攻擊。Block 的 Clay Garrett 另指出攻擊者掃領時使用某知名區塊鏈數據商的付費帳號查詢來源位址，其內部日誌與可疑操作在筆數與時序上高度吻合，Block 已將線索交予執法機關，相關內容主要見於 CoinDesk 引述 Galaxy Research 與 Block。"
+          },
+          {
+            "date": "2026-08-01",
+            "title": "盜領擴大至第三波，波及約 4,500 個位址、累計損失逼近 8,900 萬美元，攻擊者轉向小額餘額錢包",
+            "body": "據 CoinDesk 引述 Galaxy Research，這起 Coldcard 弱金鑰盜領出現第三波掃領，受影響位址擴大至約 4,500 個，累計損失自先前估計的約 7,000 萬美元進一步逼近 8,900 萬美元。攻擊者開始鎖定餘額較小的錢包，並改變在鏈上歸集贓款的方式，顯示盜領仍在延燒、尚未收斂。Binance 創辦人趙長鵬（CZ，Changpeng Zhao）就此提醒用戶分散錢包保管、切勿把資產集中於單一裝置，並稱沒有任何方案能保證完全安全。相關內容主要見於 CoinDesk 引述 Galaxy Research。"
           }
         ]
       },
@@ -153,6 +158,28 @@
             "name": "國際清算銀行 BIS",
             "title": "Project Agorá",
             "url": "https://www.bis.org/about/bisih/topics/fmis/agora/rvt.htm"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-31",
+        "title": "路透調查：杜拜加密交易所 Shelbit 為伊朗約 40 億美元制裁規避網路轉帳，美財政部同步制裁伊朗相關比特幣船運保險方案",
+        "paras": [
+          "據 CoinDesk 引述路透（Reuters）調查，一家位於杜拜的加密貨幣交易所 Shelbit 被指涉入一個規模約 40 億美元、用於非法賭博與制裁規避的資金轉移網路，該網路與伊朗伊斯蘭革命衛隊（IRGC）有關，並牽涉伊朗央行等受制裁實體。報導稱 Shelbit 將數億美元資金導向 Binance 等主流加密平台，把伊朗相關實體與境外賭博站點接入全球金融市場。",
+          "同一天，美國財政部（U.S. Treasury）宣布制裁一個與伊朗相關、名為 Hormuz Safe 的比特幣「船運保險」方案，指其接受比特幣與其他數位資產，作為 IRGC 掌控荷莫茲海峽（Strait of Hormuz）航運的制裁規避工具。兩起同日揭露顯示，監理與執法機構正把打擊焦點延伸至加密資產在跨境制裁規避中的角色，對加密交易所的反洗錢（AML）與制裁合規（sanctions compliance）構成新的壓力。相關內容主要見於 CoinDesk 分別引述路透與美國財政部。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Dubai-based crypto exchange tied to $4 billion Iran sanctioned-evasion network",
+            "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters"
+          },
+          {
+            "name": "CoinDesk",
+            "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
+            "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships"
           }
         ],
         "social": [],
@@ -542,5 +569,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-01T18:57:18Z"
+  "_generated_at": "2026-08-01T21:55:42Z"
 }
