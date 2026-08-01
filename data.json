@@ -65,6 +65,28 @@
     "others": [
       {
         "date": "2026-07-31",
+        "title": "紐約州政府起訴預測市場 Kalshi，指其為未持牌賭博平台，求償 3 倍不法所得加每筆違規 10 萬美元",
+        "paras": [
+          "紐約州長霍楚（Kathy Hochul）與州檢察長詹樂霞（Letitia James）宣布，紐約州已於週五向紐約州最高法院（New York Supreme Court）起訴事件合約（event contracts）交易所 Kalshi，指控它在未取得博弈牌照下，於州內提供運動與各類事件下注，等同經營未持牌的賭博生意。州方要求法院禁止 Kalshi 繼續營運，並清算客戶的下注、虧損與公司獲利，追討返還、損害賠償與民事罰款。其中罰款金額訂為 Kalshi 相關獲利的 3 倍，另就每一筆未經授權或意圖提供的運動與行動端運動投注，再各罰 10 萬美元。檢方直接把這類事件合約定性為賭注，指其市場涵蓋職業與大學運動、選舉與時事；訴狀並主張平台允許 18 至 20 歲用戶下注、掛出涉及紐約州大學球隊的市場，而這兩者對持牌運動博彩業者在該州都屬禁止。",
+          "Kalshi 是受美國商品期貨交易委員會（CFTC）監理的事件合約與預測市場（prediction markets）平台，6 月募資時目標估值高達 400 億美元，並在世界盃期間新增約 300 萬名用戶，是 5 月初約 200 萬用戶的逾兩倍。這起訴訟接續紐約州博弈委員會去年 10 月對 Kalshi 發出的停止並終止（cease-and-desist）命令；聯邦法官也已於 7 月 7 日駁回 Kalshi 阻擋州監理機關的請求，並於 7 月 27 日再駁回其上訴期間的禁制令聲請。此案凸顯預測市場在全美面臨的多州法律戰。就在 7 月 27 日，Kalshi、Polymarket 與 CFTC 才在明尼蘇達州取得暫時勝利，當地法院認定該州禁令很可能牴觸《商品交易法》（Commodity Exchange Act），並核發初步禁制令；紐約州此次進攻則反向升高「事件合約究竟屬聯邦監理的衍生性商品，還是各州監理的賭博」的管轄權爭議，勢將牽動整個預測市場產業的合規版圖。截稿前 Kalshi 尚未回應 CoinDesk，相關內容主要見於 CoinDesk 與紐約州檢察長辦公室公告。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "New York sues Kalshi, alleges it offers a gambling platform 'plain and simple'",
+            "url": "https://www.coindesk.com/policy/2026/07/31/new-york-sues-kalshi-alleges-it-offers-a-gambling-platform-plain-and-simple"
+          },
+          {
+            "name": "紐約州檢察長辦公室 NY AG",
+            "title": "Governor Hochul and Attorney General James Announce New York Has Sued Kalshi",
+            "url": "https://ag.ny.gov/press-release/2026/governor-hochul-and-attorney-general-james-announce-new-york-has-sued-kalshi"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-07-31",
         "title": "Coldcard 硬體錢包爆韌體漏洞，25 分鐘內遭盜走 594 枚比特幣（約 3,800 萬美元）",
         "paras": [
           "加密資產硬體錢包製造商 Coinkite 旗下的 Coldcard 出現韌體（firmware）安全漏洞。據 CoinDesk，這項瑕疵使錢包的私密金鑰（secret key）變得可被推測，攻擊者因而在約 25 分鐘內橫掃盜走 594 枚比特幣，價值約 3,800 萬美元。問題可追溯至 2021 年 3 月釋出的一版韌體，凡以該版本軟體產生的錢包都受到影響。",
@@ -520,5 +542,5 @@
       }
     ]
   },
-  "_generated_at": "2026-07-31T19:01:30Z"
+  "_generated_at": "2026-08-01T03:53:39Z"
 }
