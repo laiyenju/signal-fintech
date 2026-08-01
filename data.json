@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣缺乏以金融科技為核心的重點事件",
       "paras": [
-        "過去 24 小時台灣主要財經與科技新聞集中在半導體與 AI 供應鏈、資料中心投資，以及台股單日大漲逾三千點、市值單日增加逾九兆元的大盤行情，缺乏以支付、數位銀行、金融基礎設施或數位資產為核心的重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
-        "本週已收錄的純網銀 LINE Bank 攜手 MaiCoin 推出虛擬貨幣下單主帳戶自動扣款，以及 LINE Pay Money 串接八大公股行庫等進展仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
+        "過去 24 小時台灣財經與科技版面，由台股連日劇烈震盪、AI 與半導體權值股領跌，以及記憶體、AI 伺服器供應鏈與台幣匯率走勢主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
+        "本週已收錄的純網銀 LINE Bank 攜手 MaiCoin 推出虛擬貨幣下單主帳戶自動扣款，以及 LINE Pay Money 完整串接八大公股行庫與中華郵政等金融科技進展，仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
       ]
     },
     "sources": [],
@@ -51,15 +51,26 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "tier": "watch",
-      "title": "本日觀察：過去 24 小時全球缺乏重量級金融科技新進展",
+      "title": "義大利央行研究：穩定幣跨境匯款未必更便宜，成本卡在法幣換匯與進出匝道",
       "paras": [
-        "過去一日全球金融科技最受關注的兩起事件——Coldcard 硬體錢包因舊版韌體瑕疵遭盜走約 594 枚比特幣，以及穩定幣（stablecoin）發行商 Circle 取得紐約州有限目的信託牌照——皆已於前一輪收錄，列於下方本週要聞。最近 24 小時內未再出現規模或監理意義足以擔任「本日最重點」的全新事件，故今日暫以觀察形式呈現。",
-        "當日其餘消息多屬幣價區間盤整與交易所、持幣公司財報等一般行情範疇。國際清算銀行（BIS）「Project Agorá」代幣化跨境付款實測亦列於下方本週要聞持續追蹤；一旦出現具體且可查證的新事件，將即時更新本日最重點。"
+        "義大利央行（Banca d'Italia）發布編號第 86 號的「Markets, Infrastructures and Payment Systems」研究報告，以「神秘客」實測方式檢視 10 條國際匯款走廊，從義大利匯出 200 枚 USDC 至阿根廷、巴西、南非、阿聯（UAE）與日本等地。結果發現，一旦把「從銀行帳戶換成穩定幣、再換回當地法幣」的完整旅程都算進去，穩定幣（stablecoin，錨定法幣的數位代幣）匯款並未系統性地比傳統匯款業者便宜：端到端成本因走廊與服務商而異，落在約 0.3% 到近 9% 之間；結算時間也從支援即時支付系統的約 20 分鐘，到依賴傳統銀行轉帳時最長兩個營業日不等。",
+        "研究強調，區塊鏈本身很少是問題所在——鏈上的網路手續費（gas fee）只占總成本極小比例，真正的花費集中在鏈下：把歐元換成 USDC、把資金提領成當地法幣、外匯價差，以及交易所與當地銀行網路收取的費用。換言之，穩定幣的低成本優勢，只有在收付雙方都留在加密生態內（願意持有、直接花用 USDC 或找收受穩定幣的商家）時才真正成立；但多數收款人最終仍需換回當地法幣支付房租、採買與帳單，等於以另一批中介取代傳統的代理行。義大利央行同時指出，穩定幣「隨時可結算」與可程式化，仍是相對傳統支付軌道的優勢。該行並認為，隨著歐盟 MiCA 等監理框架下合規出金（off-ramp）業者增加、各地即時支付系統與數位資產基礎設施更緊密整合，換匯與轉換費用有望被競爭壓低，只是外匯價差恐仍難以完全消除。相關內容主要見於 CoinDesk 與義大利央行報告。"
       ]
     },
-    "sources": [],
+    "sources": [
+      {
+        "name": "CoinDesk",
+        "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+        "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances"
+      },
+      {
+        "name": "義大利央行 Banca d'Italia",
+        "title": "Markets, Infrastructures and Payment Systems Paper No. 86",
+        "url": "https://www.bancaditalia.it/pubblicazioni/mercati-infrastrutture-e-sistemi-di-pagamento/approfondimenti/2026-086/N.86-MISP.pdf?language_id=1"
+      }
+    ],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -528,25 +539,8 @@
             "body": "俄羅斯央行（Bank of Russia）公布首批加密貨幣監理草案，計畫把現行證券市場的交易、託管、紀錄與揭露制度延伸到數位資產，並為記錄加密資產持有部位的「數位託管機構」（digital depository）設定資本要求——依業務類型須具備 5,000 萬至 2.5 億盧布（約 57 萬至 280 萬美元）資本，其中結算型託管機構門檻最高、能控制加密位址或委由境外託管者次之。這批草案依 7 月 21 日國家杜馬（State Duma）通過、7 月 24 日聯邦委員會（Federation Council）批准的數位資產法制定，整體框架預定 9 月生效，目前仍在公開徵詢階段，是 Sberbank 等業者布局加密基礎設施的上位法源，相關內容主要見於 CoinDesk。"
           }
         ]
-      },
-      {
-        "date": "2026-07-25",
-        "title": "Robinhood Chain 代幣化真實資產兩週內暴增五倍至約 7,000 萬美元，代幣化股票開始上量交易",
-        "paras": [
-          "CoinDesk 報導，Robinhood 自建區塊鏈 Robinhood Chain 上的代幣化真實世界資產（tokenized real-world assets, RWA）市值，在不到兩週內約成長五倍至約 7,000 萬美元，先前為此鏈設計的代幣化股票（tokenized equities）終於開始以較大規模交易。鏈上一檔代幣化 GameStop 股票單日成交約 2,660 萬美元，Nvidia、SpaceX 分居其後；目前有 12 檔代幣化股票單日成交突破 50 萬美元，其中 5 檔逾百萬美元。",
-          "這條鏈最初上線時活動由投機性迷因幣（memecoin）主導，代幣化這個原始目的一度只占約 4%，如今相關業務開始兌現當初訴求。不過整體而言，代幣化股票每日約 5,500 萬美元成交，仍不到全鏈近 6 億美元去中心化交易所（DEX）成交量的十分之一，穩定幣（stablecoin）與迷因幣仍是鏈上主力；Robinhood Chain 的鎖倉總值（TVL）自 7 月中以來約增至 3.12 億美元。相關數字主要來自 DefiLlama、Token Terminal 等鏈上數據與 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Robinhood Chain's real-world assets jump fivefold as tokenized stocks start trading in bigger size",
-            "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-01T06:51:26Z"
+  "_generated_at": "2026-08-01T18:57:18Z"
 }
