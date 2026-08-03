@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣缺乏以金融科技為核心的重點事件",
       "paras": [
-        "過去 24 小時台灣財經與科技版面，主要由台股劇烈震盪、台指夜盤一度重挫逾千點、AI 與半導體權值股走勢，以及金融三業上半年獲利統計、青安 3.0 房貸新增防炒房門檻等題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
-        "本週已收錄的純網銀 LINE Bank 攜手 MaiCoin 推出虛擬貨幣下單主帳戶自動扣款，以及 LINE Pay Money 完整串接八大公股行庫與中華郵政等金融科技進展，仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
+        "過去 24 小時（台灣時間 8 月 3 日至 4 日凌晨）台灣財經與科技版面，主要由台股處置新制 8 月 10 日上路（處置期由 10 天縮短為 5 天、撮合改為每 2 分鐘一次）、美日近 30 年來首度聯手干預匯市撐日圓、勞動基金上半年收益逾 2.2 兆元，以及壽險宣告利率調整、金控加碼台積電等傳統金融與市場題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
+        "本週已收錄的純網銀 LINE Bank 攜手 MaiCoin 推出虛擬貨幣下單主帳戶自動扣款服務，仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
       ]
     },
     "sources": [],
@@ -29,51 +29,51 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-27",
-        "title": "LINE Pay Money 新增臺灣銀行帳戶連結，完整串接八大公股行庫與中華郵政",
-        "paras": [
-          "台灣電子支付市占領先的 LINE Pay Money 進一步擴大帳戶連結版圖，即日起新增支援臺灣銀行帳戶連結功能，補上最後一塊拼圖，正式完整串接八大公股行庫與中華郵政。用戶可運用這些帳戶進行儲值、好友轉帳、生活繳費與乘車等各項服務，帳戶連結選擇更為完整多元。",
-          "公股行庫與中華郵政的客群年齡層普遍較高，完成串接後有助 LINE Pay Money 觸及更廣的用戶基礎，鞏固其電子支付龍頭地位。此舉屬電子支付基礎設施的擴張，把大型公股銀行與郵政帳戶納入行動支付的儲值與扣款管道；相關內容見於 Yahoo 財經報導。"
-        ],
-        "sources": [
-          {
-            "name": "Yahoo 財經",
-            "title": "補足最後拼圖！LINE Pay Money串接八大公股 擴大服務版圖",
-            "url": "https://tw.stock.yahoo.com/news/%E8%A3%9C%E8%B6%B3%E6%9C%80%E5%BE%8C%E6%8B%BC%E5%9C%96-line-pay-money%E4%B8%B2%E6%8E%A5%E5%85%AB%E5%A4%A7%E5%85%AC%E8%82%A1-%E6%93%B4%E5%A4%A7%E6%9C%8D%E5%8B%99%E7%89%88%E5%9C%96-061604093.html"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-08-03",
-      "tier": "top",
-      "title": "美國 SEC 喊停 Nasdaq 比特幣指數選擇權（QBTC）核准並將重審，CME 主張應歸 CFTC 管轄",
+      "date": "2026-08-04",
+      "tier": "watch",
+      "title": "Robinhood 預測市場交易收入首度超車股票與加密貨幣，事件合約成新成長引擎",
       "paras": [
-        "美國證券交易委員會（SEC）已暫停 Nasdaq PHLX 先前對現金結算比特幣指數選擇權（cash-settled bitcoin index options，代碼 QBTC）的核准，並將重新審議此案，相關命令已於 7 月 31 日公開供外界閱覽。SEC 原於 2026 年 5 月給予有條件核准，讓 QBTC 得在證券市場掛牌，但產品上線前仍須取得美國商品期貨交易委員會（CFTC）豁免。芝加哥商品交易所集團（CME Group）6 月提出異議，主張比特幣屬於「商品（commodity）」，直接連結其價格的選擇權應由 CFTC 專屬管轄，而非 SEC。",
-        "此案凸顯 SEC 與 CFTC 對加密資產衍生性商品管轄權的長年拉鋸。CME 指出，若其主張成立，SEC 便無權核准 QBTC，Nasdaq 將須改以 CFTC 監管的期貨或交換（swaps）場所註冊，或把合約重新設計為追蹤某項證券（例如現貨比特幣 ETF）。CME 本身已營運受監理的比特幣期貨與選擇權，QBTC 則意在爭奪相同交易量卻未納入 CFTC 框架；異議書並警告此核准恐開先例，讓證券交易所得以掛牌其他商品的衍生性商品。SEC 命令維持凍結該核准，自 6 月 11 日 CME 提出異議起即已中止，並給予各方至 8 月 24 日提交支持或反對意見，QBTC 於全體委員完成重審前持續暫停。相關內容主要見於 CoinDesk 與 SEC 命令。"
+        "金融科技券商 Robinhood 公布 2026 年第二季財報，旗下「事件合約」（event contracts，又稱預測市場 prediction markets）業務的交易收入，首度同時超越股票與加密貨幣，成為公司最大的單一交易收入來源。據金融科技電子報 Fintech Brainfood 整理，該季總交易收入約 7.76 億美元、年增約 44%，其中選擇權貢獻約 3.42 億美元、事件合約約 1.56 億美元、股票約 1.29 億美元，加密貨幣則約 1 億美元、年減約 38%。",
+        "這顯示預測市場正從邊緣題材快速長成主流金融科技券商的核心產品線。這波動能與整體預測市場產業近期的擴張同步：受美國商品期貨交易委員會（CFTC）監理的 Kalshi 估值攀高，Coinbase、Robinhood 也相繼透過事件合約把這類產品推向更廣客群。不過事件合約在美國多州仍深陷「究竟屬聯邦監理的衍生性商品，還是各州監理的賭博」的法律爭議，這波高速成長能否延續仍有待觀察，目前相關數據主要見於 Fintech Brainfood 整理的 Robinhood 財報。"
       ]
     },
     "sources": [
       {
-        "name": "CoinDesk",
-        "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
-        "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge"
-      },
-      {
-        "name": "美國聯邦公報 Federal Register（SEC 命令）",
-        "title": "In the Matter of Nasdaq PHLX LLC; Order Granting Petition for Review and Scheduling Filing of Statements",
-        "url": "https://www.federalregister.gov/documents/2026/08/03/2026-15615/in-the-matter-of-nasdaq-phlx-llc-order-granting-petition-for-review-and-scheduling-filing-of"
+        "name": "Fintech Brainfood",
+        "title": "Robinhood bets",
+        "url": "https://www.fintechbrainfood.com/p/robinhood-bets"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-03",
+        "title": "美國 SEC 喊停 Nasdaq 比特幣指數選擇權（QBTC）核准並將重審，CME 主張應歸 CFTC 管轄",
+        "paras": [
+          "美國證券交易委員會（SEC）已暫停 Nasdaq PHLX 先前對現金結算比特幣指數選擇權（cash-settled bitcoin index options，代碼 QBTC）的核准，並將重新審議此案，相關命令已於 7 月 31 日公開供外界閱覽。SEC 原於 2026 年 5 月給予有條件核准，讓 QBTC 得在證券市場掛牌，但產品上線前仍須取得美國商品期貨交易委員會（CFTC）豁免。芝加哥商品交易所集團（CME Group）6 月提出異議，主張比特幣屬於「商品（commodity）」，直接連結其價格的選擇權應由 CFTC 專屬管轄，而非 SEC。",
+          "此案凸顯 SEC 與 CFTC 對加密資產衍生性商品管轄權的長年拉鋸。CME 指出，若其主張成立，SEC 便無權核准 QBTC，Nasdaq 將須改以 CFTC 監管的期貨或交換（swaps）場所註冊，或把合約重新設計為追蹤某項證券（例如現貨比特幣 ETF）。CME 本身已營運受監理的比特幣期貨與選擇權，QBTC 則意在爭奪相同交易量卻未納入 CFTC 框架；異議書並警告此核准恐開先例，讓證券交易所得以掛牌其他商品的衍生性商品。SEC 命令維持凍結該核准，自 6 月 11 日 CME 提出異議起即已中止，並給予各方至 8 月 24 日提交支持或反對意見，QBTC 於全體委員完成重審前持續暫停。相關內容主要見於 CoinDesk 與 SEC 命令。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
+            "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge"
+          },
+          {
+            "name": "美國聯邦公報 Federal Register（SEC 命令）",
+            "title": "In the Matter of Nasdaq PHLX LLC; Order Granting Petition for Review and Scheduling Filing of Statements",
+            "url": "https://www.federalregister.gov/documents/2026/08/03/2026-15615/in-the-matter-of-nasdaq-phlx-llc-order-granting-petition-for-review-and-scheduling-filing-of"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-03",
         "title": "貝萊德擴充代幣化現金平台，推出兩檔區塊鏈貨幣市場基金搶當穩定幣儲備管理商",
@@ -519,126 +519,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-27",
-        "title": "Visa 攜手 Airwallex 把跨境支付嵌入貨運平台，切入結算冗長的物流付款",
-        "paras": [
-          "Visa 與跨境支付金融科技業者 Airwallex 宣布合作，把跨境支付、多幣別（multi-currency）與營運資金（working capital）工具直接嵌入貨運與航運平台，協助物流業者加速資金流動、降低付款摩擦。這鎖定一個國際結算最長可達 42 天、付款行政作業占運輸成本近兩成的產業痛點。",
-          "透過把金融科技能力內嵌進貨運平台，Visa 與 Airwallex 意在把嵌入式金融（embedded finance）帶進長期仰賴傳統跨境結算的物流供應鏈。實際上線的平台夥伴、覆蓋市場與費率結構尚待雙方進一步公布，目前主要見於 Fintech Magazine。"
-        ],
-        "sources": [
-          {
-            "name": "Fintech Magazine",
-            "title": "Visa & Airwallex bring fintech overhaul to freight payments",
-            "url": "https://fintechmagazine.com/news/visa-airwallex-bring-fintech-overhaul-to-freight-payments"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-27",
-        "title": "Circle 向 IBM 收購近 1,000 項區塊鏈專利，成為全美最大區塊鏈專利持有者",
-        "paras": [
-          "CoinDesk 報導，穩定幣（stablecoin）發行商 Circle（美股代號 CRCL）向 IBM 收購近 1,000 項已核准的區塊鏈相關專利，並表示此舉使其成為全美最大的區塊鏈專利持有者。這批專利涵蓋逾 680 個專利家族，橫跨區塊鏈技術、銀行、金融服務、保險、企業基礎設施、供應鏈驗證與雲端資安，交易金額未揭露。IBM 出售前本就名列美國前段班的區塊鏈專利持有者，專利分析公司 PatSnap 於 2025 年 12 月估其持有約 790 項相關專利。",
-          "Circle 表示，這批專利將用於支援旗下 USDC、Circle Payments Network、自建的 Arc 區塊鏈，以及為 AI 代理人設計的金融工具，雙方並計畫探索進一步的商業合作。公司未說明其中多少專利於美國核准、IBM 是否保留授權權利，或是否打算對外授權或主張這些專利。穩定幣龍頭以整併專利組合鞏固數位資產基礎設施的智慧財產布局，顯示產業競爭正延伸到專利層面；相關內容目前主要見於 CoinDesk 與 Circle 的公開新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Circle buys nearly 1,000 blockchain patents from IBM",
-            "url": "https://www.coindesk.com/business/2026/07/27/circle-buys-nearly-1-000-blockchain-patents-from-ibm"
-          },
-          {
-            "name": "Business Wire",
-            "title": "Circle Acquires IBM Blockchain Patent Portfolio",
-            "url": "https://www.businesswire.com/news/home/20260727291555/en/Circle-Acquires-IBM-Blockchain-Patent-Portfolio"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-27",
-        "title": "運動電商 Fanatics 收購受監理交易所與清算所，切入快速成長的預測市場",
-        "paras": [
-          "CoinDesk 報導，美國運動電商 Fanatics 大舉切入預測市場（prediction markets）：週一宣布同意向 BGC Group 收購 Water Street Labs 與 CX Clearinghouse，取得一個受聯邦監理的交易所與清算所，交易金額未揭露。掌握自有的交易與清算基礎設施後，Fanatics 可自行上架、掛牌與結算合約，更能掌控產品內容與新市場上線速度，並計畫與 BGC 共同開發結合預測市場活動與傳統金融數據的新型數據產品。",
-          "預測市場是近一年金融領域成長最快的區塊之一，動能主要來自受美國商品期貨交易委員會（CFTC）監理的 Kalshi，以及在區塊鏈上營運的 Polymarket；Coinbase 已與 Kalshi 合作把預測市場帶進 50 州，Robinhood 也透過同一交易所提供事件合約（event contracts）。Fanatics 押注龐大的運動用戶基礎能把預測市場推向更廣大的消費族群，其 Markets 平台自 2024 年底上線、目前覆蓋 23 州與 4 個美國屬地，DraftKings 等博弈業者亦相繼跨入這塊市場。相關內容目前主要見於 CoinDesk 與 Fanatics 的公開新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Fanatics buys regulated exchange in bid to grow prediction markets business",
-            "url": "https://www.coindesk.com/markets/2026/07/27/fanatics-buys-regulated-exchange-in-bid-to-grow-prediction-markets-business"
-          },
-          {
-            "name": "GlobeNewswire",
-            "title": "Fanatics to Acquire Exchange and Clearinghouse from BGC; Parties to Partner on Prediction Markets",
-            "url": "https://www.globenewswire.com/news-release/2026/07/27/3333493/0/en/fanatics-to-acquire-exchange-and-clearinghouse-from-bgc-parties-to-partner-on-prediction-markets.html"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-27",
-        "title": "南韓最大貿易商 POSCO International 攜手 LG CNS 把貿易應收帳款上鏈代幣化，測試以區塊鏈加速跨國付款",
-        "paras": [
-          "南韓最大貿易商 POSCO International（去年營收約 222 億美元，業務橫跨鋼鐵、能源與電池材料）與 LG 集團旗下科技公司 LG CNS 合作，在 layer-1 區塊鏈 Injective 上發行、移轉與結算「貿易應收帳款」（trade receivables），測試以區塊鏈加速旗下跨國子公司之間的商業付款。這次概念驗證（PoC）採用 POSCO 海外據點與交易對手之間的真實貿易資料，而非模擬交易；應收帳款代表貨物出貨後、尚未收款前的債權，過去由買方、賣方與銀行各自分開記錄，對帳往往需要數日才能放款。",
-          "兩家公司表示，把應收帳款放上共享的區塊鏈帳本可建立單一紀錄，讓資產在移轉與結算時同時攜帶合規規則；POSCO 計畫在今年稍晚完成試辦後，把這套做法擴大到正式生產環境。這也延續南韓企業近期的上鏈布局——車廠現代（Hyundai）已開始以穩定幣（stablecoin）在美墨營運之間進行內部資金調度，穩定幣發行商 Circle 也與 Kakao、Toss Bank 探索支付基礎設施；LG CNS 先前參與韓國央行數位貨幣（CBDC）試點，並為 KOSCOM 與未來資產證券（Mirae Asset Securities）營運代幣化平台。相關內容目前主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "South Korea trading giant puts receivables onchain in tokenization test with LG CNS",
-            "url": "https://www.coindesk.com/business/2026/07/26/south-korea-trading-giant-puts-receivables-onchain-in-tokenization-test-with-lg-cns"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-27",
-        "title": "本日觀察：加密貨幣交易所 BitMart 宣布結束營運，平台代幣 BMX 單日崩跌 58%",
-        "paras": [
-          "CoinDesk 報導，成立九年的加密貨幣交易所 BitMart 宣布將結束營運，給用戶約一個月時間關閉交易部位、約六個月時間提領資產；消息傳出後，平台自家代幣 BMX 單日崩跌約 58%。BitMart 並未說明具體的關閉原因。",
-          "一家營運多年的中型加密貨幣交易所無預警收攤，凸顯在市場低迷之際部分交易平台承壓，用戶須在期限內把資產移轉至他處以免受影響。BitMart 未交代結束營運的財務或監理背景，影響範圍目前相對侷限，且僅見 CoinDesk 單一來源報導，是否牽動更廣泛的加密交易所版圖仍有待觀察。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
-            "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-07-28",
-            "title": "BitMEX、BitMart 被點名為加密交易寒冬首波受害者，Uphold 同期裁員 17%",
-            "body": "CoinDesk 進一步分析，BitMEX 與 BitMart 可能是這波加密交易寒冬的首批受害者：新法規上路加上散戶當沖交易量大幅萎縮，正把區域型交易平台推向倒閉邊緣，市場恐只剩少數大型業者存活。同期數位資產交易平台 Uphold 也裁減約 17% 全球人力，稱此舉反映策略重心轉向成長較快的企業客戶業務。這顯示 BitMart 無預警收攤並非單一個案，而是交易熱度退潮下區域交易所普遍承壓的一環，以上內容目前見於 CoinDesk 的分析報導。"
-          }
-        ]
-      },
-      {
-        "date": "2026-07-27",
-        "title": "法院暫時擋下明尼蘇達州預測市場禁令，Kalshi、Polymarket 與 CFTC 主張牴觸聯邦監理",
-        "paras": [
-          "CoinDesk 報導，美國一名法官暫時擋下明尼蘇達州一項禁止預測市場（prediction markets）的州法，認為該法很可能與聯邦規範相牴觸。事件合約交易所 Kalshi、鏈上預測市場 Polymarket 與美國商品期貨交易委員會（CFTC）都主張，這項州法干擾了聯邦層級的監理權限；法院的暫緩裁定將維持到做出最終判決為止。",
-          "這起訴訟凸顯預測市場在美國快速擴張之際，聯邦與各州監理權限的界線爭議正逐漸浮上檯面。Kalshi 受 CFTC 監理、Polymarket 則在區塊鏈上營運，兩者近來都積極把事件合約（event contracts）推向全美市場；州級禁令與聯邦監理孰輕孰重，將牽動整個預測市場產業的合規版圖，相關內容目前主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Kalshi, Polymarket win pause against Minnesota's prediction market ban",
-            "url": "https://www.coindesk.com/policy/2026/07/27/kalshi-polymarket-win-pause-against-minnesota-s-prediction-market-ban"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-03T15:55:46Z"
+  "_generated_at": "2026-08-03T18:56:49Z"
 }
