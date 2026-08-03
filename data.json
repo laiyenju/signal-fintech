@@ -325,6 +325,28 @@
         "context": []
       },
       {
+        "date": "2026-07-29",
+        "title": "支付基礎設施商 Increase 收購 Twin City Bank，推出自有 FDIC 會員銀行 Increase Bank",
+        "paras": [
+          "為 Gusto、Ramp、Stripe 等業者處理大量金流的支付與銀行基礎設施公司 Increase，本週推出自有銀行 Increase Bank。這是一家美國聯邦存款保險公司（FDIC）會員機構，坐落在 Increase 的銀行核心系統之下，直接連接美國聯準會（Fed）、清算所（The Clearing House）與 Visa 三大支付網路。值得注意的是，Increase Bank 並非透過新設（de novo）牌照申請，而是來自收購位於華盛頓州 Longview、僅 16 名員工、資產約 1.14 億美元、只有一間辦公室的 Twin City Bank，開業時帶著約 9,900 萬美元存款；創辦人 Darragh Buckley 曾是 Stripe 第一號員工，如今 Stripe 反過來成為他所買下銀行的客戶。",
+          "此舉凸顯金融科技基礎設施業者正從單純的「銀行即服務」（Banking as a Service, BaaS）合作模式，走向直接掌握銀行牌照，並以現代化軟體與工程品質作為差異化，與 Cross River、Column、Lead 等同型業者同場競爭——過去以牌照為護城河的贊助型銀行，優勢正在被稀釋。Increase 表示新銀行是「加入既有網路」，補強而非取代現有的贊助銀行夥伴，因為許多客戶會刻意同時使用多家銀行以分散容量、韌性與法規風險。收購金額與完整上線細節尚未揭露，相關內容目前主要見於 Increase 發布於 Business Wire 的新聞稿與金融科技電子報 Fintech Brainfood。"
+        ],
+        "sources": [
+          {
+            "name": "Business Wire",
+            "title": "Introducing Increase Bank, Built on the Infrastructure Powering Hundreds of Billions in Money Movement",
+            "url": "https://www.businesswire.com/news/home/20260729315404/en/Introducing-Increase-Bank-Built-on-the-Infrastructure-Powering-Hundreds-of-Billions-in-Money-Movement"
+          },
+          {
+            "name": "Fintech Brainfood",
+            "title": "Increase just launched a bank with one branch and $99m of deposits",
+            "url": "https://www.fintechbrainfood.com/p/robinhood-bets"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-07-28",
         "title": "貝萊德、富達、高盛等華爾街巨頭力挺《CLARITY Act》，加密市場結構法案獲主流金融背書",
         "paras": [
@@ -451,7 +473,13 @@
           }
         ],
         "social": [],
-        "context": []
+        "context": [
+          {
+            "date": "2026-07-28",
+            "title": "X Money 上線細節：Cross River Bank 承作存款、6% 年化收益與 3% 回饋，已取得 41 州加華府匯款牌照",
+            "body": "據科技媒體 TechCrunch，X Money 正式向美國 Premium 與 Premium+ 付費訂閱用戶開放，提供存款帳戶、免手續費的用戶間轉帳與一張 Visa 簽帳金融卡，存款由贊助銀行 Cross River Bank 承作；營運主體 X Payments LLC 已在 41 州與華盛頓特區取得匯款業者（money transmitter）牌照，但仍未涵蓋紐約州與麻州。年費 395 美元的 Premium+ 用戶可立即享 6% 年化收益率（APY）與 3% 消費回饋，年費 84 美元的 Premium 用戶則須連結薪資直接存入才享 6%。外界普遍認為，這樣的高利率與回饋比較像是 X 為衝訂閱轉換率支付的獲客成本，而非可長期維持的存款產品——簽帳卡的交換費（interchange）遠不足以支應 3% 回饋，X 也尚未公布「儲蓄真實揭露」（Truth in Savings）文件或承諾利率為永久，宜視為推廣期優惠。相關內容主要見於 TechCrunch。"
+          }
+        ]
       },
       {
         "date": "2026-07-28",
@@ -595,5 +623,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-03T09:50:15Z"
+  "_generated_at": "2026-08-03T12:52:54Z"
 }
