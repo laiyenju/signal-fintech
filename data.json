@@ -75,6 +75,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-03",
+        "title": "貝萊德擴充代幣化現金平台，推出兩檔區塊鏈貨幣市場基金搶當穩定幣儲備管理商",
+        "paras": [
+          "全球最大資產管理業者貝萊德（BlackRock）於 8 月 3 日宣布擴充旗下代幣化現金平台，推出兩檔代幣化貨幣市場基金產品，相關產品已於今年 5 月向美國證券交易委員會（SEC）遞件。其一是把既有貨幣市場基金 BlackRock Select Treasury Based Liquidity Fund（BSTBL）在以太坊（Ethereum）上發行代幣化股份級別；其二是全新的 BlackRock Daily Reinvestment Stablecoin Reserve Vehicle（BRSRV），主打股息每日再投資，並可跨多條區塊鏈存取。貝萊德表示，兩檔基金都打算符合《GENIUS Act》下、獲准的美國支付型穩定幣（stablecoin）發行商可採用的「合格儲備資產」資格。",
+          "此舉深化貝萊德在代幣化（tokenization，把基金、債券、股票等傳統金融資產以區塊鏈形式表彰）的布局，支持者主張這類技術可加快結算、支援全天候交易並提升透明度。財務長 Martin Small 在 2026 年第二季法說會上直言，公司要成為業界首選的穩定幣儲備管理商，並透露貝萊德已為 USDC 發行商 Circle 管理約 600 億美元儲備，而 Circle 約占 3,000 億美元穩定幣市場的四分之一。美國貨幣市場基金規模已逾 8.4 兆美元，貝萊德現金管理部門管理近 1.073 兆美元的現金策略。現金管理業務全球產品與平台主管 Jon Steel 稱，支撐穩定幣與其他代幣化金融產品的高品質儲備資產需求正在上升；新產品能讓客戶在傳統與數位市場間，多一種運用貨幣市場基金的管道。後續值得觀察的是這兩檔產品能吸引多少資產、以及正式上線與跨鏈支援的時程，目前相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "BlackRock expands tokenized cash with new blockchain-based money market offerings",
+            "url": "https://www.coindesk.com/business/2026/08/03/blackrock-expands-tokenized-cash-with-new-blockchain-based-money-market-offerings"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-02",
         "title": "DeFi 借貸平台 Spark 無限期擱置自有消費者 App，轉型為 Robinhood、PayPal 供應穩定幣流動性的後端",
         "paras": [
@@ -623,5 +640,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-03T12:52:54Z"
+  "_generated_at": "2026-08-03T15:55:46Z"
 }
