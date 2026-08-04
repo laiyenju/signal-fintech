@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣缺乏以金融科技為核心的重點事件",
       "paras": [
-        "過去 24 小時（台灣時間 8 月 3 日至 4 日凌晨）台灣財經與科技版面，主要由台股處置新制 8 月 10 日上路（處置期由 10 天縮短為 5 天、撮合改為每 2 分鐘一次）、美日近 30 年來首度聯手干預匯市撐日圓、勞動基金上半年收益逾 2.2 兆元，以及壽險宣告利率調整、金控加碼台積電等傳統金融與市場題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
-        "本週已收錄的純網銀 LINE Bank 攜手 MaiCoin 推出虛擬貨幣下單主帳戶自動扣款服務，仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
+        "過去 24 小時（台灣時間 8 月 4 日至 5 日凌晨）台灣財經版面，主要由金管會核准台新銀行併新光銀行、金管會拚 9 月底前推出「股市儀表板」強化資訊揭露、10 月起銀行理財週轉金需申報以防「四貸同堂」信用風險，以及保險業財報編製準則修正等傳統金融與監理題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
+        "本週稍早已收錄集保結算所規劃深化與美國 DTCC 合作、直接取得公司行動資料以強化複委託交割，以及金管會預告虛擬資產「轉帳規則」10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
       ]
     },
     "sources": [],
@@ -51,46 +51,63 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-28",
-        "title": "純網銀 LINE Bank 攜手 MaiCoin，推出虛擬貨幣下單主帳戶自動扣款服務",
-        "paras": [
-          "立法院今年 6 月底三讀通過《虛擬資產服務法》後，帶動更多業者積極推動與虛擬資產服務業者（VASP，Virtual Asset Service Provider）合作。純網銀 LINE Bank 於 7 月 28 日宣布，攜手數位資產買賣平台 MaiCoin，讓用戶在下單買賣虛擬貨幣時，可直接以 LINE Bank 主帳戶自動扣款，把數位銀行帳戶與加密資產交易的金流串接在一起。",
-          "LINE Bank 表示，未來將持續以開放平台方式與更多 VASP 業者合作，形同把純網銀帳戶打造成對接合規加密交易的金流入口。這是台灣新版虛擬資產專法上路後，純網銀切入 VASP 金流的具體案例，反映銀行與加密平台在監理框架下加速整合；目前細節主要見於中央社報導。"
-        ],
-        "sources": [
-          {
-            "name": "中央社 CNA（財經）",
-            "title": "純網銀攜手VASP業者　推綁定扣款服務",
-            "url": "https://www.cna.com.tw/news/afe/202607280103.aspx"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-08-04",
-      "tier": "watch",
-      "title": "Robinhood 預測市場交易收入首度超車股票與加密貨幣，事件合約成新成長引擎",
+      "date": "2026-08-05",
+      "tier": "top",
+      "title": "富國銀行加入摩根大通、花旗行列，推代幣化存款搶進華爾街結算軌道，先行支援美元英鎊全天候轉換",
       "paras": [
-        "金融科技券商 Robinhood 公布 2026 年第二季財報，旗下「事件合約」（event contracts，又稱預測市場 prediction markets）業務的交易收入，首度同時超越股票與加密貨幣，成為公司最大的單一交易收入來源。據金融科技電子報 Fintech Brainfood 整理，該季總交易收入約 7.76 億美元、年增約 44%，其中選擇權貢獻約 3.42 億美元、事件合約約 1.56 億美元、股票約 1.29 億美元，加密貨幣則約 1 億美元、年減約 38%。",
-        "這顯示預測市場正從邊緣題材快速長成主流金融科技券商的核心產品線。這波動能與整體預測市場產業近期的擴張同步：受美國商品期貨交易委員會（CFTC）監理的 Kalshi 估值攀高，Coinbase、Robinhood 也相繼透過事件合約把這類產品推向更廣客群。不過事件合約在美國多州仍深陷「究竟屬聯邦監理的衍生性商品，還是各州監理的賭博」的法律爭議，這波高速成長能否延續仍有待觀察，目前相關數據主要見於 Fintech Brainfood 整理的 Robinhood 財報。"
+        "美國大型銀行富國銀行（Wells Fargo）宣布，將於今年稍晚為部分企業與商業客戶推出「代幣化存款」（tokenized deposits，把傳統銀行存款餘額以區塊鏈形式表彰）服務，首波先在自有區塊鏈上支援美元與英鎊之間的全天候（24/7）轉換，再於 2027 年逐步擴及更多客戶、國家與貨幣。與 Circle、Tether 等民間穩定幣（stablecoin）不同，代幣化存款仍屬商業銀行貨幣，富國強調其將享有與現行存款產品相同的監理保障與存款保險資格；系統會在能提升速度或彈性時，自動把符合條件的付款導向代幣化存款，且不改變客戶既有的操作方式。",
+        "此舉使富國正式加入摩根大通（JPMorgan）與花旗（Citi）之列——兩者已營運機構級代幣化存款服務，各大銀行的共同動機，是抵禦穩定幣侵蝕其存款基礎的威脅。富國布局區塊鏈支付已久：2019 年推出內部跨境結算的 Wells Fargo Digital Cash，其後與滙豐（HSBC）以共享區塊鏈結算外匯；今年 3 月更申請「WFUSD」商標，被視為存款代幣或穩定幣的伏筆。富國表示，未來將加入以智慧合約執行的條件式付款，平台也可支援自有託管錢包與跨鏈連結，並能與清算所（The Clearing House）正在建置的共享代幣化存款網路介接。此案凸顯大型銀行正把結算與跨境支付軌道搬上區塊鏈，以守住既有存款業務，主要消息來源為 CoinDesk。"
       ]
     },
     "sources": [
       {
-        "name": "Fintech Brainfood",
-        "title": "Robinhood bets",
-        "url": "https://www.fintechbrainfood.com/p/robinhood-bets"
+        "name": "CoinDesk",
+        "title": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street's settlement rails",
+        "url": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-04",
+        "title": "分析師：三星為逾 8 億支手機的 Samsung Wallet 預設內建穩定幣，可望成為穩定幣主要通路商",
+        "paras": [
+          "據 CoinDesk，多位分析師認為，三星電子（Samsung）可望成為穩定幣（stablecoin，錨定法幣的數位代幣）的主要通路商。三星在近期 Galaxy Unpacked 2026 發表會宣布，將為超過 8 億支新智慧型手機的 Samsung Wallet 預設內建穩定幣功能，包含錨定法幣的儲蓄與支付帳戶。Samsung Wallet 目前於 61 國提供、光南韓就有近 1,900 萬名用戶，全球在用的三星手機更超過 10 億支；加密投資顧問公司 Areta 亞太主管 Joseph Goh 直言「通路才是這裡的稀缺資產，而三星握有大量通路」，認為此舉能讓三星成為 USDC 等穩定幣的主要分發者。",
+          "這並非三星首度跨足加密——早在 2019 年，它就在 Galaxy 手機推出以硬體隔離的 Knox 保管數位資產錢包。分析師指出，這波錢包整合只是三星「同一套策略的一半」，另一半是基礎設施布局：三星旗下三星證券、三星 SDS 與三星卡今年 5 月以 4.08 億美元收購南韓最大加密交易所 Upbit 營運商 Dunamu 約 4% 股權，三星 SDS 執行長並在法說會表示，此舉是進軍包含穩定幣與 AI 支付在內數位資產基礎設施的策略投資。南韓今年 4 月已公布《數位資產基本法》草案，為穩定幣發行與監理鋪路，但尚無通過時程。三星並未公布用戶採用預估或現有加密用戶數，實際普及仍待觀察，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
+            "url": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-04",
+        "title": "Robinhood 預測市場交易收入首度超車股票與加密貨幣，事件合約成新成長引擎",
+        "paras": [
+          "金融科技券商 Robinhood 公布 2026 年第二季財報，旗下「事件合約」（event contracts，又稱預測市場 prediction markets）業務的交易收入，首度同時超越股票與加密貨幣，成為公司最大的單一交易收入來源。據金融科技電子報 Fintech Brainfood 整理，該季總交易收入約 7.76 億美元、年增約 44%，其中選擇權貢獻約 3.42 億美元、事件合約約 1.56 億美元、股票約 1.29 億美元，加密貨幣則約 1 億美元、年減約 38%。",
+          "這顯示預測市場正從邊緣題材快速長成主流金融科技券商的核心產品線。這波動能與整體預測市場產業近期的擴張同步：受美國商品期貨交易委員會（CFTC）監理的 Kalshi 估值攀高，Coinbase、Robinhood 也相繼透過事件合約把這類產品推向更廣客群。不過事件合約在美國多州仍深陷「究竟屬聯邦監理的衍生性商品，還是各州監理的賭博」的法律爭議，這波高速成長能否延續仍有待觀察，目前相關數據主要見於 Fintech Brainfood 整理的 Robinhood 財報。"
+        ],
+        "sources": [
+          {
+            "name": "Fintech Brainfood",
+            "title": "Robinhood bets",
+            "url": "https://www.fintechbrainfood.com/p/robinhood-bets"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-04",
         "title": "印度立法為 UPI 即時支付網路鋪路收費機制，擬終結 2020 年來「商家零手續費」制度",
@@ -441,165 +458,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-28",
-        "title": "貝萊德、富達、高盛等華爾街巨頭力挺《CLARITY Act》，加密市場結構法案獲主流金融背書",
-        "paras": [
-          "多家主流華爾街機構近期公開支持《數位資產市場明確法》（Digital Asset Market Clarity Act，簡稱 CLARITY Act）。過去一週內，資產管理巨頭貝萊德（BlackRock）、富達（Fidelity）、富蘭克林坦伯頓（Franklin Templeton）、投資銀行高盛（Goldman Sachs）與金融科技業者 SoFi 都呼籲國會通過這項法案。該法將為美國加密產業建立全新監理框架，並大幅調整證券交易委員會（SEC）與商品期貨交易委員會（CFTC）對此領域的分工；支持者主張，明確規則可保護投資人、給企業監理確定性，並在數位資產走向主流之際維持美國競爭力。",
-          "這波背書也凸顯傳統金融內部的分歧：摩根大通（JPMorgan Chase）在穩定幣（stablecoin）收益的限制上與加密交易所 Coinbase 對立，主張部分條文恐讓穩定幣發行商相對傳統存款取得不公平優勢，Coinbase 等業者則反駁此舉會削弱法案、拖慢創新。參議院近期公布合併眾議院與參議院版本的新法案文本，首度納入涉及加密事務的政府高層倫理限制條款，但多數黨領袖 Thune 已把議程轉向司法提名與對俄制裁案，法案仍在等待排入院會表決；參議院預定 8 月 8 日進入夏季休會，留給推進法案的時間所剩不多，相關內容目前主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
-            "url": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act"
-          },
-          {
-            "name": "CoinDesk",
-            "title": "Goldman Sachs CEO backs Clarity Act despite banking industry's concerns over stablecoin rules",
-            "url": "https://www.coindesk.com/policy/2026/07/23/goldman-sachs-ceo-backs-clarity-act-despite-banking-industry-s-concerns-over-stablecoin-rules"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-28",
-        "title": "香港金管局公布首份銀行業「量子準備指數」，僅 2.3 分揭後量子密碼布局嚴重落後",
-        "paras": [
-          "香港金融管理局（HKMA）於 7 月 27 日發布銀行業量子準備白皮書，並首度公布「量子準備指數」（Quantum Preparedness Index），整體僅得 2.3 分（滿分 10 分），顯示當地銀行業多半仍停留在認識風險的初期階段。這份在第八屆 FiNETech 會議發表、依今年稍早問卷調查編製的白皮書顯示，約 68% 受訪銀行至少已有一定認知，或進入規劃與試點階段，其餘則尚未起步；約半數銀行仍未擬定遷移至後量子密碼學（post-quantum cryptography, PQC）的正式計畫，雖有約半數已在董事會層級討論，卻只有三分之一實際著手探索或測試相關技術。",
-          "量子準備之所以重要，在於量子運算對支撐現代金融的加密技術構成長期威脅，銀行尤其易受「先蒐集、後解密」（harvest now, decrypt later）攻擊——不肖人士可先囤積今日加密的資料，待量子硬體成熟後再行破解，國際清算銀行（BIS）Project Leap 已將其列為金融體系的即時風險。目前具規模、足以破解銀行加密與比特幣、以太坊等區塊鏈的量子電腦尚不存在，但外界估計相關風險最快可能在 2029 年浮現。HKMA 訂出 2030 年指數要達滿分 10 的目標，並與香港科技大學商學院合作推出後量子密碼工具箱、開辦系列工作坊；同期美國總統川普也簽署兩項行政命令，分別加速量子運算發展、要求聯邦政府於 2030 至 2031 年完成後量子密碼遷移。相關內容主要見於 CoinDesk 與 HKMA 白皮書。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Hong Kong's central bank puts a number on lenders' quantum preparedness. It's very low.",
-            "url": "https://www.coindesk.com/markets/2026/07/28/hong-kong-s-central-bank-puts-a-number-on-lenders-quantum-preparedness-it-s-very-low"
-          },
-          {
-            "name": "香港金融管理局 HKMA",
-            "title": "HKMA whitepaper on the quantum preparedness of the banking industry",
-            "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/07/20260727-3/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-28",
-        "title": "紐時揭幣安悄改法遵政策，多國執法凍結贓款受阻、美司法部示警",
-        "paras": [
-          "《紐約時報》（NYT）7 月 28 日披露，全球最大加密貨幣交易所幣安（Binance）自 2025 年 4 月起悄悄調整與各國執法機關的合作方式，讓調查人員更難取得用戶資料、打擊詐騙與洗錢。據該報，多數協查請求被導向幣安受監理實體所在的阿拉伯聯合大公國（UAE，受阿布達比全球市場 ADGM 監管）政府，外國執法機關須改走曠日費時的「刑事司法互助條約」（MLAT）程序，回應時間大幅拉長；今年 6 月荷蘭一場執法會議上，五個歐洲國家的警方都描述了向幣安取證的困難，布魯克林助理地檢官 Alona Katz 直言「取得紀錄的快慢，往往決定一個案件的成敗」。涉及兒少性剝削、恐怖主義或立即危及生命的案件，幣安仍會直接回應。",
-          "這與幣安過去直接協助凍結可疑帳戶、提供受查用戶資訊的做法明顯不同。幣安發言人否認放慢合作，強調近年「逐年增加」與全球執法機關的合作，此次調整是「刻意強化」治理與防護控管，符合受監理機構應有的標準。這則消息接續科技媒體 The Information 稍早引述美國司法部（DOJ）內部備忘錄的內容——該備忘錄提醒承辦加密案件的檢察官，在凍結或扣押資產時要有幣安協助減少的心理準備；先前《華爾街日報》與《財星》也曾報導幣安解雇調查涉伊朗交易的法遵人員，幣安均予否認。在監理機關持續檢視幣安法遵作業之際，這起爭議凸顯全球最大加密交易所與各國執法、監理體系之間的張力，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Binance makes fighting crypto crime more difficult, says new report",
-            "url": "https://www.coindesk.com/business/2026/07/28/binance-makes-fighting-crypto-crime-more-difficult-says-new-nyt-article"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-28",
-        "title": "以太坊基金會分拆新創 EthSystems 押注「隱私」是銀行上鏈關鍵，為機構打造保密基礎設施",
-        "paras": [
-          "CoinDesk 報導，今年稍早自以太坊基金會（Ethereum Foundation）分拆獨立的新創 EthSystems，押注阻擋金融機構把業務搬上公有區塊鏈的最大障礙是「隱私」而非「可擴充性」。這家源自基金會「機構隱私任務小組」的公司不打算另建新鏈，而是為銀行、資產管理業者與政府打造保密（confidentiality）基礎設施，讓敏感的交易資料在以太坊上完成結算的同時仍維持機密，藉此支援代幣化（tokenization）資產、穩定幣（stablecoin）等金融應用。",
-          "共同創辦人 Mo Jalil 表示，幾乎每家金融機構都需要某種程度的保密，但這不等於匿名或隱藏，而是要能控管「誰、在何時、以何種方式」看到哪些資料。市場上 Canton Network（有高盛、法國巴黎銀行 BNP Paribas 與美國存託清算公司 DTCC 等機構支持），以及 Aztec、Miden 等以太坊原生隱私協定，也在耕耘同一領域；EthSystems 定位為顧問並提供客製基礎設施與開源研究，選擇與既有專案並存而非重造整套隱私堆疊。公司稱機構需求已從創新實驗團隊轉向實際營運交易與管理資產的業務單位，這輪布局的募資規模與客戶名單尚未揭露，相關內容目前主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
-            "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-28",
-        "title": "代幣化平台 Securitize 取得美國 SEC 投資顧問牌照，強化華爾街與鏈上投資布局",
-        "paras": [
-          "CoinDesk 報導，代幣化（tokenization）平台 Securitize 取得美國證券交易委員會（SEC）核發的註冊投資顧問（registered investment adviser, RIA）牌照。Securitize 是資產管理巨頭貝萊德（BlackRock）的代幣化合作夥伴，這張牌照擴大了公司可提供的服務範圍，讓它在把真實世界資產搬上區塊鏈的業務上，站上更接近華爾街主流金融的位置。",
-          "這項進展發生在監理機關正研議鏈上（onchain）投資產品規則之際，凸顯代幣化業務持續擴張、並逐步被納入既有的證券監理架構。牌照具體涵蓋的業務範圍，以及後續與貝萊德等機構的合作細節，目前尚未完整揭露，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Securitize builds Wall Street credentials with SEC adviser license as tokenization expands",
-            "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-28",
-        "title": "摩根士丹利推出以太幣、Solana 兩檔 ETP，數位資產產品線從比特幣再擴張",
-        "paras": [
-          "摩根士丹利（Morgan Stanley）推出追蹤以太幣（ETH）與 Solana（SOL）的交易所交易產品（ETP）：Morgan Stanley Ethereum Trust（代號 MSSE）與 Morgan Stanley Solana Trust（代號 MSOL）在紐約證交所 Arca 掛牌，分別追蹤 CoinDesk 的 ETH 與 SOL 4PM 紐約結算基準價，讓投資人不必直接持有代幣即可取得部位。兩檔產品收取市場最低的 0.14% 管理費，並計畫將部分持倉質押（staking），把質押獎勵回饋給投資人而非留給公司。",
-          "這延續摩根士丹利今年稍早推出的現貨比特幣信託（MSBT）——截至 7 月 16 日已累積逾 3.81 億美元資產。挾旗下財富管理部門約 1.6 萬名理財顧問、逾 9 兆美元客戶資產，以及 E*TRADE 觸及的自主投資人，摩根士丹利具備強大通路優勢；此舉反映大型資產管理業者持續把數位資產產品線從比特幣擴展到 ETH 與 SOL，SOL 現貨產品更成為機構競逐的新戰場，相關內容目前主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Morgan Stanley debuts ether, solana exchange-traded products after bitcoin fund success",
-            "url": "https://www.coindesk.com/markets/2026/07/28/morgan-stanley-debuts-ether-and-solana-etps-after-bitcoin-fund-success"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-28",
-        "title": "馬斯克旗下 X 在美推出「X Money」銀行服務，加速打造萬能 App",
-        "paras": [
-          "馬斯克（Elon Musk）旗下社群平台 X 於 7 月 27 日正式向全美 Premium 與 Premium+ 付費訂閱用戶推出「X Money」銀行服務，是 X 邁向「萬能 App」（everything app）的重要一步。此舉把支付與資金功能整合進社群平台，讓 X 從內容與訊息服務跨入數位金融領域。",
-          "X Money 的推出，延續馬斯克把 X 打造成集社交、支付與金融於一身的超級 App 願景，對標亞洲以微信（WeChat）為代表的「萬能 App」模式。實際的功能設計、合作銀行與後續開放對象尚未完整揭露，目前主要見於中央社引述外電的報導。"
-        ],
-        "sources": [
-          {
-            "name": "中央社 CNA（財經）",
-            "title": "X平台在美推X Money銀行服務　馬斯克擬打造萬能App",
-            "url": "https://www.cna.com.tw/news/aopl/202607280343.aspx"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-07-28",
-            "title": "X Money 上線細節：Cross River Bank 承作存款、6% 年化收益與 3% 回饋，已取得 41 州加華府匯款牌照",
-            "body": "據科技媒體 TechCrunch，X Money 正式向美國 Premium 與 Premium+ 付費訂閱用戶開放，提供存款帳戶、免手續費的用戶間轉帳與一張 Visa 簽帳金融卡，存款由贊助銀行 Cross River Bank 承作；營運主體 X Payments LLC 已在 41 州與華盛頓特區取得匯款業者（money transmitter）牌照，但仍未涵蓋紐約州與麻州。年費 395 美元的 Premium+ 用戶可立即享 6% 年化收益率（APY）與 3% 消費回饋，年費 84 美元的 Premium 用戶則須連結薪資直接存入才享 6%。外界普遍認為，這樣的高利率與回饋比較像是 X 為衝訂閱轉換率支付的獲客成本，而非可長期維持的存款產品——簽帳卡的交換費（interchange）遠不足以支應 3% 回饋，X 也尚未公布「儲蓄真實揭露」（Truth in Savings）文件或承諾利率為永久，宜視為推廣期優惠。相關內容主要見於 TechCrunch。"
-          }
-        ]
-      },
-      {
-        "date": "2026-07-28",
-        "title": "十家歐洲金融機構成立合作社，推出受監理區塊鏈網路 RL1（Regulated Layer One），承接 SWIAT 逾 7 億歐元代幣化基礎設施",
-        "paras": [
-          "ABN AMRO、DekaBank、DZ BANK、LBBW、法國外貿銀行（Natixis CIB）、法國互助信貸（Crédit Mutuel Alliance Fédérale）、西班牙 Cecabank、Chartered Investment、渣打旗下 SC Ventures 與 Seturion 等十家歐洲金融機構，於 7 月 28 日共同成立受監理的區塊鏈網路「Regulated Layer One」（RL1）。RL1 以盧森堡的歐洲合作社（European Cooperative Society, SCE）形式設立，各成員擁有平等的治理與投票權，沒有單一銀行掌控整套基礎設施，並為機構打造發行、託管、結算與擔保品管理的共用帳本。這套網路承接德國金融科技公司 SWIAT 的既有正式生產網路——該網路三年來已處理逾 50 筆、總額超過 7 億歐元的交易，SWIAT 仍擔任技術營運方；英國 NatWest 列名「即將加入」，德國國有的 KfW 與 L-Bank 則以支持者身分參與。",
-          "RL1 一上線即支援債券代幣化（tokenization），並把數位證券、擔保品、附買回（repo）、證券借貸、穩定幣（stablecoin）與央行、商業銀行貨幣列為潛在用途，目標是為分散的歐洲代幣化市場提供統一且合規的基礎設施。這也是近期一連串機構級代幣化布局的一環——與國際清算銀行（BIS）主導、正測試跨境結算的 Project Agorá，以及規劃中的歐元穩定幣聯盟 Qivalis、美國 The Clearing House 的代幣化存款清算、環球銀行金融電信協會（SWIFT）的協調層等並進。不過共用帳本要真正發揮效益，仍須跨越互通性與流動性難題：在 RL1 發行的債券，可能仍得透過另一套系統的託管機構買進、以央行或商業銀行貨幣結算，各環節分屬不同規則與責任框架，後續能否累積實際發行與結算量仍有待觀察，相關內容主要見於 RL1 官方公告與 The Defiant 等外電報導。"
-        ],
-        "sources": [
-          {
-            "name": "Regulated Layer One（RL1）官方",
-            "title": "European Blockchain Initiative 'Regulated Layer One' Goes Live",
-            "url": "https://rl1.network/news/rl1-launch/"
-          },
-          {
-            "name": "The Defiant",
-            "title": "10 European Banks Launch RL1 Blockchain Cooperative",
-            "url": "https://thedefiant.io/converge/tradfi-and-fintech/10-european-banks-launch-rl1-blockchain-cooperative"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-04T15:56:06Z"
+  "_generated_at": "2026-08-04T18:54:11Z"
 }
