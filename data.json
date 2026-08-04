@@ -15,6 +15,23 @@
     "others": [
       {
         "date": "2026-08-04",
+        "title": "台灣集保結算所規劃深化與美國 DTCC 合作，直接取得公司行動資料強化複委託交割基礎設施",
+        "paras": [
+          "台灣集中保管結算所（集保結算所，TDCC）董事長林丙輝表示，集保結算所規劃與美國證券集中保管結算公司（DTCC，Depository Trust & Clearing Corporation）深化合作，直接取得 DTCC 的公司行動（corporate action，如配息、分割、合併等會影響持股權益的公司事件）資料。他強調，此舉目的不只是改善單一機構的作業效率，更要把美國市場的結算交割與資料服務能力，轉化為台灣複委託（國內券商受託買賣外國有價證券）市場可以共同運用的基礎設施。",
+          "複委託交易牽涉跨境託管、結算與大量公司行動資料的比對處理，長期仰賴人工作業、容易出錯且時效有限。由國內集中保管與結算的核心機構出面，直接介接美國最大集中結算機構的資料源，等於把跨境交割與資料服務打造成產業共用的後台基礎設施，有助降低各券商各自處理的成本與風險。實際的介接範圍、資料項目與正式上線時程仍待進一步公布，相關內容主要見於中央社。"
+        ],
+        "sources": [
+          {
+            "name": "中央社 CNA（財經）",
+            "title": "台美集保結算機構合作　強化複委託交割安全及服務",
+            "url": "https://www.cna.com.tw/news/afe/202608040331.aspx"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-04",
         "title": "金管會預告修法，虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路，逾 3 萬元轉帳須加碼揭露",
         "paras": [
           "金管會 8 月 4 日預告修正「提供虛擬資產服務之事業或人員防制洗錢及打擊資恐辦法」，正式把虛擬資產的「轉帳規則」（Travel Rule，要求虛擬資產移轉時附帶交易雙方身分資訊）納入法規。依規劃，今年 10 月先對境內虛擬資產服務業者（VASP，Virtual Asset Service Provider）上路：所有虛幣移轉都須附上交易雙方姓名、錢包資訊等，單筆逾新台幣 3 萬元者再加碼揭露；2027 年底則擴及跨境交易。",
@@ -74,6 +91,40 @@
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-04",
+        "title": "印度立法為 UPI 即時支付網路鋪路收費機制，擬終結 2020 年來「商家零手續費」制度",
+        "paras": [
+          "印度國會通過新法，為其國家級即時支付系統「統一支付介面」（UPI，Unified Payments Interface）建立可收費的商業模式鋪路。這部法律本身並未直接開徵費用，而是替日後政策鬆綁預留空間——自 2020 年 1 月起，印度對 UPI 交易實施「零商家折扣率」（zero-MDR，merchant discount rate，即商家收款免付手續費）制度，由政府以補貼支應營運以衝刺普及。UPI 由印度國家支付公司（NPCI，National Payments Corporation of India）營運，2026 年 7 月單月處理 236.6 億筆交易、金額達 29.88 兆印度盧比（約 3,134 億美元）。",
+          "官員傾向只對大額交易收費，而非全面開徵：金額逾 2,000 盧比（約 21 美元）的交易僅占筆數約 4%，卻占交易金額約 70%。投行 Jefferies 估算，若對高額交易課以 15 至 30 個基點的費率，到 2028 會計年度每年可帶進 500 億至 1,000 億盧比（約 5.25 億至 10.5 億美元）營收。UPI 由沃爾瑪（Walmart）旗下 PhonePe 與字母公司（Alphabet）旗下 Google Pay 兩強掌握近八成交易量，最終誰能受惠仍取決於費用如何在生態系參與者間分配。相關內容主要見於 TechCrunch。"
+        ],
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "title": "India moves to give its instant payments network a business model",
+            "url": "https://techcrunch.com/2026/08/04/india-moves-to-give-its-instant-payments-network-a-business-model/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-04",
+        "title": "代幣化券商 Dinari 把 724 檔美股（含全數 S&P 500）帶進美國本土市場，投資人以 USDC 自保管交易",
+        "paras": [
+          "代幣化股票公司 Dinari 宣布，把旗下區塊鏈美股服務開放給符合資格的美國本土投資人，將「託管式代幣化」模式正式帶入美國市場。用戶可透過 Circle 的 USDC 穩定幣（stablecoin），在自保管（self-custody）錢包中買賣 724 檔代幣化美股，涵蓋 S&P 500 全數成分股；代幣現支援以太坊（Ethereum）、Arbitrum、Base 與 Avalanche，Solana 與 Sei 亦將陸續支援。服務透過 Dinari 自有的受監理券商與過戶代理（transfer agent）架構運作，合作夥伴包括 Circle、Stripe 旗下 Privy、Para 與 Monaco。",
+          "此舉正值代幣化（tokenization）戰場從美國國庫券基金延伸到公開股票之際：業者押注區塊鏈能革新交易、結算與股東名冊管理，花旗（Citi）預估代幣化證券到 2030 年可成長為 5.5 兆美元市場。這個領域正分裂為不同模式——Robinhood 與 Kraken 母公司 Payward 以境外結構在美國以外提供代幣化股票，Ondo Finance 上月推出以貝萊德（BlackRock）iShares S&P 500 ETF 與美光（Micron）股票為擔保、對接 SEC 框架的模式，Securitize 則主張上市公司應直接在鏈上原生發行證券。Dinari 的 dShares 由受監理託管機構以 1 比 1 持有相應股票支撐，強調保留股利、投票與公司行動等股東權利，並讓投資人直接以 USDC 領取股利；其 dShares 已在逾 85 個司法管轄區發行。相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Dinari brings tokenized U.S. stocks to American investors as equity race heats up",
+            "url": "https://www.coindesk.com/business/2026/08/04/dinari-brings-tokenized-u-s-stocks-to-american-investors-as-equity-race-heats-up"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-03",
         "title": "美國 SEC 喊停 Nasdaq 比特幣指數選擇權（QBTC）核准並將重審，CME 主張應歸 CFTC 管轄",
@@ -550,5 +601,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-04T12:53:21Z"
+  "_generated_at": "2026-08-04T15:56:06Z"
 }
