@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "tier": "watch",
-      "title": "本日觀察：過去 24 小時台灣缺乏以金融科技為核心的重點事件",
+      "title": "本日觀察：過去 24 小時台灣仍無以金融科技為核心的新增重點事件",
       "paras": [
-        "過去 24 小時（台灣時間 8 月 4 日至 5 日凌晨）台灣財經版面，主要由金管會核准台新銀行併新光銀行、金管會拚 9 月底前推出「股市儀表板」強化資訊揭露、10 月起銀行理財週轉金需申報以防「四貸同堂」信用風險，以及保險業財報編製準則修正等傳統金融與監理題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
-        "本週稍早已收錄集保結算所規劃深化與美國 DTCC 合作、直接取得公司行動資料以強化複委託交割，以及金管會預告虛擬資產「轉帳規則」10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
+        "過去 24 小時（台灣時間 8 月 5 日至 6 日凌晨）台灣財經版面，主要由台幣單日走升領先多數亞幣、國銀對五大信賴產業放款續超標、外資 7 月轉為淨匯出，以及櫃買中心示警董事長遭冒名製作詐騙影片等傳統金融與總體經濟題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
+        "本週稍早已收錄的集保結算所（TDCC）規劃深化與美國 DTCC 合作、直接取得公司行動資料強化複委託交割，以及金管會預告虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
       ]
     },
     "sources": [],
@@ -56,24 +56,35 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-05",
-      "tier": "top",
-      "title": "富國銀行加入摩根大通、花旗行列，推代幣化存款搶進華爾街結算軌道，先行支援美元英鎊全天候轉換",
+      "date": "2026-08-06",
+      "tier": "watch",
+      "title": "本日觀察：全球金融科技重點延續既有事件，過去 24 小時無足以另立本日最重點的全新頂級進展",
       "paras": [
-        "美國大型銀行富國銀行（Wells Fargo）宣布，將於今年稍晚為部分企業與商業客戶推出「代幣化存款」（tokenized deposits，把傳統銀行存款餘額以區塊鏈形式表彰）服務，首波先在自有區塊鏈上支援美元與英鎊之間的全天候（24/7）轉換，再於 2027 年逐步擴及更多客戶、國家與貨幣。與 Circle、Tether 等民間穩定幣（stablecoin）不同，代幣化存款仍屬商業銀行貨幣，富國強調其將享有與現行存款產品相同的監理保障與存款保險資格；系統會在能提升速度或彈性時，自動把符合條件的付款導向代幣化存款，且不改變客戶既有的操作方式。",
-        "此舉使富國正式加入摩根大通（JPMorgan）與花旗（Citi）之列——兩者已營運機構級代幣化存款服務，各大銀行的共同動機，是抵禦穩定幣侵蝕其存款基礎的威脅。富國布局區塊鏈支付已久：2019 年推出內部跨境結算的 Wells Fargo Digital Cash，其後與滙豐（HSBC）以共享區塊鏈結算外匯；今年 3 月更申請「WFUSD」商標，被視為存款代幣或穩定幣的伏筆。富國表示，未來將加入以智慧合約執行的條件式付款，平台也可支援自有託管錢包與跨鏈連結，並能與清算所（The Clearing House）正在建置的共享代幣化存款網路介接。此案凸顯大型銀行正把結算與跨境支付軌道搬上區塊鏈，以守住既有存款業務，主要消息來源為 CoinDesk。"
+        "過去 24 小時（台灣時間 8 月 5 日至 6 日凌晨）全球金融科技版面，主要是先前已收錄事件的延續與市場波動：富國銀行（Wells Fargo）宣布為企業客戶推出代幣化存款（tokenized deposits）、Circle（美股代號 CRCL）第二季財報優於預期且自有區塊鏈 Arc 集結貝萊德、DTCC、Visa、Mastercard 等出任創始驗證者，以及穩定幣（stablecoin）支付基礎設施商 Yellow Card 完成 4,000 萬美元募資，均已列入下方本週要聞。",
+        "本時段新增的內容多屬幣價與市場波動、加密產業政治獻金與立法動態，以及 Coldcard 冷錢包盜領事件的後續餘波，並無以支付、數位銀行、金融基礎設施或數位資產為核心、且尚未收錄的全新重大進展，足以另立為本日最重點，故今日暫以觀察形式呈現。待出現具體且可查證的全新金融科技事件，將即時更新本日最重點。"
       ]
     },
-    "sources": [
-      {
-        "name": "CoinDesk",
-        "title": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street's settlement rails",
-        "url": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments"
-      }
-    ],
+    "sources": [],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-05",
+        "title": "富國銀行加入摩根大通、花旗行列，推代幣化存款搶進華爾街結算軌道，先行支援美元英鎊全天候轉換",
+        "paras": [
+          "美國大型銀行富國銀行（Wells Fargo）宣布，將於今年稍晚為部分企業與商業客戶推出「代幣化存款」（tokenized deposits，把傳統銀行存款餘額以區塊鏈形式表彰）服務，首波先在自有區塊鏈上支援美元與英鎊之間的全天候（24/7）轉換，再於 2027 年逐步擴及更多客戶、國家與貨幣。與 Circle、Tether 等民間穩定幣（stablecoin）不同，代幣化存款仍屬商業銀行貨幣，富國強調其將享有與現行存款產品相同的監理保障與存款保險資格；系統會在能提升速度或彈性時，自動把符合條件的付款導向代幣化存款，且不改變客戶既有的操作方式。",
+          "此舉使富國正式加入摩根大通（JPMorgan）與花旗（Citi）之列——兩者已營運機構級代幣化存款服務，各大銀行的共同動機，是抵禦穩定幣侵蝕其存款基礎的威脅。富國布局區塊鏈支付已久：2019 年推出內部跨境結算的 Wells Fargo Digital Cash，其後與滙豐（HSBC）以共享區塊鏈結算外匯；今年 3 月更申請「WFUSD」商標，被視為存款代幣或穩定幣的伏筆。富國表示，未來將加入以智慧合約執行的條件式付款，平台也可支援自有託管錢包與跨鏈連結，並能與清算所（The Clearing House）正在建置的共享代幣化存款網路介接。此案凸顯大型銀行正把結算與跨境支付軌道搬上區塊鏈，以守住既有存款業務，主要消息來源為 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street's settlement rails",
+            "url": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-05",
         "title": "Circle 第二季獲利優於預期，區塊鏈 Arc 集結貝萊德、DTCC、Visa、Mastercard 等華爾街機構出任創始驗證者",
@@ -470,86 +481,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-29",
-        "title": "紐約梅隆銀行 BNY 把服務約 8.6 兆美元的過戶代理業務搬上區塊鏈，貝萊德、Baillie Gifford 率先採用",
-        "paras": [
-          "據 CoinDesk 引述《金融時報》（FT）報導，全球最大託管銀行紐約梅隆（BNY，託管與管理資產逾 59 兆美元）將把旗下核心的過戶代理（transfer agency）業務推出區塊鏈版本。這項服務目前為約 8.6 兆美元、橫跨 760 萬個帳戶的基金資產記錄持有權與過戶，BNY 打算把這套「基金交易背後的簿記」搬上鏈，建立單一的所有權紀錄，省去多重中介與昂貴的對帳流程。首席產品與創新長 Carolyn Weinberg 形容此舉是「把每一筆基金交易背後的簿記上鏈」，資產服務全球主管 Emily Portney 也強調傳統軌道仍會與新系統長期並存。",
-          "已管理逾 2,610 億美元的資產管理業者 Baillie Gifford 將率先使用這套服務，推出雙方稱為英國首檔完全原生、受英國監理的代幣化（tokenization）基金；貝萊德（BlackRock）與 BNY 旗下貨幣市場與現金管理事業 Dreyfus 也預計用於規劃中的基金。這延續華爾街近期把基金基礎設施上鏈的趨勢——貝萊德、富蘭克林坦伯頓已推出代幣化貨幣市場基金，摩根大通、花旗與美國銀行也計畫在 2027 年上半年建置共享的代幣化存款網路以抵禦穩定幣（stablecoin）競爭。BNY 強調不預期舊系統消失、仍有數兆美元基金會留在既有軌道，並坦承區塊鏈帶來智慧合約與跨鏈橋接的資安風險；相關內容目前主要見於 CoinDesk（引述 FT）。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "BNY targets $8.6 trillion transfer agency market on blockchain rails",
-            "url": "https://www.coindesk.com/business/2026/07/29/bny-targets-usd8-6-trillion-transfer-agency-market-on-blockchain-rails"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-29",
-        "title": "掛鉤 SK 海力士的鏈上永續合約閃崩至約 900 美元、觸發約 6,000 萬美元清算，Trade.xyz 稱預言機「如設計運作」並將一次性全額補償",
-        "paras": [
-          "南韓記憶體晶片大廠 SK 海力士（SK Hynix，本月 ADR 於 Nasdaq 掛牌）連動的鏈上永續合約（perpetual futures），於 UTC 7 月 27 日 23:00 至 23:01 間在永續合約去中心化交易所 Hyperliquid 閃崩約 19% 至 20%、跌到約 900 美元，下一分鐘隨即反彈至 1,000 美元上方，合約以美元穩定幣（stablecoin）USDC 計價與交易。約一小時後南韓股市開盤走弱、由晶片股領跌，SK 海力士當日收跌約 15%、基準 Kospi 指數重挫 11%；這波行情觸發的清算金額約達 6,000 萬美元。",
-          "去中心化永續合約交易所 Trade.xyz 表示，用於計算損益與清算的標記價格（mark price）從約 1,128 美元跌至 917 美元，是多家獨立數據供應商轉傳、追蹤南韓盤前主要交易場所的一筆真實成交所致，而非系統故障或人為操縱——公司稱其預言機（oracle，把鏈外資料引入區塊鏈系統的工具）「如設計般運作」，只是該場所流動性太薄、單一委託就能把價格推動近五分之一。Trade.xyz 將以一次性、酌情方式全額補償被清算的交易者，資格細則後續公布、數日內撥付，並表示會重新檢視對外部場所的依賴、未來更倚重自家訂單簿的價格形成；這起事件凸顯鏈上真實世界資產（RWA）永續合約在流動性稀薄時段的預言機設計風險，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Perpetuals tied to SK Hynix hit by flash crash to $900 on Hyperliquid",
-            "url": "https://www.coindesk.com/markets/2026/07/28/perpetuals-tied-to-sk-hynix-suffer-a-flash-crash-to-usd900-on-hyperliquid"
-          },
-          {
-            "name": "CoinDesk",
-            "title": "Company behind AI trade that caused $60 million crypto liquidations to cover all losses",
-            "url": "https://www.coindesk.com/markets/2026/07/29/company-behind-ai-trade-that-caused-usd60-million-crypto-liquidations-to-cover-all-losses"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-29",
-        "title": "本日觀察：代幣化業者 Ondo 放棄自建公有代幣化資產鏈，改推私有高速交易網路",
-        "paras": [
-          "CoinDesk 報導，主打真實世界資產代幣化（tokenization）的 Ondo，放棄原先自建一條公有代幣化資產區塊鏈的計畫，改為打造一個私有、高速的交易網路。這個新網路先用於支援 Ondo 近期上線的永續期貨（perpetual futures）平台，未來將擴大支援各類鏈上（onchain）金融資產的交易。",
-          "這代表這家代幣化業者在基礎設施路線上的一次重大轉向——從押注開放的公有鏈，改以自有、可控且強調速度的私有網路承載交易。實際的技術架構、支援的資產範圍與正式上線時程尚未完整揭露，這項調整目前主要見於 CoinDesk 的報導。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network",
-            "url": "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-29",
-        "title": "支付基礎設施商 Increase 收購 Twin City Bank，推出自有 FDIC 會員銀行 Increase Bank",
-        "paras": [
-          "為 Gusto、Ramp、Stripe 等業者處理大量金流的支付與銀行基礎設施公司 Increase，本週推出自有銀行 Increase Bank。這是一家美國聯邦存款保險公司（FDIC）會員機構，坐落在 Increase 的銀行核心系統之下，直接連接美國聯準會（Fed）、清算所（The Clearing House）與 Visa 三大支付網路。值得注意的是，Increase Bank 並非透過新設（de novo）牌照申請，而是來自收購位於華盛頓州 Longview、僅 16 名員工、資產約 1.14 億美元、只有一間辦公室的 Twin City Bank，開業時帶著約 9,900 萬美元存款；創辦人 Darragh Buckley 曾是 Stripe 第一號員工，如今 Stripe 反過來成為他所買下銀行的客戶。",
-          "此舉凸顯金融科技基礎設施業者正從單純的「銀行即服務」（Banking as a Service, BaaS）合作模式，走向直接掌握銀行牌照，並以現代化軟體與工程品質作為差異化，與 Cross River、Column、Lead 等同型業者同場競爭——過去以牌照為護城河的贊助型銀行，優勢正在被稀釋。Increase 表示新銀行是「加入既有網路」，補強而非取代現有的贊助銀行夥伴，因為許多客戶會刻意同時使用多家銀行以分散容量、韌性與法規風險。收購金額與完整上線細節尚未揭露，相關內容目前主要見於 Increase 發布於 Business Wire 的新聞稿與金融科技電子報 Fintech Brainfood。"
-        ],
-        "sources": [
-          {
-            "name": "Business Wire",
-            "title": "Introducing Increase Bank, Built on the Infrastructure Powering Hundreds of Billions in Money Movement",
-            "url": "https://www.businesswire.com/news/home/20260729315404/en/Introducing-Increase-Bank-Built-on-the-Infrastructure-Powering-Hundreds-of-Billions-in-Money-Movement"
-          },
-          {
-            "name": "Fintech Brainfood",
-            "title": "Increase just launched a bank with one branch and $99m of deposits",
-            "url": "https://www.fintechbrainfood.com/p/robinhood-bets"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-05T15:59:41Z"
+  "_generated_at": "2026-08-05T18:52:40Z"
 }
