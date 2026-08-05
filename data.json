@@ -75,6 +75,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-05",
+        "title": "穩定幣支付基礎設施商 Yellow Card 募資 4,000 萬美元，攜手銀行把跨境美元金流搬上鏈、挑戰 Swift",
+        "paras": [
+          "穩定幣（stablecoin，錨定法幣的數位代幣）支付基礎設施公司 Yellow Card 宣布完成 4,000 萬美元策略性股權募資，用於擴大其穩定幣支付基礎設施；本輪投資人包括渣打銀行（Standard Chartered）創投部門 SC Ventures、索尼旗下 Sony Innovation Fund、Polychain Capital 與 Blockchain Capital。據 CoinDesk，這使公司累計股權募資逾 1.2 億美元，估值高於 2022 年的約 2 億美元、但尚未達 10 億美元。Yellow Card 2016 年在非洲起家、主攻新興市場，迄今已在 22 個司法管轄區取得牌照、授權或登記，累計促成逾 100 億美元交易。",
+          "共同創辦人暨執行長 Chris Maurice 表示，公司正與全球商業銀行合作，用穩定幣把更多美元帶進市場、取代舊有支付系統，並直言「產業很近的未來，是付款直接在銀行之間鏈上流動，中間不再需要 B2B 支付公司或其他支付服務商」。新資金將用於擴充面向企業的美元帳戶產品 Global USD Accounts，並在拉丁美洲與亞太（APAC）新增穩定幣與當地支付方式；該帳戶讓企業在逾 50 國持有美元、持有與兌換穩定幣、管理資金調度並透過當地支付軌道收付當地貨幣。Yellow Card 定位為挑戰跨境訊息服務商 Swift 與大型銀行的金流基礎設施，並稱來自大型金融機構的交易量正加速成長，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Yellow Card raises $40 million to link banks to stablecoin processing",
+            "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-04",
         "title": "分析師：三星為逾 8 億支手機的 Samsung Wallet 預設內建穩定幣，可望成為穩定幣主要通路商",
         "paras": [
@@ -317,6 +334,11 @@
             "date": "2026-08-03",
             "title": "盜領進入第四波，累計損失上修至約 1.14 億美元（約 1,816 枚比特幣），攻擊者改採「手續費替換」機制留搶救空間",
             "body": "據 CoinDesk 引述 Galaxy Research 研究主管 Alex Thorn，這起 Coldcard 弱金鑰盜領自 7 月 30 日起算已進入第四波掃領，於週一（8 月 3 日）清晨啟動並持續數小時；若估計成立，四波累計已從逾 5,200 個位址掃走約 1,816 枚比特幣、約 1.14 億美元（先前三波為約 1,367 枚、波及 4,585 個位址、約 8,900 萬美元）。與前幾波不同，這波交易採用比特幣的「手續費替換」（replace-by-fee, RBF）機制——只要交易仍在記憶池（mempool）等待確認，發現自身位址遭掃的用戶可搶付更高手續費、把幣先行移出。Thorn 表示手上並無直接受害者通報，純以鏈上模式比對發布警訊，選擇搶時間示警，並建議用戶立即檢查資金、把資產移離受影響裝置並提高手續費搶救。前三波均未觸及多重簽章（multisig）錢包，與該漏洞僅影響單一金鑰種子一致；製造商 Coinkite 已對每個受影響型號釋出緊急韌體。相關內容主要見於 CoinDesk 引述 Galaxy Research。"
+          },
+          {
+            "date": "2026-08-05",
+            "title": "冷錢包盜領滿一週，業界加速轉向協作多簽（multisig），近九成贓款仍未移動、位址已交聯邦執法",
+            "body": "據 CoinDesk，這起 Coldcard 弱金鑰盜領事件屆滿一週，Galaxy Research 統計累計已從約 7,300 個位址掃走逾 1 億美元的比特幣。與先前「動搖自我保管（self-custody）信心、恐把投資人推向現貨比特幣 ETF」的疑慮不同，比特幣自保管平台 Swan 執行長 Cory Klippsten 表示，客戶並未退出自保管，而是升級安全設計、大量轉進不讓單一裝置就能動用資金的協作多重簽章（multisig）產品 Swan Vault；事件期間 Swan 一度為高風險客戶暫停提領、推播 App 內警示，並把遷移協助開放給非客戶。截至目前近九成贓款仍未在鏈上移動，已確認的攻擊者位址已交予美國聯邦執法機關，製造商 Coinkite 已修補所有受影響型號；由 OpenSats 資助的志工團隊掃描逾 150 個開源程式庫，未發現漏洞擴及 Coldcard 以外。相關內容主要見於 CoinDesk 引述 Galaxy Research 與 Swan。"
           }
         ]
       },
@@ -495,5 +517,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-05T06:57:41Z"
+  "_generated_at": "2026-08-05T12:52:46Z"
 }
