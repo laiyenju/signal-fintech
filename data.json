@@ -76,6 +76,23 @@
     "others": [
       {
         "date": "2026-08-05",
+        "title": "Circle 第二季獲利優於預期，區塊鏈 Arc 集結貝萊德、DTCC、Visa、Mastercard 等華爾街機構出任創始驗證者",
+        "paras": [
+          "美元穩定幣（stablecoin，錨定法幣的數位代幣）USDC 發行商 Circle（美股代號 CRCL）公布 2026 年第二季財報。調整後每股獲利 18 美分，優於分析師預期的 16 美分，帶動股價盤前一度上漲約 10%。當季營收與儲備收益年增 7% 至 7.01 億美元，略低於市場預估的 7.12 億美元；持續營運淨利 4,800 萬美元，調整後 EBITDA 年增 8% 至 1.43 億美元。USDC 至 6 月底流通量達 733 億美元、年增 19%，但低於 2026 年一度接近 800 億美元的高點；當季鏈上交易量則暴增 151% 至 14.8 兆美元。執行長 Jeremy Allaire 表示，貝萊德（BlackRock）、紐約梅隆（BNY）與渣打（Standard Chartered）等機構使用 USDC「已不是在試辦，而是在擴大」。",
+          "這次財報也首度較完整揭露 Circle 自有區塊鏈 Arc 的進展：公有主網預定 9 月 16 日上線，目前已有逾 100 個生態系與機構開發者投入，創始驗證者名單囊括貝萊德、美國證券集中保管結算公司（DTCC）、紐約證交所母公司洲際交易所（ICE）、Mastercard、Visa、渣打、Galaxy 與 MoneyGram 等金融機構；貝萊德計劃把旗下代幣化美國國庫券基金 BUIDL 部署到 Arc，DTCC 則著手打造把其託管證券代幣化的基礎設施，凸顯 Circle 意在把 Arc 定位為代幣化資產與機構支付的底層網路。此外，Circle 支付網路（CPN，Circle Payments Network）近 30 天的年化交易量達 147 億美元、季增 76%，參與金融機構達 175 家；公司先前也已取得美國通貨監理署（OCC）核准設立聯邦層級的 Circle National Trust 信託銀行。相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Circle shares jump as earnings beat offsets revenue miss, Arc blockchain gains Wall Street backing",
+            "url": "https://www.coindesk.com/markets/2026/08/05/circle-shares-jump-as-earnings-beat-offsets-revenue-miss-arc-blockchain-gains-wall-street-backing"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-05",
         "title": "穩定幣支付基礎設施商 Yellow Card 募資 4,000 萬美元，攜手銀行把跨境美元金流搬上鏈、挑戰 Swift",
         "paras": [
           "穩定幣（stablecoin，錨定法幣的數位代幣）支付基礎設施公司 Yellow Card 宣布完成 4,000 萬美元策略性股權募資，用於擴大其穩定幣支付基礎設施；本輪投資人包括渣打銀行（Standard Chartered）創投部門 SC Ventures、索尼旗下 Sony Innovation Fund、Polychain Capital 與 Blockchain Capital。據 CoinDesk，這使公司累計股權募資逾 1.2 億美元，估值高於 2022 年的約 2 億美元、但尚未達 10 億美元。Yellow Card 2016 年在非洲起家、主攻新興市場，迄今已在 22 個司法管轄區取得牌照、授權或登記，累計促成逾 100 億美元交易。",
@@ -86,6 +103,23 @@
             "name": "CoinDesk",
             "title": "Yellow Card raises $40 million to link banks to stablecoin processing",
             "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-04",
+        "title": "Open USD 聯盟來勢洶洶重挫 Circle 股價，但 Coinbase、Visa、Mastercard 高層以「多幣策略」定調、未棄 USDC",
+        "paras": [
+          "一個月前 Open Standard 推出由 Coinbase、Visa、Mastercard 力挺的穩定幣（stablecoin）Open USD（OUSD），被投資人解讀為直接挑戰 Circle 與其規模約 720 億美元的 USDC，一度抹去 Circle 數十億美元市值、股價最深下挫達 20% 且尚未回補，該聯盟並揭示逾 140 家啟動夥伴。這反映穩定幣市場結構的轉變：過去由 Circle 等少數加密原生發行商主導，如今隨監理鬆綁，銀行、支付網路與金融科技業者紛紛投入發行或分發數位美元，競爭也從單純「發幣」延伸到掌握支付軌道、交易所與金融平台等通路。",
+          "不過幾家主要支持者近期法說會的說法更為微妙。Coinbase 財務長 Alesia Haas 稱已符合與 Circle 的續約條件、將持續壯大 USDC 生態，執行長 Brian Armstrong 強調公司是「多穩定幣平台」，現已支援 USDC、USDT 與 PayPal 的 PYUSD，OUSD 只是帶來額外商機；Visa 執行長 Ryan McInerney 自稱「多幣、多鏈」，直言「我們的角色不是選出贏家」，Visa 上月推出的穩定幣平台則以 OUSD 為首個支援代幣；Mastercard 執行長 Michael Miebach 也說 OUSD 不過是「網路上會再支援的一種幣」。多位分析師也認為市場過度解讀了啟動夥伴名單。ARK Invest 的 Lorenzo Valente 形容各家的承諾「更接近意向書而非策略押注」；Clear Street 的 Owen Lau 指出，USDC 與 USDT 已具深厚流動性與網路效應，實際採用門檻遠高於簽下夥伴。Dragonfly 的 Rob Hadick 則研判真正推手是 Stripe，而 Visa 與 Mastercard 因同時服務競爭對手，傾向保持中立。相關動態主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Open USD rattled Circle's stock, but its key backers still support USDC",
+            "url": "https://www.coindesk.com/business/2026/08/03/open-usd-rattled-circle-s-stock-but-its-key-backers-still-support-usdc"
           }
         ],
         "social": [],
@@ -517,5 +551,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-05T12:52:46Z"
+  "_generated_at": "2026-08-05T15:59:41Z"
 }
