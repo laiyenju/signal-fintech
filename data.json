@@ -143,6 +143,40 @@
         "context": []
       },
       {
+        "date": "2026-08-04",
+        "title": "紐約梅隆銀行 BNY 攜手 Galaxy，為機構數位資產託管平台新增質押（staking）服務",
+        "paras": [
+          "全球最大託管銀行之一紐約梅隆（BNY，前身 Bank of New York Mellon）宣布選定加密金融服務商 Galaxy（美股代號 GLXY），為旗下數位資產託管平台新增質押（staking）功能。新服務將讓機構客戶能直接對託管在 BNY 平台上的數位資產進行質押，仍待監理核准；Galaxy 負責提供質押基礎設施，並在 BNY 擴充區塊鏈相關服務的過程中擔任設計夥伴。質押指持有特定加密資產者把代幣鎖定、協助維護區塊鏈網路安全以換取獎勵；對大型投資人而言，能在同一個保管資產的平台上直接質押，可省去把代幣轉往另一家服務商的環節與風險。",
+          "BNY 託管與管理的資產規模達數十兆美元，自 2022 年推出加密託管以來持續擴張數位資產業務，因此每一步跨入區塊鏈基礎設施的動作都受金融業高度關注。就在上週，BNY 才宣布把核心的過戶代理（transfer agency）記錄搬上區塊鏈、建立單一鏈上所有權帳本，並規劃 2027 年為傳統與代幣化美國國庫券提供全天候結算、今年底前先在私有區塊鏈測試代幣化國庫券。此次新增質押，等於把機構級數位資產服務從單純「保管」進一步延伸到「鏈上收益」，實際上線仍以取得監理核准為前提，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "BNY to add crypto staking to digital asset custody platform",
+            "url": "https://www.coindesk.com/business/2026/08/04/bny-to-add-crypto-staking-to-digital-asset-custody-platform"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-04",
+        "title": "區塊鏈預測市場 Polymarket 傳以 200 億美元估值募資，與 Kalshi 競逐預測市場龍頭",
+        "paras": [
+          "據彭博（Bloomberg）8 月 4 日引述知情人士報導，區塊鏈預測市場（prediction markets）平台 Polymarket 正尋求以約 200 億美元估值募集新一輪資金。報導指出，該公司才在今年 4 月以 150 億美元估值完成一輪募資，其中包含紐約證券交易所（NYSE）母公司洲際交易所（Intercontinental Exchange，ICE）投入的 6 億美元。Polymarket 今年 6 月曾向 CNBC 表示，儘管 4、5 月交易量下滑、後由世界盃期間的紀錄高點抵銷，其年化營收已攀上遠逾 10 億美元。",
+          "預測市場（又稱事件合約，event contracts）近期在美國持續升溫，Coinbase、Robinhood 等多家加密原生業者相繼把這類功能納入產品線。Polymarket 最大對手 Kalshi 據傳正以約 400 億美元估值募資、幾乎是前一輪的兩倍；兩者路線不同——Kalshi 在美國經營受聯邦監理的交易所，Polymarket 則採區塊鏈基礎設施與加密貨幣結算，各自吸引不同客群。創辦人暨執行長 Shayne Coplan 長期主張 Polymarket 應被視為「資訊平台」而非下注網站。本輪募資的確切金額與條件尚未定案，消息由 CoinDesk 引述彭博（Bloomberg）披露。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Polymarket targets $20 billion valuation as competition heats up in prediction market sector",
+            "url": "https://www.coindesk.com/markets/2026/08/04/polymarket-targets-usd20-billion-valuation-as-competition-heats-up-in-prediction-markets"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-03",
         "title": "美國 SEC 喊停 Nasdaq 比特幣指數選擇權（QBTC）核准並將重審，CME 主張應歸 CFTC 管轄",
         "paras": [
@@ -461,5 +495,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-04T18:54:11Z"
+  "_generated_at": "2026-08-05T06:57:41Z"
 }
