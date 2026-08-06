@@ -14,6 +14,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-06",
+        "title": "合庫等八家銀行攜手台灣人工智慧實驗室，以「聯合學習」訓練 AI 防詐模型，警示帳戶精確率倍增、規劃年內落地",
+        "paras": [
+          "面對詐騙手法不斷翻新，合作金庫銀行（合庫）、台北富邦銀行、土地銀行、台中銀行、第一銀行、凱基銀行、陽信銀行與彰化銀行等八家金融同業，與台灣人工智慧實驗室（Taiwan AI Labs）合作，針對「AI 防詐模型」展開「聯合學習」（federated learning，各機構在不互相交換原始客戶資料的前提下、共同訓練同一套模型）計畫。目前已完成第二階段驗證，整體「警示帳戶」（涉及詐騙金流而被示警的帳戶）精確率提升達兩倍，其中合作金庫的警示帳戶精確率增加約 67%，並規劃於年內落地應用。",
+          "跨行防詐長期受制於「各家銀行只看得到自己的交易、難以掌握詐騙金流全貌」的資料孤島問題；聯合學習讓多家銀行在不外流個別客戶明細的情況下共享模型能力，兼顧金融資安、個資保護與偵測效果，等於替台灣打造一套跨機構共用的 AI 防詐基礎設施。此案由八家銀行與台灣人工智慧實驗室共同參與、已進入第二階段驗證並訂出年內上線時程，實際導入範圍、誤判率與各行成效仍待正式落地後檢驗，相關內容主要見於經濟日報。"
+        ],
+        "sources": [
+          {
+            "name": "經濟日報",
+            "title": "合庫銀行參與 AI 防詐模型聯合學習驗證 規劃年內落地應用",
+            "url": "https://money.udn.com/money/story/5648/9674296"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-04",
         "title": "台灣集保結算所規劃深化與美國 DTCC 合作，直接取得公司行動資料強化複委託交割基礎設施",
         "paras": [
@@ -68,6 +85,40 @@
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-05",
+        "title": "Cloudflare 推出「可程式化錢包」Cloudflare Wallets，為 AI 代理人打造身分與付款基礎設施",
+        "paras": [
+          "網路基礎設施巨頭 Cloudflare 發表「Cloudflare Wallets」，主打為「代理型網際網路」（agentic Internet）提供可程式化的錢包與付款基礎設施。此系統要給 AI 代理人（AI agents）穩定的身分識別，並在受控範圍內存取付款能力，用於支付 API、MCP（Model Context Protocol）工具與線上內容的使用費。產品分為兩類：供人類使用者使用的「帳戶錢包」（Account Wallets），以及供 AI 代理人使用的「虛擬錢包」（Virtual Wallets）；後者支援消費上限、允許清單（allow list）與單筆交易上限等控管機制，讓代理人能在明確額度內自主探索、測試並付費呼叫各種 API。",
+          "這反映當 AI 代理人開始代替使用者自動採購資料、算力與各類線上服務時，「機器對機器」的支付與身分驗證正成為新的基礎設施戰場。由 Cloudflare 這類掌握大量網路流量與邊緣節點的業者切入，等於把付款、額度控管與身分綁進既有的網路服務層，降低代理人商務（agentic commerce）的接取門檻；不過實際採用的付款軌道、與穩定幣或既有支付網路的串接方式、費率與資安防護細節仍待觀察，相關內容主要見於 Cloudflare 官方部落格。"
+        ],
+        "sources": [
+          {
+            "name": "Cloudflare Blog",
+            "title": "Announcing Cloudflare Wallets: The programmable wallet for the agentic Internet",
+            "url": "https://blog.cloudflare.com/wallets/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-05",
+        "title": "幣安（Binance）在港、星兩地興訟，指穩定幣支付卡龍頭 RedotPay 挪用金流、盜走近 47 萬用戶，求償約 4.73 億美元",
+        "paras": [
+          "全球最大加密貨幣交易所幣安（Binance）對總部位於香港的穩定幣（stablecoin，錨定法幣的數位代幣）支付卡發行商 RedotPay 及其創辦人提起訴訟，指控對方違反合作協議、將約 47 萬名幣安客戶導流至自家平台，造成幣安近 4.73 億美元損失。幣安主張，RedotPay 自 2026 年 3 月起，允許並鼓勵用戶在未區隔資金的情況下，把「幣安支付」（Binance Pay）的資金違規用於替 RedotPay 預付卡儲值。RedotPay 自稱是「全球最大的穩定幣支付卡發行商」，並正規劃在美國進行逾 10 億美元、估值上看 40 億美元的首次公開發行（IPO）；該公司回應將「積極」抗辯，駁斥對其與共同創辦人的指控「毫無根據」。",
+          "據 CoinDesk 引述彭博（Bloomberg），雙方 2023 年 11 月首度簽訂商業協議，不到半年即因幣安指其資金遭用於替 RedotPay 卡片儲值而終止；2025 年 3 月再簽第二份協議，要求幣安資金須分隔保管，僅允許幣安客戶以 Binance Pay 資金在 RedotPay 進行加密貨幣兌換法幣、App 內轉帳與購買 RedotPay 商品，但不得為卡片儲值，幣安並於 2026 年 4 月以「商戶夥伴審查」為由結束合作。除香港訴訟外，幣安旗下 Chaintecs 另在新加坡對 RedotPay 關係企業提告，並訂於本週五開庭。此案凸顯穩定幣支付卡快速做大後，交易所與支付新創在用戶、金流與合約權利上的正面衝突，相關內容主要見於 CoinDesk 引述彭博。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Crypto firm RedotPay says it will defend itself ‘vigorously’ against Binance lawsuit",
+            "url": "https://www.coindesk.com/business/2026/08/05/binance-sues-redotpay-for-usd470-million-claiming-it-diverted-users"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-05",
         "title": "富國銀行加入摩根大通、花旗行列，推代幣化存款搶進華爾街結算軌道，先行支援美元英鎊全天候轉換",
@@ -484,5 +535,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-05T18:52:40Z"
+  "_generated_at": "2026-08-06T03:52:42Z"
 }
