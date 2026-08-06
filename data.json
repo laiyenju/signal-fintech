@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣仍無以金融科技為核心的新增重點事件",
       "paras": [
-        "過去 24 小時（台灣時間 8 月 5 日至 6 日凌晨）台灣財經版面，主要由台幣單日走升領先多數亞幣、國銀對五大信賴產業放款續超標、外資 7 月轉為淨匯出，以及櫃買中心示警董事長遭冒名製作詐騙影片等傳統金融與總體經濟題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
-        "本週稍早已收錄的集保結算所（TDCC）規劃深化與美國 DTCC 合作、直接取得公司行動資料強化複委託交割，以及金管會預告虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
+        "過去 24 小時（台灣時間 8 月 6 日至 7 日凌晨）台灣財經與科技版面，主要由本國銀行上半年大賺約 3,583 億元、年增約兩成，6 月個人放款單月大增約 2,575 億元寫史上新高，外溢保單上半年新契約保費收入 488 億元超越去年全年，以及台股 ETF 資金流與記憶體、半導體個股 7 月營收等傳統金融與總體經濟題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
+        "本週稍早已收錄的八家銀行與台灣人工智慧實驗室（Taiwan AI Labs）合作、以聯合學習（federated learning）訓練 AI 防詐模型，集保結算所（TDCC）規劃深化與美國 DTCC 合作強化複委託交割，以及金管會預告虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
       ]
     },
     "sources": [],
@@ -73,15 +73,26 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "tier": "watch",
-      "title": "本日觀察：全球金融科技重點延續既有事件，過去 24 小時無足以另立本日最重點的全新頂級進展",
+      "title": "Tether 把資產代幣化業務拓展至沙烏地阿拉伯，以 Hadron 平台先攻機構級不動產",
       "paras": [
-        "過去 24 小時（台灣時間 8 月 5 日至 6 日凌晨）全球金融科技版面，主要是先前已收錄事件的延續與市場波動：富國銀行（Wells Fargo）宣布為企業客戶推出代幣化存款（tokenized deposits）、Circle（美股代號 CRCL）第二季財報優於預期且自有區塊鏈 Arc 集結貝萊德、DTCC、Visa、Mastercard 等出任創始驗證者，以及穩定幣（stablecoin）支付基礎設施商 Yellow Card 完成 4,000 萬美元募資，均已列入下方本週要聞。",
-        "本時段新增的內容多屬幣價與市場波動、加密產業政治獻金與立法動態，以及 Coldcard 冷錢包盜領事件的後續餘波，並無以支付、數位銀行、金融基礎設施或數位資產為核心、且尚未收錄的全新重大進展，足以另立為本日最重點，故今日暫以觀察形式呈現。待出現具體且可查證的全新金融科技事件，將即時更新本日最重點。"
+        "發行全球流通量最大的穩定幣（stablecoin，錨定法幣的數位代幣）USDT 的 Tether，宣布把真實世界資產（RWA，real-world assets）代幣化（tokenization，把傳統資產以區塊鏈形式表彰）業務拓展至沙烏地阿拉伯，先從機構級不動產（real estate）切入。依 CoinDesk，Tether 將以其 2024 年推出的代幣化平台 Hadron 提供技術，為當地機構投資人發行與管理代幣化不動產，並與沙國夥伴 First Data 及金融科技公司 BKN301 合作；三方表示，此營運模式未來可能再擴及能源、基礎設施融資等其他真實世界資產。",
+        "這是 Tether 從穩定幣延伸到代幣化的最新一步——它同時是全球最大代幣化黃金 XAUT（規模約 26 億美元）的發行商。近年銀行與資產管理業者日益把貨幣市場基金、私募信貸、不動產與股票等傳統資產搬上區塊鏈，主張可加快結算、擴大投資人參與並提升資本效率，花旗（Citi）預估代幣化證券市場到 2030 年可達 5.5 兆美元。沙烏地阿拉伯把企業區塊鏈列為「2030 願景」（Vision 2030）經濟多元化策略的一環，橫跨金融服務、政府與供應鏈；執行長 Paolo Ardoino 稱沙國是展示 Hadron 影響力的理想市場。實際發行規模、上線時程與監理配套仍待後續揭露。"
       ]
     },
-    "sources": [],
+    "sources": [
+      {
+        "name": "CoinDesk",
+        "title": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
+        "url": "https://www.coindesk.com/business/2026/08/06/tether-expands-tokenization-business-into-saudi-arabia-starting-with-real-estate"
+      },
+      {
+        "name": "Tether（新聞稿）",
+        "title": "Hadron by Tether launches strategic collaboration with First Data and BKN301 to advance institutional tokenization in Saudi Arabia",
+        "url": "https://tether.io/news/hadron-by-tether-launches-strategic-collaboration-with-first-data-and-bkn301-to-advance-institutional-tokenization-in-saudi-arabia/"
+      }
+    ],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -569,42 +580,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-30",
-        "title": "穩定幣基礎設施商 Brale 推出 ION Protocol，以「銷毀—鑄造」跨鏈機制解決客製穩定幣流動性瓶頸",
-        "paras": [
-          "CoinDesk 報導，穩定幣（stablecoin）基礎設施公司 Brale 推出跨鏈互通協定 ION Protocol，主打解決客製穩定幣數量暴增後、在不同區塊鏈之間移動的瓶頸。ION 讓參與的穩定幣在一條鏈上銷毀（burn）、在另一條鏈上鑄造（mint）等量代幣；與多數需要在每條鏈預先注入流動性池的跨鏈橋（bridge）不同，它不必事先在每條支援鏈上鎖定資金。這套做法類似 USDC 發行商 Circle 的跨鏈傳輸協定（CCTP），差別在於把模式從單一代幣擴大到任何參與的穩定幣發行商。首波在測試網（testnet）上線，夥伴包括 Monad、Rain、Coinflow、Turnkey、Etherfuse、Spark 與 Canton。",
-          "目前全球穩定幣市場規模約 3,000 億美元，由 Tether 的 USDT 與 Circle 的 USDC 主導。不過銀行、金融科技業者、加密公司與資產管理業者正大量投入，發行自家品牌代幣用於支付、結算與資產代幣化（tokenization），資料商 CoinGecko 已追蹤逾 350 種穩定幣。Brale 執行長 Ben Milne 受訪表示，公司已支援逾一百個穩定幣方案、橫跨 30 多條區塊鏈，許多客戶每月處理數十億美元支付量卻僅維持相對小額餘額。他並直言，穩定幣方案之間的流動性是擴展客製穩定幣的頭號障礙，全世界的資本都不足以靠預先注資的流動性池來解決。實際正式上線時程、費用與網路採用情況尚待進一步公布，相關內容目前主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
-            "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-30",
-        "title": "PayPal 攜手 Amazon，8 月起在德國、奧地利推出分期付款（BNPL）",
-        "paras": [
-          "PayPal 與 Amazon 宣布，自 8 月起，符合資格的德國與奧地利 Amazon 用戶，將可在未來數週內於 Amazon.de 與 Amazon App 使用 PayPal 的分期付款服務 PayPal Ratenzahlung，對符合資格的商品有更多分期支付的彈性。這把分期付款（英文常稱先買後付，BNPL，Buy Now Pay Later）直接內嵌進 Amazon 在德語區的結帳流程。",
-          "此舉把全球最大線上支付業者之一與最大電商平台之間的既有合作，延伸到德、奧兩地的消費分期場景，等同以嵌入式金融（embedded finance）方式強化雙方在當地 BNPL 市場的競爭位置。具體適用商品範圍、分期利率、核准條件與完整開通時程尚未完整揭露，目前資訊主要來自 Finextra 轉載的雙方新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "PayPal and Amazon launch BNPL payments for customers in Germany and Austria",
-            "url": "https://www.finextra.com/pressarticle/110525/paypal-and-amazon-launch-bnpl-payments-for-customers-in-germany-and-austria"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-06T15:56:36Z"
+  "_generated_at": "2026-08-06T18:54:57Z"
 }
