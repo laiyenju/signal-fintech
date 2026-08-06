@@ -307,6 +307,33 @@
         "context": []
       },
       {
+        "date": "2026-08-04",
+        "title": "西聯匯款攜手 Rain 推穩定幣支付卡 Stablecard，自有美元穩定幣 USDPT 上 Visa 網路、覆蓋 37 個市場",
+        "paras": [
+          "老牌跨境匯款業者西聯匯款（Western Union）於 8 月 4 日與卡片基礎設施商 Rain 合作，推出穩定幣支付方案 Stablecard。這是一個綁定 Visa 的數位錢包，用於持有西聯自有的美元穩定幣（stablecoin，錨定法幣的數位代幣）USDPT；USDPT 發行在 Solana 區塊鏈上，由美國首家獲聯邦監理的加密銀行 Anchorage Digital Bank 發行，Fireblocks 提供錢包與結算基礎設施、Rain 負責卡片產品，並可 1 比 1 兌回美元、由儲備完全支撐。Stablecard 目前於 37 個市場提供、年底前計畫擴至 60 個市場，餘額可在全球約 1.75 億個 Visa 受理據點消費，用戶也能把西聯的匯款直接收進 USDPT 餘額。",
+          "西聯是傳統跨境匯款的代表性業者，推出自有美元穩定幣加 Visa 卡，等於把穩定幣直接帶進其核心的跨境匯款與消費場景，用以抵禦加密原生匯款業者的競爭。這套設計把穩定幣的收款（on-ramp）與花用（off-ramp）串在一起：收款人可把匯款以 USDPT 形式入帳，並直接刷 Visa 消費，不必先開立傳統銀行帳戶。此舉也呼應銀行、支付與匯款等既有金融業者，在監理逐步明朗後紛紛發行品牌穩定幣的趨勢。實際的採用率、費率、出金體驗與各市場落地細節仍待觀察，相關內容主要見於西聯匯款新聞稿、PYMNTS 與 FinTech Futures。"
+        ],
+        "sources": [
+          {
+            "name": "Western Union（新聞稿）",
+            "title": "Western Union Launches Stablecard in Partnership with Rain",
+            "url": "https://ir.westernunion.com/news/archived-press-releases/press-release-details/2026/Western-Union-Launches-Stablecard-in-Partnership-with-Rain/default.aspx"
+          },
+          {
+            "name": "PYMNTS",
+            "title": "Western Union and Rain Take Stablecoins Mainstream Across Visa Network",
+            "url": "https://www.pymnts.com/cryptocurrency/2026/western-union-rain-take-stablecoins-mainstream-across-visa-network/"
+          },
+          {
+            "name": "FinTech Futures",
+            "title": "Western Union partners Rain to debut Stablecard",
+            "url": "https://www.fintechfutures.com/blockchain-crypto-digital-assets/western-union-partners-rain-to-debut-stablecard"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-03",
         "title": "美國 SEC 喊停 Nasdaq 比特幣指數選擇權（QBTC）核准並將重審，CME 主張應歸 CFTC 管轄",
         "paras": [
@@ -350,6 +377,33 @@
             "body": "繼在美國擴充代幣化現金平台後一天，貝萊德（BlackRock）8 月 4 日再宣布把代幣化服務延伸到歐洲，為合計約 3,110 億美元資產的歐洲貨幣市場基金推出代幣化存取。此次橫跨 6 檔基金、15 個歐洲市場，一次推出 12 個符合歐盟 UCITS 規範的代幣化級別，涵蓋英鎊、歐元與美元計價；這批「機構現金系列」（Institutional Cash Series）貨幣市場基金與摩根大通（JPMorgan）合作、建置於該行的 Kinexys 平台，上線市場包括英國、法國、德國、愛爾蘭、盧森堡、荷蘭、西班牙、瑞典與新加坡等。貝萊德鎖定既有已用貨幣市場基金管理營運與備援現金的企業財務長，以及橫跨傳統與數位市場的資產管理者與投資顧問。據資料商 rwa.xyz，代幣化真實世界資產（RWA）市場過去一年成長逾 200%、規模已逾 300 億美元，花旗（Citi）並預估代幣化證券到 2030 年可達 5.5 兆美元。相關內容主要見於 CoinDesk。"
           }
         ]
+      },
+      {
+        "date": "2026-08-03",
+        "title": "Visa 斥資 24 億美元收購行為生物辨識防詐商 BioCatch，把詐騙防線推進到帳戶接管與 AI 詐騙的行為層",
+        "paras": [
+          "支付網路巨頭 Visa 於 8 月 3 日宣布，將以 24 億美元現金，向私募股權業者 Permira 等股東收購總部位於以色列特拉維夫的行為生物辨識（behavioral biometrics，以使用者操作行為特徵辨識身分）防詐公司 BioCatch。BioCatch 以人工智慧與機器學習分析上千種訊號——包括打字節奏、觸控壓力、滑鼠與裝置操作習慣，甚至使用者疑似遭脅迫的跡象——藉此區分真人與盜用帳號的詐騙者或機器人。公司稱其技術每月分析 190 億次網路銀行工作階段（session）、在約 18 億台裝置上保護 7.6 億名用戶，客戶涵蓋 21 國逾 350 家金融機構、包含全球逾百家大型銀行。此交易仍待監理核准，Visa 預期於其 2027 會計年度第二季底前完成。",
+          "Visa 估計，詐騙與帳戶接管（account takeover）每年造成全球經濟逾 1 兆美元損失。這樁收購是 Visa 擴張「加值服務」（value-added services，向金融機構銷售防詐、資安與分析軟體）業務的最新一步，該部門已是公司成長最快的事業之一；此前 Visa 才以約 10 億美元收購防詐公司 Featurespace。此舉顯示支付網路正把防詐能力從交易授權當下，往前推進到登入與操作的身分與行為驗證層，把偵測詐騙的時點提前到扣款發生之前。實際整合範圍、對既有客戶的效果與監理審查結果仍待觀察，相關內容主要見於 CNBC、Visa 投資人關係公告與 Payments Dive。"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "title": "Visa to buy fraud-detection firm BioCatch for $2.4 billion",
+            "url": "https://www.cnbc.com/2026/08/03/visa-buys-biocatch-fraud-detection.html"
+          },
+          {
+            "name": "Visa（投資人關係）",
+            "title": "Visa to Acquire BioCatch",
+            "url": "https://investor.visa.com/news/news-details/2026/Visa-to-Acquire-BioCatch/default.aspx"
+          },
+          {
+            "name": "Payments Dive",
+            "title": "Visa to acquire BioCatch for $2.4B",
+            "url": "https://www.paymentsdive.com/news/visa-to-buy-biocatch-for-24b/826816/"
+          }
+        ],
+        "social": [],
+        "context": []
       },
       {
         "date": "2026-08-02",
@@ -552,5 +606,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-06T12:58:02Z"
+  "_generated_at": "2026-08-06T15:56:36Z"
 }
