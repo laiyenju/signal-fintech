@@ -86,6 +86,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-06",
+        "title": "日圓穩定幣發行商 JPYC 完成 3,800 萬美元 B 輪增資，物流龍頭 AZ-COM 丸和入股並將用於企業日常付款",
+        "paras": [
+          "日本 JPYC Inc. 宣布完成 60 億日圓（約 3,800 萬美元）的 B 輪（Series B）延伸增資，用於擴大其錨定日圓的穩定幣（stablecoin，錨定法幣的數位代幣）JPYC。本輪由日本大型物流業者 AZ-COM 丸和控股（AZ-COM Maruwa Holdings，東證代號 9090）領投；據創投資料商 Tracxn，公司自 2021 年 11 月以來累計已募得約 1.06 億美元、橫跨七輪募資。JPYC 目前市值約 5,550 萬美元（據 CoinGecko），是少數較具規模的日圓穩定幣之一。",
+          "值得注意的是，AZ-COM 丸和規劃把 JPYC 用於與旗下客戶（包含 Amazon Japan）之間的款項結算，其合作網路涵蓋約 2,300 家轉包商、司機等夥伴。這被視為日本首宗把穩定幣用於日常企業營運的大規模採用案例，讓穩定幣從加密交易延伸到實體供應鏈的日常收付。日圓穩定幣市場雖仍遠小於美元穩定幣主導的規模，但正逐步成長，日本三大銀行也已規劃聯手發行穩定幣。後續可觀察 JPYC 的流通市值、實際結算量與是否有更多企業跟進導入，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "JPYC raises $38 million Series B led by major Japanese logistics firm AZ-COM Maruwa",
+            "url": "https://www.coindesk.com/business/2026/08/06/jpyc-raises-usd38-million-series-b-led-by-major-japanese-logistics-firm-az-com-maruwa"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-05",
         "title": "Cloudflare 推出「可程式化錢包」Cloudflare Wallets，為 AI 代理人打造身分與付款基礎設施",
         "paras": [
@@ -535,5 +552,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-06T03:52:42Z"
+  "_generated_at": "2026-08-06T12:58:02Z"
 }
