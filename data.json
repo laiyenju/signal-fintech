@@ -97,6 +97,28 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-07",
+        "title": "Wintermute 取得美國券商（broker-dealer）資格，加密造市商循受監理途徑跨進華爾街股票與 ETF 造市",
+        "paras": [
+          "加密貨幣造市商 Wintermute 宣布，旗下位於紐約的 Wintermute USA LLC 已完成向美國證券交易委員會（SEC）與金融業監管局（FINRA）登記，取得券商（broker-dealer）資格，並將以自營交易商（proprietary trading firm）身分運作，暫不涉足散戶經紀業務。此資格讓 Wintermute 得以交易股票與股票選擇權、向交易所及店頭（OTC）對手方提供流動性，並擔任 ETF 的「授權參與者」（authorized participant，AP，負責與發行商創建、贖回大額 ETF 份額，使 ETF 市價貼近其持有資產淨值），涵蓋與加密貨幣連結的 ETF；公司並可進一步爭取在紐約證交所（NYSE）與那斯達克（Nasdaq）等場所擔任造市商。據 Wintermute，其橫跨逾 60 個中心化與去中心化交易場所、日均交易量逾 100 億美元。",
+          "這象徵加密造市商正循受監理途徑跨進華爾街，也反映加密交易與傳統證券市場的界線持續模糊。Wintermute 去年已在紐約設立總部，並曾請求 SEC 確認券商可為自有帳戶交易代幣化證券、自行清算並透過錢包軟體持有自營部位。它就此加入 Ripple、GSR 與 Crypto.com 等一批「收購或自建美國受監理證券業務」的加密業者行列——Ripple 於 2025 年以 12.5 億美元收購主經紀商 Hidden Road，GSR 收購券商 Equilibrium Capital Services，Crypto.com 則在 2024 年買下 Watchdog Capital。實際的 ETF 造市合作對象、上線時程與業務規模仍待揭露，相關內容主要見於 CoinDesk 引述《華爾街日報》（WSJ）。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
+            "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push"
+          },
+          {
+            "name": "Wintermute（新聞稿）",
+            "title": "Wintermute launches U.S. broker-dealer, expanding its regulated institutional reach",
+            "url": "https://www.wintermute.com/insights/news/announcements/wintermute-launches-u-s-broker-dealer-expanding-its-regulated-institutional-reach"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-06",
         "title": "日圓穩定幣發行商 JPYC 完成 3,800 萬美元 B 輪增資，物流龍頭 AZ-COM 丸和入股並將用於企業日常付款",
         "paras": [
@@ -517,6 +539,11 @@
             "date": "2026-08-05",
             "title": "冷錢包盜領滿一週，業界加速轉向協作多簽（multisig），近九成贓款仍未移動、位址已交聯邦執法",
             "body": "據 CoinDesk，這起 Coldcard 弱金鑰盜領事件屆滿一週，Galaxy Research 統計累計已從約 7,300 個位址掃走逾 1 億美元的比特幣。與先前「動搖自我保管（self-custody）信心、恐把投資人推向現貨比特幣 ETF」的疑慮不同，比特幣自保管平台 Swan 執行長 Cory Klippsten 表示，客戶並未退出自保管，而是升級安全設計、大量轉進不讓單一裝置就能動用資金的協作多重簽章（multisig）產品 Swan Vault；事件期間 Swan 一度為高風險客戶暫停提領、推播 App 內警示，並把遷移協助開放給非客戶。截至目前近九成贓款仍未在鏈上移動，已確認的攻擊者位址已交予美國聯邦執法機關，製造商 Coinkite 已修補所有受影響型號；由 OpenSats 資助的志工團隊掃描逾 150 個開源程式庫，未發現漏洞擴及 Coldcard 以外。相關內容主要見於 CoinDesk 引述 Galaxy Research 與 Swan。"
+          },
+          {
+            "date": "2026-08-07",
+            "title": "冷錢包盜領鏈上餘波：一週約 21 萬枚比特幣撤離長期持有者錢包，反映保管方式遷移而非拋售",
+            "body": "據 CoinDesk 引述 Glassnode 數據，Coldcard 弱金鑰盜領的餘波開始反映在鏈上：過去一週約有 21 萬枚比特幣自「長期持有者」（long-term holder, LTH，指持幣逾約 155 天、常被視為市場「聰明錢」的錢包）撤出，為 2024 年 12 月比特幣首度逼近 10 萬美元以來最大單週降幅；若自盜領事件發生前起算，長期持有者供給量已從近 1,500 萬枚的歷史高點附近降至約 1,470 萬枚。與 2021 年 3 月、2024 年 3 月及 2024 年 12 月市場高點時的長期持有者拋售不同，這波撤離發生在比特幣約 6.4 萬美元、距去年 10 月高點腰斬的低檔，且盜領後幣價並未破底，顯示其更可能是「保管方式的遷移」而非獲利了結或信心崩潰——部分用戶把幣轉入以更強保管設定新生成的錢包，另一部分則轉向受監理託管機構或現貨比特幣 ETF；美國現貨比特幣 ETF 過去一週淨流入約 7.54 億美元，以貝萊德（BlackRock）iShares 比特幣信託（IBIT）為主。此漏洞肇因於受影響 Coldcard 韌體亂數不足，使攻擊者得以重建部分用戶的錢包助記詞並盜領，波及數千個位址、估計損失最高達 1.14 億美元。相關內容主要見於 CoinDesk 引述 Glassnode。"
           }
         ]
       },
@@ -583,5 +610,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-06T18:54:57Z"
+  "_generated_at": "2026-08-07T09:54:07Z"
 }
