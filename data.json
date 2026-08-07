@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-07",
+      "date": "2026-08-08",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣仍無以金融科技為核心的新增重點事件",
       "paras": [
-        "過去 24 小時（台灣時間 8 月 6 日至 7 日凌晨）台灣財經與科技版面，主要由本國銀行上半年大賺約 3,583 億元、年增約兩成，6 月個人放款單月大增約 2,575 億元寫史上新高，外溢保單上半年新契約保費收入 488 億元超越去年全年，以及台股 ETF 資金流與記憶體、半導體個股 7 月營收等傳統金融與總體經濟題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
-        "本週稍早已收錄的八家銀行與台灣人工智慧實驗室（Taiwan AI Labs）合作、以聯合學習（federated learning）訓練 AI 防詐模型，集保結算所（TDCC）規劃深化與美國 DTCC 合作強化複委託交割，以及金管會預告虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
+        "過去 24 小時（台灣時間 8 月 7 日至 8 日凌晨），台灣財經與科技版面主要由玉山金控前七月大賺約 244.4 億元、改寫獲利紀錄，台股 ETF 資金回補、上演失土收復戰，341 檔上市櫃公司將於月底前配發約 4,257 億元現金股利，以及記憶體、AI 伺服器供應鏈個股 7 月營收等傳統金融與總體經濟題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
+        "本週稍早已收錄的八家銀行與台灣人工智慧實驗室（Taiwan AI Labs）以聯合學習（federated learning）訓練 AI 防詐模型、集保結算所（TDCC）規劃深化與美國 DTCC 合作強化複委託交割，以及金管會預告虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
       ]
     },
     "sources": [],
@@ -73,29 +73,46 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-07",
-      "tier": "watch",
-      "title": "Tether 把資產代幣化業務拓展至沙烏地阿拉伯，以 Hadron 平台先攻機構級不動產",
+      "date": "2026-08-08",
+      "tier": "top",
+      "title": "Polymarket 改用時間加權均價結算短天期加密合約，回應學界揭露的結算價操縱與約 820 萬美元套利",
       "paras": [
-        "發行全球流通量最大的穩定幣（stablecoin，錨定法幣的數位代幣）USDT 的 Tether，宣布把真實世界資產（RWA，real-world assets）代幣化（tokenization，把傳統資產以區塊鏈形式表彰）業務拓展至沙烏地阿拉伯，先從機構級不動產（real estate）切入。依 CoinDesk，Tether 將以其 2024 年推出的代幣化平台 Hadron 提供技術，為當地機構投資人發行與管理代幣化不動產，並與沙國夥伴 First Data 及金融科技公司 BKN301 合作；三方表示，此營運模式未來可能再擴及能源、基礎設施融資等其他真實世界資產。",
-        "這是 Tether 從穩定幣延伸到代幣化的最新一步——它同時是全球最大代幣化黃金 XAUT（規模約 26 億美元）的發行商。近年銀行與資產管理業者日益把貨幣市場基金、私募信貸、不動產與股票等傳統資產搬上區塊鏈，主張可加快結算、擴大投資人參與並提升資本效率，花旗（Citi）預估代幣化證券市場到 2030 年可達 5.5 兆美元。沙烏地阿拉伯把企業區塊鏈列為「2030 願景」（Vision 2030）經濟多元化策略的一環，橫跨金融服務、政府與供應鏈；執行長 Paolo Ardoino 稱沙國是展示 Hadron 影響力的理想市場。實際發行規模、上線時程與監理配套仍待後續揭露。"
+        "區塊鏈預測市場（prediction markets）平台 Polymarket 宣布，將其短天期加密貨幣「漲跌」（up/down）合約的結算方式，從單一時點的價格快照（snapshot）改為時間加權平均價（TWAP，time-weighted average price）。此舉在交易者抱怨數月後推出：史丹佛大學與新加坡管理大學的研究者分析約兩個月的 5 分鐘比特幣合約，發現有 821 個帳戶在疑似遭操縱的結算窗口賺得約 820 萬美元，且在排除造市商後，這類窗口約 93% 的虧損落在散戶身上，研究並形容「一場被市場視為近乎篤定的押注，每三次就有一次被翻盤」。依 Polymarket 公告，5 分鐘市場將採 30 秒均價，15 分鐘與 4 小時市場採 60 秒均價，價格資料改由 Chainlink Data Streams 提供，並於 8 月間對受影響市場投入 100 萬美元流動性獎勵以支持過渡。",
+        "研究者指出這是「結構性」漏洞：以資產價格結算的合約，其結算價可被在標的市場（如加密交易所幣安 Binance）本身的交易左右——他們觀察到結算前最後數秒出現異常大單、隨後價格快速反轉。這類結算價操縱風險並非 Polymarket 獨有，卻凸顯預測市場快速壯大後，如何為事件合約（event contracts）設計不易被操弄的價格預言機（oracle，把外部真實價格餵進合約的機制）已成核心課題。對手 Kalshi 向 CoinDesk 表示，其以受監理的 CF Benchmarks 指數與 60 秒移動均價結算、且所有交易者都經身分驗證，較難被短暫拉抬；不過也有交易者稱 Kalshi 同樣出現過類似情形。這波調整能否完全杜絕跨場操縱、實際成效與是否引來監理關注仍待觀察，相關內容主要見於 CoinDesk 引述史丹佛大學與新加坡管理大學研究。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
-        "url": "https://www.coindesk.com/business/2026/08/06/tether-expands-tokenization-business-into-saudi-arabia-starting-with-real-estate"
-      },
-      {
-        "name": "Tether（新聞稿）",
-        "title": "Hadron by Tether launches strategic collaboration with First Data and BKN301 to advance institutional tokenization in Saudi Arabia",
-        "url": "https://tether.io/news/hadron-by-tether-launches-strategic-collaboration-with-first-data-and-bkn301-to-advance-institutional-tokenization-in-saudi-arabia/"
+        "title": "How a five-second trick let traders drain millions from Polymarket",
+        "url": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-07",
+        "title": "Tether 把資產代幣化業務拓展至沙烏地阿拉伯，以 Hadron 平台先攻機構級不動產",
+        "paras": [
+          "發行全球流通量最大的穩定幣（stablecoin，錨定法幣的數位代幣）USDT 的 Tether，宣布把真實世界資產（RWA，real-world assets）代幣化（tokenization，把傳統資產以區塊鏈形式表彰）業務拓展至沙烏地阿拉伯，先從機構級不動產（real estate）切入。依 CoinDesk，Tether 將以其 2024 年推出的代幣化平台 Hadron 提供技術，為當地機構投資人發行與管理代幣化不動產，並與沙國夥伴 First Data 及金融科技公司 BKN301 合作；三方表示，此營運模式未來可能再擴及能源、基礎設施融資等其他真實世界資產。",
+          "這是 Tether 從穩定幣延伸到代幣化的最新一步——它同時是全球最大代幣化黃金 XAUT（規模約 26 億美元）的發行商。近年銀行與資產管理業者日益把貨幣市場基金、私募信貸、不動產與股票等傳統資產搬上區塊鏈，主張可加快結算、擴大投資人參與並提升資本效率，花旗（Citi）預估代幣化證券市場到 2030 年可達 5.5 兆美元。沙烏地阿拉伯把企業區塊鏈列為「2030 願景」（Vision 2030）經濟多元化策略的一環，橫跨金融服務、政府與供應鏈；執行長 Paolo Ardoino 稱沙國是展示 Hadron 影響力的理想市場。實際發行規模、上線時程與監理配套仍待後續揭露。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
+            "url": "https://www.coindesk.com/business/2026/08/06/tether-expands-tokenization-business-into-saudi-arabia-starting-with-real-estate"
+          },
+          {
+            "name": "Tether（新聞稿）",
+            "title": "Hadron by Tether launches strategic collaboration with First Data and BKN301 to advance institutional tokenization in Saudi Arabia",
+            "url": "https://tether.io/news/hadron-by-tether-launches-strategic-collaboration-with-first-data-and-bkn301-to-advance-institutional-tokenization-in-saudi-arabia/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-07",
         "title": "Wintermute 取得美國券商（broker-dealer）資格，加密造市商循受監理途徑跨進華爾街股票與 ETF 造市",
@@ -476,139 +493,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-07-31",
-        "title": "紐約州政府起訴預測市場 Kalshi，指其為未持牌賭博平台，求償 3 倍不法所得加每筆違規 10 萬美元",
-        "paras": [
-          "紐約州長霍楚（Kathy Hochul）與州檢察長詹樂霞（Letitia James）宣布，紐約州已於週五向紐約州最高法院（New York Supreme Court）起訴事件合約（event contracts）交易所 Kalshi，指控它在未取得博弈牌照下，於州內提供運動與各類事件下注，等同經營未持牌的賭博生意。州方要求法院禁止 Kalshi 繼續營運，並清算客戶的下注、虧損與公司獲利，追討返還、損害賠償與民事罰款。其中罰款金額訂為 Kalshi 相關獲利的 3 倍，另就每一筆未經授權或意圖提供的運動與行動端運動投注，再各罰 10 萬美元。檢方直接把這類事件合約定性為賭注，指其市場涵蓋職業與大學運動、選舉與時事；訴狀並主張平台允許 18 至 20 歲用戶下注、掛出涉及紐約州大學球隊的市場，而這兩者對持牌運動博彩業者在該州都屬禁止。",
-          "Kalshi 是受美國商品期貨交易委員會（CFTC）監理的事件合約與預測市場（prediction markets）平台，6 月募資時目標估值高達 400 億美元，並在世界盃期間新增約 300 萬名用戶，是 5 月初約 200 萬用戶的逾兩倍。這起訴訟接續紐約州博弈委員會去年 10 月對 Kalshi 發出的停止並終止（cease-and-desist）命令；聯邦法官也已於 7 月 7 日駁回 Kalshi 阻擋州監理機關的請求，並於 7 月 27 日再駁回其上訴期間的禁制令聲請。此案凸顯預測市場在全美面臨的多州法律戰。就在 7 月 27 日，Kalshi、Polymarket 與 CFTC 才在明尼蘇達州取得暫時勝利，當地法院認定該州禁令很可能牴觸《商品交易法》（Commodity Exchange Act），並核發初步禁制令；紐約州此次進攻則反向升高「事件合約究竟屬聯邦監理的衍生性商品，還是各州監理的賭博」的管轄權爭議，勢將牽動整個預測市場產業的合規版圖。截稿前 Kalshi 尚未回應 CoinDesk，相關內容主要見於 CoinDesk 與紐約州檢察長辦公室公告。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "New York sues Kalshi, alleges it offers a gambling platform 'plain and simple'",
-            "url": "https://www.coindesk.com/policy/2026/07/31/new-york-sues-kalshi-alleges-it-offers-a-gambling-platform-plain-and-simple"
-          },
-          {
-            "name": "紐約州檢察長辦公室 NY AG",
-            "title": "Governor Hochul and Attorney General James Announce New York Has Sued Kalshi",
-            "url": "https://ag.ny.gov/press-release/2026/governor-hochul-and-attorney-general-james-announce-new-york-has-sued-kalshi"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-31",
-        "title": "Coldcard 硬體錢包爆韌體漏洞，25 分鐘內遭盜走 594 枚比特幣（約 3,800 萬美元）",
-        "paras": [
-          "加密資產硬體錢包製造商 Coinkite 旗下的 Coldcard 出現韌體（firmware）安全漏洞。據 CoinDesk，這項瑕疵使錢包的私密金鑰（secret key）變得可被推測，攻擊者因而在約 25 分鐘內橫掃盜走 594 枚比特幣，價值約 3,800 萬美元。問題可追溯至 2021 年 3 月釋出的一版韌體，凡以該版本軟體產生的錢包都受到影響。",
-          "Coinkite 與資安團隊已對用戶提出警示，並表示較新型號不受此漏洞影響。比特幣等數位資產強調由用戶自行保管（self-custody）金鑰，硬體錢包正是這套自保管基礎設施的關鍵一環；一款廣被使用的硬體錢包因舊版韌體導致金鑰可被推測、進而遭大額盜領，凸顯數位資產自保管在底層安全設計上的風險。實際受影響的錢包數量、完整修補方式與後續補償安排尚未揭露，相關內容目前主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Major bitcoin wallet flaw drains 594 BTC in 25-minute sweep",
-            "url": "https://www.coindesk.com/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-01",
-            "title": "Galaxy Research 完整還原 Coldcard 盜領：規模上修至逾 1,000 枚比特幣（約 7,000 萬美元），肇因韌體跳過硬體亂數產生器",
-            "body": "Galaxy Research 完整重建此次事件，將損失自初報的 594 枚比特幣（約 3,800 萬美元）上修至逾 1,000 枚、約 7,000 萬美元：實際於 7 月 30 日 UTC 01:10 至 01:51 間、跨六個區塊掃走 1,082.65 枚比特幣，波及 1,196 個錢包，贓款集中於四個位址且尚未移動；初期僅掌握其中一個位址，金額才看似較小。技術上，Coldcard 韌體本應向專用硬體亂數產生器（RNG）取數，但一個內部建置設定令其跳過該產生器，支援函式庫又只檢查該設定是否存在、而非是否啟用，使金鑰改由以晶片序號與時脈暫存器為種子的軟體方式產生，可能金鑰範圍從天文數字塌縮到 Mk4、Q、Mk5 約 40 億組，Mk2、Mk3 更可被完全推定——攻擊者只需在自有機器上窮舉候選種子、比對公開鏈上位址即可盜領，全程不觸及使用者裝置，且用戶無從自行檢測是否曝險。Block 的報告把 Mk2、Mk4、Q、Mk5 都列入受影響範圍，較 Coinkite「僅 Mk3 受影響、新機種安全」的說法更廣；Galaxy 警告若不儘速移轉資金，恐有後續攻擊。Block 的 Clay Garrett 另指出攻擊者掃領時使用某知名區塊鏈數據商的付費帳號查詢來源位址，其內部日誌與可疑操作在筆數與時序上高度吻合，Block 已將線索交予執法機關，相關內容主要見於 CoinDesk 引述 Galaxy Research 與 Block。"
-          },
-          {
-            "date": "2026-08-01",
-            "title": "盜領擴大至第三波，波及約 4,500 個位址、累計損失逼近 8,900 萬美元，攻擊者轉向小額餘額錢包",
-            "body": "據 CoinDesk 引述 Galaxy Research，這起 Coldcard 弱金鑰盜領出現第三波掃領，受影響位址擴大至約 4,500 個，累計損失自先前估計的約 7,000 萬美元進一步逼近 8,900 萬美元。攻擊者開始鎖定餘額較小的錢包，並改變在鏈上歸集贓款的方式，顯示盜領仍在延燒、尚未收斂。Binance 創辦人趙長鵬（CZ，Changpeng Zhao）就此提醒用戶分散錢包保管、切勿把資產集中於單一裝置，並稱沒有任何方案能保證完全安全。相關內容主要見於 CoinDesk 引述 Galaxy Research。"
-          },
-          {
-            "date": "2026-08-02",
-            "title": "盜領餘波：與 FTX 崩盤相反，比特幣持有者把資產送回交易所尋求暫時避險",
-            "body": "據 CoinDesk 引述 CryptoQuant 與 Timechainindex 數據，這起累計約 8,900 萬美元的 Coldcard 盜領事件，正促使部分比特幣持有者把資產移回中心化交易所尋求暫時安全——與 2022 年 FTX 交易所崩盤時、投資人急於把幣提領到自我保管（self-custody）錢包的反應正好相反。CoinDesk 稍早另分析，硬體錢包因舊版韌體導致金鑰可被推測、進而遭大額盜領，已動搖市場對自我保管的信心，恐促使部分投資人轉向現貨比特幣 ETF 等受監理的託管管道。相關內容主要見於 CoinDesk 引述 CryptoQuant、Timechainindex 數據。"
-          },
-          {
-            "date": "2026-08-03",
-            "title": "盜領進入第四波，累計損失上修至約 1.14 億美元（約 1,816 枚比特幣），攻擊者改採「手續費替換」機制留搶救空間",
-            "body": "據 CoinDesk 引述 Galaxy Research 研究主管 Alex Thorn，這起 Coldcard 弱金鑰盜領自 7 月 30 日起算已進入第四波掃領，於週一（8 月 3 日）清晨啟動並持續數小時；若估計成立，四波累計已從逾 5,200 個位址掃走約 1,816 枚比特幣、約 1.14 億美元（先前三波為約 1,367 枚、波及 4,585 個位址、約 8,900 萬美元）。與前幾波不同，這波交易採用比特幣的「手續費替換」（replace-by-fee, RBF）機制——只要交易仍在記憶池（mempool）等待確認，發現自身位址遭掃的用戶可搶付更高手續費、把幣先行移出。Thorn 表示手上並無直接受害者通報，純以鏈上模式比對發布警訊，選擇搶時間示警，並建議用戶立即檢查資金、把資產移離受影響裝置並提高手續費搶救。前三波均未觸及多重簽章（multisig）錢包，與該漏洞僅影響單一金鑰種子一致；製造商 Coinkite 已對每個受影響型號釋出緊急韌體。相關內容主要見於 CoinDesk 引述 Galaxy Research。"
-          },
-          {
-            "date": "2026-08-05",
-            "title": "冷錢包盜領滿一週，業界加速轉向協作多簽（multisig），近九成贓款仍未移動、位址已交聯邦執法",
-            "body": "據 CoinDesk，這起 Coldcard 弱金鑰盜領事件屆滿一週，Galaxy Research 統計累計已從約 7,300 個位址掃走逾 1 億美元的比特幣。與先前「動搖自我保管（self-custody）信心、恐把投資人推向現貨比特幣 ETF」的疑慮不同，比特幣自保管平台 Swan 執行長 Cory Klippsten 表示，客戶並未退出自保管，而是升級安全設計、大量轉進不讓單一裝置就能動用資金的協作多重簽章（multisig）產品 Swan Vault；事件期間 Swan 一度為高風險客戶暫停提領、推播 App 內警示，並把遷移協助開放給非客戶。截至目前近九成贓款仍未在鏈上移動，已確認的攻擊者位址已交予美國聯邦執法機關，製造商 Coinkite 已修補所有受影響型號；由 OpenSats 資助的志工團隊掃描逾 150 個開源程式庫，未發現漏洞擴及 Coldcard 以外。相關內容主要見於 CoinDesk 引述 Galaxy Research 與 Swan。"
-          },
-          {
-            "date": "2026-08-07",
-            "title": "冷錢包盜領鏈上餘波：一週約 21 萬枚比特幣撤離長期持有者錢包，反映保管方式遷移而非拋售",
-            "body": "據 CoinDesk 引述 Glassnode 數據，Coldcard 弱金鑰盜領的餘波開始反映在鏈上：過去一週約有 21 萬枚比特幣自「長期持有者」（long-term holder, LTH，指持幣逾約 155 天、常被視為市場「聰明錢」的錢包）撤出，為 2024 年 12 月比特幣首度逼近 10 萬美元以來最大單週降幅；若自盜領事件發生前起算，長期持有者供給量已從近 1,500 萬枚的歷史高點附近降至約 1,470 萬枚。與 2021 年 3 月、2024 年 3 月及 2024 年 12 月市場高點時的長期持有者拋售不同，這波撤離發生在比特幣約 6.4 萬美元、距去年 10 月高點腰斬的低檔，且盜領後幣價並未破底，顯示其更可能是「保管方式的遷移」而非獲利了結或信心崩潰——部分用戶把幣轉入以更強保管設定新生成的錢包，另一部分則轉向受監理託管機構或現貨比特幣 ETF；美國現貨比特幣 ETF 過去一週淨流入約 7.54 億美元，以貝萊德（BlackRock）iShares 比特幣信託（IBIT）為主。此漏洞肇因於受影響 Coldcard 韌體亂數不足，使攻擊者得以重建部分用戶的錢包助記詞並盜領，波及數千個位址、估計損失最高達 1.14 億美元。相關內容主要見於 CoinDesk 引述 Glassnode。"
-          }
-        ]
-      },
-      {
-        "date": "2026-07-31",
-        "title": "Circle 取得紐約州「有限目的信託牌照」，USDC 發行商再添監理背書",
-        "paras": [
-          "全球第二大穩定幣（stablecoin）USDC 的發行商 Circle（美股代號 CRCL）宣布，取得紐約州金融服務署（NYDFS）核發的「有限目的信託牌照」（limited purpose trust charter）。這是一種州級銀行授權，允許持牌者依紐約州銀行法合法提供受託（fiduciary）、託管（custody）與資產管理服務。USDC 市值超過 718 億美元；執行長 Jeremy Allaire 表示，取得紐約信託牌照是公司長期目標，能帶來更明確的監理定位。",
-          "這是 Circle 近期一連串監理布局的一環——本月稍早（7 月 10 日）該公司才獲美國通貨監理署（OCC）核准設立「國家信託銀行」，用以強化 USDC 儲備的安全與監理，並為機構客戶提供數位資產託管與相關服務；國家信託銀行可提供託管與受託服務，但不吸收消費者存款、也不承作放款。在 Circle 之前，Coinbase、MoonPay、BitGo 與 Paxos 等業者也已取得 NYDFS 的信託牌照，而 Circle 更是多年前首家取得 NYDFS「BitLicense」的公司。相關內容目前主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Circle secures New York trust charter as crypto regulatory push accelerates",
-            "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-31",
-        "title": "BIS「Project Agorá」集結 28 家大型銀行完成代幣化貨幣跨境實測，約 80 秒結清六幣別付款",
-        "paras": [
-          "國際清算銀行（BIS）主導的代幣化實驗「Project Agorá」完成一輪真實跨境付款測試：這項計畫集結五家央行與 28 家商業銀行，成員涵蓋摩根大通（JPMorgan）、花旗（Citi）、瑞銀（UBS）、德意志銀行（Deutsche Bank）與渣打（Standard Chartered），以美元、歐元、英鎊、日圓、瑞士法郎與南韓元共六種貨幣，處理約 100 萬美元（80 萬瑞士法郎）的實值交易。測試把「代幣化的央行準備金」與「代幣化的商業銀行存款」用於企業付款、銀行間清算與外匯結算，即使原型尚未與銀行既有支付系統直接整合，平均仍約 80 秒即完成結算。",
-          "與 Circle、Tether 等民間發行的穩定幣（stablecoin）不同，Project Agorá 代幣化的是兩種傳統銀行貨幣——央行準備金與客戶的商業銀行存款。傳統跨境付款往往須經多家代理行、各自維護帳本，Agorá 改把代幣化貨幣放上共享帳本，讓參與銀行共用單一的所有權與付款狀態紀錄；它並測試外匯的「同步收付」，讓兩種貨幣同時交割、降低一方付款卻收不到對價的結算風險，且定位為與現有系統並存而非取代。這是歐洲央行（ECB）、英格蘭銀行（BoE）等一連串大額（wholesale）代幣化布局的一環，顯示代幣化正逐步走進全球金融的底層管道；相關內容主要見於 CoinDesk 引述 BIS 報告。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Global banks test tokenized money for cross-border payments in $1 million BIS pilot",
-            "url": "https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot"
-          },
-          {
-            "name": "國際清算銀行 BIS",
-            "title": "Project Agorá",
-            "url": "https://www.bis.org/about/bisih/topics/fmis/agora/rvt.htm"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-07-31",
-        "title": "路透調查：杜拜加密交易所 Shelbit 為伊朗約 40 億美元制裁規避網路轉帳，美財政部同步制裁伊朗相關比特幣船運保險方案",
-        "paras": [
-          "據 CoinDesk 引述路透（Reuters）調查，一家位於杜拜的加密貨幣交易所 Shelbit 被指涉入一個規模約 40 億美元、用於非法賭博與制裁規避的資金轉移網路，該網路與伊朗伊斯蘭革命衛隊（IRGC）有關，並牽涉伊朗央行等受制裁實體。報導稱 Shelbit 將數億美元資金導向 Binance 等主流加密平台，把伊朗相關實體與境外賭博站點接入全球金融市場。",
-          "同一天，美國財政部（U.S. Treasury）宣布制裁一個與伊朗相關、名為 Hormuz Safe 的比特幣「船運保險」方案，指其接受比特幣與其他數位資產，作為 IRGC 掌控荷莫茲海峽（Strait of Hormuz）航運的制裁規避工具。兩起同日揭露顯示，監理與執法機構正把打擊焦點延伸至加密資產在跨境制裁規避中的角色，對加密交易所的反洗錢（AML）與制裁合規（sanctions compliance）構成新的壓力。相關內容主要見於 CoinDesk 分別引述路透與美國財政部。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Dubai-based crypto exchange tied to $4 billion Iran sanctioned-evasion network",
-            "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters"
-          },
-          {
-            "name": "CoinDesk",
-            "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
-            "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-07T09:54:07Z"
+  "_generated_at": "2026-08-07T18:54:23Z"
 }
