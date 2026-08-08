@@ -92,6 +92,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-08",
+        "title": "XRP Ledger 釋出 3.3.0 升級，推「機密轉帳」等六項修正案送驗證者表決，鎖定逾 5.3 億美元代幣化資產的機構隱私需求",
+        "paras": [
+          "以 XRP 為原生代幣的 XRP Ledger（XRPL）本週釋出 3.3.0 版升級，內含六項待驗證者表決的修正案（amendments），其中最受矚目的是專為機構打造的「機密轉帳」（Confidential Transfers）。這項功能可對「多用途代幣」（MPT，Multi-Purpose Tokens，Ripple 用來表彰基金、債券等金融資產的格式）的餘額與轉帳金額加密，讓機構在移轉代幣時不必公開每一筆部位與金額大小——帳戶與代幣種類仍可見，但個別餘額與付款金額可加密，並以零知識式的密碼學方法在不揭露數字的情況下驗證交易有效。據鏈上資料商 RWA.xyz，XRPL 上已有約 13.8 億美元的真實世界資產（RWA），其中穩定幣 RLUSD 約 8.457 億美元，Ondo 約 2.126 億美元、VERT Capital 約 1.161 億美元、Archax 約 5,540 萬美元、法國興業銀行（Societe Generale）約 1,160 萬美元；扣除 RLUSD 後，仍有逾 5.3 億美元代幣化資產可望成為此功能的服務對象。",
+          "另外五項修正案同樣鎖定機構用戶：Batch 可將最多八筆交易打包、並支援「全成或全不成」模式；Sponsor 讓一個帳戶替另一帳戶負擔手續費與準備金，免去新用戶須先持有 XRP 才能交易的門檻；Permission Delegation 可授權他方僅提交特定類型交易，讓基金管理者在不交出完整控制權下取得有限權限；Dynamic MPT 則允許發行方在發行後調整代幣部分屬性。3.3.0 也將節點記憶體用量至少降低一成至一成五。不過所有修正案都須先取得逾 80% 受信任驗證者連續兩週支持才會啟用，目前皆尚未生效；機密轉帳首版功能也相當保守，須持有人主動選用、且僅適用帳戶間的直接 MPT 付款，不涵蓋 XRPL 內建撮合、託管（escrow）或支票（checks）。真正的考驗在於 Aviva Investors、Ondo 等已在鏈上發行資產的機構，是否真的選擇隱藏餘額與轉帳規模。相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
+            "url": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-07",
         "title": "Tether 把資產代幣化業務拓展至沙烏地阿拉伯，以 Hadron 平台先攻機構級不動產",
         "paras": [
@@ -496,5 +513,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-07T18:54:23Z"
+  "_generated_at": "2026-08-08T06:50:25Z"
 }
