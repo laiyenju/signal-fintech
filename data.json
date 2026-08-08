@@ -93,6 +93,23 @@
     "others": [
       {
         "date": "2026-08-08",
+        "title": "BTCPay Server 的 LND 閃電網路（Lightning）節點爆重大漏洞遭利用，攻擊者竊取憑證盜空商家節點資金",
+        "paras": [
+          "接受比特幣（Bitcoin）付款的商家所倚賴的支付基礎設施再傳資安事件。開源加密貨幣收單系統 BTCPay Server 表示，攻擊者於週五（8 月 7 日）深夜利用一項重大漏洞，取得保護閃電網路（Lightning Network，建構在比特幣之上、用於即時小額轉帳的第二層網路）節點的憑證，進而盜走節點內資金。BTCPay 證實確有資金遭竊，並緊急呼籲所有使用 LND（目前最普遍的閃電網路節點軟體）的營運者立即升級至 2.4.2 版，或直接將伺服器下線；官方尚未公布受害用戶數與被盜比特幣金額。硬體錢包商 Foundation 執行長 Zach Herbert 證實公司的 BTCPay 閃電網路節點在一夜之間被清空、支付通道遭關閉、資金被捲走，但其鏈上熱錢包未受影響；比特幣刊物 Citadel21 也表示其節點遭洗劫，惟存放金額不多。",
+          "此漏洞讓未經驗證的遠端攻擊者能取得「.macaroon」憑證檔——這類檔案賦予軟體操作 LND 節點的權限，一旦外洩即可被用來控制節點並轉走資金。BTCPay 在初步警示後縮小影響範圍，強調其標準鏈上錢包（含在 BTCPay 內產生的熱錢包）不受此憑證漏洞影響，但風險專屬於採用 LND 的部署，且存放在 LND 自身鏈上錢包的資金因隸屬受害節點仍可能有風險。值得注意的是，該漏洞原是由「Bitcoin Red Team」開發者社群負責任地通報——這個本週開始以 AI 模型掃描比特幣程式碼庫、已在數百個專案回報上千項問題（並示警 85 項重大漏洞）的團隊；但在 BTCPay 公開警告發出前，攻擊者已對線上伺服器展開實際利用。這是繼冷錢包廠商 Coldcard 韌體遭利用後，同一週內第二起比特幣基礎設施資安事件，凸顯自我保管與加密支付基礎設施的資安脆弱性，完整事後檢討報告預計數日內公布，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+            "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-08",
         "title": "XRP Ledger 釋出 3.3.0 升級，推「機密轉帳」等六項修正案送驗證者表決，鎖定逾 5.3 億美元代幣化資產的機構隱私需求",
         "paras": [
           "以 XRP 為原生代幣的 XRP Ledger（XRPL）本週釋出 3.3.0 版升級，內含六項待驗證者表決的修正案（amendments），其中最受矚目的是專為機構打造的「機密轉帳」（Confidential Transfers）。這項功能可對「多用途代幣」（MPT，Multi-Purpose Tokens，Ripple 用來表彰基金、債券等金融資產的格式）的餘額與轉帳金額加密，讓機構在移轉代幣時不必公開每一筆部位與金額大小——帳戶與代幣種類仍可見，但個別餘額與付款金額可加密，並以零知識式的密碼學方法在不揭露數字的情況下驗證交易有效。據鏈上資料商 RWA.xyz，XRPL 上已有約 13.8 億美元的真實世界資產（RWA），其中穩定幣 RLUSD 約 8.457 億美元，Ondo 約 2.126 億美元、VERT Capital 約 1.161 億美元、Archax 約 5,540 萬美元、法國興業銀行（Societe Generale）約 1,160 萬美元；扣除 RLUSD 後，仍有逾 5.3 億美元代幣化資產可望成為此功能的服務對象。",
@@ -562,5 +579,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-08T12:54:07Z"
+  "_generated_at": "2026-08-08T15:52:03Z"
 }
