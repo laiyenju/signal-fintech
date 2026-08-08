@@ -110,6 +110,55 @@
       },
       {
         "date": "2026-08-07",
+        "title": "Coldcard 硬體錢包爆韌體漏洞遭盜，逾 21 萬枚比特幣轉出自保、部分改存 ETF 與受監管託管",
+        "paras": [
+          "冷錢包廠商 Coldcard 部分韌體因亂數（randomness）強度不足，讓攻擊者得以重建使用者的助記詞（recovery phrase）並盜走比特幣，數千個地址受害，CoinDesk 估計損失最高約 1.14 億美元，另有外媒稱逾 1.3 億美元。由於單靠更新韌體無法保護可能已外洩的私鑰，Coldcard 呼籲受影響用戶另建新錢包並儘速轉移資產。",
+          "這起事件的連鎖效應已浮現鏈上：Glassnode 數據顯示過去一週約有 21 萬枚比特幣自「長期持有者」（long-term holder）錢包移出，是 2024 年 12 月以來最大單週降幅，但比特幣並未破底，研判多屬託管方式的遷移而非拋售——部分持有者改用新錢包，或將資產轉入受監管託管機構與現貨比特幣 ETF；同期美國現貨比特幣 ETF 淨流入約 7.54 億美元。事件凸顯自我保管（self-custody）的資安風險。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
+            "url": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets"
+          },
+          {
+            "name": "CoinDesk",
+            "title": "Coldcard urges users to move bitcoin as active wallet exploit continues",
+            "url": "https://www.coindesk.com/tech/2026/08/04/coldcard-urges-users-to-move-bitcoin-as-active-wallet-exploit-continues"
+          },
+          {
+            "name": "TechCrunch",
+            "title": "Hackers steal over $130 million by exploiting bug in offline hardware wallets",
+            "url": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-07",
+        "title": "駭客假冒 IT 人員以社交工程鎖定美國數十家金融機構，芝商所、黑石傳遭勒索、部分企業已付贖金",
+        "paras": [
+          "根據路透社掌握的 Google 情資，過去約一個月有勒索型駭客鎖定美國數十家知名金融機構與企業，芝商所（CME）、黑石集團（Blackstone）等均傳在名單上。手法是以竄改來電顯示的方式，在電話中假冒公司 IT 人員，誘導員工進入釣魚網站、交出登入憑證，藉此繞過企業的高階資安防護。",
+          "Google 威脅情報團隊指出，這類技術門檻不高的社交工程手段，仍能取得機敏資訊進行勒索，目前已有未具名企業支付贖金；被點名的金融機構多未回應。事件再次顯示，員工的資安意識與身分驗證機制，往往是金融業防線中最脆弱的環節。"
+        ],
+        "sources": [
+          {
+            "name": "中央社",
+            "title": "駭客冒充IT單位電話行騙　美數十家金融機構成目標",
+            "url": "https://www.cna.com.tw/news/ait/202608070089.aspx"
+          },
+          {
+            "name": "Yahoo 財經",
+            "title": "華爾街驚傳遭「大規模駭客攻擊」　多家受害者已吐贖金",
+            "url": "https://tw.news.yahoo.com/%E8%8F%AF%E7%88%BE%E8%A1%97%E9%A9%9A%E5%82%B3%E9%81%AD-%E5%A4%A7%E8%A6%8F%E6%A8%A1%E9%A7%AD%E5%AE%A2%E6%94%BB%E6%93%8A-%E5%A4%9A%E5%AE%B6%E5%8F%97%E5%AE%B3%E8%80%85%E5%B7%B2%E5%90%90%E8%B4%96%E9%87%91-120700996.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-07",
         "title": "Tether 把資產代幣化業務拓展至沙烏地阿拉伯，以 Hadron 平台先攻機構級不動產",
         "paras": [
           "發行全球流通量最大的穩定幣（stablecoin，錨定法幣的數位代幣）USDT 的 Tether，宣布把真實世界資產（RWA，real-world assets）代幣化（tokenization，把傳統資產以區塊鏈形式表彰）業務拓展至沙烏地阿拉伯，先從機構級不動產（real estate）切入。依 CoinDesk，Tether 將以其 2024 年推出的代幣化平台 Hadron 提供技術，為當地機構投資人發行與管理代幣化不動產，並與沙國夥伴 First Data 及金融科技公司 BKN301 合作；三方表示，此營運模式未來可能再擴及能源、基礎設施融資等其他真實世界資產。",
@@ -513,5 +562,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-08T06:50:25Z"
+  "_generated_at": "2026-08-08T12:54:07Z"
 }
