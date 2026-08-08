@@ -1,11 +1,11 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣仍無以金融科技為核心的新增重點事件",
       "paras": [
-        "過去 24 小時（台灣時間 8 月 7 日至 8 日凌晨），台灣財經與科技版面主要由玉山金控前七月大賺約 244.4 億元、改寫獲利紀錄，台股 ETF 資金回補、上演失土收復戰，341 檔上市櫃公司將於月底前配發約 4,257 億元現金股利，以及記憶體、AI 伺服器供應鏈個股 7 月營收等傳統金融與總體經濟題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
+        "過去 24 小時（台灣時間 8 月 8 日至 9 日凌晨），台灣財經與科技版面主要由美國 7 月非農就業意外減少、聯準會升息機率下降牽動台股與美股走勢，輝達單周股價大漲逾一成、市值改寫史上最大單周增額，記憶體、PCB 與 AI 伺服器供應鏈個股 7 月營收，颱風白海豚防颱整備，以及財政部研擬公股與民營金融機構併購評估機制、公股銀行看好新南向放款等傳統金融與總體經濟題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展。金管會雖回應民眾提出的「收款人入帳同意機制」，說明因顧及支付系統運作與交易便利性而決定不採納，另研議精進警示帳戶解除作業，但屬對單一提案的回應、未涉及新的金融科技基礎設施變動，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
         "本週稍早已收錄的八家銀行與台灣人工智慧實驗室（Taiwan AI Labs）以聯合學習（federated learning）訓練 AI 防詐模型、集保結算所（TDCC）規劃深化與美國 DTCC 合作強化複委託交割，以及金管會預告虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
       ]
     },
@@ -73,24 +73,46 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-08",
-      "tier": "top",
-      "title": "Polymarket 改用時間加權均價結算短天期加密合約，回應學界揭露的結算價操縱與約 820 萬美元套利",
+      "date": "2026-08-09",
+      "tier": "watch",
+      "title": "本日觀察：比特幣 BIP-110「使用者啟動軟分叉」本週末進入強制訊號期，礦工支持率不到 3%，開發者警告賣出分叉幣恐遭重放攻擊連真正的比特幣一起被取走",
       "paras": [
-        "區塊鏈預測市場（prediction markets）平台 Polymarket 宣布，將其短天期加密貨幣「漲跌」（up/down）合約的結算方式，從單一時點的價格快照（snapshot）改為時間加權平均價（TWAP，time-weighted average price）。此舉在交易者抱怨數月後推出：史丹佛大學與新加坡管理大學的研究者分析約兩個月的 5 分鐘比特幣合約，發現有 821 個帳戶在疑似遭操縱的結算窗口賺得約 820 萬美元，且在排除造市商後，這類窗口約 93% 的虧損落在散戶身上，研究並形容「一場被市場視為近乎篤定的押注，每三次就有一次被翻盤」。依 Polymarket 公告，5 分鐘市場將採 30 秒均價，15 分鐘與 4 小時市場採 60 秒均價，價格資料改由 Chainlink Data Streams 提供，並於 8 月間對受影響市場投入 100 萬美元流動性獎勵以支持過渡。",
-        "研究者指出這是「結構性」漏洞：以資產價格結算的合約，其結算價可被在標的市場（如加密交易所幣安 Binance）本身的交易左右——他們觀察到結算前最後數秒出現異常大單、隨後價格快速反轉。這類結算價操縱風險並非 Polymarket 獨有，卻凸顯預測市場快速壯大後，如何為事件合約（event contracts）設計不易被操弄的價格預言機（oracle，把外部真實價格餵進合約的機制）已成核心課題。對手 Kalshi 向 CoinDesk 表示，其以受監理的 CF Benchmarks 指數與 60 秒移動均價結算、且所有交易者都經身分驗證，較難被短暫拉抬；不過也有交易者稱 Kalshi 同樣出現過類似情形。這波調整能否完全杜絕跨場操縱、實際成效與是否引來監理關注仍待觀察，相關內容主要見於 CoinDesk 引述史丹佛大學與新加坡管理大學研究。"
+        "比特幣（Bitcoin）本週末將面臨一場罕見測試。一項名為 BIP-110（Bitcoin Improvement Proposal 110）的爭議提案，主張在一年內限制在比特幣交易中夾帶圖片、文字等非付款資料，藉此壓制 Ordinals、Runes 等「銘文」（inscription）用法。此案循「使用者啟動軟分叉」（UASF，user-activated soft fork）的路線推進：一般需礦工 55% 支持才能改變共識規則，但目前礦池公開表態的訊號率不到 3%、遠低於門檻，提案改為從約 8 月 9 日（區塊高度 961,632）起，讓執行 BIP-110 軟體（主要是 Bitcoin Knots）的節點主動拒絕未帶標記的區塊，即使全網絕大多數算力仍在延續原鏈；真正的資料限制則要到約九月初（區塊 965,664）才生效。由於幾乎所有算力都不支持，若有少數礦工另闢 BIP-110 分支，比特幣有可能（但非必然）短暫分裂成兩條鏈；部分只做比特幣的交易所已規劃在啟動窗口前後暫停出入金，Michael Saylor 與 Adam Back 等人則明確表態反對。此案上承 2017 年 SegWit 在礦工抵制下由節點端啟動的先例，核心爭點在於究竟由礦工、節點還是手續費市場決定比特幣區塊空間的用途。",
+        "更立即的風險落在散戶身上。開發者 Kevin Loaec 本週在社群平台 X 示警：一旦分裂發生，每名持有人會在兩條鏈上同時持有等額餘額，屆時可能有人以偏高價格收購「新鏈」的分叉幣，看似天上掉下來的免費資產。但因為分叉初期兩條鏈接受相同格式的交易、且沒有自動「重放保護」（replay protection），一筆為了賣出分叉幣而簽署的交易，可被對手方原封不動地在比特幣主鏈上重新廣播，導致賣方連真正的比特幣也被一併轉走，這就是所謂的「重放攻擊」（replay attack）；大額持有者可能被優先鎖定。開發者建議，不懂得如何切分兩鏈餘額的持有人，最安全的做法就是「什麼都不要做」——未曾移動的幣沒有已簽署的交易可供複製，也就無從被重放，這道防線要到九月初資料限制生效、能刻意產生只存在單一鏈上的幣後才較易解除。分裂是否真的發生、能否維持第二條鏈存活，仍取決於礦工、交易所與錢包商未來數日的協調，值得持續觀察。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "How a five-second trick let traders drain millions from Polymarket",
-        "url": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket"
+        "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
+        "url": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer"
+      },
+      {
+        "name": "CoinDesk",
+        "title": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
+        "url": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-08",
+        "title": "Polymarket 改用時間加權均價結算短天期加密合約，回應學界揭露的結算價操縱與約 820 萬美元套利",
+        "paras": [
+          "區塊鏈預測市場（prediction markets）平台 Polymarket 宣布，將其短天期加密貨幣「漲跌」（up/down）合約的結算方式，從單一時點的價格快照（snapshot）改為時間加權平均價（TWAP，time-weighted average price）。此舉在交易者抱怨數月後推出：史丹佛大學與新加坡管理大學的研究者分析約兩個月的 5 分鐘比特幣合約，發現有 821 個帳戶在疑似遭操縱的結算窗口賺得約 820 萬美元，且在排除造市商後，這類窗口約 93% 的虧損落在散戶身上，研究並形容「一場被市場視為近乎篤定的押注，每三次就有一次被翻盤」。依 Polymarket 公告，5 分鐘市場將採 30 秒均價，15 分鐘與 4 小時市場採 60 秒均價，價格資料改由 Chainlink Data Streams 提供，並於 8 月間對受影響市場投入 100 萬美元流動性獎勵以支持過渡。",
+          "研究者指出這是「結構性」漏洞：以資產價格結算的合約，其結算價可被在標的市場（如加密交易所幣安 Binance）本身的交易左右——他們觀察到結算前最後數秒出現異常大單、隨後價格快速反轉。這類結算價操縱風險並非 Polymarket 獨有，卻凸顯預測市場快速壯大後，如何為事件合約（event contracts）設計不易被操弄的價格預言機（oracle，把外部真實價格餵進合約的機制）已成核心課題。對手 Kalshi 向 CoinDesk 表示，其以受監理的 CF Benchmarks 指數與 60 秒移動均價結算、且所有交易者都經身分驗證，較難被短暫拉抬；不過也有交易者稱 Kalshi 同樣出現過類似情形。這波調整能否完全杜絕跨場操縱、實際成效與是否引來監理關注仍待觀察，相關內容主要見於 CoinDesk 引述史丹佛大學與新加坡管理大學研究。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "How a five-second trick let traders drain millions from Polymarket",
+            "url": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-08",
         "title": "BTCPay Server 的 LND 閃電網路（Lightning）節點爆重大漏洞遭利用，攻擊者竊取憑證盜空商家節點資金",
@@ -579,5 +601,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-08T15:52:03Z"
+  "_generated_at": "2026-08-08T18:56:32Z"
 }
