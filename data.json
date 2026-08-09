@@ -1,11 +1,11 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣仍無以金融科技為核心的新增重點事件",
       "paras": [
-        "過去 24 小時（台灣時間 8 月 8 日至 9 日凌晨），台灣財經與科技版面主要由美國 7 月非農就業意外減少、聯準會升息機率下降牽動台股與美股走勢，輝達單周股價大漲逾一成、市值改寫史上最大單周增額，記憶體、PCB 與 AI 伺服器供應鏈個股 7 月營收，颱風白海豚防颱整備，以及財政部研擬公股與民營金融機構併購評估機制、公股銀行看好新南向放款等傳統金融與總體經濟題材主導，並無以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展。金管會雖回應民眾提出的「收款人入帳同意機制」，說明因顧及支付系統運作與交易便利性而決定不採納，另研議精進警示帳戶解除作業，但屬對單一提案的回應、未涉及新的金融科技基礎設施變動，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
+        "過去 24 小時（台灣時間 8 月 9 日至 10 日凌晨），台灣財經版面主要由 6 月底 14 家金控帳上收益逾 9,400 億元、改寫新高，券商為防融資斷頭拉高預警線（擔保維持率低於 150% 即發示警通知）、主管機關研議主動管控槓桿型 ETF 信用交易、處置股新制上路，以及那斯達克（Nasdaq）啟動「全球交易時段」、美股單日最長交易拉長至 23 小時等市場與交易制度題材主導；科技版面則聚焦台積電、蘋果供應鏈、被動元件搶料與 AI 伺服器需求，社會版面則以白海豚颱風防災為主。上述內容多屬傳統金融獲利、股市交易制度、半導體供應鏈或總體經濟，未見以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
         "本週稍早已收錄的八家銀行與台灣人工智慧實驗室（Taiwan AI Labs）以聯合學習（federated learning）訓練 AI 防詐模型、集保結算所（TDCC）規劃深化與美國 DTCC 合作強化複委託交割，以及金管會預告虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
       ]
     },
@@ -73,40 +73,57 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "tier": "watch",
-      "title": "本日觀察：比特幣 BIP-110「使用者啟動軟分叉」本週末進入強制訊號期，礦工支持率不到 3%，開發者警告賣出分叉幣恐遭重放攻擊連真正的比特幣一起被取走",
+      "title": "美國 FDIC 擬為「銀行與金融科技合作」設獨立標準機構，串連銀行與 Fintech 產業公會、傳 OCC 數日內加入",
       "paras": [
-        "比特幣（Bitcoin）本週末將面臨一場罕見測試。一項名為 BIP-110（Bitcoin Improvement Proposal 110）的爭議提案，主張在一年內限制在比特幣交易中夾帶圖片、文字等非付款資料，藉此壓制 Ordinals、Runes 等「銘文」（inscription）用法。此案循「使用者啟動軟分叉」（UASF，user-activated soft fork）的路線推進：一般需礦工 55% 支持才能改變共識規則，但目前礦池公開表態的訊號率不到 3%、遠低於門檻，提案改為從約 8 月 9 日（區塊高度 961,632）起，讓執行 BIP-110 軟體（主要是 Bitcoin Knots）的節點主動拒絕未帶標記的區塊，即使全網絕大多數算力仍在延續原鏈；真正的資料限制則要到約九月初（區塊 965,664）才生效。由於幾乎所有算力都不支持，若有少數礦工另闢 BIP-110 分支，比特幣有可能（但非必然）短暫分裂成兩條鏈；部分只做比特幣的交易所已規劃在啟動窗口前後暫停出入金，Michael Saylor 與 Adam Back 等人則明確表態反對。此案上承 2017 年 SegWit 在礦工抵制下由節點端啟動的先例，核心爭點在於究竟由礦工、節點還是手續費市場決定比特幣區塊空間的用途。",
-        "更立即的風險落在散戶身上。開發者 Kevin Loaec 本週在社群平台 X 示警：一旦分裂發生，每名持有人會在兩條鏈上同時持有等額餘額，屆時可能有人以偏高價格收購「新鏈」的分叉幣，看似天上掉下來的免費資產。但因為分叉初期兩條鏈接受相同格式的交易、且沒有自動「重放保護」（replay protection），一筆為了賣出分叉幣而簽署的交易，可被對手方原封不動地在比特幣主鏈上重新廣播，導致賣方連真正的比特幣也被一併轉走，這就是所謂的「重放攻擊」（replay attack）；大額持有者可能被優先鎖定。開發者建議，不懂得如何切分兩鏈餘額的持有人，最安全的做法就是「什麼都不要做」——未曾移動的幣沒有已簽署的交易可供複製，也就無從被重放，這道防線要到九月初資料限制生效、能刻意產生只存在單一鏈上的幣後才較易解除。分裂是否真的發生、能否維持第二條鏈存活，仍取決於礦工、交易所與錢包商未來數日的協調，值得持續觀察。"
+        "據金融科技電子報 Fintech Brainfood 引述彭博（Bloomberg），美國聯邦存款保險公司（FDIC，Federal Deposit Insurance Corporation）正推動為「銀行與金融科技業者合作」（bank–fintech partnerships）建立一個獨立的標準制定機構。該機構將為與銀行合作的金融科技與第三方業者訂定基礎的風險管理標準，並由獨立評估方對業者進行認證審查。FDIC 並與美國銀行家協會（ABA）、獨立社區銀行家協會（ICBA）、Bank Policy Institute、金融科技協會（FTA）、American Fintech Council 與 CFES 等銀行及 Fintech 產業組織共同推進；據該電子報，FDIC 預計提供種子資金（seed funding），通貨監理署（OCC）也可望於數日內加入。",
+        "這被視為「銀行即服務」（BaaS，Banking as a Service，金融科技透過合作銀行提供存放款等受監理服務）問責架構的一次結構性補課：2024 年 4 月中介商 Synapse 倒閉，一度使終端用戶最多約 9,000 萬美元資金遭凍結，凸顯銀行與 Fintech 分工中「監理風險由誰承擔」長期模糊。不過此次標準採自願性、且不提供「安全港」（safe harbor，符合標準即獲免責的法律保護），能否真正拉齊各家 Fintech 的風險控管、產業實際採用意願，以及 OCC 是否如期加入，仍待正式方案與後續進展檢驗。目前公開可追溯的資訊，主要來自 Fintech Brainfood 引述彭博。"
       ]
     },
     "sources": [
       {
-        "name": "CoinDesk",
-        "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
-        "url": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer"
-      },
-      {
-        "name": "CoinDesk",
-        "title": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
-        "url": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support"
+        "name": "Fintech Brainfood",
+        "title": "🧠 The FDIC wants a rulebook for bank fintech partnerships",
+        "url": "https://www.fintechbrainfood.com/p/fintech-rulebook"
       }
     ],
     "coverSocial": [],
-    "context": [
-      {
-        "date": "2026-08-09",
-        "title": "BIP-110 強制訊號期正式於區塊 961,632 啟動，礦工支持率約 2.5%，訊號窗口約四週",
-        "body": "比特幣（Bitcoin）已於 8 月 8 日約 19:35（UTC）到達區塊高度 961,632，正式觸發 BIP-110（Bitcoin Improvement Proposal 110）備受爭議的「強制訊號期」（mandatory signaling），該提案意在暫時限制在網路上夾帶非金融資料。進入訊號期後，礦工的公開支持率鮮少超過 2.5%，遠不及改變共識規則所需的 55% 門檻；Strategy 董事長 Michael Saylor 與 Blockstream 執行長 Adam Back 等重量級人物亦已明確表態反對。此案循「使用者啟動軟分叉」（UASF）路線，改由節點端拒絕未表態支持的區塊、迫使礦工就範，支持者援引 2017 年 SegWit 經由 BIP-148 在礦工未達門檻下由用戶端啟動的先例。目前用戶採用 BIP-110 的立即效果，是拒絕幾乎全部算力正在延續的主鏈，理論上有可能出現主鏈與少數 BIP-110 節點鏈並存的短暫分裂，也可能因缺乏支持而停擺；此訊號窗口將延續至約區塊 965,664、預估約四週後結束。相關內容主要見於 CoinDesk。"
-      },
-      {
-        "date": "2026-08-09",
-        "title": "BIP-110 分叉鏈實際只挖出兩個區塊便停滯，算力占比過低、難度重算估需約 350 天",
-        "body": "8 月 8 日（週六）區塊高度 961,632 觸發強制訊號期後，實際跟隨 BIP-110（Bitcoin Improvement Proposal 110）的少數分叉鏈確實短暫出現，但在上線約八小時內只挖出兩個區塊便停滯，停在區塊 961,633；同一時間比特幣（Bitcoin）主鏈已推進到 961,681，兩者相差約 48 個區塊，等於將近一整天的交易量。第一個未表態的區塊由礦池 AntPool 挖出、主鏈接受而 BIP-110 節點拒絕，跟隨分叉鏈的替代區塊則由使用 Ocean 礦池的礦工產生。停滯的根本原因在於難度機制：比特幣每 2,016 個區塊才重算一次挖礦難度，分叉鏈沿用主鏈當前的高難度設定卻只有極少算力，出塊間隔被拉長到數小時一顆，監測站估計要約 350 天才能完成 2,016 個區塊以調低難度（主鏈僅需約 14 天）。過去兩週僅約 2.53% 的區塊表態支持，遠低於免分裂啟動所需的 55%。BIP-110 節點要求每個區塊都表態支持的兩週窗口將延續至區塊 963,647，以目前速度分叉鏈幾乎不可能抵達。由於兩條鏈仍接受相同格式的交易，先前開發者示警的重放（replay）風險依舊存在。相關內容主要見於 CoinDesk。"
-      }
-    ],
+    "context": [],
     "others": [
+      {
+        "date": "2026-08-09",
+        "title": "本日觀察：比特幣 BIP-110「使用者啟動軟分叉」本週末進入強制訊號期，礦工支持率不到 3%，開發者警告賣出分叉幣恐遭重放攻擊連真正的比特幣一起被取走",
+        "paras": [
+          "比特幣（Bitcoin）本週末將面臨一場罕見測試。一項名為 BIP-110（Bitcoin Improvement Proposal 110）的爭議提案，主張在一年內限制在比特幣交易中夾帶圖片、文字等非付款資料，藉此壓制 Ordinals、Runes 等「銘文」（inscription）用法。此案循「使用者啟動軟分叉」（UASF，user-activated soft fork）的路線推進：一般需礦工 55% 支持才能改變共識規則，但目前礦池公開表態的訊號率不到 3%、遠低於門檻，提案改為從約 8 月 9 日（區塊高度 961,632）起，讓執行 BIP-110 軟體（主要是 Bitcoin Knots）的節點主動拒絕未帶標記的區塊，即使全網絕大多數算力仍在延續原鏈；真正的資料限制則要到約九月初（區塊 965,664）才生效。由於幾乎所有算力都不支持，若有少數礦工另闢 BIP-110 分支，比特幣有可能（但非必然）短暫分裂成兩條鏈；部分只做比特幣的交易所已規劃在啟動窗口前後暫停出入金，Michael Saylor 與 Adam Back 等人則明確表態反對。此案上承 2017 年 SegWit 在礦工抵制下由節點端啟動的先例，核心爭點在於究竟由礦工、節點還是手續費市場決定比特幣區塊空間的用途。",
+          "更立即的風險落在散戶身上。開發者 Kevin Loaec 本週在社群平台 X 示警：一旦分裂發生，每名持有人會在兩條鏈上同時持有等額餘額，屆時可能有人以偏高價格收購「新鏈」的分叉幣，看似天上掉下來的免費資產。但因為分叉初期兩條鏈接受相同格式的交易、且沒有自動「重放保護」（replay protection），一筆為了賣出分叉幣而簽署的交易，可被對手方原封不動地在比特幣主鏈上重新廣播，導致賣方連真正的比特幣也被一併轉走，這就是所謂的「重放攻擊」（replay attack）；大額持有者可能被優先鎖定。開發者建議，不懂得如何切分兩鏈餘額的持有人，最安全的做法就是「什麼都不要做」——未曾移動的幣沒有已簽署的交易可供複製，也就無從被重放，這道防線要到九月初資料限制生效、能刻意產生只存在單一鏈上的幣後才較易解除。分裂是否真的發生、能否維持第二條鏈存活，仍取決於礦工、交易所與錢包商未來數日的協調，值得持續觀察。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
+            "url": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer"
+          },
+          {
+            "name": "CoinDesk",
+            "title": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
+            "url": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support"
+          }
+        ],
+        "social": [],
+        "context": [
+          {
+            "date": "2026-08-09",
+            "title": "BIP-110 強制訊號期正式於區塊 961,632 啟動，礦工支持率約 2.5%，訊號窗口約四週",
+            "body": "比特幣（Bitcoin）已於 8 月 8 日約 19:35（UTC）到達區塊高度 961,632，正式觸發 BIP-110（Bitcoin Improvement Proposal 110）備受爭議的「強制訊號期」（mandatory signaling），該提案意在暫時限制在網路上夾帶非金融資料。進入訊號期後，礦工的公開支持率鮮少超過 2.5%，遠不及改變共識規則所需的 55% 門檻；Strategy 董事長 Michael Saylor 與 Blockstream 執行長 Adam Back 等重量級人物亦已明確表態反對。此案循「使用者啟動軟分叉」（UASF）路線，改由節點端拒絕未表態支持的區塊、迫使礦工就範，支持者援引 2017 年 SegWit 經由 BIP-148 在礦工未達門檻下由用戶端啟動的先例。目前用戶採用 BIP-110 的立即效果，是拒絕幾乎全部算力正在延續的主鏈，理論上有可能出現主鏈與少數 BIP-110 節點鏈並存的短暫分裂，也可能因缺乏支持而停擺；此訊號窗口將延續至約區塊 965,664、預估約四週後結束。相關內容主要見於 CoinDesk。"
+          },
+          {
+            "date": "2026-08-09",
+            "title": "BIP-110 分叉鏈實際只挖出兩個區塊便停滯，算力占比過低、難度重算估需約 350 天",
+            "body": "8 月 8 日（週六）區塊高度 961,632 觸發強制訊號期後，實際跟隨 BIP-110（Bitcoin Improvement Proposal 110）的少數分叉鏈確實短暫出現，但在上線約八小時內只挖出兩個區塊便停滯，停在區塊 961,633；同一時間比特幣（Bitcoin）主鏈已推進到 961,681，兩者相差約 48 個區塊，等於將近一整天的交易量。第一個未表態的區塊由礦池 AntPool 挖出、主鏈接受而 BIP-110 節點拒絕，跟隨分叉鏈的替代區塊則由使用 Ocean 礦池的礦工產生。停滯的根本原因在於難度機制：比特幣每 2,016 個區塊才重算一次挖礦難度，分叉鏈沿用主鏈當前的高難度設定卻只有極少算力，出塊間隔被拉長到數小時一顆，監測站估計要約 350 天才能完成 2,016 個區塊以調低難度（主鏈僅需約 14 天）。過去兩週僅約 2.53% 的區塊表態支持，遠低於免分裂啟動所需的 55%。BIP-110 節點要求每個區塊都表態支持的兩週窗口將延續至區塊 963,647，以目前速度分叉鏈幾乎不可能抵達。由於兩條鏈仍接受相同格式的交易，先前開發者示警的重放（replay）風險依舊存在。相關內容主要見於 CoinDesk。"
+          }
+        ]
+      },
       {
         "date": "2026-08-08",
         "title": "美國參議院對加密市場結構法案 CLARITY Act 啟動首輪程序動作，已錯過休會前表決、九月闖關成敗未定",
@@ -614,47 +631,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-02",
-        "title": "DeFi 借貸平台 Spark 無限期擱置自有消費者 App，轉型為 Robinhood、PayPal 供應穩定幣流動性的後端",
-        "paras": [
-          "Spark 是 DeFi 生態系 Sky（前身為 MakerDAO、USDS 穩定幣（stablecoin）發行方）旗下的借貸與流動性單位，由 Phoenix Labs 開發。Phoenix Labs 執行長 Sam MacPherson 向 CoinDesk 表示，Spark 已於去年底把原本要與 Coinbase、PayPal、Robinhood 爭奪用戶的自有消費者 App「無限期擱置」，全面轉向 B2B／B2B2C 模式——不自建客戶關係，改為向用戶既有的 App 供應收益與流動性。最具代表性的案例是 Robinhood 的 Earn 產品：以約 7% 年化收益率（APY）吸收 USDG 存款，資金導入由 Steakhouse Financial 策劃、建在借貸協定 Morpho 上的鏈上金庫，Spark 的 spUSDG 是其三個資金配置來源之一；該金庫上線約 24 天內已吸引逾 2 億美元存款。",
-          "MacPherson 主張穩定幣市場正加速「碎片化」——PayPal 有 PYUSD、Circle 有 USDC、Tether 有 USDT，Robinhood 加入 Global Dollar（USDG）聯盟並自建區塊鏈，Stripe 與 Coinbase 則在 OpenUSD（OUSD）陣營；Spark 押注這些網路仍須互通，要當「在它們之間搬錢」的中介層。目前 Spark 已把約 1.5 億美元遷入 Uniswap v4 資金池，並以 DualPool 機制讓閒置資金留在自家金庫、僅在成交時即時撥入並於單一區塊內結清；首月佔 Uniswap 穩定幣互換量約三成、約導流 15 億美元。它並延續與 PayPal 深化 PYUSD 流動性的合作。此外，透過 Anchorage 承作的比特幣抵押 OTC 借貸目前未償約 2.6 億美元、已撥貸約 4 億美元，目標年底衝上 10 億美元；不過在空頭市場下，其年營收已從牛市高峰約 8,000 萬美元滑落至目前約 2,000 萬美元。相關內容目前主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Why a DeFi platform ditched its consumer app to become the secret backend for tech giants",
-            "url": "https://www.coindesk.com/web3/2026/08/02/why-a-defi-platform-ditched-its-consumer-app-to-become-the-secret-backend-for-tech-giants"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-02",
-        "title": "義大利央行研究：穩定幣跨境匯款未必更便宜，成本卡在法幣換匯與進出匝道",
-        "paras": [
-          "義大利央行（Banca d'Italia）發布編號第 86 號的「Markets, Infrastructures and Payment Systems」研究報告，以「神秘客」實測方式檢視 10 條國際匯款走廊，從義大利匯出 200 枚 USDC 至阿根廷、巴西、南非、阿聯（UAE）與日本等地。結果發現，一旦把「從銀行帳戶換成穩定幣、再換回當地法幣」的完整旅程都算進去，穩定幣（stablecoin，錨定法幣的數位代幣）匯款並未系統性地比傳統匯款業者便宜：端到端成本因走廊與服務商而異，落在約 0.3% 到近 9% 之間；結算時間也從支援即時支付系統的約 20 分鐘，到依賴傳統銀行轉帳時最長兩個營業日不等。",
-          "研究強調，區塊鏈本身很少是問題所在——鏈上的網路手續費（gas fee）只占總成本極小比例，真正的花費集中在鏈下：把歐元換成 USDC、把資金提領成當地法幣、外匯價差，以及交易所與當地銀行網路收取的費用。換言之，穩定幣的低成本優勢，只有在收付雙方都留在加密生態內（願意持有、直接花用 USDC 或找收受穩定幣的商家）時才真正成立；但多數收款人最終仍需換回當地法幣支付房租、採買與帳單，等於以另一批中介取代傳統的代理行。義大利央行同時指出，穩定幣「隨時可結算」與可程式化，仍是相對傳統支付軌道的優勢。該行並認為，隨著歐盟 MiCA 等監理框架下合規出金（off-ramp）業者增加、各地即時支付系統與數位資產基礎設施更緊密整合，換匯與轉換費用有望被競爭壓低，只是外匯價差恐仍難以完全消除。相關內容主要見於 CoinDesk 與義大利央行報告。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
-            "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances"
-          },
-          {
-            "name": "義大利央行 Banca d'Italia",
-            "title": "Markets, Infrastructures and Payment Systems Paper No. 86",
-            "url": "https://www.bancaditalia.it/pubblicazioni/mercati-infrastrutture-e-sistemi-di-pagamento/approfondimenti/2026-086/N.86-MISP.pdf?language_id=1"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-09T06:55:32Z"
+  "_generated_at": "2026-08-09T18:54:06Z"
 }
