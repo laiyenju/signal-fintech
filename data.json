@@ -94,8 +94,36 @@
       }
     ],
     "coverSocial": [],
-    "context": [],
+    "context": [
+      {
+        "date": "2026-08-09",
+        "title": "BIP-110 強制訊號期正式於區塊 961,632 啟動，礦工支持率約 2.5%，訊號窗口約四週",
+        "body": "比特幣（Bitcoin）已於 8 月 8 日約 19:35（UTC）到達區塊高度 961,632，正式觸發 BIP-110（Bitcoin Improvement Proposal 110）備受爭議的「強制訊號期」（mandatory signaling），該提案意在暫時限制在網路上夾帶非金融資料。進入訊號期後，礦工的公開支持率鮮少超過 2.5%，遠不及改變共識規則所需的 55% 門檻；Strategy 董事長 Michael Saylor 與 Blockstream 執行長 Adam Back 等重量級人物亦已明確表態反對。此案循「使用者啟動軟分叉」（UASF）路線，改由節點端拒絕未表態支持的區塊、迫使礦工就範，支持者援引 2017 年 SegWit 經由 BIP-148 在礦工未達門檻下由用戶端啟動的先例。目前用戶採用 BIP-110 的立即效果，是拒絕幾乎全部算力正在延續的主鏈，理論上有可能出現主鏈與少數 BIP-110 節點鏈並存的短暫分裂，也可能因缺乏支持而停擺；此訊號窗口將延續至約區塊 965,664、預估約四週後結束。相關內容主要見於 CoinDesk。"
+      }
+    ],
     "others": [
+      {
+        "date": "2026-08-08",
+        "title": "巴西央行新規要求加密交易所延遲大額跨境與自保管出金至多 24 小時，2027 年上路防詐",
+        "paras": [
+          "巴西央行（Banco Central do Brasil，BCB）8 月 7 日發布第 584/2026 號決議（Resolution BCB No. 584/2026），要求當地加密貨幣交易所在客戶把資金匯往境外平台或自我保管（self-custody）錢包時，對部分轉帳實施至多 24 小時的延遲，作為新反詐騙規範的一環，並自 2027 年 1 月 1 日正式生效。適用情境為客戶先以巴西法幣里爾（reais）或加密貨幣存入交易所，再要求把資金轉往境外或自己掌控的錢包；單筆或同日累計逾等值 1 萬美元的轉帳一律須經延遲審查，金額較小者若被交易所標記為高風險也可能被延後。這道延遲並非永久，交易所若風險審查未發現異常，可在 24 小時內提前放行，但須留存決策紀錄並告知客戶交易已被暫緩。",
+          "巴西央行表示，包括穩定幣（stablecoin，錨定法幣的數位代幣）在內的加密貨幣，正被用於在受害者或機構來得及追回前，快速轉移經由金融詐騙取得的資金。新規也把更多風險判斷責任交給交易所，要求其依客戶、交易、交易對手與目的地司法管轄區綜合評估。此舉等於把傳統反洗錢（AML）與防詐的「可疑交易延遲」機制，正式套用到加密資產的跨境與自保管出金環節，直接牽動當地交易所的合規系統與出金流程；巴西代幣化產業組織 Abtoken 主席 Regina Pedroso 則向當地媒體 Portal do Bitcoin 表示，這項政策恐對合法用戶增加成本、削弱本土交易所的競爭力。實際的技術落地細節與對跨境金流的影響仍待觀察，相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
+            "url": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad"
+          },
+          {
+            "name": "巴西央行 Banco Central do Brasil（決議原文）",
+            "title": "Resolução BCB No. 584, de 2026",
+            "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=584"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-08",
         "title": "Polymarket 改用時間加權均價結算短天期加密合約，回應學界揭露的結算價操縱與約 820 萬美元套利",
@@ -601,5 +629,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-08T18:56:32Z"
+  "_generated_at": "2026-08-09T00:51:52Z"
 }
