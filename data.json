@@ -92,6 +92,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-10",
+        "title": "萬事達卡完成 18 億美元收購穩定幣基礎設施商 BVNK，卡片網路加速卡位穩定幣支付軌道",
+        "paras": [
+          "支付網路巨頭萬事達卡（Mastercard）本週稍早完成對穩定幣（stablecoin，錨定法幣的數位代幣）基礎設施商 BVNK 的收購，交易金額約 18 億美元。BVNK 由來自南非的連續創業者創立，主攻以穩定幣處理跨境支付與企業資金調度（treasury）的基礎設施；早期投資人、創投公司 Concentric 於 2019 年以僅約 400 萬美元估值入股，如今隨這樁交易迎來豐厚出場。據 CoinDesk 引述 Concentric 創辦合夥人 Kjartan Rist，這場競逐一度由美股上市加密交易所 Coinbase 領先、開價上看 25 億美元；但 BVNK 創辦人最終因「理念契合」選擇萬事達卡，而非出價更高的 Coinbase。本身即為 BVNK 投資人、並握有董事會觀察席的 Visa，則決定不出手收購，改採與 Stripe 等業者合作的策略。",
+          "這樁交易凸顯大型卡片網路正加速把穩定幣納入自身支付軌道。導火線可回溯至 2024 年底 Stripe 以約 11 億美元收購穩定幣基礎設施商 Bridge，促使 Visa 與萬事達卡積極物色標的以免被超前；據 CoinGecko，全球穩定幣市值目前約 3,000 億美元，已成卡片網路與支付業者的必爭之地。BVNK 的實際應用包括讓大型支付公司改以穩定幣執行每 24 小時一輪的資金調度，以及協助擁有大量分散式接案人力的企業，直接以美元計價穩定幣支付身處高通膨國家的工作者，免去換成當地貨幣的匯損。值得注意的是，Stripe、Visa、萬事達卡與 Coinbase 四方近期也共同支持一個新的穩定幣平台並已上線，顯示傳統金融機構在加密市場整體降溫之際，仍持續押注穩定幣支付基礎設施。本則內容取自 CoinDesk 對 BVNK 早期投資人的專訪。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Inside stablecoin firm BVNK's journey to a $1.8B acquisition by Mastercard",
+            "url": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-09",
         "title": "本日觀察：比特幣 BIP-110「使用者啟動軟分叉」本週末進入強制訊號期，礦工支持率不到 3%，開發者警告賣出分叉幣恐遭重放攻擊連真正的比特幣一起被取走",
         "paras": [
@@ -634,5 +651,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-09T18:54:06Z"
+  "_generated_at": "2026-08-10T09:55:06Z"
 }
