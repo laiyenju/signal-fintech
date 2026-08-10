@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣仍無以金融科技為核心的新增重點事件",
       "paras": [
-        "過去 24 小時（台灣時間 8 月 9 日至 10 日凌晨），台灣財經版面主要由 6 月底 14 家金控帳上收益逾 9,400 億元、改寫新高，券商為防融資斷頭拉高預警線（擔保維持率低於 150% 即發示警通知）、主管機關研議主動管控槓桿型 ETF 信用交易、處置股新制上路，以及那斯達克（Nasdaq）啟動「全球交易時段」、美股單日最長交易拉長至 23 小時等市場與交易制度題材主導；科技版面則聚焦台積電、蘋果供應鏈、被動元件搶料與 AI 伺服器需求，社會版面則以白海豚颱風防災為主。上述內容多屬傳統金融獲利、股市交易制度、半導體供應鏈或總體經濟，未見以支付、數位銀行、開放銀行、金融基礎設施或數位資產為核心、且可查證的全新重大進展，因此今日暫不設「本日最重點」，改以觀察形式呈現。",
-        "本週稍早已收錄的八家銀行與台灣人工智慧實驗室（Taiwan AI Labs）以聯合學習（federated learning）訓練 AI 防詐模型、集保結算所（TDCC）規劃深化與美國 DTCC 合作強化複委託交割，以及金管會預告虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路等台灣金融科技進展，均仍列於下方本週要聞。待出現具體且可查證的金融科技事件，將即時更新本日最重點。"
+        "本時段掃描台灣主要財經與科技媒體，內容多集中在上市櫃公司七月營收、台股盤勢與處置股新制、傳統信用卡與財富管理行銷，以及一般房市與貨幣政策討論，尚未出現以支付、數位銀行、金融 API、監理科技或數位資產基礎設施為核心的重大新增事件。",
+        "為維持選稿品質，本日台灣區暫不新增當日最重點，既有的一週要聞清單維持不變；待出現真正以金融科技為核心、且證據充分的事件，會再更新為當日重點。"
       ]
     },
     "sources": [],
@@ -73,24 +73,46 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "tier": "watch",
-      "title": "美國 FDIC 擬為「銀行與金融科技合作」設獨立標準機構，串連銀行與 Fintech 產業公會、傳 OCC 數日內加入",
+      "title": "英國 FCA 研議「代幣化黃金」監管框架，盼守住倫敦全球金市地位並推進金融市場數位化",
       "paras": [
-        "據金融科技電子報 Fintech Brainfood 引述彭博（Bloomberg），美國聯邦存款保險公司（FDIC，Federal Deposit Insurance Corporation）正推動為「銀行與金融科技業者合作」（bank–fintech partnerships）建立一個獨立的標準制定機構。該機構將為與銀行合作的金融科技與第三方業者訂定基礎的風險管理標準，並由獨立評估方對業者進行認證審查。FDIC 並與美國銀行家協會（ABA）、獨立社區銀行家協會（ICBA）、Bank Policy Institute、金融科技協會（FTA）、American Fintech Council 與 CFES 等銀行及 Fintech 產業組織共同推進；據該電子報，FDIC 預計提供種子資金（seed funding），通貨監理署（OCC）也可望於數日內加入。",
-        "這被視為「銀行即服務」（BaaS，Banking as a Service，金融科技透過合作銀行提供存放款等受監理服務）問責架構的一次結構性補課：2024 年 4 月中介商 Synapse 倒閉，一度使終端用戶最多約 9,000 萬美元資金遭凍結，凸顯銀行與 Fintech 分工中「監理風險由誰承擔」長期模糊。不過此次標準採自願性、且不提供「安全港」（safe harbor，符合標準即獲免責的法律保護），能否真正拉齊各家 Fintech 的風險控管、產業實際採用意願，以及 OCC 是否如期加入，仍待正式方案與後續進展檢驗。目前公開可追溯的資訊，主要來自 Fintech Brainfood 引述彭博。"
+        "英國金融行為監理總署（FCA，Financial Conduct Authority）正與大型銀行等市場參與者展開諮詢，研擬「代幣化黃金」（tokenized gold，以區塊鏈數位代幣代表對實體金條的所有權、並以實體黃金作為儲備擔保）的監管框架。消息人士稱，相關標準最快數月內公布。FCA 目前對實體黃金現貨交易並無直接管轄權，但已監管黃金衍生性商品與交易所交易產品（ETP，Exchange-Traded Products）；此次討論的重點之一，是代幣化黃金未來如何在大宗商品市場中作為擔保品（collateral）使用。相關內容主要見於經濟日報與 CoinDesk。",
+        "此舉被視為英國金融市場數位化計畫的一環，核心動機在於守住倫敦在全球黃金交易的主導地位——世界黃金協會（World Gold Council）資料顯示倫敦約占全球黃金交易七成——並因應來自中國等地的競爭。不過目前僅止於監理機關與業者的諮詢與研擬階段，尚未提出正式規則，具體門檻、適用範圍與上路時程都要等 FCA 後續正式公布才能確認，代幣化黃金能否真正成為受監理的機構級抵押與交易工具，仍有待觀察。"
       ]
     },
     "sources": [
       {
-        "name": "Fintech Brainfood",
-        "title": "🧠 The FDIC wants a rulebook for bank fintech partnerships",
-        "url": "https://www.fintechbrainfood.com/p/fintech-rulebook"
+        "name": "經濟日報",
+        "title": "英國研議代幣化黃金監管",
+        "url": "https://money.udn.com/money/story/5599/9683144"
+      },
+      {
+        "name": "CoinDesk",
+        "title": "Why the UK financial watchdog is drafting new rules for tokenized gold",
+        "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-10",
+        "title": "美國 FDIC 擬為「銀行與金融科技合作」設獨立標準機構，串連銀行與 Fintech 產業公會、傳 OCC 數日內加入",
+        "paras": [
+          "據金融科技電子報 Fintech Brainfood 引述彭博（Bloomberg），美國聯邦存款保險公司（FDIC，Federal Deposit Insurance Corporation）正推動為「銀行與金融科技業者合作」（bank–fintech partnerships）建立一個獨立的標準制定機構。該機構將為與銀行合作的金融科技與第三方業者訂定基礎的風險管理標準，並由獨立評估方對業者進行認證審查。FDIC 並與美國銀行家協會（ABA）、獨立社區銀行家協會（ICBA）、Bank Policy Institute、金融科技協會（FTA）、American Fintech Council 與 CFES 等銀行及 Fintech 產業組織共同推進；據該電子報，FDIC 預計提供種子資金（seed funding），通貨監理署（OCC）也可望於數日內加入。",
+          "這被視為「銀行即服務」（BaaS，Banking as a Service，金融科技透過合作銀行提供存放款等受監理服務）問責架構的一次結構性補課：2024 年 4 月中介商 Synapse 倒閉，一度使終端用戶最多約 9,000 萬美元資金遭凍結，凸顯銀行與 Fintech 分工中「監理風險由誰承擔」長期模糊。不過此次標準採自願性、且不提供「安全港」（safe harbor，符合標準即獲免責的法律保護），能否真正拉齊各家 Fintech 的風險控管、產業實際採用意願，以及 OCC 是否如期加入，仍待正式方案與後續進展檢驗。目前公開可追溯的資訊，主要來自 Fintech Brainfood 引述彭博。"
+        ],
+        "sources": [
+          {
+            "name": "Fintech Brainfood",
+            "title": "🧠 The FDIC wants a rulebook for bank fintech partnerships",
+            "url": "https://www.fintechbrainfood.com/p/fintech-rulebook"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-10",
         "title": "萬事達卡完成 18 億美元收購穩定幣基礎設施商 BVNK，卡片網路加速卡位穩定幣支付軌道",
@@ -576,80 +598,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-03",
-        "title": "美國 SEC 喊停 Nasdaq 比特幣指數選擇權（QBTC）核准並將重審，CME 主張應歸 CFTC 管轄",
-        "paras": [
-          "美國證券交易委員會（SEC）已暫停 Nasdaq PHLX 先前對現金結算比特幣指數選擇權（cash-settled bitcoin index options，代碼 QBTC）的核准，並將重新審議此案，相關命令已於 7 月 31 日公開供外界閱覽。SEC 原於 2026 年 5 月給予有條件核准，讓 QBTC 得在證券市場掛牌，但產品上線前仍須取得美國商品期貨交易委員會（CFTC）豁免。芝加哥商品交易所集團（CME Group）6 月提出異議，主張比特幣屬於「商品（commodity）」，直接連結其價格的選擇權應由 CFTC 專屬管轄，而非 SEC。",
-          "此案凸顯 SEC 與 CFTC 對加密資產衍生性商品管轄權的長年拉鋸。CME 指出，若其主張成立，SEC 便無權核准 QBTC，Nasdaq 將須改以 CFTC 監管的期貨或交換（swaps）場所註冊，或把合約重新設計為追蹤某項證券（例如現貨比特幣 ETF）。CME 本身已營運受監理的比特幣期貨與選擇權，QBTC 則意在爭奪相同交易量卻未納入 CFTC 框架；異議書並警告此核准恐開先例，讓證券交易所得以掛牌其他商品的衍生性商品。SEC 命令維持凍結該核准，自 6 月 11 日 CME 提出異議起即已中止，並給予各方至 8 月 24 日提交支持或反對意見，QBTC 於全體委員完成重審前持續暫停。相關內容主要見於 CoinDesk 與 SEC 命令。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
-            "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge"
-          },
-          {
-            "name": "美國聯邦公報 Federal Register（SEC 命令）",
-            "title": "In the Matter of Nasdaq PHLX LLC; Order Granting Petition for Review and Scheduling Filing of Statements",
-            "url": "https://www.federalregister.gov/documents/2026/08/03/2026-15615/in-the-matter-of-nasdaq-phlx-llc-order-granting-petition-for-review-and-scheduling-filing-of"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-03",
-        "title": "貝萊德擴充代幣化現金平台，推出兩檔區塊鏈貨幣市場基金搶當穩定幣儲備管理商",
-        "paras": [
-          "全球最大資產管理業者貝萊德（BlackRock）於 8 月 3 日宣布擴充旗下代幣化現金平台，推出兩檔代幣化貨幣市場基金產品，相關產品已於今年 5 月向美國證券交易委員會（SEC）遞件。其一是把既有貨幣市場基金 BlackRock Select Treasury Based Liquidity Fund（BSTBL）在以太坊（Ethereum）上發行代幣化股份級別；其二是全新的 BlackRock Daily Reinvestment Stablecoin Reserve Vehicle（BRSRV），主打股息每日再投資，並可跨多條區塊鏈存取。貝萊德表示，兩檔基金都打算符合《GENIUS Act》下、獲准的美國支付型穩定幣（stablecoin）發行商可採用的「合格儲備資產」資格。",
-          "此舉深化貝萊德在代幣化（tokenization，把基金、債券、股票等傳統金融資產以區塊鏈形式表彰）的布局，支持者主張這類技術可加快結算、支援全天候交易並提升透明度。財務長 Martin Small 在 2026 年第二季法說會上直言，公司要成為業界首選的穩定幣儲備管理商，並透露貝萊德已為 USDC 發行商 Circle 管理約 600 億美元儲備，而 Circle 約占 3,000 億美元穩定幣市場的四分之一。美國貨幣市場基金規模已逾 8.4 兆美元，貝萊德現金管理部門管理近 1.073 兆美元的現金策略。現金管理業務全球產品與平台主管 Jon Steel 稱，支撐穩定幣與其他代幣化金融產品的高品質儲備資產需求正在上升；新產品能讓客戶在傳統與數位市場間，多一種運用貨幣市場基金的管道。後續值得觀察的是這兩檔產品能吸引多少資產、以及正式上線與跨鏈支援的時程，目前相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "BlackRock expands tokenized cash with new blockchain-based money market offerings",
-            "url": "https://www.coindesk.com/business/2026/08/03/blackrock-expands-tokenized-cash-with-new-blockchain-based-money-market-offerings"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-04",
-            "title": "貝萊德再把代幣化現金平台擴至歐洲，為約 3,110 億美元歐洲貨幣市場基金推出代幣化級別",
-            "body": "繼在美國擴充代幣化現金平台後一天，貝萊德（BlackRock）8 月 4 日再宣布把代幣化服務延伸到歐洲，為合計約 3,110 億美元資產的歐洲貨幣市場基金推出代幣化存取。此次橫跨 6 檔基金、15 個歐洲市場，一次推出 12 個符合歐盟 UCITS 規範的代幣化級別，涵蓋英鎊、歐元與美元計價；這批「機構現金系列」（Institutional Cash Series）貨幣市場基金與摩根大通（JPMorgan）合作、建置於該行的 Kinexys 平台，上線市場包括英國、法國、德國、愛爾蘭、盧森堡、荷蘭、西班牙、瑞典與新加坡等。貝萊德鎖定既有已用貨幣市場基金管理營運與備援現金的企業財務長，以及橫跨傳統與數位市場的資產管理者與投資顧問。據資料商 rwa.xyz，代幣化真實世界資產（RWA）市場過去一年成長逾 200%、規模已逾 300 億美元，花旗（Citi）並預估代幣化證券到 2030 年可達 5.5 兆美元。相關內容主要見於 CoinDesk。"
-          }
-        ]
-      },
-      {
-        "date": "2026-08-03",
-        "title": "Visa 斥資 24 億美元收購行為生物辨識防詐商 BioCatch，把詐騙防線推進到帳戶接管與 AI 詐騙的行為層",
-        "paras": [
-          "支付網路巨頭 Visa 於 8 月 3 日宣布，將以 24 億美元現金，向私募股權業者 Permira 等股東收購總部位於以色列特拉維夫的行為生物辨識（behavioral biometrics，以使用者操作行為特徵辨識身分）防詐公司 BioCatch。BioCatch 以人工智慧與機器學習分析上千種訊號——包括打字節奏、觸控壓力、滑鼠與裝置操作習慣，甚至使用者疑似遭脅迫的跡象——藉此區分真人與盜用帳號的詐騙者或機器人。公司稱其技術每月分析 190 億次網路銀行工作階段（session）、在約 18 億台裝置上保護 7.6 億名用戶，客戶涵蓋 21 國逾 350 家金融機構、包含全球逾百家大型銀行。此交易仍待監理核准，Visa 預期於其 2027 會計年度第二季底前完成。",
-          "Visa 估計，詐騙與帳戶接管（account takeover）每年造成全球經濟逾 1 兆美元損失。這樁收購是 Visa 擴張「加值服務」（value-added services，向金融機構銷售防詐、資安與分析軟體）業務的最新一步，該部門已是公司成長最快的事業之一；此前 Visa 才以約 10 億美元收購防詐公司 Featurespace。此舉顯示支付網路正把防詐能力從交易授權當下，往前推進到登入與操作的身分與行為驗證層，把偵測詐騙的時點提前到扣款發生之前。實際整合範圍、對既有客戶的效果與監理審查結果仍待觀察，相關內容主要見於 CNBC、Visa 投資人關係公告與 Payments Dive。"
-        ],
-        "sources": [
-          {
-            "name": "CNBC",
-            "title": "Visa to buy fraud-detection firm BioCatch for $2.4 billion",
-            "url": "https://www.cnbc.com/2026/08/03/visa-buys-biocatch-fraud-detection.html"
-          },
-          {
-            "name": "Visa（投資人關係）",
-            "title": "Visa to Acquire BioCatch",
-            "url": "https://investor.visa.com/news/news-details/2026/Visa-to-Acquire-BioCatch/default.aspx"
-          },
-          {
-            "name": "Payments Dive",
-            "title": "Visa to acquire BioCatch for $2.4B",
-            "url": "https://www.paymentsdive.com/news/visa-to-buy-biocatch-for-24b/826816/"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-10T09:55:06Z"
+  "_generated_at": "2026-08-10T18:56:52Z"
 }
