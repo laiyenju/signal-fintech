@@ -98,6 +98,28 @@
     "others": [
       {
         "date": "2026-08-11",
+        "title": "Coinbase 取得阿布達比 FSRA 牌照設國際代幣化樞紐，將在美國以外發行以股票為擔保的代幣化證券",
+        "paras": [
+          "美股掛牌加密貨幣交易所 Coinbase（COIN）宣布，取得阿布達比全球市場（ADGM，Abu Dhabi Global Market）金融服務監理局（FSRA，Financial Services Regulatory Authority）核發的金融服務許可（Financial Services Permission），將在當地設立國際代幣化（tokenization，把傳統資產以區塊鏈形式表彰）樞紐，作為在美國以外把傳統證券搬上鏈的受監理基地。依牌照，Coinbase 可安排投資交易並為代幣化證券提供託管，並規劃發行以相應股票為擔保的數位證券，代幣將在 ADGM 登記發行、受 FSRA 監理。Coinbase Institutional 共同執行長 Brett Tejpaul 稱，目前尚無主要金融中心建立能同時把代幣化股票視為證券、區塊鏈原生代幣與可組合 DeFi 資產的框架。",
+          "此舉正值代幣化在傳統金融加速滲透——全球資產管理業者與銀行競相把基金、債券、私募信貸與股票搬上鏈，主張可實現全天候轉讓、近即時結算，未來並作為鏈上市場的擔保品（collateral）。阿布達比自 2018 年推出虛擬資產監理框架以來，已成為區域內業者尋求受監理基地的試驗場：Coinbase 早在 2023 年就以旗下 Base 區塊鏈啟動面向機構的 Project Diamond，上月阿布達比主權基金旗下 Mubadala Capital 也透過當地基礎設施商 KAIO 把一項私募市場策略代幣化、Coinbase 並取得該基金部位。新的阿布達比業務將與 Coinbase 設在杜拜的衍生品業務並列，使其在阿聯（UAE）擁有兩個拓展美國以外業務的據點。相關內容主要見於 CoinDesk 與 Coinbase 官方公告。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Coinbase picks Abu Dhabi for its global tokenized asset push",
+            "url": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push"
+          },
+          {
+            "name": "Coinbase（官方部落格）",
+            "title": "Coinbase establishes its tokenization hub in Abu Dhabi",
+            "url": "https://www.coinbase.com/blog/coinbase-establishes-its-tokenization-hub-in-abu-dhabi"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-11",
         "title": "美國 SEC 排定 8/14 開會提出「Regulation Crypto」，擬為數位資產發行建立首套正式規則、讓業者募資免觸發證券註冊",
         "paras": [
           "美國證券交易委員會（SEC）於週一晚間發布會議通知，訂於 8 月 14 日（週五）由三名（皆為共和黨籍）委員開會，提出並公開徵詢其首部針對加密資產的正式規則「Regulation Crypto」（Reg Crypto）。這是 SEC 主席 Paul Atkins 加密監理計畫的核心目標之一——過去 SEC 多以幕僚政策聲明（staff statements）闡明立場，但缺乏長期效力，正式規則（rulemaking）日後較難被推翻。據 CoinDesk，此規則將為「特定投資契約」（investment contracts）量身打造一套發行規範，讓加密業者能在不觸發 SEC 註冊要求的情況下為專案募資，並在不再實際主導專案運作時，取得脫離 SEC 管轄的「退場路徑」（exit path）。",
@@ -187,6 +209,11 @@
             "date": "2026-08-11",
             "title": "BIP-110 分叉鏈落後主鏈逾 320 個區塊，難度自救時程從約 350 天暴增至約 6.3 年",
             "body": "自 8 月 8 日（週六）分裂以來，跟隨 BIP-110（Bitcoin Improvement Proposal 110）的分叉鏈仍停在其第二個區塊（961,633）動彈不得，同期比特幣（Bitcoin）主鏈已推進至 961,959、領先約 326 個區塊。分叉鏈停滯的根本原因在於它沿用分裂當下與主鏈相同的高挖礦難度，卻幾乎沒有算力支持，而其分叉幣沒有市場、沒有交易所掛牌、也沒有買家；要調降難度，須先以目前的龜速挖完 2,016 個區塊。追蹤網站的估算已從週日的約 350 天飆升至約 6.3 年，且每閒置一小時就再往後延，相較之下主鏈下次難度調整僅約 12 天後到來。BIP-110 原需礦工於兩週內以 55% 的區塊表態支持才能免分裂啟動，實際峰值僅約 2.6%。不過 Arch 共同創辦人 Himanshu Sahay 認為，改變比特幣規則須靠礦工、開發者與生態系協調，現在就斷言此案「失敗」仍為時過早。相關內容主要見於 CoinDesk。"
+          },
+          {
+            "date": "2026-08-11",
+            "title": "BIP-110 主要推手 Luke Dashjr 遭拔除比特幣 BIP 編輯職務，本人稱「濫權」並宣布自 Ocean 礦池休假",
+            "body": "BIP-110（Bitcoin Improvement Proposal 110）分叉近乎停擺後，該提案主要推手、比特幣（Bitcoin）核心開發者 Luke Dashjr 於 8 月 9 日遭其他開發者提案、並隨即通過拔除其「BIP 編輯」（負責審核比特幣改進提案的職務）身分。開發者 Mark Erhardt 指控 Dashjr 濫用編輯職權，包括在提案尚未經討論前就逕自指派 BIP 編號、未依正當程序即把更新併入程式庫，並指他自 2024 年 4 月新增編輯以來幾乎未參與日常審核、留言佔比不到 1%。Dashjr 在社群平台 X 稱此舉為「濫權」、先前也否認指控，並表示將自其擔任董事長暨技術長的 Ocean 礦池「休假」，把重心轉向支援比特幣與開源專案。BIP-110 意在暫時限制在比特幣網路夾帶圖片、文字等非金融資料（此用法隨 2023 年 Ordinals 協定興起而流行），但礦工支持率僅約 2.6%、遠低於 55% 門檻，分叉鏈挖出兩個區塊後即停滯。相關內容主要見於 CoinDesk。"
           }
         ]
       },
@@ -634,5 +661,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-11T06:53:53Z"
+  "_generated_at": "2026-08-11T12:55:37Z"
 }
