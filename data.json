@@ -98,6 +98,45 @@
     "others": [
       {
         "date": "2026-08-11",
+        "title": "加密友善銀行 Erebor 傳以約 95 億美元估值洽募 15 億美元，成立一年存款規模衝上 46 億美元",
+        "paras": [
+          "英國《金融時報》（Financial Times）引述知情人士指出，主打科技客群的美國銀行 Erebor 正進入洽談後段，準備募集約 15 億美元，交易將使這家成立僅約一年的銀行估值來到約 95 億美元；相較今年稍早募資時的 43.5 億美元估值，短短數月內幾乎翻倍。Lux Capital、Human Capital、Valor Equity Partners、Andreessen Horowitz（a16z）與 SV Angel 預期將大額投入，既有股東 8VC 與 Haun Ventures 也將參與。募資背景是 Erebor 存款與放款業務同步擴張——截至 7 月底存款達 46 億美元，較 3 月底的 11 億美元大幅跳增。",
+          "Erebor 鎖定加密貨幣、人工智慧、國防與製造業客戶，也服務支付公司、投資基金與交易商，規劃業務涵蓋存款、信貸、穩定幣（stablecoin）產品、資金管理與支付。該行於今年 2 月取得美國最終營運核准，監理要求它在頭三年維持至少 12% 的槓桿比率（leverage ratio），使這輪新資本對其擴張中的資產負債表格外重要。放款方面，Erebor 已為核能新創 Valar Atomics 主辦一筆 2 億美元信貸額度、擔任行政代理，並與 JPMorgan、Crescent Cove 及 Hercules Capital 合作。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT",
+            "url": "https://www.coindesk.com/business/2026/08/11/crypto-friendly-bank-erebor-in-talks-to-raise-usd1-5-billion-at-usd9-5-billion-valuation-ft"
+          },
+          {
+            "name": "Financial Times",
+            "title": "Erebor in talks to raise about $1.5bn",
+            "url": "https://www.ft.com/content/eae5a1cc-5d15-48c9-9d24-2b7094fda5ba"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-11",
+        "title": "匯款龍頭 MoneyGram 把「加密兌現金」服務 Ramps 拓展至 Solana，串接穩定幣與逾 170 國取現網路",
+        "paras": [
+          "全球匯款業者 MoneyGram 宣布，其現金與加密貨幣互轉基礎設施 MoneyGram Ramps 正式開放給建構在 Solana（SOL）區塊鏈上的錢包、交易所與開發者。這項服務讓使用者透過 MoneyGram 的支付網路，把加密資產兌換成當地貨幣、或以現金換取數位資產，而每個加密應用不必再各自去對接銀行與現金據點。Ramps 支援逾 25 個國家的現金存入、逾 170 個國家與地區的取現，背後串接的是 MoneyGram 服務約 6,000 萬名活躍客戶的實體網路。",
+          "此舉呼應穩定幣（stablecoin）從加密交易走向支付與跨境匯款的趨勢——金融科技業者、銀行與支付公司愈來愈常以美元穩定幣搬移資金，繞開層層代理行。MoneyGram 布局區塊鏈已有數年：2022 年與 Stellar 基金會合作、讓用戶透過門市在現金與 Circle 的 USDC 之間轉換；今年 6 月推出由 Stripe 旗下 Bridge 發行、架在 Stellar 上的自有美元穩定幣 MGUSD，並成為 Solana 的驗證者（validator），同時名列 Stripe 主導的 Open USD 穩定幣計畫夥伴。執行長 Anthony Soohoo 表示，把 Ramps 帶到 Solana 是打造「真正開放、全球化支付網路」的又一步。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "MoneyGram expands on Solana with global crypto-to-cash service",
+            "url": "https://www.coindesk.com/business/2026/08/10/moneygram-expands-on-solana-with-global-crypto-to-cash-service"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-11",
         "title": "Coinbase 取得阿布達比 FSRA 牌照設國際代幣化樞紐，將在美國以外發行以股票為擔保的代幣化證券",
         "paras": [
           "美股掛牌加密貨幣交易所 Coinbase（COIN）宣布，取得阿布達比全球市場（ADGM，Abu Dhabi Global Market）金融服務監理局（FSRA，Financial Services Regulatory Authority）核發的金融服務許可（Financial Services Permission），將在當地設立國際代幣化（tokenization，把傳統資產以區塊鏈形式表彰）樞紐，作為在美國以外把傳統證券搬上鏈的受監理基地。依牌照，Coinbase 可安排投資交易並為代幣化證券提供託管，並規劃發行以相應股票為擔保的數位證券，代幣將在 ADGM 登記發行、受 FSRA 監理。Coinbase Institutional 共同執行長 Brett Tejpaul 稱，目前尚無主要金融中心建立能同時把代幣化股票視為證券、區塊鏈原生代幣與可組合 DeFi 資產的框架。",
@@ -661,5 +700,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-11T12:55:37Z"
+  "_generated_at": "2026-08-11T15:52:51Z"
 }
