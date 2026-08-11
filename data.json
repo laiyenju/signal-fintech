@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣仍無以金融科技為核心的新增重點事件",
       "paras": [
-        "本時段掃描台灣主要財經與科技媒體，內容多集中在上市櫃公司七月營收、台股盤勢與處置股新制、傳統信用卡與財富管理行銷，以及一般房市與貨幣政策討論，尚未出現以支付、數位銀行、金融 API、監理科技或數位資產基礎設施為核心的重大新增事件。",
-        "為維持選稿品質，本日台灣區暫不新增當日最重點，既有的一週要聞清單維持不變；待出現真正以金融科技為核心、且證據充分的事件，會再更新為當日重點。"
+        "本時段掃描台灣主要財經與科技媒體，內容多集中在上市櫃公司第二季獲利與七月營收、台股法說會行情與台積電董事會決議、傳統信用卡簽帳金額與例行裁罰，以及壽險長照、公股金融整併等討論，尚未出現以支付、數位銀行、金融 API、監理科技或數位資產基礎設施為核心的重大新增事件。",
+        "目前台灣區暫無可列為當日最重點的新增事件，一週要聞清單維持既有內容、僅汰除超過保留期的舊聞。待出現真正以支付、數位銀行、金融 API、監理科技或數位資產基礎設施為核心、且證據充分的事件，將即時更新為當日重點。"
       ]
     },
     "sources": [],
@@ -29,68 +29,34 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "台灣集保結算所規劃深化與美國 DTCC 合作，直接取得公司行動資料強化複委託交割基礎設施",
-        "paras": [
-          "台灣集中保管結算所（集保結算所，TDCC）董事長林丙輝表示，集保結算所規劃與美國證券集中保管結算公司（DTCC，Depository Trust & Clearing Corporation）深化合作，直接取得 DTCC 的公司行動（corporate action，如配息、分割、合併等會影響持股權益的公司事件）資料。他強調，此舉目的不只是改善單一機構的作業效率，更要把美國市場的結算交割與資料服務能力，轉化為台灣複委託（國內券商受託買賣外國有價證券）市場可以共同運用的基礎設施。",
-          "複委託交易牽涉跨境託管、結算與大量公司行動資料的比對處理，長期仰賴人工作業、容易出錯且時效有限。由國內集中保管與結算的核心機構出面，直接介接美國最大集中結算機構的資料源，等於把跨境交割與資料服務打造成產業共用的後台基礎設施，有助降低各券商各自處理的成本與風險。實際的介接範圍、資料項目與正式上線時程仍待進一步公布，相關內容主要見於中央社。"
-        ],
-        "sources": [
-          {
-            "name": "中央社 CNA（財經）",
-            "title": "台美集保結算機構合作　強化複委託交割安全及服務",
-            "url": "https://www.cna.com.tw/news/afe/202608040331.aspx"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "金管會預告修法，虛擬資產「轉帳規則」（Travel Rule）10 月分階段上路，逾 3 萬元轉帳須加碼揭露",
-        "paras": [
-          "金管會 8 月 4 日預告修正「提供虛擬資產服務之事業或人員防制洗錢及打擊資恐辦法」，正式把虛擬資產的「轉帳規則」（Travel Rule，要求虛擬資產移轉時附帶交易雙方身分資訊）納入法規。依規劃，今年 10 月先對境內虛擬資產服務業者（VASP，Virtual Asset Service Provider）上路：所有虛幣移轉都須附上交易雙方姓名、錢包資訊等，單筆逾新台幣 3 萬元者再加碼揭露；2027 年底則擴及跨境交易。",
-          "這是台灣繼今年 6 月底立法院三讀通過《虛擬資產服務法》後，虛擬資產反洗錢（AML）與防制資恐（CFT）合規框架的具體推進，等於把國際通行的 Travel Rule 正式落地為台灣 VASP 的法遵義務，直接牽動幣商在客戶身分驗證（KYC）、跨平台轉帳與系統介接上的建置。中華民國虛擬通貨商業同業公會（VASP 公會）對此發出聲明，高度肯定主管機關採分階段實施的務實規劃，並將持續扮演主管機關與產業間的溝通橋樑；完整的技術規格、資料傳遞標準與各階段細則仍待金管會後續公布。相關內容主要見於經濟日報。"
-        ],
-        "sources": [
-          {
-            "name": "經濟日報",
-            "title": "虛幣跨平台轉帳10月起要實名追蹤了 金管會：逾3萬元交易加碼揭露",
-            "url": "https://money.udn.com/money/story/5613/9670750"
-          },
-          {
-            "name": "經濟日報",
-            "title": "Travel Rule 分階段實施 中華民國虛擬通貨商業同業公會發聲明",
-            "url": "https://money.udn.com/money/story/11162/9670760"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-08-11",
-      "tier": "watch",
-      "title": "英國 FCA 研議「代幣化黃金」監管框架，盼守住倫敦全球金市地位並推進金融市場數位化",
+      "date": "2026-08-12",
+      "tier": "top",
+      "title": "以色列券商 eToro 宣布收購美國券商 TradeZero、金額上看 2.31 億美元，加速美國市場擴張",
       "paras": [
-        "英國金融行為監理總署（FCA，Financial Conduct Authority）正與大型銀行等市場參與者展開諮詢，研擬「代幣化黃金」（tokenized gold，以區塊鏈數位代幣代表對實體金條的所有權、並以實體黃金作為儲備擔保）的監管框架。消息人士稱，相關標準最快數月內公布。FCA 目前對實體黃金現貨交易並無直接管轄權，但已監管黃金衍生性商品與交易所交易產品（ETP，Exchange-Traded Products）；此次討論的重點之一，是代幣化黃金未來如何在大宗商品市場中作為擔保品（collateral）使用。相關內容主要見於經濟日報與 CoinDesk。",
-        "此舉被視為英國金融市場數位化計畫的一環，核心動機在於守住倫敦在全球黃金交易的主導地位——世界黃金協會（World Gold Council）資料顯示倫敦約占全球黃金交易七成——並因應來自中國等地的競爭。不過目前僅止於監理機關與業者的諮詢與研擬階段，尚未提出正式規則，具體門檻、適用範圍與上路時程都要等 FCA 後續正式公布才能確認，代幣化黃金能否真正成為受監理的機構級抵押與交易工具，仍有待觀察。"
+        "在那斯達克掛牌的以色列線上券商 eToro（美股代號 ETOR）8 月 11 日隨第二季財報宣布，將以現金加股票、總額上看 2.31 億美元收購美國券商 TradeZero，預計 2027 年上半年完成、仍待監理核准。TradeZero 提供美股與選擇權的零佣金交易，並主打針對放空（short selling）交易者的工具；據 eToro，其在截至今年 6 月的過去 12 個月約有 8,000 萬美元營收。雙方均未揭露 TradeZero 的加密貨幣、區塊鏈或代幣化計畫，因此這樁交易目前主要是 eToro 強化美國券商業務與客群通路的布局，也是 eToro 今年簽下的第三樁收購案。",
+        "這樁收購揭示於 eToro 交易動能明顯轉向股票之際。同日財報顯示，第二季整體淨貢獻（net contribution）年增 9% 至 2.29 億美元，主要由股票交易帶動，計息帳戶數年增 18% 至 428 萬戶，調整後稀釋每股盈餘 0.68 美元優於分析師預估的 0.61 美元。加密貨幣業務則明顯降溫：第二季加密資產營收約 13.5 億美元、年減約 29%，加密交易由去年同期獲利 3,770 萬美元轉為虧損 720 萬美元，7 月加密交易筆數亦年減 73%。財報與收購公布後，eToro 股價一度下跌約 12% 至約 29.80 美元；執行長 Yoni Assia 稱公司「繳出又一個強勁的一季」，並表示正開發鏈上永續合約（perpetual futures）與加密購買力等新功能。相關內容主要見於 CoinDesk 與 eToro 財報及收購新聞稿。"
       ]
     },
     "sources": [
       {
-        "name": "經濟日報",
-        "title": "英國研議代幣化黃金監管",
-        "url": "https://money.udn.com/money/story/5599/9683144"
+        "name": "CoinDesk",
+        "title": "EToro reports second quarter crypto loss even as total profit beats estimates",
+        "url": "https://www.coindesk.com/business/2026/08/11/digital-broker-etoro-reports-q2-crypto-revenue-dropped-120-compared-to-2025"
       },
       {
-        "name": "CoinDesk",
-        "title": "Why the UK financial watchdog is drafting new rules for tokenized gold",
-        "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold"
+        "name": "eToro（新聞稿）",
+        "title": "eToro to Acquire TradeZero to Accelerate US Expansion",
+        "url": "https://www.globenewswire.com/news-release/2026/08/11/3342552/0/en/etoro-to-acquire-tradezero-to-accelerate-us-expansion.html"
+      },
+      {
+        "name": "eToro（新聞稿）",
+        "title": "eToro Reports Second Quarter 2026 Results",
+        "url": "https://www.globenewswire.com/news-release/2026/08/11/3342553/0/en/etoro-reports-second-quarter-2026-results.html"
       }
     ],
     "coverSocial": [],
@@ -174,6 +140,28 @@
             "name": "美國證券交易委員會 SEC（會議通知）",
             "title": "Sunshine Act Notice — Open Meeting, Aug. 14, 2026",
             "url": "https://www.sec.gov/newsroom/meetings-events/sunshine-act-notice-open-081426"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-11",
+        "title": "英國 FCA 研議「代幣化黃金」監管框架，盼守住倫敦全球金市地位並推進金融市場數位化",
+        "paras": [
+          "英國金融行為監理總署（FCA，Financial Conduct Authority）正與大型銀行等市場參與者展開諮詢，研擬「代幣化黃金」（tokenized gold，以區塊鏈數位代幣代表對實體金條的所有權、並以實體黃金作為儲備擔保）的監管框架。消息人士稱，相關標準最快數月內公布。FCA 目前對實體黃金現貨交易並無直接管轄權，但已監管黃金衍生性商品與交易所交易產品（ETP，Exchange-Traded Products）；此次討論的重點之一，是代幣化黃金未來如何在大宗商品市場中作為擔保品（collateral）使用。相關內容主要見於經濟日報與 CoinDesk。",
+          "此舉被視為英國金融市場數位化計畫的一環，核心動機在於守住倫敦在全球黃金交易的主導地位——世界黃金協會（World Gold Council）資料顯示倫敦約占全球黃金交易七成——並因應來自中國等地的競爭。不過目前僅止於監理機關與業者的諮詢與研擬階段，尚未提出正式規則，具體門檻、適用範圍與上路時程都要等 FCA 後續正式公布才能確認，代幣化黃金能否真正成為受監理的機構級抵押與交易工具，仍有待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "經濟日報",
+            "title": "英國研議代幣化黃金監管",
+            "url": "https://money.udn.com/money/story/5599/9683144"
+          },
+          {
+            "name": "CoinDesk",
+            "title": "Why the UK financial watchdog is drafting new rules for tokenized gold",
+            "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold"
           }
         ],
         "social": [],
@@ -551,154 +539,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "Open USD 聯盟來勢洶洶重挫 Circle 股價，但 Coinbase、Visa、Mastercard 高層以「多幣策略」定調、未棄 USDC",
-        "paras": [
-          "一個月前 Open Standard 推出由 Coinbase、Visa、Mastercard 力挺的穩定幣（stablecoin）Open USD（OUSD），被投資人解讀為直接挑戰 Circle 與其規模約 720 億美元的 USDC，一度抹去 Circle 數十億美元市值、股價最深下挫達 20% 且尚未回補，該聯盟並揭示逾 140 家啟動夥伴。這反映穩定幣市場結構的轉變：過去由 Circle 等少數加密原生發行商主導，如今隨監理鬆綁，銀行、支付網路與金融科技業者紛紛投入發行或分發數位美元，競爭也從單純「發幣」延伸到掌握支付軌道、交易所與金融平台等通路。",
-          "不過幾家主要支持者近期法說會的說法更為微妙。Coinbase 財務長 Alesia Haas 稱已符合與 Circle 的續約條件、將持續壯大 USDC 生態，執行長 Brian Armstrong 強調公司是「多穩定幣平台」，現已支援 USDC、USDT 與 PayPal 的 PYUSD，OUSD 只是帶來額外商機；Visa 執行長 Ryan McInerney 自稱「多幣、多鏈」，直言「我們的角色不是選出贏家」，Visa 上月推出的穩定幣平台則以 OUSD 為首個支援代幣；Mastercard 執行長 Michael Miebach 也說 OUSD 不過是「網路上會再支援的一種幣」。多位分析師也認為市場過度解讀了啟動夥伴名單。ARK Invest 的 Lorenzo Valente 形容各家的承諾「更接近意向書而非策略押注」；Clear Street 的 Owen Lau 指出，USDC 與 USDT 已具深厚流動性與網路效應，實際採用門檻遠高於簽下夥伴。Dragonfly 的 Rob Hadick 則研判真正推手是 Stripe，而 Visa 與 Mastercard 因同時服務競爭對手，傾向保持中立。相關動態主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Open USD rattled Circle's stock, but its key backers still support USDC",
-            "url": "https://www.coindesk.com/business/2026/08/03/open-usd-rattled-circle-s-stock-but-its-key-backers-still-support-usdc"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "分析師：三星為逾 8 億支手機的 Samsung Wallet 預設內建穩定幣，可望成為穩定幣主要通路商",
-        "paras": [
-          "據 CoinDesk，多位分析師認為，三星電子（Samsung）可望成為穩定幣（stablecoin，錨定法幣的數位代幣）的主要通路商。三星在近期 Galaxy Unpacked 2026 發表會宣布，將為超過 8 億支新智慧型手機的 Samsung Wallet 預設內建穩定幣功能，包含錨定法幣的儲蓄與支付帳戶。Samsung Wallet 目前於 61 國提供、光南韓就有近 1,900 萬名用戶，全球在用的三星手機更超過 10 億支；加密投資顧問公司 Areta 亞太主管 Joseph Goh 直言「通路才是這裡的稀缺資產，而三星握有大量通路」，認為此舉能讓三星成為 USDC 等穩定幣的主要分發者。",
-          "這並非三星首度跨足加密——早在 2019 年，它就在 Galaxy 手機推出以硬體隔離的 Knox 保管數位資產錢包。分析師指出，這波錢包整合只是三星「同一套策略的一半」，另一半是基礎設施布局：三星旗下三星證券、三星 SDS 與三星卡今年 5 月以 4.08 億美元收購南韓最大加密交易所 Upbit 營運商 Dunamu 約 4% 股權，三星 SDS 執行長並在法說會表示，此舉是進軍包含穩定幣與 AI 支付在內數位資產基礎設施的策略投資。南韓今年 4 月已公布《數位資產基本法》草案，為穩定幣發行與監理鋪路，但尚無通過時程。三星並未公布用戶採用預估或現有加密用戶數，實際普及仍待觀察，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
-            "url": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "Robinhood 預測市場交易收入首度超車股票與加密貨幣，事件合約成新成長引擎",
-        "paras": [
-          "金融科技券商 Robinhood 公布 2026 年第二季財報，旗下「事件合約」（event contracts，又稱預測市場 prediction markets）業務的交易收入，首度同時超越股票與加密貨幣，成為公司最大的單一交易收入來源。據金融科技電子報 Fintech Brainfood 整理，該季總交易收入約 7.76 億美元、年增約 44%，其中選擇權貢獻約 3.42 億美元、事件合約約 1.56 億美元、股票約 1.29 億美元，加密貨幣則約 1 億美元、年減約 38%。",
-          "這顯示預測市場正從邊緣題材快速長成主流金融科技券商的核心產品線。這波動能與整體預測市場產業近期的擴張同步：受美國商品期貨交易委員會（CFTC）監理的 Kalshi 估值攀高，Coinbase、Robinhood 也相繼透過事件合約把這類產品推向更廣客群。不過事件合約在美國多州仍深陷「究竟屬聯邦監理的衍生性商品，還是各州監理的賭博」的法律爭議，這波高速成長能否延續仍有待觀察，目前相關數據主要見於 Fintech Brainfood 整理的 Robinhood 財報。"
-        ],
-        "sources": [
-          {
-            "name": "Fintech Brainfood",
-            "title": "Robinhood bets",
-            "url": "https://www.fintechbrainfood.com/p/robinhood-bets"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "印度立法為 UPI 即時支付網路鋪路收費機制，擬終結 2020 年來「商家零手續費」制度",
-        "paras": [
-          "印度國會通過新法，為其國家級即時支付系統「統一支付介面」（UPI，Unified Payments Interface）建立可收費的商業模式鋪路。這部法律本身並未直接開徵費用，而是替日後政策鬆綁預留空間——自 2020 年 1 月起，印度對 UPI 交易實施「零商家折扣率」（zero-MDR，merchant discount rate，即商家收款免付手續費）制度，由政府以補貼支應營運以衝刺普及。UPI 由印度國家支付公司（NPCI，National Payments Corporation of India）營運，2026 年 7 月單月處理 236.6 億筆交易、金額達 29.88 兆印度盧比（約 3,134 億美元）。",
-          "官員傾向只對大額交易收費，而非全面開徵：金額逾 2,000 盧比（約 21 美元）的交易僅占筆數約 4%，卻占交易金額約 70%。投行 Jefferies 估算，若對高額交易課以 15 至 30 個基點的費率，到 2028 會計年度每年可帶進 500 億至 1,000 億盧比（約 5.25 億至 10.5 億美元）營收。UPI 由沃爾瑪（Walmart）旗下 PhonePe 與字母公司（Alphabet）旗下 Google Pay 兩強掌握近八成交易量，最終誰能受惠仍取決於費用如何在生態系參與者間分配。相關內容主要見於 TechCrunch。"
-        ],
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "title": "India moves to give its instant payments network a business model",
-            "url": "https://techcrunch.com/2026/08/04/india-moves-to-give-its-instant-payments-network-a-business-model/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "代幣化券商 Dinari 把 724 檔美股（含全數 S&P 500）帶進美國本土市場，投資人以 USDC 自保管交易",
-        "paras": [
-          "代幣化股票公司 Dinari 宣布，把旗下區塊鏈美股服務開放給符合資格的美國本土投資人，將「託管式代幣化」模式正式帶入美國市場。用戶可透過 Circle 的 USDC 穩定幣（stablecoin），在自保管（self-custody）錢包中買賣 724 檔代幣化美股，涵蓋 S&P 500 全數成分股；代幣現支援以太坊（Ethereum）、Arbitrum、Base 與 Avalanche，Solana 與 Sei 亦將陸續支援。服務透過 Dinari 自有的受監理券商與過戶代理（transfer agent）架構運作，合作夥伴包括 Circle、Stripe 旗下 Privy、Para 與 Monaco。",
-          "此舉正值代幣化（tokenization）戰場從美國國庫券基金延伸到公開股票之際：業者押注區塊鏈能革新交易、結算與股東名冊管理，花旗（Citi）預估代幣化證券到 2030 年可成長為 5.5 兆美元市場。這個領域正分裂為不同模式——Robinhood 與 Kraken 母公司 Payward 以境外結構在美國以外提供代幣化股票，Ondo Finance 上月推出以貝萊德（BlackRock）iShares S&P 500 ETF 與美光（Micron）股票為擔保、對接 SEC 框架的模式，Securitize 則主張上市公司應直接在鏈上原生發行證券。Dinari 的 dShares 由受監理託管機構以 1 比 1 持有相應股票支撐，強調保留股利、投票與公司行動等股東權利，並讓投資人直接以 USDC 領取股利；其 dShares 已在逾 85 個司法管轄區發行。相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Dinari brings tokenized U.S. stocks to American investors as equity race heats up",
-            "url": "https://www.coindesk.com/business/2026/08/04/dinari-brings-tokenized-u-s-stocks-to-american-investors-as-equity-race-heats-up"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "紐約梅隆銀行 BNY 攜手 Galaxy，為機構數位資產託管平台新增質押（staking）服務",
-        "paras": [
-          "全球最大託管銀行之一紐約梅隆（BNY，前身 Bank of New York Mellon）宣布選定加密金融服務商 Galaxy（美股代號 GLXY），為旗下數位資產託管平台新增質押（staking）功能。新服務將讓機構客戶能直接對託管在 BNY 平台上的數位資產進行質押，仍待監理核准；Galaxy 負責提供質押基礎設施，並在 BNY 擴充區塊鏈相關服務的過程中擔任設計夥伴。質押指持有特定加密資產者把代幣鎖定、協助維護區塊鏈網路安全以換取獎勵；對大型投資人而言，能在同一個保管資產的平台上直接質押，可省去把代幣轉往另一家服務商的環節與風險。",
-          "BNY 託管與管理的資產規模達數十兆美元，自 2022 年推出加密託管以來持續擴張數位資產業務，因此每一步跨入區塊鏈基礎設施的動作都受金融業高度關注。就在上週，BNY 才宣布把核心的過戶代理（transfer agency）記錄搬上區塊鏈、建立單一鏈上所有權帳本，並規劃 2027 年為傳統與代幣化美國國庫券提供全天候結算、今年底前先在私有區塊鏈測試代幣化國庫券。此次新增質押，等於把機構級數位資產服務從單純「保管」進一步延伸到「鏈上收益」，實際上線仍以取得監理核准為前提，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "BNY to add crypto staking to digital asset custody platform",
-            "url": "https://www.coindesk.com/business/2026/08/04/bny-to-add-crypto-staking-to-digital-asset-custody-platform"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "區塊鏈預測市場 Polymarket 傳以 200 億美元估值募資，與 Kalshi 競逐預測市場龍頭",
-        "paras": [
-          "據彭博（Bloomberg）8 月 4 日引述知情人士報導，區塊鏈預測市場（prediction markets）平台 Polymarket 正尋求以約 200 億美元估值募集新一輪資金。報導指出，該公司才在今年 4 月以 150 億美元估值完成一輪募資，其中包含紐約證券交易所（NYSE）母公司洲際交易所（Intercontinental Exchange，ICE）投入的 6 億美元。Polymarket 今年 6 月曾向 CNBC 表示，儘管 4、5 月交易量下滑、後由世界盃期間的紀錄高點抵銷，其年化營收已攀上遠逾 10 億美元。",
-          "預測市場（又稱事件合約，event contracts）近期在美國持續升溫，Coinbase、Robinhood 等多家加密原生業者相繼把這類功能納入產品線。Polymarket 最大對手 Kalshi 據傳正以約 400 億美元估值募資、幾乎是前一輪的兩倍；兩者路線不同——Kalshi 在美國經營受聯邦監理的交易所，Polymarket 則採區塊鏈基礎設施與加密貨幣結算，各自吸引不同客群。創辦人暨執行長 Shayne Coplan 長期主張 Polymarket 應被視為「資訊平台」而非下注網站。本輪募資的確切金額與條件尚未定案，消息由 CoinDesk 引述彭博（Bloomberg）披露。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Polymarket targets $20 billion valuation as competition heats up in prediction market sector",
-            "url": "https://www.coindesk.com/markets/2026/08/04/polymarket-targets-usd20-billion-valuation-as-competition-heats-up-in-prediction-markets"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-04",
-        "title": "西聯匯款攜手 Rain 推穩定幣支付卡 Stablecard，自有美元穩定幣 USDPT 上 Visa 網路、覆蓋 37 個市場",
-        "paras": [
-          "老牌跨境匯款業者西聯匯款（Western Union）於 8 月 4 日與卡片基礎設施商 Rain 合作，推出穩定幣支付方案 Stablecard。這是一個綁定 Visa 的數位錢包，用於持有西聯自有的美元穩定幣（stablecoin，錨定法幣的數位代幣）USDPT；USDPT 發行在 Solana 區塊鏈上，由美國首家獲聯邦監理的加密銀行 Anchorage Digital Bank 發行，Fireblocks 提供錢包與結算基礎設施、Rain 負責卡片產品，並可 1 比 1 兌回美元、由儲備完全支撐。Stablecard 目前於 37 個市場提供、年底前計畫擴至 60 個市場，餘額可在全球約 1.75 億個 Visa 受理據點消費，用戶也能把西聯的匯款直接收進 USDPT 餘額。",
-          "西聯是傳統跨境匯款的代表性業者，推出自有美元穩定幣加 Visa 卡，等於把穩定幣直接帶進其核心的跨境匯款與消費場景，用以抵禦加密原生匯款業者的競爭。這套設計把穩定幣的收款（on-ramp）與花用（off-ramp）串在一起：收款人可把匯款以 USDPT 形式入帳，並直接刷 Visa 消費，不必先開立傳統銀行帳戶。此舉也呼應銀行、支付與匯款等既有金融業者，在監理逐步明朗後紛紛發行品牌穩定幣的趨勢。實際的採用率、費率、出金體驗與各市場落地細節仍待觀察，相關內容主要見於西聯匯款新聞稿、PYMNTS 與 FinTech Futures。"
-        ],
-        "sources": [
-          {
-            "name": "Western Union（新聞稿）",
-            "title": "Western Union Launches Stablecard in Partnership with Rain",
-            "url": "https://ir.westernunion.com/news/archived-press-releases/press-release-details/2026/Western-Union-Launches-Stablecard-in-Partnership-with-Rain/default.aspx"
-          },
-          {
-            "name": "PYMNTS",
-            "title": "Western Union and Rain Take Stablecoins Mainstream Across Visa Network",
-            "url": "https://www.pymnts.com/cryptocurrency/2026/western-union-rain-take-stablecoins-mainstream-across-visa-network/"
-          },
-          {
-            "name": "FinTech Futures",
-            "title": "Western Union partners Rain to debut Stablecard",
-            "url": "https://www.fintechfutures.com/blockchain-crypto-digital-assets/western-union-partners-rain-to-debut-stablecard"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-11T15:52:51Z"
+  "_generated_at": "2026-08-11T18:54:33Z"
 }
