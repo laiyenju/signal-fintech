@@ -64,6 +64,55 @@
     "others": [
       {
         "date": "2026-08-12",
+        "title": "渣打領軍的 Anchorpoint 推出港元穩定幣 HKDAP，取得香港首批發行牌照後啟動機構試營運",
+        "paras": [
+          "由渣打銀行（Standard Chartered）、Animoca Brands 與香港電訊（HKT）合資成立的 Anchorpoint Financial，宣布開始有限度推出其港元穩定幣（stablecoin，錨定法幣的數位代幣）HKDAP（Hong Kong dollar at par，港元平價），距離該公司取得香港首兩張穩定幣發行人牌照之一約四個月。初期先聚焦機構的支付與結算，之後再逐步增加接取管道與跨境應用。加密貨幣交易所 HashKey Exchange 與 OSL Group 加入為授權經銷商，讓合資格機構與專業投資人可透過其 App 等管道取得 HKDAP；HashKey 並表示已完成首筆 HKDAP 的鑄造與贖回，包含代幣與法幣間的兌換。",
+          "香港的穩定幣規則已於 2025 年 8 月 1 日生效，要求發行人取得牌照並符合資本、儲備與治理標準，使香港成為較早建立專屬穩定幣框架的主要金融市場之一。另一家首批持牌者滙豐銀行（HSBC）正備妥其穩定幣、規劃於 2026 年下半年推出，並可能透過擁有約 330 萬名用戶的支付工具 PayMe 分發；Kraken 母公司 Payward 也以 6 億美元收購 Reap Technologies、擴大香港穩定幣布局。Anchorpoint 表示 HKDAP 最快可能在 2026 年底延伸至散戶。相關內容主要見於 CoinDesk 與 HashKey、OSL 公告。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
+            "url": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin"
+          },
+          {
+            "name": "HashKey Group（公告）",
+            "title": "Anchorpoint and HashKey Exchange partner on HKDAP beta access",
+            "url": "https://group.hashkey.com/anchorpoint-and-hashkey-exchange-partner-on-hkdap-beta-access/"
+          },
+          {
+            "name": "OSL Group（新聞稿，GlobeNewswire）",
+            "title": "OSL Group among first authorised distributors for regulated Hong Kong dollar stablecoin HKDAP via beta access",
+            "url": "https://www.globenewswire.com/news-release/2026/08/12/3343467/0/en/osl-group-among-first-authorised-distributors-for-regulated-hong-kong-dollar-stablecoin-hkdap-via-beta-access.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-12",
+        "title": "富達擬為近 9 億美元的以太幣現貨 ETF 加入質押與季度現金分配，跟進 IRS 安全港後的 ETF 質押潮",
+        "paras": [
+          "資產管理巨頭富達（Fidelity）準備為旗下美國大型以太幣（Ether）現貨 ETF「Fidelity Ethereum Fund」（代號 FETH，淨資產約 8.98 億美元）加入質押（staking，把持有的以太幣鎖入區塊鏈網路協助驗證以賺取獎勵）與每季現金分配。依其向美國證券交易委員會（SEC）提交的修正註冊文件，該基金在正常情況下最高可質押 100% 的以太幣、且未設下限，但會保留部分以太幣以因應贖回、費用與流動性需求。富達將留下質押總獎勵的 85%，其餘 15% 分給基金發起人、託管方與節點營運商，指定的節點營運商為 Blockdaemon、Figment 與 Galaxy。",
+          "此舉跟進美國國稅局（IRS）2025 年 11 月發布的一份「安全港」（safe harbor，符合條件即可免除特定風險的規範）公告——該公告讓符合資格的加密信託在不喪失「授予人信託」（grantor-trust）課稅身分的前提下質押資產。富達因此加入已為既有以太幣基金加入質押的 Grayscale 與 21Shares 之列，貝萊德（BlackRock）則另闢蹊徑、改推出獨立的質押產品。依規定，基金須至少每季分配一次淨質押獎勵，這些獎勵將先支應基金費用、再用於季度現金分配，必要時富達也可能賣出部分以太幣以籌措分配所需現金。相關內容主要見於 CoinDesk 與富達向 SEC 提交的註冊文件。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Fidelity moves to add staking, quarterly payouts to near $900 million ether ETF",
+            "url": "https://www.coindesk.com/business/2026/08/12/fidelity-moves-to-add-staking-quarterly-payouts-to-near-usd900-million-ether-etf"
+          },
+          {
+            "name": "美國證券交易委員會 SEC（修正註冊文件 S-3/A）",
+            "title": "Fidelity Ethereum Fund — Amended registration statement",
+            "url": "https://www.sec.gov/Archives/edgar/data/2000046/000119312526342985/d335091ds3a.htm"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-12",
         "title": "英國央行啟動「數位英鎊實驗室」第二階段，測試公有穩定幣與數位英鎊在跨境貿易金融中並行結算",
         "paras": [
           "英國央行（BOE，Bank of England）8 月 12 日宣布，把「數位英鎊」（digital pound，英國研議中的央行數位貨幣 CBDC）探索推進到第二階段，透過旗下「數位英鎊實驗室」（Digital Pound Lab）首度測試公有穩定幣（stablecoin，錨定法幣的數位代幣）基礎設施與央行貨幣能否在同一筆支付流程中並存，聚焦跨境貿易金融（trade finance）。實驗設想的情境是：出口商透過穩定幣技術先取得預付款（以電子提單 electronic bills of lading 為擔保的發票融資 invoice factoring），英國進口商則以數位英鎊完成最終結算。參與者包括英國金融科技新創 NOBO Finance、商業資料與信評商鄧白氏（Dun & Bradstreet）與區塊鏈公司 Polygon Labs；Polygon 將透過其 Open Money Stack 提供法幣兌穩定幣、錢包與智慧合約等穩定幣結算基礎設施。實驗不使用真實客戶與資金，也不代表英國已決定發行數位英鎊。",
@@ -652,5 +701,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-12T13:01:47Z"
+  "_generated_at": "2026-08-12T15:52:12Z"
 }
