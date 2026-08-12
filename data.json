@@ -63,6 +63,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-12",
+        "title": "Crypto.com 推出追蹤 1,500 檔美股與 ETF 的「代幣化股票衍生品」，加密交易所加速跨進股票市場",
+        "paras": [
+          "加密貨幣交易所 Crypto.com 於 8 月 12 日（週三）宣布推出一批「代幣化股票衍生品」（tokenized stock derivatives），追蹤約 1,500 檔美國股票與交易所交易基金（ETF），讓歐洲經濟區（EEA，European Economic Area）及其他核准市場的合格用戶，能對 Apple（AAPL）、Nvidia（NVDA）、Tesla（TSLA）等個股，以及 SPDR Gold Shares（GLD）、iShares Silver Trust（SLV）等 ETF 取得價格曝險；最低 1 美元即可建立部位、並可全天候（24/7）交易。這些商品是由 Foris Capital CY Limited 發行、參照標的股票或 ETF 價格的衍生性商品，屬「合成曝險」（synthetic exposure）——標的上漲時商品理論上跟漲，但持有人並不會成為該公司股東，也不具投票等股東權利，僅可能取得股利等值調整；支撐商品的標的資產則交由美國券商（broker-dealer）Alpaca 保管。此服務建立在 Crypto.com 於 2025 年 5 月收購 Foris Capital、取得歐洲 MiFID（金融工具市場指令）牌照的基礎上；據 CoinGecko，Crypto.com 為全球第 11 大交易所。",
+          "此舉正值「代幣化股票」（tokenized stocks，把股票以區塊鏈代幣形式表彰）快速升溫——據 CoinDesk，這類資產規模已達約 24.9 億美元、過去一年成長約 600%，花旗（Citi）更估計代幣化證券市場到 2030 年可達 5.5 兆美元，其中代幣化股票約 2.6 兆美元。Kraken、Bybit、Bitget 與 Robinhood 等平台皆已面向美國以外投資人推出代幣化股票產品，美國證券集中保管結算公司（DTCC）也已開始測試代幣化證券基礎設施，那斯達克（Nasdaq）與紐約證交所（NYSE）同樣公布代幣化計畫。不過各家產品架構不一：合成／衍生品僅追蹤股價、不讓買方成為股東，「發行方擔保」（issuer-sponsored）模式則可把實際普通股搬上鏈並保留所有權與股東權利；隨著代幣化證券逐步走向主流，這類架構差異也開始引起監理機關與市場基礎設施業者更多關注。相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Crypto.com rolls out tokenized stock derivatives as crypto exchanges push into equities",
+            "url": "https://www.coindesk.com/business/2026/08/12/crypto-com-rolls-out-tokenized-stock-derivatives-as-crypto-exchanges-push-into-equities"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-11",
         "title": "美國 CFTC 動用「緊急權力」要求預測市場平台 Kalshi 續留紐約營運，聯邦與州就預測市場管轄權再度槓上",
         "paras": [
@@ -591,5 +608,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-12T03:51:16Z"
+  "_generated_at": "2026-08-12T06:51:30Z"
 }
