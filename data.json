@@ -59,6 +59,28 @@
     "others": [
       {
         "date": "2026-08-12",
+        "title": "Solana 週三因資料中心路由故障近三成質押代幣掉線，一度逼近三分之一「停止最終性」門檻",
+        "paras": [
+          "以 SOL 為原生代幣的智能合約區塊鏈 Solana 於週三（8 月 12 日）上午一度瀕臨停擺。質押平台 Marinade Finance 指出，資料中心供應商 Teraswitch 位於邁阿密的機房發生網路路由故障並擴散至歐洲與亞洲多地，導致倫敦、阿姆斯特丹、法蘭克福、新加坡與東京的驗證者（validators，負責驗證交易的節點）掉線，約 29% 的質押代幣（staked tokens）離線，北美則未受影響。區塊鏈的「最終性」（finality，交易變得不可逆轉的時點）會在超過三分之一質押代幣離線時停止，Marinade 稱這次距離該門檻僅約 2,000 萬枚代幣之遙；約 90 個驗證者受影響、合計損失 333 枚 SOL 的獎勵（金額不大，將由「驗證者保證金」validator bonds 補足）。故障約 10 分鐘內修復，網路流量於 UTC 凌晨 4:16 恢復。",
+          "Solana 是規模數一數二的智能合約區塊鏈，其去中心化金融（DeFi，decentralized finance）協議上鎖定的資產價值達約 43 億美元，長期以比以太坊（Ethereum）更快、更便宜自居，但過去曾多次發生中斷。此次事件暴露的結構性風險在於質押（staking，把代幣鎖入網路以維護安全並換取獎勵）的過度集中——單一網路營運商（代號 AS2032）控制的質押代幣占比超過四分之一、已逾 Solana 建議的安全上限，且這些代幣幾乎同時離線；多數受影響的驗證者（包括大型業者 Helius）因備援系統未啟動而離線長達 33 分鐘。Marinade 警告，一旦離線比例真的超過三分之一，對任何持有 SOL 的人而言都不會再有交易被最終確認，且缺乏快速修復手段——2024 年 2 月的一次停擺花了約五小時才重啟。相關內容主要見於 CoinDesk 與 Marinade Finance 公告。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Smart contract blockchain Solana nearly froze Wednesday, Marinade Finance says",
+            "url": "https://www.coindesk.com/tech/2026/08/12/smart-contract-blockchain-solana-nearly-froze-wednesday-marinade-finance-says"
+          },
+          {
+            "name": "Marinade Finance（官方公告，X）",
+            "title": "Marinade Finance on Solana's near-halt",
+            "url": "https://x.com/MarinadeFinance/status/2087485897470083337"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-12",
         "title": "以色列券商 eToro 宣布收購美國券商 TradeZero、金額上看 2.31 億美元，加速美國市場擴張",
         "paras": [
           "在那斯達克掛牌的以色列線上券商 eToro（美股代號 ETOR）8 月 11 日隨第二季財報宣布，將以現金加股票、總額上看 2.31 億美元收購美國券商 TradeZero，預計 2027 年上半年完成、仍待監理核准。TradeZero 提供美股與選擇權的零佣金交易，並主打針對放空（short selling）交易者的工具；據 eToro，其在截至今年 6 月的過去 12 個月約有 8,000 萬美元營收。雙方均未揭露 TradeZero 的加密貨幣、區塊鏈或代幣化計畫，因此這樁交易目前主要是 eToro 強化美國券商業務與客群通路的布局，也是 eToro 今年簽下的第三樁收購案。",
@@ -638,5 +660,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-12T18:52:35Z"
+  "_generated_at": "2026-08-12T21:56:36Z"
 }
