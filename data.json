@@ -64,6 +64,50 @@
     "others": [
       {
         "date": "2026-08-12",
+        "title": "英國央行啟動「數位英鎊實驗室」第二階段，測試公有穩定幣與數位英鎊在跨境貿易金融中並行結算",
+        "paras": [
+          "英國央行（BOE，Bank of England）8 月 12 日宣布，把「數位英鎊」（digital pound，英國研議中的央行數位貨幣 CBDC）探索推進到第二階段，透過旗下「數位英鎊實驗室」（Digital Pound Lab）首度測試公有穩定幣（stablecoin，錨定法幣的數位代幣）基礎設施與央行貨幣能否在同一筆支付流程中並存，聚焦跨境貿易金融（trade finance）。實驗設想的情境是：出口商透過穩定幣技術先取得預付款（以電子提單 electronic bills of lading 為擔保的發票融資 invoice factoring），英國進口商則以數位英鎊完成最終結算。參與者包括英國金融科技新創 NOBO Finance、商業資料與信評商鄧白氏（Dun & Bradstreet）與區塊鏈公司 Polygon Labs；Polygon 將透過其 Open Money Stack 提供法幣兌穩定幣、錢包與智慧合約等穩定幣結算基礎設施。實驗不使用真實客戶與資金，也不代表英國已決定發行數位英鎊。",
+          "此案切中各國央行正面臨的共同課題——如何讓民間穩定幣與國家發行的 CBDC 兩種數位貨幣互通，而非把企業與客戶綁死在單一支付基礎設施上。BOE 另規劃一項工作流，由 NOBO、鄧白氏與 Polygon 結合錢包交易資料、開放金融（open finance）資訊與商業情報，替中小企業（SME）建立可重複使用的「可融資信用檔案」，並以智慧合約記錄驗證結果、管理授權同意。主辦方指出，跨境中小企業貿易金融至今仍受制於分散的身分驗證、人工查核與動輒數日的結算，出貨到收款之間的資金形同「凍結資本」。這批實驗結果將納入 BOE 與英國財政部（Treasury）對數位英鎊的聯合評估，作為今年稍晚下一步決策的依據。相關內容主要見於 CoinDesk 與英格蘭銀行數位英鎊實驗室公告。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Bank of England to test stablecoin, digital currency use in cross-border finance",
+            "url": "https://www.coindesk.com/business/2026/08/12/bank-of-england-to-test-stablecoin-digital-currency-use-in-cross-border-finance"
+          },
+          {
+            "name": "Bank of England（數位英鎊實驗室）",
+            "title": "The digital pound: Digital Pound Lab",
+            "url": "https://www.bankofengland.co.uk/the-digital-pound/lab"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-12",
+        "title": "俄羅斯央行擬把散戶加密交易限縮至比特幣、以太幣與 USDT，非合格投資人年度購買上限約 3,600 美元",
+        "paras": [
+          "俄羅斯央行（俄羅斯聯邦中央銀行）公布草案規則，規劃只允許散戶投資人在受監理交易所買賣比特幣（Bitcoin）、以太幣（Ether）與 USDT 三種加密資產，使 Tether 發行、錨定美元的 USDT 成為初始名單上唯一的穩定幣（stablecoin，錨定法幣的數位代幣）。草案對「非合格投資人」（non-qualified investors）設下每家中介機構每年 30 萬盧布（約 3,600 美元）的加密購買上限，「合格投資人」（qualified investors）則不受此限。值得注意的是，上限以「每家中介機構」計，而非投資人的總購買金額，意味散戶理論上可透過多家券商或交易所累積更大部位。",
+          "這份白名單替俄國今年 7 月通過、將於 9 月 1 日生效的加密市場法補上細節——該法開放受監理的加密交易，但未指明散戶可購買哪些資產；俄國境內以加密資產進行支付則仍屬禁止。此舉凸顯俄國在開放受監理加密交易的同時，透過限定可交易幣種與設定散戶額度來管控風險，直接牽動當地交易所可提供的產品範圍與合規要求。實際適用細節、對交易所業務的衝擊，以及草案是否照案定案，都仍待後續正式公布才能確認，相關內容主要見於 CoinDesk 與俄羅斯央行草案公告。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
+            "url": "https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt"
+          },
+          {
+            "name": "俄羅斯央行 Банк России（草案公告）",
+            "title": "О проекте указания Банка России",
+            "url": "https://cbr.ru/press/event/?id=32754"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-12",
         "title": "Crypto.com 推出追蹤 1,500 檔美股與 ETF 的「代幣化股票衍生品」，加密交易所加速跨進股票市場",
         "paras": [
           "加密貨幣交易所 Crypto.com 於 8 月 12 日（週三）宣布推出一批「代幣化股票衍生品」（tokenized stock derivatives），追蹤約 1,500 檔美國股票與交易所交易基金（ETF），讓歐洲經濟區（EEA，European Economic Area）及其他核准市場的合格用戶，能對 Apple（AAPL）、Nvidia（NVDA）、Tesla（TSLA）等個股，以及 SPDR Gold Shares（GLD）、iShares Silver Trust（SLV）等 ETF 取得價格曝險；最低 1 美元即可建立部位、並可全天候（24/7）交易。這些商品是由 Foris Capital CY Limited 發行、參照標的股票或 ETF 價格的衍生性商品，屬「合成曝險」（synthetic exposure）——標的上漲時商品理論上跟漲，但持有人並不會成為該公司股東，也不具投票等股東權利，僅可能取得股利等值調整；支撐商品的標的資產則交由美國券商（broker-dealer）Alpaca 保管。此服務建立在 Crypto.com 於 2025 年 5 月收購 Foris Capital、取得歐洲 MiFID（金融工具市場指令）牌照的基礎上；據 CoinGecko，Crypto.com 為全球第 11 大交易所。",
@@ -608,5 +652,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-12T06:51:30Z"
+  "_generated_at": "2026-08-12T13:01:47Z"
 }
