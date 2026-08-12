@@ -1,11 +1,11 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "tier": "watch",
       "title": "本日觀察：過去 24 小時台灣仍無以金融科技為核心的新增重點事件",
       "paras": [
-        "本時段掃描台灣主要財經與科技媒體，內容多集中在上市櫃公司第二季獲利與七月營收、台股法說會行情與台積電董事會決議、傳統信用卡簽帳金額與例行裁罰，以及壽險長照、公股金融整併等討論，尚未出現以支付、數位銀行、金融 API、監理科技或數位資產基礎設施為核心的重大新增事件。",
+        "本時段掃描台灣主要財經與科技媒體，內容集中在上市櫃公司第二季獲利與七月營收、台股主動式基金與 ETF 績效比較、壽險保費與長照議題、國銀數位存款帳戶戶數統計，以及台灣大哥大溢價收購精誠資訊等傳統併購與半導體、AI 供應鏈新聞，尚未出現以支付、數位銀行、金融 API、監理科技或數位資產基礎設施為核心的重大新增事件。",
         "目前台灣區暫無可列為當日最重點的新增事件，一週要聞清單維持既有內容、僅汰除超過保留期的舊聞。待出現真正以支付、數位銀行、金融 API、監理科技或數位資產基礎設施為核心、且證據充分的事件，將即時更新為當日重點。"
       ]
     },
@@ -34,34 +34,56 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "tier": "top",
-      "title": "以色列券商 eToro 宣布收購美國券商 TradeZero、金額上看 2.31 億美元，加速美國市場擴張",
+      "title": "高盛以最高 22.5 億美元收購 NEOS Investments，切入比特幣收益型 ETF、直接叫陣貝萊德 BITA",
       "paras": [
-        "在那斯達克掛牌的以色列線上券商 eToro（美股代號 ETOR）8 月 11 日隨第二季財報宣布，將以現金加股票、總額上看 2.31 億美元收購美國券商 TradeZero，預計 2027 年上半年完成、仍待監理核准。TradeZero 提供美股與選擇權的零佣金交易，並主打針對放空（short selling）交易者的工具；據 eToro，其在截至今年 6 月的過去 12 個月約有 8,000 萬美元營收。雙方均未揭露 TradeZero 的加密貨幣、區塊鏈或代幣化計畫，因此這樁交易目前主要是 eToro 強化美國券商業務與客群通路的布局，也是 eToro 今年簽下的第三樁收購案。",
-        "這樁收購揭示於 eToro 交易動能明顯轉向股票之際。同日財報顯示，第二季整體淨貢獻（net contribution）年增 9% 至 2.29 億美元，主要由股票交易帶動，計息帳戶數年增 18% 至 428 萬戶，調整後稀釋每股盈餘 0.68 美元優於分析師預估的 0.61 美元。加密貨幣業務則明顯降溫：第二季加密資產營收約 13.5 億美元、年減約 29%，加密交易由去年同期獲利 3,770 萬美元轉為虧損 720 萬美元，7 月加密交易筆數亦年減 73%。財報與收購公布後，eToro 股價一度下跌約 12% 至約 29.80 美元；執行長 Yoni Assia 稱公司「繳出又一個強勁的一季」，並表示正開發鏈上永續合約（perpetual futures）與加密購買力等新功能。相關內容主要見於 CoinDesk 與 eToro 財報及收購新聞稿。"
+        "華爾街投行高盛（Goldman Sachs）8 月 12 日宣布，將以現金加股票、總額上看 22.5 億美元收購主動式 ETF 業者 NEOS Investments，一舉切入快速成長的「比特幣收益型 ETF」市場。NEOS 旗下招牌產品 BTCI 是一檔規模約 11 億美元的比特幣合成型 ETF，年化配息率約 27%。它並不直接持有比特幣，而是持有現貨比特幣交易所交易產品（ETP，Exchange-Traded Products），並對這些部位賣出買權（covered call，掩護性買權）以產生每月配息，代價是投資人須讓渡比特幣大漲時的部分上檔空間。這樁交易附帶績效目標、須待監理核准，預計 2027 年第一季完成；NEOS 兩位共同創辦人 Troy Cates 與 Garrett Paolella 將於交割後加入高盛擔任合夥人。",
+        "值得注意的是，高盛四個月前（4 月 14 日）才向美國證券交易委員會（SEC）遞件申請一檔結構近似的比特幣掩護性買權 ETF；彭博（Bloomberg）資深 ETF 分析師 Eric Balchunas 直言，這說明高盛寧可「買下成長」也不願自己從頭打造，藉此越過貝萊德（BlackRock）今年 6 月推出的同類產品 BITA、與其正面對決。收購完成後，加上高盛既有約 400 億美元選擇權型 ETF 資產，以及去年 12 月宣布收購的 Innovator，高盛旗下 ETF 監管資產（AUS，assets under supervision）將逾 1,300 億美元，足以躋身全球主動式 ETF 管理業者第八大；NEOS 本身則帶來一個橫跨 19 檔基金、約 300 億美元的選擇權型 ETF 平台。整體「衍生品收益型 ETF」類別規模已達約 1,800 億美元、自 2021 年以來以逾七成的年複合率成長，凸顯大型資產管理業者正加速把數位資產產品納入主流 ETF 貨架。相關內容主要見於 CoinDesk 與高盛新聞稿。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "EToro reports second quarter crypto loss even as total profit beats estimates",
-        "url": "https://www.coindesk.com/business/2026/08/11/digital-broker-etoro-reports-q2-crypto-revenue-dropped-120-compared-to-2025"
+        "title": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
+        "url": "https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout"
       },
       {
-        "name": "eToro（新聞稿）",
-        "title": "eToro to Acquire TradeZero to Accelerate US Expansion",
-        "url": "https://www.globenewswire.com/news-release/2026/08/11/3342552/0/en/etoro-to-acquire-tradezero-to-accelerate-us-expansion.html"
-      },
-      {
-        "name": "eToro（新聞稿）",
-        "title": "eToro Reports Second Quarter 2026 Results",
-        "url": "https://www.globenewswire.com/news-release/2026/08/11/3342553/0/en/etoro-reports-second-quarter-2026-results.html"
+        "name": "高盛（新聞稿）",
+        "title": "Goldman Sachs Announces Agreement to Acquire NEOS Investments",
+        "url": "https://am.gs.com/en-gb/advisors/news/press-release/2026/goldman-sachs-announces-agreement-to-acquire-neos-investments"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-12",
+        "title": "以色列券商 eToro 宣布收購美國券商 TradeZero、金額上看 2.31 億美元，加速美國市場擴張",
+        "paras": [
+          "在那斯達克掛牌的以色列線上券商 eToro（美股代號 ETOR）8 月 11 日隨第二季財報宣布，將以現金加股票、總額上看 2.31 億美元收購美國券商 TradeZero，預計 2027 年上半年完成、仍待監理核准。TradeZero 提供美股與選擇權的零佣金交易，並主打針對放空（short selling）交易者的工具；據 eToro，其在截至今年 6 月的過去 12 個月約有 8,000 萬美元營收。雙方均未揭露 TradeZero 的加密貨幣、區塊鏈或代幣化計畫，因此這樁交易目前主要是 eToro 強化美國券商業務與客群通路的布局，也是 eToro 今年簽下的第三樁收購案。",
+          "這樁收購揭示於 eToro 交易動能明顯轉向股票之際。同日財報顯示，第二季整體淨貢獻（net contribution）年增 9% 至 2.29 億美元，主要由股票交易帶動，計息帳戶數年增 18% 至 428 萬戶，調整後稀釋每股盈餘 0.68 美元優於分析師預估的 0.61 美元。加密貨幣業務則明顯降溫：第二季加密資產營收約 13.5 億美元、年減約 29%，加密交易由去年同期獲利 3,770 萬美元轉為虧損 720 萬美元，7 月加密交易筆數亦年減 73%。財報與收購公布後，eToro 股價一度下跌約 12% 至約 29.80 美元；執行長 Yoni Assia 稱公司「繳出又一個強勁的一季」，並表示正開發鏈上永續合約（perpetual futures）與加密購買力等新功能。相關內容主要見於 CoinDesk 與 eToro 財報及收購新聞稿。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "EToro reports second quarter crypto loss even as total profit beats estimates",
+            "url": "https://www.coindesk.com/business/2026/08/11/digital-broker-etoro-reports-q2-crypto-revenue-dropped-120-compared-to-2025"
+          },
+          {
+            "name": "eToro（新聞稿）",
+            "title": "eToro to Acquire TradeZero to Accelerate US Expansion",
+            "url": "https://www.globenewswire.com/news-release/2026/08/11/3342552/0/en/etoro-to-acquire-tradezero-to-accelerate-us-expansion.html"
+          },
+          {
+            "name": "eToro（新聞稿）",
+            "title": "eToro Reports Second Quarter 2026 Results",
+            "url": "https://www.globenewswire.com/news-release/2026/08/11/3342553/0/en/etoro-reports-second-quarter-2026-results.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-12",
         "title": "渣打領軍的 Anchorpoint 推出港元穩定幣 HKDAP，取得香港首批發行牌照後啟動機構試營運",
@@ -613,93 +635,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-05",
-        "title": "Cloudflare 推出「可程式化錢包」Cloudflare Wallets，為 AI 代理人打造身分與付款基礎設施",
-        "paras": [
-          "網路基礎設施巨頭 Cloudflare 發表「Cloudflare Wallets」，主打為「代理型網際網路」（agentic Internet）提供可程式化的錢包與付款基礎設施。此系統要給 AI 代理人（AI agents）穩定的身分識別，並在受控範圍內存取付款能力，用於支付 API、MCP（Model Context Protocol）工具與線上內容的使用費。產品分為兩類：供人類使用者使用的「帳戶錢包」（Account Wallets），以及供 AI 代理人使用的「虛擬錢包」（Virtual Wallets）；後者支援消費上限、允許清單（allow list）與單筆交易上限等控管機制，讓代理人能在明確額度內自主探索、測試並付費呼叫各種 API。",
-          "這反映當 AI 代理人開始代替使用者自動採購資料、算力與各類線上服務時，「機器對機器」的支付與身分驗證正成為新的基礎設施戰場。由 Cloudflare 這類掌握大量網路流量與邊緣節點的業者切入，等於把付款、額度控管與身分綁進既有的網路服務層，降低代理人商務（agentic commerce）的接取門檻；不過實際採用的付款軌道、與穩定幣或既有支付網路的串接方式、費率與資安防護細節仍待觀察，相關內容主要見於 Cloudflare 官方部落格。"
-        ],
-        "sources": [
-          {
-            "name": "Cloudflare Blog",
-            "title": "Announcing Cloudflare Wallets: The programmable wallet for the agentic Internet",
-            "url": "https://blog.cloudflare.com/wallets/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-05",
-        "title": "幣安（Binance）在港、星兩地興訟，指穩定幣支付卡龍頭 RedotPay 挪用金流、盜走近 47 萬用戶，求償約 4.73 億美元",
-        "paras": [
-          "全球最大加密貨幣交易所幣安（Binance）對總部位於香港的穩定幣（stablecoin，錨定法幣的數位代幣）支付卡發行商 RedotPay 及其創辦人提起訴訟，指控對方違反合作協議、將約 47 萬名幣安客戶導流至自家平台，造成幣安近 4.73 億美元損失。幣安主張，RedotPay 自 2026 年 3 月起，允許並鼓勵用戶在未區隔資金的情況下，把「幣安支付」（Binance Pay）的資金違規用於替 RedotPay 預付卡儲值。RedotPay 自稱是「全球最大的穩定幣支付卡發行商」，並正規劃在美國進行逾 10 億美元、估值上看 40 億美元的首次公開發行（IPO）；該公司回應將「積極」抗辯，駁斥對其與共同創辦人的指控「毫無根據」。",
-          "據 CoinDesk 引述彭博（Bloomberg），雙方 2023 年 11 月首度簽訂商業協議，不到半年即因幣安指其資金遭用於替 RedotPay 卡片儲值而終止；2025 年 3 月再簽第二份協議，要求幣安資金須分隔保管，僅允許幣安客戶以 Binance Pay 資金在 RedotPay 進行加密貨幣兌換法幣、App 內轉帳與購買 RedotPay 商品，但不得為卡片儲值，幣安並於 2026 年 4 月以「商戶夥伴審查」為由結束合作。除香港訴訟外，幣安旗下 Chaintecs 另在新加坡對 RedotPay 關係企業提告，並訂於本週五開庭。此案凸顯穩定幣支付卡快速做大後，交易所與支付新創在用戶、金流與合約權利上的正面衝突，相關內容主要見於 CoinDesk 引述彭博。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Crypto firm RedotPay says it will defend itself ‘vigorously’ against Binance lawsuit",
-            "url": "https://www.coindesk.com/business/2026/08/05/binance-sues-redotpay-for-usd470-million-claiming-it-diverted-users"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-05",
-        "title": "富國銀行加入摩根大通、花旗行列，推代幣化存款搶進華爾街結算軌道，先行支援美元英鎊全天候轉換",
-        "paras": [
-          "美國大型銀行富國銀行（Wells Fargo）宣布，將於今年稍晚為部分企業與商業客戶推出「代幣化存款」（tokenized deposits，把傳統銀行存款餘額以區塊鏈形式表彰）服務，首波先在自有區塊鏈上支援美元與英鎊之間的全天候（24/7）轉換，再於 2027 年逐步擴及更多客戶、國家與貨幣。與 Circle、Tether 等民間穩定幣（stablecoin）不同，代幣化存款仍屬商業銀行貨幣，富國強調其將享有與現行存款產品相同的監理保障與存款保險資格；系統會在能提升速度或彈性時，自動把符合條件的付款導向代幣化存款，且不改變客戶既有的操作方式。",
-          "此舉使富國正式加入摩根大通（JPMorgan）與花旗（Citi）之列——兩者已營運機構級代幣化存款服務，各大銀行的共同動機，是抵禦穩定幣侵蝕其存款基礎的威脅。富國布局區塊鏈支付已久：2019 年推出內部跨境結算的 Wells Fargo Digital Cash，其後與滙豐（HSBC）以共享區塊鏈結算外匯；今年 3 月更申請「WFUSD」商標，被視為存款代幣或穩定幣的伏筆。富國表示，未來將加入以智慧合約執行的條件式付款，平台也可支援自有託管錢包與跨鏈連結，並能與清算所（The Clearing House）正在建置的共享代幣化存款網路介接。此案凸顯大型銀行正把結算與跨境支付軌道搬上區塊鏈，以守住既有存款業務，主要消息來源為 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street's settlement rails",
-            "url": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-05",
-        "title": "Circle 第二季獲利優於預期，區塊鏈 Arc 集結貝萊德、DTCC、Visa、Mastercard 等華爾街機構出任創始驗證者",
-        "paras": [
-          "美元穩定幣（stablecoin，錨定法幣的數位代幣）USDC 發行商 Circle（美股代號 CRCL）公布 2026 年第二季財報。調整後每股獲利 18 美分，優於分析師預期的 16 美分，帶動股價盤前一度上漲約 10%。當季營收與儲備收益年增 7% 至 7.01 億美元，略低於市場預估的 7.12 億美元；持續營運淨利 4,800 萬美元，調整後 EBITDA 年增 8% 至 1.43 億美元。USDC 至 6 月底流通量達 733 億美元、年增 19%，但低於 2026 年一度接近 800 億美元的高點；當季鏈上交易量則暴增 151% 至 14.8 兆美元。執行長 Jeremy Allaire 表示，貝萊德（BlackRock）、紐約梅隆（BNY）與渣打（Standard Chartered）等機構使用 USDC「已不是在試辦，而是在擴大」。",
-          "這次財報也首度較完整揭露 Circle 自有區塊鏈 Arc 的進展：公有主網預定 9 月 16 日上線，目前已有逾 100 個生態系與機構開發者投入，創始驗證者名單囊括貝萊德、美國證券集中保管結算公司（DTCC）、紐約證交所母公司洲際交易所（ICE）、Mastercard、Visa、渣打、Galaxy 與 MoneyGram 等金融機構；貝萊德計劃把旗下代幣化美國國庫券基金 BUIDL 部署到 Arc，DTCC 則著手打造把其託管證券代幣化的基礎設施，凸顯 Circle 意在把 Arc 定位為代幣化資產與機構支付的底層網路。此外，Circle 支付網路（CPN，Circle Payments Network）近 30 天的年化交易量達 147 億美元、季增 76%，參與金融機構達 175 家；公司先前也已取得美國通貨監理署（OCC）核准設立聯邦層級的 Circle National Trust 信託銀行。相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Circle shares jump as earnings beat offsets revenue miss, Arc blockchain gains Wall Street backing",
-            "url": "https://www.coindesk.com/markets/2026/08/05/circle-shares-jump-as-earnings-beat-offsets-revenue-miss-arc-blockchain-gains-wall-street-backing"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-05",
-        "title": "穩定幣支付基礎設施商 Yellow Card 募資 4,000 萬美元，攜手銀行把跨境美元金流搬上鏈、挑戰 Swift",
-        "paras": [
-          "穩定幣（stablecoin，錨定法幣的數位代幣）支付基礎設施公司 Yellow Card 宣布完成 4,000 萬美元策略性股權募資，用於擴大其穩定幣支付基礎設施；本輪投資人包括渣打銀行（Standard Chartered）創投部門 SC Ventures、索尼旗下 Sony Innovation Fund、Polychain Capital 與 Blockchain Capital。據 CoinDesk，這使公司累計股權募資逾 1.2 億美元，估值高於 2022 年的約 2 億美元、但尚未達 10 億美元。Yellow Card 2016 年在非洲起家、主攻新興市場，迄今已在 22 個司法管轄區取得牌照、授權或登記，累計促成逾 100 億美元交易。",
-          "共同創辦人暨執行長 Chris Maurice 表示，公司正與全球商業銀行合作，用穩定幣把更多美元帶進市場、取代舊有支付系統，並直言「產業很近的未來，是付款直接在銀行之間鏈上流動，中間不再需要 B2B 支付公司或其他支付服務商」。新資金將用於擴充面向企業的美元帳戶產品 Global USD Accounts，並在拉丁美洲與亞太（APAC）新增穩定幣與當地支付方式；該帳戶讓企業在逾 50 國持有美元、持有與兌換穩定幣、管理資金調度並透過當地支付軌道收付當地貨幣。Yellow Card 定位為挑戰跨境訊息服務商 Swift 與大型銀行的金流基礎設施，並稱來自大型金融機構的交易量正加速成長，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Yellow Card raises $40 million to link banks to stablecoin processing",
-            "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-12T15:52:12Z"
+  "_generated_at": "2026-08-12T18:52:35Z"
 }
