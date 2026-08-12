@@ -64,6 +64,33 @@
     "others": [
       {
         "date": "2026-08-11",
+        "title": "美國 CFTC 動用「緊急權力」要求預測市場平台 Kalshi 續留紐約營運，聯邦與州就預測市場管轄權再度槓上",
+        "paras": [
+          "美國商品期貨交易委員會（CFTC，Commodity Futures Trading Commission）8 月 11 日宣布，動用「緊急權力」（emergency authority）要求預測市場（prediction markets）平台 Kalshi 在紐約州繼續營運。此前紐約州檢察總長 Letitia James 於 7 月底對 Kalshi 提告，指其未向紐約州博彩委員會（Gaming Commission）取得執照、未如持牌賭場與行動運動博彩平台般繳稅，違反州博彩法而應被關停。Kalshi 求助後，CFTC 以聯邦監理者身分介入；主席 Mike Selig 重申立場稱，這些是「跨州營運、提供金融工具的金融交易所」，其撮合不同州居民的買賣單並送交結算所（clearinghouse）擔保全國客戶的交易，「紐約無權監管這類跨州金融市場」。",
+          "這是聯邦商品監理機關與州監理機關就預測市場管轄權的最新一次正面交鋒——各州主張至少與運動相關的預測市場屬侵犯州法的賭博平台，CFTC 則堅稱所有預測市場提供的是受聯邦監理的「交換」（swaps，即事件合約衍生性商品），管轄權在聯邦。CFTC 先前已就此對紐約州提告，也曾在密西根州法院判決不利 Kalshi 後介入試圖讓其續營，惟 Kalshi 執法主管 Robert Denault 稱公司當時已依密州法院要求撤銷相關交易。全案目前卡在管轄權角力：Kalshi 已聲請將訴訟移轉聯邦法院、紐約州則要求移回州法院，兩造動議仍待法官裁定。此案凸顯預測市場快速壯大後，聯邦與州在監理權責、稅收與消費者保護上的結構性衝突，實際走向仍待後續裁決檢驗，相關內容主要見於 CoinDesk 與 CFTC 新聞稿。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "CFTC orders Kalshi to continue offering prediction markets in New York after state lawsuit",
+            "url": "https://www.coindesk.com/policy/2026/08/11/cftc-orders-kalshi-to-continue-offering-prediction-markets-in-new-york-after-state-lawsuit"
+          },
+          {
+            "name": "美國商品期貨交易委員會 CFTC（新聞稿）",
+            "title": "CFTC Press Release 9281-26",
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26"
+          },
+          {
+            "name": "紐約州檢察總長辦公室（新聞稿）",
+            "title": "Governor Hochul and Attorney General James Announce New York Has Sued Kalshi",
+            "url": "https://ag.ny.gov/press-release/2026/governor-hochul-and-attorney-general-james-announce-new-york-has-sued-kalshi"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-11",
         "title": "加密友善銀行 Erebor 傳以約 95 億美元估值洽募 15 億美元，成立一年存款規模衝上 46 億美元",
         "paras": [
           "英國《金融時報》（Financial Times）引述知情人士指出，主打科技客群的美國銀行 Erebor 正進入洽談後段，準備募集約 15 億美元，交易將使這家成立僅約一年的銀行估值來到約 95 億美元；相較今年稍早募資時的 43.5 億美元估值，短短數月內幾乎翻倍。Lux Capital、Human Capital、Valor Equity Partners、Andreessen Horowitz（a16z）與 SV Angel 預期將大額投入，既有股東 8VC 與 Haun Ventures 也將參與。募資背景是 Erebor 存款與放款業務同步擴張——截至 7 月底存款達 46 億美元，較 3 月底的 11 億美元大幅跳增。",
@@ -564,5 +591,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-11T21:52:35Z"
+  "_generated_at": "2026-08-12T03:51:16Z"
 }
