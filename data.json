@@ -1,15 +1,26 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "tier": "watch",
-      "title": "本日觀察：過去 24 小時台灣仍無以金融科技為核心的新增重點事件",
+      "title": "本日觀察：泰山董事會通過投標街口支付全數股權，街口支付否認已進入拍賣、強調營運轉盈",
       "paras": [
-        "本時段掃描台灣主要財經與科技媒體，內容集中在上市櫃公司第二季獲利與七月營收、台股主動式基金與 ETF 績效比較、壽險保費與長照議題、國銀數位存款帳戶戶數統計，以及台灣大哥大溢價收購精誠資訊等傳統併購與半導體、AI 供應鏈新聞，尚未出現以支付、數位銀行、金融 API、監理科技或數位資產基礎設施為核心的重大新增事件。",
-        "目前台灣區暫無可列為當日最重點的新增事件，一週要聞清單維持既有內容、僅汰除超過保留期的舊聞。待出現真正以支付、數位銀行、金融 API、監理科技或數位資產基礎設施為核心、且證據充分的事件，將即時更新為當日重點。"
+        "食品與油脂廠泰山企業 8 月 13 日召開重大訊息說明會，公布上半年虧損約新台幣 7.8 億元，主因包含油安事件、中聯油脂投資損失，以及對街口金融科技的預付投資款減損。同日泰山董事會通過參與街口電子支付（街口支付）股權拍賣的投標案，若成局將取得街口支付全數股權，使這場圍繞台灣主要第三方支付業者的經營權爭奪再度浮上檯面。",
+        "對此，街口支付回應指出，母公司街口金融科技與泰山之間的訴訟結果尚未確定，目前並未進入任何拍賣程序，並強調營運穩健、6 月與 7 月已連續兩個月獲利，今年有望首度達成全年獲利轉正。這起圍繞台灣主要第三方支付業者的經營權爭議仍屬早期且結果未定，後續值得追蹤的關鍵在於雙方訴訟走向、股權拍賣是否真正啟動，以及金融監理機關對經營權可能易主的態度；在這些變數明朗前，街口支付的經營權歸屬仍充滿不確定。"
       ]
     },
-    "sources": [],
+    "sources": [
+      {
+        "name": "科技新報",
+        "title": "討債討到變老闆？泰山上半年慘虧 7.8 億強勢競標「街口支付」全數股權",
+        "url": "https://finance.technews.tw/2026/08/13/jko-financial-technology/"
+      },
+      {
+        "name": "中央社",
+        "title": "泰山擬投標全數股權　街口支付：未進入任何拍賣程序",
+        "url": "https://www.cna.com.tw/news/afe/202608130322.aspx"
+      }
+    ],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -34,51 +45,102 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-06",
-        "title": "合庫等八家銀行攜手台灣人工智慧實驗室，以「聯合學習」訓練 AI 防詐模型，警示帳戶精確率倍增、規劃年內落地",
-        "paras": [
-          "面對詐騙手法不斷翻新，合作金庫銀行（合庫）、台北富邦銀行、土地銀行、台中銀行、第一銀行、凱基銀行、陽信銀行與彰化銀行等八家金融同業，與台灣人工智慧實驗室（Taiwan AI Labs）合作，針對「AI 防詐模型」展開「聯合學習」（federated learning，各機構在不互相交換原始客戶資料的前提下、共同訓練同一套模型）計畫。目前已完成第二階段驗證，整體「警示帳戶」（涉及詐騙金流而被示警的帳戶）精確率提升達兩倍，其中合作金庫的警示帳戶精確率增加約 67%，並規劃於年內落地應用。",
-          "跨行防詐長期受制於「各家銀行只看得到自己的交易、難以掌握詐騙金流全貌」的資料孤島問題；聯合學習讓多家銀行在不外流個別客戶明細的情況下共享模型能力，兼顧金融資安、個資保護與偵測效果，等於替台灣打造一套跨機構共用的 AI 防詐基礎設施。此案由八家銀行與台灣人工智慧實驗室共同參與、已進入第二階段驗證並訂出年內上線時程，實際導入範圍、誤判率與各行成效仍待正式落地後檢驗，相關內容主要見於經濟日報。"
-        ],
-        "sources": [
-          {
-            "name": "經濟日報",
-            "title": "合庫銀行參與 AI 防詐模型聯合學習驗證 規劃年內落地應用",
-            "url": "https://money.udn.com/money/story/5648/9674296"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "tier": "top",
-      "title": "高盛以最高 22.5 億美元收購 NEOS Investments，切入比特幣收益型 ETF、直接叫陣貝萊德 BITA",
+      "title": "泰達（Tether）宣布完成 KPMG 全面審計，為約 1,800 億美元 USDT 穩定幣準備金背書",
       "paras": [
-        "華爾街投行高盛（Goldman Sachs）8 月 12 日宣布，將以現金加股票、總額上看 22.5 億美元收購主動式 ETF 業者 NEOS Investments，一舉切入快速成長的「比特幣收益型 ETF」市場。NEOS 旗下招牌產品 BTCI 是一檔規模約 11 億美元的比特幣合成型 ETF，年化配息率約 27%。它並不直接持有比特幣，而是持有現貨比特幣交易所交易產品（ETP，Exchange-Traded Products），並對這些部位賣出買權（covered call，掩護性買權）以產生每月配息，代價是投資人須讓渡比特幣大漲時的部分上檔空間。這樁交易附帶績效目標、須待監理核准，預計 2027 年第一季完成；NEOS 兩位共同創辦人 Troy Cates 與 Garrett Paolella 將於交割後加入高盛擔任合夥人。",
-        "值得注意的是，高盛四個月前（4 月 14 日）才向美國證券交易委員會（SEC）遞件申請一檔結構近似的比特幣掩護性買權 ETF；彭博（Bloomberg）資深 ETF 分析師 Eric Balchunas 直言，這說明高盛寧可「買下成長」也不願自己從頭打造，藉此越過貝萊德（BlackRock）今年 6 月推出的同類產品 BITA、與其正面對決。收購完成後，加上高盛既有約 400 億美元選擇權型 ETF 資產，以及去年 12 月宣布收購的 Innovator，高盛旗下 ETF 監管資產（AUS，assets under supervision）將逾 1,300 億美元，足以躋身全球主動式 ETF 管理業者第八大；NEOS 本身則帶來一個橫跨 19 檔基金、約 300 億美元的選擇權型 ETF 平台。整體「衍生品收益型 ETF」類別規模已達約 1,800 億美元、自 2021 年以來以逾七成的年複合率成長，凸顯大型資產管理業者正加速把數位資產產品納入主流 ETF 貨架。相關內容主要見於 CoinDesk 與高盛新聞稿。"
+        "穩定幣（stablecoin）發行商泰達（Tether）8 月 13 日宣布，已完成外界期待多年的全面財務審計，由四大會計師事務所之一的 KPMG（美國）執行，查核其規模約 1,800 億美元的 USDT 準備金；據 CoinDesk 報導，KPMG 不僅檢視帳目，甚至實地清點了 Tether 持有的黃金條塊。USDT 是全球規模最大的穩定幣，長年面臨監理機關與市場質疑其準備金是否足額背書，過去 Tether 多提供範圍有限的季度「認證報告」（attestation），而非完整審計。",
+        "對整個穩定幣與數位資產基礎設施而言，從有限的認證升級為四大完整審計，是一個攸關信任的里程碑，可能牽動機構資金採用意願與各國監理態度，尤其在美國等地穩定幣立法趨嚴的背景下更受矚目。不過此為 Tether 自行宣布，審計報告的具體範圍、方法與完整結論仍有待外界檢視，能否平息長年的準備金爭議，須看後續公開內容。相關報導見於 CoinDesk。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
-        "url": "https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout"
-      },
-      {
-        "name": "高盛（新聞稿）",
-        "title": "Goldman Sachs Announces Agreement to Acquire NEOS Investments",
-        "url": "https://am.gs.com/en-gb/advisors/news/press-release/2026/goldman-sachs-announces-agreement-to-acquire-neos-investments"
+        "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
+        "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-13",
+        "title": "預測市場 Kalshi 傳洽紅杉、威靈頓募資 7.5 億美元，估值上看 400 億美元、拉開與 Polymarket 差距",
+        "paras": [
+          "預測市場（prediction market）平台 Kalshi 傳正與紅杉資本（Sequoia）、威靈頓（Wellington）洽談新一輪募資，金額約 7.5 億美元，投前估值上看 400 億美元。若成局，估值將較今年 5 月的約 220 億美元幾乎翻倍。",
+          "CoinDesk 報導，這輪資金將進一步拉開 Kalshi 與競爭對手 Polymarket 的差距，凸顯預測市場近期在資本市場的高度熱度；與此同時，這個領域仍面臨美國商品期貨交易委員會（CFTC）與各州對管轄權與消費者保護的持續關注。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Kalshi in talks with Sequoia, Wellington for $750 million fund raise at $40 billion valuation",
+            "url": "https://www.coindesk.com/business/2026/08/13/kalshi-in-talks-with-sequoia-wellington-for-usd750-million-fund-raise-at-usd40-billion-valuation"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-13",
+        "title": "Cloudflare 推出可程式化錢包 Cloudflare Wallets，切入代理人網路支付",
+        "paras": [
+          "網路基礎設施巨頭 Cloudflare 推出可程式化錢包「Cloudflare Wallets」，主打面向 AI 代理人（agentic）自動交易的網路。用戶即日起可為帳戶申請專屬錢包代號，作為與商家連結的識別；官方表示未來將可用於支付 API 與內容的使用費用。",
+          "根據 Cloudflare 官方部落格，這代表大型網路基礎設施業者正切入「代理人支付」與機器對機器商務的軌道，呼應近期由 AI 代理自動完成付款的新興標準。不過產品目前仍屬初期階段——先開放代號申請，實際支付功能稍後推出，真正的採用與規模仍待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "Cloudflare（部落格）",
+            "title": "Cloudflare Wallets",
+            "url": "https://blog.cloudflare.com/wallets/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-13",
+        "title": "巴西央行評估擴大 Pix 即時支付、推動與國際系統跨境整合",
+        "paras": [
+          "巴西央行正評估擴大其即時支付系統 Pix 的適用範圍，研議與其他國際支付系統整合、朝跨境互通推進。Pix 是全球最成功的即時支付方案之一，已深度普及於巴西民眾與商家的日常交易。",
+          "據 Finextra，若推動跨境整合，將延伸 Pix 的觸角，也呼應全球即時支付互通（interoperability）的趨勢，對跨境金流的成本與效率具潛在影響；此案目前仍處於評估階段、尚未定案。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "Brazil to expand Pix payment system",
+            "url": "https://www.finextra.com/newsarticle/48226/brazil-to-expand-pix-payment-system"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-13",
+        "title": "高盛以最高 22.5 億美元收購 NEOS Investments，切入比特幣收益型 ETF、直接叫陣貝萊德 BITA",
+        "paras": [
+          "華爾街投行高盛（Goldman Sachs）8 月 12 日宣布，將以現金加股票、總額上看 22.5 億美元收購主動式 ETF 業者 NEOS Investments，一舉切入快速成長的「比特幣收益型 ETF」市場。NEOS 旗下招牌產品 BTCI 是一檔規模約 11 億美元的比特幣合成型 ETF，年化配息率約 27%。它並不直接持有比特幣，而是持有現貨比特幣交易所交易產品（ETP，Exchange-Traded Products），並對這些部位賣出買權（covered call，掩護性買權）以產生每月配息，代價是投資人須讓渡比特幣大漲時的部分上檔空間。這樁交易附帶績效目標、須待監理核准，預計 2027 年第一季完成；NEOS 兩位共同創辦人 Troy Cates 與 Garrett Paolella 將於交割後加入高盛擔任合夥人。",
+          "值得注意的是，高盛四個月前（4 月 14 日）才向美國證券交易委員會（SEC）遞件申請一檔結構近似的比特幣掩護性買權 ETF；彭博（Bloomberg）資深 ETF 分析師 Eric Balchunas 直言，這說明高盛寧可「買下成長」也不願自己從頭打造，藉此越過貝萊德（BlackRock）今年 6 月推出的同類產品 BITA、與其正面對決。收購完成後，加上高盛既有約 400 億美元選擇權型 ETF 資產，以及去年 12 月宣布收購的 Innovator，高盛旗下 ETF 監管資產（AUS，assets under supervision）將逾 1,300 億美元，足以躋身全球主動式 ETF 管理業者第八大；NEOS 本身則帶來一個橫跨 19 檔基金、約 300 億美元的選擇權型 ETF 平台。整體「衍生品收益型 ETF」類別規模已達約 1,800 億美元、自 2021 年以來以逾七成的年複合率成長，凸顯大型資產管理業者正加速把數位資產產品納入主流 ETF 貨架。相關內容主要見於 CoinDesk 與高盛新聞稿。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
+            "url": "https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout"
+          },
+          {
+            "name": "高盛（新聞稿）",
+            "title": "Goldman Sachs Announces Agreement to Acquire NEOS Investments",
+            "url": "https://am.gs.com/en-gb/advisors/news/press-release/2026/goldman-sachs-announces-agreement-to-acquire-neos-investments"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-13",
         "title": "Klarna 整合進摩根大通支付（J.P. Morgan Payments）商務平台，美國商家免另接串即可提供先買後付與分期結帳",
@@ -786,25 +848,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-06",
-        "title": "日圓穩定幣發行商 JPYC 完成 3,800 萬美元 B 輪增資，物流龍頭 AZ-COM 丸和入股並將用於企業日常付款",
-        "paras": [
-          "日本 JPYC Inc. 宣布完成 60 億日圓（約 3,800 萬美元）的 B 輪（Series B）延伸增資，用於擴大其錨定日圓的穩定幣（stablecoin，錨定法幣的數位代幣）JPYC。本輪由日本大型物流業者 AZ-COM 丸和控股（AZ-COM Maruwa Holdings，東證代號 9090）領投；據創投資料商 Tracxn，公司自 2021 年 11 月以來累計已募得約 1.06 億美元、橫跨七輪募資。JPYC 目前市值約 5,550 萬美元（據 CoinGecko），是少數較具規模的日圓穩定幣之一。",
-          "值得注意的是，AZ-COM 丸和規劃把 JPYC 用於與旗下客戶（包含 Amazon Japan）之間的款項結算，其合作網路涵蓋約 2,300 家轉包商、司機等夥伴。這被視為日本首宗把穩定幣用於日常企業營運的大規模採用案例，讓穩定幣從加密交易延伸到實體供應鏈的日常收付。日圓穩定幣市場雖仍遠小於美元穩定幣主導的規模，但正逐步成長，日本三大銀行也已規劃聯手發行穩定幣。後續可觀察 JPYC 的流通市值、實際結算量與是否有更多企業跟進導入，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "JPYC raises $38 million Series B led by major Japanese logistics firm AZ-COM Maruwa",
-            "url": "https://www.coindesk.com/business/2026/08/06/jpyc-raises-usd38-million-series-b-led-by-major-japanese-logistics-firm-az-com-maruwa"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-13T16:05:29Z"
+  "_generated_at": "2026-08-13T19:00:28Z"
 }
