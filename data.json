@@ -81,6 +81,74 @@
     "others": [
       {
         "date": "2026-08-13",
+        "title": "Klarna 整合進摩根大通支付（J.P. Morgan Payments）商務平台，美國商家免另接串即可提供先買後付與分期結帳",
+        "paras": [
+          "先買後付（BNPL，Buy Now Pay Later）業者 Klarna 宣布，其服務已正式整合進摩根大通支付（J.P. Morgan Payments）的商務平台（Commerce Platform），讓使用該平台的美國商家不必再另行進行技術串接，就能在結帳時提供「一次付清」、免息分期（interest-free installment）與較長期分期融資等彈性付款選項。",
+          "對 Klarna 而言，這樁合作等於取得美國最大收單機構（merchant acquirer）的通路——摩根大通支付每年處理約 2.6 兆美元交易；對摩根大通旗下商家而言，則能以較少的導入工作為顧客新增彈性結帳方式。此舉凸顯先買後付正加速嵌入大型銀行的收單與支付基礎設施，成為主流結帳流程的一環。內容整理自 Klarna 新聞稿。"
+        ],
+        "sources": [
+          {
+            "name": "Klarna（新聞稿）",
+            "title": "Klarna goes live with J.P. Morgan Payments, opening flexible checkout to U.S. merchants",
+            "url": "https://www.klarna.com/international/press/klarna-goes-live-with-j-p-morgan-payments-opening-flexible-checkout-to-u-s-merchants/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-13",
+        "title": "Adyen 把與餐飲科技平台 Toast 的合作拓展至美國，接手其支付基礎設施、平台年處理額逾 2,150 億美元",
+        "paras": [
+          "荷蘭支付科技公司 Adyen 宣布，將與美國餐飲科技平台 Toast 的合作拓展至美國市場，為這個過去一年在約 18 萬個據點、處理逾 2,150 億美元支付總額（GPV，Gross Payment Volume）的平台提供支付基礎設施。此舉延伸雙方原已涵蓋愛爾蘭、英國、加拿大與澳洲的合作關係。",
+          "依 Adyen 說明，接手美國市場的金流處理可提升 Toast 的處理穩定性，並為未來在其餐飲與零售平台上嵌入更多 Adyen 金融產品（如發卡、融資等嵌入式金融服務）創造空間，讓垂直領域軟體平台（vertical SaaS）把金流與金融功能直接內建到商家日常營運系統。相關細節見 Adyen 新聞稿。"
+        ],
+        "sources": [
+          {
+            "name": "Adyen（新聞稿）",
+            "title": "Adyen expands Toast partnership into the US",
+            "url": "https://www.adyen.com/press-and-media/adyen-expands-global-toast-partnership-into-us"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-13",
+        "title": "Google Pay 在印度導入 Gemini AI 助理，讓用戶以對話查詢消費、分類支出並學習信用與投資知識",
+        "paras": [
+          "Google 宣布在印度為其支付應用 Google Pay 導入以 Gemini（Google 的生成式 AI 模型）驅動的功能，把支付 App 進一步變成個人理財助理。印度用戶可用自然語言向 Gemini 詢問自己的消費狀況、取得分類後的支出明細、找出可能的省錢機會，並了解信用評分（credit score）、投資等理財主題。",
+          "印度是 Google Pay 最重要的市場之一，以統一支付介面（UPI，Unified Payments Interface）為基礎累積龐大用戶。把生成式 AI 嵌入支付與理財場景，等於讓支付 App 從單純的轉帳工具，升級為能主動提供消費洞察與理財教育的助理型服務，相關內容見 Crowdfund Insider 報導。"
+        ],
+        "sources": [
+          {
+            "name": "Crowdfund Insider",
+            "title": "Google Pay Introduces Gemini-enabled AI Tool for Users in India",
+            "url": "https://www.crowdfundinsider.com/2026/08/294820-google-pay-introduces-gemini-enabled-ai-tool-for-users-in-india/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-13",
+        "title": "美國 OCC 駁回荷蘭數位銀行 Bunq 的美國銀行牌照申請，質疑資本適足與無擔保信用卡經營經驗",
+        "paras": [
+          "美國通貨監理署（OCC，Office of the Comptroller of the Currency）駁回荷蘭數位銀行 Bunq 申請美國銀行牌照的提案。依《華爾街日報》（WSJ），OCC 的疑慮包括 Bunq 是否能維持足夠資本，以及其管理層在無擔保信用卡（unsecured credit cards）業務上的經驗是否充足。",
+          "這起個案顯示美國銀行監理機關對外來金融科技業者申請正式銀行牌照仍相當審慎，與近期多家金融科技與加密基礎設施業者爭取美國銀行、信託或支付牌照卻受挫的情況相互呼應，凸顯「取得受監理的銀行地位」正成為金融科技跨入美國市場的關鍵門檻與主要卡點。內容整理自《華爾街日報》。"
+        ],
+        "sources": [
+          {
+            "name": "The Wall Street Journal",
+            "title": "U.S. Regulator Rejects Dutch Fintech Bunq's Banking License Application",
+            "url": "https://www.wsj.com/finance/regulation/u-s-regulator-rejects-dutch-fintech-bunqs-banking-license-application-9b9422b1"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-13",
         "title": "日本三菱日聯 MUFG 將以 Canton 網路測試日本政府公債即時鏈上結算，鎖定附買回交易的資本效率",
         "paras": [
           "日本最大金融集團三菱日聯金融集團（MUFG，Mitsubishi UFJ Financial Group）8 月 13 日（週三）宣布，將以區塊鏈技術測試日本政府公債（JGB，Japanese Government Bonds）交易的即時結算。依 MUFG 說明，該行正籌備一項概念驗證（PoC，proof-of-concept），透過 Canton 網路把 JGB 交易搬上鏈，將傳統上需時 1 至 3 個工作日的結算，改為全天候（24/7）近即時完成。此舉鎖定的核心是「附買回交易」（repo，以買賣證券作為短期借貸的操作）——JGB 因信用評等高、流動性佳，長期被日本及海外市場參與者廣泛用作 repo 的擔保品，MUFG 期望藉鏈上即時結算提升這類交易的營運與資本效率。",
@@ -96,6 +164,23 @@
             "name": "MUFG（新聞稿）",
             "title": "MUFG to explore real-time settlement of JGB transactions using blockchain",
             "url": "https://www.mufg.jp/dam/pressrelease/2026/pdf/news-20260813-002_en.pdf"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-12",
+        "title": "Uber 入股智利金融科技 Galgo，將為外送夥伴打造低成本機車貸款、延伸車輛融資布局",
+        "paras": [
+          "Uber 宣布投資智利金融科技公司 Galgo。Galgo 專攻車輛融資，至今已投放逾 4 億美元信貸、目前已轉為獲利，年化營收約 1 億美元；雙方將合作開發專供 Uber 外送夥伴使用的低成本機車融資方案。Galgo 並計畫明年進入另一個拉丁美洲市場，並運用這樁合作進一步投資技術、資料與人工智慧（AI）。",
+          "這是 Uber 繼 2024 年投資行動出行金融科技 Moove 之後，再一次擴大其車輛融資布局，透過與在地借貸科技業者結盟，替仰賴機車與汽車的接案工作者提供更可負擔的融資管道。此舉也顯示平台型企業正把嵌入式借貸（embedded lending）納入生態系，藉金融服務強化與供給端夥伴的黏著度。內容整理自彭博（Bloomberg）報導。"
+        ],
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "title": "Uber Invests in Chilean Fintech in Push Into Motorcycle Lending",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-12/uber-invests-in-chilean-fintech-in-push-into-motorcycle-lending"
           }
         ],
         "social": [],
@@ -721,5 +806,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-13T12:53:27Z"
+  "_generated_at": "2026-08-13T16:05:29Z"
 }
