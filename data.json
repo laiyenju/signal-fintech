@@ -59,6 +59,23 @@
     "others": [
       {
         "date": "2026-08-12",
+        "title": "摩根士丹利加密基礎設施夥伴 Zerohash 申請美國信託銀行受挫遭駁回，將重新遞件",
+        "paras": [
+          "為摩根士丹利（Morgan Stanley）旗下券商 E*Trade 提供加密資產「後台管線」的基礎設施商 Zerohash，申請成為美國信託銀行（U.S. trust bank）的提案遭到駁回。取得信託銀行地位可讓業者在受監理架構下直接託管與清算數位資產，是加密基礎設施商爭取正式接入銀行體系的關鍵一步。",
+          "Zerohash 表示將重新遞件，並期望盡快取得結果。這起個案凸顯監理機關對加密信託銀行的准入仍相對審慎，也與近期多家加密與穩定幣（stablecoin）業者尋求銀行、支付與清算牌照的動作相互呼應，反映在數位資產業務擴張下，基礎設施商正加速尋求受監理的法律地位。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
+            "url": "https://www.coindesk.com/policy/2026/08/12/morgan-stanley-s-infrastructure-partner-zerohash-rebuffed-in-pitch-to-be-u-s-trust-bank"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-12",
         "title": "Solana 週三因資料中心路由故障近三成質押代幣掉線，一度逼近三分之一「停止最終性」門檻",
         "paras": [
           "以 SOL 為原生代幣的智能合約區塊鏈 Solana 於週三（8 月 12 日）上午一度瀕臨停擺。質押平台 Marinade Finance 指出，資料中心供應商 Teraswitch 位於邁阿密的機房發生網路路由故障並擴散至歐洲與亞洲多地，導致倫敦、阿姆斯特丹、法蘭克福、新加坡與東京的驗證者（validators，負責驗證交易的節點）掉線，約 29% 的質押代幣（staked tokens）離線，北美則未受影響。區塊鏈的「最終性」（finality，交易變得不可逆轉的時點）會在超過三分之一質押代幣離線時停止，Marinade 稱這次距離該門檻僅約 2,000 萬枚代幣之遙；約 90 個驗證者受影響、合計損失 333 枚 SOL 的獎勵（金額不大，將由「驗證者保證金」validator bonds 補足）。故障約 10 分鐘內修復，網路流量於 UTC 凌晨 4:16 恢復。",
@@ -660,5 +677,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-12T21:56:36Z"
+  "_generated_at": "2026-08-13T00:51:23Z"
 }
