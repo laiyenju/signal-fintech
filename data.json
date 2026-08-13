@@ -80,6 +80,28 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-13",
+        "title": "日本三菱日聯 MUFG 將以 Canton 網路測試日本政府公債即時鏈上結算，鎖定附買回交易的資本效率",
+        "paras": [
+          "日本最大金融集團三菱日聯金融集團（MUFG，Mitsubishi UFJ Financial Group）8 月 13 日（週三）宣布，將以區塊鏈技術測試日本政府公債（JGB，Japanese Government Bonds）交易的即時結算。依 MUFG 說明，該行正籌備一項概念驗證（PoC，proof-of-concept），透過 Canton 網路把 JGB 交易搬上鏈，將傳統上需時 1 至 3 個工作日的結算，改為全天候（24/7）近即時完成。此舉鎖定的核心是「附買回交易」（repo，以買賣證券作為短期借貸的操作）——JGB 因信用評等高、流動性佳，長期被日本及海外市場參與者廣泛用作 repo 的擔保品，MUFG 期望藉鏈上即時結算提升這類交易的營運與資本效率。",
+          "MUFG 指出，歐美金融機構已擴大類似的概念驗證：摩根大通（JPMorgan）的 Kinexys 網路早在 2020 年便上線、提供以區塊鏈執行的美國公債（U.S. Treasury）日內附買回交易，如今把 JGB 上鏈的動能也在升溫。這項計畫是 MUFG 探索把區塊鏈用於傳統金融功能的系列布局之一——該行近期才與日本另兩大銀行三井住友金融集團（SMBC）與瑞穗金融集團（Mizuho）合作，研議於 2027 年 3 月前共同發行並掛牌一款穩定幣（stablecoin，錨定法幣的數位代幣）。不過此案目前仍屬概念驗證階段，實際上線時程、參與範圍與監理配套仍待後續揭露，相關內容主要見於 CoinDesk 與 MUFG 新聞稿。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "MUFG to test real-time blockchain settlement for Japanese government bond trades",
+            "url": "https://www.coindesk.com/business/2026/08/13/mufg-to-test-real-time-blockchain-settlement-for-japanese-government-bond-trades"
+          },
+          {
+            "name": "MUFG（新聞稿）",
+            "title": "MUFG to explore real-time settlement of JGB transactions using blockchain",
+            "url": "https://www.mufg.jp/dam/pressrelease/2026/pdf/news-20260813-002_en.pdf"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-12",
         "title": "摩根士丹利加密基礎設施夥伴 Zerohash 申請美國信託銀行受挫遭駁回，將重新遞件",
         "paras": [
@@ -699,5 +721,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-13T06:52:35Z"
+  "_generated_at": "2026-08-13T12:53:27Z"
 }
