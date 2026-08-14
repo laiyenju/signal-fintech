@@ -87,6 +87,23 @@
     "others": [
       {
         "date": "2026-08-14",
+        "title": "Trump 家族背景的 World Liberty Trust 獲美國 OCC 有條件牌照，將接手發行 USD1 穩定幣",
+        "paras": [
+          "美國通貨監理署（OCC）8 月 14 日在官網公布信函，對 World Liberty Trust Company 給予「初步有條件核准」（preliminary conditional approval），准其以國家信託銀行（national trust bank）身分經營信託與相關業務；正式核准仍須先完成一系列「開業前要求」（preopening requirements）。據 CoinDesk，這家新銀行的核心任務，是接手 World Liberty Financial 旗下 USD1 穩定幣（stablecoin）的發行——目前 USD1 的獨家發行與保管機構為 BitGo Bank & Trust——並以受託人（fiduciary）身分，主要為 USD1 客戶與機構客戶提供數位資產託管。信中載明，該行無意成為受聯邦存保的存款機構，也不打算取得聯準會主帳戶（Fed master account）。",
+          "World Liberty 於 2026 年 1 月提出申請，因 World Liberty 相關實體部分股權由總統 Trump 持有、而 OCC 等監理機關首長又由 Trump 任命，引來民主黨議員質疑；參議員 Elizabeth Warren 5 月曾指控通貨監理署署長 Jonathan Gould 核准「不合格的加密銀行」取得信託牌照，讓這類機構得以發行美元穩定幣、直接接軌銀行體系而規避一般銀行的義務。Gould 當時回覆將不考慮政治、依常規時程審理。此案讓又一家加密原生機構取得進入美國銀行體系、發行穩定幣的正式管道，延續近期多家業者循信託牌照卡位穩定幣軌道的趨勢；相關內容主要見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
+            "url": "https://www.coindesk.com/policy/2026/08/14/trump-backed-world-liberty-wins-conditional-bank-charter-from-federal-regulator"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-14",
         "title": "泰達（Tether）宣布完成 KPMG 全面審計，為約 1,800 億美元 USDT 穩定幣準備金背書",
         "paras": [
           "穩定幣（stablecoin）發行商泰達（Tether）8 月 13 日宣布，已完成外界期待多年的全面財務審計，由四大會計師事務所之一的 KPMG（美國）執行，查核其規模約 1,800 億美元的 USDT 準備金；據 CoinDesk 報導，KPMG 不僅檢視帳目，甚至實地清點了 Tether 持有的黃金條塊。USDT 是全球規模最大的穩定幣，長年面臨監理機關與市場質疑其準備金是否足額背書，過去 Tether 多提供範圍有限的季度「認證報告」（attestation），而非完整審計。",
@@ -798,5 +815,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-14T18:53:17Z"
+  "_generated_at": "2026-08-14T21:45:45Z"
 }
