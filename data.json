@@ -1,29 +1,46 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-14",
+      "date": "2026-08-15",
       "tier": "watch",
-      "title": "本日觀察：泰山董事會通過投標街口支付全數股權，街口支付否認已進入拍賣、強調營運轉盈",
+      "title": "本日觀察：一卡通結盟 WeMo、精誠資訊，導入共享機車與數位票券擴大 iPASS MONEY 支付生態圈",
       "paras": [
-        "食品與油脂廠泰山企業 8 月 13 日召開重大訊息說明會，公布上半年虧損約新台幣 7.8 億元，主因包含油安事件、中聯油脂投資損失，以及對街口金融科技的預付投資款減損。同日泰山董事會通過參與街口電子支付（街口支付）股權拍賣的投標案，若成局將取得街口支付全數股權，使這場圍繞台灣主要第三方支付業者的經營權爭奪再度浮上檯面。",
-        "對此，街口支付回應指出，母公司街口金融科技與泰山之間的訴訟結果尚未確定，目前並未進入任何拍賣程序，並強調營運穩健、6 月與 7 月已連續兩個月獲利，今年有望首度達成全年獲利轉正。這起圍繞台灣主要第三方支付業者的經營權爭議仍屬早期且結果未定，後續值得追蹤的關鍵在於雙方訴訟走向、股權拍賣是否真正啟動，以及金融監理機關對經營權可能易主的態度；在這些變數明朗前，街口支付的經營權歸屬仍充滿不確定。"
+        "電子支付業者一卡通 8 月 14 日宣布，攜手共享機車品牌 WeMo 與資訊服務商精誠資訊（Systex），將共享機車移動服務與數位票券等應用導入自家的 iPASS MONEY App，並由新任董事長郭添貴帶領推動平台生態圈擴張。一卡通以交通票證與電子支付起家，此番結盟意在把交通移動與票券場景整合進同一支付 App，擴大日常高頻使用情境。",
+        "對台灣電子支付市場而言，把共享運具與數位票券納入支付 App，是業者從單純支付工具往「生活服務入口」延伸的又一嘗試，有助於提高使用黏著度與交易頻次。不過此次僅為合作啟動階段，導入服務的實際規模、上線時程與對交易量的貢獻尚待後續揭露，對市場競爭格局的影響仍有待觀察。"
       ]
     },
     "sources": [
       {
         "name": "科技新報",
-        "title": "討債討到變老闆？泰山上半年慘虧 7.8 億強勢競標「街口支付」全數股權",
-        "url": "https://finance.technews.tw/2026/08/13/jko-financial-technology/"
-      },
-      {
-        "name": "中央社",
-        "title": "泰山擬投標全數股權　街口支付：未進入任何拍賣程序",
-        "url": "https://www.cna.com.tw/news/afe/202608130322.aspx"
+        "title": "一卡通迎新任董座郭添貴！結盟 WeMo、精誠資訊擴大 APP 生態圈",
+        "url": "https://finance.technews.tw/2026/08/14/ipass-money-wemo/"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-14",
+        "title": "本日觀察：泰山董事會通過投標街口支付全數股權，街口支付否認已進入拍賣、強調營運轉盈",
+        "paras": [
+          "食品與油脂廠泰山企業 8 月 13 日召開重大訊息說明會，公布上半年虧損約新台幣 7.8 億元，主因包含油安事件、中聯油脂投資損失，以及對街口金融科技的預付投資款減損。同日泰山董事會通過參與街口電子支付（街口支付）股權拍賣的投標案，若成局將取得街口支付全數股權，使這場圍繞台灣主要第三方支付業者的經營權爭奪再度浮上檯面。",
+          "對此，街口支付回應指出，母公司街口金融科技與泰山之間的訴訟結果尚未確定，目前並未進入任何拍賣程序，並強調營運穩健、6 月與 7 月已連續兩個月獲利，今年有望首度達成全年獲利轉正。這起圍繞台灣主要第三方支付業者的經營權爭議仍屬早期且結果未定，後續值得追蹤的關鍵在於雙方訴訟走向、股權拍賣是否真正啟動，以及金融監理機關對經營權可能易主的態度；在這些變數明朗前，街口支付的經營權歸屬仍充滿不確定。"
+        ],
+        "sources": [
+          {
+            "name": "科技新報",
+            "title": "討債討到變老闆？泰山上半年慘虧 7.8 億強勢競標「街口支付」全數股權",
+            "url": "https://finance.technews.tw/2026/08/13/jko-financial-technology/"
+          },
+          {
+            "name": "中央社",
+            "title": "泰山擬投標全數股權　街口支付：未進入任何拍賣程序",
+            "url": "https://www.cna.com.tw/news/afe/202608130322.aspx"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-13",
         "title": "台灣行政院通過《洗錢防制法》修正草案，把未登記虛擬資產與第三方支付服務納入洗錢特定犯罪，增訂違法發行穩定幣與實質受益人規範",
@@ -50,24 +67,41 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-14",
-      "tier": "top",
-      "title": "泰達（Tether）宣布完成 KPMG 全面審計，為約 1,800 億美元 USDT 穩定幣準備金背書",
+      "date": "2026-08-15",
+      "tier": "watch",
+      "title": "本日觀察：以色列最大銀行 Bank Leumi 攜手 Galaxy Digital，2027 年初起於 App 內開放加密貨幣交易",
       "paras": [
-        "穩定幣（stablecoin）發行商泰達（Tether）8 月 13 日宣布，已完成外界期待多年的全面財務審計，由四大會計師事務所之一的 KPMG（美國）執行，查核其規模約 1,800 億美元的 USDT 準備金；據 CoinDesk 報導，KPMG 不僅檢視帳目，甚至實地清點了 Tether 持有的黃金條塊。USDT 是全球規模最大的穩定幣，長年面臨監理機關與市場質疑其準備金是否足額背書，過去 Tether 多提供範圍有限的季度「認證報告」（attestation），而非完整審計。",
-        "對整個穩定幣與數位資產基礎設施而言，從有限的認證升級為四大完整審計，是一個攸關信任的里程碑，可能牽動機構資金採用意願與各國監理態度，尤其在美國等地穩定幣立法趨嚴的背景下更受矚目。不過此為 Tether 自行宣布，審計報告的具體範圍、方法與完整結論仍有待外界檢視，能否平息長年的準備金爭議，須看後續公開內容。相關報導見於 CoinDesk。"
+        "以色列最大銀行 Bank Leumi（利米銀行）宣布，將自 2027 年初起讓客戶直接在其 Leumi Trade App 內買賣加密貨幣，首波開放比特幣（Bitcoin）、以太幣（Ether）與 Solana（SOL），並與美國數位資產金融公司 Galaxy Digital 合作提供相關基礎設施；據 CoinDesk，這使 Bank Leumi 成為第一家在自家平台內提供加密貨幣交易的以色列銀行。",
+        "傳統大型銀行把加密貨幣交易直接嵌入既有 App，代表數位資產正逐步被納入主流銀行的金融服務堆疊，而非僅由加密原生交易所提供，對機構級託管與交易基礎設施需求具指標意義。不過此案目前僅為銀行單方宣布、預定 2027 年初才上線，實際商品範圍、監理核准細節與費率結構尚未完整揭露，後續進展仍待追蹤。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
-        "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin"
+        "title": "Israel's largest bank partners with Galaxy for crypto trading",
+        "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-14",
+        "title": "泰達（Tether）宣布完成 KPMG 全面審計，為約 1,800 億美元 USDT 穩定幣準備金背書",
+        "paras": [
+          "穩定幣（stablecoin）發行商泰達（Tether）8 月 13 日宣布，已完成外界期待多年的全面財務審計，由四大會計師事務所之一的 KPMG（美國）執行，查核其規模約 1,800 億美元的 USDT 準備金；據 CoinDesk 報導，KPMG 不僅檢視帳目，甚至實地清點了 Tether 持有的黃金條塊。USDT 是全球規模最大的穩定幣，長年面臨監理機關與市場質疑其準備金是否足額背書，過去 Tether 多提供範圍有限的季度「認證報告」（attestation），而非完整審計。",
+          "對整個穩定幣與數位資產基礎設施而言，從有限的認證升級為四大完整審計，是一個攸關信任的里程碑，可能牽動機構資金採用意願與各國監理態度，尤其在美國等地穩定幣立法趨嚴的背景下更受矚目。不過此為 Tether 自行宣布，審計報告的具體範圍、方法與完整結論仍有待外界檢視，能否平息長年的準備金爭議，須看後續公開內容。相關報導見於 CoinDesk。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
+            "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-13",
         "title": "預測市場 Kalshi 傳洽紅杉、威靈頓募資 7.5 億美元，估值上看 400 億美元、拉開與 Polymarket 差距",
@@ -761,101 +795,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-07",
-        "title": "Coldcard 硬體錢包爆韌體漏洞遭盜，逾 21 萬枚比特幣轉出自保、部分改存 ETF 與受監管託管",
-        "paras": [
-          "冷錢包廠商 Coldcard 部分韌體因亂數（randomness）強度不足，讓攻擊者得以重建使用者的助記詞（recovery phrase）並盜走比特幣，數千個地址受害，CoinDesk 估計損失最高約 1.14 億美元，另有外媒稱逾 1.3 億美元。由於單靠更新韌體無法保護可能已外洩的私鑰，Coldcard 呼籲受影響用戶另建新錢包並儘速轉移資產。",
-          "這起事件的連鎖效應已浮現鏈上：Glassnode 數據顯示過去一週約有 21 萬枚比特幣自「長期持有者」（long-term holder）錢包移出，是 2024 年 12 月以來最大單週降幅，但比特幣並未破底，研判多屬託管方式的遷移而非拋售——部分持有者改用新錢包，或將資產轉入受監管託管機構與現貨比特幣 ETF；同期美國現貨比特幣 ETF 淨流入約 7.54 億美元。事件凸顯自我保管（self-custody）的資安風險。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
-            "url": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets"
-          },
-          {
-            "name": "CoinDesk",
-            "title": "Coldcard urges users to move bitcoin as active wallet exploit continues",
-            "url": "https://www.coindesk.com/tech/2026/08/04/coldcard-urges-users-to-move-bitcoin-as-active-wallet-exploit-continues"
-          },
-          {
-            "name": "TechCrunch",
-            "title": "Hackers steal over $130 million by exploiting bug in offline hardware wallets",
-            "url": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-07",
-        "title": "駭客假冒 IT 人員以社交工程鎖定美國數十家金融機構，芝商所、黑石傳遭勒索、部分企業已付贖金",
-        "paras": [
-          "根據路透社掌握的 Google 情資，過去約一個月有勒索型駭客鎖定美國數十家知名金融機構與企業，芝商所（CME）、黑石集團（Blackstone）等均傳在名單上。手法是以竄改來電顯示的方式，在電話中假冒公司 IT 人員，誘導員工進入釣魚網站、交出登入憑證，藉此繞過企業的高階資安防護。",
-          "Google 威脅情報團隊指出，這類技術門檻不高的社交工程手段，仍能取得機敏資訊進行勒索，目前已有未具名企業支付贖金；被點名的金融機構多未回應。事件再次顯示，員工的資安意識與身分驗證機制，往往是金融業防線中最脆弱的環節。"
-        ],
-        "sources": [
-          {
-            "name": "中央社",
-            "title": "駭客冒充IT單位電話行騙　美數十家金融機構成目標",
-            "url": "https://www.cna.com.tw/news/ait/202608070089.aspx"
-          },
-          {
-            "name": "Yahoo 財經",
-            "title": "華爾街驚傳遭「大規模駭客攻擊」　多家受害者已吐贖金",
-            "url": "https://tw.news.yahoo.com/%E8%8F%AF%E7%88%BE%E8%A1%97%E9%A9%9A%E5%82%B3%E9%81%AD-%E5%A4%A7%E8%A6%8F%E6%A8%A1%E9%A7%AD%E5%AE%A2%E6%94%BB%E6%93%8A-%E5%A4%9A%E5%AE%B6%E5%8F%97%E5%AE%B3%E8%80%85%E5%B7%B2%E5%90%90%E8%B4%96%E9%87%91-120700996.html"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-07",
-        "title": "Tether 把資產代幣化業務拓展至沙烏地阿拉伯，以 Hadron 平台先攻機構級不動產",
-        "paras": [
-          "發行全球流通量最大的穩定幣（stablecoin，錨定法幣的數位代幣）USDT 的 Tether，宣布把真實世界資產（RWA，real-world assets）代幣化（tokenization，把傳統資產以區塊鏈形式表彰）業務拓展至沙烏地阿拉伯，先從機構級不動產（real estate）切入。依 CoinDesk，Tether 將以其 2024 年推出的代幣化平台 Hadron 提供技術，為當地機構投資人發行與管理代幣化不動產，並與沙國夥伴 First Data 及金融科技公司 BKN301 合作；三方表示，此營運模式未來可能再擴及能源、基礎設施融資等其他真實世界資產。",
-          "這是 Tether 從穩定幣延伸到代幣化的最新一步——它同時是全球最大代幣化黃金 XAUT（規模約 26 億美元）的發行商。近年銀行與資產管理業者日益把貨幣市場基金、私募信貸、不動產與股票等傳統資產搬上區塊鏈，主張可加快結算、擴大投資人參與並提升資本效率，花旗（Citi）預估代幣化證券市場到 2030 年可達 5.5 兆美元。沙烏地阿拉伯把企業區塊鏈列為「2030 願景」（Vision 2030）經濟多元化策略的一環，橫跨金融服務、政府與供應鏈；執行長 Paolo Ardoino 稱沙國是展示 Hadron 影響力的理想市場。實際發行規模、上線時程與監理配套仍待後續揭露。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
-            "url": "https://www.coindesk.com/business/2026/08/06/tether-expands-tokenization-business-into-saudi-arabia-starting-with-real-estate"
-          },
-          {
-            "name": "Tether（新聞稿）",
-            "title": "Hadron by Tether launches strategic collaboration with First Data and BKN301 to advance institutional tokenization in Saudi Arabia",
-            "url": "https://tether.io/news/hadron-by-tether-launches-strategic-collaboration-with-first-data-and-bkn301-to-advance-institutional-tokenization-in-saudi-arabia/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-07",
-        "title": "Wintermute 取得美國券商（broker-dealer）資格，加密造市商循受監理途徑跨進華爾街股票與 ETF 造市",
-        "paras": [
-          "加密貨幣造市商 Wintermute 宣布，旗下位於紐約的 Wintermute USA LLC 已完成向美國證券交易委員會（SEC）與金融業監管局（FINRA）登記，取得券商（broker-dealer）資格，並將以自營交易商（proprietary trading firm）身分運作，暫不涉足散戶經紀業務。此資格讓 Wintermute 得以交易股票與股票選擇權、向交易所及店頭（OTC）對手方提供流動性，並擔任 ETF 的「授權參與者」（authorized participant，AP，負責與發行商創建、贖回大額 ETF 份額，使 ETF 市價貼近其持有資產淨值），涵蓋與加密貨幣連結的 ETF；公司並可進一步爭取在紐約證交所（NYSE）與那斯達克（Nasdaq）等場所擔任造市商。據 Wintermute，其橫跨逾 60 個中心化與去中心化交易場所、日均交易量逾 100 億美元。",
-          "這象徵加密造市商正循受監理途徑跨進華爾街，也反映加密交易與傳統證券市場的界線持續模糊。Wintermute 去年已在紐約設立總部，並曾請求 SEC 確認券商可為自有帳戶交易代幣化證券、自行清算並透過錢包軟體持有自營部位。它就此加入 Ripple、GSR 與 Crypto.com 等一批「收購或自建美國受監理證券業務」的加密業者行列——Ripple 於 2025 年以 12.5 億美元收購主經紀商 Hidden Road，GSR 收購券商 Equilibrium Capital Services，Crypto.com 則在 2024 年買下 Watchdog Capital。實際的 ETF 造市合作對象、上線時程與業務規模仍待揭露，相關內容主要見於 CoinDesk 引述《華爾街日報》（WSJ）。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
-            "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push"
-          },
-          {
-            "name": "Wintermute（新聞稿）",
-            "title": "Wintermute launches U.S. broker-dealer, expanding its regulated institutional reach",
-            "url": "https://www.wintermute.com/insights/news/announcements/wintermute-launches-u-s-broker-dealer-expanding-its-regulated-institutional-reach"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-14T00:54:05Z"
+  "_generated_at": "2026-08-14T18:53:17Z"
 }
