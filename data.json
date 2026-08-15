@@ -87,6 +87,45 @@
     "others": [
       {
         "date": "2026-08-14",
+        "title": "PayPal 傳與 Stripe、私募基金 Advent 洽談出售，初步開價約 530 億美元、每股 60.5 美元遭婉拒後談判升溫",
+        "paras": [
+          "據《華爾街日報》（WSJ）報導、科技媒體 TechCrunch 整理，線上支付巨頭 PayPal 正與同業 Stripe 及私募股權基金 Advent International 洽談出售事宜，且雙方談判近期明顯升溫。消息稱，收購方最初開出的價碼約 530 億美元、相當於每股 60.5 美元，PayPal 於 7 月一度回絕該提案，但知情人士指出協商仍在進行，交易有可能於未來數週成形。PayPal 對此不予置評，Stripe 發言人則表示公司不評論「傳言或臆測」。",
+          "若最終成局，這將是近年支付產業規模最大的整併之一——由新一代線上支付基礎設施業者 Stripe 聯手私募資本，收購曾長期主導線上結帳與 P2P 轉帳的老牌業者 PayPal，勢必重塑數位支付的競爭版圖。不過目前僅止於媒體引述未具名消息來源的洽談階段，交易架構、監理審查與最終是否成交都尚未確定；PayPal 同時仍在推動組織重整（規劃拆分為結帳、消費金融，以及支付與加密資產三大事業單位）與人力精簡等轉型措施，實際走向仍待雙方後續揭露。"
+        ],
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "title": "Talks to sell PayPal to Stripe and Advent are heating up",
+            "url": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-14",
+        "title": "MSCI 提新規擬以五項財務比率剔除「非營運公司」，Strategy、Metaplanet 等比特幣財庫公司恐遭剔出全球股票指數",
+        "paras": [
+          "全球主要指數編製公司 MSCI 本月啟動新一輪意見諮詢，提議在其「全球可投資市場指數」（Global Investable Market Indexes）中辨識並剔除「非營運公司」（non-operating companies）。與 2025 年 10 月一度點名 39 家、以「加密資產占總資產逾五成」為單一門檻的舊版提案不同，這次改以五項財務比率重新判定，分別是營運資產密度、費用密度、現金流、公允價值密度與資本依賴度。程序上，公司若未先通過「營運資產是否逾總資產五成」的核心檢驗，且在五項比率中有四項不合格，即喪失納入指數的資格。MSCI 以此描述那些「靠累積並持有非營運資產創造價值」、本業幾乎不產生現金、需仰賴外部資本才能成長的公司，形同不點名地勾勒出比特幣財庫（bitcoin treasury，以公司資產大量買進並長期持有比特幣）業者的樣貌。",
+          "據 CoinDesk，若以各公司 2026 年 5 月的加密持倉、將此篩選套用於 MSCI ACWI IMI 指數，將剔除三家公司：那斯達克掛牌、自 2020 年起累積 840,447 枚比特幣（約 531.8 億美元）而成為全球最大上市比特幣持有者的 Strategy（MSTR）、東京掛牌並持有約 43,000 枚比特幣（逾 20 億美元）的 Metaplanet，以及持有鈾（而非比特幣）的 Yellow Cake。被剔出主要股票指數，意味著追蹤指數的被動型基金將被迫調節持股，直接衝擊比特幣財庫公司賴以募資的股價與資本管道；Strategy 已公開反對，主張 MSCI 應「衡量市場、而非替企業決定能持有哪些資產」。此案仍在諮詢階段，市場參與者可於 9 月 30 日前表達意見，結果約於 10 月 16 日公布，若獲採納將納入 2026 年 11 月的指數調整。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Bitcoin holders Strategy and Metaplanet face stock-index exclusion under MSCI's new proposal",
+            "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-holders-strategy-and-metaplanet-face-stock-index-exclusion-under-msci-s-new-proposal"
+          },
+          {
+            "name": "CoinDesk",
+            "title": "Strategy says MSCI should measure markets, not dictate corporate assets",
+            "url": "https://www.coindesk.com/markets/2026/08/14/strategy-says-msci-should-measure-markets-not-dictate-corporate-assets"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-14",
         "title": "Trump 家族背景的 World Liberty Trust 獲美國 OCC 有條件牌照，將接手發行 USD1 穩定幣",
         "paras": [
           "美國通貨監理署（OCC）8 月 14 日在官網公布信函，對 World Liberty Trust Company 給予「初步有條件核准」（preliminary conditional approval），准其以國家信託銀行（national trust bank）身分經營信託與相關業務；正式核准仍須先完成一系列「開業前要求」（preopening requirements）。據 CoinDesk，這家新銀行的核心任務，是接手 World Liberty Financial 旗下 USD1 穩定幣（stablecoin）的發行——目前 USD1 的獨家發行與保管機構為 BitGo Bank & Trust——並以受託人（fiduciary）身分，主要為 USD1 客戶與機構客戶提供數位資產託管。信中載明，該行無意成為受聯邦存保的存款機構，也不打算取得聯準會主帳戶（Fed master account）。",
@@ -815,5 +854,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-14T21:45:45Z"
+  "_generated_at": "2026-08-15T00:56:19Z"
 }
