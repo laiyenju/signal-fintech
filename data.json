@@ -1,24 +1,35 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "tier": "watch",
-      "title": "本日觀察：一卡通結盟 WeMo、精誠資訊，導入共享機車與數位票券擴大 iPASS MONEY 支付生態圈",
+      "title": "本日觀察：今日台灣金融科技無達標頭條，市場焦點落在半導體、記憶體與總體經濟",
       "paras": [
-        "電子支付業者一卡通 8 月 14 日宣布，攜手共享機車品牌 WeMo 與資訊服務商精誠資訊（Systex），將共享機車移動服務與數位票券等應用導入自家的 iPASS MONEY App，並由新任董事長郭添貴帶領推動平台生態圈擴張。一卡通以交通票證與電子支付起家，此番結盟意在把交通移動與票券場景整合進同一支付 App，擴大日常高頻使用情境。",
-        "對台灣電子支付市場而言，把共享運具與數位票券納入支付 App，是業者從單純支付工具往「生活服務入口」延伸的又一嘗試，有助於提高使用黏著度與交易頻次。不過此次僅為合作啟動階段，導入服務的實際規模、上線時程與對交易量的貢獻尚待後續揭露，對市場競爭格局的影響仍有待觀察。"
+        "過去一日台灣財經與科技版面幾乎由股市與產業消息主導：主計總處上修今年經濟成長率至 11.05%、創 39 年新高，記憶體與 AI 供應鏈個股輪動，加上新台幣匯率震盪與外資買賣超動向，成為盤面主軸。相對地，支付、數位銀行、金融監理或數位資產等真正以金融科技為核心的題材今日相對沉寂，沒有明顯足以領銜的單一進展。",
+        "今日台灣並無足以構成頭條的金融科技消息，因此先維持觀察、暫不點名單一重點。近期的一卡通擴大 iPASS MONEY 支付生態圈、泰山董事會通過投標街口支付股權，以及《洗錢防制法》將虛擬資產與第三方支付納管等題材，均已列入本週要聞並持續追蹤，一旦有實質新進展會再更新。"
       ]
     },
-    "sources": [
-      {
-        "name": "科技新報",
-        "title": "一卡通迎新任董座郭添貴！結盟 WeMo、精誠資訊擴大 APP 生態圈",
-        "url": "https://finance.technews.tw/2026/08/14/ipass-money-wemo/"
-      }
-    ],
+    "sources": [],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-15",
+        "title": "本日觀察：一卡通結盟 WeMo、精誠資訊，導入共享機車與數位票券擴大 iPASS MONEY 支付生態圈",
+        "paras": [
+          "電子支付業者一卡通 8 月 14 日宣布，攜手共享機車品牌 WeMo 與資訊服務商精誠資訊（Systex），將共享機車移動服務與數位票券等應用導入自家的 iPASS MONEY App，並由新任董事長郭添貴帶領推動平台生態圈擴張。一卡通以交通票證與電子支付起家，此番結盟意在把交通移動與票券場景整合進同一支付 App，擴大日常高頻使用情境。",
+          "對台灣電子支付市場而言，把共享運具與數位票券納入支付 App，是業者從單純支付工具往「生活服務入口」延伸的又一嘗試，有助於提高使用黏著度與交易頻次。不過此次僅為合作啟動階段，導入服務的實際規模、上線時程與對交易量的貢獻尚待後續揭露，對市場競爭格局的影響仍有待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "科技新報",
+            "title": "一卡通迎新任董座郭添貴！結盟 WeMo、精誠資訊擴大 APP 生態圈",
+            "url": "https://finance.technews.tw/2026/08/14/ipass-money-wemo/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-14",
         "title": "本日觀察：泰山董事會通過投標街口支付全數股權，街口支付否認已進入拍賣、強調營運轉盈",
@@ -67,24 +78,41 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "tier": "watch",
-      "title": "本日觀察：以色列最大銀行 Bank Leumi 攜手 Galaxy Digital，2027 年初起於 App 內開放加密貨幣交易",
+      "title": "本日觀察：全球最大穩定幣支付卡商 RedotPay 傳暫緩 10 億美元美國 IPO 至 2027 年，同週取得美國匯款牌照",
       "paras": [
-        "以色列最大銀行 Bank Leumi（利米銀行）宣布，將自 2027 年初起讓客戶直接在其 Leumi Trade App 內買賣加密貨幣，首波開放比特幣（Bitcoin）、以太幣（Ether）與 Solana（SOL），並與美國數位資產金融公司 Galaxy Digital 合作提供相關基礎設施；據 CoinDesk，這使 Bank Leumi 成為第一家在自家平台內提供加密貨幣交易的以色列銀行。",
-        "傳統大型銀行把加密貨幣交易直接嵌入既有 App，代表數位資產正逐步被納入主流銀行的金融服務堆疊，而非僅由加密原生交易所提供，對機構級託管與交易基礎設施需求具指標意義。不過此案目前僅為銀行單方宣布、預定 2027 年初才上線，實際商品範圍、監理核准細節與費率結構尚未完整揭露，後續進展仍待追蹤。"
+        "自稱全球最大穩定幣（stablecoin）支付卡發行商的香港新創 RedotPay，傳將原訂今年於紐約進行的 10 億美元首次公開發行（IPO）延後，最快要到 2027 年才會啟動。據彭博（Bloomberg）引述知情人士，延後主因是處理法律問題；RedotPay 發言人向 CoinDesk 未證實 IPO 計畫，僅表示公司本週已取得美國匯款業者（money transmitter）牌照、正準備在美國推出產品。此案先前傳由摩根大通（JPMorgan）、高盛（Goldman Sachs）與 Jefferies 擔任承銷。",
+        "RedotPay 於 2025 年 9 月以 4,700 萬美元募資晉升獨角獸，第二季用戶衝上 850 萬、年化營收約 1.8 億美元。但公司同時面臨幣安（Binance）在香港提出的 4.7 億美元訴訟，指控其在雙方合作期間挖走約 47 萬名用戶（這些用戶原可用 Binance Pay 餘額在 RedotPay 將加密貨幣兌換為法幣）；幣安並在新加坡另提平行訴訟。這樁上市延後也凸顯，穩定幣支付新創在衝刺公開市場前，仍得先跨過監理落地與跨國訴訟兩道關卡。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Israel's largest bank partners with Galaxy for crypto trading",
-        "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading"
+        "title": "RedotPay said to put $1 billion U.S. IPO plan on hold: Bloomberg",
+        "url": "https://www.coindesk.com/business/2026/08/14/redotpay-said-to-put-usd1-billion-u-s-ipo-plan-on-hold-bloomberg"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-15",
+        "title": "本日觀察：以色列最大銀行 Bank Leumi 攜手 Galaxy Digital，2027 年初起於 App 內開放加密貨幣交易",
+        "paras": [
+          "以色列最大銀行 Bank Leumi（利米銀行）宣布，將自 2027 年初起讓客戶直接在其 Leumi Trade App 內買賣加密貨幣，首波開放比特幣（Bitcoin）、以太幣（Ether）與 Solana（SOL），並與美國數位資產金融公司 Galaxy Digital 合作提供相關基礎設施；據 CoinDesk，這使 Bank Leumi 成為第一家在自家平台內提供加密貨幣交易的以色列銀行。",
+          "傳統大型銀行把加密貨幣交易直接嵌入既有 App，代表數位資產正逐步被納入主流銀行的金融服務堆疊，而非僅由加密原生交易所提供，對機構級託管與交易基礎設施需求具指標意義。不過此案目前僅為銀行單方宣布、預定 2027 年初才上線，實際商品範圍、監理核准細節與費率結構尚未完整揭露，後續進展仍待追蹤。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Israel's largest bank partners with Galaxy for crypto trading",
+            "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-14",
         "title": "PayPal 傳與 Stripe、私募基金 Advent 洽談出售，初步開價約 530 億美元、每股 60.5 美元遭婉拒後談判升溫",
@@ -750,109 +778,8 @@
             "body": "BIP-110（Bitcoin Improvement Proposal 110）分叉近乎停擺後，該提案主要推手、比特幣（Bitcoin）核心開發者 Luke Dashjr 於 8 月 9 日遭其他開發者提案、並隨即通過拔除其「BIP 編輯」（負責審核比特幣改進提案的職務）身分。開發者 Mark Erhardt 指控 Dashjr 濫用編輯職權，包括在提案尚未經討論前就逕自指派 BIP 編號、未依正當程序即把更新併入程式庫，並指他自 2024 年 4 月新增編輯以來幾乎未參與日常審核、留言佔比不到 1%。Dashjr 在社群平台 X 稱此舉為「濫權」、先前也否認指控，並表示將自其擔任董事長暨技術長的 Ocean 礦池「休假」，把重心轉向支援比特幣與開源專案。BIP-110 意在暫時限制在比特幣網路夾帶圖片、文字等非金融資料（此用法隨 2023 年 Ordinals 協定興起而流行），但礦工支持率僅約 2.6%、遠低於 55% 門檻，分叉鏈挖出兩個區塊後即停滯。相關內容主要見於 CoinDesk。"
           }
         ]
-      },
-      {
-        "date": "2026-08-08",
-        "title": "美國參議院對加密市場結構法案 CLARITY Act 啟動首輪程序動作，已錯過休會前表決、九月闖關成敗未定",
-        "paras": [
-          "美國參議院領導層於 8 月 8 日（週六）凌晨對「數位資產市場明確法案」（Digital Assets Market Clarity Act，簡稱 CLARITY Act，眾院版編號 H.R. 3633）提出「動議提付討論」（motion to proceed），正式在院會啟動這部加密市場結構法案的程序，是產業核心政策迄今推進最遠的一步；該法案要在美國證券交易委員會（SEC）與商品期貨交易委員會（CFTC）之間劃分數位商品的監理權責。不過此舉是在法案錯過休會前表決窗口後才出現，等於把命運押到九月——國會在期中選舉前僅剩約三週院會時間；多數黨領袖 John Thune 先前也曾直言不認為法案能在八月休會前完成最終表決，若連這一步都沒有，法案在 2026 年恐已被視為出局。",
-          "接下來法案將進入耗時的「結束辯論」（cloture）程序，須跨過 60 票門檻，意味至少要約 10 名民主黨參議員支持。目前支持度仍有變數。主要卡點是法案禁止包含總統 Trump 在內的高階政府官員涉入加密專案的條款：一份由跨黨派參議員修改的版本已在白宮擱置逾一週，Trump 可能需要點頭，法案才能以跨黨派形式推進。此外，反洗錢防護細節、穩定幣（stablecoin）獎勵爭議與政府倫理條款也尚未談攏。參院與產業幕僚認為只要九月前談成、時程仍可行，實際投票僅需數日；但若表決時黨派裂痕仍在，法案今年幾乎不可能成法，屆時 2027 年新一屆國會可能由民主黨主導議程，產業恐須從頭再來。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
-            "url": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month"
-          },
-          {
-            "name": "CoinDesk",
-            "title": "After a Clarity Act funeral, the crypto world would keep turning",
-            "url": "https://www.coindesk.com/news-analysis/2026/08/06/after-a-clarity-act-funeral-the-crypto-world-would-keep-turning"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-08",
-        "title": "巴西央行新規要求加密交易所延遲大額跨境與自保管出金至多 24 小時，2027 年上路防詐",
-        "paras": [
-          "巴西央行（Banco Central do Brasil，BCB）8 月 7 日發布第 584/2026 號決議（Resolution BCB No. 584/2026），要求當地加密貨幣交易所在客戶把資金匯往境外平台或自我保管（self-custody）錢包時，對部分轉帳實施至多 24 小時的延遲，作為新反詐騙規範的一環，並自 2027 年 1 月 1 日正式生效。適用情境為客戶先以巴西法幣里爾（reais）或加密貨幣存入交易所，再要求把資金轉往境外或自己掌控的錢包；單筆或同日累計逾等值 1 萬美元的轉帳一律須經延遲審查，金額較小者若被交易所標記為高風險也可能被延後。這道延遲並非永久，交易所若風險審查未發現異常，可在 24 小時內提前放行，但須留存決策紀錄並告知客戶交易已被暫緩。",
-          "巴西央行表示，包括穩定幣（stablecoin，錨定法幣的數位代幣）在內的加密貨幣，正被用於在受害者或機構來得及追回前，快速轉移經由金融詐騙取得的資金。新規也把更多風險判斷責任交給交易所，要求其依客戶、交易、交易對手與目的地司法管轄區綜合評估。此舉等於把傳統反洗錢（AML）與防詐的「可疑交易延遲」機制，正式套用到加密資產的跨境與自保管出金環節，直接牽動當地交易所的合規系統與出金流程；巴西代幣化產業組織 Abtoken 主席 Regina Pedroso 則向當地媒體 Portal do Bitcoin 表示，這項政策恐對合法用戶增加成本、削弱本土交易所的競爭力。實際的技術落地細節與對跨境金流的影響仍待觀察，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
-            "url": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad"
-          },
-          {
-            "name": "巴西央行 Banco Central do Brasil（決議原文）",
-            "title": "Resolução BCB No. 584, de 2026",
-            "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=584"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-08",
-        "title": "Polymarket 改用時間加權均價結算短天期加密合約，回應學界揭露的結算價操縱與約 820 萬美元套利",
-        "paras": [
-          "區塊鏈預測市場（prediction markets）平台 Polymarket 宣布，將其短天期加密貨幣「漲跌」（up/down）合約的結算方式，從單一時點的價格快照（snapshot）改為時間加權平均價（TWAP，time-weighted average price）。此舉在交易者抱怨數月後推出：史丹佛大學與新加坡管理大學的研究者分析約兩個月的 5 分鐘比特幣合約，發現有 821 個帳戶在疑似遭操縱的結算窗口賺得約 820 萬美元，且在排除造市商後，這類窗口約 93% 的虧損落在散戶身上，研究並形容「一場被市場視為近乎篤定的押注，每三次就有一次被翻盤」。依 Polymarket 公告，5 分鐘市場將採 30 秒均價，15 分鐘與 4 小時市場採 60 秒均價，價格資料改由 Chainlink Data Streams 提供，並於 8 月間對受影響市場投入 100 萬美元流動性獎勵以支持過渡。",
-          "研究者指出這是「結構性」漏洞：以資產價格結算的合約，其結算價可被在標的市場（如加密交易所幣安 Binance）本身的交易左右——他們觀察到結算前最後數秒出現異常大單、隨後價格快速反轉。這類結算價操縱風險並非 Polymarket 獨有，卻凸顯預測市場快速壯大後，如何為事件合約（event contracts）設計不易被操弄的價格預言機（oracle，把外部真實價格餵進合約的機制）已成核心課題。對手 Kalshi 向 CoinDesk 表示，其以受監理的 CF Benchmarks 指數與 60 秒移動均價結算、且所有交易者都經身分驗證，較難被短暫拉抬；不過也有交易者稱 Kalshi 同樣出現過類似情形。這波調整能否完全杜絕跨場操縱、實際成效與是否引來監理關注仍待觀察，相關內容主要見於 CoinDesk 引述史丹佛大學與新加坡管理大學研究。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "How a five-second trick let traders drain millions from Polymarket",
-            "url": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-08",
-        "title": "BTCPay Server 的 LND 閃電網路（Lightning）節點爆重大漏洞遭利用，攻擊者竊取憑證盜空商家節點資金",
-        "paras": [
-          "接受比特幣（Bitcoin）付款的商家所倚賴的支付基礎設施再傳資安事件。開源加密貨幣收單系統 BTCPay Server 表示，攻擊者於週五（8 月 7 日）深夜利用一項重大漏洞，取得保護閃電網路（Lightning Network，建構在比特幣之上、用於即時小額轉帳的第二層網路）節點的憑證，進而盜走節點內資金。BTCPay 證實確有資金遭竊，並緊急呼籲所有使用 LND（目前最普遍的閃電網路節點軟體）的營運者立即升級至 2.4.2 版，或直接將伺服器下線；官方尚未公布受害用戶數與被盜比特幣金額。硬體錢包商 Foundation 執行長 Zach Herbert 證實公司的 BTCPay 閃電網路節點在一夜之間被清空、支付通道遭關閉、資金被捲走，但其鏈上熱錢包未受影響；比特幣刊物 Citadel21 也表示其節點遭洗劫，惟存放金額不多。",
-          "此漏洞讓未經驗證的遠端攻擊者能取得「.macaroon」憑證檔——這類檔案賦予軟體操作 LND 節點的權限，一旦外洩即可被用來控制節點並轉走資金。BTCPay 在初步警示後縮小影響範圍，強調其標準鏈上錢包（含在 BTCPay 內產生的熱錢包）不受此憑證漏洞影響，但風險專屬於採用 LND 的部署，且存放在 LND 自身鏈上錢包的資金因隸屬受害節點仍可能有風險。值得注意的是，該漏洞原是由「Bitcoin Red Team」開發者社群負責任地通報——這個本週開始以 AI 模型掃描比特幣程式碼庫、已在數百個專案回報上千項問題（並示警 85 項重大漏洞）的團隊；但在 BTCPay 公開警告發出前，攻擊者已對線上伺服器展開實際利用。這是繼冷錢包廠商 Coldcard 韌體遭利用後，同一週內第二起比特幣基礎設施資安事件，凸顯自我保管與加密支付基礎設施的資安脆弱性，完整事後檢討報告預計數日內公布，相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
-            "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-11",
-            "title": "BTCPay Server 祭出最高 3 枚比特幣（約 19 萬美元）懸賞追討失竊資金，並酬謝漏洞通報者",
-            "body": "BTCPay Server 於 8 月 10 日宣布，由專案的友好支持者出資設立懸賞，追討上週遭駭客盜走的商家比特幣（Bitcoin）：凡提供有助追回資金線索者（包含攻擊者本人），可獲追回金額的 10%、上限 3 枚比特幣（依當時幣價約 19 萬美元）；若多方線索共同促成追回，獎金將依各商家損失比例與線索貢獻度分配。專案另各捐 0.21 枚比特幣，酬謝負責任揭露此漏洞的開發者 Craig Raw 與「Bitcoin Red Team」。BTCPay 表示，已有交易所、鏈上分析業者與執法單位主動協助追蹤金流，並呼籲受害商家報警、把資金留在冷錢包、定期把多餘資金移出熱錢包。硬體錢包商 Foundation 與比特幣刊物 Citadel21 均已證實受害，惟總損失金額雙方仍未公布。相關內容主要見於 CoinDesk。"
-          }
-        ]
-      },
-      {
-        "date": "2026-08-08",
-        "title": "XRP Ledger 釋出 3.3.0 升級，推「機密轉帳」等六項修正案送驗證者表決，鎖定逾 5.3 億美元代幣化資產的機構隱私需求",
-        "paras": [
-          "以 XRP 為原生代幣的 XRP Ledger（XRPL）本週釋出 3.3.0 版升級，內含六項待驗證者表決的修正案（amendments），其中最受矚目的是專為機構打造的「機密轉帳」（Confidential Transfers）。這項功能可對「多用途代幣」（MPT，Multi-Purpose Tokens，Ripple 用來表彰基金、債券等金融資產的格式）的餘額與轉帳金額加密，讓機構在移轉代幣時不必公開每一筆部位與金額大小——帳戶與代幣種類仍可見，但個別餘額與付款金額可加密，並以零知識式的密碼學方法在不揭露數字的情況下驗證交易有效。據鏈上資料商 RWA.xyz，XRPL 上已有約 13.8 億美元的真實世界資產（RWA），其中穩定幣 RLUSD 約 8.457 億美元，Ondo 約 2.126 億美元、VERT Capital 約 1.161 億美元、Archax 約 5,540 萬美元、法國興業銀行（Societe Generale）約 1,160 萬美元；扣除 RLUSD 後，仍有逾 5.3 億美元代幣化資產可望成為此功能的服務對象。",
-          "另外五項修正案同樣鎖定機構用戶：Batch 可將最多八筆交易打包、並支援「全成或全不成」模式；Sponsor 讓一個帳戶替另一帳戶負擔手續費與準備金，免去新用戶須先持有 XRP 才能交易的門檻；Permission Delegation 可授權他方僅提交特定類型交易，讓基金管理者在不交出完整控制權下取得有限權限；Dynamic MPT 則允許發行方在發行後調整代幣部分屬性。3.3.0 也將節點記憶體用量至少降低一成至一成五。不過所有修正案都須先取得逾 80% 受信任驗證者連續兩週支持才會啟用，目前皆尚未生效；機密轉帳首版功能也相當保守，須持有人主動選用、且僅適用帳戶間的直接 MPT 付款，不涵蓋 XRPL 內建撮合、託管（escrow）或支票（checks）。真正的考驗在於 Aviva Investors、Ondo 等已在鏈上發行資產的機構，是否真的選擇隱藏餘額與轉帳規模。相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
-            "url": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-15T00:56:19Z"
+  "_generated_at": "2026-08-15T18:55:19Z"
 }
