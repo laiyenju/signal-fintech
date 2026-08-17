@@ -114,6 +114,28 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-17",
+        "title": "以色列最大加密經紀商 Bits of Gold 遭第三方供應商入侵，約 20 萬名客戶個資外洩，為一週內第三起加密供應鏈資安事件",
+        "paras": [
+          "以色列最大加密貨幣經紀商 Bits of Gold 通報遭駭客入侵，約 20 萬名客戶個資外洩。該公司總部設於特拉維夫，2013 年成立，是以色列首家取得永久金融服務業者（Financial Services Provider）牌照的加密公司，客戶逾 25 萬並持有 SOC 2 Type 2 認證。公司表示駭客是透過一家第三方數據分析服務商的網路取得未授權存取，外洩內容包含客戶姓名、國民身分證字號、電子郵件、電話、IP 位址、銀行帳戶資料與公開錢包地址；但強調資金、私鑰、密碼、CVV 與掃描身分證件並未外洩，客戶的數位資產與資金安全無虞。偵測到事件後公司已封鎖並切斷該系統與資料來源的連線，並委由專門的資安事件調查公司展開全面調查。",
+          "值得注意的是，這已是一週內第三起衝擊加密產業的資料外洩事件，且都源自第三方供應商而非交易所或錢包核心系統：加密錢包商 SafePal 於 8 月 16 日通報約 4 萬名用戶訂單個資因第三方供應商遭駭而外洩，硬體錢包商 Trezor 也在 8 月 13 日因物流合作夥伴 ShipMonk 遭入侵而波及約 1.4 萬名用戶，CoinDesk 統計三起事件一週內累計影響逾 23 萬名用戶。Bits of Gold 研判自身遭遇的攻擊屬於同時襲擊多家公司的「全球性事件」一環。這波集中在委外數據、物流與行銷等第三方環節的攻擊，凸顯加密金融科技業者即使核心系統與私鑰未失守，供應鏈（supply chain）與委外服務仍是敏感個資（含國民身分證字號與銀行帳戶）外洩的高風險缺口。客戶也因此更容易被鎖定為釣魚與冒名詐騙的目標。內容整理自 CoinDesk 報導與 Bits of Gold 官方資安公告。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Israel’s largest crypto broker Bits of Gold hit by data breach affecting 200,000 customers",
+            "url": "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers"
+          },
+          {
+            "name": "Bits of Gold",
+            "title": "Security Update – August 2026",
+            "url": "https://blog.bitsofgold.co.il/security-update-august-26/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-16",
         "title": "美國 FinCEN 定案永久終止《企業透明法》受益所有權申報並刪除已申報資料，開戶 KYB 恐成唯一查核關卡",
         "paras": [
@@ -794,5 +816,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-17T03:57:37Z"
+  "_generated_at": "2026-08-17T13:00:01Z"
 }
