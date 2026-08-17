@@ -115,6 +115,28 @@
     "others": [
       {
         "date": "2026-08-16",
+        "title": "美國 FinCEN 定案永久終止《企業透明法》受益所有權申報並刪除已申報資料，開戶 KYB 恐成唯一查核關卡",
+        "paras": [
+          "美國財政部金融犯罪執法網（FinCEN，Financial Crimes Enforcement Network）發布最終規則，永久終止美國企業依《企業透明法》（CTA，Corporate Transparency Act）申報「實質受益人」（beneficial owner，實際擁有或控制公司的自然人）的義務，並將刪除美國申報人先前已提交的資料。依 FinCEN 自身估算，須申報的公司家數將從約 3,200 萬家降至約 2 萬家，僅剩在境外設立、再向美國各州登記的實體仍須申報。財政部稱此舉是「常識與美國小企業的勝利」，並以法定例外條款認定對 3,200 萬家公司的受益所有權資料「對執法用途幫助不大」。",
+          "對金融科技與銀行而言，這項鬆綁直接牽動反洗錢（AML）與「認識你的企業客戶」（KYB，Know Your Business）法遵架構：一旦全國性受益所有權登記資料庫遭刪除，開戶時的 KYB 查核將形同美國體系中唯一實際驗證公司背後所有權的關卡，業者也將失去可回頭比對的官方登記來源。此方向與國際趨勢相反：英國已要求公司董事完成身分驗證，歐盟也另設新反洗錢主管機關強化查緝。《企業透明法》當年在美國國會以懸殊票數通過、並曾推翻總統否決才得以立法；如今雖以行政規則關閉，母法仍在、未來仍可能被重新啟動，但已刪除的資料難以復原。相關內容整理自金融科技電子報 Fintech Brainfood，並引述美國財政部公告。"
+        ],
+        "sources": [
+          {
+            "name": "Fintech Brainfood",
+            "title": "🧠 Nvidia is the worlds largest fintech company",
+            "url": "https://www.fintechbrainfood.com/p/nvidia-is-fintech"
+          },
+          {
+            "name": "美國財政部 FinCEN（新聞稿）",
+            "title": "Treasury, FinCEN end beneficial ownership information reporting requirement under the Corporate Transparency Act",
+            "url": "https://home.treasury.gov/news/press-releases/sb0603"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-16",
         "title": "本日觀察：全球最大穩定幣支付卡商 RedotPay 傳暫緩 10 億美元美國 IPO 至 2027 年，同週取得美國匯款牌照",
         "paras": [
           "自稱全球最大穩定幣（stablecoin）支付卡發行商的香港新創 RedotPay，傳將原訂今年於紐約進行的 10 億美元首次公開發行（IPO）延後，最快要到 2027 年才會啟動。據彭博（Bloomberg）引述知情人士，延後主因是處理法律問題；RedotPay 發言人向 CoinDesk 未證實 IPO 計畫，僅表示公司本週已取得美國匯款業者（money transmitter）牌照、正準備在美國推出產品。此案先前傳由摩根大通（JPMorgan）、高盛（Goldman Sachs）與 Jefferies 擔任承銷。",
@@ -772,5 +794,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-16T18:57:51Z"
+  "_generated_at": "2026-08-17T03:57:37Z"
 }
