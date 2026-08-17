@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "tier": "watch",
-      "title": "本日觀察：今日台灣金融科技無達標頭條，市場焦點落在半導體、記憶體、金價與總體經濟",
+      "title": "本日觀察：今日台灣無達標金融科技頭條，市場焦點落在半導體記憶體、AI 出口、匯率與普發現金",
       "paras": [
-        "過去一日台灣財經與科技版面仍由半導體、記憶體與總體經濟主導。總經面，主計總處最新預估明年人均 GDP 將逼近 5 萬美元，明年超額儲蓄更上看 11 兆元、占 GDP 比重近三成，雙創新高。產業面，記憶體三巨頭單週獲三大法人加碼逾 700 億元，輝達（NVIDIA）力推 800VDC 新電力架構、帶動電源與矽光子供應鏈；國際金價則突破每盎司 4,300 美元，瑞銀（UBS）財管更上看 2027 年 5,200 美元。相對地，支付、數位銀行、金融監理與數位資產等真正以金融科技為核心的題材今日相對沉寂，沒有單一足以領銜的新進展。",
-        "今日台灣並無足以構成頭條的金融科技新聞，因此先維持觀察、暫不點名單一重點。今日較貼近金融科技的訊息，是主管機關統計顯示國內機器人理財（robo-advisor）資產規模於 6 月底達約 190 億元、另有一家銀行仍在申請中，屬既有服務的規模累積而非重大突破。先前的一卡通擴大 iPASS MONEY 支付生態圈、泰山董事會通過投標街口支付股權，以及《洗錢防制法》修正將虛擬資產與第三方支付納管等題材，均已列入本週要聞並持續追蹤，一旦有實質新進展會再更新。"
+        "今日台灣新聞版面以科技製造與總體經濟為主：記憶體需求續強、AI 帶動出口與投資創高、新台幣因熱錢匯入勁升、金價一度衝上每盎司 4,400 美元，以及行政院宣布明年普發現金一萬元等，皆屬一般財經或產業動態。金融科技相關題材偏少，且多為既有事件的延伸或政策方向宣示，尚未出現以支付、數位銀行、金融基礎設施或數位資產為核心、且具明確影響力的新頭條。",
+        "金管會主委彭金隆提出「科技島走向資本島」五大政策方向，方向雖與資本市場與金融發展相關，但屬政策宣示、尚無直接改變金融科技產品或基礎設施的具體事證，因此今日僅維持本日觀察、不新增頭條。既有的本週要聞（含虛擬資產服務法落地、一卡通結盟共享機車、街口支付股權標售、洗錢防制法修法等）仍在七天滾動追蹤範圍內，持續觀察後續發展。"
       ]
     },
     "sources": [],
@@ -95,19 +95,29 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-17",
-      "tier": "watch",
-      "title": "本日觀察：加密錢包商 SafePal 傳資料外洩，約 4 萬名用戶訂單個資曝光，私鑰與資產未受影響",
+      "date": "2026-08-18",
+      "tier": "top",
+      "title": "加密硬體錢包 Coldcard 爆種子產生漏洞，約 1,596 枚比特幣（逾 1 億美元）自 7,300 個地址遭盜",
       "paras": [
-        "自我保管型加密錢包（self-custody wallet）業者 SafePal 揭露一起資料外洩事件，約 4 萬名用戶的個人訂單資訊遭曝光。SafePal 強調，用戶的私鑰（private key）、助記詞（seed phrase）與加密資產本身並未受影響、仍安全無虞，外洩範圍集中在購買與訂單相關的個人資料。事件由 CoinDesk 揭露，相關細節仍在陸續釐清中。",
-        "由於外洩的是個資而非資金，直接損失風險有限，但訂單與個人資訊一旦落入有心人士手中，較可能被用於針對錢包用戶的精準釣魚（phishing）與社交工程，這也是自我保管錢包生態近期資安揭露值得留意之處。相對於本週全球金融科技版面上監理與立法角力的延續（例如美國證券交易委員會加密資產規則制定進度），這起事件的規模與衝擊較為侷限，因此僅列為本日觀察、持續追蹤後續是否有更多受影響範圍或補救措施揭露。"
+        "由加拿大 Coinkite 打造、主打自我保管（self-custody）的比特幣硬體錢包 Coldcard，被揭露在種子（seed）產生環節存在嚴重漏洞。問題源自 2021 年 3 月釋出的 4.0.0 版韌體：一項本應在新增亂數來源後關閉舊來源的設定，因程式只檢查該設定「是否存在」而非「開或關」，導致裝置改用較弱的軟體亂數產生器。如此一來，實際熵值（entropy）從應有的 128 位元降到約 72 位元，可能的種子數量大幅縮小，足以被攻擊者逐一嘗試破解。加密資產研究機構 Galaxy Research 高度確信，約 1,596 枚比特幣（依當時價格逾 1 億美元）在一連串攻擊中自約 7,300 個地址被盜，且至少有 15 組攻擊者在利用此漏洞，全程不需實體接觸裝置；多倫多創業者 Jonathan Goodman 即便將 Coldcard 與助記詞分別鎖在保險箱、從未連網，仍於 7 月 29 日被清空 18.25 枚比特幣。",
+        "此案凸顯自我保管並非零信任：用戶雖自行掌管私鑰，但錢包製造商是否正確產生金鑰，仍是難以查核的隱形依賴。Coldcard 的原始碼公開、標榜「不要信任，要驗證」，開發者 James O'Beirne 早在 2025 年 5 月稽核時就對亂數流程提出疑慮、卻遭 Coinkite 以「真有問題早該被發現」駁回；連事前的 AI 輔助審查與事後多個主流 AI 模型測試也都未能揪出此瑕疵，支付服務商 Block 的比特幣工程團隊事後才完整還原成因。Coinkite 已為所有受影響機型釋出修正韌體，但新版只能修好日後的種子產生、無法補強既有的弱種子，受害用戶須重新產生種子並把資金移轉至新位址。對強調去中介、自持金鑰的數位資產生態而言，這是一記關於供應鏈與程式正確性風險的重大警訊。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
-        "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info"
+        "title": "How a bug in Coldcard's code went unnoticed for years, leading to $100 million in hacked funds",
+        "url": "https://www.coindesk.com/tech/2026/08/17/how-a-bug-in-coldcard-s-code-went-unnoticed-for-years-leading-to-usd100-million-in-hacked-funds"
+      },
+      {
+        "name": "Block（Bitcoin Engineering）",
+        "title": "Predictable RNG fallback and 32-bit reseed in Coldcard firmware",
+        "url": "https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware"
+      },
+      {
+        "name": "Coinkite（官方公告）",
+        "title": "Coldcard Mk3 Seed Generation Warning",
+        "url": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/"
       }
     ],
     "coverSocial": [],
@@ -147,6 +157,23 @@
             "name": "Bits of Gold",
             "title": "Security Update – August 2026",
             "url": "https://blog.bitsofgold.co.il/security-update-august-26/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-17",
+        "title": "本日觀察：加密錢包商 SafePal 傳資料外洩，約 4 萬名用戶訂單個資曝光，私鑰與資產未受影響",
+        "paras": [
+          "自我保管型加密錢包（self-custody wallet）業者 SafePal 揭露一起資料外洩事件，約 4 萬名用戶的個人訂單資訊遭曝光。SafePal 強調，用戶的私鑰（private key）、助記詞（seed phrase）與加密資產本身並未受影響、仍安全無虞，外洩範圍集中在購買與訂單相關的個人資料。事件由 CoinDesk 揭露，相關細節仍在陸續釐清中。",
+          "由於外洩的是個資而非資金，直接損失風險有限，但訂單與個人資訊一旦落入有心人士手中，較可能被用於針對錢包用戶的精準釣魚（phishing）與社交工程，這也是自我保管錢包生態近期資安揭露值得留意之處。相對於本週全球金融科技版面上監理與立法角力的延續（例如美國證券交易委員會加密資產規則制定進度），這起事件的規模與衝擊較為侷限，因此僅列為本日觀察、持續追蹤後續是否有更多受影響範圍或補救措施揭露。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+            "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info"
           }
         ],
         "social": [],
@@ -813,42 +840,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-10",
-        "title": "美國 FDIC 擬為「銀行與金融科技合作」設獨立標準機構，串連銀行與 Fintech 產業公會、傳 OCC 數日內加入",
-        "paras": [
-          "據金融科技電子報 Fintech Brainfood 引述彭博（Bloomberg），美國聯邦存款保險公司（FDIC，Federal Deposit Insurance Corporation）正推動為「銀行與金融科技業者合作」（bank–fintech partnerships）建立一個獨立的標準制定機構。該機構將為與銀行合作的金融科技與第三方業者訂定基礎的風險管理標準，並由獨立評估方對業者進行認證審查。FDIC 並與美國銀行家協會（ABA）、獨立社區銀行家協會（ICBA）、Bank Policy Institute、金融科技協會（FTA）、American Fintech Council 與 CFES 等銀行及 Fintech 產業組織共同推進；據該電子報，FDIC 預計提供種子資金（seed funding），通貨監理署（OCC）也可望於數日內加入。",
-          "這被視為「銀行即服務」（BaaS，Banking as a Service，金融科技透過合作銀行提供存放款等受監理服務）問責架構的一次結構性補課：2024 年 4 月中介商 Synapse 倒閉，一度使終端用戶最多約 9,000 萬美元資金遭凍結，凸顯銀行與 Fintech 分工中「監理風險由誰承擔」長期模糊。不過此次標準採自願性、且不提供「安全港」（safe harbor，符合標準即獲免責的法律保護），能否真正拉齊各家 Fintech 的風險控管、產業實際採用意願，以及 OCC 是否如期加入，仍待正式方案與後續進展檢驗。目前公開可追溯的資訊，主要來自 Fintech Brainfood 引述彭博。"
-        ],
-        "sources": [
-          {
-            "name": "Fintech Brainfood",
-            "title": "🧠 The FDIC wants a rulebook for bank fintech partnerships",
-            "url": "https://www.fintechbrainfood.com/p/fintech-rulebook"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-10",
-        "title": "萬事達卡完成 18 億美元收購穩定幣基礎設施商 BVNK，卡片網路加速卡位穩定幣支付軌道",
-        "paras": [
-          "支付網路巨頭萬事達卡（Mastercard）本週稍早完成對穩定幣（stablecoin，錨定法幣的數位代幣）基礎設施商 BVNK 的收購，交易金額約 18 億美元。BVNK 由來自南非的連續創業者創立，主攻以穩定幣處理跨境支付與企業資金調度（treasury）的基礎設施；早期投資人、創投公司 Concentric 於 2019 年以僅約 400 萬美元估值入股，如今隨這樁交易迎來豐厚出場。據 CoinDesk 引述 Concentric 創辦合夥人 Kjartan Rist，這場競逐一度由美股上市加密交易所 Coinbase 領先、開價上看 25 億美元；但 BVNK 創辦人最終因「理念契合」選擇萬事達卡，而非出價更高的 Coinbase。本身即為 BVNK 投資人、並握有董事會觀察席的 Visa，則決定不出手收購，改採與 Stripe 等業者合作的策略。",
-          "這樁交易凸顯大型卡片網路正加速把穩定幣納入自身支付軌道。導火線可回溯至 2024 年底 Stripe 以約 11 億美元收購穩定幣基礎設施商 Bridge，促使 Visa 與萬事達卡積極物色標的以免被超前；據 CoinGecko，全球穩定幣市值目前約 3,000 億美元，已成卡片網路與支付業者的必爭之地。BVNK 的實際應用包括讓大型支付公司改以穩定幣執行每 24 小時一輪的資金調度，以及協助擁有大量分散式接案人力的企業，直接以美元計價穩定幣支付身處高通膨國家的工作者，免去換成當地貨幣的匯損。值得注意的是，Stripe、Visa、萬事達卡與 Coinbase 四方近期也共同支持一個新的穩定幣平台並已上線，顯示傳統金融機構在加密市場整體降溫之際，仍持續押注穩定幣支付基礎設施。本則內容取自 CoinDesk 對 BVNK 早期投資人的專訪。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Inside stablecoin firm BVNK's journey to a $1.8B acquisition by Mastercard",
-            "url": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-17T15:51:50Z"
+  "_generated_at": "2026-08-17T18:58:45Z"
 }
