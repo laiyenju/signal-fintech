@@ -115,6 +115,23 @@
     "others": [
       {
         "date": "2026-08-17",
+        "title": "美國財政部提出 GENIUS Act 穩定幣實施細則，為去年立法補上核心定義與監理分工",
+        "paras": [
+          "美國財政部（U.S. Treasury）提出穩定幣（stablecoin）法規草案，著手為國會去年完成立法的 GENIUS Act 補上部分核心定義與監理管轄分工，把既有法律框架推進到可實際執行的行政規則階段。",
+          "對穩定幣發行方與相關金融科技業者而言，定義與監理歸屬一旦明確，將直接牽動合規要求與產品設計；後續細則內容與意見徵詢結果，攸關穩定幣支付與數位資產基礎設施在美國的落地節奏。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+            "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-17",
         "title": "以色列最大加密經紀商 Bits of Gold 遭第三方供應商入侵，約 20 萬名客戶個資外洩，為一週內第三起加密供應鏈資安事件",
         "paras": [
           "以色列最大加密貨幣經紀商 Bits of Gold 通報遭駭客入侵，約 20 萬名客戶個資外洩。該公司總部設於特拉維夫，2013 年成立，是以色列首家取得永久金融服務業者（Financial Services Provider）牌照的加密公司，客戶逾 25 萬並持有 SOC 2 Type 2 認證。公司表示駭客是透過一家第三方數據分析服務商的網路取得未授權存取，外洩內容包含客戶姓名、國民身分證字號、電子郵件、電話、IP 位址、銀行帳戶資料與公開錢包地址；但強調資金、私鑰、密碼、CVV 與掃描身分證件並未外洩，客戶的數位資產與資金安全無虞。偵測到事件後公司已封鎖並切斷該系統與資料來源的連線，並委由專門的資安事件調查公司展開全面調查。",
@@ -130,6 +147,23 @@
             "name": "Bits of Gold",
             "title": "Security Update – August 2026",
             "url": "https://blog.bitsofgold.co.il/security-update-august-26/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-16",
+        "title": "Stripe 傳以逾 70 億美元收購 AI 模型路由平台 OpenRouter",
+        "paras": [
+          "支付巨頭 Stripe 傳已敲定以逾 70 億美元收購 AI 模型路由（model routing）新創 OpenRouter，距離該公司以約 13 億美元估值完成募資僅數個月。OpenRouter 讓開發者能依能力與成本等條件，將請求分派到不同 AI 模型。",
+          "對 Stripe 而言，這是支付本業之外切入 AI 開發者基礎設施的一次大型布局；若交易完成，將把金流平台與 AI 模型調度能力結合，反映金融科技龍頭把觸角延伸至 AI 中介層的趨勢。"
+        ],
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B",
+            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
           }
         ],
         "social": [],
@@ -816,5 +850,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-17T13:00:01Z"
+  "_generated_at": "2026-08-17T15:51:50Z"
 }
