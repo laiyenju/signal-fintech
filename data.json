@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "tier": "watch",
-      "title": "本日觀察：今日台灣無達標金融科技頭條，市場焦點落在半導體記憶體、AI 出口、匯率與普發現金",
+      "title": "本日觀察：台灣無達標金融科技新頭條，焦點仍在記憶體、AI 出口與新台幣匯率",
       "paras": [
-        "今日台灣新聞版面以科技製造與總體經濟為主：記憶體需求續強、AI 帶動出口與投資創高、新台幣因熱錢匯入勁升、金價一度衝上每盎司 4,400 美元，以及行政院宣布明年普發現金一萬元等，皆屬一般財經或產業動態。金融科技相關題材偏少，且多為既有事件的延伸或政策方向宣示，尚未出現以支付、數位銀行、金融基礎設施或數位資產為核心、且具明確影響力的新頭條。",
-        "金管會主委彭金隆提出「科技島走向資本島」五大政策方向，方向雖與資本市場與金融發展相關，但屬政策宣示、尚無直接改變金融科技產品或基礎設施的具體事證，因此今日僅維持本日觀察、不新增頭條。既有的本週要聞（含虛擬資產服務法落地、一卡通結盟共享機車、街口支付股權標售、洗錢防制法修法等）仍在七天滾動追蹤範圍內，持續觀察後續發展。"
+        "今日台灣新聞版面仍以科技製造與總體經濟為主軸：記憶體與 AI 需求帶動電子產品出口與台廠獲利預估走高、外資轉賣使台股短線承壓、新台幣因順差與熱錢匯入續強，以及油價因中東情勢維持高檔等，皆屬一般財經或產業動態。與支付、數位銀行、金融基礎設施或數位資產直接相關、且具明確影響力的新頭條，今日仍未出現。",
+        "金融科技相關動態多屬既有事件的延伸：金融監督管理委員會（金管會）表示，透過穩定幣（stablecoin）提供供應鏈金融是金融業不得不面對的新業務，銀行盼擴大與虛擬資產服務提供商（VASP）合作、甚至兼營部分業務或持有部分穩定幣，惟具體模式仍在研究中，主管機關態度與後續立法子法進展仍待觀察。純網銀方面，金管會統計三家累計虧損較去年同期收斂、LINE Bank 連續七個月單月稅前獲利，屬經營數據而非新產品或基礎設施突破。虛擬資產服務法落地、洗錢防制法修法等既有題材，也仍在持續發展、待觀察後續。"
       ]
     },
     "sources": [],
@@ -101,34 +101,56 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "tier": "top",
-      "title": "加密硬體錢包 Coldcard 爆種子產生漏洞，約 1,596 枚比特幣（逾 1 億美元）自 7,300 個地址遭盜",
+      "title": "Kraken 為歐洲客戶新增逾 7,000 檔美股直接交易，成首家單一平台同售真實美股與代幣化版本的加密交易所",
       "paras": [
-        "由加拿大 Coinkite 打造、主打自我保管（self-custody）的比特幣硬體錢包 Coldcard，被揭露在種子（seed）產生環節存在嚴重漏洞。問題源自 2021 年 3 月釋出的 4.0.0 版韌體：一項本應在新增亂數來源後關閉舊來源的設定，因程式只檢查該設定「是否存在」而非「開或關」，導致裝置改用較弱的軟體亂數產生器。如此一來，實際熵值（entropy）從應有的 128 位元降到約 72 位元，可能的種子數量大幅縮小，足以被攻擊者逐一嘗試破解。加密資產研究機構 Galaxy Research 高度確信，約 1,596 枚比特幣（依當時價格逾 1 億美元）在一連串攻擊中自約 7,300 個地址被盜，且至少有 15 組攻擊者在利用此漏洞，全程不需實體接觸裝置；多倫多創業者 Jonathan Goodman 即便將 Coldcard 與助記詞分別鎖在保險箱、從未連網，仍於 7 月 29 日被清空 18.25 枚比特幣。",
-        "此案凸顯自我保管並非零信任：用戶雖自行掌管私鑰，但錢包製造商是否正確產生金鑰，仍是難以查核的隱形依賴。Coldcard 的原始碼公開、標榜「不要信任，要驗證」，開發者 James O'Beirne 早在 2025 年 5 月稽核時就對亂數流程提出疑慮、卻遭 Coinkite 以「真有問題早該被發現」駁回；連事前的 AI 輔助審查與事後多個主流 AI 模型測試也都未能揪出此瑕疵，支付服務商 Block 的比特幣工程團隊事後才完整還原成因。Coinkite 已為所有受影響機型釋出修正韌體，但新版只能修好日後的種子產生、無法補強既有的弱種子，受害用戶須重新產生種子並把資金移轉至新位址。對強調去中介、自持金鑰的數位資產生態而言，這是一記關於供應鏈與程式正確性風險的重大警訊。"
+        "美國加密交易所 Kraken（由母公司 Payward 營運）宣布，為歐洲經濟區（EEA）客戶新增逾 7,000 檔美國上市股票的直接交易，並成為首家在單一受監理平台上、同時提供傳統美股與其代幣化（tokenized）版本的加密原生交易所。用戶可自行選擇以傳統或代幣化形式持有同一標的，無須搬移資金或更換平台；此舉讓 Kraken 直接與 Interactive Brokers、eToro 等傳統券商，以及提供代幣化股票的加密平台正面競爭。",
+        "這是加密與傳統金融（TradFi）界線持續模糊的一環：一方面倫敦、紐約等傳統交易所走向 24 小時交易與區塊鏈結算，另一方面 Coinbase 已取得英國核准可在加密之外提供股票與衍生品、Crypto.com 推出代幣化股票衍生品、Robinhood 在歐洲提供代幣化股票，顯示同業正競相把交易所打造成整合加密、股票與其他資產的「超級應用程式（super app）」。多位業者高層表示，驅動這股匯流的是用戶希望把更多金融生活集中於少數平台的需求。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "How a bug in Coldcard's code went unnoticed for years, leading to $100 million in hacked funds",
-        "url": "https://www.coindesk.com/tech/2026/08/17/how-a-bug-in-coldcard-s-code-went-unnoticed-for-years-leading-to-usd100-million-in-hacked-funds"
+        "title": "Kraken adds U.S. stocks in Europe as TradFi-crypto divide blurs",
+        "url": "https://www.coindesk.com/markets/2026/08/18/kraken-adds-u-s-stocks-in-europe-as-tradfi-crypto-divide-blurs"
       },
       {
-        "name": "Block（Bitcoin Engineering）",
-        "title": "Predictable RNG fallback and 32-bit reseed in Coldcard firmware",
-        "url": "https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware"
-      },
-      {
-        "name": "Coinkite（官方公告）",
-        "title": "Coldcard Mk3 Seed Generation Warning",
-        "url": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/"
+        "name": "Kraken（官方公告）",
+        "title": "Announcing US-listed stock trading for EEA customers",
+        "url": "https://blog.kraken.com/product/equities/announcing-us-listed-stock-trading-for-eea-customers"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-18",
+        "title": "加密硬體錢包 Coldcard 爆種子產生漏洞，約 1,596 枚比特幣（逾 1 億美元）自 7,300 個地址遭盜",
+        "paras": [
+          "由加拿大 Coinkite 打造、主打自我保管（self-custody）的比特幣硬體錢包 Coldcard，被揭露在種子（seed）產生環節存在嚴重漏洞。問題源自 2021 年 3 月釋出的 4.0.0 版韌體：一項本應在新增亂數來源後關閉舊來源的設定，因程式只檢查該設定「是否存在」而非「開或關」，導致裝置改用較弱的軟體亂數產生器。如此一來，實際熵值（entropy）從應有的 128 位元降到約 72 位元，可能的種子數量大幅縮小，足以被攻擊者逐一嘗試破解。加密資產研究機構 Galaxy Research 高度確信，約 1,596 枚比特幣（依當時價格逾 1 億美元）在一連串攻擊中自約 7,300 個地址被盜，且至少有 15 組攻擊者在利用此漏洞，全程不需實體接觸裝置；多倫多創業者 Jonathan Goodman 即便將 Coldcard 與助記詞分別鎖在保險箱、從未連網，仍於 7 月 29 日被清空 18.25 枚比特幣。",
+          "此案凸顯自我保管並非零信任：用戶雖自行掌管私鑰，但錢包製造商是否正確產生金鑰，仍是難以查核的隱形依賴。Coldcard 的原始碼公開、標榜「不要信任，要驗證」，開發者 James O'Beirne 早在 2025 年 5 月稽核時就對亂數流程提出疑慮、卻遭 Coinkite 以「真有問題早該被發現」駁回；連事前的 AI 輔助審查與事後多個主流 AI 模型測試也都未能揪出此瑕疵，支付服務商 Block 的比特幣工程團隊事後才完整還原成因。Coinkite 已為所有受影響機型釋出修正韌體，但新版只能修好日後的種子產生、無法補強既有的弱種子，受害用戶須重新產生種子並把資金移轉至新位址。對強調去中介、自持金鑰的數位資產生態而言，這是一記關於供應鏈與程式正確性風險的重大警訊。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "How a bug in Coldcard's code went unnoticed for years, leading to $100 million in hacked funds",
+            "url": "https://www.coindesk.com/tech/2026/08/17/how-a-bug-in-coldcard-s-code-went-unnoticed-for-years-leading-to-usd100-million-in-hacked-funds"
+          },
+          {
+            "name": "Block（Bitcoin Engineering）",
+            "title": "Predictable RNG fallback and 32-bit reseed in Coldcard firmware",
+            "url": "https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware"
+          },
+          {
+            "name": "Coinkite（官方公告）",
+            "title": "Coldcard Mk3 Seed Generation Warning",
+            "url": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-18",
         "title": "花旗（Citi）將為機構客戶推出比特幣託管，納入 Custody+ 讓傳統資產與加密資產共用同一套保管架構",
@@ -816,168 +838,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-11",
-        "title": "美國 CFTC 動用「緊急權力」要求預測市場平台 Kalshi 續留紐約營運，聯邦與州就預測市場管轄權再度槓上",
-        "paras": [
-          "美國商品期貨交易委員會（CFTC，Commodity Futures Trading Commission）8 月 11 日宣布，動用「緊急權力」（emergency authority）要求預測市場（prediction markets）平台 Kalshi 在紐約州繼續營運。此前紐約州檢察總長 Letitia James 於 7 月底對 Kalshi 提告，指其未向紐約州博彩委員會（Gaming Commission）取得執照、未如持牌賭場與行動運動博彩平台般繳稅，違反州博彩法而應被關停。Kalshi 求助後，CFTC 以聯邦監理者身分介入；主席 Mike Selig 重申立場稱，這些是「跨州營運、提供金融工具的金融交易所」，其撮合不同州居民的買賣單並送交結算所（clearinghouse）擔保全國客戶的交易，「紐約無權監管這類跨州金融市場」。",
-          "這是聯邦商品監理機關與州監理機關就預測市場管轄權的最新一次正面交鋒——各州主張至少與運動相關的預測市場屬侵犯州法的賭博平台，CFTC 則堅稱所有預測市場提供的是受聯邦監理的「交換」（swaps，即事件合約衍生性商品），管轄權在聯邦。CFTC 先前已就此對紐約州提告，也曾在密西根州法院判決不利 Kalshi 後介入試圖讓其續營，惟 Kalshi 執法主管 Robert Denault 稱公司當時已依密州法院要求撤銷相關交易。全案目前卡在管轄權角力：Kalshi 已聲請將訴訟移轉聯邦法院、紐約州則要求移回州法院，兩造動議仍待法官裁定。此案凸顯預測市場快速壯大後，聯邦與州在監理權責、稅收與消費者保護上的結構性衝突，實際走向仍待後續裁決檢驗，相關內容主要見於 CoinDesk 與 CFTC 新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "CFTC orders Kalshi to continue offering prediction markets in New York after state lawsuit",
-            "url": "https://www.coindesk.com/policy/2026/08/11/cftc-orders-kalshi-to-continue-offering-prediction-markets-in-new-york-after-state-lawsuit"
-          },
-          {
-            "name": "美國商品期貨交易委員會 CFTC（新聞稿）",
-            "title": "CFTC Press Release 9281-26",
-            "url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26"
-          },
-          {
-            "name": "紐約州檢察總長辦公室（新聞稿）",
-            "title": "Governor Hochul and Attorney General James Announce New York Has Sued Kalshi",
-            "url": "https://ag.ny.gov/press-release/2026/governor-hochul-and-attorney-general-james-announce-new-york-has-sued-kalshi"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-11",
-        "title": "加密友善銀行 Erebor 傳以約 95 億美元估值洽募 15 億美元，成立一年存款規模衝上 46 億美元",
-        "paras": [
-          "英國《金融時報》（Financial Times）引述知情人士指出，主打科技客群的美國銀行 Erebor 正進入洽談後段，準備募集約 15 億美元，交易將使這家成立僅約一年的銀行估值來到約 95 億美元；相較今年稍早募資時的 43.5 億美元估值，短短數月內幾乎翻倍。Lux Capital、Human Capital、Valor Equity Partners、Andreessen Horowitz（a16z）與 SV Angel 預期將大額投入，既有股東 8VC 與 Haun Ventures 也將參與。募資背景是 Erebor 存款與放款業務同步擴張——截至 7 月底存款達 46 億美元，較 3 月底的 11 億美元大幅跳增。",
-          "Erebor 鎖定加密貨幣、人工智慧、國防與製造業客戶，也服務支付公司、投資基金與交易商，規劃業務涵蓋存款、信貸、穩定幣（stablecoin）產品、資金管理與支付。該行於今年 2 月取得美國最終營運核准，監理要求它在頭三年維持至少 12% 的槓桿比率（leverage ratio），使這輪新資本對其擴張中的資產負債表格外重要。放款方面，Erebor 已為核能新創 Valar Atomics 主辦一筆 2 億美元信貸額度、擔任行政代理，並與 JPMorgan、Crescent Cove 及 Hercules Capital 合作。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT",
-            "url": "https://www.coindesk.com/business/2026/08/11/crypto-friendly-bank-erebor-in-talks-to-raise-usd1-5-billion-at-usd9-5-billion-valuation-ft"
-          },
-          {
-            "name": "Financial Times",
-            "title": "Erebor in talks to raise about $1.5bn",
-            "url": "https://www.ft.com/content/eae5a1cc-5d15-48c9-9d24-2b7094fda5ba"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-11",
-        "title": "匯款龍頭 MoneyGram 把「加密兌現金」服務 Ramps 拓展至 Solana，串接穩定幣與逾 170 國取現網路",
-        "paras": [
-          "全球匯款業者 MoneyGram 宣布，其現金與加密貨幣互轉基礎設施 MoneyGram Ramps 正式開放給建構在 Solana（SOL）區塊鏈上的錢包、交易所與開發者。這項服務讓使用者透過 MoneyGram 的支付網路，把加密資產兌換成當地貨幣、或以現金換取數位資產，而每個加密應用不必再各自去對接銀行與現金據點。Ramps 支援逾 25 個國家的現金存入、逾 170 個國家與地區的取現，背後串接的是 MoneyGram 服務約 6,000 萬名活躍客戶的實體網路。",
-          "此舉呼應穩定幣（stablecoin）從加密交易走向支付與跨境匯款的趨勢——金融科技業者、銀行與支付公司愈來愈常以美元穩定幣搬移資金，繞開層層代理行。MoneyGram 布局區塊鏈已有數年：2022 年與 Stellar 基金會合作、讓用戶透過門市在現金與 Circle 的 USDC 之間轉換；今年 6 月推出由 Stripe 旗下 Bridge 發行、架在 Stellar 上的自有美元穩定幣 MGUSD，並成為 Solana 的驗證者（validator），同時名列 Stripe 主導的 Open USD 穩定幣計畫夥伴。執行長 Anthony Soohoo 表示，把 Ramps 帶到 Solana 是打造「真正開放、全球化支付網路」的又一步。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "MoneyGram expands on Solana with global crypto-to-cash service",
-            "url": "https://www.coindesk.com/business/2026/08/10/moneygram-expands-on-solana-with-global-crypto-to-cash-service"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-11",
-        "title": "Coinbase 取得阿布達比 FSRA 牌照設國際代幣化樞紐，將在美國以外發行以股票為擔保的代幣化證券",
-        "paras": [
-          "美股掛牌加密貨幣交易所 Coinbase（COIN）宣布，取得阿布達比全球市場（ADGM，Abu Dhabi Global Market）金融服務監理局（FSRA，Financial Services Regulatory Authority）核發的金融服務許可（Financial Services Permission），將在當地設立國際代幣化（tokenization，把傳統資產以區塊鏈形式表彰）樞紐，作為在美國以外把傳統證券搬上鏈的受監理基地。依牌照，Coinbase 可安排投資交易並為代幣化證券提供託管，並規劃發行以相應股票為擔保的數位證券，代幣將在 ADGM 登記發行、受 FSRA 監理。Coinbase Institutional 共同執行長 Brett Tejpaul 稱，目前尚無主要金融中心建立能同時把代幣化股票視為證券、區塊鏈原生代幣與可組合 DeFi 資產的框架。",
-          "此舉正值代幣化在傳統金融加速滲透——全球資產管理業者與銀行競相把基金、債券、私募信貸與股票搬上鏈，主張可實現全天候轉讓、近即時結算，未來並作為鏈上市場的擔保品（collateral）。阿布達比自 2018 年推出虛擬資產監理框架以來，已成為區域內業者尋求受監理基地的試驗場：Coinbase 早在 2023 年就以旗下 Base 區塊鏈啟動面向機構的 Project Diamond，上月阿布達比主權基金旗下 Mubadala Capital 也透過當地基礎設施商 KAIO 把一項私募市場策略代幣化、Coinbase 並取得該基金部位。新的阿布達比業務將與 Coinbase 設在杜拜的衍生品業務並列，使其在阿聯（UAE）擁有兩個拓展美國以外業務的據點。相關內容主要見於 CoinDesk 與 Coinbase 官方公告。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Coinbase picks Abu Dhabi for its global tokenized asset push",
-            "url": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push"
-          },
-          {
-            "name": "Coinbase（官方部落格）",
-            "title": "Coinbase establishes its tokenization hub in Abu Dhabi",
-            "url": "https://www.coinbase.com/blog/coinbase-establishes-its-tokenization-hub-in-abu-dhabi"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-11",
-        "title": "美國 SEC 排定 8/14 開會提出「Regulation Crypto」，擬為數位資產發行建立首套正式規則、讓業者募資免觸發證券註冊",
-        "paras": [
-          "美國證券交易委員會（SEC）於週一晚間發布會議通知，訂於 8 月 14 日（週五）由三名（皆為共和黨籍）委員開會，提出並公開徵詢其首部針對加密資產的正式規則「Regulation Crypto」（Reg Crypto）。這是 SEC 主席 Paul Atkins 加密監理計畫的核心目標之一——過去 SEC 多以幕僚政策聲明（staff statements）闡明立場，但缺乏長期效力，正式規則（rulemaking）日後較難被推翻。據 CoinDesk，此規則將為「特定投資契約」（investment contracts）量身打造一套發行規範，讓加密業者能在不觸發 SEC 註冊要求的情況下為專案募資，並在不再實際主導專案運作時，取得脫離 SEC 管轄的「退場路徑」（exit path）。",
-          "此舉緊接在上週美國參議院未能就「數位資產市場明確法案」（CLARITY Act）啟動關鍵表決之後——TD Cowen 分析師 Jaret Seiberg 認為，這是 SEC 在國會立法受挫後，為加密資產提供監理確定性的「數次規則制定的第一步」。不過此案僅是流程起點：公開徵詢意見期通常為兩到三個月，之後還要歷經可能冗長的改寫，正式定案恐再等數月。Reg Crypto 也將與 SEC 先前和商品期貨交易委員會（CFTC）共同發布的加密資產「分類法」（taxonomy），以及仍在推進中的代幣化證券（tokenized securities）方案並列，構成 Atkins 任內主要的親加密監理布局。相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "U.S. SEC sets meeting to propose Reg Crypto to support certain digital assets offerings",
-            "url": "https://www.coindesk.com/policy/2026/08/11/u-s-sec-sets-meeting-to-propose-reg-crypto-to-support-certain-digital-assets-offerings"
-          },
-          {
-            "name": "美國證券交易委員會 SEC（會議通知）",
-            "title": "Sunshine Act Notice — Open Meeting, Aug. 14, 2026",
-            "url": "https://www.sec.gov/newsroom/meetings-events/sunshine-act-notice-open-081426"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-13",
-            "title": "SEC 週四盤後突襲取消 8/14 會議、Reg Crypto 正式提案無限期延後，代幣化「創新豁免」也一併喊卡",
-            "body": "美國證券交易委員會（SEC）於週四（8/13）盤後發布聲明，以「無法預期的排程問題」（unforeseen scheduling issue）為由，臨時取消原訂週五（8/14）提出並公開徵詢「Regulation Crypto」（Reg Crypto）的委員會會議，僅表示將改到「日後某個未定日期」，並未給出新時間。這意味 SEC 首部針對加密資產的正式規則制定再度被推遲；在參議院「數位資產市場明確法案」（CLARITY Act）仍卡關、九月能否闖關成疑之際，業界原本寄望 SEC 先行填補監理空白，如今只能繼續觀望 SEC 與國會誰先出手。原本預計同場一併揭露細節的代幣化證券「創新豁免」（innovation exemption）也一併延後——據 CoinDesk 引述三名知情人士，白宮憂心在 CLARITY Act 協商期間推出恐「捅馬蜂窩」、反而拖累立法；華爾街遊說團體 SIFMA 亦強力反對，質疑區塊鏈交易場所如何嵌入現行股市規則，尤其券商的最佳執行義務與 Regulation NMS，並主張此類重大市場結構變動應循公開的通知與評論程序、而非以豁免或無異議函（no-action）方式推行；SEC 幕僚本身則對機構是否具備發布如此廣泛豁免的法律授權、經濟分析是否充分有所保留。相關內容主要見於 CoinDesk。"
-          }
-        ]
-      },
-      {
-        "date": "2026-08-11",
-        "title": "英國 FCA 研議「代幣化黃金」監管框架，盼守住倫敦全球金市地位並推進金融市場數位化",
-        "paras": [
-          "英國金融行為監理總署（FCA，Financial Conduct Authority）正與大型銀行等市場參與者展開諮詢，研擬「代幣化黃金」（tokenized gold，以區塊鏈數位代幣代表對實體金條的所有權、並以實體黃金作為儲備擔保）的監管框架。消息人士稱，相關標準最快數月內公布。FCA 目前對實體黃金現貨交易並無直接管轄權，但已監管黃金衍生性商品與交易所交易產品（ETP，Exchange-Traded Products）；此次討論的重點之一，是代幣化黃金未來如何在大宗商品市場中作為擔保品（collateral）使用。相關內容主要見於經濟日報與 CoinDesk。",
-          "此舉被視為英國金融市場數位化計畫的一環，核心動機在於守住倫敦在全球黃金交易的主導地位——世界黃金協會（World Gold Council）資料顯示倫敦約占全球黃金交易七成——並因應來自中國等地的競爭。不過目前僅止於監理機關與業者的諮詢與研擬階段，尚未提出正式規則，具體門檻、適用範圍與上路時程都要等 FCA 後續正式公布才能確認，代幣化黃金能否真正成為受監理的機構級抵押與交易工具，仍有待觀察。"
-        ],
-        "sources": [
-          {
-            "name": "經濟日報",
-            "title": "英國研議代幣化黃金監管",
-            "url": "https://money.udn.com/money/story/5599/9683144"
-          },
-          {
-            "name": "CoinDesk",
-            "title": "Why the UK financial watchdog is drafting new rules for tokenized gold",
-            "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-11",
-        "title": "拉丁美洲最大銀行 Itaú 攜手 OpenAssets 參與 ANBIMA 代幣化試點，測試以區塊鏈發行、交易與結算固定收益與基金",
-        "paras": [
-          "巴西 Itaú Unibanco（伊塔烏聯合銀行）宣布，與數位資產基礎設施商 OpenAssets 合作，參與由巴西金融與資本市場協會（ANBIMA，Brazilian Financial and Capital Markets Association）主導的代幣化（tokenization，把傳統資產以區塊鏈形式表彰）試點計畫。依雙方 8 月 11 日發布的新聞稿，此計畫將測試固定收益證券與投資基金如何以分散式帳本技術（DLT，distributed-ledger technology）進行發行、交易與結算，並一併檢視銀行與資產管理業者採用這類系統所需的規則與技術標準。據標普全球（S&P Global），Itaú 總資產逾 5,620 億美元、是拉丁美洲最大放款機構，其加入被視為替這項試點增添分量。",
-          "代幣化已成為華爾街最受青睞的區塊鏈應用之一，銀行與資產管理業者競相把債券、基金、私募信貸與股票搬上數位帳本，花旗（Citi）估計代幣化證券市場到 2030 年可成長至 5.5 兆美元。巴西則已是代幣化的重要樞紐，相關計畫不限於銀行主導的試點：2025 年 7 月巴西信用結構與證券化業者 VERT Capital 宣布將在 XDC Network 上代幣化至多 10 億美元的債權與應收款，巴西加密貨幣交易所 Mercado Bitcoin 也規劃在 XRP Ledger 上代幣化 2 億美元資產，涵蓋固定收益與股權工具。相關內容主要見於 CoinDesk 與 OpenAssets、Itaú 新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Brazil's largest lender Itaú is stepping deeper into the tokenization",
-            "url": "https://www.coindesk.com/business/2026/08/11/brazil-s-largest-lender-itau-is-stepping-deeper-into-the-tokenization"
-          },
-          {
-            "name": "OpenAssets／Itaú（新聞稿，PR Newswire）",
-            "title": "OpenAssets and Itaú form joint initiative to advance tokenization across Brazilian capital markets",
-            "url": "https://www.prnewswire.com/news-releases/openassets-and-itau-form-joint-initiative-to-advance-tokenization-across-brazilian-capital-markets-302847468.html"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-18T15:52:31Z"
+  "_generated_at": "2026-08-18T19:04:05Z"
 }
