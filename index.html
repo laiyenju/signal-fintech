@@ -594,15 +594,45 @@ renderSources();
 // data.json 必須與本頁部署在同一位置（同一 GitHub Pages repo 根目錄），
 // 否則瀏覽器會因跨網域限制而無法讀取。
 // 加上時間戳參數避免瀏覽器/CDN 快取到舊檔。
+
+// 「內容更新於」（data.json 的 _generated_at，只在內容真的變動時前進）與
+// 「最後檢查」（status.json 的 checked_at，每輪排程都會前進、含 no_change）
+// 分開顯示：前者告訴讀者內容多新，後者證明系統活著、沒新聞不是沒在跑。
+function relTime(iso){
+  const t = Date.parse(iso);
+  if(isNaN(t)) return '';
+  const s = Math.max(0, (Date.now() - t) / 1000);
+  if(s < 60) return '剛剛';
+  if(s < 3600) return Math.floor(s / 60) + ' 分鐘前';
+  if(s < 86400) return Math.floor(s / 3600) + ' 小時前';
+  return Math.floor(s / 86400) + ' 天前';
+}
+
+const stampState = { generated: null, checked: null };
+function renderStamp(){
+  const stamp = document.getElementById('updatedStamp');
+  if(!stamp) return;
+  const parts = [];
+  if(stampState.generated){
+    const dt = new Date(stampState.generated);
+    const rel = relTime(stampState.generated);
+    parts.push('內容更新於 ' + dt.toLocaleString('zh-TW', { hour12:false })
+      + (rel ? '（' + rel + '）' : ''));
+  }
+  if(stampState.checked){
+    parts.push('最後檢查：' + relTime(stampState.checked));
+  }
+  stamp.textContent = parts.join('｜');
+}
+
 fetch('data.json?t=' + Date.now())
   .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
   .then(d => {
     DATA = d;
     render();
-    const stamp = document.getElementById('updatedStamp');
-    if(stamp && d._generated_at){
-      const dt = new Date(d._generated_at);
-      stamp.textContent = '內容更新於 ' + dt.toLocaleString('zh-TW', { hour12:false });
+    if(d._generated_at){
+      stampState.generated = d._generated_at;
+      renderStamp();
     }
   })
   .catch(err => {
@@ -612,6 +642,17 @@ fetch('data.json?t=' + Date.now())
         + '<p class="note">請稍後重新整理頁面。（' + err.message + '）</p>';
     }
   });
+
+// status.json 可能尚未存在（排程還沒跑過新版流程）；抓不到就只顯示內容時間
+fetch('status.json?t=' + Date.now())
+  .then(r => r.ok ? r.json() : null)
+  .then(s => {
+    if(s && s.checked_at){
+      stampState.checked = s.checked_at;
+      renderStamp();
+    }
+  })
+  .catch(() => {});
 </script>
 
 </body>

@@ -11,8 +11,12 @@ policy:
 readwise_match: {"domains": [...], "site_names": [...]} 對 Reader feed 的 site_name / source_url host
 """
 
-# 預設 policy；單源可覆寫
-DEFAULT_POLICY = "rss_only"
+# 預設 policy；單源可覆寫。
+# 預設開 fallback：雲端排程環境常以 egress 403 擋掉多數全球 RSS（CoinDesk、
+# Finextra、NYT、HN 等），Readwise Reader 是唯一穩定替代路徑。fallback 只在
+# RSS 失敗或 48h 無量時觸發，且整輪只呼叫一次 Readwise CLI；Reader 未訂閱的
+# 源 match 不到東西，維持靜默，無額外成本。
+DEFAULT_POLICY = "rss_primary_readwise_fallback"
 
 FEEDS = [
     # ---- 新聞媒體 ----
@@ -35,10 +39,8 @@ FEEDS = [
      "url": "https://www.thefintechtimes.com/feed/",
      "readwise_match": {"domains": ["thefintechtimes.com"], "site_names": ["thefintechtimes.com"]}},
     # CoinDesk：URL 不可帶尾隨 `/`（會 308 到無斜線版）；Python 3.9 對 308 不穩。
-    # 保留 Readwise fallback 作雙保險。
     {"name": "CoinDesk", "scope": "global",
      "url": "https://www.coindesk.com/arc/outboundfeeds/rss",
-     "policy": "rss_primary_readwise_fallback",
      "readwise_match": {"domains": ["coindesk.com"], "site_names": ["coindesk.com"]}},
     {"name": "The Block", "scope": "global",
      "url": "https://www.theblock.co/rss.xml",
@@ -69,7 +71,8 @@ FEEDS = [
      "url": "https://news.pts.org.tw/xml/newsfeed.xml",
      "readwise_match": {"domains": ["pts.org.tw", "news.pts.org.tw"],
                         "site_names": ["pts.org.tw", "news.pts.org.tw"]}},
-    # Yahoo 財經 RSS 常只有較舊條目；暫維持 rss_only（Reader 未訂）。若長期 stale 再換 URL 或訂閱。
+    # Yahoo 財經 RSS 常只有較舊條目；Reader 未訂，fallback match 不到東西是預期。
+    # 若長期 stale 再換 URL 或在 Reader 訂閱。
     {"name": "Yahoo 財經", "scope": "tw",
      "url": "https://tw.news.yahoo.com/rss/finance",
      "readwise_match": {"domains": ["tw.news.yahoo.com", "yahoo.com"],

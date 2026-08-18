@@ -182,6 +182,22 @@ Logged on **every** run (including no-change / fail-safe). Rebuild MD only:
 `python scripts/newsroom.py --render-only path/to/YYYY-MM-DD.json`.
 Wiki setup: `設定步驟.md`.
 
+Resilience & visibility around the log:
+
+- **Auto index** — `newsroom.py` regenerates the Wiki `Home.md` recent-days list
+  (with gap markers and a last-updated stamp) and `_Sidebar.md` on every run; day
+  pages end with a last-rendered footer.
+- **Failure backup** — if the wiki write fails, the day's log is kept in
+  `newsroom-backup/` in the main repo (committed with the next data PR) and merged
+  back into the wiki automatically once pushing recovers
+  (`newsroom.py --merge-backup`).
+- **Auto alert** — repeated wiki push failures open a GitHub issue once (closed
+  automatically on recovery), so a silent outage can't go unnoticed for weeks.
+- **Liveness stamp** — every run also writes root `status.json`
+  (`scripts/update_status.sh`, GitHub contents API) with `checked_at` / `outcome`;
+  the site footer shows both "content updated (relative)" and "last checked",
+  distinguishing "checked, nothing new" from "pipeline down".
+
 ---
 
 ## Tech stack
@@ -201,8 +217,12 @@ data.json                  Published content (routine)
 scripts/feeds.py           Canonical FEEDS roster + policy / readwise_match
 scripts/fetch_news.py      Designated-source fetch → raw_items.json, feeds_health.json
 scripts/audit_feeds.py     Offline RSS vs Readwise coverage audit
-scripts/newsroom.py        Selection log → $NEWSROOM_DIR
+scripts/newsroom.py        Selection log → $NEWSROOM_DIR (+ wiki Home/_Sidebar index)
+scripts/newsroom_wiki.sh   Wiki write wrapper — clone/merge-backup/push, alert issue
+scripts/update_status.sh   Per-run liveness stamp → root status.json on main
 scripts/validate.py        Gate 1 schema / quotas
+status.json                Last-checked stamp (every run, incl. no-change)
+newsroom-backup/           Day logs parked here only while wiki push is failing
 (wiki) <date>.json|.md     Per-day newsroom audit (not in main repo)
 排程任務指令.md               Routine prompt — Chinese
 設定步驟.md                   One-time setup — Chinese

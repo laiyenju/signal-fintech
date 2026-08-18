@@ -135,6 +135,96 @@ def test_render_markdown_silent_names_capped_at_three():
     assert "| no_change | 1 |" in md
 
 
+def test_render_markdown_footer_stamp():
+    from newsroom import render_markdown
+    day = {"date": "2026-07-18", "runs": [
+        {"runAt": "2026-07-18T05:00:00Z", "outcome": "no_change", "notes": "", "sources": [],
+         "tw": {"cover": {}, "scoredPool": [], "rejectedSummary": {}},
+         "global": {"cover": {}, "scoredPool": [], "rejectedSummary": {}}},
+        {"runAt": "2026-07-18T23:50:00Z", "outcome": "published", "notes": "", "sources": [],
+         "tw": {"cover": {}, "scoredPool": [], "rejectedSummary": {}},
+         "global": {"cover": {}, "scoredPool": [], "rejectedSummary": {}}}]}
+    md = render_markdown(day)
+    # 頁尾用最後一輪的 runAt，UTC 與台北並列
+    assert "_本頁最後更新：2026-07-18 23:50 UTC／07:50 台北（共 2 輪）_" in md
+
+
+def _write_day(base, date, run_ats):
+    day = {"date": date, "runs": [
+        {"runAt": ra, "outcome": "published", "notes": "", "sources": [],
+         "tw": {"cover": {}, "scoredPool": [], "rejectedSummary": {}},
+         "global": {"cover": {}, "scoredPool": [], "rejectedSummary": {}}}
+        for ra in run_ats]}
+    with open(os.path.join(base, date + ".json"), "w", encoding="utf-8") as f:
+        json.dump(day, f, ensure_ascii=False)
+    return day
+
+
+def test_update_wiki_index_generates_home_and_sidebar():
+    from newsroom import update_wiki_index
+    d = tempfile.mkdtemp()
+    try:
+        _write_day(d, "2026-07-19", ["2026-07-19T05:00:00Z"])
+        _write_day(d, "2026-07-24", ["2026-07-24T02:00:00Z", "2026-07-24T05:00:00Z"])
+        update_wiki_index(d)
+        home = open(os.path.join(d, "Home.md"), encoding="utf-8").read()
+        side = open(os.path.join(d, "_Sidebar.md"), encoding="utf-8").read()
+        assert "## 最近日誌" in home
+        assert "- [2026-07-24](2026-07-24)" in home
+        assert "- [2026-07-19](2026-07-19)" in home
+        # 新到舊
+        assert home.index("2026-07-24") < home.index("2026-07-19")
+        # 缺日標記（07-20 ～ 07-23）與最後更新時間（取最新日最後一輪）
+        assert "缺 2026-07-20 ～ 2026-07-23" in home
+        assert "最後更新：2026-07-24 05:00 UTC／13:00 台北" in home
+        assert "- [2026-07-24](2026-07-24)" in side
+        assert "- [Home](Home)" in side
+    finally:
+        shutil.rmtree(d)
+
+
+def test_update_wiki_index_preserves_handwritten_home_sections():
+    from newsroom import update_wiki_index
+    d = tempfile.mkdtemp()
+    try:
+        _write_day(d, "2026-08-01", ["2026-08-01T00:50:00Z"])
+        with open(os.path.join(d, "Home.md"), "w", encoding="utf-8") as f:
+            f.write("# SIGNAL 選稿日誌（Newsroom）\n\n開場白。\n\n"
+                    "## 最近日誌\n\n- [2026-07-24](2026-07-24)\n\n"
+                    "## Outcome 圖例\n\n手寫表格。\n")
+        update_wiki_index(d)
+        home = open(os.path.join(d, "Home.md"), encoding="utf-8").read()
+        assert "開場白。" in home and "手寫表格。" in home     # 手寫段落保留
+        assert "- [2026-08-01](2026-08-01)" in home           # 索引換成實際檔案清單
+        assert "- [2026-07-24](2026-07-24)" not in home       # 舊的手寫清單被取代
+        # 再跑一次要冪等（marker 已埋入）
+        update_wiki_index(d)
+        assert home == open(os.path.join(d, "Home.md"), encoding="utf-8").read()
+    finally:
+        shutil.rmtree(d)
+
+
+def test_merge_backup_appends_missing_runs_and_rerenders():
+    from newsroom import merge_backup
+    wiki = tempfile.mkdtemp()
+    backup = tempfile.mkdtemp()
+    try:
+        _write_day(wiki, "2026-08-01", ["2026-08-01T00:50:00Z"])
+        # 備援有同一天的另一輪 + wiki 沒有的一天
+        _write_day(backup, "2026-08-01", ["2026-08-01T00:50:00Z", "2026-08-01T03:50:00Z"])
+        _write_day(backup, "2026-08-02", ["2026-08-02T00:50:00Z"])
+        assert merge_backup(backup, wiki) == 0
+        day1 = json.load(open(os.path.join(wiki, "2026-08-01.json"), encoding="utf-8"))
+        assert [r["runAt"] for r in day1["runs"]] == \
+               ["2026-08-01T00:50:00Z", "2026-08-01T03:50:00Z"]   # 去重 append
+        assert os.path.exists(os.path.join(wiki, "2026-08-02.md"))
+        home = open(os.path.join(wiki, "Home.md"), encoding="utf-8").read()
+        assert "- [2026-08-02](2026-08-02)" in home
+    finally:
+        shutil.rmtree(wiki)
+        shutil.rmtree(backup)
+
+
 def test_render_only_rewrites_md_from_json():
     from newsroom import render_only, render_markdown
     d = tempfile.mkdtemp()

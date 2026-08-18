@@ -4,17 +4,25 @@
     <outcome> = published | no_change | fail_safe
 僅重繪既有日 JSON 的 MD（不 append）：
     python scripts/newsroom.py --render-only $NEWSROOM_DIR/YYYY-MM-DD.json
-輸出：$NEWSROOM_DIR/<today>.json（append 一筆 run）與 <today>.md（完整重繪）。
+把 wiki push 失敗時留在主 repo 的備援日誌併回 wiki clone（見 newsroom_wiki.sh）：
+    NEWSROOM_DIR=<wiki clone> python scripts/newsroom.py --merge-backup <backup_dir>
+輸出：$NEWSROOM_DIR/<today>.json（append 一筆 run）與 <today>.md（完整重繪），
+並自動重產 Home.md 的「最近日誌」索引與 _Sidebar.md。
 $NEWSROOM_DIR 預設 "newsroom"；排程時指向 wiki clone 目錄。"""
-import json, os, sys
+import json, os, re, sys
 from collections import Counter
-from datetime import datetime, timedelta, timezone
+from datetime import date as date_cls, datetime, timedelta, timezone
 from feeds import FEEDS
 
 DECISION_LABEL = {"cover": "✅ cover", "others": "▫️ others",
                   "context": "➕ context", "dropped": "✗ dropped"}
 _TZ_TPE = timezone(timedelta(hours=8))
 _SILENT_NAME_CAP = 3
+_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+_INDEX_START = "<!-- newsroom:index:start -->"
+_INDEX_END = "<!-- newsroom:index:end -->"
+_INDEX_DAYS_HOME = 14      # Home「最近日誌」列出的天數
+_INDEX_DAYS_SIDEBAR = 10   # _Sidebar 列出的天數
 
 
 def source_activity(raw_items, meta, feeds=FEEDS):
@@ -259,6 +267,16 @@ def _decision_table(pool):
         rows)
 
 
+def _format_stamp(run_at):
+    """'2026-08-01T00:50:00Z' → '2026-08-01 00:50 UTC／08:50 台北'（parse 失敗回原字串）。"""
+    dt = _parse_run_at(run_at)
+    if dt is None:
+        return run_at or "—"
+    utc = dt.astimezone(timezone.utc)
+    tpe = dt.astimezone(_TZ_TPE)
+    return f"{utc.strftime('%Y-%m-%d %H:%M')} UTC／{tpe.strftime('%H:%M')} 台北"
+
+
 def render_markdown(day):
     lines = [f"# {day.get('date')} 選稿日誌", ""]
     lines += _day_summary_lines(day)
@@ -284,7 +302,155 @@ def render_markdown(day):
                 "</details>",
             ]
         lines += ["", "---", ""]
+    runs = [r for r in day.get("runs", []) if isinstance(r, dict)]
+    if runs:
+        lines += [f"_本頁最後更新：{_format_stamp(runs[-1].get('runAt'))}（共 {len(runs)} 輪）_", ""]
     return "\n".join(lines)
+
+
+# ---------- Wiki 索引（Home.md「最近日誌」段 + _Sidebar.md）----------
+
+def list_day_dates(base):
+    """回傳 base 下所有 YYYY-MM-DD.json 的日期，新到舊。"""
+    try:
+        names = os.listdir(base)
+    except FileNotFoundError:
+        return []
+    dates = {stem for stem, ext in (os.path.splitext(n) for n in names)
+             if ext == ".json" and _DATE_RE.match(stem)}
+    return sorted(dates, reverse=True)
+
+
+def _iso_to_date(s):
+    try:
+        return date_cls.fromisoformat(s)
+    except ValueError:
+        return None
+
+
+def _gap_label(newer, older):
+    """兩個相鄰日誌日期之間的缺日區間；無缺回 None。"""
+    a, b = _iso_to_date(newer), _iso_to_date(older)
+    if not a or not b or (a - b).days <= 1:
+        return None
+    first_missing = (b + timedelta(days=1)).isoformat()
+    last_missing = (a - timedelta(days=1)).isoformat()
+    label = first_missing if first_missing == last_missing \
+        else f"{first_missing} ～ {last_missing}"
+    return f"（缺 {label}：無日誌，該期間可能未執行或推送失敗）"
+
+
+def _latest_run_at(base, dates):
+    """最新一日 JSON 裡最後一輪的 runAt（讀不到回 None）。"""
+    if not dates:
+        return None
+    try:
+        with open(os.path.join(base, dates[0] + ".json"), encoding="utf-8") as f:
+            day = json.load(f)
+        runs = [r for r in day.get("runs", []) if isinstance(r, dict)]
+        return runs[-1].get("runAt") if runs else None
+    except (OSError, json.JSONDecodeError, AttributeError):
+        return None
+
+
+def index_lines(dates, updated_at=None):
+    """Home「最近日誌」清單：日期連結、相鄰缺日標記、最後更新時間。"""
+    lines = []
+    if updated_at:
+        lines.append(f"最後更新：{_format_stamp(updated_at)}")
+        lines.append("")
+    listed = dates[:_INDEX_DAYS_HOME]
+    for i, d in enumerate(listed):
+        lines.append(f"- [{d}]({d})")
+        if i + 1 < len(listed):
+            gap = _gap_label(d, listed[i + 1])
+            if gap:
+                lines.append(f"  - ⚠️ {gap}")
+    if not listed:
+        lines.append("（尚無日誌）")
+    return lines
+
+
+_HOME_TEMPLATE_HEAD = """# SIGNAL 選稿日誌（Newsroom）
+
+自動金融科技摘要的**編輯稽核台**：每 3 小時一輪，含 published / no_change / fail_safe。
+
+## 最近日誌
+"""
+
+
+def _replace_index_block(text, block):
+    """把 Home.md 的索引換成 block：優先換 marker 之間；否則換「## 最近日誌」
+    整段（到下一個 ## 為止）；都沒有就附加到文末。"""
+    if _INDEX_START in text and _INDEX_END in text:
+        head, rest = text.split(_INDEX_START, 1)
+        _, tail = rest.split(_INDEX_END, 1)
+        return head + block + tail
+    m = re.search(r"^## 最近日誌[ \t]*$", text, re.M)
+    if m:
+        after = text[m.end():]
+        nxt = re.search(r"^## ", after, re.M)
+        end = m.end() + (nxt.start() if nxt else len(after))
+        tail = text[end:].lstrip("\n")
+        return (text[:m.start()] + "## 最近日誌\n\n" + block
+                + ("\n\n" + tail if tail else "\n"))
+    return text.rstrip("\n") + "\n\n## 最近日誌\n\n" + block + "\n"
+
+
+def update_wiki_index(base):
+    """重產 Home.md 的「最近日誌」段（保留其餘手寫內容）與整份 _Sidebar.md。"""
+    dates = list_day_dates(base)
+    updated_at = _latest_run_at(base, dates)
+    block = "\n".join([_INDEX_START] + index_lines(dates, updated_at) + [_INDEX_END])
+
+    home_path = os.path.join(base, "Home.md")
+    if os.path.exists(home_path):
+        with open(home_path, encoding="utf-8") as f:
+            text = f.read()
+    else:
+        text = _HOME_TEMPLATE_HEAD
+    with open(home_path, "w", encoding="utf-8") as f:
+        f.write(_replace_index_block(text, block))
+
+    side = ["**SIGNAL Newsroom**", "", "- [Home](Home)"]
+    side += [f"- [{d}]({d})" for d in dates[:_INDEX_DAYS_SIDEBAR]]
+    side += ["", "---",
+             "[站點](https://laiyenju.github.io/signal-fintech/) · "
+             "[Repo](https://github.com/laiyenju/signal-fintech)", ""]
+    with open(os.path.join(base, "_Sidebar.md"), "w", encoding="utf-8") as f:
+        f.write("\n".join(side))
+    return dates
+
+
+def merge_backup(backup_dir, base):
+    """把主 repo 備援目錄（wiki push 失敗輪留下的日 JSON）併回 wiki clone。
+    以 runAt 去重（append_run 語意），逐日重繪 md，最後重產索引。"""
+    merged_days = 0
+    merged_runs = 0
+    for d in sorted(set(list_day_dates(backup_dir))):
+        with open(os.path.join(backup_dir, d + ".json"), encoding="utf-8") as f:
+            backup_day = json.load(f)
+        runs = [r for r in (backup_day.get("runs") or []) if isinstance(r, dict)]
+        if not runs:
+            continue
+        day_path = os.path.join(base, d + ".json")
+        before = 0
+        if os.path.exists(day_path):
+            with open(day_path, encoding="utf-8") as f:
+                before = len((json.load(f) or {}).get("runs") or [])
+        day = None
+        for run in runs:
+            day = append_run(day_path, run, d)
+        added = len(day["runs"]) - before
+        if added > 0:
+            merged_runs += added
+            merged_days += 1
+        with open(os.path.join(base, d + ".md"), "w", encoding="utf-8") as f:
+            f.write(render_markdown(day))
+    update_wiki_index(base)
+    print(f"[newsroom] merge-backup：{backup_dir} → {base}，"
+          f"補入 {merged_days} 天 / {merged_runs} 輪")
+    return 0
 
 
 def render_only(day_json_path):
@@ -293,6 +459,7 @@ def render_only(day_json_path):
     md_path = os.path.splitext(day_json_path)[0] + ".md"
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(render_markdown(day))
+    update_wiki_index(os.path.dirname(day_json_path) or ".")
     print(f"[newsroom] render-only → {md_path} ({len(day.get('runs') or [])} runs)")
     return 0
 
@@ -300,6 +467,8 @@ def render_only(day_json_path):
 def main(argv):
     if len(argv) >= 3 and argv[1] == "--render-only":
         return render_only(argv[2])
+    if len(argv) >= 3 and argv[1] == "--merge-backup":
+        return merge_backup(argv[2], os.environ.get("NEWSROOM_DIR", "newsroom"))
     with open(argv[1], encoding="utf-8") as f:
         meta = json.load(f)
     with open(argv[2], encoding="utf-8") as f:
@@ -318,6 +487,7 @@ def main(argv):
     md_path = os.path.join(base, f"{today}.md")
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(render_markdown(day))
+    update_wiki_index(base)
     print(f"[newsroom] {today} {run.get('runAt')} ({outcome}) → {len(day['runs'])} runs, "
           f"{day_path} + {md_path}")
     return 0
