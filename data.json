@@ -28,7 +28,13 @@
           }
         ],
         "social": [],
-        "context": []
+        "context": [
+          {
+            "date": "2026-08-18",
+            "title": "金管會：銀行有意兼營 VASP、持有穩定幣，切入供應鏈金融",
+            "body": "金管會 8 月 18 日表示，透過穩定幣（stablecoin）提供供應鏈金融，對金融業是不得不面對的新業務；銀行盼擴大與虛擬資產服務提供商（VASP）合作，包含兼營部分 VASP 業務、或持有部分穩定幣，相關模式仍在研究中。這是主管機關對銀行跨入數位資產業務給出的最新態度。"
+          }
+        ]
       },
       {
         "date": "2026-08-15",
@@ -123,6 +129,28 @@
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-18",
+        "title": "花旗（Citi）將為機構客戶推出比特幣託管，納入 Custody+ 讓傳統資產與加密資產共用同一套保管架構",
+        "paras": [
+          "花旗集團機構基礎設施部門於 8 月 18 日發表 Custody+ 服務組合，整合託管、結算、外匯與現金管理，並宣布年內先以比特幣（bitcoin）切入加密託管，惟尚未公布正式上線日。花旗託管業務橫跨逾 100 個市場、其中 62 個市場自建託管網路，機構客戶未來可把比特幣與股票、債券放在同一家銀行保管，不必再另找加密託管商。",
+          "花旗並非首家跨入的大型金融機構：紐約梅隆（BNY）自 2022 年起為部分美國客戶提供加密託管，Fidelity Digital Assets 與 Coinbase 也早已服務機構；美國證管會（SEC）2025 年撤除使銀行保管加密資產成本偏高的 SAB 121 會計指引後，銀行進場空間明顯放寬。花旗同時強調新系統已讓逾八成託管事件即時處理、處理時間最多縮短 92%。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Citi plans to launch bitcoin custody for institutional clients later this year",
+            "url": "https://www.coindesk.com/markets/2026/08/18/citi-plans-to-launch-bitcoin-custody-for-institutional-clients-later-this-year"
+          },
+          {
+            "name": "Business Wire",
+            "title": "Citi Unveils Custody+, a Suite of Near- and Real-time Custody Solutions",
+            "url": "https://www.businesswire.com/news/home/20260818137877/en/Citi-Unveils-Custody-A-Suite-of-Near--and-Real-time-Custody-Solutions-to-Meet-Always-On-Industry-Demand"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-18",
         "title": "Visa 尋找新的穩定幣結算夥伴，接替被 Mastercard 收購的 BVNK",
@@ -698,7 +726,13 @@
           }
         ],
         "social": [],
-        "context": []
+        "context": [
+          {
+            "date": "2026-08-18",
+            "title": "香港首檔法幣穩定幣 HKDAP 進入實地應用：HashKey 用於港阿跨境貿易結算與保險理賠",
+            "body": "HKDAP 上線約六日後即投入實際場景。香港最大加密交易所 HashKey Exchange 宣布，將以 HKDAP 結算香港與阿聯酋（UAE）及中東的跨境貿易；港阿 2025 年雙邊貿易額約 489.5 億美元。HashKey 另與數位資產保險商 OneDegree 合作，把 HKDAP 用於商業保險理賠，先前也已與 YF Life 測試壽險保費支付。HKDAP 由渣打、HKT、Animoca Brands 支持的 Anchorpoint 發行，是香港法規下首檔上線的港元穩定幣；36 家申請者中僅兩家獲發牌，另一張由 HSBC 持有、預計年內先向 330 萬 PayMe 用戶推出。"
+          }
+        ]
       },
       {
         "date": "2026-08-12",
@@ -945,5 +979,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-18T12:51:43Z"
+  "_generated_at": "2026-08-18T15:52:31Z"
 }
