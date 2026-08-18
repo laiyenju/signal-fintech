@@ -125,6 +125,23 @@
     "others": [
       {
         "date": "2026-08-18",
+        "title": "Visa 尋找新的穩定幣結算夥伴，接替被 Mastercard 收購的 BVNK",
+        "paras": [
+          "據 CoinDesk 取得的文件，支付網路巨頭 Visa 正尋找一家新的穩定幣（stablecoin）結算與場外交易（OTC）夥伴，對象須在美國、加拿大、英國與新加坡等主要市場持有加密貨幣交易所牌照。這個角色原本由穩定幣基礎設施商 BVNK 擔任，但 BVNK 今年稍早已被競爭對手 Mastercard 以最高 18 億美元收購，Visa 因此必須另覓合作對象。徵求文件要求夥伴能兌換並支援多種穩定幣，並為由 Stripe、Visa 與 Mastercard 共同支持、主打多幣別的 Open USD（OUSD）穩定幣專案處理結算。",
+          "這樁夥伴洗牌凸顯穩定幣結算已成為大型卡片網路與支付業者的兵家必爭之地——目前全球穩定幣市值約 3,000 億美元。自 Stripe 於 2024 年底以 11 億美元收購穩定幣平台 Bridge 後，Visa 與 Mastercard 便加速布局以免被超車；Visa 上個月推出 Visa Stablecoin Platform，讓銀行與金融科技業者鑄造、儲存與移轉穩定幣，並以 OUSD 為首個支援幣種。BVNK 被 Mastercard 收入旗下、如今 Visa 另尋牌照齊備的結算夥伴，等於把兩大網路在穩定幣基礎設施上的競爭推向新一輪。Visa 對此不予置評。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Visa looking for new stablecoin settlement partner after BVNK sale to Mastercard",
+            "url": "https://www.coindesk.com/business/2026/08/18/visa-is-looking-for-a-new-stablecoin-settlement-partner-now-that-bvnk-is-owned-by-mastercard"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-18",
         "title": "跨境支付網路 Thunes 攜手支付科技商 Fiserv，為其龐大商戶生態系導入即時全球付款",
         "paras": [
           "總部位於新加坡、自詡為全球資金流動「智能超級高速公路」的跨境支付網路 Thunes，與美國支付與金融科技供應商 Fiserv 宣布展開策略合作，將把即時跨境付款能力導入 Fiserv 的商戶生態系。依 8 月 18 日發自舊金山的公告，Fiserv 的電子商務平台、線上市集與其他商戶客戶只需完成一次系統整合，即可透過 Thunes 的 Direct Global Network，向逾 140 個國家、涵蓋 90 種貨幣的約 120 億個銀行帳戶與行動錢包即時匯款，用途涵蓋員工薪酬、帳單與供應商款項的發放。",
@@ -928,5 +945,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-18T09:52:54Z"
+  "_generated_at": "2026-08-18T12:51:43Z"
 }
