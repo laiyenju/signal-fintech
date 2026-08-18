@@ -126,6 +126,40 @@
     "others": [
       {
         "date": "2026-08-18",
+        "title": "美國 SEC 突襲式提出「加密資產監理規則」（Regulation Crypto Assets），為數位資產訂定首套永久性聯邦規則",
+        "paras": [
+          "美國證券交易委員會（SEC）8 月 18 日無預警發布「加密資產監理規則」（Regulation Crypto Assets）提案，要成為聯邦層級首套永久規範數位資產發行的規則；此前 SEC 才臨時取消原訂 8 月 14 日的表決會議。提案設兩條發行軌道：一是四年內一次性募集上限 500 萬美元，二是每年可募集上限 7,500 萬美元，兩者都要求發行人向投資人提供原則導向的敘述性揭露，第二條軌道還須附財務報表並持續申報。",
+          "規則同時讓部分加密資產不必被歸類為證券法下的「投資契約」（investment contract），並在發行人完成或永久停止其承諾的核心經營作為後給予安全港（safe harbor）。SEC 主席 Atkins 強調立法仍不可或缺，才能讓規則不被未來監理者推翻；提案將公開徵詢意見 60 天。此舉正值美國市場結構法案《Digital Asset Market Clarity Act》仍在參議院卡關之際。"
+        ],
+        "sources": [
+          {
+            "name": "U.S. SEC",
+            "title": "SEC Proposes New Regulation Crypto Assets",
+            "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-18",
+        "title": "美國會計準則委員會 FASB 提案，將符合條件的穩定幣（stablecoin）認列為「約當現金」",
+        "paras": [
+          "制定美國一般公認會計原則（GAAP）的財務會計準則委員會（FASB）8 月 18 日提出草案，釐清哪些穩定幣（stablecoin）可被視為「約當現金」（cash equivalents）：只要其流動準備金至少等於流通在外代幣、準備內容每年揭露，且持有人可隨時按面額贖回為美元，即符合條件。這將使穩定幣與美國公債、商業本票、貨幣市場基金並列為高流動性的類現金資產。",
+          "FASB 自 2023 年起陸續建立加密相關會計規則，此次以釋例形式說明現行約當現金定義如何套用到特定數位資產，回應各界對穩定幣會計處理不一致的疑慮。草案尚非最終定案，公開徵詢意見至 11 月 19 日。若通過，企業將更容易把手中穩定幣直接計入現金部位，有助其滲入企業財務與支付流程。"
+        ],
+        "sources": [
+          {
+            "name": "FASB",
+            "title": "FASB Seeks Public Comment on Proposal to Clarify the Cash Equivalents Evaluation for Certain Digital Assets",
+            "url": "https://www.fasb.org/news-and-meetings/in-the-news/fasb-seeks-public-comment-on-proposal-to-enhance-cash-equivalents-disclosures-and-clarify-the-cash-equivalents-evaluation-for-certain-digital-assets-425287"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-18",
         "title": "加密硬體錢包 Coldcard 爆種子產生漏洞，約 1,596 枚比特幣（逾 1 億美元）自 7,300 個地址遭盜",
         "paras": [
           "由加拿大 Coinkite 打造、主打自我保管（self-custody）的比特幣硬體錢包 Coldcard，被揭露在種子（seed）產生環節存在嚴重漏洞。問題源自 2021 年 3 月釋出的 4.0.0 版韌體：一項本應在新增亂數來源後關閉舊來源的設定，因程式只檢查該設定「是否存在」而非「開或關」，導致裝置改用較弱的軟體亂數產生器。如此一來，實際熵值（entropy）從應有的 128 位元降到約 72 位元，可能的種子數量大幅縮小，足以被攻擊者逐一嘗試破解。加密資產研究機構 Galaxy Research 高度確信，約 1,596 枚比特幣（依當時價格逾 1 億美元）在一連串攻擊中自約 7,300 個地址被盜，且至少有 15 組攻擊者在利用此漏洞，全程不需實體接觸裝置；多倫多創業者 Jonathan Goodman 即便將 Coldcard 與助記詞分別鎖在保險箱、從未連網，仍於 7 月 29 日被清空 18.25 枚比特幣。",
@@ -841,5 +875,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-18T19:04:05Z"
+  "_generated_at": "2026-08-18T21:50:17Z"
 }
