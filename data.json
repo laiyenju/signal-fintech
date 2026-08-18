@@ -142,6 +142,40 @@
       },
       {
         "date": "2026-08-17",
+        "title": "Airwallex 攜手 Affirm 在美國推出先買後付，商戶結帳頁可直接提供分期付款",
+        "paras": [
+          "跨境金融平台 Airwallex 與美國先買後付（BNPL，Buy Now Pay Later）業者 Affirm 宣布合作，使用 Airwallex 收款的商戶可在結帳頁面，為符合資格的美國消費者提供 Affirm 的彈性分期付款選項。此舉把消費信貸能力接進 Airwallex 既有的商戶金流基礎設施，讓以 Airwallex 收款的商戶多一種結帳付款選項。",
+          "對 Airwallex 而言，這是把服務從跨境收單、換匯與帳戶延伸到消費端信貸的一步，切入競爭激烈的美國 BNPL 市場；對 Affirm 而言，則能透過 Airwallex 的商戶網路擴大觸及面。雙方公告未揭露費率、分潤或具體上線商戶規模等細節。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "Airwallex partners Affirm for US BNPL roll out",
+            "url": "https://www.finextra.com/pressarticle/110644/airwallex-partners-affirm-for-us-bnpl-roll-out"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-17",
+        "title": "匯款龍頭 Western Union 收購對手 Intermax 取得紐約州放行，仍待跨越加州關卡",
+        "paras": [
+          "匯款業者 Western Union 收購同業 Intermax 的交易取得紐約州監理放行。為化解反對聲浪，Western Union 承諾維持在紐約州的門市據點，並在三年內對手續費調漲設定上限，以此換取當地主管機關對併購案的核可。",
+          "這是這樁匯款業整併案在美國跨越的其中一道監理關卡，牽動實體匯款門市的通路布局與費率設定。不過交易仍面臨加州的審查障礙、尚未全面完成；公告未進一步揭露收購金額與整體完成時程。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra",
+            "title": "Western Union gets New York nod for Intermax acquisition; still face California hurdles",
+            "url": "https://www.finextra.com/newsarticle/48252/western-union-gets-new-york-nod-for-intermax-acquisition-still-face-california-hurdles"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-17",
         "title": "美國財政部提出 GENIUS Act 穩定幣實施細則，為去年立法補上核心定義與監理分工",
         "paras": [
           "美國財政部（U.S. Treasury）提出穩定幣（stablecoin）法規草案，著手為國會去年完成立法的 GENIUS Act 補上部分核心定義與監理管轄分工，把既有法律框架推進到可實際執行的行政規則階段。",
@@ -271,6 +305,23 @@
       },
       {
         "date": "2026-08-14",
+        "title": "ETF 發行商 Corgi 以 AI 量產產品挑戰 BlackRock，低費率掀新一輪費率戰",
+        "paras": [
+          "保險科技新創 Corgi Insurance 旗下的 ETF 部門 Corgi Invest，自去年 12 月以來已推出 197 檔 ETF，並預期今年底前在美國的 ETF 掛牌總數超越 BlackRock。該公司以 AI 加速監理申報與產品上架流程，把發行速度拉高到傳統資產管理業者難以匹敵的節奏。",
+          "Corgi 同時在緩衝收益型、槓桿型與單一個股型等 ETF 上以低費率搶市，押注更低成本、加上結合保險浮存金（float）的垂直整合策略，能隨時間累積資產規模。這波以科技驅動的低價攻勢，被視為可能在 ETF 業掀起新一輪費率競爭。"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "title": "Corgi uses AI to challenge BlackRock and spark a new ETF fee war",
+            "url": "https://www.cnbc.com/2026/08/14/low-cost-etfs-corgi-invest.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-14",
         "title": "PayPal 傳與 Stripe、私募基金 Advent 洽談出售，初步開價約 530 億美元、每股 60.5 美元遭婉拒後談判升溫",
         "paras": [
           "據《華爾街日報》（WSJ）報導、科技媒體 TechCrunch 整理，線上支付巨頭 PayPal 正與同業 Stripe 及私募股權基金 Advent International 洽談出售事宜，且雙方談判近期明顯升溫。消息稱，收購方最初開出的價碼約 530 億美元、相當於每股 60.5 美元，PayPal 於 7 月一度回絕該提案，但知情人士指出協商仍在進行，交易有可能於未來數週成形。PayPal 對此不予置評，Stripe 發言人則表示公司不評論「傳言或臆測」。",
@@ -337,6 +388,23 @@
             "name": "CoinDesk",
             "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
             "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-13",
+        "title": "Robinhood 第二檔私募市場基金掛牌，募得 2.255 億美元引散戶資金進入未上市股權",
+        "paras": [
+          "Robinhood 旗下第二檔創投基金 Robinhood Ventures Fund II 在紐約證交所（NYSE）掛牌交易，共募得 2.255 億美元，讓散戶投資人得以取得早期與成長期未上市公司的曝險，並以現任及前 Y Combinator 新創為投資重點。",
+          "這是繼首檔後期創投基金之後，Robinhood 進一步擴大布局私募市場的動作，公司並在研擬更多基金，目標是拓寬散戶參與新創投資的管道。此類產品把過去以機構與合格投資人為主的未上市股權，包裝成散戶可在交易所買賣的標的。"
+        ],
+        "sources": [
+          {
+            "name": "Reuters",
+            "title": "Robinhood's second venture fund debuts, drawing retail money into private markets",
+            "url": "https://www.reuters.com/legal/transactional/robinhoods-second-venture-fund-debuts-drawing-retail-money-into-private-markets-2026-08-13/"
           }
         ],
         "social": [],
@@ -860,5 +928,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-17T21:56:09Z"
+  "_generated_at": "2026-08-18T09:52:54Z"
 }
