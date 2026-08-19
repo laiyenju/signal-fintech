@@ -126,6 +126,23 @@
     "others": [
       {
         "date": "2026-08-19",
+        "title": "匯豐與渣打完成 Swift 全新 24/7 區塊鏈帳本首筆跨行實時交易，以代幣化存款測試跨境結算",
+        "paras": [
+          "英國匯豐（HSBC）與渣打（Standard Chartered）宣布，在環球銀行金融電信協會（Swift）新推出的區塊鏈帳本（ledger）試點中完成首筆跨行實時交易。兩家銀行透過 Swift 帳本互傳付款訊息，由帳本先行對盤與淨額計算（netting），最終結算仍經既有系統完成，整個流程以代幣化存款（tokenized deposits，銀行存款的數位代幣形式）在跨境間即時發行、移轉與清償。此試點於今年 7 月宣布，橫跨六大洲、共 17 家銀行參與；Swift 為銀行共同持有的金融訊息網路，連結逾 11,500 家金融機構，每日處理逾 7.5 兆美元、約 5,300 萬則金融訊息。",
+          "此舉是 Swift 從單純「訊息傳遞」邁向「帳本結算」的關鍵一步，目的是在穩定幣（stablecoin，錨定法幣的數位代幣）與代幣化存款日益普及、區塊鏈以速度與便利驅動跨境支付變革之際維持自身競爭力。傳統跨境支付中，鏈上每一家中介銀行都須佔用流動性、推升成本並拖慢結算，改用共享帳本可讓借記與貸記同時發生。匯豐數位貨幣主管 Lewis Sun 稱此展示了銀行發行的數位貨幣如何在維持既有監理框架下跨機構互通；渣打數位資產主管 Naveen Mallela 認為代幣化存款與穩定幣互補而非競爭，預期五年內代幣化存款將構成機構批發結算的主體、穩定幣則落在零售與匯款場景。花旗（Citi）數位資產主管 Debo Sen 指出旗下 Citi Token Services 已每日處理數十億美元；OKX Europe 執行長 Erald Ghoos 則直言 Swift 若不上鏈將沒有未來。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "HSBC, Standard Chartered execute first live banking transaction on Swift’s 24/7 ledger",
+            "url": "https://www.coindesk.com/business/2026/08/19/hsbc-standard-chartered-execute-first-live-banking-transaction-on-swift-s-24-7-ledger"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-19",
         "title": "中國數位人民幣（e-CNY）本週再增 8 家銀行接入，全年網路規模擴大約三倍",
         "paras": [
           "據 CoinDesk，中國人民銀行（PBOC，中國央行）本週再新增 8 家銀行接入數位人民幣（e-CNY，中國官方發行的中央銀行數位貨幣 CBDC）網路，包括平安銀行、恆豐銀行、上海銀行與杭州銀行等。加上今年以來陸續接入的機構，整體 e-CNY 網路規模較年初擴大約三倍。此舉延續官方把數位人民幣從試點推向常態化基礎設施的路線，透過將更多商業銀行納入分銷與清算體系，擴大 e-CNY 在零售與批發支付場景的可用範圍。",
@@ -943,5 +960,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-19T12:52:56Z"
+  "_generated_at": "2026-08-19T15:52:09Z"
 }
