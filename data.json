@@ -127,6 +127,40 @@
     "others": [
       {
         "date": "2026-08-19",
+        "title": "Ethena 攜手 FalconX 設立 10 億美元擔保信貸機制，把 USDe 儲備資產投入機構級放貸",
+        "paras": [
+          "合成美元（synthetic dollar）協定 Ethena 與數位資產主經紀商 FalconX 8 月 19 日宣布，共同設立一項規模 10 億美元的擔保信貸機制（warehouse facility），把支撐其 USDe 的儲備資產投入超額擔保（overcollateralized）的機構級放貸，用途涵蓋交易策略、企業財務管理與支付。放貸透過破產隔離的特殊目的機構（SPV）進行，由 FalconX 擔任貸款發起、服務與擔保品管理方，擔保品交由合格第三方託管機構保管，Ethena 對該機構資產享有第一順位擔保權益。",
+          "此舉意在為 USDe 的收益來源分散風險。USDe 過去主要仰賴永續期貨（perpetual futures）資金費率的「基差交易」（basis trade）獲利，但當市場對槓桿加密曝險的需求轉弱時，這類費率可能壓縮甚至轉負，收益隨之下滑。Ethena Labs 創辦人 Guy Young 表示，擔保型機構放貸是金融界規模最大且最穩定的收益來源之一，而鏈上資本至今幾乎未涉足；雙方稱這是迄今鏈上資本投入擔保機構信貸規模最大的部署之一。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Beyond crypto funding rates: Ethena diversifies USDe backing with $1 billion FalconX facility",
+            "url": "https://www.coindesk.com/business/2026/08/19/beyond-crypto-funding-rates-ethena-diversifies-usde-backing-with-usd1-billion-falconx-facility"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-19",
+        "title": "印度金融科技 Navi 首度引進外部資金，獲 Prosus 挹注 1 億美元、估值約 13 億美元並籌備 IPO",
+        "paras": [
+          "由印度 Flipkart 共同創辦人 Sachin Bansal 於 2018 年創立的班加羅爾（Bengaluru）金融科技公司 Navi 宣布，獲南非科技投資集團 Prosus 挹注 1 億美元，這是 Navi 成立以來首度引進外部機構資金，投後估值約 13 億美元。Navi 業務橫跨數位支付、放貸、保險與共同基金，其 App 目前是印度統一支付介面（UPI，Unified Payments Interface）第四大平台，僅次於 PhonePe、Google Pay 與 Paytm。",
+          "這輪估值較 Navi 在 2024 年一度設定的 20 億美元目標明顯回落，但公司財務體質已見改善：2026 會計年度營收約 309 億印度盧比（約 3.23 億美元），放貸資產管理規模約 1,300 億盧比（約 14 億美元），並在該年度第四季達成合併獲利。Navi 正籌備規模約 300 億盧比（約 3.14 億美元）的首次公開發行（IPO），此前曾於 2022 至 2023 年間中止一樁 4.4 億美元的上市計畫；此次引資被視為其重啟上市前的鋪墊。"
+        ],
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "title": "Sachin Bansal’s fintech Navi raises first outside capital with $100M Prosus investment",
+            "url": "https://techcrunch.com/2026/08/19/sachin-bansals-fintech-navi-raises-first-outside-capital-with-100m-prosus-investment/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-19",
         "title": "匯豐與渣打完成 Swift 全新 24/7 區塊鏈帳本首筆跨行實時交易，以代幣化存款測試跨境結算",
         "paras": [
           "英國匯豐（HSBC）與渣打（Standard Chartered）宣布，在環球銀行金融電信協會（Swift）新推出的區塊鏈帳本（ledger）試點中完成首筆跨行實時交易。兩家銀行透過 Swift 帳本互傳付款訊息，由帳本先行對盤與淨額計算（netting），最終結算仍經既有系統完成，整個流程以代幣化存款（tokenized deposits，銀行存款的數位代幣形式）在跨境間即時發行、移轉與清償。此試點於今年 7 月宣布，橫跨六大洲、共 17 家銀行參與；Swift 為銀行共同持有的金融訊息網路，連結逾 11,500 家金融機構，每日處理逾 7.5 兆美元、約 5,300 萬則金融訊息。",
@@ -784,5 +818,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-19T18:59:21Z"
+  "_generated_at": "2026-08-19T21:52:47Z"
 }
