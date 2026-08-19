@@ -1,15 +1,21 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "tier": "watch",
-      "title": "本日觀察：台灣無達標金融科技新頭條，焦點仍在記憶體、AI 出口與新台幣匯率",
+      "title": "台灣 MyData 平台開通身心障礙者牌照稅免稅線上申辦，14 縣市完成資料介接",
       "paras": [
-        "今日台灣新聞版面仍以科技製造與總體經濟為主軸：記憶體與 AI 需求帶動電子產品出口與台廠獲利預估走高、外資轉賣使台股短線承壓、新台幣因順差與熱錢匯入續強，以及油價因中東情勢維持高檔等，皆屬一般財經或產業動態。與支付、數位銀行、金融基礎設施或數位資產直接相關、且具明確影響力的新頭條，今日仍未出現。",
-        "金融科技相關動態多屬既有事件的延伸：金融監督管理委員會（金管會）表示，透過穩定幣（stablecoin）提供供應鏈金融是金融業不得不面對的新業務，銀行盼擴大與虛擬資產服務提供商（VASP）合作、甚至兼營部分業務或持有部分穩定幣，惟具體模式仍在研究中，主管機關態度與後續立法子法進展仍待觀察。純網銀方面，金管會統計三家累計虧損較去年同期收斂、LINE Bank 連續七個月單月稅前獲利，屬經營數據而非新產品或基礎設施突破。虛擬資產服務法落地、洗錢防制法修法等既有題材，也仍在持續發展、待觀察後續。"
+        "數位發展部宣布，MyData 個人化資料自主運用平台新增「使用牌照稅身心障礙者免稅申請」線上服務，目前已有 14 個縣市完成系統介接。身心障礙者只要完成身分驗證並自主同意授權，即可透過 MyData 一次調取戶籍、身心障礙證明、車籍與駕籍等申辦所需資料，在線上完成免稅申請，不必再臨櫃奔波備齊紙本。",
+        "MyData 以數位身分驗證與「當事人同意後跨機關資料流通」為核心，是台灣數位身分與資料自主基礎設施的一環，也和金融開戶、身分驗證（KYC）等場景共用同一套個資授權機制。這次把服務延伸到地方稅務，代表政府持續把分散在各機關的個資，透過使用者授權整合為可即時調用的資料流；不過覆蓋仍限於部分縣市與特定申辦項目，距離全面資料互通仍有距離。"
       ]
     },
-    "sources": [],
+    "sources": [
+      {
+        "name": "中央社",
+        "title": "MyData助身障者線上申辦牌照稅免稅　14縣市介接上線",
+        "url": "https://www.cna.com.tw/news/ahel/202608190258.aspx"
+      }
+    ],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -101,24 +107,19 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-19",
-      "tier": "top",
-      "title": "Kraken 為歐洲客戶新增逾 7,000 檔美股直接交易，成首家單一平台同售真實美股與代幣化版本的加密交易所",
+      "date": "2026-08-20",
+      "tier": "watch",
+      "title": "Cantor Fitzgerald 為約 3,000 家機構客戶開通 Kalshi 事件合約交易，預測市場加速走進華爾街",
       "paras": [
-        "美國加密交易所 Kraken（由母公司 Payward 營運）宣布，為歐洲經濟區（EEA）客戶新增逾 7,000 檔美國上市股票的直接交易，並成為首家在單一受監理平台上、同時提供傳統美股與其代幣化（tokenized）版本的加密原生交易所。用戶可自行選擇以傳統或代幣化形式持有同一標的，無須搬移資金或更換平台；此舉讓 Kraken 直接與 Interactive Brokers、eToro 等傳統券商，以及提供代幣化股票的加密平台正面競爭。",
-        "這是加密與傳統金融（TradFi）界線持續模糊的一環：一方面倫敦、紐約等傳統交易所走向 24 小時交易與區塊鏈結算，另一方面 Coinbase 已取得英國核准可在加密之外提供股票與衍生品、Crypto.com 推出代幣化股票衍生品、Robinhood 在歐洲提供代幣化股票，顯示同業正競相把交易所打造成整合加密、股票與其他資產的「超級應用程式（super app）」。多位業者高層表示，驅動這股匯流的是用戶希望把更多金融生活集中於少數平台的需求。"
+        "美國投資銀行 Cantor Fitzgerald 宣布，將協助旗下約 3,000 家機構客戶在事件合約（event contracts）平台 Kalshi 上執行大額區塊交易，讓對沖基金、資產管理公司等專業投資人以機構級通道，參與原本以散戶為主的預測市場（prediction market）。此舉把受美國商品期貨交易委員會（CFTC）監理的 Kalshi 事件合約，接進傳統券商的下單與交易流程。",
+        "這反映預測市場正從邊緣走向主流金融基礎設施：Kalshi 近期積極建置機構級經紀與風控系統，並與 Polymarket 等對手競逐機構資金。對金融科技業而言，事件合約結合傳統券商通道，替市場開出一條新的交易與避險工具線；但其監理定位、以及「是否構成博弈」的爭議在部分司法管轄區仍未完全釐清，後續能否放量仍待觀察。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Kraken adds U.S. stocks in Europe as TradFi-crypto divide blurs",
-        "url": "https://www.coindesk.com/markets/2026/08/18/kraken-adds-u-s-stocks-in-europe-as-tradfi-crypto-divide-blurs"
-      },
-      {
-        "name": "Kraken（官方公告）",
-        "title": "Announcing US-listed stock trading for EEA customers",
-        "url": "https://blog.kraken.com/product/equities/announcing-us-listed-stock-trading-for-eea-customers"
+        "title": "Cantor opens Kalshi prediction markets to thousands of institutional clients",
+        "url": "https://www.coindesk.com/markets/2026/08/19/cantor-opens-kalshi-prediction-markets-to-thousands-of-institutional-clients"
       }
     ],
     "coverSocial": [],
@@ -187,6 +188,28 @@
             "name": "CoinDesk",
             "title": "Ripple raises $275 million in senior notes for prime brokerage push",
             "url": "https://www.coindesk.com/business/2026/08/19/ripple-raises-usd275-million-in-debut-debt-offering-for-its-prime-brokerage-arm"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-19",
+        "title": "Kraken 為歐洲客戶新增逾 7,000 檔美股直接交易，成首家單一平台同售真實美股與代幣化版本的加密交易所",
+        "paras": [
+          "美國加密交易所 Kraken（由母公司 Payward 營運）宣布，為歐洲經濟區（EEA）客戶新增逾 7,000 檔美國上市股票的直接交易，並成為首家在單一受監理平台上、同時提供傳統美股與其代幣化（tokenized）版本的加密原生交易所。用戶可自行選擇以傳統或代幣化形式持有同一標的，無須搬移資金或更換平台；此舉讓 Kraken 直接與 Interactive Brokers、eToro 等傳統券商，以及提供代幣化股票的加密平台正面競爭。",
+          "這是加密與傳統金融（TradFi）界線持續模糊的一環：一方面倫敦、紐約等傳統交易所走向 24 小時交易與區塊鏈結算，另一方面 Coinbase 已取得英國核准可在加密之外提供股票與衍生品、Crypto.com 推出代幣化股票衍生品、Robinhood 在歐洲提供代幣化股票，顯示同業正競相把交易所打造成整合加密、股票與其他資產的「超級應用程式（super app）」。多位業者高層表示，驅動這股匯流的是用戶希望把更多金融生活集中於少數平台的需求。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Kraken adds U.S. stocks in Europe as TradFi-crypto divide blurs",
+            "url": "https://www.coindesk.com/markets/2026/08/18/kraken-adds-u-s-stocks-in-europe-as-tradfi-crypto-divide-blurs"
+          },
+          {
+            "name": "Kraken（官方公告）",
+            "title": "Announcing US-listed stock trading for EEA customers",
+            "url": "https://blog.kraken.com/product/equities/announcing-us-listed-stock-trading-for-eea-customers"
           }
         ],
         "social": [],
@@ -758,207 +781,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-12",
-        "title": "Uber 入股智利金融科技 Galgo，將為外送夥伴打造低成本機車貸款、延伸車輛融資布局",
-        "paras": [
-          "Uber 宣布投資智利金融科技公司 Galgo。Galgo 專攻車輛融資，至今已投放逾 4 億美元信貸、目前已轉為獲利，年化營收約 1 億美元；雙方將合作開發專供 Uber 外送夥伴使用的低成本機車融資方案。Galgo 並計畫明年進入另一個拉丁美洲市場，並運用這樁合作進一步投資技術、資料與人工智慧（AI）。",
-          "這是 Uber 繼 2024 年投資行動出行金融科技 Moove 之後，再一次擴大其車輛融資布局，透過與在地借貸科技業者結盟，替仰賴機車與汽車的接案工作者提供更可負擔的融資管道。此舉也顯示平台型企業正把嵌入式借貸（embedded lending）納入生態系，藉金融服務強化與供給端夥伴的黏著度。內容整理自彭博（Bloomberg）報導。"
-        ],
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "title": "Uber Invests in Chilean Fintech in Push Into Motorcycle Lending",
-            "url": "https://www.bloomberg.com/news/articles/2026-08-12/uber-invests-in-chilean-fintech-in-push-into-motorcycle-lending"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-12",
-        "title": "摩根士丹利加密基礎設施夥伴 Zerohash 申請美國信託銀行受挫遭駁回，將重新遞件",
-        "paras": [
-          "為摩根士丹利（Morgan Stanley）旗下券商 E*Trade 提供加密資產「後台管線」的基礎設施商 Zerohash，申請成為美國信託銀行（U.S. trust bank）的提案遭到駁回。取得信託銀行地位可讓業者在受監理架構下直接託管與清算數位資產，是加密基礎設施商爭取正式接入銀行體系的關鍵一步。",
-          "Zerohash 表示將重新遞件，並期望盡快取得結果。這起個案凸顯監理機關對加密信託銀行的准入仍相對審慎，也與近期多家加密與穩定幣（stablecoin）業者尋求銀行、支付與清算牌照的動作相互呼應，反映在數位資產業務擴張下，基礎設施商正加速尋求受監理的法律地位。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
-            "url": "https://www.coindesk.com/policy/2026/08/12/morgan-stanley-s-infrastructure-partner-zerohash-rebuffed-in-pitch-to-be-u-s-trust-bank"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-12",
-        "title": "Solana 週三因資料中心路由故障近三成質押代幣掉線，一度逼近三分之一「停止最終性」門檻",
-        "paras": [
-          "以 SOL 為原生代幣的智能合約區塊鏈 Solana 於週三（8 月 12 日）上午一度瀕臨停擺。質押平台 Marinade Finance 指出，資料中心供應商 Teraswitch 位於邁阿密的機房發生網路路由故障並擴散至歐洲與亞洲多地，導致倫敦、阿姆斯特丹、法蘭克福、新加坡與東京的驗證者（validators，負責驗證交易的節點）掉線，約 29% 的質押代幣（staked tokens）離線，北美則未受影響。區塊鏈的「最終性」（finality，交易變得不可逆轉的時點）會在超過三分之一質押代幣離線時停止，Marinade 稱這次距離該門檻僅約 2,000 萬枚代幣之遙；約 90 個驗證者受影響、合計損失 333 枚 SOL 的獎勵（金額不大，將由「驗證者保證金」validator bonds 補足）。故障約 10 分鐘內修復，網路流量於 UTC 凌晨 4:16 恢復。",
-          "Solana 是規模數一數二的智能合約區塊鏈，其去中心化金融（DeFi，decentralized finance）協議上鎖定的資產價值達約 43 億美元，長期以比以太坊（Ethereum）更快、更便宜自居，但過去曾多次發生中斷。此次事件暴露的結構性風險在於質押（staking，把代幣鎖入網路以維護安全並換取獎勵）的過度集中——單一網路營運商（代號 AS2032）控制的質押代幣占比超過四分之一、已逾 Solana 建議的安全上限，且這些代幣幾乎同時離線；多數受影響的驗證者（包括大型業者 Helius）因備援系統未啟動而離線長達 33 分鐘。Marinade 警告，一旦離線比例真的超過三分之一，對任何持有 SOL 的人而言都不會再有交易被最終確認，且缺乏快速修復手段——2024 年 2 月的一次停擺花了約五小時才重啟。相關內容主要見於 CoinDesk 與 Marinade Finance 公告。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Smart contract blockchain Solana nearly froze Wednesday, Marinade Finance says",
-            "url": "https://www.coindesk.com/tech/2026/08/12/smart-contract-blockchain-solana-nearly-froze-wednesday-marinade-finance-says"
-          },
-          {
-            "name": "Marinade Finance（官方公告，X）",
-            "title": "Marinade Finance on Solana's near-halt",
-            "url": "https://x.com/MarinadeFinance/status/2087485897470083337"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-12",
-        "title": "以色列券商 eToro 宣布收購美國券商 TradeZero、金額上看 2.31 億美元，加速美國市場擴張",
-        "paras": [
-          "在那斯達克掛牌的以色列線上券商 eToro（美股代號 ETOR）8 月 11 日隨第二季財報宣布，將以現金加股票、總額上看 2.31 億美元收購美國券商 TradeZero，預計 2027 年上半年完成、仍待監理核准。TradeZero 提供美股與選擇權的零佣金交易，並主打針對放空（short selling）交易者的工具；據 eToro，其在截至今年 6 月的過去 12 個月約有 8,000 萬美元營收。雙方均未揭露 TradeZero 的加密貨幣、區塊鏈或代幣化計畫，因此這樁交易目前主要是 eToro 強化美國券商業務與客群通路的布局，也是 eToro 今年簽下的第三樁收購案。",
-          "這樁收購揭示於 eToro 交易動能明顯轉向股票之際。同日財報顯示，第二季整體淨貢獻（net contribution）年增 9% 至 2.29 億美元，主要由股票交易帶動，計息帳戶數年增 18% 至 428 萬戶，調整後稀釋每股盈餘 0.68 美元優於分析師預估的 0.61 美元。加密貨幣業務則明顯降溫：第二季加密資產營收約 13.5 億美元、年減約 29%，加密交易由去年同期獲利 3,770 萬美元轉為虧損 720 萬美元，7 月加密交易筆數亦年減 73%。財報與收購公布後，eToro 股價一度下跌約 12% 至約 29.80 美元；執行長 Yoni Assia 稱公司「繳出又一個強勁的一季」，並表示正開發鏈上永續合約（perpetual futures）與加密購買力等新功能。相關內容主要見於 CoinDesk 與 eToro 財報及收購新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "EToro reports second quarter crypto loss even as total profit beats estimates",
-            "url": "https://www.coindesk.com/business/2026/08/11/digital-broker-etoro-reports-q2-crypto-revenue-dropped-120-compared-to-2025"
-          },
-          {
-            "name": "eToro（新聞稿）",
-            "title": "eToro to Acquire TradeZero to Accelerate US Expansion",
-            "url": "https://www.globenewswire.com/news-release/2026/08/11/3342552/0/en/etoro-to-acquire-tradezero-to-accelerate-us-expansion.html"
-          },
-          {
-            "name": "eToro（新聞稿）",
-            "title": "eToro Reports Second Quarter 2026 Results",
-            "url": "https://www.globenewswire.com/news-release/2026/08/11/3342553/0/en/etoro-reports-second-quarter-2026-results.html"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-12",
-        "title": "渣打領軍的 Anchorpoint 推出港元穩定幣 HKDAP，取得香港首批發行牌照後啟動機構試營運",
-        "paras": [
-          "由渣打銀行（Standard Chartered）、Animoca Brands 與香港電訊（HKT）合資成立的 Anchorpoint Financial，宣布開始有限度推出其港元穩定幣（stablecoin，錨定法幣的數位代幣）HKDAP（Hong Kong dollar at par，港元平價），距離該公司取得香港首兩張穩定幣發行人牌照之一約四個月。初期先聚焦機構的支付與結算，之後再逐步增加接取管道與跨境應用。加密貨幣交易所 HashKey Exchange 與 OSL Group 加入為授權經銷商，讓合資格機構與專業投資人可透過其 App 等管道取得 HKDAP；HashKey 並表示已完成首筆 HKDAP 的鑄造與贖回，包含代幣與法幣間的兌換。",
-          "香港的穩定幣規則已於 2025 年 8 月 1 日生效，要求發行人取得牌照並符合資本、儲備與治理標準，使香港成為較早建立專屬穩定幣框架的主要金融市場之一。另一家首批持牌者滙豐銀行（HSBC）正備妥其穩定幣、規劃於 2026 年下半年推出，並可能透過擁有約 330 萬名用戶的支付工具 PayMe 分發；Kraken 母公司 Payward 也以 6 億美元收購 Reap Technologies、擴大香港穩定幣布局。Anchorpoint 表示 HKDAP 最快可能在 2026 年底延伸至散戶。相關內容主要見於 CoinDesk 與 HashKey、OSL 公告。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
-            "url": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin"
-          },
-          {
-            "name": "HashKey Group（公告）",
-            "title": "Anchorpoint and HashKey Exchange partner on HKDAP beta access",
-            "url": "https://group.hashkey.com/anchorpoint-and-hashkey-exchange-partner-on-hkdap-beta-access/"
-          },
-          {
-            "name": "OSL Group（新聞稿，GlobeNewswire）",
-            "title": "OSL Group among first authorised distributors for regulated Hong Kong dollar stablecoin HKDAP via beta access",
-            "url": "https://www.globenewswire.com/news-release/2026/08/12/3343467/0/en/osl-group-among-first-authorised-distributors-for-regulated-hong-kong-dollar-stablecoin-hkdap-via-beta-access.html"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-18",
-            "title": "香港首檔法幣穩定幣 HKDAP 進入實地應用：HashKey 用於港阿跨境貿易結算與保險理賠",
-            "body": "HKDAP 上線約六日後即投入實際場景。香港最大加密交易所 HashKey Exchange 宣布，將以 HKDAP 結算香港與阿聯酋（UAE）及中東的跨境貿易；港阿 2025 年雙邊貿易額約 489.5 億美元。HashKey 另與數位資產保險商 OneDegree 合作，把 HKDAP 用於商業保險理賠，先前也已與 YF Life 測試壽險保費支付。HKDAP 由渣打、HKT、Animoca Brands 支持的 Anchorpoint 發行，是香港法規下首檔上線的港元穩定幣；36 家申請者中僅兩家獲發牌，另一張由 HSBC 持有、預計年內先向 330 萬 PayMe 用戶推出。"
-          }
-        ]
-      },
-      {
-        "date": "2026-08-12",
-        "title": "富達擬為近 9 億美元的以太幣現貨 ETF 加入質押與季度現金分配，跟進 IRS 安全港後的 ETF 質押潮",
-        "paras": [
-          "資產管理巨頭富達（Fidelity）準備為旗下美國大型以太幣（Ether）現貨 ETF「Fidelity Ethereum Fund」（代號 FETH，淨資產約 8.98 億美元）加入質押（staking，把持有的以太幣鎖入區塊鏈網路協助驗證以賺取獎勵）與每季現金分配。依其向美國證券交易委員會（SEC）提交的修正註冊文件，該基金在正常情況下最高可質押 100% 的以太幣、且未設下限，但會保留部分以太幣以因應贖回、費用與流動性需求。富達將留下質押總獎勵的 85%，其餘 15% 分給基金發起人、託管方與節點營運商，指定的節點營運商為 Blockdaemon、Figment 與 Galaxy。",
-          "此舉跟進美國國稅局（IRS）2025 年 11 月發布的一份「安全港」（safe harbor，符合條件即可免除特定風險的規範）公告——該公告讓符合資格的加密信託在不喪失「授予人信託」（grantor-trust）課稅身分的前提下質押資產。富達因此加入已為既有以太幣基金加入質押的 Grayscale 與 21Shares 之列，貝萊德（BlackRock）則另闢蹊徑、改推出獨立的質押產品。依規定，基金須至少每季分配一次淨質押獎勵，這些獎勵將先支應基金費用、再用於季度現金分配，必要時富達也可能賣出部分以太幣以籌措分配所需現金。相關內容主要見於 CoinDesk 與富達向 SEC 提交的註冊文件。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Fidelity moves to add staking, quarterly payouts to near $900 million ether ETF",
-            "url": "https://www.coindesk.com/business/2026/08/12/fidelity-moves-to-add-staking-quarterly-payouts-to-near-usd900-million-ether-etf"
-          },
-          {
-            "name": "美國證券交易委員會 SEC（修正註冊文件 S-3/A）",
-            "title": "Fidelity Ethereum Fund — Amended registration statement",
-            "url": "https://www.sec.gov/Archives/edgar/data/2000046/000119312526342985/d335091ds3a.htm"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-12",
-        "title": "英國央行啟動「數位英鎊實驗室」第二階段，測試公有穩定幣與數位英鎊在跨境貿易金融中並行結算",
-        "paras": [
-          "英國央行（BOE，Bank of England）8 月 12 日宣布，把「數位英鎊」（digital pound，英國研議中的央行數位貨幣 CBDC）探索推進到第二階段，透過旗下「數位英鎊實驗室」（Digital Pound Lab）首度測試公有穩定幣（stablecoin，錨定法幣的數位代幣）基礎設施與央行貨幣能否在同一筆支付流程中並存，聚焦跨境貿易金融（trade finance）。實驗設想的情境是：出口商透過穩定幣技術先取得預付款（以電子提單 electronic bills of lading 為擔保的發票融資 invoice factoring），英國進口商則以數位英鎊完成最終結算。參與者包括英國金融科技新創 NOBO Finance、商業資料與信評商鄧白氏（Dun & Bradstreet）與區塊鏈公司 Polygon Labs；Polygon 將透過其 Open Money Stack 提供法幣兌穩定幣、錢包與智慧合約等穩定幣結算基礎設施。實驗不使用真實客戶與資金，也不代表英國已決定發行數位英鎊。",
-          "此案切中各國央行正面臨的共同課題——如何讓民間穩定幣與國家發行的 CBDC 兩種數位貨幣互通，而非把企業與客戶綁死在單一支付基礎設施上。BOE 另規劃一項工作流，由 NOBO、鄧白氏與 Polygon 結合錢包交易資料、開放金融（open finance）資訊與商業情報，替中小企業（SME）建立可重複使用的「可融資信用檔案」，並以智慧合約記錄驗證結果、管理授權同意。主辦方指出，跨境中小企業貿易金融至今仍受制於分散的身分驗證、人工查核與動輒數日的結算，出貨到收款之間的資金形同「凍結資本」。這批實驗結果將納入 BOE 與英國財政部（Treasury）對數位英鎊的聯合評估，作為今年稍晚下一步決策的依據。相關內容主要見於 CoinDesk 與英格蘭銀行數位英鎊實驗室公告。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Bank of England to test stablecoin, digital currency use in cross-border finance",
-            "url": "https://www.coindesk.com/business/2026/08/12/bank-of-england-to-test-stablecoin-digital-currency-use-in-cross-border-finance"
-          },
-          {
-            "name": "Bank of England（數位英鎊實驗室）",
-            "title": "The digital pound: Digital Pound Lab",
-            "url": "https://www.bankofengland.co.uk/the-digital-pound/lab"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-12",
-        "title": "俄羅斯央行擬把散戶加密交易限縮至比特幣、以太幣與 USDT，非合格投資人年度購買上限約 3,600 美元",
-        "paras": [
-          "俄羅斯央行（俄羅斯聯邦中央銀行）公布草案規則，規劃只允許散戶投資人在受監理交易所買賣比特幣（Bitcoin）、以太幣（Ether）與 USDT 三種加密資產，使 Tether 發行、錨定美元的 USDT 成為初始名單上唯一的穩定幣（stablecoin，錨定法幣的數位代幣）。草案對「非合格投資人」（non-qualified investors）設下每家中介機構每年 30 萬盧布（約 3,600 美元）的加密購買上限，「合格投資人」（qualified investors）則不受此限。值得注意的是，上限以「每家中介機構」計，而非投資人的總購買金額，意味散戶理論上可透過多家券商或交易所累積更大部位。",
-          "這份白名單替俄國今年 7 月通過、將於 9 月 1 日生效的加密市場法補上細節——該法開放受監理的加密交易，但未指明散戶可購買哪些資產；俄國境內以加密資產進行支付則仍屬禁止。此舉凸顯俄國在開放受監理加密交易的同時，透過限定可交易幣種與設定散戶額度來管控風險，直接牽動當地交易所可提供的產品範圍與合規要求。實際適用細節、對交易所業務的衝擊，以及草案是否照案定案，都仍待後續正式公布才能確認，相關內容主要見於 CoinDesk 與俄羅斯央行草案公告。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
-            "url": "https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt"
-          },
-          {
-            "name": "俄羅斯央行 Банк России（草案公告）",
-            "title": "О проекте указания Банка России",
-            "url": "https://cbr.ru/press/event/?id=32754"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-12",
-        "title": "Crypto.com 推出追蹤 1,500 檔美股與 ETF 的「代幣化股票衍生品」，加密交易所加速跨進股票市場",
-        "paras": [
-          "加密貨幣交易所 Crypto.com 於 8 月 12 日（週三）宣布推出一批「代幣化股票衍生品」（tokenized stock derivatives），追蹤約 1,500 檔美國股票與交易所交易基金（ETF），讓歐洲經濟區（EEA，European Economic Area）及其他核准市場的合格用戶，能對 Apple（AAPL）、Nvidia（NVDA）、Tesla（TSLA）等個股，以及 SPDR Gold Shares（GLD）、iShares Silver Trust（SLV）等 ETF 取得價格曝險；最低 1 美元即可建立部位、並可全天候（24/7）交易。這些商品是由 Foris Capital CY Limited 發行、參照標的股票或 ETF 價格的衍生性商品，屬「合成曝險」（synthetic exposure）——標的上漲時商品理論上跟漲，但持有人並不會成為該公司股東，也不具投票等股東權利，僅可能取得股利等值調整；支撐商品的標的資產則交由美國券商（broker-dealer）Alpaca 保管。此服務建立在 Crypto.com 於 2025 年 5 月收購 Foris Capital、取得歐洲 MiFID（金融工具市場指令）牌照的基礎上；據 CoinGecko，Crypto.com 為全球第 11 大交易所。",
-          "此舉正值「代幣化股票」（tokenized stocks，把股票以區塊鏈代幣形式表彰）快速升溫——據 CoinDesk，這類資產規模已達約 24.9 億美元、過去一年成長約 600%，花旗（Citi）更估計代幣化證券市場到 2030 年可達 5.5 兆美元，其中代幣化股票約 2.6 兆美元。Kraken、Bybit、Bitget 與 Robinhood 等平台皆已面向美國以外投資人推出代幣化股票產品，美國證券集中保管結算公司（DTCC）也已開始測試代幣化證券基礎設施，那斯達克（Nasdaq）與紐約證交所（NYSE）同樣公布代幣化計畫。不過各家產品架構不一：合成／衍生品僅追蹤股價、不讓買方成為股東，「發行方擔保」（issuer-sponsored）模式則可把實際普通股搬上鏈並保留所有權與股東權利；隨著代幣化證券逐步走向主流，這類架構差異也開始引起監理機關與市場基礎設施業者更多關注。相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Crypto.com rolls out tokenized stock derivatives as crypto exchanges push into equities",
-            "url": "https://www.coindesk.com/business/2026/08/12/crypto-com-rolls-out-tokenized-stock-derivatives-as-crypto-exchanges-push-into-equities"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-19T15:52:09Z"
+  "_generated_at": "2026-08-19T18:59:21Z"
 }
