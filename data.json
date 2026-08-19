@@ -126,6 +126,23 @@
     "others": [
       {
         "date": "2026-08-18",
+        "title": "美國懷俄明州官方穩定幣 FRNT 以資安為由，把跨鏈基礎設施從 LayerZero 全面遷至 Chainlink CCIP",
+        "paras": [
+          "美國懷俄明州負責發行穩定幣（stablecoin，錨定法幣的數位代幣）的官方機構 Wyoming Stable Token Commission 宣布，已完成一輪詳盡的資安審查，決定把該州發行的 Frontier Stable Token（FRNT）跨鏈基礎設施，從 LayerZero 全面遷移到 Chainlink 的跨鏈互通協定 CCIP（Cross-Chain Interoperability Protocol），並永久停用原本的 LayerZero 版本。依一紙多年期合約，CCIP 未來將成為 FRNT 唯一的跨鏈基礎設施。據 CoinDesk，這是美國政府機構首次公開以「資安考量」為由更換區塊鏈基礎設施。FRNT 是目前唯一由美國公部門發行、以法幣百分之百準備金支撐的穩定幣，已在以太坊（Ethereum）、Base 與 Avalanche 等多條鏈上流通，準備金孳息用於挹注懷俄明州的學校基金計畫（School Foundation Program），不過其流通市值目前仍不足 100 萬美元。",
+          "此舉是近期一波跨鏈基礎設施大遷徙的一環：據 CoinDesk，至今已有約 150 億美元資產從 LayerZero 轉移到 Chainlink CCIP。這波遷移的導火線，是今年 4 月質押協定 Kelp DAO 以 LayerZero 打造的跨鏈橋遭駭、被盜走 116,500 枚 rsETH（當時約值 2.92 億美元），事件引發各專案接連展開資安檢討並出走，早期包含 Kelp、Solv Protocol、Re 與加密交易所 Kraken，本月稍早託管商 BitGo 再把約 77 億美元的包裝比特幣（wrapped bitcoin，WBTC）移轉至 CCIP，使累計金額逼近 150 億美元。對數位資產基礎設施而言，一個規模雖小卻由美國州政府背書的穩定幣以資安為由換軌，凸顯跨鏈橋接的安全性正成為穩定幣與代幣化資產能否被主流與公部門採用的關鍵變數。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Wyoming joins $15 billion LayerZero exodus with state stablecoin move",
+            "url": "https://www.coindesk.com/business/2026/08/18/wyoming-joins-usd15-billion-layerzero-exodus-with-state-stablecoin-move"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-18",
         "title": "美國 SEC 突襲式提出「加密資產監理規則」（Regulation Crypto Assets），為數位資產訂定首套永久性聯邦規則",
         "paras": [
           "美國證券交易委員會（SEC）8 月 18 日無預警發布「加密資產監理規則」（Regulation Crypto Assets）提案，要成為聯邦層級首套永久規範數位資產發行的規則；此前 SEC 才臨時取消原訂 8 月 14 日的表決會議。提案設兩條發行軌道：一是四年內一次性募集上限 500 萬美元，二是每年可募集上限 7,500 萬美元，兩者都要求發行人向投資人提供原則導向的敘述性揭露，第二條軌道還須附財務報表並持續申報。",
@@ -875,5 +892,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-18T21:50:17Z"
+  "_generated_at": "2026-08-19T03:52:40Z"
 }
