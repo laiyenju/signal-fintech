@@ -126,6 +126,28 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-20",
+        "title": "BitGo 取得南韓虛擬資產服務商（VASP）牌照，成首家自建南韓實體取得許可的全球加密公司",
+        "paras": [
+          "加密貨幣託管公司 BitGo（今年稍早以約 20 億美元估值於紐約證交所 NYSE 掛牌）宣布，旗下新設的南韓實體 BitGo Korea 已取得南韓金融情報單位（KoFIU，Korea Financial Intelligence Unit）核發的虛擬資產服務商（VASP，Virtual Asset Service Provider）牌照，可為機構與企業客戶提供虛擬資產的託管與移轉服務。BitGo 稱這使其成為第一家在南韓取得 VASP 牌照的全球加密公司；有別於 Crypto.com、幣安（Binance）以收購當地既有業者「繼承」牌照的做法，BitGo Korea 是從零開始新設、在地建置資安、洗錢防制（AML）與內控架構的獨立實體。",
+          "南韓是全球加密交易最活躍的市場之一，散戶單日成交量在熱絡時期常超過股市；但近期全球行情走弱，龍頭交易所 Upbit 與 Bithumb 上半年散戶交易獲利明顯下滑，機構級加密市場因而更受矚目。BitGo Korea 由南韓金融控股集團 Hana Financial Group 與最大電信商 SK 電訊（SK Telecom）擔任策略股東；此牌照也加入 BitGo 既有的美國、新加坡、德國與杜拜等受監理據點，反映機構級加密託管基礎設施持續向主要市場擴張。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "BitGo secures South Korea virtual asset license, says it's the first global crypto company to do so",
+            "url": "https://www.coindesk.com/business/2026/08/20/bitgo-secures-south-korea-virtual-asset-license-says-it-s-the-first-global-crypto-company-to-do-so"
+          },
+          {
+            "name": "BitGo（Business Wire 官方公告）",
+            "title": "BitGo Korea Becomes First New Korean Entity Established by a Global Digital Asset Company to Secure VASP Registration in South Korea",
+            "url": "https://www.businesswire.com/news/home/20260819132251/en/BitGo-Korea-Becomes-First-New-Korean-Entity-Established-by-a-Global-Digital-Asset-Company-to-Secure-VASP-Registration-in-South-Korea"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-19",
         "title": "Ethena 攜手 FalconX 設立 10 億美元擔保信貸機制，把 USDe 儲備資產投入機構級放貸",
         "paras": [
@@ -818,5 +840,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-19T21:52:47Z"
+  "_generated_at": "2026-08-20T09:51:29Z"
 }
