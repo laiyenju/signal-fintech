@@ -127,6 +127,57 @@
     "others": [
       {
         "date": "2026-08-20",
+        "title": "Visa、Mastercard 攜 Fiserv、Circle、Solana、Remitly 組成 Agentic Payments Alliance，推 AI 代理支付共通標準",
+        "paras": [
+          "支付網路巨頭 Visa、Mastercard 與支付科技商 Fiserv、穩定幣（stablecoin）發行商 Circle、公鏈 Solana、跨境匯款業者 Remitly 等機構共同組成 Agentic Payments Alliance（APA，代理式支付聯盟），為 AI 代理人（agentic AI）自動下單與付款這類「AI 商務」訂定共通做法。此聯盟意在把由 AI 代理代替使用者完成的購物、訂閱與跨境付款流程，帶進既有支付軌道，並建立可跨業者互通的規則。",
+          "對支付與金融科技業而言，代理式付款把付款發起者從人擴展到軟體，牽動身分驗證、授權、詐欺防制、資料揭露與退款等核心規則；由兩大卡片網路聯手穩定幣發行商與公鏈同席加入，凸顯這一輪標準之爭已把傳統卡片軌道、穩定幣鏈上支付與跨境匯款業者拉到同一張桌上。目前公開資訊仍集中於成員與方向，聯盟具體工作項目、與現有代理支付規格（例如 Cloudflare、OpenAI 等推動的方案）的分工與落地時程仍待後續揭露。"
+        ],
+        "sources": [
+          {
+            "name": "Finextra（TLDR Fintech 摘錄）",
+            "title": "Visa and Mastercard back new Agentic Payments Alliance",
+            "url": "https://www.finextra.com/newsarticle/48265/visa-and-mastercard-back-new-agentic-payments-alliance"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-20",
+        "title": "X 傳洽談以穩定幣支付內容創作者版稅，Circle USDC 為選項之一",
+        "paras": [
+          "據 CoinDesk 引述知情人士，Elon Musk 旗下社群平台 X 正與外部業者洽談，研擬以穩定幣（stablecoin，錨定法幣的數位代幣）向具影響力的創作者支付上傳內容的版稅，Circle 發行的 USDC 是候選選項之一；同一消息人士也協助其他社群平台測試以穩定幣支付網紅佣金。X 對此暫未回應媒體詢問。X 目前正把行之有年的 Revenue Sharing 分潤機制，改為新的 Original Content Rewards Program，主打獎勵原創內容。",
+          "此舉延續 Musk 旗下事業對穩定幣的既有應用——SpaceX 早已用穩定幣收取新興市場 Starlink 客戶的跨境款項；X 今年 3 月挖角前 Coinbase Base 網路設計主管 Benji Taylor 出任設計主管，同時銜接 xAI 與 SpaceX，被視為 X Money 支付布局的一環。全球穩定幣市值目前已逾 3,000 億美元，愈來愈多企業以穩定幣完成跨境付款；若 X 最終落地，將把穩定幣支付延伸到全球創作者的日常收入場景。不過消息仍屬「洽談中」，可用幣種、上線地區、法遵路徑（含各國匯款與課稅要求）與費率結構均未確定。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Elon Musk's X is exploring stablecoins to pay influencers and content providers",
+            "url": "https://www.coindesk.com/business/2026/08/20/elon-musk-s-x-is-exploring-stablecoins-to-pay-influencers-and-content-providers"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-20",
+        "title": "Deel 把穩定幣錢包從阿根廷推向逾 80 國，年內將發卡讓外包工作者直接消費 DLUSD 餘額",
+        "paras": [
+          "全球薪酬與人資平台 Deel 宣布，將旗下穩定幣錢包從原本僅在阿根廷開放，擴展到拉丁美洲、非洲、中東與亞太（APAC）逾 80 個國家。使用 Deel 收款的外包工作者（contractor）可把收入以美元穩定幣 DLUSD 形式留在平台餘額中，並選擇加入獎勵計畫，不必離開 Deel 即完成薪資領取、換匯與收益等動作。",
+          "Deel 並預告年內將推出配套支付卡，讓工作者直接以穩定幣餘額進行消費，把原本聚焦跨境薪酬的產品，延伸為一整套全球工作者的金融帳戶。此舉把穩定幣直接嵌入實際的跨境薪酬與日常支付場景，是穩定幣從交易者工具走向大規模零售支付的重要指標；配套的卡片實際發行時程、合作卡組織與監理配套仍待後續揭露。"
+        ],
+        "sources": [
+          {
+            "name": "Deel（官方部落格）",
+            "title": "Introducing the Deel Stablecoin Wallet",
+            "url": "https://www.deel.com/blog/introducing-stablecoin-wallet/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-20",
         "title": "BitGo 取得南韓虛擬資產服務商（VASP）牌照，成首家自建南韓實體取得許可的全球加密公司",
         "paras": [
           "加密貨幣託管公司 BitGo（今年稍早以約 20 億美元估值於紐約證交所 NYSE 掛牌）宣布，旗下新設的南韓實體 BitGo Korea 已取得南韓金融情報單位（KoFIU，Korea Financial Intelligence Unit）核發的虛擬資產服務商（VASP，Virtual Asset Service Provider）牌照，可為機構與企業客戶提供虛擬資產的託管與移轉服務。BitGo 稱這使其成為第一家在南韓取得 VASP 牌照的全球加密公司；有別於 Crypto.com、幣安（Binance）以收購當地既有業者「繼承」牌照的做法，BitGo Korea 是從零開始新設、在地建置資安、洗錢防制（AML）與內控架構的獨立實體。",
@@ -846,5 +897,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-20T12:50:22Z"
+  "_generated_at": "2026-08-20T15:53:07Z"
 }
