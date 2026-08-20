@@ -1,24 +1,35 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "tier": "watch",
-      "title": "台灣 MyData 平台開通身心障礙者牌照稅免稅線上申辦，14 縣市完成資料介接",
+      "title": "本日觀察：今日台灣金融科技無重大進展，以既有要聞追蹤為主",
       "paras": [
-        "數位發展部宣布，MyData 個人化資料自主運用平台新增「使用牌照稅身心障礙者免稅申請」線上服務，目前已有 14 個縣市完成系統介接。身心障礙者只要完成身分驗證並自主同意授權，即可透過 MyData 一次調取戶籍、身心障礙證明、車籍與駕籍等申辦所需資料，在線上完成免稅申請，不必再臨櫃奔波備齊紙本。",
-        "MyData 以數位身分驗證與「當事人同意後跨機關資料流通」為核心，是台灣數位身分與資料自主基礎設施的一環，也和金融開戶、身分驗證（KYC）等場景共用同一套個資授權機制。這次把服務延伸到地方稅務，代表政府持續把分散在各機關的個資，透過使用者授權整合為可即時調用的資料流；不過覆蓋仍限於部分縣市與特定申辦項目，距離全面資料互通仍有距離。"
+        "本日回看台灣各來源，並未出現以支付、數位銀行、金融基礎設施或監理科技為核心的重大新進展；當日財經版面多集中於股市、ETF、壽險資金運用與一般房市等主題，與金融科技核心較無直接關聯。",
+        "在無新增重大焦點的情況下，本日以既有要聞的後續追蹤為主。近期台灣值得留意的主軸，包括虛擬資產服務專法落地與交易所許可洗牌，以及《洗錢防制法》將虛擬資產與第三方支付納管等進度，後續如有具體發展會再更新。"
       ]
     },
-    "sources": [
-      {
-        "name": "中央社",
-        "title": "MyData助身障者線上申辦牌照稅免稅　14縣市介接上線",
-        "url": "https://www.cna.com.tw/news/ahel/202608190258.aspx"
-      }
-    ],
+    "sources": [],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-20",
+        "title": "台灣 MyData 平台開通身心障礙者牌照稅免稅線上申辦，14 縣市完成資料介接",
+        "paras": [
+          "數位發展部宣布，MyData 個人化資料自主運用平台新增「使用牌照稅身心障礙者免稅申請」線上服務，目前已有 14 個縣市完成系統介接。身心障礙者只要完成身分驗證並自主同意授權，即可透過 MyData 一次調取戶籍、身心障礙證明、車籍與駕籍等申辦所需資料，在線上完成免稅申請，不必再臨櫃奔波備齊紙本。",
+          "MyData 以數位身分驗證與「當事人同意後跨機關資料流通」為核心，是台灣數位身分與資料自主基礎設施的一環，也和金融開戶、身分驗證（KYC）等場景共用同一套個資授權機制。這次把服務延伸到地方稅務，代表政府持續把分散在各機關的個資，透過使用者授權整合為可即時調用的資料流；不過覆蓋仍限於部分縣市與特定申辦項目，距離全面資料互通仍有距離。"
+        ],
+        "sources": [
+          {
+            "name": "中央社",
+            "title": "MyData助身障者線上申辦牌照稅免稅　14縣市介接上線",
+            "url": "https://www.cna.com.tw/news/ahel/202608190258.aspx"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-15",
         "title": "台灣《虛擬資產服務法》進入落地期，交易所面臨許可洗牌、銀行券商鋪路搶進數位資產",
@@ -80,51 +91,63 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "台灣行政院通過《洗錢防制法》修正草案，把未登記虛擬資產與第三方支付服務納入洗錢特定犯罪，增訂違法發行穩定幣與實質受益人規範",
-        "paras": [
-          "台灣行政院會 8 月 13 日通過《洗錢防制法》部分條文修正草案，首度把未依法完成登記或登錄、即提供虛擬資產或第三方支付服務的行為，增列為洗錢「特定犯罪」（作為洗錢罪前置犯罪的指定罪名）。修法並配合研議中的《虛擬資產服務法》，將未經許可經營虛擬資產服務業、違法發行穩定幣（stablecoin，錨定法幣的數位代幣）等行為一併納管，相關犯罪所得日後若涉及洗錢即可適用洗錢罪。依法務部說明，未登記業者涉洗錢金額達新台幣 1 億元以上者，可處 3 年以上、10 年以下有期徒刑，併科 1 億元以下罰金；未達 1 億元者處 6 個月以上、5 年以下有期徒刑。",
-          "法務部檢察司說明，此次修法由近期「太子集團」重大跨境洗錢案催生，並意在接軌「防制洗錢金融行動工作組織」（FATF，Financial Action Task Force）國際標準。草案另明定「實質受益人」（實際擁有或控制公司、法人，或實際進行交易的自然人），要求提升透明度以利追查人頭與空殼背後的真正金流控制者，並強化政府跨機關資訊共享、建立金融機構與虛擬資產業者之間的「照會」（交叉查證交易對象）機制。此舉直接牽動台灣虛擬資產服務商與第三方支付業者的登記與法遵義務；不過草案仍須送立法院審議，最終條文與上路時程仍待後續立法程序確認。上述內容整理自中央廣播電台報導與 Yahoo 財經。"
-        ],
-        "sources": [
-          {
-            "name": "中央廣播電台（Yahoo 財經轉載）",
-            "title": "防堵新興犯罪金流 政院拍板「虛擬資產、第三方支付」納特定犯罪",
-            "url": "https://tw.news.yahoo.com/%E9%98%B2%E5%A0%B5%E6%96%B0%E8%88%88%E7%8A%AF%E7%BD%AA%E9%87%91%E6%B5%81-%E6%94%BF%E9%99%A2%E6%8B%8D%E6%9D%BF-%E8%99%9B%E6%93%AC%E8%B3%87%E7%94%A2-%E7%AC%AC%E4%B8%89%E6%96%B9%E6%94%AF%E4%BB%98-%E7%B4%8D%E7%89%B9%E5%AE%9A%E7%8A%AF%E7%BD%AA-060404632.html"
-          },
-          {
-            "name": "Yahoo 財經",
-            "title": "最重判10年！打擊虛幣與第三方支付黑數 政院拍板修正「洗錢防制法」",
-            "url": "https://tw.news.yahoo.com/%E6%9C%80%E9%87%8D%E5%88%A410%E5%B9%B4-%E6%89%93%E6%93%8A%E8%99%9B%E5%B9%A3%E8%88%87%E7%AC%AC%E4%B8%89%E6%96%B9%E6%94%AF%E4%BB%98%E9%BB%91%E6%95%B8-%E6%94%BF%E9%99%A2%E6%8B%8D%E6%9D%BF%E4%BF%AE%E6%AD%A3-%E6%B4%97%E9%8C%A2%E9%98%B2%E5%88%B6%E6%B3%95-061419309.html"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-08-20",
-      "tier": "watch",
-      "title": "Cantor Fitzgerald 為約 3,000 家機構客戶開通 Kalshi 事件合約交易，預測市場加速走進華爾街",
+      "date": "2026-08-21",
+      "tier": "top",
+      "title": "Coinbase 取得阿布達比 FSRA 金融服務許可，設立資產代幣化樞紐",
       "paras": [
-        "美國投資銀行 Cantor Fitzgerald 宣布，將協助旗下約 3,000 家機構客戶在事件合約（event contracts）平台 Kalshi 上執行大額區塊交易，讓對沖基金、資產管理公司等專業投資人以機構級通道，參與原本以散戶為主的預測市場（prediction market）。此舉把受美國商品期貨交易委員會（CFTC）監理的 Kalshi 事件合約，接進傳統券商的下單與交易流程。",
-        "這反映預測市場正從邊緣走向主流金融基礎設施：Kalshi 近期積極建置機構級經紀與風控系統，並與 Polymarket 等對手競逐機構資金。對金融科技業而言，事件合約結合傳統券商通道，替市場開出一條新的交易與避險工具線；但其監理定位、以及「是否構成博弈」的爭議在部分司法管轄區仍未完全釐清，後續能否放量仍待觀察。"
+        "Coinbase 已獲阿拉伯聯合大公國阿布達比全球市場（ADGM）金融服務監管局（FSRA）核發金融服務許可（FSP），將於阿布達比設立據點，並把當地打造為資產代幣化（tokenization）業務樞紐。取得許可後，Coinbase 可在受監理架構下，於中東市場推展數位資產與資產代幣化相關服務。",
+        "對金融科技產業而言，這是主要加密交易所以正式牌照切入中東、以代幣化為核心布局區域基礎設施的一步。阿布達比近年積極以明確監理招攬數位資產業者，Coinbase 落地將強化其在當地的合規與資產代幣化能力；惟樞紐實際業務規模與服務範圍仍待後續揭露。"
       ]
     },
     "sources": [
       {
-        "name": "CoinDesk",
-        "title": "Cantor opens Kalshi prediction markets to thousands of institutional clients",
-        "url": "https://www.coindesk.com/markets/2026/08/19/cantor-opens-kalshi-prediction-markets-to-thousands-of-institutional-clients"
+        "name": "科技新報",
+        "title": "Coinbase 獲 FSRA 發出金融服務許可，於阿布達比設立代幣化樞紐",
+        "url": "https://finance.technews.tw/2026/08/20/coinbase-gets-fsra-financial-services-license-establishes-tokenization-hub-abu-dhabi/"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-20",
+        "title": "Cantor Fitzgerald 為約 3,000 家機構客戶開通 Kalshi 事件合約交易，預測市場加速走進華爾街",
+        "paras": [
+          "美國投資銀行 Cantor Fitzgerald 宣布，將協助旗下約 3,000 家機構客戶在事件合約（event contracts）平台 Kalshi 上執行大額區塊交易，讓對沖基金、資產管理公司等專業投資人以機構級通道，參與原本以散戶為主的預測市場（prediction market）。此舉把受美國商品期貨交易委員會（CFTC）監理的 Kalshi 事件合約，接進傳統券商的下單與交易流程。",
+          "這反映預測市場正從邊緣走向主流金融基礎設施：Kalshi 近期積極建置機構級經紀與風控系統，並與 Polymarket 等對手競逐機構資金。對金融科技業而言，事件合約結合傳統券商通道，替市場開出一條新的交易與避險工具線；但其監理定位、以及「是否構成博弈」的爭議在部分司法管轄區仍未完全釐清，後續能否放量仍待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Cantor opens Kalshi prediction markets to thousands of institutional clients",
+            "url": "https://www.coindesk.com/markets/2026/08/19/cantor-opens-kalshi-prediction-markets-to-thousands-of-institutional-clients"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-20",
+        "title": "花旗（Citi）收購回饋科技新創 Kard，強化信用卡忠誠與商務行銷布局",
+        "paras": [
+          "花旗（Citi）宣布同意收購回饋與商務媒體平台 Kard Financial。Kard 以預測型 AI 與交易資料，協助發卡機構推播個人化優惠，此次併購將把其技術、商戶網路與團隊納入花旗約 7,000 萬名客戶的消費金融卡業務。",
+          "這是傳統發卡龍頭以併購方式補強回饋與商務行銷（commerce media）能力的一步，把交易數據與個人化優惠整合進既有信用卡體系。對金融科技業而言，反映銀行加碼投資忠誠計畫與數據變現，以及獨立回饋科技新創被整併的趨勢；實際綜效與整合成效仍待落地檢驗。"
+        ],
+        "sources": [
+          {
+            "name": "Payments Dive",
+            "title": "Citi acquires rewards fintech Kard to strengthen card loyalty",
+            "url": "https://www.paymentsdive.com/news/citi-acquires-rewards-fintech-kard-loyalty/828046/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-20",
         "title": "Visa、Mastercard 攜 Fiserv、Circle、Solana、Remitly 組成 Agentic Payments Alliance，推 AI 代理支付共通標準",
@@ -714,188 +737,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "Robinhood 第二檔私募市場基金掛牌，募得 2.255 億美元引散戶資金進入未上市股權",
-        "paras": [
-          "Robinhood 旗下第二檔創投基金 Robinhood Ventures Fund II 在紐約證交所（NYSE）掛牌交易，共募得 2.255 億美元，讓散戶投資人得以取得早期與成長期未上市公司的曝險，並以現任及前 Y Combinator 新創為投資重點。",
-          "這是繼首檔後期創投基金之後，Robinhood 進一步擴大布局私募市場的動作，公司並在研擬更多基金，目標是拓寬散戶參與新創投資的管道。此類產品把過去以機構與合格投資人為主的未上市股權，包裝成散戶可在交易所買賣的標的。"
-        ],
-        "sources": [
-          {
-            "name": "Reuters",
-            "title": "Robinhood's second venture fund debuts, drawing retail money into private markets",
-            "url": "https://www.reuters.com/legal/transactional/robinhoods-second-venture-fund-debuts-drawing-retail-money-into-private-markets-2026-08-13/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "預測市場 Kalshi 傳洽紅杉、威靈頓募資 7.5 億美元，估值上看 400 億美元、拉開與 Polymarket 差距",
-        "paras": [
-          "預測市場（prediction market）平台 Kalshi 傳正與紅杉資本（Sequoia）、威靈頓（Wellington）洽談新一輪募資，金額約 7.5 億美元，投前估值上看 400 億美元。若成局，估值將較今年 5 月的約 220 億美元幾乎翻倍。",
-          "CoinDesk 報導，這輪資金將進一步拉開 Kalshi 與競爭對手 Polymarket 的差距，凸顯預測市場近期在資本市場的高度熱度；與此同時，這個領域仍面臨美國商品期貨交易委員會（CFTC）與各州對管轄權與消費者保護的持續關注。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Kalshi in talks with Sequoia, Wellington for $750 million fund raise at $40 billion valuation",
-            "url": "https://www.coindesk.com/business/2026/08/13/kalshi-in-talks-with-sequoia-wellington-for-usd750-million-fund-raise-at-usd40-billion-valuation"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "Cloudflare 推出可程式化錢包 Cloudflare Wallets，切入代理人網路支付",
-        "paras": [
-          "網路基礎設施巨頭 Cloudflare 推出可程式化錢包「Cloudflare Wallets」，主打面向 AI 代理人（agentic）自動交易的網路。用戶即日起可為帳戶申請專屬錢包代號，作為與商家連結的識別；官方表示未來將可用於支付 API 與內容的使用費用。",
-          "根據 Cloudflare 官方部落格，這代表大型網路基礎設施業者正切入「代理人支付」與機器對機器商務的軌道，呼應近期由 AI 代理自動完成付款的新興標準。不過產品目前仍屬初期階段——先開放代號申請，實際支付功能稍後推出，真正的採用與規模仍待觀察。"
-        ],
-        "sources": [
-          {
-            "name": "Cloudflare（部落格）",
-            "title": "Cloudflare Wallets",
-            "url": "https://blog.cloudflare.com/wallets/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "巴西央行評估擴大 Pix 即時支付、推動與國際系統跨境整合",
-        "paras": [
-          "巴西央行正評估擴大其即時支付系統 Pix 的適用範圍，研議與其他國際支付系統整合、朝跨境互通推進。Pix 是全球最成功的即時支付方案之一，已深度普及於巴西民眾與商家的日常交易。",
-          "據 Finextra，若推動跨境整合，將延伸 Pix 的觸角，也呼應全球即時支付互通（interoperability）的趨勢，對跨境金流的成本與效率具潛在影響；此案目前仍處於評估階段、尚未定案。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "Brazil to expand Pix payment system",
-            "url": "https://www.finextra.com/newsarticle/48226/brazil-to-expand-pix-payment-system"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "高盛以最高 22.5 億美元收購 NEOS Investments，切入比特幣收益型 ETF、直接叫陣貝萊德 BITA",
-        "paras": [
-          "華爾街投行高盛（Goldman Sachs）8 月 12 日宣布，將以現金加股票、總額上看 22.5 億美元收購主動式 ETF 業者 NEOS Investments，一舉切入快速成長的「比特幣收益型 ETF」市場。NEOS 旗下招牌產品 BTCI 是一檔規模約 11 億美元的比特幣合成型 ETF，年化配息率約 27%。它並不直接持有比特幣，而是持有現貨比特幣交易所交易產品（ETP，Exchange-Traded Products），並對這些部位賣出買權（covered call，掩護性買權）以產生每月配息，代價是投資人須讓渡比特幣大漲時的部分上檔空間。這樁交易附帶績效目標、須待監理核准，預計 2027 年第一季完成；NEOS 兩位共同創辦人 Troy Cates 與 Garrett Paolella 將於交割後加入高盛擔任合夥人。",
-          "值得注意的是，高盛四個月前（4 月 14 日）才向美國證券交易委員會（SEC）遞件申請一檔結構近似的比特幣掩護性買權 ETF；彭博（Bloomberg）資深 ETF 分析師 Eric Balchunas 直言，這說明高盛寧可「買下成長」也不願自己從頭打造，藉此越過貝萊德（BlackRock）今年 6 月推出的同類產品 BITA、與其正面對決。收購完成後，加上高盛既有約 400 億美元選擇權型 ETF 資產，以及去年 12 月宣布收購的 Innovator，高盛旗下 ETF 監管資產（AUS，assets under supervision）將逾 1,300 億美元，足以躋身全球主動式 ETF 管理業者第八大；NEOS 本身則帶來一個橫跨 19 檔基金、約 300 億美元的選擇權型 ETF 平台。整體「衍生品收益型 ETF」類別規模已達約 1,800 億美元、自 2021 年以來以逾七成的年複合率成長，凸顯大型資產管理業者正加速把數位資產產品納入主流 ETF 貨架。相關內容主要見於 CoinDesk 與高盛新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
-            "url": "https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout"
-          },
-          {
-            "name": "高盛（新聞稿）",
-            "title": "Goldman Sachs Announces Agreement to Acquire NEOS Investments",
-            "url": "https://am.gs.com/en-gb/advisors/news/press-release/2026/goldman-sachs-announces-agreement-to-acquire-neos-investments"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "Klarna 整合進摩根大通支付（J.P. Morgan Payments）商務平台，美國商家免另接串即可提供先買後付與分期結帳",
-        "paras": [
-          "先買後付（BNPL，Buy Now Pay Later）業者 Klarna 宣布，其服務已正式整合進摩根大通支付（J.P. Morgan Payments）的商務平台（Commerce Platform），讓使用該平台的美國商家不必再另行進行技術串接，就能在結帳時提供「一次付清」、免息分期（interest-free installment）與較長期分期融資等彈性付款選項。",
-          "對 Klarna 而言，這樁合作等於取得美國最大收單機構（merchant acquirer）的通路——摩根大通支付每年處理約 2.6 兆美元交易；對摩根大通旗下商家而言，則能以較少的導入工作為顧客新增彈性結帳方式。此舉凸顯先買後付正加速嵌入大型銀行的收單與支付基礎設施，成為主流結帳流程的一環。內容整理自 Klarna 新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "Klarna（新聞稿）",
-            "title": "Klarna goes live with J.P. Morgan Payments, opening flexible checkout to U.S. merchants",
-            "url": "https://www.klarna.com/international/press/klarna-goes-live-with-j-p-morgan-payments-opening-flexible-checkout-to-u-s-merchants/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "Adyen 把與餐飲科技平台 Toast 的合作拓展至美國，接手其支付基礎設施、平台年處理額逾 2,150 億美元",
-        "paras": [
-          "荷蘭支付科技公司 Adyen 宣布，將與美國餐飲科技平台 Toast 的合作拓展至美國市場，為這個過去一年在約 18 萬個據點、處理逾 2,150 億美元支付總額（GPV，Gross Payment Volume）的平台提供支付基礎設施。此舉延伸雙方原已涵蓋愛爾蘭、英國、加拿大與澳洲的合作關係。",
-          "依 Adyen 說明，接手美國市場的金流處理可提升 Toast 的處理穩定性，並為未來在其餐飲與零售平台上嵌入更多 Adyen 金融產品（如發卡、融資等嵌入式金融服務）創造空間，讓垂直領域軟體平台（vertical SaaS）把金流與金融功能直接內建到商家日常營運系統。相關細節見 Adyen 新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "Adyen（新聞稿）",
-            "title": "Adyen expands Toast partnership into the US",
-            "url": "https://www.adyen.com/press-and-media/adyen-expands-global-toast-partnership-into-us"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "Google Pay 在印度導入 Gemini AI 助理，讓用戶以對話查詢消費、分類支出並學習信用與投資知識",
-        "paras": [
-          "Google 宣布在印度為其支付應用 Google Pay 導入以 Gemini（Google 的生成式 AI 模型）驅動的功能，把支付 App 進一步變成個人理財助理。印度用戶可用自然語言向 Gemini 詢問自己的消費狀況、取得分類後的支出明細、找出可能的省錢機會，並了解信用評分（credit score）、投資等理財主題。",
-          "印度是 Google Pay 最重要的市場之一，以統一支付介面（UPI，Unified Payments Interface）為基礎累積龐大用戶。把生成式 AI 嵌入支付與理財場景，等於讓支付 App 從單純的轉帳工具，升級為能主動提供消費洞察與理財教育的助理型服務，相關內容見 Crowdfund Insider 報導。"
-        ],
-        "sources": [
-          {
-            "name": "Crowdfund Insider",
-            "title": "Google Pay Introduces Gemini-enabled AI Tool for Users in India",
-            "url": "https://www.crowdfundinsider.com/2026/08/294820-google-pay-introduces-gemini-enabled-ai-tool-for-users-in-india/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "美國 OCC 駁回荷蘭數位銀行 Bunq 的美國銀行牌照申請，質疑資本適足與無擔保信用卡經營經驗",
-        "paras": [
-          "美國通貨監理署（OCC，Office of the Comptroller of the Currency）駁回荷蘭數位銀行 Bunq 申請美國銀行牌照的提案。依《華爾街日報》（WSJ），OCC 的疑慮包括 Bunq 是否能維持足夠資本，以及其管理層在無擔保信用卡（unsecured credit cards）業務上的經驗是否充足。",
-          "這起個案顯示美國銀行監理機關對外來金融科技業者申請正式銀行牌照仍相當審慎，與近期多家金融科技與加密基礎設施業者爭取美國銀行、信託或支付牌照卻受挫的情況相互呼應，凸顯「取得受監理的銀行地位」正成為金融科技跨入美國市場的關鍵門檻與主要卡點。內容整理自《華爾街日報》。"
-        ],
-        "sources": [
-          {
-            "name": "The Wall Street Journal",
-            "title": "U.S. Regulator Rejects Dutch Fintech Bunq's Banking License Application",
-            "url": "https://www.wsj.com/finance/regulation/u-s-regulator-rejects-dutch-fintech-bunqs-banking-license-application-9b9422b1"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-13",
-        "title": "日本三菱日聯 MUFG 將以 Canton 網路測試日本政府公債即時鏈上結算，鎖定附買回交易的資本效率",
-        "paras": [
-          "日本最大金融集團三菱日聯金融集團（MUFG，Mitsubishi UFJ Financial Group）8 月 13 日（週三）宣布，將以區塊鏈技術測試日本政府公債（JGB，Japanese Government Bonds）交易的即時結算。依 MUFG 說明，該行正籌備一項概念驗證（PoC，proof-of-concept），透過 Canton 網路把 JGB 交易搬上鏈，將傳統上需時 1 至 3 個工作日的結算，改為全天候（24/7）近即時完成。此舉鎖定的核心是「附買回交易」（repo，以買賣證券作為短期借貸的操作）——JGB 因信用評等高、流動性佳，長期被日本及海外市場參與者廣泛用作 repo 的擔保品，MUFG 期望藉鏈上即時結算提升這類交易的營運與資本效率。",
-          "MUFG 指出，歐美金融機構已擴大類似的概念驗證：摩根大通（JPMorgan）的 Kinexys 網路早在 2020 年便上線、提供以區塊鏈執行的美國公債（U.S. Treasury）日內附買回交易，如今把 JGB 上鏈的動能也在升溫。這項計畫是 MUFG 探索把區塊鏈用於傳統金融功能的系列布局之一——該行近期才與日本另兩大銀行三井住友金融集團（SMBC）與瑞穗金融集團（Mizuho）合作，研議於 2027 年 3 月前共同發行並掛牌一款穩定幣（stablecoin，錨定法幣的數位代幣）。不過此案目前仍屬概念驗證階段，實際上線時程、參與範圍與監理配套仍待後續揭露，相關內容主要見於 CoinDesk 與 MUFG 新聞稿。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "MUFG to test real-time blockchain settlement for Japanese government bond trades",
-            "url": "https://www.coindesk.com/business/2026/08/13/mufg-to-test-real-time-blockchain-settlement-for-japanese-government-bond-trades"
-          },
-          {
-            "name": "MUFG（新聞稿）",
-            "title": "MUFG to explore real-time settlement of JGB transactions using blockchain",
-            "url": "https://www.mufg.jp/dam/pressrelease/2026/pdf/news-20260813-002_en.pdf"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-20T15:53:07Z"
+  "_generated_at": "2026-08-20T18:55:18Z"
 }
