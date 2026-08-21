@@ -115,6 +115,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-21",
+        "title": "Ripple 聯手 Clearpool、Cicada 設立 RLUSD 機構信貸基金，向 XRPL 上金融科技與支付業者放貸營運資金",
+        "paras": [
+          "Ripple 宣布支持一檔新的機構級信貸基金，與借貸平台 Clearpool、信貸管理商 Cicada Partners 合作，向 XRP Ledger 上的金融科技與支付公司發放以其穩定幣（stablecoin）RLUSD 計價的營運資金貸款。分工上，Cicada 負責尋找借款人、訂定貸款條件與監控信用風險，並同時擔任基金普通合夥人與信貸池管理人；Clearpool 負責建立並管理借貸池的基礎設施；Ripple 則以有限合夥人身分、與其他機構同等條件出資，並不對虧損提供擔保。基金規模與 Ripple 出資額均未揭露；Cicada 稱累計已承作逾 8.6 億美元信貸，Clearpool 則稱自 2021 年以來已促成逾 9.3 億美元機構貸款。",
+          "借款人以 RLUSD 收款、也以 RLUSD 還款，會為 Ripple 這款錨定美元的穩定幣創造需求，並把借貸活動導入 XRP Ledger；XRP 本身不作為放貸標的，僅用於支付鏈上交易手續費與帳戶最低餘額。不過整套機制目前尚未在 XRP Ledger 主網上線。Clearpool 仍在開發網路上測試整合，支撐產品的兩項帳本功能——借貸協定 XLS-66 與單一資產金庫 XLS-65——仍在網路的修訂投票程序中。此案正值 XRP 因美國財政部加倍公債回購帶動的廣泛行情而走強，惟產品能否落地，仍取決於上述帳本功能是否通過表決啟用。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Ripple backs an RLUSD credit fund amid XRP's best week in months",
+            "url": "https://www.coindesk.com/markets/2026/08/21/ripple-backs-an-rlusd-credit-fund-amid-xrp-s-best-week-in-months"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-20",
         "title": "Cantor Fitzgerald 為約 3,000 家機構客戶開通 Kalshi 事件合約交易，預測市場加速走進華爾街",
         "paras": [
@@ -740,5 +757,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-20T18:55:18Z"
+  "_generated_at": "2026-08-21T06:50:16Z"
 }
