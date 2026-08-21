@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "tier": "watch",
-      "title": "本日觀察：今日台灣金融科技無重大進展，以既有要聞追蹤為主",
+      "title": "本日觀察：台灣金融科技無重大新進展，延續既有要聞追蹤",
       "paras": [
-        "本日回看台灣各來源，並未出現以支付、數位銀行、金融基礎設施或監理科技為核心的重大新進展；當日財經版面多集中於股市、ETF、壽險資金運用與一般房市等主題，與金融科技核心較無直接關聯。",
-        "在無新增重大焦點的情況下，本日以既有要聞的後續追蹤為主。近期台灣值得留意的主軸，包括虛擬資產服務專法落地與交易所許可洗牌，以及《洗錢防制法》將虛擬資產與第三方支付納管等進度，後續如有具體發展會再更新。"
+        "本日回看台灣各來源，過去 24 小時並未出現以支付、數位銀行、金融基礎設施、監理科技或數位資產為核心的重大新進展；當日財經與科技版面多集中於股市與半導體題材、房市與一般消費，以及企業人事與跨國政經等主題，與金融科技核心較無直接關聯。",
+        "在無新增重大焦點的情況下，本日以既有要聞的後續追蹤為主。近期台灣值得留意的主軸，包括虛擬資產服務專法進入落地期、交易所面臨許可制洗牌，以及 MyData 個人化資料自主運用平台把數位身分驗證與跨機關資料調用延伸到更多政府服務場景；後續如有具體發展會再更新。"
       ]
     },
     "sources": [],
@@ -69,51 +69,46 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-14",
-        "title": "本日觀察：泰山董事會通過投標街口支付全數股權，街口支付否認已進入拍賣、強調營運轉盈",
-        "paras": [
-          "食品與油脂廠泰山企業 8 月 13 日召開重大訊息說明會，公布上半年虧損約新台幣 7.8 億元，主因包含油安事件、中聯油脂投資損失，以及對街口金融科技的預付投資款減損。同日泰山董事會通過參與街口電子支付（街口支付）股權拍賣的投標案，若成局將取得街口支付全數股權，使這場圍繞台灣主要第三方支付業者的經營權爭奪再度浮上檯面。",
-          "對此，街口支付回應指出，母公司街口金融科技與泰山之間的訴訟結果尚未確定，目前並未進入任何拍賣程序，並強調營運穩健、6 月與 7 月已連續兩個月獲利，今年有望首度達成全年獲利轉正。這起圍繞台灣主要第三方支付業者的經營權爭議仍屬早期且結果未定，後續值得追蹤的關鍵在於雙方訴訟走向、股權拍賣是否真正啟動，以及金融監理機關對經營權可能易主的態度；在這些變數明朗前，街口支付的經營權歸屬仍充滿不確定。"
-        ],
-        "sources": [
-          {
-            "name": "科技新報",
-            "title": "討債討到變老闆？泰山上半年慘虧 7.8 億強勢競標「街口支付」全數股權",
-            "url": "https://finance.technews.tw/2026/08/13/jko-financial-technology/"
-          },
-          {
-            "name": "中央社",
-            "title": "泰山擬投標全數股權　街口支付：未進入任何拍賣程序",
-            "url": "https://www.cna.com.tw/news/afe/202608130322.aspx"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "tier": "top",
-      "title": "Coinbase 取得阿布達比 FSRA 金融服務許可，設立資產代幣化樞紐",
+      "title": "沃爾瑪（Walmart）鬆綁十年立場，8/24 起分階段開放門市支援 Apple Pay 與 Google Pay",
       "paras": [
-        "Coinbase 已獲阿拉伯聯合大公國阿布達比全球市場（ADGM）金融服務監管局（FSRA）核發金融服務許可（FSP），將於阿布達比設立據點，並把當地打造為資產代幣化（tokenization）業務樞紐。取得許可後，Coinbase 可在受監理架構下，於中東市場推展數位資產與資產代幣化相關服務。",
-        "對金融科技產業而言，這是主要加密交易所以正式牌照切入中東、以代幣化為核心布局區域基礎設施的一步。阿布達比近年積極以明確監理招攬數位資產業者，Coinbase 落地將強化其在當地的合規與資產代幣化能力；惟樞紐實際業務規模與服務範圍仍待後續揭露。"
+        "全球最大零售商沃爾瑪（Walmart）宣布，將自 2026 年 8 月 24 日起在部分門市開放以近場通訊（NFC）「感應支付（Tap to Pay）」為基礎的行動錢包，包括 Apple Pay 與 Google Pay，並預計 2026 年底前擴及所有 Walmart 與 Sam's Club 門市、2027 年中再納入加油站。沃爾瑪長年拒絕支援 Apple Pay，改推自家的 Walmart Pay 與 Scan-and-Go，並曾參與零售商聯盟 MCX 的 CurrentC 支付方案對抗 Apple Pay，該方案已於 2016 年告終。",
+        "這代表沃爾瑪在行動支付立場上的重大轉向。Apple Pay 目前已在全美約 85% 商家、多數大型連鎖通路受理，沃爾瑪過去的抵制形同讓自家顧客少了一種主流結帳選項。對支付產業而言，最大實體零售通路轉為支援 NFC 代幣化（tokenization）行動錢包，將把感應支付進一步推向普及；沃爾瑪則把此舉定位為在現金、信用卡與 Walmart Pay 之外「多一種選擇」。"
       ]
     },
     "sources": [
       {
-        "name": "科技新報",
-        "title": "Coinbase 獲 FSRA 發出金融服務許可，於阿布達比設立代幣化樞紐",
-        "url": "https://finance.technews.tw/2026/08/20/coinbase-gets-fsra-financial-services-license-establishes-tokenization-hub-abu-dhabi/"
+        "name": "TechCrunch",
+        "title": "Walmart to finally start accepting Apple Pay and Google Pay",
+        "url": "https://techcrunch.com/2026/08/21/walmart-to-finally-start-accepting-apple-pay-and-google-pay/"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-21",
+        "title": "Coinbase 取得阿布達比 FSRA 金融服務許可，設立資產代幣化樞紐",
+        "paras": [
+          "Coinbase 已獲阿拉伯聯合大公國阿布達比全球市場（ADGM）金融服務監管局（FSRA）核發金融服務許可（FSP），將於阿布達比設立據點，並把當地打造為資產代幣化（tokenization）業務樞紐。取得許可後，Coinbase 可在受監理架構下，於中東市場推展數位資產與資產代幣化相關服務。",
+          "對金融科技產業而言，這是主要加密交易所以正式牌照切入中東、以代幣化為核心布局區域基礎設施的一步。阿布達比近年積極以明確監理招攬數位資產業者，Coinbase 落地將強化其在當地的合規與資產代幣化能力；惟樞紐實際業務規模與服務範圍仍待後續揭露。"
+        ],
+        "sources": [
+          {
+            "name": "科技新報",
+            "title": "Coinbase 獲 FSRA 發出金融服務許可，於阿布達比設立代幣化樞紐",
+            "url": "https://finance.technews.tw/2026/08/20/coinbase-gets-fsra-financial-services-license-establishes-tokenization-hub-abu-dhabi/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-21",
         "title": "野村（Nomura）旗下 Laser Digital 取得日本四年來首張加密資產交易服務商註冊，搶進機構級數位資產市場",
@@ -131,23 +126,6 @@
             "name": "Laser Digital（官方新聞室）",
             "title": "Laser Digital Japan receives regulatory approval to provide institutional crypto asset services in Japan",
             "url": "https://www.laserdigital.com/newsroom/laser-digital-japan-receives-regulatory-approval-to-provide-institutional-crypto-asset-services-in-japan"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-21",
-        "title": "沃爾瑪（Walmart）鬆綁十年立場，8/24 起分階段開放門市支援 Apple Pay 與 Google Pay",
-        "paras": [
-          "全球最大零售商沃爾瑪（Walmart）宣布，將自 2026 年 8 月 24 日起在部分門市開放以近場通訊（NFC）「感應支付（Tap to Pay）」為基礎的行動錢包，包括 Apple Pay 與 Google Pay，並預計 2026 年底前擴及所有 Walmart 與 Sam's Club 門市、2027 年中再納入加油站。沃爾瑪長年拒絕支援 Apple Pay，改推自家的 Walmart Pay 與 Scan-and-Go，並曾參與零售商聯盟 MCX 的 CurrentC 支付方案對抗 Apple Pay，該方案已於 2016 年告終。",
-          "這代表沃爾瑪在行動支付立場上的重大轉向。Apple Pay 目前已在全美約 85% 商家、多數大型連鎖通路受理，沃爾瑪過去的抵制形同讓自家顧客少了一種主流結帳選項。對支付產業而言，最大實體零售通路轉為支援 NFC 代幣化（tokenization）行動錢包，將把感應支付進一步推向普及；沃爾瑪則把此舉定位為在現金、信用卡與 Walmart Pay 之外「多一種選擇」。"
-        ],
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "title": "Walmart to finally start accepting Apple Pay and Google Pay",
-            "url": "https://techcrunch.com/2026/08/21/walmart-to-finally-start-accepting-apple-pay-and-google-pay/"
           }
         ],
         "social": [],
@@ -709,98 +687,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-14",
-        "title": "ETF 發行商 Corgi 以 AI 量產產品挑戰 BlackRock，低費率掀新一輪費率戰",
-        "paras": [
-          "保險科技新創 Corgi Insurance 旗下的 ETF 部門 Corgi Invest，自去年 12 月以來已推出 197 檔 ETF，並預期今年底前在美國的 ETF 掛牌總數超越 BlackRock。該公司以 AI 加速監理申報與產品上架流程，把發行速度拉高到傳統資產管理業者難以匹敵的節奏。",
-          "Corgi 同時在緩衝收益型、槓桿型與單一個股型等 ETF 上以低費率搶市，押注更低成本、加上結合保險浮存金（float）的垂直整合策略，能隨時間累積資產規模。這波以科技驅動的低價攻勢，被視為可能在 ETF 業掀起新一輪費率競爭。"
-        ],
-        "sources": [
-          {
-            "name": "CNBC",
-            "title": "Corgi uses AI to challenge BlackRock and spark a new ETF fee war",
-            "url": "https://www.cnbc.com/2026/08/14/low-cost-etfs-corgi-invest.html"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-14",
-        "title": "PayPal 傳與 Stripe、私募基金 Advent 洽談出售，初步開價約 530 億美元、每股 60.5 美元遭婉拒後談判升溫",
-        "paras": [
-          "據《華爾街日報》（WSJ）報導、科技媒體 TechCrunch 整理，線上支付巨頭 PayPal 正與同業 Stripe 及私募股權基金 Advent International 洽談出售事宜，且雙方談判近期明顯升溫。消息稱，收購方最初開出的價碼約 530 億美元、相當於每股 60.5 美元，PayPal 於 7 月一度回絕該提案，但知情人士指出協商仍在進行，交易有可能於未來數週成形。PayPal 對此不予置評，Stripe 發言人則表示公司不評論「傳言或臆測」。",
-          "若最終成局，這將是近年支付產業規模最大的整併之一——由新一代線上支付基礎設施業者 Stripe 聯手私募資本，收購曾長期主導線上結帳與 P2P 轉帳的老牌業者 PayPal，勢必重塑數位支付的競爭版圖。不過目前僅止於媒體引述未具名消息來源的洽談階段，交易架構、監理審查與最終是否成交都尚未確定；PayPal 同時仍在推動組織重整（規劃拆分為結帳、消費金融，以及支付與加密資產三大事業單位）與人力精簡等轉型措施，實際走向仍待雙方後續揭露。"
-        ],
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "title": "Talks to sell PayPal to Stripe and Advent are heating up",
-            "url": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-14",
-        "title": "MSCI 提新規擬以五項財務比率剔除「非營運公司」，Strategy、Metaplanet 等比特幣財庫公司恐遭剔出全球股票指數",
-        "paras": [
-          "全球主要指數編製公司 MSCI 本月啟動新一輪意見諮詢，提議在其「全球可投資市場指數」（Global Investable Market Indexes）中辨識並剔除「非營運公司」（non-operating companies）。與 2025 年 10 月一度點名 39 家、以「加密資產占總資產逾五成」為單一門檻的舊版提案不同，這次改以五項財務比率重新判定，分別是營運資產密度、費用密度、現金流、公允價值密度與資本依賴度。程序上，公司若未先通過「營運資產是否逾總資產五成」的核心檢驗，且在五項比率中有四項不合格，即喪失納入指數的資格。MSCI 以此描述那些「靠累積並持有非營運資產創造價值」、本業幾乎不產生現金、需仰賴外部資本才能成長的公司，形同不點名地勾勒出比特幣財庫（bitcoin treasury，以公司資產大量買進並長期持有比特幣）業者的樣貌。",
-          "據 CoinDesk，若以各公司 2026 年 5 月的加密持倉、將此篩選套用於 MSCI ACWI IMI 指數，將剔除三家公司：那斯達克掛牌、自 2020 年起累積 840,447 枚比特幣（約 531.8 億美元）而成為全球最大上市比特幣持有者的 Strategy（MSTR）、東京掛牌並持有約 43,000 枚比特幣（逾 20 億美元）的 Metaplanet，以及持有鈾（而非比特幣）的 Yellow Cake。被剔出主要股票指數，意味著追蹤指數的被動型基金將被迫調節持股，直接衝擊比特幣財庫公司賴以募資的股價與資本管道；Strategy 已公開反對，主張 MSCI 應「衡量市場、而非替企業決定能持有哪些資產」。此案仍在諮詢階段，市場參與者可於 9 月 30 日前表達意見，結果約於 10 月 16 日公布，若獲採納將納入 2026 年 11 月的指數調整。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Bitcoin holders Strategy and Metaplanet face stock-index exclusion under MSCI's new proposal",
-            "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-holders-strategy-and-metaplanet-face-stock-index-exclusion-under-msci-s-new-proposal"
-          },
-          {
-            "name": "CoinDesk",
-            "title": "Strategy says MSCI should measure markets, not dictate corporate assets",
-            "url": "https://www.coindesk.com/markets/2026/08/14/strategy-says-msci-should-measure-markets-not-dictate-corporate-assets"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-14",
-        "title": "Trump 家族背景的 World Liberty Trust 獲美國 OCC 有條件牌照，將接手發行 USD1 穩定幣",
-        "paras": [
-          "美國通貨監理署（OCC）8 月 14 日在官網公布信函，對 World Liberty Trust Company 給予「初步有條件核准」（preliminary conditional approval），准其以國家信託銀行（national trust bank）身分經營信託與相關業務；正式核准仍須先完成一系列「開業前要求」（preopening requirements）。據 CoinDesk，這家新銀行的核心任務，是接手 World Liberty Financial 旗下 USD1 穩定幣（stablecoin）的發行——目前 USD1 的獨家發行與保管機構為 BitGo Bank & Trust——並以受託人（fiduciary）身分，主要為 USD1 客戶與機構客戶提供數位資產託管。信中載明，該行無意成為受聯邦存保的存款機構，也不打算取得聯準會主帳戶（Fed master account）。",
-          "World Liberty 於 2026 年 1 月提出申請，因 World Liberty 相關實體部分股權由總統 Trump 持有、而 OCC 等監理機關首長又由 Trump 任命，引來民主黨議員質疑；參議員 Elizabeth Warren 5 月曾指控通貨監理署署長 Jonathan Gould 核准「不合格的加密銀行」取得信託牌照，讓這類機構得以發行美元穩定幣、直接接軌銀行體系而規避一般銀行的義務。Gould 當時回覆將不考慮政治、依常規時程審理。此案讓又一家加密原生機構取得進入美國銀行體系、發行穩定幣的正式管道，延續近期多家業者循信託牌照卡位穩定幣軌道的趨勢；相關內容主要見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
-            "url": "https://www.coindesk.com/policy/2026/08/14/trump-backed-world-liberty-wins-conditional-bank-charter-from-federal-regulator"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-14",
-        "title": "泰達（Tether）宣布完成 KPMG 全面審計，為約 1,800 億美元 USDT 穩定幣準備金背書",
-        "paras": [
-          "穩定幣（stablecoin）發行商泰達（Tether）8 月 13 日宣布，已完成外界期待多年的全面財務審計，由四大會計師事務所之一的 KPMG（美國）執行，查核其規模約 1,800 億美元的 USDT 準備金；據 CoinDesk 報導，KPMG 不僅檢視帳目，甚至實地清點了 Tether 持有的黃金條塊。USDT 是全球規模最大的穩定幣，長年面臨監理機關與市場質疑其準備金是否足額背書，過去 Tether 多提供範圍有限的季度「認證報告」（attestation），而非完整審計。",
-          "對整個穩定幣與數位資產基礎設施而言，從有限的認證升級為四大完整審計，是一個攸關信任的里程碑，可能牽動機構資金採用意願與各國監理態度，尤其在美國等地穩定幣立法趨嚴的背景下更受矚目。不過此為 Tether 自行宣布，審計報告的具體範圍、方法與完整結論仍有待外界檢視，能否平息長年的準備金爭議，須看後續公開內容。相關報導見於 CoinDesk。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
-            "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-21T15:53:40Z"
+  "_generated_at": "2026-08-21T18:52:04Z"
 }
