@@ -116,6 +116,45 @@
     "others": [
       {
         "date": "2026-08-21",
+        "title": "野村（Nomura）旗下 Laser Digital 取得日本四年來首張加密資產交易服務商註冊，搶進機構級數位資產市場",
+        "paras": [
+          "由日本最大投資銀行野村控股（Nomura）支持的數位資產公司 Laser Digital 宣布，其日本子公司已取得「加密資產交易服務商」（crypto asset exchange service provider）註冊，成為四年來日本首家新獲此登記的業者。Laser Digital 於 2025 年 10 月啟動在日本的申請程序，初期將先為日本境內的虛擬資產服務商（VASP）提供流動性服務，之後再擴展到面向機構投資人的數位資產交易，惟正式上線時程與完整服務範圍尚未公布。",
+          "此註冊正值日本準備把加密資產納入金融商品監理框架之際：日本已於一個月前把加密貨幣重新分類為「金融商品」，為加密貨幣 ETF 與加密資產分離課稅奠定法律基礎，新制預計 2027 年上路。Laser Digital 執行長 Jez Mohideen 表示，日本數位資產市場正邁向成熟新階段，機構投資人對可信賴交易對手與專屬基礎設施的需求升高；野村與 Laser Digital 今年一項調查亦顯示，79% 受訪者計畫在三年內投資加密資產。對數位資產基礎設施而言，大型傳統銀行以正式牌照切入機構級加密服務，是傳統金融與加密融合的又一指標。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Nomura-backed Laser Digital wins Japan's first crypto approval in four years",
+            "url": "https://www.coindesk.com/policy/2026/08/21/nomura-backed-laser-digital-wins-japan-s-first-crypto-approval-in-four-years"
+          },
+          {
+            "name": "Laser Digital（官方新聞室）",
+            "title": "Laser Digital Japan receives regulatory approval to provide institutional crypto asset services in Japan",
+            "url": "https://www.laserdigital.com/newsroom/laser-digital-japan-receives-regulatory-approval-to-provide-institutional-crypto-asset-services-in-japan"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-21",
+        "title": "沃爾瑪（Walmart）鬆綁十年立場，8/24 起分階段開放門市支援 Apple Pay 與 Google Pay",
+        "paras": [
+          "全球最大零售商沃爾瑪（Walmart）宣布，將自 2026 年 8 月 24 日起在部分門市開放以近場通訊（NFC）「感應支付（Tap to Pay）」為基礎的行動錢包，包括 Apple Pay 與 Google Pay，並預計 2026 年底前擴及所有 Walmart 與 Sam's Club 門市、2027 年中再納入加油站。沃爾瑪長年拒絕支援 Apple Pay，改推自家的 Walmart Pay 與 Scan-and-Go，並曾參與零售商聯盟 MCX 的 CurrentC 支付方案對抗 Apple Pay，該方案已於 2016 年告終。",
+          "這代表沃爾瑪在行動支付立場上的重大轉向。Apple Pay 目前已在全美約 85% 商家、多數大型連鎖通路受理，沃爾瑪過去的抵制形同讓自家顧客少了一種主流結帳選項。對支付產業而言，最大實體零售通路轉為支援 NFC 代幣化（tokenization）行動錢包，將把感應支付進一步推向普及；沃爾瑪則把此舉定位為在現金、信用卡與 Walmart Pay 之外「多一種選擇」。"
+        ],
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "title": "Walmart to finally start accepting Apple Pay and Google Pay",
+            "url": "https://techcrunch.com/2026/08/21/walmart-to-finally-start-accepting-apple-pay-and-google-pay/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-21",
         "title": "Ripple 聯手 Clearpool、Cicada 設立 RLUSD 機構信貸基金，向 XRPL 上金融科技與支付業者放貸營運資金",
         "paras": [
           "Ripple 宣布支持一檔新的機構級信貸基金，與借貸平台 Clearpool、信貸管理商 Cicada Partners 合作，向 XRP Ledger 上的金融科技與支付公司發放以其穩定幣（stablecoin）RLUSD 計價的營運資金貸款。分工上，Cicada 負責尋找借款人、訂定貸款條件與監控信用風險，並同時擔任基金普通合夥人與信貸池管理人；Clearpool 負責建立並管理借貸池的基礎設施；Ripple 則以有限合夥人身分、與其他機構同等條件出資，並不對虧損提供擔保。基金規模與 Ripple 出資額均未揭露；Cicada 稱累計已承作逾 8.6 億美元信貸，Clearpool 則稱自 2021 年以來已促成逾 9.3 億美元機構貸款。",
@@ -763,5 +802,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-21T12:52:52Z"
+  "_generated_at": "2026-08-21T15:53:40Z"
 }
