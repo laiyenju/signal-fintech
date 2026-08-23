@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "tier": "watch",
-      "title": "本日觀察：台灣金融科技無重大新進展，關注洗錢防制修法與虛擬資產監理落地",
+      "title": "本日觀察：台灣金融科技無重大新進展，僅見複委託與防詐等監理溝通延續",
       "paras": [
-        "本日回看台灣各來源，過去 24 小時並未出現以支付、數位銀行、金融基礎設施、監理科技或數位資產為核心的重大新進展。當日財經與科技版面多集中於台股在四萬五千點附近震盪、輝達財報前的半導體與記憶體題材，以及房市、家庭所得統計與例行社會新聞，與金融科技核心較無直接關聯。",
-        "本日沒有需要更換焦點的重大事件，因此把觀察重心放在監理面的推進。行政院近期通過洗錢防制法修正草案，擬把未完成登記即經營的虛擬資產平台與第三方支付業者納入洗錢犯罪規範，並強化實質受益人辨識與跨機關資訊共享，與已完成立法的虛擬資產服務法相互銜接，後續立法院審議進度值得追蹤；MyData 個人化資料自主運用平台也持續把數位身分驗證延伸到更多政府服務場景。相關規範一旦落地，將牽動台灣數位金流與加密資產業者的法遵要求。"
+        "本日以本次執行時間為上限回看最近 24 小時，台灣各來源並未出現以支付、數位銀行、金融基礎設施、監理科技或數位資產為核心的重大新進展。當日財經與科技版面多集中在台股於四萬五千點附近高檔箱型震盪、輝達（NVIDIA）財報前的記憶體與半導體漲價題材，以及南台灣豪雨停班課、家庭結構統計等社會與總經新聞，與金融科技核心較無直接關聯。",
+        "與金融沾邊者僅屬既有業務與監理溝通的延續：金融監督管理委員會（金管會）針對美股延長交易時段後台灣複委託是否跟進，表示交由券商自行評估；金融業則就國軍、新住民到高齡族群分眾深化防詐宣導。兩者都未觸及支付、數位銀行或基礎設施的實質技術或產品變化，因此本日不設重點新聞，維持觀察。"
       ]
     },
     "sources": [],
@@ -34,15 +34,21 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "tier": "watch",
-      "title": "本日觀察：全球金融科技無重大新進展，加密行情走強屬價格面，監理與穩定幣議題延續",
+      "title": "穩定幣（stablecoin）加密卡消費單月突破 10 億美元，日常小額支付佔比升高",
       "paras": [
-        "本日以本次執行時間為上限回看最近 24 小時，全球並未出現以支付、數位銀行、金融基礎設施、監理科技或數位資產產品為核心的重大新進展。這段期間市場焦點集中在加密貨幣價格：比特幣受美國財政部加倍長天期公債回購、壓低殖利率帶動，數日內強彈逾兩成、一度逼近 8 萬美元，以太幣與其他代幣同步走高、大量空頭部位遭清算。惟這屬於價格與交易熱度的變化，並非金融科技產品或基礎設施的實質進展，因此不列為當日重點。",
-        "在無新增重大焦點下，本日將前一日沃爾瑪（Walmart）分階段開放 Apple Pay、Google Pay 感應支付一事移入本週要聞持續追蹤，並留意仍在推進的監理與基礎設施議題，包括美國證券交易委員會（SEC）與商品期貨交易委員會（CFTC）的加密規則制定、穩定幣（stablecoin）的會計與結算安排，以及預測市場（prediction market）在部分州別的合法性爭議。至於加密交易所 BitMart 傳評估部分重啟與債權人清償、加密產業團體就伊利諾州數位資產稅提告等，規模與影響較侷限，暫列觀察。"
+        "根據支付數據平台 Paymentscan、經創投機構 a16z 引用的資料，2026 年 7 月全球加密支付卡（crypto card）消費額較一年前成長逾三倍、達約 10.4 億美元，涵蓋逾 1,000 萬筆交易；其中以美元計價的穩定幣（主要為 USDC 與 USDT）支應約七成金額，USDC 單月佔比 50.8%、USDT 20.3%，均較一年前明顯上升。平均每筆消費由 59 美元增至約 86 美元，顯示用戶逐漸把穩定幣用於雜貨、叫車、外送與訂閱等日常小額支出，而非僅作為把加密資產換回法幣的出金（off-ramp）工具。",
+        "這類卡片讓用戶以穩定幣餘額透過既有的 Visa、Mastercard 卡片網路結帳、商戶端仍收到當地法定貨幣，等於把穩定幣變成另一種「儲值卡」的資金來源，而非直接取代主流卡組織；Visa 6 月即表示已有逾 160 個穩定幣連結卡計畫上線或開發中。不過市場高度集中，RedotPay（7 月 3.95 億美元）、Ether.fi（1.003 億美元）與 KAST（8,960 萬美元）三家就占追蹤總額約 77%，成長也集中在巴西、阿根廷等新興市場，StraitsX 統計低所得市場交易額一年約成長六倍。整體規模相對傳統卡網仍小，加上部分業者為自我通報數據，後續能否持續放量與數據可信度仍待驗證。"
       ]
     },
-    "sources": [],
+    "sources": [
+      {
+        "name": "CoinDesk",
+        "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+        "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases"
+      }
+    ],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -585,70 +591,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-16",
-        "title": "Stripe 傳以逾 70 億美元收購 AI 模型路由平台 OpenRouter",
-        "paras": [
-          "支付巨頭 Stripe 傳已敲定以逾 70 億美元收購 AI 模型路由（model routing）新創 OpenRouter，距離該公司以約 13 億美元估值完成募資僅數個月。OpenRouter 讓開發者能依能力與成本等條件，將請求分派到不同 AI 模型。",
-          "對 Stripe 而言，這是支付本業之外切入 AI 開發者基礎設施的一次大型布局；若交易完成，將把金流平台與 AI 模型調度能力結合，反映金融科技龍頭把觸角延伸至 AI 中介層的趨勢。"
-        ],
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B",
-            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-20",
-            "title": "OpenRouter 官方宣布加入 Stripe，稍早收購傳聞獲證實",
-            "body": "AI 模型路由（model routing）平台 OpenRouter 於官方部落格宣布將加入支付巨頭 Stripe，正式證實此前媒體報導、金額傳逾 70 億美元的收購案；官方文告未揭露成交價。OpenRouter 表示併入後將維持既有營運與多模型生態系，並延續對現有開發者用戶的服務承諾，讓 Stripe 把金流平台與 AI 模型調度基礎設施進一步整合。"
-          }
-        ]
-      },
-      {
-        "date": "2026-08-16",
-        "title": "美國 FinCEN 定案永久終止《企業透明法》受益所有權申報並刪除已申報資料，開戶 KYB 恐成唯一查核關卡",
-        "paras": [
-          "美國財政部金融犯罪執法網（FinCEN，Financial Crimes Enforcement Network）發布最終規則，永久終止美國企業依《企業透明法》（CTA，Corporate Transparency Act）申報「實質受益人」（beneficial owner，實際擁有或控制公司的自然人）的義務，並將刪除美國申報人先前已提交的資料。依 FinCEN 自身估算，須申報的公司家數將從約 3,200 萬家降至約 2 萬家，僅剩在境外設立、再向美國各州登記的實體仍須申報。財政部稱此舉是「常識與美國小企業的勝利」，並以法定例外條款認定對 3,200 萬家公司的受益所有權資料「對執法用途幫助不大」。",
-          "對金融科技與銀行而言，這項鬆綁直接牽動反洗錢（AML）與「認識你的企業客戶」（KYB，Know Your Business）法遵架構：一旦全國性受益所有權登記資料庫遭刪除，開戶時的 KYB 查核將形同美國體系中唯一實際驗證公司背後所有權的關卡，業者也將失去可回頭比對的官方登記來源。此方向與國際趨勢相反：英國已要求公司董事完成身分驗證，歐盟也另設新反洗錢主管機關強化查緝。《企業透明法》當年在美國國會以懸殊票數通過、並曾推翻總統否決才得以立法；如今雖以行政規則關閉，母法仍在、未來仍可能被重新啟動，但已刪除的資料難以復原。相關內容整理自金融科技電子報 Fintech Brainfood，並引述美國財政部公告。"
-        ],
-        "sources": [
-          {
-            "name": "Fintech Brainfood",
-            "title": "🧠 Nvidia is the worlds largest fintech company",
-            "url": "https://www.fintechbrainfood.com/p/nvidia-is-fintech"
-          },
-          {
-            "name": "美國財政部 FinCEN（新聞稿）",
-            "title": "Treasury, FinCEN end beneficial ownership information reporting requirement under the Corporate Transparency Act",
-            "url": "https://home.treasury.gov/news/press-releases/sb0603"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-16",
-        "title": "本日觀察：全球最大穩定幣支付卡商 RedotPay 傳暫緩 10 億美元美國 IPO 至 2027 年，同週取得美國匯款牌照",
-        "paras": [
-          "自稱全球最大穩定幣（stablecoin）支付卡發行商的香港新創 RedotPay，傳將原訂今年於紐約進行的 10 億美元首次公開發行（IPO）延後，最快要到 2027 年才會啟動。據彭博（Bloomberg）引述知情人士，延後主因是處理法律問題；RedotPay 發言人向 CoinDesk 未證實 IPO 計畫，僅表示公司本週已取得美國匯款業者（money transmitter）牌照、正準備在美國推出產品。此案先前傳由摩根大通（JPMorgan）、高盛（Goldman Sachs）與 Jefferies 擔任承銷。",
-          "RedotPay 於 2025 年 9 月以 4,700 萬美元募資晉升獨角獸，第二季用戶衝上 850 萬、年化營收約 1.8 億美元。但公司同時面臨幣安（Binance）在香港提出的 4.7 億美元訴訟，指控其在雙方合作期間挖走約 47 萬名用戶（這些用戶原可用 Binance Pay 餘額在 RedotPay 將加密貨幣兌換為法幣）；幣安並在新加坡另提平行訴訟。這樁上市延後也凸顯，穩定幣支付新創在衝刺公開市場前，仍得先跨過監理落地與跨國訴訟兩道關卡。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "RedotPay said to put $1 billion U.S. IPO plan on hold: Bloomberg",
-            "url": "https://www.coindesk.com/business/2026/08/14/redotpay-said-to-put-usd1-billion-u-s-ipo-plan-on-hold-bloomberg"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-23T00:54:32Z"
+  "_generated_at": "2026-08-23T18:52:03Z"
 }
