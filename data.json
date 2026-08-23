@@ -363,6 +363,28 @@
         "context": []
       },
       {
+        "date": "2026-08-19",
+        "title": "Stripe 逾 70 億美元收購 AI 模型路由平台 OpenRouter，跨足「AI 經濟基礎設施」",
+        "paras": [
+          "支付巨頭 Stripe 於 2026 年 8 月 19 日宣布，同意收購 AI 模型路由（model routing）新創 OpenRouter；Stripe 官方新聞稿未揭露金額，TechCrunch 等外電引述消息指交易額逾 70 億美元、一說約 75 億美元。OpenRouter 提供單一介面，讓開發者在來自 80 多家供應商、逾 400 種 AI 模型之間，依任務複雜度、價格、速度與穩定性，動態挑選並調度請求與 token 用量。Stripe 執行長 Patrick Collison 表示，token 已成為企業打造 AI 的核心「貨幣」，公司要建立「AI 時代的經濟基礎設施」，協助商家透過智慧路由更有效率地花用 token、提升獲利。",
+          "對金融科技產業而言，這是支付與金流基礎設施龍頭把版圖延伸到 AI 成本與計費層的一步：Stripe 將以 OpenRouter 的路由能力補強既有的 Token Billing 計費產品，等於在「幫商家收錢」之外，再切入「幫商家管好 AI 開支」。此案傳出的金額約為 OpenRouter 三個月前 B 輪投後估值約 13 億美元的五倍餘，反映市場對 AI 基礎設施整併的高度定價；不過確切金額未經 Stripe 正式揭露，整合成效與對支付本業的實際綜效仍待後續觀察。"
+        ],
+        "sources": [
+          {
+            "name": "Stripe",
+            "title": "Stripe agrees to acquire OpenRouter to help businesses optimize token routing and usage",
+            "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-openrouter"
+          },
+          {
+            "name": "TechCrunch",
+            "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-18",
         "title": "美國懷俄明州官方穩定幣 FRNT 以資安為由，把跨鏈基礎設施從 LayerZero 全面遷至 Chainlink CCIP",
         "paras": [
@@ -594,5 +616,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-23T18:52:03Z"
+  "_generated_at": "2026-08-23T21:50:12Z"
 }
