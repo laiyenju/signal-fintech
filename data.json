@@ -14,6 +14,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-24",
+        "title": "台灣金融科技 OwlTing（奧丁丁）穩定幣支付平台連六月成長，首度洽談與台灣金融機構跨境結算合作",
+        "paras": [
+          "奧丁丁集團母公司 OBOOK Holdings（OWLS）公布 2026 上半年財報，營收約 387 萬美元，受非現金股權費用影響，淨損擴大至約 1,882 萬美元；不過旗下跨境支付平台 OwlPay 累計總支付額突破 7 億美元，其中以穩定幣（stablecoin，錨定法幣的數位代幣）為基礎的支付業務連續六個月成長，公司訂下年底衝刺 10 億美元的目標。奧丁丁並首度證實，正與台灣金融機構洽談合作，協助企業優化跨境支付與結算基礎建設。",
+          "奧丁丁已取得美國、日本、波蘭等多國支付或金融相關執照，以穩定幣作為企業跨境收付與結算的底層軌道，逐步把穩定幣支付從加密場景推向企業級核心金融工具。此次揭露與台灣金融機構的合作洽談，是這家源自台灣的金融科技公司「回台佈局」的訊號，也反映穩定幣跨境結算開始延伸到台灣的企業金流場景；不過合作對象、實際落地時程與監理配套均未公布，公司短期財務仍處於擴張期的淨損狀態。"
+        ],
+        "sources": [
+          {
+            "name": "Yahoo 財經",
+            "title": "穩了！奧丁丁穩定幣業務連6月成長 下一步回台佈局",
+            "url": "https://tw.news.yahoo.com/%E7%A9%A9%E4%BA%86-%E5%A5%A7%E4%B8%81%E4%B8%81%E7%A9%A9%E5%AE%9A%E5%B9%A3%E6%A5%AD%E5%8B%99%E9%80%A36%E6%9C%88%E6%88%90%E9%95%B7-%E4%B8%8B-%E6%AD%A5%E5%9B%9E%E5%8F%B0%E4%BD%88%E5%B1%80-201500955.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-20",
         "title": "台灣 MyData 平台開通身心障礙者牌照稅免稅線上申辦，14 縣市完成資料介接",
         "paras": [
@@ -132,6 +149,23 @@
             "name": "CoinDesk",
             "title": "Ethereum lending app Term Finance loses $8.5 million after attacker buys voting power",
             "url": "https://www.coindesk.com/markets/2026/08/24/ethereum-lending-app-term-finance-loses-usd8-5-million-after-attacker-buys-voting-power"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-24",
+        "title": "跨境支付獨角獸 Airwallex 完成 3.2 億美元 H 輪、估值達 110 億美元，從跨境支付跨入「自主金融」與 AI 代理商務",
+        "paras": [
+          "總部設於澳洲、以跨境支付起家的金融科技公司 Airwallex 宣布完成 3.2 億美元的 H 輪募資，投後估值達 110 億美元，並將以這筆資金把業務從跨境支付延伸到「自主金融」（autonomous finance），推出可自動記帳的 T:0，以及主打 AI 代理商務（agentic commerce）的 Airi 等產品。公司目前服務逾 67.5 萬家企業，年化營收已突破 10 億美元。",
+          "Airwallex 總裁劉沁芸（Lucy Liu）表示，公司雖具備上市體質，但首次公開發行（IPO）時程仍取決於市場狀況，同時也面臨美國與澳洲日益升高的監理審查。對金融科技產業而言，一家跨境支付平台把 AI 代理與自動化記帳嵌入企業金流，代表「代理式金融」正從概念走向具體產品線，支付服務商競相以 AI 把「幫企業收付款」擴展為「幫企業自動處理財務」；惟新產品的實際採用成效與跨市場合規挑戰仍待驗證。"
+        ],
+        "sources": [
+          {
+            "name": "Fortune",
+            "title": "Airwallex expands from cross-border payments into autonomous finance",
+            "url": "https://fortune.com/article/airwallex-fundraise-lucy-liu-ai-fintech-ipo-08-20-2026/"
           }
         ],
         "social": [],
@@ -611,5 +645,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-24T18:59:22Z"
+  "_generated_at": "2026-08-24T21:52:13Z"
 }
