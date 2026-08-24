@@ -54,6 +54,40 @@
     "others": [
       {
         "date": "2026-08-24",
+        "title": "渣打（Standard Chartered）成首家分銷香港港元穩定幣，將 Anchorpoint HKDAP 導入機構結算與跨境支付",
+        "paras": [
+          "總部設於倫敦、資產規模約 8,500 億美元的跨國銀行渣打（Standard Chartered）宣布，成為首家分銷香港兩檔受監理穩定幣（stablecoin）之一的銀行——由 Anchorpoint Financial 發行、以港元計價的 HKDAP。渣打是 Anchorpoint 的多數股東，初期將協助符合資格的機構客戶與合作夥伴串接 HKDAP，並規劃未來一個月陸續推出多項商用場景，涵蓋貨幣市場基金申購、與資產管理公司的結算、集團內部跨境調撥，以及跨境支付。Anchorpoint 已於 8 月 12 日展開 HKDAP 的限量機構試行，距其取得香港首批兩張發行人牌照之一約四個月。",
+          "這是香港穩定幣發行牌照制度上路後，首度由持牌銀行親自擔任分銷通路，把受監理的港元穩定幣導入機構級支付與結算流程。香港另一初始持牌人匯豐（HSBC）也正籌備自家穩定幣、預計 2026 年下半年推出，並可能透過擁有約 330 萬名用戶的 PayMe 分銷；加密交易所 Kraken 母公司 Payward 也以 6 億美元收購 Reap Technologies，擴大在香港的穩定幣支付布局。對數位資產基礎設施而言，大型銀行以自有客群分銷持牌穩定幣，象徵港元穩定幣正從發行邁向實際流通，惟具體商用場景與跨境應用仍待後續逐步落地。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
+            "url": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-24",
+        "title": "Gemini 攜手 Apex Fintech 擴大加密預測市場通路，成券商經 FCM 提供事件合約的專屬 CFTC 受監理場所",
+        "paras": [
+          "由 Winklevoss 兄弟創立的加密平台 Gemini（GEMI）宣布，與券商基礎設施商 Apex Fintech Solutions 簽署意向書（LOI），將把旗下受監理的加密預測市場（prediction markets）合約，透過 Apex 的期貨佣金商（FCM，futures commission merchant）通路分銷給券商客戶。依協議，Gemini 子公司 Gemini Titan 將成為經 Apex FCM 分銷加密事件合約（event contracts）的專屬 CFTC 受監理場所，由 Gemini 負責交易撮合與結算，讓使用 Apex 的券商毋須自建與預測市場交易所的連線，即可向客戶提供加密事件合約；雙方預計未來數週敲定合作細節。",
+          "此案建立在 Gemini 逐步取得的監理基礎上：Gemini Titan 於 2025 年 12 月取得美國商品期貨交易委員會（CFTC）的指定合約市場（DCM）牌照，另一子公司 Gemini Olympus 亦在今年 4 月取得衍生性商品結算機構（DCO）牌照，使其得以自行承接交易與結算。預測市場近一年快速走熱，依 Pew Research Center 資料，Kalshi 與 Polymarket 等主要平台月交易量至今年 4 月已逼近 240 億美元、遠高於 2025 年 9 月的不足 50 億美元，運動、政治與加密為最大類別。在現貨交易量疲軟、營收承壓下，加密業者競相以預測市場等新產品分散收入，此次改由券商通路切入，顯示事件合約正加速接入傳統經紀體系；不過合作仍屬意向書階段、細節尚未定案。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Gemini strikes Apex deal to widen prediction markets reach",
+            "url": "https://www.coindesk.com/business/2026/08/24/gemini-strikes-apex-deal-to-widen-prediction-markets-reach"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-24",
         "title": "穩定幣新型銀行 Fasset 獲 SBI 領投挹注 6,800 萬美元，估值達 10 億美元躋身獨角獸",
         "paras": [
           "以穩定幣（stablecoin，錨定法幣的數位代幣）為核心的數位銀行 Fasset 宣布，完成由日本金融集團 SBI Group 領投的 6,800 萬美元募資，公司估值達 10 億美元、正式躋身獨角獸；此輪距其今年 5 月完成的 5,100 萬美元募資僅三個月，使 Fasset 今年累計募資達 1.19 億美元。總部設於洛杉磯的 Fasset 提供一站式金融平台，讓消費者與企業跨貨幣、跨資產進行持有、轉帳、消費與投資，並在背後以穩定幣作為結算基礎設施；平台年化交易量已逾 400 億美元、覆蓋 125 個國家。執行長 Mohammad Raafi Hossain 表示，公司營收年增約六倍、已連續 12 個月獲利，惟未揭露具體營收與獲利數字。",
@@ -650,5 +684,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-24T09:50:11Z"
+  "_generated_at": "2026-08-24T12:51:54Z"
 }
