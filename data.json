@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "tier": "watch",
-      "title": "本日觀察：台灣金融科技無重大新進展，僅見複委託與防詐等監理溝通延續",
+      "title": "本日觀察：台灣無重大金融科技新進展，版面集中於半導體、股市與豪雨災情",
       "paras": [
-        "本日以本次執行時間為上限回看最近 24 小時，台灣各來源並未出現以支付、數位銀行、金融基礎設施、監理科技或數位資產為核心的重大新進展。當日財經與科技版面多集中在台股於四萬五千點附近高檔箱型震盪、輝達（NVIDIA）財報前的記憶體與半導體漲價題材，以及南台灣豪雨停班課、家庭結構統計等社會與總經新聞，與金融科技核心較無直接關聯。",
-        "與金融沾邊者僅屬既有業務與監理溝通的延續：金融監督管理委員會（金管會）針對美股延長交易時段後台灣複委託是否跟進，表示交由券商自行評估；金融業則就國軍、新住民到高齡族群分眾深化防詐宣導。兩者都未觸及支付、數位銀行或基礎設施的實質技術或產品變化，因此本日不設重點新聞，維持觀察。"
+        "以本次執行時間為上限回看最近 24 小時，台灣各來源並未出現以支付、數位銀行、金融基礎設施、監理科技或數位資產為核心的重大新進展。財經與科技版面多集中在台股於四萬四千至四萬五千點區間高檔震盪，以及輝達（NVIDIA）財報前費城半導體指數重挫逾 3%、台積電 ADR 走弱。其餘熱門題材如記憶體漲價、小米自研晶片玄戒 O3 交台積電代工等，均屬半導體與股市範疇，與金融科技核心並無直接關聯。",
+        "其餘與金融沾邊的內容多屬個股財報、金控與壽險上半年獲利、外資調節與新台幣匯率等一般財經統計，另有南台灣豪雨釀停班課與農損、國人平均壽命等社會與總經新聞；即使有「加密貨幣行情升溫、概念股上漲」一類報導，也僅反映幣價與股價波動，未觸及台灣本地支付、數位銀行或金融基礎設施的實質技術或產品變化，因此本日不設重點新聞，維持觀察。"
       ]
     },
     "sources": [],
@@ -34,24 +34,41 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-24",
-      "tier": "watch",
-      "title": "穩定幣（stablecoin）加密卡消費單月突破 10 億美元，日常小額支付佔比升高",
+      "date": "2026-08-25",
+      "tier": "top",
+      "title": "Coinbase 在自營 Base 網路推出代幣化股票，加入把股權搬上區塊鏈的競賽",
       "paras": [
-        "根據支付數據平台 Paymentscan、經創投機構 a16z 引用的資料，2026 年 7 月全球加密支付卡（crypto card）消費額較一年前成長逾三倍、達約 10.4 億美元，涵蓋逾 1,000 萬筆交易；其中以美元計價的穩定幣（主要為 USDC 與 USDT）支應約七成金額，USDC 單月佔比 50.8%、USDT 20.3%，均較一年前明顯上升。平均每筆消費由 59 美元增至約 86 美元，顯示用戶逐漸把穩定幣用於雜貨、叫車、外送與訂閱等日常小額支出，而非僅作為把加密資產換回法幣的出金（off-ramp）工具。",
-        "這類卡片讓用戶以穩定幣餘額透過既有的 Visa、Mastercard 卡片網路結帳、商戶端仍收到當地法定貨幣，等於把穩定幣變成另一種「儲值卡」的資金來源，而非直接取代主流卡組織；Visa 6 月即表示已有逾 160 個穩定幣連結卡計畫上線或開發中。不過市場高度集中，RedotPay（7 月 3.95 億美元）、Ether.fi（1.003 億美元）與 KAST（8,960 萬美元）三家就占追蹤總額約 77%，成長也集中在巴西、阿根廷等新興市場，StraitsX 統計低所得市場交易額一年約成長六倍。整體規模相對傳統卡網仍小，加上部分業者為自我通報數據，後續能否持續放量與數據可信度仍待驗證。"
+        "美國最大的加密貨幣交易所 Coinbase 在其自營的以太坊 Layer 2 網路 Base 上推出代幣化股票（tokenized stocks），首批標的以美國市值最大的幾檔知名個股為主，讓用戶能在鏈上持有並交易對應真實股權的代幣。相較於此前多由加密新創或中小型平台試水，這次由交易量最大的合規交易所入場，等於把股權代幣化推向更接近主流的規模，讓「把股票搬上鏈」從邊緣實驗變成大型金融平台正面競逐的戰場。",
+        "代幣化股票近月成為加密平台與傳統券商競逐的新戰場：此前 Kraken 已為歐洲客戶開通逾 7,000 檔美股的鏈上與真實股票交易，成為單一平台同售真實美股與代幣化版本的先行者。把股權代幣化的訴求在於接近全天候的交易時間、可程式化的結算流程與跨境可及性，但證券型代幣如何符合各國證券法規、投資人保護與清算交割要求，仍是決定這股趨勢能走多遠的最大變數。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
-        "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases"
+        "title": "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
+        "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-24",
+        "title": "穩定幣（stablecoin）加密卡消費單月突破 10 億美元，日常小額支付佔比升高",
+        "paras": [
+          "根據支付數據平台 Paymentscan、經創投機構 a16z 引用的資料，2026 年 7 月全球加密支付卡（crypto card）消費額較一年前成長逾三倍、達約 10.4 億美元，涵蓋逾 1,000 萬筆交易；其中以美元計價的穩定幣（主要為 USDC 與 USDT）支應約七成金額，USDC 單月佔比 50.8%、USDT 20.3%，均較一年前明顯上升。平均每筆消費由 59 美元增至約 86 美元，顯示用戶逐漸把穩定幣用於雜貨、叫車、外送與訂閱等日常小額支出，而非僅作為把加密資產換回法幣的出金（off-ramp）工具。",
+          "這類卡片讓用戶以穩定幣餘額透過既有的 Visa、Mastercard 卡片網路結帳、商戶端仍收到當地法定貨幣，等於把穩定幣變成另一種「儲值卡」的資金來源，而非直接取代主流卡組織；Visa 6 月即表示已有逾 160 個穩定幣連結卡計畫上線或開發中。不過市場高度集中，RedotPay（7 月 3.95 億美元）、Ether.fi（1.003 億美元）與 KAST（8,960 萬美元）三家就占追蹤總額約 77%，成長也集中在巴西、阿根廷等新興市場，StraitsX 統計低所得市場交易額一年約成長六倍。整體規模相對傳統卡網仍小，加上部分業者為自我通報數據，後續能否持續放量與數據可信度仍待驗證。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+            "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-24",
         "title": "渣打（Standard Chartered）成首家分銷香港港元穩定幣，將 Anchorpoint HKDAP 導入機構結算與跨境支付",
@@ -591,98 +608,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-17",
-        "title": "Airwallex 攜手 Affirm 在美國推出先買後付，商戶結帳頁可直接提供分期付款",
-        "paras": [
-          "跨境金融平台 Airwallex 與美國先買後付（BNPL，Buy Now Pay Later）業者 Affirm 宣布合作，使用 Airwallex 收款的商戶可在結帳頁面，為符合資格的美國消費者提供 Affirm 的彈性分期付款選項。此舉把消費信貸能力接進 Airwallex 既有的商戶金流基礎設施，讓以 Airwallex 收款的商戶多一種結帳付款選項。",
-          "對 Airwallex 而言，這是把服務從跨境收單、換匯與帳戶延伸到消費端信貸的一步，切入競爭激烈的美國 BNPL 市場；對 Affirm 而言，則能透過 Airwallex 的商戶網路擴大觸及面。雙方公告未揭露費率、分潤或具體上線商戶規模等細節。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "Airwallex partners Affirm for US BNPL roll out",
-            "url": "https://www.finextra.com/pressarticle/110644/airwallex-partners-affirm-for-us-bnpl-roll-out"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-17",
-        "title": "匯款龍頭 Western Union 收購對手 Intermax 取得紐約州放行，仍待跨越加州關卡",
-        "paras": [
-          "匯款業者 Western Union 收購同業 Intermax 的交易取得紐約州監理放行。為化解反對聲浪，Western Union 承諾維持在紐約州的門市據點，並在三年內對手續費調漲設定上限，以此換取當地主管機關對併購案的核可。",
-          "這是這樁匯款業整併案在美國跨越的其中一道監理關卡，牽動實體匯款門市的通路布局與費率設定。不過交易仍面臨加州的審查障礙、尚未全面完成；公告未進一步揭露收購金額與整體完成時程。"
-        ],
-        "sources": [
-          {
-            "name": "Finextra",
-            "title": "Western Union gets New York nod for Intermax acquisition; still face California hurdles",
-            "url": "https://www.finextra.com/newsarticle/48252/western-union-gets-new-york-nod-for-intermax-acquisition-still-face-california-hurdles"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-17",
-        "title": "美國財政部提出 GENIUS Act 穩定幣實施細則，為去年立法補上核心定義與監理分工",
-        "paras": [
-          "美國財政部（U.S. Treasury）提出穩定幣（stablecoin）法規草案，著手為國會去年完成立法的 GENIUS Act 補上部分核心定義與監理管轄分工，把既有法律框架推進到可實際執行的行政規則階段。",
-          "對穩定幣發行方與相關金融科技業者而言，定義與監理歸屬一旦明確，將直接牽動合規要求與產品設計；後續細則內容與意見徵詢結果，攸關穩定幣支付與數位資產基礎設施在美國的落地節奏。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
-            "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-17",
-        "title": "以色列最大加密經紀商 Bits of Gold 遭第三方供應商入侵，約 20 萬名客戶個資外洩，為一週內第三起加密供應鏈資安事件",
-        "paras": [
-          "以色列最大加密貨幣經紀商 Bits of Gold 通報遭駭客入侵，約 20 萬名客戶個資外洩。該公司總部設於特拉維夫，2013 年成立，是以色列首家取得永久金融服務業者（Financial Services Provider）牌照的加密公司，客戶逾 25 萬並持有 SOC 2 Type 2 認證。公司表示駭客是透過一家第三方數據分析服務商的網路取得未授權存取，外洩內容包含客戶姓名、國民身分證字號、電子郵件、電話、IP 位址、銀行帳戶資料與公開錢包地址；但強調資金、私鑰、密碼、CVV 與掃描身分證件並未外洩，客戶的數位資產與資金安全無虞。偵測到事件後公司已封鎖並切斷該系統與資料來源的連線，並委由專門的資安事件調查公司展開全面調查。",
-          "值得注意的是，這已是一週內第三起衝擊加密產業的資料外洩事件，且都源自第三方供應商而非交易所或錢包核心系統：加密錢包商 SafePal 於 8 月 16 日通報約 4 萬名用戶訂單個資因第三方供應商遭駭而外洩，硬體錢包商 Trezor 也在 8 月 13 日因物流合作夥伴 ShipMonk 遭入侵而波及約 1.4 萬名用戶，CoinDesk 統計三起事件一週內累計影響逾 23 萬名用戶。Bits of Gold 研判自身遭遇的攻擊屬於同時襲擊多家公司的「全球性事件」一環。這波集中在委外數據、物流與行銷等第三方環節的攻擊，凸顯加密金融科技業者即使核心系統與私鑰未失守，供應鏈（supply chain）與委外服務仍是敏感個資（含國民身分證字號與銀行帳戶）外洩的高風險缺口。客戶也因此更容易被鎖定為釣魚與冒名詐騙的目標。內容整理自 CoinDesk 報導與 Bits of Gold 官方資安公告。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Israel’s largest crypto broker Bits of Gold hit by data breach affecting 200,000 customers",
-            "url": "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers"
-          },
-          {
-            "name": "Bits of Gold",
-            "title": "Security Update – August 2026",
-            "url": "https://blog.bitsofgold.co.il/security-update-august-26/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-17",
-        "title": "本日觀察：加密錢包商 SafePal 傳資料外洩，約 4 萬名用戶訂單個資曝光，私鑰與資產未受影響",
-        "paras": [
-          "自我保管型加密錢包（self-custody wallet）業者 SafePal 揭露一起資料外洩事件，約 4 萬名用戶的個人訂單資訊遭曝光。SafePal 強調，用戶的私鑰（private key）、助記詞（seed phrase）與加密資產本身並未受影響、仍安全無虞，外洩範圍集中在購買與訂單相關的個人資料。事件由 CoinDesk 揭露，相關細節仍在陸續釐清中。",
-          "由於外洩的是個資而非資金，直接損失風險有限，但訂單與個人資訊一旦落入有心人士手中，較可能被用於針對錢包用戶的精準釣魚（phishing）與社交工程，這也是自我保管錢包生態近期資安揭露值得留意之處。相對於本週全球金融科技版面上監理與立法角力的延續（例如美國證券交易委員會加密資產規則制定進度），這起事件的規模與衝擊較為侷限，因此僅列為本日觀察、持續追蹤後續是否有更多受影響範圍或補救措施揭露。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
-            "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-24T12:51:54Z"
+  "_generated_at": "2026-08-24T18:59:22Z"
 }
