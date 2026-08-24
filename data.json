@@ -53,6 +53,40 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-24",
+        "title": "穩定幣新型銀行 Fasset 獲 SBI 領投挹注 6,800 萬美元，估值達 10 億美元躋身獨角獸",
+        "paras": [
+          "以穩定幣（stablecoin，錨定法幣的數位代幣）為核心的數位銀行 Fasset 宣布，完成由日本金融集團 SBI Group 領投的 6,800 萬美元募資，公司估值達 10 億美元、正式躋身獨角獸；此輪距其今年 5 月完成的 5,100 萬美元募資僅三個月，使 Fasset 今年累計募資達 1.19 億美元。總部設於洛杉磯的 Fasset 提供一站式金融平台，讓消費者與企業跨貨幣、跨資產進行持有、轉帳、消費與投資，並在背後以穩定幣作為結算基礎設施；平台年化交易量已逾 400 億美元、覆蓋 125 個國家。執行長 Mohammad Raafi Hossain 表示，公司營收年增約六倍、已連續 12 個月獲利，惟未揭露具體營收與獲利數字。",
+          "Fasset 的系統跑在自建、以 Arbitrum 為基礎並導入 AI 的以太坊 Layer 2 網路「OWN Network」上，串接逾 100 條銀行走廊的銀行、電信、支付與流動性業者，讓穩定幣即使在用戶未察覺時也能擔任底層結算軌道。SBI 近年是傳統金融集團中最積極布局數位資產者之一，投資橫跨 Ripple、Circle與 DeFi 借貸協定 Morpho，並擁有加密造市商 B2C2；此輪加碼使 Fasset 得以接入 SBI 龐大金融網路，包括涵蓋約 47 萬個據點、可匯往約 200 國的 SBI Remit 匯款網。此案反映傳統金融與加密加速融合，穩定幣正從交易所間搬錢工具擴及匯款、企業財務與跨境支付，尤其在跨境成本高昂的新興市場；不過雙方尚未公布具體產品與新走廊。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Stablecoin neobank Fasset lands $1 billion valuation as SBI backs its payments push",
+            "url": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-24",
+        "title": "以太坊借貸協定 Term Finance 遭治理攻擊損失約 850 萬美元，攻擊者低價買下投票權奪金庫控制權",
+        "paras": [
+          "以太坊上的借貸協定 Term Finance 遭攻擊、損失約 850 萬美元。據鏈上監控服務 Defimon，攻擊者以低成本收購該協定發行量稀少、持有分散的治理代幣，取得多數投票權後，透過通過提案的方式奪得旗下 Meta Vaults 金庫的控制權，接著移轉約 2,843 枚以太幣（當時約值 690 萬美元）與 168 萬枚 USDC，掏空金庫約 68% 的資產。依 DefiLlama 資料，遭攻擊前該金庫約有 1,245 萬美元資產，其中以太幣部位幾乎被全數取走。Term 表示已永久關閉此金庫產品、停止新存款並移除相關治理權限，強調協定的直接借貸市場未受影響。",
+          "這批金庫以廣泛使用的 Yearn V3 基礎設施打造，Yearn 澄清此次漏洞出在 Term 於其技術外層自建的治理層，並非標準 Yearn 金庫。此案凸顯去中心化金融（DeFi）的治理代幣安全風險：當「贏得一場投票所需的代幣價值」遠低於「投票所能支配的資產」時，治理本身就可能成為攻擊入口。Term 過去也曾出事——2025 年 4 月一次預言機（oracle）錯誤曾觸發約 918 枚以太幣的非預期清算，事後多數資金已回收並補償用戶，並承諾強化治理透明度；一年多後，弱點卻轉移到治理環節。Term 稱正與外部資安團隊合作追回資產，並將設法彌補剩餘損失。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Ethereum lending app Term Finance loses $8.5 million after attacker buys voting power",
+            "url": "https://www.coindesk.com/markets/2026/08/24/ethereum-lending-app-term-finance-loses-usd8-5-million-after-attacker-buys-voting-power"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-22",
         "title": "沃爾瑪（Walmart）鬆綁十年立場，8/24 起分階段開放門市支援 Apple Pay 與 Google Pay",
         "paras": [
@@ -616,5 +650,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-23T21:50:12Z"
+  "_generated_at": "2026-08-24T09:50:11Z"
 }
