@@ -1,15 +1,21 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "tier": "watch",
-      "title": "本日觀察：台灣無重大金融科技新進展，版面集中於半導體、股市與豪雨災情",
+      "title": "奧丁丁集團 PayNow（立吉富線上金流）導入奧義賽博 AI 資安，強化第三方支付主動防禦",
       "paras": [
-        "以本次執行時間為上限回看最近 24 小時，台灣各來源並未出現以支付、數位銀行、金融基礎設施、監理科技或數位資產為核心的重大新進展。財經與科技版面多集中在台股於四萬四千至四萬五千點區間高檔震盪，以及輝達（NVIDIA）財報前費城半導體指數重挫逾 3%、台積電 ADR 走弱。其餘熱門題材如記憶體漲價、小米自研晶片玄戒 O3 交台積電代工等，均屬半導體與股市範疇，與金融科技核心並無直接關聯。",
-        "其餘與金融沾邊的內容多屬個股財報、金控與壽險上半年獲利、外資調節與新台幣匯率等一般財經統計，另有南台灣豪雨釀停班課與農損、國人平均壽命等社會與總經新聞；即使有「加密貨幣行情升溫、概念股上漲」一類報導，也僅反映幣價與股價波動，未觸及台灣本地支付、數位銀行或金融基礎設施的實質技術或產品變化，因此本日不設重點新聞，維持觀察。"
+        "奧丁丁集團（OwlTing）旗下第三方支付品牌 PayNow（立吉富線上金流）宣布，導入資安業者奧義賽博（CyCraft）的 AI 資安方案，為其線上金流打造「主動防禦」機制。PayNow 表示，此舉是為因應持續升級的全球金流資安風險，以及金管會 2026 年揭示的六大監理重點，透過 AI 強化對支付流程的威脅偵測與防護。",
+        "對台灣金融科技而言，支付業者把 AI 資安導入金流核心，屬於金融資安與監理科技（RegTech）範疇，反映在數位支付規模擴大、詐騙與攻擊手法翻新之際，第三方支付與電子支付業者逐步把資安主動防禦視為基礎建設的一環。不過此次公開資訊集中於雙方合作方向，實際部署範圍、導入時程與量化成效等細節尚未揭露，後續實際部署與防護成效仍待觀察。"
       ]
     },
-    "sources": [],
+    "sources": [
+      {
+        "name": "科技新報",
+        "title": "立吉富線上金流導入奧義賽博 AI 資安，打造電子支付主動防禦",
+        "url": "https://infosecu.technews.tw/2026/08/25/paynow-cycraft/"
+      }
+    ],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -51,30 +57,47 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "tier": "top",
-      "title": "Coinbase 在自營 Base 網路推出代幣化股票，加入把股權搬上區塊鏈的競賽",
+      "title": "LayerZero 推出 ATLAS 交易與結算引擎，跨足代幣化資產交易基礎設施",
       "paras": [
-        "美國最大的加密貨幣交易所 Coinbase 在其自營的以太坊 Layer 2 網路 Base 上推出代幣化股票（tokenized stocks），首批標的以美國市值最大的幾檔知名個股為主，讓用戶能在鏈上持有並交易對應真實股權的代幣。相較於此前多由加密新創或中小型平台試水，這次由交易量最大的合規交易所入場，等於把股權代幣化推向更接近主流的規模，讓「把股票搬上鏈」從邊緣實驗變成大型金融平台正面競逐的戰場。",
-        "代幣化股票近月成為加密平台與傳統券商競逐的新戰場：此前 Kraken 已為歐洲客戶開通逾 7,000 檔美股的鏈上與真實股票交易，成為單一平台同售真實美股與代幣化版本的先行者。把股權代幣化的訴求在於接近全天候的交易時間、可程式化的結算流程與跨境可及性，但證券型代幣如何符合各國證券法規、投資人保護與清算交割要求，仍是決定這股趨勢能走多遠的最大變數。"
+        "跨鏈互通協定 LayerZero 推出名為 ATLAS（Aggregated Trading Liquidity and Settlement）的交易與結算引擎，跑在其今年稍早發表的 Zero 區塊鏈上，把交易撮合、清算、結算與風險管理整合於單一系統，定位為交易所與各類平台的後端基礎設施，可支援的市場涵蓋現貨加密、永續期貨，乃至股票、債券、大宗商品與預測市場。ATLAS 本身不設面向散戶的交易介面，交易場所可在保留自有介面與客群的前提下直接串接；LayerZero 稱其 Zero 區塊鏈的合作方包括美國存管信託清算公司（DTCC）、洲際交易所（ICE）與 Google Cloud，並獲造市商 Citadel Securities 策略投資，消息帶動其原生代幣 ZRO 單日大漲逾三成。",
+        "此舉把 LayerZero 的野心從「在不同鏈之間搬移資產」延伸到「資產交易的市場本身」。隨著穩定幣（stablecoin）與代幣化把愈來愈多金融資產搬上鏈，LayerZero 主張既有市場基礎設施把撮合、清算與結算分屬不同系統，並不適合可全天候流通的資產，因而以 ATLAS 主打「中立、高效」的共用後端。系統分為兩種配置：面向加密交易與預測市場的 Open ATLAS，以及讓交易所與金融機構自訂市場規則的 Institutional ATLAS，兩者共用同一套底層引擎。ATLAS 也讓原生代幣 ZRO 與交易活動更直接掛鉤——交易場所可質押 ZRO 換取較高手續費回饋，扣除場所回饋後的手續費另有 75% 用於回購並銷毀 ZRO。這也是 LayerZero 在跨鏈橋業務歷經波折後的轉向——今年 4 月質押協定 Kelp DAO 以其技術打造的跨鏈橋遭駭、損失約 2.92 億美元後，多個專案陸續出走；ATLAS 能否取得交易場所實際採用，仍待後續觀察。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
-        "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain"
+        "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
+        "url": "https://www.coindesk.com/business/2026/08/25/layerzero-unveils-trading-infrastructure-for-crypto-and-tokenized-markets-zro-surges"
       }
     ],
     "coverSocial": [],
-    "context": [
+    "context": [],
+    "others": [
       {
         "date": "2026-08-25",
-        "title": "Bitwise 以 Coinbase 代幣化股票推出「自動化代幣投組」（ATP），示範代幣化股權的鏈上資產管理應用",
-        "body": "在 Coinbase 於 Base 推出代幣化美股（首批為 Apple、Nvidia、Meta、Alphabet）隔天，管理規模約 90 億美元、以加密 ETF 聞名的數位資產資產管理商 Bitwise 宣布推出「自動化代幣投組」（Automated Token Portfolios，ATP）。ATP 直接以 Coinbase 這批代幣化美股為成分，由投組技術商 Glider 依 Bitwise 設計的模型自動再平衡，讓美國以外的合格投資人把個股代幣留在自己的加密錢包，毋須透過券商買進 ETF 或基金。首批主題涵蓋 AI、機器人，以及在「七雄」之外再等權納入 SpaceX 的擴充版；投資長 Matt Hougan 形容，過去要取得專業投組模型必須把資產交給基金，ATP 則讓資產留在自己錢包、由模型主動找上門。此舉顯示代幣化股權開始長出「把股票搬上鏈重演交易」以外的資產管理應用。Bitwise 模型另納入 Microsoft、Amazon、Tesla、SpaceX 與 Sandisk 等 Coinbase 尚未代幣化的標的，被外界解讀為其後續可能擴充的線索，惟 ATP 僅限美國以外合格投資人，實際採用與各地監理適用仍待觀察。"
-      }
-    ],
-    "others": [
+        "title": "Coinbase 在自營 Base 網路推出代幣化股票，加入把股權搬上區塊鏈的競賽",
+        "paras": [
+          "美國最大的加密貨幣交易所 Coinbase 在其自營的以太坊 Layer 2 網路 Base 上推出代幣化股票（tokenized stocks），首批標的以美國市值最大的幾檔知名個股為主，讓用戶能在鏈上持有並交易對應真實股權的代幣。相較於此前多由加密新創或中小型平台試水，這次由交易量最大的合規交易所入場，等於把股權代幣化推向更接近主流的規模，讓「把股票搬上鏈」從邊緣實驗變成大型金融平台正面競逐的戰場。",
+          "代幣化股票近月成為加密平台與傳統券商競逐的新戰場：此前 Kraken 已為歐洲客戶開通逾 7,000 檔美股的鏈上與真實股票交易，成為單一平台同售真實美股與代幣化版本的先行者。把股權代幣化的訴求在於接近全天候的交易時間、可程式化的結算流程與跨境可及性，但證券型代幣如何符合各國證券法規、投資人保護與清算交割要求，仍是決定這股趨勢能走多遠的最大變數。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
+            "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain"
+          }
+        ],
+        "social": [],
+        "context": [
+          {
+            "date": "2026-08-25",
+            "title": "Bitwise 以 Coinbase 代幣化股票推出「自動化代幣投組」（ATP），示範代幣化股權的鏈上資產管理應用",
+            "body": "在 Coinbase 於 Base 推出代幣化美股（首批為 Apple、Nvidia、Meta、Alphabet）隔天，管理規模約 90 億美元、以加密 ETF 聞名的數位資產資產管理商 Bitwise 宣布推出「自動化代幣投組」（Automated Token Portfolios，ATP）。ATP 直接以 Coinbase 這批代幣化美股為成分，由投組技術商 Glider 依 Bitwise 設計的模型自動再平衡，讓美國以外的合格投資人把個股代幣留在自己的加密錢包，毋須透過券商買進 ETF 或基金。首批主題涵蓋 AI、機器人，以及在「七雄」之外再等權納入 SpaceX 的擴充版；投資長 Matt Hougan 形容，過去要取得專業投組模型必須把資產交給基金，ATP 則讓資產留在自己錢包、由模型主動找上門。此舉顯示代幣化股權開始長出「把股票搬上鏈重演交易」以外的資產管理應用。Bitwise 模型另納入 Microsoft、Amazon、Tesla、SpaceX 與 Sandisk 等 Coinbase 尚未代幣化的標的，被外界解讀為其後續可能擴充的線索，惟 ATP 僅限美國以外合格投資人，實際採用與各地監理適用仍待觀察。"
+          }
+        ]
+      },
       {
         "date": "2026-08-25",
         "title": "富蘭克林坦伯頓與香港 HashKey 合作，把美國代幣化貨幣市場基金帶進亞洲",
@@ -525,154 +548,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-18",
-        "title": "美國懷俄明州官方穩定幣 FRNT 以資安為由，把跨鏈基礎設施從 LayerZero 全面遷至 Chainlink CCIP",
-        "paras": [
-          "美國懷俄明州負責發行穩定幣（stablecoin，錨定法幣的數位代幣）的官方機構 Wyoming Stable Token Commission 宣布，已完成一輪詳盡的資安審查，決定把該州發行的 Frontier Stable Token（FRNT）跨鏈基礎設施，從 LayerZero 全面遷移到 Chainlink 的跨鏈互通協定 CCIP（Cross-Chain Interoperability Protocol），並永久停用原本的 LayerZero 版本。依一紙多年期合約，CCIP 未來將成為 FRNT 唯一的跨鏈基礎設施。據 CoinDesk，這是美國政府機構首次公開以「資安考量」為由更換區塊鏈基礎設施。FRNT 是目前唯一由美國公部門發行、以法幣百分之百準備金支撐的穩定幣，已在以太坊（Ethereum）、Base 與 Avalanche 等多條鏈上流通，準備金孳息用於挹注懷俄明州的學校基金計畫（School Foundation Program），不過其流通市值目前仍不足 100 萬美元。",
-          "此舉是近期一波跨鏈基礎設施大遷徙的一環：據 CoinDesk，至今已有約 150 億美元資產從 LayerZero 轉移到 Chainlink CCIP。這波遷移的導火線，是今年 4 月質押協定 Kelp DAO 以 LayerZero 打造的跨鏈橋遭駭、被盜走 116,500 枚 rsETH（當時約值 2.92 億美元），事件引發各專案接連展開資安檢討並出走，早期包含 Kelp、Solv Protocol、Re 與加密交易所 Kraken，本月稍早託管商 BitGo 再把約 77 億美元的包裝比特幣（wrapped bitcoin，WBTC）移轉至 CCIP，使累計金額逼近 150 億美元。對數位資產基礎設施而言，一個規模雖小卻由美國州政府背書的穩定幣以資安為由換軌，凸顯跨鏈橋接的安全性正成為穩定幣與代幣化資產能否被主流與公部門採用的關鍵變數。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Wyoming joins $15 billion LayerZero exodus with state stablecoin move",
-            "url": "https://www.coindesk.com/business/2026/08/18/wyoming-joins-usd15-billion-layerzero-exodus-with-state-stablecoin-move"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-18",
-        "title": "美國 SEC 突襲式提出「加密資產監理規則」（Regulation Crypto Assets），為數位資產訂定首套永久性聯邦規則",
-        "paras": [
-          "美國證券交易委員會（SEC）8 月 18 日無預警發布「加密資產監理規則」（Regulation Crypto Assets）提案，要成為聯邦層級首套永久規範數位資產發行的規則；此前 SEC 才臨時取消原訂 8 月 14 日的表決會議。提案設兩條發行軌道：一是四年內一次性募集上限 500 萬美元，二是每年可募集上限 7,500 萬美元，兩者都要求發行人向投資人提供原則導向的敘述性揭露，第二條軌道還須附財務報表並持續申報。",
-          "規則同時讓部分加密資產不必被歸類為證券法下的「投資契約」（investment contract），並在發行人完成或永久停止其承諾的核心經營作為後給予安全港（safe harbor）。SEC 主席 Atkins 強調立法仍不可或缺，才能讓規則不被未來監理者推翻；提案將公開徵詢意見 60 天。此舉正值美國市場結構法案《Digital Asset Market Clarity Act》仍在參議院卡關之際。"
-        ],
-        "sources": [
-          {
-            "name": "U.S. SEC",
-            "title": "SEC Proposes New Regulation Crypto Assets",
-            "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-24",
-            "title": "白宮與國會加速市場結構立法，CFTC 揚言必要時自建加密監理架構",
-            "body": "在 SEC 提出「加密資產監理規則」提案後，美國聯邦層級的加密立法與監理角力同步升溫。美國總統川普公開敦促國會通過「公平版本」的《市場結構法案》（CLARITY Act），加密業高層並赴白宮就剩餘爭點協商，其中最受矚目的是涉及政府官員加密資產利益的倫理條款。與此同時，美國商品期貨交易委員會（CFTC）警告，若國會遲遲未能立法，該會將動用現有職權自行建立一套加密監理架構；SEC 端則已推出首套針對加密募資的框架，納入新的豁免規定與附條件的安全港。整體顯示行政部門、國會與兩大監理機關正多線並進，加密市場結構的規則版圖仍在快速變動。"
-          }
-        ]
-      },
-      {
-        "date": "2026-08-18",
-        "title": "美國會計準則委員會 FASB 提案，將符合條件的穩定幣（stablecoin）認列為「約當現金」",
-        "paras": [
-          "制定美國一般公認會計原則（GAAP）的財務會計準則委員會（FASB）8 月 18 日提出草案，釐清哪些穩定幣（stablecoin）可被視為「約當現金」（cash equivalents）：只要其流動準備金至少等於流通在外代幣、準備內容每年揭露，且持有人可隨時按面額贖回為美元，即符合條件。這將使穩定幣與美國公債、商業本票、貨幣市場基金並列為高流動性的類現金資產。",
-          "FASB 自 2023 年起陸續建立加密相關會計規則，此次以釋例形式說明現行約當現金定義如何套用到特定數位資產，回應各界對穩定幣會計處理不一致的疑慮。草案尚非最終定案，公開徵詢意見至 11 月 19 日。若通過，企業將更容易把手中穩定幣直接計入現金部位，有助其滲入企業財務與支付流程。"
-        ],
-        "sources": [
-          {
-            "name": "FASB",
-            "title": "FASB Seeks Public Comment on Proposal to Clarify the Cash Equivalents Evaluation for Certain Digital Assets",
-            "url": "https://www.fasb.org/news-and-meetings/in-the-news/fasb-seeks-public-comment-on-proposal-to-enhance-cash-equivalents-disclosures-and-clarify-the-cash-equivalents-evaluation-for-certain-digital-assets-425287"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-18",
-        "title": "加密硬體錢包 Coldcard 爆種子產生漏洞，約 1,596 枚比特幣（逾 1 億美元）自 7,300 個地址遭盜",
-        "paras": [
-          "由加拿大 Coinkite 打造、主打自我保管（self-custody）的比特幣硬體錢包 Coldcard，被揭露在種子（seed）產生環節存在嚴重漏洞。問題源自 2021 年 3 月釋出的 4.0.0 版韌體：一項本應在新增亂數來源後關閉舊來源的設定，因程式只檢查該設定「是否存在」而非「開或關」，導致裝置改用較弱的軟體亂數產生器。如此一來，實際熵值（entropy）從應有的 128 位元降到約 72 位元，可能的種子數量大幅縮小，足以被攻擊者逐一嘗試破解。加密資產研究機構 Galaxy Research 高度確信，約 1,596 枚比特幣（依當時價格逾 1 億美元）在一連串攻擊中自約 7,300 個地址被盜，且至少有 15 組攻擊者在利用此漏洞，全程不需實體接觸裝置；多倫多創業者 Jonathan Goodman 即便將 Coldcard 與助記詞分別鎖在保險箱、從未連網，仍於 7 月 29 日被清空 18.25 枚比特幣。",
-          "此案凸顯自我保管並非零信任：用戶雖自行掌管私鑰，但錢包製造商是否正確產生金鑰，仍是難以查核的隱形依賴。Coldcard 的原始碼公開、標榜「不要信任，要驗證」，開發者 James O'Beirne 早在 2025 年 5 月稽核時就對亂數流程提出疑慮、卻遭 Coinkite 以「真有問題早該被發現」駁回；連事前的 AI 輔助審查與事後多個主流 AI 模型測試也都未能揪出此瑕疵，支付服務商 Block 的比特幣工程團隊事後才完整還原成因。Coinkite 已為所有受影響機型釋出修正韌體，但新版只能修好日後的種子產生、無法補強既有的弱種子，受害用戶須重新產生種子並把資金移轉至新位址。對強調去中介、自持金鑰的數位資產生態而言，這是一記關於供應鏈與程式正確性風險的重大警訊。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "How a bug in Coldcard's code went unnoticed for years, leading to $100 million in hacked funds",
-            "url": "https://www.coindesk.com/tech/2026/08/17/how-a-bug-in-coldcard-s-code-went-unnoticed-for-years-leading-to-usd100-million-in-hacked-funds"
-          },
-          {
-            "name": "Block（Bitcoin Engineering）",
-            "title": "Predictable RNG fallback and 32-bit reseed in Coldcard firmware",
-            "url": "https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware"
-          },
-          {
-            "name": "Coinkite（官方公告）",
-            "title": "Coldcard Mk3 Seed Generation Warning",
-            "url": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-21",
-            "title": "Coldcard 釋出修正韌體並揭露 AI 輔助全系統稽核，累計失竊金額上修至約 1.14 億美元",
-            "body": "Coinkite 於 8 月 21 日為 Mk4／Mk5（5.6.1 版）與 Q 機型（1.5.1Q 版）釋出修正韌體，並把此案累計失竊金額上修至約 1.14 億美元。這次改版以 AI（含 Kimi 等前沿模型）輔助稽核整個系統，額外揪出與原始亂數瑕疵無關的問題並一併修補：裝置會在簽署前即時重新核對交易內容，以防 USB 端遭挾持後竄改付款，並預設封鎖簽署後仍可竄改的簽章模式；備援亂數產生器也從 Yasmarang 換成以比特幣同款 SHA-256 為基礎的演算法，新版更要求使用者以擲骰、擲硬幣或不定間隔按鍵等實體方式提供亂數。但更新無法讓已遭破解的舊錢包恢復安全，2021 年至 2026 年 7 月間在問題韌體上產生種子的用戶仍須重新產生種子並轉移資金。Coldcard 也是三週內第五家公開表示以 AI 改變資安流程的比特幣或加密機構，同期交易所 Bybit 便稱 AI 輔助稽核找出高風險漏洞的效率約為人工的三到五倍。"
-          }
-        ]
-      },
-      {
-        "date": "2026-08-18",
-        "title": "花旗（Citi）將為機構客戶推出比特幣託管，納入 Custody+ 讓傳統資產與加密資產共用同一套保管架構",
-        "paras": [
-          "花旗集團機構基礎設施部門於 8 月 18 日發表 Custody+ 服務組合，整合託管、結算、外匯與現金管理，並宣布年內先以比特幣（bitcoin）切入加密託管，惟尚未公布正式上線日。花旗託管業務橫跨逾 100 個市場、其中 62 個市場自建託管網路，機構客戶未來可把比特幣與股票、債券放在同一家銀行保管，不必再另找加密託管商。",
-          "花旗並非首家跨入的大型金融機構：紐約梅隆（BNY）自 2022 年起為部分美國客戶提供加密託管，Fidelity Digital Assets 與 Coinbase 也早已服務機構；美國證管會（SEC）2025 年撤除使銀行保管加密資產成本偏高的 SAB 121 會計指引後，銀行進場空間明顯放寬。花旗同時強調新系統已讓逾八成託管事件即時處理、處理時間最多縮短 92%。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Citi plans to launch bitcoin custody for institutional clients later this year",
-            "url": "https://www.coindesk.com/markets/2026/08/18/citi-plans-to-launch-bitcoin-custody-for-institutional-clients-later-this-year"
-          },
-          {
-            "name": "Business Wire",
-            "title": "Citi Unveils Custody+, a Suite of Near- and Real-time Custody Solutions",
-            "url": "https://www.businesswire.com/news/home/20260818137877/en/Citi-Unveils-Custody-A-Suite-of-Near--and-Real-time-Custody-Solutions-to-Meet-Always-On-Industry-Demand"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-18",
-        "title": "Visa 尋找新的穩定幣結算夥伴，接替被 Mastercard 收購的 BVNK",
-        "paras": [
-          "據 CoinDesk 取得的文件，支付網路巨頭 Visa 正尋找一家新的穩定幣（stablecoin）結算與場外交易（OTC）夥伴，對象須在美國、加拿大、英國與新加坡等主要市場持有加密貨幣交易所牌照。這個角色原本由穩定幣基礎設施商 BVNK 擔任，但 BVNK 今年稍早已被競爭對手 Mastercard 以最高 18 億美元收購，Visa 因此必須另覓合作對象。徵求文件要求夥伴能兌換並支援多種穩定幣，並為由 Stripe、Visa 與 Mastercard 共同支持、主打多幣別的 Open USD（OUSD）穩定幣專案處理結算。",
-          "這樁夥伴洗牌凸顯穩定幣結算已成為大型卡片網路與支付業者的兵家必爭之地——目前全球穩定幣市值約 3,000 億美元。自 Stripe 於 2024 年底以 11 億美元收購穩定幣平台 Bridge 後，Visa 與 Mastercard 便加速布局以免被超車；Visa 上個月推出 Visa Stablecoin Platform，讓銀行與金融科技業者鑄造、儲存與移轉穩定幣，並以 OUSD 為首個支援幣種。BVNK 被 Mastercard 收入旗下、如今 Visa 另尋牌照齊備的結算夥伴，等於把兩大網路在穩定幣基礎設施上的競爭推向新一輪。Visa 對此不予置評。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Visa looking for new stablecoin settlement partner after BVNK sale to Mastercard",
-            "url": "https://www.coindesk.com/business/2026/08/18/visa-is-looking-for-a-new-stablecoin-settlement-partner-now-that-bvnk-is-owned-by-mastercard"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-18",
-        "title": "跨境支付網路 Thunes 攜手支付科技商 Fiserv，為其龐大商戶生態系導入即時全球付款",
-        "paras": [
-          "總部位於新加坡、自詡為全球資金流動「智能超級高速公路」的跨境支付網路 Thunes，與美國支付與金融科技供應商 Fiserv 宣布展開策略合作，將把即時跨境付款能力導入 Fiserv 的商戶生態系。依 8 月 18 日發自舊金山的公告，Fiserv 的電子商務平台、線上市集與其他商戶客戶只需完成一次系統整合，即可透過 Thunes 的 Direct Global Network，向逾 140 個國家、涵蓋 90 種貨幣的約 120 億個銀行帳戶與行動錢包即時匯款，用途涵蓋員工薪酬、帳單與供應商款項的發放。",
-          "對跨境支付基礎設施而言，這類「一次整合、全球觸及」的合作重點，在於把原本分散、耗時且不透明的國際匯款收斂為單一串接。Fiserv 旗下商戶服務（Merchant Services）握有龐大的收單與商戶客群，透過 Thunes 的清算網路，可讓中小商戶在拓展跨境業務時，取得過去多由大型銀行掌握的即時全球付款能力；Fiserv 商戶服務首席產品官 Sanjay Saraf 稱此舉能協助企業以「更快捷、透明和可預期」的方式在全球調動資金。此合作也反映支付科技商正持續透過與跨境網路業者結盟，補強即時、多幣別的全球付款版圖。"
-        ],
-        "sources": [
-          {
-            "name": "經濟日報",
-            "title": "Thunes 將支援 Fiserv 為平台提供即時全球付款服務",
-            "url": "https://money.udn.com/money/story/123828/9697708"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-25T15:55:02Z"
+  "_generated_at": "2026-08-25T18:58:05Z"
 }
