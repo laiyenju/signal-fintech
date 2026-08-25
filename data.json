@@ -70,6 +70,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-25",
+        "title": "富蘭克林坦伯頓與香港 HashKey 合作，把美國代幣化貨幣市場基金帶進亞洲",
+        "paras": [
+          "資產管理巨頭富蘭克林坦伯頓（Franklin Templeton）宣布與香港受監理的加密交易所 HashKey 合作，在亞洲分銷其旗艦代幣化貨幣市場基金 Franklin OnChain U.S. Government Money Fund。透過這項合作，亞洲投資人可經由 HashKey 平台取得這檔把美國政府貨幣市場基金份額搬上區塊鏈的產品，讓原本以美國市場為主的鏈上現金管理型基金，首度以受監理通道向亞洲客群開放。",
+          "這是傳統資產管理業者把真實世界資產（real-world assets，RWA）代幣化推向亞洲的又一步。相較於近期市場聚焦的代幣化股票，代幣化貨幣市場基金主打可在鏈上結算、近乎全天候申贖的現金管理工具，被視為機構資金進入鏈上金融的入口之一。不過此類產品在不同司法管轄區如何符合證券與基金監理、投資人適格與跨境分銷規範，仍是決定其能否放量的關鍵。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Franklin Templeton and Hashkey roll out U.S. tokenized money fund in Asia",
+            "url": "https://www.coindesk.com/business/2026/08/25/franklin-templeton-and-hashkey-roll-out-u-s-tokenized-money-fund-in-asia"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-24",
         "title": "穩定幣（stablecoin）加密卡消費單月突破 10 億美元，日常小額支付佔比升高",
         "paras": [
@@ -535,7 +552,13 @@
           }
         ],
         "social": [],
-        "context": []
+        "context": [
+          {
+            "date": "2026-08-24",
+            "title": "白宮與國會加速市場結構立法，CFTC 揚言必要時自建加密監理架構",
+            "body": "在 SEC 提出「加密資產監理規則」提案後，美國聯邦層級的加密立法與監理角力同步升溫。美國總統川普公開敦促國會通過「公平版本」的《市場結構法案》（CLARITY Act），加密業高層並赴白宮就剩餘爭點協商，其中最受矚目的是涉及政府官員加密資產利益的倫理條款。與此同時，美國商品期貨交易委員會（CFTC）警告，若國會遲遲未能立法，該會將動用現有職權自行建立一套加密監理架構；SEC 端則已推出首套針對加密募資的框架，納入新的豁免規定與附條件的安全港。整體顯示行政部門、國會與兩大監理機關正多線並進，加密市場結構的規則版圖仍在快速變動。"
+          }
+        ]
       },
       {
         "date": "2026-08-18",
@@ -645,5 +668,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-24T21:52:13Z"
+  "_generated_at": "2026-08-25T09:57:56Z"
 }
