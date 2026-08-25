@@ -67,7 +67,13 @@
       }
     ],
     "coverSocial": [],
-    "context": [],
+    "context": [
+      {
+        "date": "2026-08-25",
+        "title": "Bitwise 以 Coinbase 代幣化股票推出「自動化代幣投組」（ATP），示範代幣化股權的鏈上資產管理應用",
+        "body": "在 Coinbase 於 Base 推出代幣化美股（首批為 Apple、Nvidia、Meta、Alphabet）隔天，管理規模約 90 億美元、以加密 ETF 聞名的數位資產資產管理商 Bitwise 宣布推出「自動化代幣投組」（Automated Token Portfolios，ATP）。ATP 直接以 Coinbase 這批代幣化美股為成分，由投組技術商 Glider 依 Bitwise 設計的模型自動再平衡，讓美國以外的合格投資人把個股代幣留在自己的加密錢包，毋須透過券商買進 ETF 或基金。首批主題涵蓋 AI、機器人，以及在「七雄」之外再等權納入 SpaceX 的擴充版；投資長 Matt Hougan 形容，過去要取得專業投組模型必須把資產交給基金，ATP 則讓資產留在自己錢包、由模型主動找上門。此舉顯示代幣化股權開始長出「把股票搬上鏈重演交易」以外的資產管理應用。Bitwise 模型另納入 Microsoft、Amazon、Tesla、SpaceX 與 Sandisk 等 Coinbase 尚未代幣化的標的，被外界解讀為其後續可能擴充的線索，惟 ATP 僅限美國以外合格投資人，實際採用與各地監理適用仍待觀察。"
+      }
+    ],
     "others": [
       {
         "date": "2026-08-25",
@@ -668,5 +674,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-25T09:57:56Z"
+  "_generated_at": "2026-08-25T15:55:02Z"
 }
