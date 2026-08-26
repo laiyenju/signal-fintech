@@ -77,6 +77,23 @@
     "others": [
       {
         "date": "2026-08-25",
+        "title": "美國多州銀行公會擬自建全國性區塊鏈網路，把智慧支付、代幣化存款與穩定幣導入銀行自營基礎設施",
+        "paras": [
+          "在銀行業與加密產業於華盛頓歷經約一年的政策角力後，美國多個州級銀行公會（state banking associations）宣布，計畫共同打造一個由銀行自營（bank-run）的全國性區塊鏈網路，用以支援智慧支付（smart payments）、代幣化存款（tokenized deposits，銀行存款的數位代幣形式）與穩定幣（stablecoin，錨定法幣的數位代幣）等金融創新。此舉等於由傳統銀行體系集體出面，建立一套由銀行掌控的共享區塊鏈基礎設施，而非把相關業務讓渡給加密原生業者。",
+          "對數位資產與支付基礎設施而言，銀行公會自建區塊鏈軌道，是傳統銀行對穩定幣與代幣化浪潮的一種競爭性回應：與其依附加密業者的公有鏈，銀行選擇把代幣化存款與銀行發行的支付工具，放在自家可控、且較易銜接既有監理框架的網路上。不過目前公開資訊集中於發起意向與方向，實際參與機構、技術架構、上線時程，以及是否與既有清算體系互通等關鍵細節均尚未揭露，能否真正落地並被銀行廣泛採用仍待後續觀察。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "U.S. state banking associations plan to launch their own nationwide blockchain network",
+            "url": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-25",
         "title": "Coinbase 在自營 Base 網路推出代幣化股票，加入把股權搬上區塊鏈的競賽",
         "paras": [
           "美國最大的加密貨幣交易所 Coinbase 在其自營的以太坊 Layer 2 網路 Base 上推出代幣化股票（tokenized stocks），首批標的以美國市值最大的幾檔知名個股為主，讓用戶能在鏈上持有並交易對應真實股權的代幣。相較於此前多由加密新創或中小型平台試水，這次由交易量最大的合規交易所入場，等於把股權代幣化推向更接近主流的規模，讓「把股票搬上鏈」從邊緣實驗變成大型金融平台正面競逐的戰場。",
@@ -551,5 +568,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-25T18:58:05Z"
+  "_generated_at": "2026-08-26T00:50:39Z"
 }
