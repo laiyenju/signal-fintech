@@ -77,6 +77,28 @@
     "others": [
       {
         "date": "2026-08-25",
+        "title": "南韓最大貿易商 POSCO International 把貿易應收帳款搬上 Avalanche，深化代幣化貿易金融",
+        "paras": [
+          "南韓最大貿易商 POSCO International（浦項國際）宣布，其美國分支與貿易金融平台 Olea、資產擔保金融科技商 Intain 合作，完成一筆把真實貿易應收帳款（trade receivables，賣方交貨後、買方付款前的待收帳款）轉為數位資產的交易。這筆交易記錄於 Intain 建於 Avalanche（AVAX）之上的 Layer-1 區塊鏈；Intain 先以人工智慧比對發票、採購單、折讓單與出貨文件，完成核對後再把應收帳款驗證並登錄上鏈。此案距其上月與 LG CNS 在 Injective 上發行、移轉並結算代幣化應收帳款的試驗僅一個月。POSCO International 年營收約 222 億美元，業務橫跨鋼鐵、能源與電池材料，並在海外設有逾 80 個據點。",
+          "傳統上企業可用應收帳款向銀行融資，但買方、賣方與銀行各自保存紀錄，對帳繁瑣、放款緩慢；把應收帳款放上共享帳本，可建立單一的所有權與狀態紀錄，加快取得資金。這也顯示代幣化正從基金與債券，延伸到支付、擔保品與貿易金融等「把卡在傳統流程裡的營運資金釋放出來」的場景。POSCO、Olea 與 Intain 表示，後續將探索更多代幣化貿易金融應用，包括以穩定幣（stablecoin，錨定法幣的數位代幣）為基礎的跨境結算與數位財資（treasury）工具；不過此次交易金額與後續放量規模均未揭露，實際商用成效仍待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "South Korea trade giant POSCO brings trade receivables to Avalanche in latest tokenization move",
+            "url": "https://www.coindesk.com/business/2026/08/25/south-korea-trade-giant-posco-brings-trade-receivables-to-avalanche-in-latest-tokenization-move"
+          },
+          {
+            "name": "Intain（官方新聞室）",
+            "title": "POSCO International, Olea and Intain complete landmark on-chain trade finance transaction",
+            "url": "https://intainft.com/news/posco-international-olea-and-intain-complete-landmark-on-chain-trade-finance-transaction"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-25",
         "title": "美國多州銀行公會擬自建全國性區塊鏈網路，把智慧支付、代幣化存款與穩定幣導入銀行自營基礎設施",
         "paras": [
           "在銀行業與加密產業於華盛頓歷經約一年的政策角力後，美國多個州級銀行公會（state banking associations）宣布，計畫共同打造一個由銀行自營（bank-run）的全國性區塊鏈網路，用以支援智慧支付（smart payments）、代幣化存款（tokenized deposits，銀行存款的數位代幣形式）與穩定幣（stablecoin，錨定法幣的數位代幣）等金融創新。此舉等於由傳統銀行體系集體出面，建立一套由銀行掌控的共享區塊鏈基礎設施，而非把相關業務讓渡給加密原生業者。",
@@ -568,5 +590,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-26T00:50:39Z"
+  "_generated_at": "2026-08-26T06:54:41Z"
 }
