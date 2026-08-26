@@ -1,24 +1,41 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "tier": "watch",
-      "title": "奧丁丁集團 PayNow（立吉富線上金流）導入奧義賽博 AI 資安，強化第三方支付主動防禦",
+      "title": "Google Cloud 推出金融與法務專用 Gemini Enterprise AI 方案，主打合規與資安",
       "paras": [
-        "奧丁丁集團（OwlTing）旗下第三方支付品牌 PayNow（立吉富線上金流）宣布，導入資安業者奧義賽博（CyCraft）的 AI 資安方案，為其線上金流打造「主動防禦」機制。PayNow 表示，此舉是為因應持續升級的全球金流資安風險，以及金管會 2026 年揭示的六大監理重點，透過 AI 強化對支付流程的威脅偵測與防護。",
-        "對台灣金融科技而言，支付業者把 AI 資安導入金流核心，屬於金融資安與監理科技（RegTech）範疇，反映在數位支付規模擴大、詐騙與攻擊手法翻新之際，第三方支付與電子支付業者逐步把資安主動防禦視為基礎建設的一環。不過此次公開資訊集中於雙方合作方向，實際部署範圍、導入時程與量化成效等細節尚未揭露，後續實際部署與防護成效仍待觀察。"
+        "雲端服務商 Google Cloud 宣布推出專為金融服務與法務領域打造的 Gemini Enterprise 企業級人工智慧（AI）解決方案，整合 AI 代理、產業專屬技能與安全的資料連接器，主打解決通用型 AI 在特定產業難以滿足的合規與資安痛點，鎖定金融、法務等高度受監理的產業客戶。",
+        "對台灣金融科技而言，這反映雲端與 AI 大廠正把「產業專用、內建合規與資安」當成切入金融機構的主要賣點，呼應監理科技（RegTech）與金融資安的需求；以 AI 代理協助風控、法遵與文件處理，也逐漸成為金融業數位轉型的一環。真正的檢驗仍在後頭：此次揭露集中於產品方向，定價、實際採用的金融機構名單，以及在台落地時程都尚未公布，能否被受監理業者放心用於核心流程，還要看後續落地情況。"
       ]
     },
     "sources": [
       {
-        "name": "科技新報",
-        "title": "立吉富線上金流導入奧義賽博 AI 資安，打造電子支付主動防禦",
-        "url": "https://infosecu.technews.tw/2026/08/25/paynow-cycraft/"
+        "name": "中央社",
+        "title": "Google Cloud布局企業AI　推金融與法務解決方案",
+        "url": "https://www.cna.com.tw/news/ait/202608260271.aspx"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-26",
+        "title": "奧丁丁集團 PayNow（立吉富線上金流）導入奧義賽博 AI 資安，強化第三方支付主動防禦",
+        "paras": [
+          "奧丁丁集團（OwlTing）旗下第三方支付品牌 PayNow（立吉富線上金流）宣布，導入資安業者奧義賽博（CyCraft）的 AI 資安方案，為其線上金流打造「主動防禦」機制。PayNow 表示，此舉是為因應持續升級的全球金流資安風險，以及金管會 2026 年揭示的六大監理重點，透過 AI 強化對支付流程的威脅偵測與防護。",
+          "對台灣金融科技而言，支付業者把 AI 資安導入金流核心，屬於金融資安與監理科技（RegTech）範疇，反映在數位支付規模擴大、詐騙與攻擊手法翻新之際，第三方支付與電子支付業者逐步把資安主動防禦視為基礎建設的一環。不過此次公開資訊集中於雙方合作方向，實際部署範圍、導入時程與量化成效等細節尚未揭露，後續實際部署與防護成效仍待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "科技新報",
+            "title": "立吉富線上金流導入奧義賽博 AI 資安，打造電子支付主動防禦",
+            "url": "https://infosecu.technews.tw/2026/08/25/paynow-cycraft/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-24",
         "title": "台灣金融科技 OwlTing（奧丁丁）穩定幣支付平台連六月成長，首度洽談與台灣金融機構跨境結算合作",
@@ -57,24 +74,41 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-26",
-      "tier": "top",
-      "title": "LayerZero 推出 ATLAS 交易與結算引擎，跨足代幣化資產交易基礎設施",
+      "date": "2026-08-27",
+      "tier": "watch",
+      "title": "達拉斯聯準銀行示警：代幣化存款恐削減美國銀行約 7,000 億美元放款能力",
       "paras": [
-        "跨鏈互通協定 LayerZero 推出名為 ATLAS（Aggregated Trading Liquidity and Settlement）的交易與結算引擎，跑在其今年稍早發表的 Zero 區塊鏈上，把交易撮合、清算、結算與風險管理整合於單一系統，定位為交易所與各類平台的後端基礎設施，可支援的市場涵蓋現貨加密、永續期貨，乃至股票、債券、大宗商品與預測市場。ATLAS 本身不設面向散戶的交易介面，交易場所可在保留自有介面與客群的前提下直接串接；LayerZero 稱其 Zero 區塊鏈的合作方包括美國存管信託清算公司（DTCC）、洲際交易所（ICE）與 Google Cloud，並獲造市商 Citadel Securities 策略投資，消息帶動其原生代幣 ZRO 單日大漲逾三成。",
-        "此舉把 LayerZero 的野心從「在不同鏈之間搬移資產」延伸到「資產交易的市場本身」。隨著穩定幣（stablecoin）與代幣化把愈來愈多金融資產搬上鏈，LayerZero 主張既有市場基礎設施把撮合、清算與結算分屬不同系統，並不適合可全天候流通的資產，因而以 ATLAS 主打「中立、高效」的共用後端。系統分為兩種配置：面向加密交易與預測市場的 Open ATLAS，以及讓交易所與金融機構自訂市場規則的 Institutional ATLAS，兩者共用同一套底層引擎。ATLAS 也讓原生代幣 ZRO 與交易活動更直接掛鉤——交易場所可質押 ZRO 換取較高手續費回饋，扣除場所回饋後的手續費另有 75% 用於回購並銷毀 ZRO。這也是 LayerZero 在跨鏈橋業務歷經波折後的轉向——今年 4 月質押協定 Kelp DAO 以其技術打造的跨鏈橋遭駭、損失約 2.92 億美元後，多個專案陸續出走；ATLAS 能否取得交易場所實際採用，仍待後續觀察。"
+        "美國達拉斯聯邦準備銀行（Dallas Fed）發布研究示警，若存款人為追逐更高收益、以即時且自動化的方式在不同帳戶或機構間快速移轉資金，代幣化存款（tokenized deposits）恐使美國銀行體系的放款能力減少約 7,000 億美元。研究指出，這類可程式化、可全天候流動的存款會墊高銀行的資金成本，並讓存款基礎變得較不穩定，進而壓縮銀行可用於放貸的資金。",
+        "對金融科技基礎設施而言，這是把代幣化技術導入銀行核心存款時，被具體量化點名的潛在副作用。研究以巴西的早期數據為佐證，指當地銀行在類似的即時資金移轉環境下，已傾向持有更多流動性資產、並縮減放款。這也讓穩定幣（stablecoin）與代幣化存款推進之際，監理機關與銀行對「存款外流速度」的討論再度升溫。值得注意的是，7,000 億美元屬模型推估的情境值而非既成事實，最終衝擊多大，取決於代幣化存款實際普及到什麼程度，以及美國如何劃定相關監理界線。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
-        "url": "https://www.coindesk.com/business/2026/08/25/layerzero-unveils-trading-infrastructure-for-crypto-and-tokenized-markets-zro-surges"
+        "title": "Dallas Fed warns tokenized deposits could strip $700 billion from U.S. banks' lending capacity",
+        "url": "https://www.coindesk.com/business/2026/08/26/dallas-fed-warns-tokenized-deposits-could-strip-usd700-billion-from-u-s-banks-lending-capacity"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-26",
+        "title": "LayerZero 推出 ATLAS 交易與結算引擎，跨足代幣化資產交易基礎設施",
+        "paras": [
+          "跨鏈互通協定 LayerZero 推出名為 ATLAS（Aggregated Trading Liquidity and Settlement）的交易與結算引擎，跑在其今年稍早發表的 Zero 區塊鏈上，把交易撮合、清算、結算與風險管理整合於單一系統，定位為交易所與各類平台的後端基礎設施，可支援的市場涵蓋現貨加密、永續期貨，乃至股票、債券、大宗商品與預測市場。ATLAS 本身不設面向散戶的交易介面，交易場所可在保留自有介面與客群的前提下直接串接；LayerZero 稱其 Zero 區塊鏈的合作方包括美國存管信託清算公司（DTCC）、洲際交易所（ICE）與 Google Cloud，並獲造市商 Citadel Securities 策略投資，消息帶動其原生代幣 ZRO 單日大漲逾三成。",
+          "此舉把 LayerZero 的野心從「在不同鏈之間搬移資產」延伸到「資產交易的市場本身」。隨著穩定幣（stablecoin）與代幣化把愈來愈多金融資產搬上鏈，LayerZero 主張既有市場基礎設施把撮合、清算與結算分屬不同系統，並不適合可全天候流通的資產，因而以 ATLAS 主打「中立、高效」的共用後端。系統分為兩種配置：面向加密交易與預測市場的 Open ATLAS，以及讓交易所與金融機構自訂市場規則的 Institutional ATLAS，兩者共用同一套底層引擎。ATLAS 也讓原生代幣 ZRO 與交易活動更直接掛鉤——交易場所可質押 ZRO 換取較高手續費回饋，扣除場所回饋後的手續費另有 75% 用於回購並銷毀 ZRO。這也是 LayerZero 在跨鏈橋業務歷經波折後的轉向——今年 4 月質押協定 Kelp DAO 以其技術打造的跨鏈橋遭駭、損失約 2.92 億美元後，多個專案陸續出走；ATLAS 能否取得交易場所實際採用，仍待後續觀察。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
+            "url": "https://www.coindesk.com/business/2026/08/25/layerzero-unveils-trading-infrastructure-for-crypto-and-tokenized-markets-zro-surges"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-26",
         "title": "新韓金融攜手 Visa 試行南韓銀行原生穩定幣結算，成首家採用 Visa 企業級穩定幣基礎設施的南韓大型金融集團",
@@ -514,154 +548,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-19",
-        "title": "Ethena 攜手 FalconX 設立 10 億美元擔保信貸機制，把 USDe 儲備資產投入機構級放貸",
-        "paras": [
-          "合成美元（synthetic dollar）協定 Ethena 與數位資產主經紀商 FalconX 8 月 19 日宣布，共同設立一項規模 10 億美元的擔保信貸機制（warehouse facility），把支撐其 USDe 的儲備資產投入超額擔保（overcollateralized）的機構級放貸，用途涵蓋交易策略、企業財務管理與支付。放貸透過破產隔離的特殊目的機構（SPV）進行，由 FalconX 擔任貸款發起、服務與擔保品管理方，擔保品交由合格第三方託管機構保管，Ethena 對該機構資產享有第一順位擔保權益。",
-          "此舉意在為 USDe 的收益來源分散風險。USDe 過去主要仰賴永續期貨（perpetual futures）資金費率的「基差交易」（basis trade）獲利，但當市場對槓桿加密曝險的需求轉弱時，這類費率可能壓縮甚至轉負，收益隨之下滑。Ethena Labs 創辦人 Guy Young 表示，擔保型機構放貸是金融界規模最大且最穩定的收益來源之一，而鏈上資本至今幾乎未涉足；雙方稱這是迄今鏈上資本投入擔保機構信貸規模最大的部署之一。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Beyond crypto funding rates: Ethena diversifies USDe backing with $1 billion FalconX facility",
-            "url": "https://www.coindesk.com/business/2026/08/19/beyond-crypto-funding-rates-ethena-diversifies-usde-backing-with-usd1-billion-falconx-facility"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-19",
-        "title": "印度金融科技 Navi 首度引進外部資金，獲 Prosus 挹注 1 億美元、估值約 13 億美元並籌備 IPO",
-        "paras": [
-          "由印度 Flipkart 共同創辦人 Sachin Bansal 於 2018 年創立的班加羅爾（Bengaluru）金融科技公司 Navi 宣布，獲南非科技投資集團 Prosus 挹注 1 億美元，這是 Navi 成立以來首度引進外部機構資金，投後估值約 13 億美元。Navi 業務橫跨數位支付、放貸、保險與共同基金，其 App 目前是印度統一支付介面（UPI，Unified Payments Interface）第四大平台，僅次於 PhonePe、Google Pay 與 Paytm。",
-          "這輪估值較 Navi 在 2024 年一度設定的 20 億美元目標明顯回落，但公司財務體質已見改善：2026 會計年度營收約 309 億印度盧比（約 3.23 億美元），放貸資產管理規模約 1,300 億盧比（約 14 億美元），並在該年度第四季達成合併獲利。Navi 正籌備規模約 300 億盧比（約 3.14 億美元）的首次公開發行（IPO），此前曾於 2022 至 2023 年間中止一樁 4.4 億美元的上市計畫；此次引資被視為其重啟上市前的鋪墊。"
-        ],
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "title": "Sachin Bansal’s fintech Navi raises first outside capital with $100M Prosus investment",
-            "url": "https://techcrunch.com/2026/08/19/sachin-bansals-fintech-navi-raises-first-outside-capital-with-100m-prosus-investment/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-19",
-        "title": "匯豐與渣打完成 Swift 全新 24/7 區塊鏈帳本首筆跨行實時交易，以代幣化存款測試跨境結算",
-        "paras": [
-          "英國匯豐（HSBC）與渣打（Standard Chartered）宣布，在環球銀行金融電信協會（Swift）新推出的區塊鏈帳本（ledger）試點中完成首筆跨行實時交易。兩家銀行透過 Swift 帳本互傳付款訊息，由帳本先行對盤與淨額計算（netting），最終結算仍經既有系統完成，整個流程以代幣化存款（tokenized deposits，銀行存款的數位代幣形式）在跨境間即時發行、移轉與清償。此試點於今年 7 月宣布，橫跨六大洲、共 17 家銀行參與；Swift 為銀行共同持有的金融訊息網路，連結逾 11,500 家金融機構，每日處理逾 7.5 兆美元、約 5,300 萬則金融訊息。",
-          "此舉是 Swift 從單純「訊息傳遞」邁向「帳本結算」的關鍵一步，目的是在穩定幣（stablecoin，錨定法幣的數位代幣）與代幣化存款日益普及、區塊鏈以速度與便利驅動跨境支付變革之際維持自身競爭力。傳統跨境支付中，鏈上每一家中介銀行都須佔用流動性、推升成本並拖慢結算，改用共享帳本可讓借記與貸記同時發生。匯豐數位貨幣主管 Lewis Sun 稱此展示了銀行發行的數位貨幣如何在維持既有監理框架下跨機構互通；渣打數位資產主管 Naveen Mallela 認為代幣化存款與穩定幣互補而非競爭，預期五年內代幣化存款將構成機構批發結算的主體、穩定幣則落在零售與匯款場景。花旗（Citi）數位資產主管 Debo Sen 指出旗下 Citi Token Services 已每日處理數十億美元；OKX Europe 執行長 Erald Ghoos 則直言 Swift 若不上鏈將沒有未來。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "HSBC, Standard Chartered execute first live banking transaction on Swift’s 24/7 ledger",
-            "url": "https://www.coindesk.com/business/2026/08/19/hsbc-standard-chartered-execute-first-live-banking-transaction-on-swift-s-24-7-ledger"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-19",
-        "title": "中國數位人民幣（e-CNY）本週再增 8 家銀行接入，全年網路規模擴大約三倍",
-        "paras": [
-          "據 CoinDesk，中國人民銀行（PBOC，中國央行）本週再新增 8 家銀行接入數位人民幣（e-CNY，中國官方發行的中央銀行數位貨幣 CBDC）網路，包括平安銀行、恆豐銀行、上海銀行與杭州銀行等。加上今年以來陸續接入的機構，整體 e-CNY 網路規模較年初擴大約三倍。此舉延續官方把數位人民幣從試點推向常態化基礎設施的路線，透過將更多商業銀行納入分銷與清算體系，擴大 e-CNY 在零售與批發支付場景的可用範圍。",
-          "對數位資產與支付基礎設施而言，中國以國家力量持續擴充 CBDC 的直連銀行網路，與美國、香港等地由民間主導的穩定幣（stablecoin，錨定法幣的數位代幣）路線形成對照：一邊是央行主導、由商業銀行分銷的官方數位貨幣，一邊是私部門發行的代幣化美元與港元。隨著接入銀行家數快速累積，數位人民幣正從概念驗證邁向可規模化的清算層，未來在跨境結算與人民幣國際化上的角色值得持續觀察。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "China triples its e-CNY network in 2026 as 8 more banks join the CBDC push this week",
-            "url": "https://www.coindesk.com/business/2026/08/19/china-triples-digital-yuan-bank-roster-year-to-date-as-eight-more-banks-join-network"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-19",
-        "title": "TikTok 程式碼現 P2P 轉帳跡象，母公司字節跳動傳擴大金融服務、擬讓用戶於私訊間相互轉帳",
-        "paras": [
-          "社群短影音平台 TikTok 的程式碼中出現「點對點（P2P）付款」功能的跡象，可讓用戶透過私訊（direct message）直接相互轉帳。CoinDesk 引述彭博（Bloomberg）報導指出，該功能仍在早期開發階段、尚未進行測試，TikTok 母公司字節跳動（ByteDance）正持續在全球擴張金融服務版圖。若最終上線，等於把轉帳與收付款直接嵌入 TikTok 的訊息情境，觸及其龐大的全球用戶基礎。",
-          "對支付產業而言，擁有數億用戶的內容平台一旦內建 P2P 金流，等於在既有社群互動上疊加一層支付網路，與微信支付、Cash App、PayPal 等「訊息＋金流」模式看齊。不過目前僅止於程式碼跡象與早期開發，尚無官方時程或落地市場；各國支付牌照、資金保管要求等監理路徑與商業模式，仍有待字節跳動進一步揭露。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "TikTok code includes peer-to-peer payments over messaging: Bloomberg",
-            "url": "https://www.coindesk.com/business/2026/08/19/tiktok-code-includes-peer-to-peer-payments-over-messaging-bloomberg"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-19",
-        "title": "Ripple 首度公開發債募 2.75 億美元，加碼旗下機構級主經紀商 Ripple Prime",
-        "paras": [
-          "據 CoinDesk，區塊鏈支付公司 Ripple 透過發行優先順位債券（senior notes）募得 2.75 億美元，為公司首次公開發債。所得資金將用於擴充其主經紀商（prime brokerage）業務 Ripple Prime，支應美國清算、融資與一般營運需求。Ripple Prime 是 Ripple 於 2025 年收購機構級經紀商 Hidden Road 後改組而來，據 CoinDesk，自更名以來其營收已成長至原本的三倍。",
-          "此舉再度顯示加密與傳統金融基礎設施持續融合：Ripple 以傳統債券市場籌資，投入面向機構客戶的清算與融資服務，切入原本由傳統主經紀商主導的領域。對數位資產基礎設施而言，一家以跨境支付與穩定幣起家的公司透過發債擴張機構業務，反映機構級加密金融服務的需求與資本投入正同步升溫。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Ripple raises $275 million in senior notes for prime brokerage push",
-            "url": "https://www.coindesk.com/business/2026/08/19/ripple-raises-usd275-million-in-debut-debt-offering-for-its-prime-brokerage-arm"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-19",
-        "title": "Kraken 為歐洲客戶新增逾 7,000 檔美股直接交易，成首家單一平台同售真實美股與代幣化版本的加密交易所",
-        "paras": [
-          "美國加密交易所 Kraken（由母公司 Payward 營運）宣布，為歐洲經濟區（EEA）客戶新增逾 7,000 檔美國上市股票的直接交易，並成為首家在單一受監理平台上、同時提供傳統美股與其代幣化（tokenized）版本的加密原生交易所。用戶可自行選擇以傳統或代幣化形式持有同一標的，無須搬移資金或更換平台；此舉讓 Kraken 直接與 Interactive Brokers、eToro 等傳統券商，以及提供代幣化股票的加密平台正面競爭。",
-          "這是加密與傳統金融（TradFi）界線持續模糊的一環：一方面倫敦、紐約等傳統交易所走向 24 小時交易與區塊鏈結算，另一方面 Coinbase 已取得英國核准可在加密之外提供股票與衍生品、Crypto.com 推出代幣化股票衍生品、Robinhood 在歐洲提供代幣化股票，顯示同業正競相把交易所打造成整合加密、股票與其他資產的「超級應用程式（super app）」。多位業者高層表示，驅動這股匯流的是用戶希望把更多金融生活集中於少數平台的需求。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Kraken adds U.S. stocks in Europe as TradFi-crypto divide blurs",
-            "url": "https://www.coindesk.com/markets/2026/08/18/kraken-adds-u-s-stocks-in-europe-as-tradfi-crypto-divide-blurs"
-          },
-          {
-            "name": "Kraken（官方公告）",
-            "title": "Announcing US-listed stock trading for EEA customers",
-            "url": "https://blog.kraken.com/product/equities/announcing-us-listed-stock-trading-for-eea-customers"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-19",
-        "title": "Stripe 逾 70 億美元收購 AI 模型路由平台 OpenRouter，跨足「AI 經濟基礎設施」",
-        "paras": [
-          "支付巨頭 Stripe 於 2026 年 8 月 19 日宣布，同意收購 AI 模型路由（model routing）新創 OpenRouter；Stripe 官方新聞稿未揭露金額，TechCrunch 等外電引述消息指交易額逾 70 億美元、一說約 75 億美元。OpenRouter 提供單一介面，讓開發者在來自 80 多家供應商、逾 400 種 AI 模型之間，依任務複雜度、價格、速度與穩定性，動態挑選並調度請求與 token 用量。Stripe 執行長 Patrick Collison 表示，token 已成為企業打造 AI 的核心「貨幣」，公司要建立「AI 時代的經濟基礎設施」，協助商家透過智慧路由更有效率地花用 token、提升獲利。",
-          "對金融科技產業而言，這是支付與金流基礎設施龍頭把版圖延伸到 AI 成本與計費層的一步：Stripe 將以 OpenRouter 的路由能力補強既有的 Token Billing 計費產品，等於在「幫商家收錢」之外，再切入「幫商家管好 AI 開支」。此案傳出的金額約為 OpenRouter 三個月前 B 輪投後估值約 13 億美元的五倍餘，反映市場對 AI 基礎設施整併的高度定價；不過確切金額未經 Stripe 正式揭露，整合成效與對支付本業的實際綜效仍待後續觀察。"
-        ],
-        "sources": [
-          {
-            "name": "Stripe",
-            "title": "Stripe agrees to acquire OpenRouter to help businesses optimize token routing and usage",
-            "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-openrouter"
-          },
-          {
-            "name": "TechCrunch",
-            "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-26T15:52:07Z"
+  "_generated_at": "2026-08-26T19:00:44Z"
 }
