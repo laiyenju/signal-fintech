@@ -77,6 +77,23 @@
     "others": [
       {
         "date": "2026-08-26",
+        "title": "Revolut 推出自有歐元穩定幣 EURR，先於丹麥、波蘭、葡萄牙試點後整合進零售 App",
+        "paras": [
+          "擁有逾 8,000 萬零售客戶、上月員工持股出售估值達 1,150 億美元的歐洲最大金融科技公司 Revolut，發布自有歐元擔保穩定幣（stablecoin）EURR，先向丹麥、波蘭、葡萄牙的部分客戶開放，之後再更廣泛整合進零售 App。Revolut 表示旗下已有逾 1,600 萬名用戶使用加密資產，若全面整合，等於把歐元計價的鏈上資產直接帶到一般消費者早已用於日常銀行業務的入口。",
+          "雖掛 Revolut 品牌，EURR 實際由 Stripe 旗下的 Bridge 依 MiCA 規範發行，該發行方取得電子貨幣機構（EMI）資格並受盧森堡監理機關監督。代幣可按面值贖回，儲備存放於分離帳戶，並在 Ethereum 與 Polygon 上各有智能合約。目前歐元穩定幣僅佔逾 3,000 億美元穩定幣市場不到 8 億美元，Revolut 龐大的用戶基礎為這個仍偏小的市場提供了罕見的主流分銷渠道。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Euro stablecoins get a mainstream push as Revolut begins rolling out EURR in Europe",
+            "url": "https://www.coindesk.com/business/2026/08/26/euro-stablecoins-get-a-mainstream-push-as-revolut-begins-rolling-out-eurr-in-europe"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-26",
         "title": "日本擬建國家級區塊鏈證券結算系統，把央行準備金代幣化為批發型 CBDC，股票與公債結算縮至近乎即時",
         "paras": [
           "據日經（Nikkei）報導，日本金融廳（FSA）、財務省與日本銀行（BOJ，日本央行）將偕主要金融機構，共同開發一套國家級、以區塊鏈為基礎的股票與日本公債（JGB）結算基礎設施。三方預計今夏成立工作小組、最快 2027 年初展開作業，若審核與測試順利，新系統可望於 2030 年代初上線。核心做法是讓銀行把存放於日本央行的部分準備金帳戶餘額轉換為數位代幣，作為僅限金融機構之間使用的「批發型央行數位貨幣」（wholesale CBDC）。",
@@ -87,6 +104,23 @@
             "name": "CoinDesk",
             "title": "Japan targets early 2030s launch for blockchain-based stock and bond settlement system",
             "url": "https://www.coindesk.com/business/2026/08/26/japan-plans-blockchain-settlement-network-for-stocks-and-government-bonds"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-25",
+        "title": "加密基礎設施商 Zerohash 二度叩關 OCC 信託銀行牌照，改採範圍更窄的申請",
+        "paras": [
+          "Zerohash 為 Morgan Stanley 旗下 E*Trade、BlackRock、Stripe、Franklin Templeton、Interactive Brokers 與 DraftKings 等提供加密基礎設施。在美國通貨監理署（OCC）上月退回其首次全國信託銀行牌照申請後，該公司迅速提出第二次申請；OCC 退件意味首次申請存在實質缺失，而 Zerohash 表示新申請聚焦範圍明顯縮小、更貼合其預定的業務推出時程。目前申請已進入 OCC 審查，公眾意見徵詢期開放至 9 月 17 日。",
+          "近期多家加密原生公司取得初步信託牌照、兩家遭否決，而 Zerohash 是唯一被退回者。該公司本身已是州級信託銀行，若取得全國信託牌照，將強化其作為傳統金融機構加密後台的地位；此外，其前法遵長在加州提出不當解僱訴訟，主張在揭露多項法遵問題後遭解職，為這次叩關增添變數。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Zerohash back for second effort at OCC trust bank charter",
+            "url": "https://www.coindesk.com/policy/2026/08/25/zerohash-back-for-second-effort-at-occ-trust-bank-charter"
           }
         ],
         "social": [],
@@ -607,5 +641,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-26T09:51:23Z"
+  "_generated_at": "2026-08-26T12:57:53Z"
 }
