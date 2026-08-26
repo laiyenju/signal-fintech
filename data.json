@@ -76,6 +76,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-26",
+        "title": "日本擬建國家級區塊鏈證券結算系統，把央行準備金代幣化為批發型 CBDC，股票與公債結算縮至近乎即時",
+        "paras": [
+          "據日經（Nikkei）報導，日本金融廳（FSA）、財務省與日本銀行（BOJ，日本央行）將偕主要金融機構，共同開發一套國家級、以區塊鏈為基礎的股票與日本公債（JGB）結算基礎設施。三方預計今夏成立工作小組、最快 2027 年初展開作業，若審核與測試順利，新系統可望於 2030 年代初上線。核心做法是讓銀行把存放於日本央行的部分準備金帳戶餘額轉換為數位代幣，作為僅限金融機構之間使用的「批發型央行數位貨幣」（wholesale CBDC）。",
+          "此舉意在加快結算並留住資金：東京股市目前為成交後兩個營業日（T+2）交割、公債為次日（T+1），新基礎設施可將兩者縮短至近乎即時，讓投資人幾乎可即刻再投資。在美國與歐洲競相以代幣化（tokenization）改造資本市場、華爾街推動全天候代幣化股票之際，日本若不跟進恐流失機構與外資；野村（Nomura）與 Laser Digital 4 月調查亦顯示，近八成日本機構投資人計畫三年內配置加密資產。此計畫已有基礎：三菱日聯（MUFG）本月稍早宣布正以 Canton Network 測試公債鏈上結算的概念驗證（PoC），MUFG、三井住友（SMBC）與瑞穗（Mizuho）三大行也已在進行代幣化股票與公債的試點。日本央行則在 3 月擴大其區塊鏈結算沙盒，並參與國際清算銀行（BIS）跨境代幣化支付的 Project Agorá。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Japan targets early 2030s launch for blockchain-based stock and bond settlement system",
+            "url": "https://www.coindesk.com/business/2026/08/26/japan-plans-blockchain-settlement-network-for-stocks-and-government-bonds"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-25",
         "title": "南韓最大貿易商 POSCO International 把貿易應收帳款搬上 Avalanche，深化代幣化貿易金融",
         "paras": [
@@ -590,5 +607,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-26T06:54:41Z"
+  "_generated_at": "2026-08-26T09:51:23Z"
 }
