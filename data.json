@@ -77,6 +77,28 @@
     "others": [
       {
         "date": "2026-08-26",
+        "title": "新韓金融攜手 Visa 試行南韓銀行原生穩定幣結算，成首家採用 Visa 企業級穩定幣基礎設施的南韓大型金融集團",
+        "paras": [
+          "南韓五大金融集團之一的新韓金融集團（Shinhan Financial Group）宣布，將與 Visa 合作建置穩定幣（stablecoin，錨定法幣的數位代幣）基礎設施，並開發 AI 驅動的支付模式。據南韓媒體 FNNews 報導，新韓將採用 Visa 於今年 7 月推出的企業級穩定幣平台，驗證發行、匯款與贖回等核心功能，並共同設計專屬南韓市場的商業模式。這是南韓頂級金融集團首度正式採用 Visa 的企業級穩定幣基礎設施、測試一套完整的境內結算堆疊，也讓 Visa 在南韓的銀行原生（bank-native）穩定幣結算基礎設施上，取得領先 Mastercard 的先機。",
+          "雙方另規劃試點，把穩定幣整合進銀行卡支付結算，並擴大企業對企業（B2B）與企業對消費者（B2C）支付場景。新韓金融集團董事長 Jin Ok-dong 表示，將結合新韓的金融能力與 Visa 的全球基礎設施，共同設計新的未來金融模式。此案適逢南韓推進涵蓋穩定幣、虛擬資產服務商（VASP）發照與加密 ETF 的《數位資產基本法》（Digital Asset Basic Act）之際；管理資產約 134 兆韓元（約 1,000 億美元）的新韓近期在數位資產布局動作頻頻，其資產管理部門本月稍早與 Solana 基金會、Etherfuse、Orca 簽署四方協議，測試以韓元計價的代幣化基金。新韓也曾於 4 月與 Solana 合作試行穩定幣支付系統，此次與 Visa 的合作則把重心移向以卡片網路為底的境內結算堆疊；完整結算範圍與各項試點的實測成效仍待後續揭露。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Shinhan and Visa team up to test stablecoin issuance and B2B settlements in South Korea",
+            "url": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure"
+          },
+          {
+            "name": "FNNews",
+            "title": "Shinhan Financial, Visa to jointly build stablecoin infrastructure",
+            "url": "https://en.fnnews.com/news/202608260930143481"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-26",
         "title": "Revolut 推出自有歐元穩定幣 EURR，先於丹麥、波蘭、葡萄牙試點後整合進零售 App",
         "paras": [
           "擁有逾 8,000 萬零售客戶、上月員工持股出售估值達 1,150 億美元的歐洲最大金融科技公司 Revolut，發布自有歐元擔保穩定幣（stablecoin）EURR，先向丹麥、波蘭、葡萄牙的部分客戶開放，之後再更廣泛整合進零售 App。Revolut 表示旗下已有逾 1,600 萬名用戶使用加密資產，若全面整合，等於把歐元計價的鏈上資產直接帶到一般消費者早已用於日常銀行業務的入口。",
@@ -641,5 +663,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-26T12:57:53Z"
+  "_generated_at": "2026-08-26T15:52:07Z"
 }
