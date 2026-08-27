@@ -20,6 +20,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-27",
+        "title": "台灣數位保險睽違一年重啟後首破蛋，兩業者遞件申設產險與壽險各一家",
+        "paras": [
+          "金管會 27 日證實，繼去年 8 月重新開放「數位保險公司」申設後，近一年來首度有業者正式遞件，兩件申請案分別瞄準數位壽險與數位產險，各為一家。這代表台灣純網保（僅以數位通路提供保險）從政策開放邁入實質推進的第一步，也將補齊繼純網銀之後的另一塊數位金融拼圖。",
+          "對台灣金融科技而言，數位保險公司將檢驗以線上核保、AI 定價、API 對接主流通路等「保險科技（InsurTech）」商業模式，能否在既有壽險與產險巨頭主導的市場中站穩腳步。目前兩家申請人身分、股東結構、資本規模與最終商品皆未揭露，金管會後續審查標準與發照時程也尚未公布，能否真正形成純網保生態圈仍待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "經濟日報",
+            "title": "等了一年…數位保險終破蛋！兩業者正式遞件 產壽各一家",
+            "url": "https://money.udn.com/money/story/5613/9718514"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-26",
         "title": "奧丁丁集團 PayNow（立吉富線上金流）導入奧義賽博 AI 資安，強化第三方支付主動防禦",
         "paras": [
@@ -110,6 +127,23 @@
         "context": []
       },
       {
+        "date": "2026-08-27",
+        "title": "南韓資管巨頭 Mirae Asset 收購 Digital X 切入加密事業，2027 年前瞄準 1,090 億美元規模",
+        "paras": [
+          "南韓最大資產管理集團 Mirae Asset Financial Group 透過旗下 Digital X 公司切入加密資產、穩定幣（stablecoin）、實體資產代幣化（RWA）與證券型代幣發行（STO）等業務，並設下 2027 年前讓 Digital X 開始獲利、成為集團未來成長主力的目標，事業規模瞄準 1,090 億美元。這代表南韓傳統大型資管業者從邊緣試水加密資產，升級為正式的集團戰略布局。",
+          "對亞洲金融科技版圖而言，這是繼新韓金融攜手 Visa 發行南韓銀行原生穩定幣、以及 POSCO International 把貿易應收帳款搬上 Avalanche 之後，又一起主流南韓金融機構把代幣化與加密資產納入核心業務的動作。後續要看的是南韓虛擬資產用戶保護法對機構級加密業務的細則、Digital X 的產品線與資本配置——這些目前皆未揭露，成敗仍取決於監理配合度與集團實際投入的節奏。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Mirae Asset eyes $109 billion crypto empire after acquiring Digital X",
+            "url": "https://www.coindesk.com/business/2026/08/27/mirae-asset-eyes-usd109-billion-crypto-empire-after-acquiring-digital-x"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-26",
         "title": "LayerZero 推出 ATLAS 交易與結算引擎，跨足代幣化資產交易基礎設施",
         "paras": [
@@ -177,6 +211,23 @@
             "name": "CoinDesk",
             "title": "Japan targets early 2030s launch for blockchain-based stock and bond settlement system",
             "url": "https://www.coindesk.com/business/2026/08/26/japan-plans-blockchain-settlement-network-for-stocks-and-government-bonds"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-26",
+        "title": "美國 SEC 重啟投顧加密資產託管規則制定，前朝未能落地的修法再度擺上檯面",
+        "paras": [
+          "美國證券交易委員會（SEC）正重新啟動 2023 年一度提出、但在前任主席任內未能推行的加密資產託管規則制定，鎖定投資顧問（investment advisers）能把客戶的加密資產放在哪些機構。SEC 目前對新版方向仍高度保密，只透露會延續「窄化託管範圍、限定合格保管機構」的核心思路。",
+          "對加密基礎設施而言，這條規則將直接改寫美國專業投顧、資產管理公司與家族辦公室管理加密投組時的合規選項，也可能重新劃分 Coinbase Custody、BitGo、Anchorage、Copper 等專業託管商與傳統銀行託管的角色分配。真正的檢驗仍在後頭：SEC 尚未公布正式規則草案、公眾諮詢與生效時程，若最終比照 2023 年方向採「窄範圍合格託管人」定義，將直接影響哪些機構有資格保管客戶加密資產、投顧能否繼續使用非銀行加密託管商。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "SEC resurrecting U.S. crypto custody rule the previous administration failed to land",
+            "url": "https://www.coindesk.com/news-analysis/2026/08/26/sec-resurrecting-u-s-crypto-custody-rule-the-previous-administration-failed-to-land"
           }
         ],
         "social": [],
@@ -568,5 +619,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-27T09:52:23Z"
+  "_generated_at": "2026-08-27T13:02:15Z"
 }
