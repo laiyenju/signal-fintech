@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-28",
+      "date": "2026-08-29",
       "tier": "watch",
       "title": "本日觀察：台灣今日無明確金融科技重點新聞",
       "paras": [
-        "過去 24 小時內，台灣財經與科技媒體以銀行上半年獲利、台股 ETF 收盤創新高、房貸逾放申報回溯更正、券商授信倍數與例行專案金檢裁罰等一般財經內容為主，缺乏以科技、數位產品或新型金融基礎設施為核心的重點事件，因此今日不另立「本日最重點」，改以觀察方式記錄。",
-        "先前一則 Google Cloud 針對金融與法務推出 Gemini Enterprise 企業級 AI 方案的觀察，已改列本週要聞持續追蹤；數位保險申設、第三方支付資安與穩定幣（stablecoin）跨境結算等既有題材同樣列於追蹤清單，待出現具體且可查證的新進展再行更新。"
+        "過去 24 小時內，台灣財經與科技媒體多聚焦於升息預期、台股與半導體族群行情，以及金融機構上半年獲利、ETF 定期定額等一般財經題材，缺乏以科技、數位產品或新型金融基礎設施為核心的重點事件，因此今日不另立「本日最重點」，改以觀察方式記錄。",
+        "數位保險申設、第三方支付資安、金管會與印度 IFSCA 金融科技監理合作，以及奧丁丁（OwlTing）穩定幣（stablecoin）跨境結算等既有題材，仍列於本週要聞持續追蹤，待出現具體且可查證的新進展再行更新。"
       ]
     },
     "sources": [],
@@ -102,19 +102,19 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-28",
-      "tier": "top",
-      "title": "資產管理巨頭 Vanguard 擬約 40 億美元收購理財顧問科技平台 Altruist，加碼財富管理數位基礎設施",
+      "date": "2026-08-29",
+      "tier": "watch",
+      "title": "本日觀察：AI 私募市場管理平台 Standard Metrics 完成 2,000 萬美元 B 輪",
       "paras": [
-        "美國資產管理巨頭 Vanguard 宣布與理財顧問科技平台 Altruist 達成協議，將收購對方；外電引述華爾街日報指交易金額約 40 億美元，預計今年稍晚完成。Altruist 是一個以 AI 為核心、面向理財顧問的財富科技與資產保管（custody）平台，把自清算（self-clearing）券商業務與開戶、下單、投組管理、計費與報表等軟體整合為單一數位環境；Vanguard 早在 2020 年即已入股，收購後 Altruist 仍將以獨立品牌營運。",
-        "對金融科技而言，這是大型資產管理公司透過併購、直接把顧問端的財富科技與保管基礎設施納入自家版圖的訊號，凸顯財富管理科技（wealthtech）與保管平台正加速整併。不確定性仍多：交易尚待監理核准、預計今年稍晚才交割，Altruist 併入 Vanguard 後能否維持中立、續為競爭對手的顧問提供服務，以及對既有保管與券商業者帶來多大競爭衝擊，都有待觀察。"
+        "面向創投與私募股權的投組管理平台 Standard Metrics 宣布完成 2,000 萬美元的 B 輪募資，由創投機構 8VC 領投，Salesforce Ventures、Spark Capital 等參與。這個以人工智慧（AI）為核心的私募市場（private markets）平台，目前已服務逾 150 家、合計管理逾 4,000 億美元資產的機構，涵蓋逾 10,000 家被投公司。平台功能橫跨投組檢視、估值、盡職調查與 AI 文件解析，並提供名為 AI Analyst 的分析助手與 MCP（Model Context Protocol）互通。",
+        "對金融科技而言，這反映長期仰賴試算表與人工作業的創投與私募股權（PE）後台，正加速導入 AI 與標準化資料介面：把估值、報告與盡職調查整併到單一平台、再以 AI 代理與 MCP 串接，被視為財富與資產管理科技（wealthtech）向私募領域延伸的一環。此輪募資規模相對有限，屬值得留意、但尚非當日最重大的產業動態，實際採用深度、AI 工具可靠度，以及能否擴及更大型機構，都仍待後續驗證。"
       ]
     },
     "sources": [
       {
-        "name": "Coverager",
-        "title": "Vanguard to acquire Altruist",
-        "url": "https://coverager.com/vanguard-to-acquire-altruist/"
+        "name": "PR Newswire",
+        "title": "AI-driven portfolio management platform Standard Metrics raises $20M to supercharge private markets innovation",
+        "url": "https://www.prnewswire.com/news-releases/ai-driven-portfolio-management-platform-standard-metrics-raises-20m-to-supercharge-private-markets-innovation-302856929.html"
       }
     ],
     "coverSocial": [],
@@ -154,6 +154,23 @@
             "name": "SBI Holdings",
             "title": "SBI Holdings news release (2026-08-28)",
             "url": "https://www.sbigroup.co.jp/english/news/pdf/2026/0828_c_en.pdf"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-28",
+        "title": "資產管理巨頭 Vanguard 擬約 40 億美元收購理財顧問科技平台 Altruist，加碼財富管理數位基礎設施",
+        "paras": [
+          "美國資產管理巨頭 Vanguard 宣布與理財顧問科技平台 Altruist 達成協議，將收購對方；外電引述華爾街日報指交易金額約 40 億美元，預計今年稍晚完成。Altruist 是一個以 AI 為核心、面向理財顧問的財富科技與資產保管（custody）平台，把自清算（self-clearing）券商業務與開戶、下單、投組管理、計費與報表等軟體整合為單一數位環境；Vanguard 早在 2020 年即已入股，收購後 Altruist 仍將以獨立品牌營運。",
+          "對金融科技而言，這是大型資產管理公司透過併購、直接把顧問端的財富科技與保管基礎設施納入自家版圖的訊號，凸顯財富管理科技（wealthtech）與保管平台正加速整併。不確定性仍多：交易尚待監理核准、預計今年稍晚才交割，Altruist 併入 Vanguard 後能否維持中立、續為競爭對手的顧問提供服務，以及對既有保管與券商業者帶來多大競爭衝擊，都有待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "Coverager",
+            "title": "Vanguard to acquire Altruist",
+            "url": "https://coverager.com/vanguard-to-acquire-altruist/"
           }
         ],
         "social": [],
@@ -554,64 +571,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-21",
-        "title": "Coinbase 取得阿布達比 FSRA 金融服務許可，設立資產代幣化樞紐",
-        "paras": [
-          "Coinbase 已獲阿拉伯聯合大公國阿布達比全球市場（ADGM）金融服務監管局（FSRA）核發金融服務許可（FSP），將於阿布達比設立據點，並把當地打造為資產代幣化（tokenization）業務樞紐。取得許可後，Coinbase 可在受監理架構下，於中東市場推展數位資產與資產代幣化相關服務。",
-          "對金融科技產業而言，這是主要加密交易所以正式牌照切入中東、以代幣化為核心布局區域基礎設施的一步。阿布達比近年積極以明確監理招攬數位資產業者，Coinbase 落地將強化其在當地的合規與資產代幣化能力；惟樞紐實際業務規模與服務範圍仍待後續揭露。"
-        ],
-        "sources": [
-          {
-            "name": "科技新報",
-            "title": "Coinbase 獲 FSRA 發出金融服務許可，於阿布達比設立代幣化樞紐",
-            "url": "https://finance.technews.tw/2026/08/20/coinbase-gets-fsra-financial-services-license-establishes-tokenization-hub-abu-dhabi/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-21",
-        "title": "野村（Nomura）旗下 Laser Digital 取得日本四年來首張加密資產交易服務商註冊，搶進機構級數位資產市場",
-        "paras": [
-          "由日本最大投資銀行野村控股（Nomura）支持的數位資產公司 Laser Digital 宣布，其日本子公司已取得「加密資產交易服務商」（crypto asset exchange service provider）註冊，成為四年來日本首家新獲此登記的業者。Laser Digital 於 2025 年 10 月啟動在日本的申請程序，初期將先為日本境內的虛擬資產服務商（VASP）提供流動性服務，之後再擴展到面向機構投資人的數位資產交易，惟正式上線時程與完整服務範圍尚未公布。",
-          "此註冊正值日本準備把加密資產納入金融商品監理框架之際：日本已於一個月前把加密貨幣重新分類為「金融商品」，為加密貨幣 ETF 與加密資產分離課稅奠定法律基礎，新制預計 2027 年上路。Laser Digital 執行長 Jez Mohideen 表示，日本數位資產市場正邁向成熟新階段，機構投資人對可信賴交易對手與專屬基礎設施的需求升高；野村與 Laser Digital 今年一項調查亦顯示，79% 受訪者計畫在三年內投資加密資產。對數位資產基礎設施而言，大型傳統銀行以正式牌照切入機構級加密服務，是傳統金融與加密融合的又一指標。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Nomura-backed Laser Digital wins Japan's first crypto approval in four years",
-            "url": "https://www.coindesk.com/policy/2026/08/21/nomura-backed-laser-digital-wins-japan-s-first-crypto-approval-in-four-years"
-          },
-          {
-            "name": "Laser Digital（官方新聞室）",
-            "title": "Laser Digital Japan receives regulatory approval to provide institutional crypto asset services in Japan",
-            "url": "https://www.laserdigital.com/newsroom/laser-digital-japan-receives-regulatory-approval-to-provide-institutional-crypto-asset-services-in-japan"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-21",
-        "title": "Ripple 聯手 Clearpool、Cicada 設立 RLUSD 機構信貸基金，向 XRPL 上金融科技與支付業者放貸營運資金",
-        "paras": [
-          "Ripple 宣布支持一檔新的機構級信貸基金，與借貸平台 Clearpool、信貸管理商 Cicada Partners 合作，向 XRP Ledger 上的金融科技與支付公司發放以其穩定幣（stablecoin）RLUSD 計價的營運資金貸款。分工上，Cicada 負責尋找借款人、訂定貸款條件與監控信用風險，並同時擔任基金普通合夥人與信貸池管理人；Clearpool 負責建立並管理借貸池的基礎設施；Ripple 則以有限合夥人身分、與其他機構同等條件出資，並不對虧損提供擔保。基金規模與 Ripple 出資額均未揭露；Cicada 稱累計已承作逾 8.6 億美元信貸，Clearpool 則稱自 2021 年以來已促成逾 9.3 億美元機構貸款。",
-          "借款人以 RLUSD 收款、也以 RLUSD 還款，會為 Ripple 這款錨定美元的穩定幣創造需求，並把借貸活動導入 XRP Ledger；XRP 本身不作為放貸標的，僅用於支付鏈上交易手續費與帳戶最低餘額。不過整套機制目前尚未在 XRP Ledger 主網上線。Clearpool 仍在開發網路上測試整合，支撐產品的兩項帳本功能——借貸協定 XLS-66 與單一資產金庫 XLS-65——仍在網路的修訂投票程序中。此案正值 XRP 因美國財政部加倍公債回購帶動的廣泛行情而走強，惟產品能否落地，仍取決於上述帳本功能是否通過表決啟用。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Ripple backs an RLUSD credit fund amid XRP's best week in months",
-            "url": "https://www.coindesk.com/markets/2026/08/21/ripple-backs-an-rlusd-credit-fund-amid-xrp-s-best-week-in-months"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-28T15:50:11Z"
+  "_generated_at": "2026-08-28T18:51:08Z"
 }
