@@ -122,6 +122,23 @@
     "others": [
       {
         "date": "2026-08-28",
+        "title": "加密託管商 BitGo 以 4,250 萬美元加碼收購 NYDIG 機構交易業務，跨入衍生品與資本市場服務",
+        "paras": [
+          "加密貨幣託管專業商 BitGo 宣布，將收購比特幣導向金融公司 NYDIG（New York Digital Investment Group）的機構交易業務（NYDIG IF Holdings），總對價約 4,250 萬美元，由 700 萬美元現金與約 3,550 萬美元股票組成，另有 1,500 萬美元現金依營收里程碑達成與否計付（earnout）。依 8 月 27 日一份美國證券交易委員會（SEC）申報，這樁交易將把 BitGo 原本以託管、結算與錢包為主的業務，延伸到衍生性商品、結構型商品、融資等資本市場服務。BitGo 並就發行給 NYDIG 的股票授予登記權，同時對轉入員工發放限制型股票單位與現金留任獎勵。",
+          "BitGo 是 2026 年首家完成首次公開發行（IPO）的加密公司，當時以每股 18 美元募得約 2.128 億美元、估值略高於 20 億美元，但在目前低迷的加密行情下股價已跌至約 7 美元。機構衍生品數據商 Block Scholes 研究主管 Andrew Melville 表示，本輪加密週期由機構資金而非純散戶需求驅動，既有加密業者必須順應機構客戶需求，無論是服務機構、把傳統金融資產代幣化，或推動穩定幣（stablecoin）支付軌道與鏈上真實資產衍生品交易。NYDIG 執行長 Tejas Shah 稱其交易業務在衍生品與融資能力上具備成熟執行力，與 BitGo 的數位資產基礎設施互補。相較於同日傳出的 Vanguard 擬 40 億美元收購財富科技平台 Altruist，這是一樁金額精巧得多、方向卻相反的併購——由加密原生業者反向補進衍生品與融資等傳統資本市場能力，也印證分析師所稱本輪由機構資金驅動、既有加密業者須改造自身以服務機構客戶的走向。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "BitGo to buy NYDIG trading arm for $42.5M in cash and stock plus $15M earnout",
+            "url": "https://www.coindesk.com/business/2026/08/28/bitgo-to-buy-nydig-trading-arm-for-usd42-5m-in-cash-and-stock-plus-usd15m-earnout"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-28",
         "title": "日本 SBI 斥資 2.7 億美元入股印尼券商 Ajaib，加速把日圓穩定幣與跨境結算基礎設施推向東南亞",
         "paras": [
           "日本大型金融集團 SBI Holdings 宣布，將於本月底前以約 2.7 億美元入股印尼主要線上券商 Ajaib Group。此舉是 SBI 把旗下日圓計價穩定幣（stablecoin）JPYSC 推向東南亞、並以區塊鏈打造跨境結算基礎設施策略的一環。Ajaib 在印尼經營線上券商、外匯保證金交易、加密貨幣與資產管理業務，擁有逾 2,000 萬名散戶投資人，等於為 SBI 打開東南亞最大零售投資市場之一的門戶；這筆 2.7 億美元的募資也是印尼近年最大的科技籌資案。SBI 董事長兼社長北尾吉孝表示，在代幣化（tokenization）時代，數位資產的全球基礎設施重要性更甚以往。",
@@ -596,5 +613,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-28T12:57:39Z"
+  "_generated_at": "2026-08-28T15:50:11Z"
 }
