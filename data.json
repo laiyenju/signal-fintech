@@ -105,6 +105,23 @@
     "others": [
       {
         "date": "2026-08-27",
+        "title": "清算商 RQD* Clearing 獲 Bain Capital 領投 7,400 萬美元，加碼數位資產保管與代幣化後台基礎設施",
+        "paras": [
+          "美國清算與保管（custody）服務商 RQD* Clearing 宣布完成 7,400 萬美元募資，由私募投資機構 Bain Capital 旗下科技投資部門 Bain Capital Tech Opportunities 領投，ABN AMRO Clearing Bank 與創投 Nyca Partners 參與，屬少數股權投資。RQD* 為券商、投資顧問與經美國市場交易的海外金融機構，提供股票與選擇權交易背後的清算與保管「後台管線」，今年以來已清算約 5.15 億筆、價值近 2 兆美元的股票交易，約占美國全國市場系統（NMS）股票成交量的 2.4%。公司表示將以這筆資金拓展北美、亞洲與中東市場，並建置涵蓋數位資產保管與資產代幣化（tokenization）的產品線。",
+          "對金融科技基礎設施而言，這反映資產上鏈競賽中較不受矚目、卻不可或缺的一環：代幣化證券在易手之後，仍需要保管、清算、風險管理與結算，尤其當交易時間延伸到傳統盤後。RQD* 今年 3 月已與 Blue Ocean Technologies 合作，為代幣化的美國 NMS 股票打造清算與結算基礎設施，並向美國存管信託清算公司（DTCC）正在成形的代幣化證券框架靠攏；DTCC 也在 6 月邁向 24/5 清算。不過此輪為少數股權投資，實際代幣化產品的推出時程、各地監理適用與商用規模均未揭露，能否成為代幣化市場的主要後台仍待後續觀察。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Clearing firm RQD* raises $74 million as Wall Street prepares for tokenized markets",
+            "url": "https://www.coindesk.com/business/2026/08/27/clearing-firm-rqd-raises-usd74-million-as-wall-street-prepares-for-tokenized-markets"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-27",
         "title": "達拉斯聯準銀行示警：代幣化存款恐削減美國銀行約 7,000 億美元放款能力",
         "paras": [
           "美國達拉斯聯邦準備銀行（Dallas Fed）發布研究示警，若存款人為追逐更高收益、以即時且自動化的方式在不同帳戶或機構間快速移轉資金，代幣化存款（tokenized deposits）恐使美國銀行體系的放款能力減少約 7,000 億美元。研究指出，這類可程式化、可全天候流動的存款會墊高銀行的資金成本，並讓存款基礎變得較不穩定，進而壓縮銀行可用於放貸的資金。",
@@ -534,5 +551,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-27T18:53:46Z"
+  "_generated_at": "2026-08-28T03:52:15Z"
 }
