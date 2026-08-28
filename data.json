@@ -14,6 +14,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-28",
+        "title": "金管會與印度 IFSCA 簽署金融科技合作協議，建立雙邊監理轉介與資訊共享機制",
+        "paras": [
+          "金融監督管理委員會（金管會）宣布，已與印度國際金融服務中心管理局（International Financial Services Centres Authority, IFSCA）完成簽署金融科技合作協議，由金管會副主委陳彥良與 IFSCA 主席 K. Rajaraman 在印度舉行的第 19 屆台印經貿對話（ITEC）期間，透過線上交換文件儀式完成，並由我駐印度代表處與印度台北協會（ITA）共同協助促成。協議聚焦三大面向：兩地金融科技業者的監理機關轉介機制、資訊分享，以及分享資訊的保密與使用規範，讓雙方新創與業者在跨境拓展時有正式的監理對接管道。",
+          "這份協議延續金管會與 IFSCA 於 2025 年 12 月簽署的金融合作備忘錄，把合作範圍進一步延伸到金融科技領域。IFSCA 監理的是印度設於古吉拉特邦 GIFT City 的首座國際金融服務中心，提供創新監理框架與具競爭力的租稅環境；目前已有中國信託（3 月起營運）、台北富邦與兆豐等台資銀行在當地設立分行。金管會表示，將持續透過雙邊與多邊管道，積極與各國金融主管機關建立監理合作網絡，實際能為台灣金融科技業者帶來多少跨境落地機會，仍待後續個案進展檢驗。"
+        ],
+        "sources": [
+          {
+            "name": "Yahoo奇摩財經",
+            "title": "金管會與印度金融服務中心管理局 簽署「金融科技合作協議」",
+            "url": "https://tw.news.yahoo.com/%E9%87%91%E7%AE%A1%E6%9C%83%E8%88%87%E5%8D%B0%E5%BA%A6%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8B%99%E4%B8%AD%E5%BF%83%E7%AE%A1%E7%90%86%E5%B1%80-%E7%B0%BD%E7%BD%B2-%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E5%90%88%E4%BD%9C%E5%8D%94%E8%AD%B0-120405734.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-27",
         "title": "Google Cloud 推出金融與法務專用 Gemini Enterprise AI 方案，主打合規與資安",
         "paras": [
@@ -103,6 +120,28 @@
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-28",
+        "title": "日本 SBI 斥資 2.7 億美元入股印尼券商 Ajaib，加速把日圓穩定幣與跨境結算基礎設施推向東南亞",
+        "paras": [
+          "日本大型金融集團 SBI Holdings 宣布，將於本月底前以約 2.7 億美元入股印尼主要線上券商 Ajaib Group。此舉是 SBI 把旗下日圓計價穩定幣（stablecoin）JPYSC 推向東南亞、並以區塊鏈打造跨境結算基礎設施策略的一環。Ajaib 在印尼經營線上券商、外匯保證金交易、加密貨幣與資產管理業務，擁有逾 2,000 萬名散戶投資人，等於為 SBI 打開東南亞最大零售投資市場之一的門戶；這筆 2.7 億美元的募資也是印尼近年最大的科技籌資案。SBI 董事長兼社長北尾吉孝表示，在代幣化（tokenization）時代，數位資產的全球基礎設施重要性更甚以往。",
+          "這筆投資延續 SBI 在東南亞的布局：今年 7 月它以約 1 億美元收購新加坡加密交易所 Coinhako，並入股新加坡數位證券交易平台 DigiFT 成立合資公司。SBI 表示，正逐步在東南亞建立一張受監理的加密與數位證券基礎設施網絡，未來可望支撐跨境穩定幣支付與代幣化資產交易，背後也呼應日本官方近期宣布要為股票與公債打造區塊鏈結算系統、力拚全天候鏈上結算的政策方向。不過協議尚待完成交割，穩定幣要在印尼等市場實際落地，仍受各地監理與市場接受度左右。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "SBI buys 20% stake in Indonesia's Ajaib for $270 million to expand yen stablecoin in Southeast Asia",
+            "url": "https://www.coindesk.com/business/2026/08/28/sbi-stakes-usd270-million-in-ajaib-to-expand-yen-stablecoin-in-southeast-asia"
+          },
+          {
+            "name": "SBI Holdings",
+            "title": "SBI Holdings news release (2026-08-28)",
+            "url": "https://www.sbigroup.co.jp/english/news/pdf/2026/0828_c_en.pdf"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-27",
         "title": "清算商 RQD* Clearing 獲 Bain Capital 領投 7,400 萬美元，加碼數位資產保管與代幣化後台基礎設施",
@@ -208,7 +247,13 @@
           }
         ],
         "social": [],
-        "context": []
+        "context": [
+          {
+            "date": "2026-08-28",
+            "title": "Visa 再與 Upbit 母公司 Dunamu 合作穩定幣與 AI 支付，擴大南韓布局",
+            "body": "繼本週稍早與新韓金融集團簽約後，Visa 再宣布與經營南韓最大加密交易所 Upbit 的母公司 Dunamu 合作，共同探索以穩定幣與人工智慧（AI）為基礎的支付服務。據《韓國先驅報》（Korea Herald），雙方將以開放標準穩定幣 OUSD 研議支付與結算模式，並打造可讓 AI 代理（AI agent）代使用者完成採購的「代理式商務」（agentic commerce）基礎設施。此舉讓 Visa 在擁有至少 1,600 萬名加密用戶的南韓市場再下一城；三星今年 5 月才以約 4.46 億美元入股 Dunamu 4%，資管巨頭 Mirae Asset 也剛揭示 1,090 億美元的加密事業藍圖。Dunamu 執行長吳京錫（Oh Kyung-seok）表示，AI、穩定幣與代幣化是將重塑金融與商業運作的關鍵趨勢。"
+          }
+        ]
       },
       {
         "date": "2026-08-26",
@@ -551,5 +596,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-28T03:52:15Z"
+  "_generated_at": "2026-08-28T12:57:39Z"
 }
