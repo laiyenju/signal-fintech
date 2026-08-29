@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-29",
+      "date": "2026-08-30",
       "tier": "watch",
       "title": "本日觀察：台灣今日無明確金融科技重點新聞",
       "paras": [
-        "過去 24 小時內，台灣財經與科技媒體多聚焦於升息預期、台股與半導體族群行情，以及金融機構上半年獲利、ETF 定期定額等一般財經題材，缺乏以科技、數位產品或新型金融基礎設施為核心的重點事件，因此今日不另立「本日最重點」，改以觀察方式記錄。",
-        "數位保險申設、第三方支付資安、金管會與印度 IFSCA 金融科技監理合作，以及奧丁丁（OwlTing）穩定幣（stablecoin）跨境結算等既有題材，仍列於本週要聞持續追蹤，待出現具體且可查證的新進展再行更新。"
+        "過去 24 小時內，台灣財經與科技媒體多為股市行情與一般財經消息，聚焦聯準會（Fed）主席華許（Kevin Warsh）鷹派談話帶來的升息預期、台股半導體與記憶體族群，以及生技新藥與房市等題材。這些內容缺乏以科技、數位產品或新型金融基礎設施為核心的重點事件，因此今日不另立「本日最重點」，改以觀察方式記錄。",
+        "數位保險申設、第三方支付導入 AI 資安、金管會與印度 IFSCA 金融科技監理合作，以及奧丁丁（OwlTing）穩定幣（stablecoin）跨境結算等既有題材，仍列於本週要聞持續追蹤，待出現具體且可查證的新進展再行更新。"
       ]
     },
     "sources": [],
@@ -102,24 +102,41 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-29",
-      "tier": "watch",
-      "title": "本日觀察：AI 私募市場管理平台 Standard Metrics 完成 2,000 萬美元 B 輪",
+      "date": "2026-08-30",
+      "tier": "top",
+      "title": "Ripple 加速為 XRP Ledger 部署抗量子密碼，趕在「Q-Day」前改造支付區塊鏈底層安全",
       "paras": [
-        "面向創投與私募股權的投組管理平台 Standard Metrics 宣布完成 2,000 萬美元的 B 輪募資，由創投機構 8VC 領投，Salesforce Ventures、Spark Capital 等參與。這個以人工智慧（AI）為核心的私募市場（private markets）平台，目前已服務逾 150 家、合計管理逾 4,000 億美元資產的機構，涵蓋逾 10,000 家被投公司。平台功能橫跨投組檢視、估值、盡職調查與 AI 文件解析，並提供名為 AI Analyst 的分析助手與 MCP（Model Context Protocol）互通。",
-        "對金融科技而言，這反映長期仰賴試算表與人工作業的創投與私募股權（PE）後台，正加速導入 AI 與標準化資料介面：把估值、報告與盡職調查整併到單一平台、再以 AI 代理與 MCP 串接，被視為財富與資產管理科技（wealthtech）向私募領域延伸的一環。此輪募資規模相對有限，屬值得留意、但尚非當日最重大的產業動態，實際採用深度、AI 工具可靠度，以及能否擴及更大型機構，都仍待後續驗證。"
+        "以支付為核心的區塊鏈公司 Ripple 表示，正加速讓旗下 XRP Ledger（XRPL）為量子運算時代做準備——屆時保護錢包與交易的現行密碼學，可能不再足以抵禦攻擊。Ripple 工程資深總監 Ayo Akinyele 向 CoinDesk 表示，目標不是等到量子運算成為立即威脅才動手，而是要讓關鍵金融基礎設施能在那之前，於不干擾既有系統、資產與使用者的前提下完成演進。學界推測，一旦量子電腦運算能力足夠強大，攻擊者有可能從公開資訊反推、算出控制資產的私鑰，這個臨界點常被稱為「Q-Day」。",
+        "Ripple 為 XRPL 訂出橫跨量子威脅出現前後的四階段計畫：先評估網路哪些部分會暴露於風險，接著測試替代密碼學能否負荷區塊鏈目前的工作量，再讓現有安全機制與抗量子方案並行，最後把整個網路遷移過去，並保留在量子進展快於預期時可提前反應的緊急路徑。XRPL 本就允許在不更換帳戶的情況下替換控制帳戶的金鑰，Ripple 認為這有助於未來遷移，但任何交易規則的更動仍須由網路的獨立驗證者協調。這波急迫性也與 AI 有關。Akinyele 指出，AI 系統正被用來更快搜尋密碼學漏洞，把過去專門研究者需耗時完成的破解工作大幅壓縮，抗量子設計因此還得同時扛住 AI 輔助的攻擊。與此同時，比特幣與以太坊開發者也正著手在量子電腦破解前，替換各自網路使用的數位簽章，顯示三大區塊鏈已同步把後量子（post-quantum）遷移列為要務。"
       ]
     },
     "sources": [
       {
-        "name": "PR Newswire",
-        "title": "AI-driven portfolio management platform Standard Metrics raises $20M to supercharge private markets innovation",
-        "url": "https://www.prnewswire.com/news-releases/ai-driven-portfolio-management-platform-standard-metrics-raises-20m-to-supercharge-private-markets-innovation-302856929.html"
+        "name": "CoinDesk",
+        "title": "Ripple is preparing XRP Ledger for quantum computers before 'Q-Day' arrives",
+        "url": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-29",
+        "title": "本日觀察：AI 私募市場管理平台 Standard Metrics 完成 2,000 萬美元 B 輪",
+        "paras": [
+          "面向創投與私募股權的投組管理平台 Standard Metrics 宣布完成 2,000 萬美元的 B 輪募資，由創投機構 8VC 領投，Salesforce Ventures、Spark Capital 等參與。這個以人工智慧（AI）為核心的私募市場（private markets）平台，目前已服務逾 150 家、合計管理逾 4,000 億美元資產的機構，涵蓋逾 10,000 家被投公司。平台功能橫跨投組檢視、估值、盡職調查與 AI 文件解析，並提供名為 AI Analyst 的分析助手與 MCP（Model Context Protocol）互通。",
+          "對金融科技而言，這反映長期仰賴試算表與人工作業的創投與私募股權（PE）後台，正加速導入 AI 與標準化資料介面：把估值、報告與盡職調查整併到單一平台、再以 AI 代理與 MCP 串接，被視為財富與資產管理科技（wealthtech）向私募領域延伸的一環。此輪募資規模相對有限，屬值得留意、但尚非當日最重大的產業動態，實際採用深度、AI 工具可靠度，以及能否擴及更大型機構，都仍待後續驗證。"
+        ],
+        "sources": [
+          {
+            "name": "PR Newswire",
+            "title": "AI-driven portfolio management platform Standard Metrics raises $20M to supercharge private markets innovation",
+            "url": "https://www.prnewswire.com/news-releases/ai-driven-portfolio-management-platform-standard-metrics-raises-20m-to-supercharge-private-markets-innovation-302856929.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-28",
         "title": "加密託管商 BitGo 以 4,250 萬美元加碼收購 NYDIG 機構交易業務，跨入衍生品與資本市場服務",
@@ -554,25 +571,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-22",
-        "title": "沃爾瑪（Walmart）鬆綁十年立場，8/24 起分階段開放門市支援 Apple Pay 與 Google Pay",
-        "paras": [
-          "全球最大零售商沃爾瑪（Walmart）宣布，將自 2026 年 8 月 24 日起在部分門市開放以近場通訊（NFC）「感應支付（Tap to Pay）」為基礎的行動錢包，包括 Apple Pay 與 Google Pay，並預計 2026 年底前擴及所有 Walmart 與 Sam's Club 門市、2027 年中再納入加油站。沃爾瑪長年拒絕支援 Apple Pay，改推自家的 Walmart Pay 與 Scan-and-Go，並曾參與零售商聯盟 MCX 的 CurrentC 支付方案對抗 Apple Pay，該方案已於 2016 年告終。",
-          "這代表沃爾瑪在行動支付立場上的重大轉向。Apple Pay 目前已在全美約 85% 商家、多數大型連鎖通路受理，沃爾瑪過去的抵制形同讓自家顧客少了一種主流結帳選項。對支付產業而言，最大實體零售通路轉為支援 NFC 代幣化（tokenization）行動錢包，將把感應支付進一步推向普及；沃爾瑪則把此舉定位為在現金、信用卡與 Walmart Pay 之外「多一種選擇」。"
-        ],
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "title": "Walmart to finally start accepting Apple Pay and Google Pay",
-            "url": "https://techcrunch.com/2026/08/21/walmart-to-finally-start-accepting-apple-pay-and-google-pay/"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-28T18:51:08Z"
+  "_generated_at": "2026-08-29T18:57:51Z"
 }
