@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "tier": "watch",
       "title": "本日觀察：台灣今日無明確金融科技重點新聞",
       "paras": [
-        "過去 24 小時內，台灣財經與科技媒體多為股市行情與一般財經消息，聚焦聯準會（Fed）主席華許（Kevin Warsh）鷹派談話帶來的升息預期、台股半導體與記憶體族群，以及生技新藥與房市等題材。這些內容缺乏以科技、數位產品或新型金融基礎設施為核心的重點事件，因此今日不另立「本日最重點」，改以觀察方式記錄。",
-        "數位保險申設、第三方支付導入 AI 資安、金管會與印度 IFSCA 金融科技監理合作，以及奧丁丁（OwlTing）穩定幣（stablecoin）跨境結算等既有題材，仍列於本週要聞持續追蹤，待出現具體且可查證的新進展再行更新。"
+        "過去 24 小時內，台灣財經與科技媒體版面多為半導體與 AI 硬體、股市行情，以及聯準會（Fed）主席華許（Kevin Warsh）鷹派談話帶來的台股震盪。金融面則集中在國銀高資產客戶財富管理與存款配置等傳統銀行、券商經營數據，缺乏以科技、數位產品或新型金融基礎設施為核心的重點事件，因此今日不另立本日最重點，改以觀察方式記錄。",
+        "數位保險公司申設、PayNow（立吉富線上金流）導入 AI 資安、金管會與印度 IFSCA 金融科技合作，以及奧丁丁（OwlTing）穩定幣（stablecoin）跨境結算等既有題材，仍列於本週要聞持續追蹤，待出現具體且可查證的新進展再行更新。"
       ]
     },
     "sources": [],
@@ -102,24 +102,35 @@
   },
   "global": {
     "cover": {
-      "date": "2026-08-30",
-      "tier": "top",
-      "title": "Ripple 加速為 XRP Ledger 部署抗量子密碼，趕在「Q-Day」前改造支付區塊鏈底層安全",
+      "date": "2026-08-31",
+      "tier": "watch",
+      "title": "本日觀察：全球今日無明確金融科技重點新聞",
       "paras": [
-        "以支付為核心的區塊鏈公司 Ripple 表示，正加速讓旗下 XRP Ledger（XRPL）為量子運算時代做準備——屆時保護錢包與交易的現行密碼學，可能不再足以抵禦攻擊。Ripple 工程資深總監 Ayo Akinyele 向 CoinDesk 表示，目標不是等到量子運算成為立即威脅才動手，而是要讓關鍵金融基礎設施能在那之前，於不干擾既有系統、資產與使用者的前提下完成演進。學界推測，一旦量子電腦運算能力足夠強大，攻擊者有可能從公開資訊反推、算出控制資產的私鑰，這個臨界點常被稱為「Q-Day」。",
-        "Ripple 為 XRPL 訂出橫跨量子威脅出現前後的四階段計畫：先評估網路哪些部分會暴露於風險，接著測試替代密碼學能否負荷區塊鏈目前的工作量，再讓現有安全機制與抗量子方案並行，最後把整個網路遷移過去，並保留在量子進展快於預期時可提前反應的緊急路徑。XRPL 本就允許在不更換帳戶的情況下替換控制帳戶的金鑰，Ripple 認為這有助於未來遷移，但任何交易規則的更動仍須由網路的獨立驗證者協調。這波急迫性也與 AI 有關。Akinyele 指出，AI 系統正被用來更快搜尋密碼學漏洞，把過去專門研究者需耗時完成的破解工作大幅壓縮，抗量子設計因此還得同時扛住 AI 輔助的攻擊。與此同時，比特幣與以太坊開發者也正著手在量子電腦破解前，替換各自網路使用的數位簽章，顯示三大區塊鏈已同步把後量子（post-quantum）遷移列為要務。"
+        "在本次回看的 24 小時窗口內，全球金融科技媒體多為比特幣行情（如 Michael Saylor 暗示兩個月來首度加碼、比特幣重回約 8 萬美元）與趨勢評論（Swift 網路是否被區塊鏈取代、下一個兆美元級貨幣是否為穩定幣），缺乏以科技、數位產品或新型金融基礎設施為核心、且屬近 24 小時的重大新進事件，因此今日不另立本日最重點，改以觀察方式記錄。",
+        "較具份量的產業動態仍納入本週要聞持續追蹤，包括 Ripple 為 XRP Ledger 部署抗量子密碼的計畫，以及 Stripe 把支付工具 Link 接進 AI 代理 Instinct、身分與反詐科技商 Socure 以 52 億美元估值增資並購 Fravity 等金融科技進展，後續發展再行更新。"
       ]
     },
-    "sources": [
-      {
-        "name": "CoinDesk",
-        "title": "Ripple is preparing XRP Ledger for quantum computers before 'Q-Day' arrives",
-        "url": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives"
-      }
-    ],
+    "sources": [],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-08-30",
+        "title": "Ripple 加速為 XRP Ledger 部署抗量子密碼，趕在「Q-Day」前改造支付區塊鏈底層安全",
+        "paras": [
+          "以支付為核心的區塊鏈公司 Ripple 表示，正加速讓旗下 XRP Ledger（XRPL）為量子運算時代做準備——屆時保護錢包與交易的現行密碼學，可能不再足以抵禦攻擊。Ripple 工程資深總監 Ayo Akinyele 向 CoinDesk 表示，目標不是等到量子運算成為立即威脅才動手，而是要讓關鍵金融基礎設施能在那之前，於不干擾既有系統、資產與使用者的前提下完成演進。學界推測，一旦量子電腦運算能力足夠強大，攻擊者有可能從公開資訊反推、算出控制資產的私鑰，這個臨界點常被稱為「Q-Day」。",
+          "Ripple 為 XRPL 訂出橫跨量子威脅出現前後的四階段計畫：先評估網路哪些部分會暴露於風險，接著測試替代密碼學能否負荷區塊鏈目前的工作量，再讓現有安全機制與抗量子方案並行，最後把整個網路遷移過去，並保留在量子進展快於預期時可提前反應的緊急路徑。XRPL 本就允許在不更換帳戶的情況下替換控制帳戶的金鑰，Ripple 認為這有助於未來遷移，但任何交易規則的更動仍須由網路的獨立驗證者協調。這波急迫性也與 AI 有關。Akinyele 指出，AI 系統正被用來更快搜尋密碼學漏洞，把過去專門研究者需耗時完成的破解工作大幅壓縮，抗量子設計因此還得同時扛住 AI 輔助的攻擊。與此同時，比特幣與以太坊開發者也正著手在量子電腦破解前，替換各自網路使用的數位簽章，顯示三大區塊鏈已同步把後量子（post-quantum）遷移列為要務。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Ripple is preparing XRP Ledger for quantum computers before 'Q-Day' arrives",
+            "url": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-08-29",
         "title": "本日觀察：AI 私募市場管理平台 Standard Metrics 完成 2,000 萬美元 B 輪",
@@ -290,6 +301,45 @@
             "name": "CoinDesk",
             "title": "Mirae Asset eyes $109 billion crypto empire after acquiring Digital X",
             "url": "https://www.coindesk.com/business/2026/08/27/mirae-asset-eyes-usd109-billion-crypto-empire-after-acquiring-digital-x"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-26",
+        "title": "Stripe 把一鍵支付工具 Link 接進爆紅 AI 代理 Instinct，推進「代理式商務」金流基礎設施",
+        "paras": [
+          "支付基礎設施商 Stripe 宣布，把旗下一鍵支付工具 Link 接入近期爆紅的 AI 代理（AI agent）Instinct。Instinct 由成立僅約一年的新創 Spear Street Technology 開發、創辦人為 23 歲的 Noah Shinn，目前為邀請制（private beta），使用者以簡訊等文字方式與其互動，讓它代為規劃跨州旅行、採買每週雜貨、購買演唱會門票與取消訂閱等生活事務。Instinct 本週稍早完成 2.5 億美元的 B 輪募資、累計募資達 3.5 億美元，估值升至 25 億美元，由創投機構 Index Ventures 與 Benchmark 共同領投。",
+          "串接 Link 之後，AI 代理不再碰觸使用者的真實卡號——每筆消費須經使用者核准，Link 才生成一次性的虛擬卡完成付款，等於移除先前「把卡片資料交給代理、再由代理自行代收簡訊或電子郵件驗證碼」所衍生的被釣魚（phishing）風險。這反映支付業者正搶佔「AI 代理替人消費」的結帳入口：Stripe 的 Link 已能對接 Claude 等多個代理，Stripe 亦承接 ChatGPT、Gemini 等平台內的結帳。不過代理式商務仍在早期，實際交易可靠度、商戶端相容性與資安防護成效都有待後續驗證。"
+        ],
+        "sources": [
+          {
+            "name": "TechCrunch",
+            "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+            "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/"
+          },
+          {
+            "name": "Patrick Collison（X）",
+            "title": "Stripe Link now works with Instinct",
+            "url": "https://x.com/patrickc/status/2093385965905842566"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-26",
+        "title": "身分驗證與反詐科技商 Socure 以 52 億美元估值增資並購 Fravity，加碼 AI 代理化反詐與合規",
+        "paras": [
+          "數位身分驗證與反詐欺科技公司 Socure 宣布完成 1.56 億美元募資，由私募機構 Summit Partners 領投，公司估值達 52 億美元，是其自 2021 年 11 月以 45 億美元估值募資以來首度更新估值。Socure 表示目前年化經常性收入（ARR）約 3.64 億美元、年增 63%，淨收入留存率（NDR）達 133%，且已轉為獲利。此輪同時宣布收購新創 Fravity——一家以 AI 代理（AI agent）自動處理詐欺、洗錢防制（AML）與企業客戶審查（KYB）等調查作業的公司，Socure 稱可將每案處理成本降低約 8 成、誤報率最多降低 7 成。",
+          "這反映數位身分、反詐、AML 與 KYB 原本分屬不同供應商的市場，正加速整併為單一平台，並把 AI 代理嵌入過去仰賴人工的合規調查流程（RegTech，監理科技）。收購 Fravity 是 Socure 直接買下「代理層」而非自建，也是繼 2024 年以 1.36 億美元收購 Effectiv 之後、第二度併購源自 Simility 團隊系統的公司。不過 AI 代理式合規的定價模式——過去按 API 呼叫計費，代理則對應可取代的人力成本——仍在摸索，實際導入深度與跨機構採用成效有待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "PYMNTS",
+            "title": "Socure Acquires Fraud Fighter Fravity as Valuation Hits $5.2 Billion",
+            "url": "https://www.pymnts.com/news/investment-tracker/2026/socure-acquires-fraud-fighter-fravity-as-valuation-hits-5-2-billion/"
           }
         ],
         "social": [],
@@ -608,5 +658,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-30T00:52:55Z"
+  "_generated_at": "2026-08-30T19:00:51Z"
 }
