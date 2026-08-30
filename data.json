@@ -239,6 +239,33 @@
         "context": []
       },
       {
+        "date": "2026-08-28",
+        "title": "Stripe 與 Advent 放棄收購 PayPal，逾 530 億美元私有化案破局",
+        "paras": [
+          "美國支付基礎設施商 Stripe 與私募股權機構 Advent International 組成的財團，已放棄對支付巨頭 PayPal 的收購。據彭博（Bloomberg）2026 年 8 月 28 日率先揭露，這樁自今年 7 月提出的私有化（take-private）提案就此告吹。該提案開價每股 60.50 美元、較當時市價溢價約 28%，估值逾 530 億美元，並已備妥約 500 億美元銀行融資承諾；若成交，將名列史上規模數一數二的槓桿收購（LBO），也會是金融科技史上最大的併購案之一。消息傳出後，PayPal 股價一度重挫逾一成。",
+          "PayPal 董事會先前認為此報價過低，並示警監理與融資風險，自 7 月起始終未正式回應，直到買方主動收手。原財團成員、同為支付業者的 Block 早在春季便已退出，如今 Stripe 與 Advent 相繼離場，等於已知出價買方全數退出。對金融科技產業而言，這樁破局凸顯即便是最有動機出手的支付同業，對 PayPal 逾 4 億個消費者帳戶的估值仍設有上限；PayPal 短期只能回到由現任經營團隊主導的體質改造，而 Stripe、Adyen 與規劃進軍美國的 Checkout.com 等競爭者，仍以單一整合平台與較佳的單位經濟持續進逼。"
+        ],
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "title": "Advent, Stripe Are Said to Abandon $50 Billion Pursuit of PayPal",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal"
+          },
+          {
+            "name": "Axios",
+            "title": "Stripe and Advent end PayPal pursuit",
+            "url": "https://www.axios.com/2026/08/28/stripe-advent-end-paypal-pursuit"
+          },
+          {
+            "name": "RTÉ",
+            "title": "Stripe, Advent consortium said to drop pursuit of PayPal",
+            "url": "https://www.rte.ie/news/business/2026/0828/1589524-stripe-advent-consortium-said-to-drop-pursuit-of-paypal/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-27",
         "title": "清算商 RQD* Clearing 獲 Bain Capital 領投 7,400 萬美元，加碼數位資產保管與代幣化後台基礎設施",
         "paras": [
@@ -658,5 +685,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-30T19:00:51Z"
+  "_generated_at": "2026-08-30T21:56:33Z"
 }
