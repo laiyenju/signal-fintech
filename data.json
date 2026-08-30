@@ -138,6 +138,23 @@
         "context": []
       },
       {
+        "date": "2026-08-29",
+        "title": "加密簽帳卡基礎設施商 Rain 舊版合約遭利用，Avici、Tria 等加密新型銀行損失逾 110 萬美元",
+        "paras": [
+          "加密新型銀行（neobank）Avici 與 Tria 的卡片儲值資金遭駭。據 CoinDesk，攻擊者利用卡片基礎設施商 Rain 一份未更新的舊版合約漏洞，跨多個建於 Solana 的程式共盜走約 110 萬美元。其中約 50.08 萬美元來自 Avici 的 1,685 名用戶，一度使其 AVICI 代幣從 24 小時高點 0.43 美元重挫至歷史低點 0.217 美元、跌幅達 49%，隨後回升至約 0.378 美元；另一家加密新型銀行 Tria 則有 636 名用戶受影響、損失逾 43 萬美元。攻擊者反覆送出一份已簽章的授權指令，把自己加為個別卡片擔保帳戶的管理者後提走餘額。得手的穩定幣（stablecoin）先換成 solana（SOL）、跨鏈到以太坊，最終經混幣服務 Tornado Cash 洗出。",
+          "Avici 是一個自我保管（self-custodial）的加密新型銀行，讓用戶以加密資產透過整合 Visa 的信用卡消費；其發卡機構為 Third National，底層穩定幣卡片基礎設施則由身為 Visa 主要會員（principal member）的 Rain 提供。此案暴露了部分「自我保管」加密卡的資金交接風險——用戶雖掌控存放於 Avici 錢包的資金，但一旦儲值進卡片、資金便移入第三方合約。Avici 稱攻擊僅限於一個在用戶儲值後暫存資金的 Solana 合約，其自我保管錢包未受影響，並承諾全額退還受影響卡片餘額、已向美國聯邦調查局（FBI）網路犯罪申訴中心（IC3）報案；Rain 表示已監測到該舊版合約漏洞並升級所有相關程式。這類風險隨加密卡使用量急速放大而更受關注：追蹤到的加密卡消費額 7 月已逾 10 億美元、單月逾 1,000 萬筆，其中約七成由穩定幣支應。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+            "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-28",
         "title": "加密託管商 BitGo 以 4,250 萬美元加碼收購 NYDIG 機構交易業務，跨入衍生品與資本市場服務",
         "paras": [
@@ -188,6 +205,23 @@
             "name": "Coverager",
             "title": "Vanguard to acquire Altruist",
             "url": "https://coverager.com/vanguard-to-acquire-altruist/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-08-28",
+        "title": "加密平台 Bullish 提供 USD.AI 1 億美元穩定幣融資額度，推動以 GPU 為擔保的 AI 算力信貸上鏈",
+        "paras": [
+          "加密貨幣交易平台 Bullish（美股代號 BLSH，同時是 CoinDesk 母公司）宣布，將對穩定幣（stablecoin，錨定法幣的數位代幣）協定 USD.AI 提供 1 億美元的穩定幣債務融資額度（debt facility），用來承作以繪圖處理器（GPU）等高效能運算資產為擔保的貸款，把鏈上資金導入資本密集的人工智慧（AI）基礎設施建置。USD.AI 由 Permian Labs 開發，是一個把 AI 算力融資與鏈上資本相互銜接的穩定幣協定，目前協定內鎖定的加密資產價值逾 2.25 億美元；Bullish 另計畫在旗下交易所掛牌 USD.AI 的 sUSDai 代幣、開出多個交易對，為「以 GPU 擔保的債權」建立次級市場。",
+          "這筆交易踩在兩股趨勢的交會點：一是為 AI 基礎設施籌措私募信貸（private credit）的需求快速升溫，二是把真實世界資產（real-world assets, RWA）代幣化、以取用加密市場流動性的做法逐漸成形。Permian Labs 執行長 David Choi 形容「算力正自成一個信貸市場」，這筆額度可讓 USD.AI 承作更多算力融資、並打造更深、更透明的算力擔保信貸市場。不過此案為單一融資額度、且屬 Bullish 自家對外公告，實際放款規模、違約風險控管與 sUSDai 次級市場的流動性都仍待後續驗證。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Bullish backs USD.AI with $100 million in financing to drive GPU-backed loans",
+            "url": "https://www.coindesk.com/business/2026/08/28/bullish-backs-usd-ai-with-usd100-million-gpu-stablecoin-financing"
           }
         ],
         "social": [],
@@ -574,5 +608,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-29T18:57:51Z"
+  "_generated_at": "2026-08-30T00:52:55Z"
 }
