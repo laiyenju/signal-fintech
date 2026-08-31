@@ -115,6 +115,28 @@
     "context": [],
     "others": [
       {
+        "date": "2026-08-31",
+        "title": "Cronos 因借貸協定 Tectonic 遭操縱擔保品攻擊、損失約 7,500 萬美元，一度全面停鏈",
+        "paras": [
+          "由加密貨幣交易所 Crypto.com 於 2021 年推出、與其生態系緊密綁定的區塊鏈 Cronos，於當地時間週日一度全面停止出塊，起因是其鏈上最大的借貸協定 Tectonic 遭攻擊，損失估計約 7,500 萬美元。Tectonic 讓用戶存入加密資產、再以其為擔保借出其他資產，問題出在它接受自家治理代幣 TONIC 作為擔保，而 TONIC 流動性僅約 134 萬美元、單日成交量約 1.1 萬美元。鏈上資料顯示，攻擊者在約 20 分鐘內把 TONIC 價格拉高約 100 倍，再把瞬間變貴的代幣存入 Tectonic，以被高估的擔保品借走真實資產（TONIC 擔保成數為 20%，即每 100 美元估值約可借 20 美元）。Tectonic 鎖倉資產從 8 月 26 日的約 1.217 億美元、占 Cronos 全鏈去中心化金融（DeFi）資金近半，到週一已驟降至約 300 萬美元。",
+          "Cronos 底層軟體把驗證者（validator）上限設為 100 個節點，數量少到足以在數分鐘內協調關閉整條鏈，代價是所有人的資金也一併停擺，凸顯「可被關機的鏈」在中立性上的侷限；2022 年 10 月 BNB Chain 也曾在跨鏈橋遭駭後由 26 個驗證者暫停網路，追回約 5.7 億美元中的近 4.7 億美元。此案並非孤例：上週借貸平台 Moonwell 同樣因一個流動性稀薄的擔保代幣遭價格操縱而被攻擊（其所在的 Base 未停鏈、資金流失），Pendle 一個淺盤市場約 3% 的價格波動亦在借貸協定 Morpho 觸發約 3,600 萬美元清算，顯示以薄流動性代幣充當擔保正成為 DeFi 借貸反覆被利用的弱點。截至週一上午，Cronos 與 Tectonic 均尚未公布重啟時程或確定的損失金額。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Cronos halts blockchain after $75 million lending exploit hits lending app Tectonic",
+            "url": "https://www.coindesk.com/tech/2026/08/31/cronos-halts-blockchain-after-usd75-million-lending-exploit-hits-lending-app-tectonic"
+          },
+          {
+            "name": "Cronos Network（官方公告，X）",
+            "title": "Cronos network halt announcement following the Tectonic exploit",
+            "url": "https://x.com/CronosNetwork/status/2094072333434769703"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-30",
         "title": "Ripple 加速為 XRP Ledger 部署抗量子密碼，趕在「Q-Day」前改造支付區塊鏈底層安全",
         "paras": [
@@ -685,5 +707,5 @@
       }
     ]
   },
-  "_generated_at": "2026-08-30T21:56:33Z"
+  "_generated_at": "2026-08-31T06:51:15Z"
 }
