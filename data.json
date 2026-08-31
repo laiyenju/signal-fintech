@@ -1,12 +1,12 @@
 {
   "tw": {
     "cover": {
-      "date": "2026-08-31",
+      "date": "2026-09-01",
       "tier": "watch",
       "title": "本日觀察：台灣今日無明確金融科技重點新聞",
       "paras": [
-        "過去 24 小時內，台灣財經與科技媒體版面多為半導體與 AI 硬體、股市行情，以及聯準會（Fed）主席華許（Kevin Warsh）鷹派談話帶來的台股震盪。金融面則集中在國銀高資產客戶財富管理與存款配置等傳統銀行、券商經營數據，缺乏以科技、數位產品或新型金融基礎設施為核心的重點事件，因此今日不另立本日最重點，改以觀察方式記錄。",
-        "數位保險公司申設、PayNow（立吉富線上金流）導入 AI 資安、金管會與印度 IFSCA 金融科技合作，以及奧丁丁（OwlTing）穩定幣（stablecoin）跨境結算等既有題材，仍列於本週要聞持續追蹤，待出現具體且可查證的新進展再行更新。"
+        "本次回看近 24 小時的台灣新聞，版面多聚焦半導體供應鏈、AI 資料中心、能源電網與傳統股匯市動向，缺乏以金融科技為核心的重大進展。與金流相關的個別事件，例如銀行內部人員涉嫌勾結詐團、規避風控協助辦理抵押貸款，屬個案風控與人事問題，並非數位金融產品或基礎設施層面的突破。",
+        "另有數位資產業者今年以來砸下近 6.4 億美元買回自家加密貨幣以支撐幣價的消息，本質是市場價格操作而非技術或商業模式進展，因此不列入本日重點。今日暫以觀察為主，待更明確的金融科技事件出現再行更新。"
       ]
     },
     "sources": [],
@@ -80,37 +80,31 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-24",
-        "title": "台灣金融科技 OwlTing（奧丁丁）穩定幣支付平台連六月成長，首度洽談與台灣金融機構跨境結算合作",
-        "paras": [
-          "奧丁丁集團母公司 OBOOK Holdings（OWLS）公布 2026 上半年財報，營收約 387 萬美元，受非現金股權費用影響，淨損擴大至約 1,882 萬美元；不過旗下跨境支付平台 OwlPay 累計總支付額突破 7 億美元，其中以穩定幣（stablecoin，錨定法幣的數位代幣）為基礎的支付業務連續六個月成長，公司訂下年底衝刺 10 億美元的目標。奧丁丁並首度證實，正與台灣金融機構洽談合作，協助企業優化跨境支付與結算基礎建設。",
-          "奧丁丁已取得美國、日本、波蘭等多國支付或金融相關執照，以穩定幣作為企業跨境收付與結算的底層軌道，逐步把穩定幣支付從加密場景推向企業級核心金融工具。此次揭露與台灣金融機構的合作洽談，是這家源自台灣的金融科技公司「回台佈局」的訊號，也反映穩定幣跨境結算開始延伸到台灣的企業金流場景；不過合作對象、實際落地時程與監理配套均未公布，公司短期財務仍處於擴張期的淨損狀態。"
-        ],
-        "sources": [
-          {
-            "name": "Yahoo 財經",
-            "title": "穩了！奧丁丁穩定幣業務連6月成長 下一步回台佈局",
-            "url": "https://tw.news.yahoo.com/%E7%A9%A9%E4%BA%86-%E5%A5%A7%E4%B8%81%E4%B8%81%E7%A9%A9%E5%AE%9A%E5%B9%A3%E6%A5%AD%E5%8B%99%E9%80%A36%E6%9C%88%E6%88%90%E9%95%B7-%E4%B8%8B-%E6%AD%A5%E5%9B%9E%E5%8F%B0%E4%BD%88%E5%B1%80-201500955.html"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "global": {
     "cover": {
-      "date": "2026-08-31",
-      "tier": "watch",
-      "title": "本日觀察：全球今日無明確金融科技重點新聞",
+      "date": "2026-09-01",
+      "tier": "top",
+      "title": "紐約證交所母公司 ICE 入股區塊鏈基礎設施商 tZERO，加速打造 NYSE 關聯代幣化證券市場",
       "paras": [
-        "在本次回看的 24 小時窗口內，全球金融科技媒體多為比特幣行情（如 Michael Saylor 暗示兩個月來首度加碼、比特幣重回約 8 萬美元）與趨勢評論（Swift 網路是否被區塊鏈取代、下一個兆美元級貨幣是否為穩定幣），缺乏以科技、數位產品或新型金融基礎設施為核心、且屬近 24 小時的重大新進事件，因此今日不另立本日最重點，改以觀察方式記錄。",
-        "較具份量的產業動態仍納入本週要聞持續追蹤，包括 Ripple 為 XRP Ledger 部署抗量子密碼的計畫，以及 Stripe 把支付工具 Link 接進 AI 代理 Instinct、身分與反詐科技商 Socure 以 52 億美元估值增資並購 Fravity 等金融科技進展，後續發展再行更新。"
+        "紐約證交所母公司洲際交易所（Intercontinental Exchange，ICE）宣布與區塊鏈基礎設施商 tZERO 合作，導入其轉讓代理（transfer agent）與券商結算系統，作為 ICE 規劃中 NYSE 關聯代幣化證券（tokenized securities）市場的鏈上結算基礎；ICE 同時將參與 tZERO 最新一輪募資（金額未揭露），並取得其 103 項區塊鏈專利授權。tZERO 預期在符合監理與技術要求後，成為該平台的核准數位轉讓代理與參與者，負責鏈上股權的所有權登錄與合規移轉。",
+        "此舉凸顯華爾街代幣化競賽正從「把股票、債券搬上鏈」轉向更難的結算、所有權記錄與擔保品等底層基礎設施；ICE 也將與 tZERO 探索把代幣化資產用作旗下清算所的擔保品。Citi 預估代幣化證券市場規模到 2030 年上看 5.5 兆美元。ICE 此前已於 3 月找上 BlackRock 代幣化夥伴 Securitize 擔任數位轉讓代理，而 Securitize 與 tZERO 正因專利糾紛互告，反映傳統交易所巨頭與代幣化服務商之間的競逐與整合同時加速。"
       ]
     },
-    "sources": [],
+    "sources": [
+      {
+        "name": "CoinDesk",
+        "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
+        "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm"
+      },
+      {
+        "name": "tZERO",
+        "title": "tZERO and ICE Agree to Collaborate on Infrastructure for Public Tokenized Securities Markets",
+        "url": "https://www.tzero.com/news/tzero-and-ice-agree-to-collaborate-on-infrastructure-for-public-tokenized-securities-markets"
+      }
+    ],
     "coverSocial": [],
     "context": [],
     "others": [
@@ -602,110 +596,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-24",
-        "title": "穩定幣（stablecoin）加密卡消費單月突破 10 億美元，日常小額支付佔比升高",
-        "paras": [
-          "根據支付數據平台 Paymentscan、經創投機構 a16z 引用的資料，2026 年 7 月全球加密支付卡（crypto card）消費額較一年前成長逾三倍、達約 10.4 億美元，涵蓋逾 1,000 萬筆交易；其中以美元計價的穩定幣（主要為 USDC 與 USDT）支應約七成金額，USDC 單月佔比 50.8%、USDT 20.3%，均較一年前明顯上升。平均每筆消費由 59 美元增至約 86 美元，顯示用戶逐漸把穩定幣用於雜貨、叫車、外送與訂閱等日常小額支出，而非僅作為把加密資產換回法幣的出金（off-ramp）工具。",
-          "這類卡片讓用戶以穩定幣餘額透過既有的 Visa、Mastercard 卡片網路結帳、商戶端仍收到當地法定貨幣，等於把穩定幣變成另一種「儲值卡」的資金來源，而非直接取代主流卡組織；Visa 6 月即表示已有逾 160 個穩定幣連結卡計畫上線或開發中。不過市場高度集中，RedotPay（7 月 3.95 億美元）、Ether.fi（1.003 億美元）與 KAST（8,960 萬美元）三家就占追蹤總額約 77%，成長也集中在巴西、阿根廷等新興市場，StraitsX 統計低所得市場交易額一年約成長六倍。整體規模相對傳統卡網仍小，加上部分業者為自我通報數據，後續能否持續放量與數據可信度仍待驗證。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
-            "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-24",
-        "title": "渣打（Standard Chartered）成首家分銷香港港元穩定幣，將 Anchorpoint HKDAP 導入機構結算與跨境支付",
-        "paras": [
-          "總部設於倫敦、資產規模約 8,500 億美元的跨國銀行渣打（Standard Chartered）宣布，成為首家分銷香港兩檔受監理穩定幣（stablecoin）之一的銀行——由 Anchorpoint Financial 發行、以港元計價的 HKDAP。渣打是 Anchorpoint 的多數股東，初期將協助符合資格的機構客戶與合作夥伴串接 HKDAP，並規劃未來一個月陸續推出多項商用場景，涵蓋貨幣市場基金申購、與資產管理公司的結算、集團內部跨境調撥，以及跨境支付。Anchorpoint 已於 8 月 12 日展開 HKDAP 的限量機構試行，距其取得香港首批兩張發行人牌照之一約四個月。",
-          "這是香港穩定幣發行牌照制度上路後，首度由持牌銀行親自擔任分銷通路，把受監理的港元穩定幣導入機構級支付與結算流程。香港另一初始持牌人匯豐（HSBC）也正籌備自家穩定幣、預計 2026 年下半年推出，並可能透過擁有約 330 萬名用戶的 PayMe 分銷；加密交易所 Kraken 母公司 Payward 也以 6 億美元收購 Reap Technologies，擴大在香港的穩定幣支付布局。對數位資產基礎設施而言，大型銀行以自有客群分銷持牌穩定幣，象徵港元穩定幣正從發行邁向實際流通，惟具體商用場景與跨境應用仍待後續逐步落地。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
-            "url": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-24",
-        "title": "Gemini 攜手 Apex Fintech 擴大加密預測市場通路，成券商經 FCM 提供事件合約的專屬 CFTC 受監理場所",
-        "paras": [
-          "由 Winklevoss 兄弟創立的加密平台 Gemini（GEMI）宣布，與券商基礎設施商 Apex Fintech Solutions 簽署意向書（LOI），將把旗下受監理的加密預測市場（prediction markets）合約，透過 Apex 的期貨佣金商（FCM，futures commission merchant）通路分銷給券商客戶。依協議，Gemini 子公司 Gemini Titan 將成為經 Apex FCM 分銷加密事件合約（event contracts）的專屬 CFTC 受監理場所，由 Gemini 負責交易撮合與結算，讓使用 Apex 的券商毋須自建與預測市場交易所的連線，即可向客戶提供加密事件合約；雙方預計未來數週敲定合作細節。",
-          "此案建立在 Gemini 逐步取得的監理基礎上：Gemini Titan 於 2025 年 12 月取得美國商品期貨交易委員會（CFTC）的指定合約市場（DCM）牌照，另一子公司 Gemini Olympus 亦在今年 4 月取得衍生性商品結算機構（DCO）牌照，使其得以自行承接交易與結算。預測市場近一年快速走熱，依 Pew Research Center 資料，Kalshi 與 Polymarket 等主要平台月交易量至今年 4 月已逼近 240 億美元、遠高於 2025 年 9 月的不足 50 億美元，運動、政治與加密為最大類別。在現貨交易量疲軟、營收承壓下，加密業者競相以預測市場等新產品分散收入，此次改由券商通路切入，顯示事件合約正加速接入傳統經紀體系；不過合作仍屬意向書階段、細節尚未定案。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Gemini strikes Apex deal to widen prediction markets reach",
-            "url": "https://www.coindesk.com/business/2026/08/24/gemini-strikes-apex-deal-to-widen-prediction-markets-reach"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-24",
-        "title": "穩定幣新型銀行 Fasset 獲 SBI 領投挹注 6,800 萬美元，估值達 10 億美元躋身獨角獸",
-        "paras": [
-          "以穩定幣（stablecoin，錨定法幣的數位代幣）為核心的數位銀行 Fasset 宣布，完成由日本金融集團 SBI Group 領投的 6,800 萬美元募資，公司估值達 10 億美元、正式躋身獨角獸；此輪距其今年 5 月完成的 5,100 萬美元募資僅三個月，使 Fasset 今年累計募資達 1.19 億美元。總部設於洛杉磯的 Fasset 提供一站式金融平台，讓消費者與企業跨貨幣、跨資產進行持有、轉帳、消費與投資，並在背後以穩定幣作為結算基礎設施；平台年化交易量已逾 400 億美元、覆蓋 125 個國家。執行長 Mohammad Raafi Hossain 表示，公司營收年增約六倍、已連續 12 個月獲利，惟未揭露具體營收與獲利數字。",
-          "Fasset 的系統跑在自建、以 Arbitrum 為基礎並導入 AI 的以太坊 Layer 2 網路「OWN Network」上，串接逾 100 條銀行走廊的銀行、電信、支付與流動性業者，讓穩定幣即使在用戶未察覺時也能擔任底層結算軌道。SBI 近年是傳統金融集團中最積極布局數位資產者之一，投資橫跨 Ripple、Circle與 DeFi 借貸協定 Morpho，並擁有加密造市商 B2C2；此輪加碼使 Fasset 得以接入 SBI 龐大金融網路，包括涵蓋約 47 萬個據點、可匯往約 200 國的 SBI Remit 匯款網。此案反映傳統金融與加密加速融合，穩定幣正從交易所間搬錢工具擴及匯款、企業財務與跨境支付，尤其在跨境成本高昂的新興市場；不過雙方尚未公布具體產品與新走廊。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Stablecoin neobank Fasset lands $1 billion valuation as SBI backs its payments push",
-            "url": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-24",
-        "title": "以太坊借貸協定 Term Finance 遭治理攻擊損失約 850 萬美元，攻擊者低價買下投票權奪金庫控制權",
-        "paras": [
-          "以太坊上的借貸協定 Term Finance 遭攻擊、損失約 850 萬美元。據鏈上監控服務 Defimon，攻擊者以低成本收購該協定發行量稀少、持有分散的治理代幣，取得多數投票權後，透過通過提案的方式奪得旗下 Meta Vaults 金庫的控制權，接著移轉約 2,843 枚以太幣（當時約值 690 萬美元）與 168 萬枚 USDC，掏空金庫約 68% 的資產。依 DefiLlama 資料，遭攻擊前該金庫約有 1,245 萬美元資產，其中以太幣部位幾乎被全數取走。Term 表示已永久關閉此金庫產品、停止新存款並移除相關治理權限，強調協定的直接借貸市場未受影響。",
-          "這批金庫以廣泛使用的 Yearn V3 基礎設施打造，Yearn 澄清此次漏洞出在 Term 於其技術外層自建的治理層，並非標準 Yearn 金庫。此案凸顯去中心化金融（DeFi）的治理代幣安全風險：當「贏得一場投票所需的代幣價值」遠低於「投票所能支配的資產」時，治理本身就可能成為攻擊入口。Term 過去也曾出事——2025 年 4 月一次預言機（oracle）錯誤曾觸發約 918 枚以太幣的非預期清算，事後多數資金已回收並補償用戶，並承諾強化治理透明度；一年多後，弱點卻轉移到治理環節。Term 稱正與外部資安團隊合作追回資產，並將設法彌補剩餘損失。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Ethereum lending app Term Finance loses $8.5 million after attacker buys voting power",
-            "url": "https://www.coindesk.com/markets/2026/08/24/ethereum-lending-app-term-finance-loses-usd8-5-million-after-attacker-buys-voting-power"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-24",
-        "title": "跨境支付獨角獸 Airwallex 完成 3.2 億美元 H 輪、估值達 110 億美元，從跨境支付跨入「自主金融」與 AI 代理商務",
-        "paras": [
-          "總部設於澳洲、以跨境支付起家的金融科技公司 Airwallex 宣布完成 3.2 億美元的 H 輪募資，投後估值達 110 億美元，並將以這筆資金把業務從跨境支付延伸到「自主金融」（autonomous finance），推出可自動記帳的 T:0，以及主打 AI 代理商務（agentic commerce）的 Airi 等產品。公司目前服務逾 67.5 萬家企業，年化營收已突破 10 億美元。",
-          "Airwallex 總裁劉沁芸（Lucy Liu）表示，公司雖具備上市體質，但首次公開發行（IPO）時程仍取決於市場狀況，同時也面臨美國與澳洲日益升高的監理審查。對金融科技產業而言，一家跨境支付平台把 AI 代理與自動化記帳嵌入企業金流，代表「代理式金融」正從概念走向具體產品線，支付服務商競相以 AI 把「幫企業收付款」擴展為「幫企業自動處理財務」；惟新產品的實際採用成效與跨市場合規挑戰仍待驗證。"
-        ],
-        "sources": [
-          {
-            "name": "Fortune",
-            "title": "Airwallex expands from cross-border payments into autonomous finance",
-            "url": "https://fortune.com/article/airwallex-fundraise-lucy-liu-ai-fintech-ipo-08-20-2026/"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-08-31T06:51:15Z"
+  "_generated_at": "2026-08-31T18:51:50Z"
 }
