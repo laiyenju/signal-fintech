@@ -110,6 +110,28 @@
     "others": [
       {
         "date": "2026-09-01",
+        "title": "新加坡金管局 MAS 擬修法要求穩定幣 100% 儲備、禁付利息，打造受監理穩定幣結算資產",
+        "paras": [
+          "新加坡金融管理局（Monetary Authority of Singapore, MAS）提出《支付服務法》（Payment Services Act）修正草案，要求穩定幣（stablecoin，錨定法幣的數位代幣）發行商在任何時候都必須持有至少等於流通代幣 100% 的儲備資產，且須存放於與發行商自有資金分離的帳戶、僅能交由持牌金融機構託管；同時禁止發行商就用戶持有的穩定幣支付利息或其他相關收益。MAS 在諮詢文件中表示，穩定幣應用於支付，而非供大眾當作投資或生息工具，性質不應等同銀行存款；此一禁息立場與美國《GENIUS Act》及歐盟《加密資產市場法規》（MiCA）一致——兩者同樣明文禁止穩定幣付息。",
+          "MAS 副局長（金融監理）Ho Hern Shin 表示，受信任且受良好監理的穩定幣，可在代幣化金融市場中作為可信的結算資產，同時降低對用戶與整體金融體系的風險。本次諮詢也涵蓋對少數、受可比境外框架監理之外國穩定幣的有限承認，但實際運作方式、共同發行代幣的責任如何劃分，以及現有新加坡發行商是否適用過渡安排，均尚待確定。MAS 早在 2022 年 10 月首度就穩定幣規則諮詢、2023 年 8 月公布回應，此次諮詢於 10 月 16 日截止，子法將另行諮詢，尚未提供實施日期。與此同時，受監理穩定幣已在新加坡進行測試：Ripple 正於 MAS 央行沙盒中，驗證其穩定幣 RLUSD 能否取代長年拖慢跨境貿易的人工付款流程，此測試屬 MAS 旨在擴展代幣化銀行負債與受監理穩定幣結算能力的 BLOOM 計畫一環。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Singapore proposes 100% reserves and a ban on yields for stablecoin issuers",
+            "url": "https://www.coindesk.com/policy/2026/09/01/singapore-proposes-100-reserves-and-a-ban-on-yields-for-stablecoin-issuers"
+          },
+          {
+            "name": "新加坡金管局（MAS）",
+            "title": "MAS Consults on Legislative Amendments to Implement Stablecoin Regulatory Framework",
+            "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-consults-on-legislative-amendments-to-implement-stablecoin-regulatory-framework"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-09-01",
         "title": "倫敦證交所攜手 Kraken 母公司 Payward，將英股前百大企業以 xStocks 代幣化搬上鏈",
         "paras": [
           "倫敦證券交易所集團（London Stock Exchange Group, LSEG）與加密貨幣交易所 Kraken 的母公司 Payward 宣布合作，未來數週內把倫敦證交所掛牌市值前 100 大企業的股票，帶上 Payward 的 xStocks 代幣化股票（tokenized equities）框架。xStocks 是與底層股份以一比一擔保發行的代幣化版本，可在中心化交易所、自我保管錢包與各類鏈上應用中全天候（24/7）交易，並追蹤與真實股票相同的價格。相較傳統券商帳戶的股票須在交易時段內、經多層中介於數日內完成清算交割，其代幣化版本可即時、全天候移轉。",
@@ -655,5 +677,5 @@
       }
     ]
   },
-  "_generated_at": "2026-09-01T09:53:22Z"
+  "_generated_at": "2026-09-01T12:52:59Z"
 }
