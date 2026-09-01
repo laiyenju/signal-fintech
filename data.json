@@ -1,113 +1,51 @@
 {
-  "tw": {
-    "cover": {
-      "date": "2026-09-01",
-      "tier": "watch",
-      "title": "本日觀察：台灣今日無明確金融科技重點新聞",
-      "paras": [
-        "本次回看近 24 小時的台灣新聞，版面多聚焦半導體供應鏈、AI 資料中心、能源電網與傳統股匯市動向，缺乏以金融科技為核心的重大進展。與金流相關的個別事件，例如銀行內部人員涉嫌勾結詐團、規避風控協助辦理抵押貸款，屬個案風控與人事問題，並非數位金融產品或基礎設施層面的突破。",
-        "另有數位資產業者今年以來砸下近 6.4 億美元買回自家加密貨幣以支撐幣價的消息，本質是市場價格操作而非技術或商業模式進展，因此不列入本日重點。今日暫以觀察為主，待更明確的金融科技事件出現再行更新。"
-      ]
-    },
-    "sources": [],
-    "coverSocial": [],
-    "context": [],
-    "others": [
-      {
-        "date": "2026-08-28",
-        "title": "金管會與印度 IFSCA 簽署金融科技合作協議，建立雙邊監理轉介與資訊共享機制",
-        "paras": [
-          "金融監督管理委員會（金管會）宣布，已與印度國際金融服務中心管理局（International Financial Services Centres Authority, IFSCA）完成簽署金融科技合作協議，由金管會副主委陳彥良與 IFSCA 主席 K. Rajaraman 在印度舉行的第 19 屆台印經貿對話（ITEC）期間，透過線上交換文件儀式完成，並由我駐印度代表處與印度台北協會（ITA）共同協助促成。協議聚焦三大面向：兩地金融科技業者的監理機關轉介機制、資訊分享，以及分享資訊的保密與使用規範，讓雙方新創與業者在跨境拓展時有正式的監理對接管道。",
-          "這份協議延續金管會與 IFSCA 於 2025 年 12 月簽署的金融合作備忘錄，把合作範圍進一步延伸到金融科技領域。IFSCA 監理的是印度設於古吉拉特邦 GIFT City 的首座國際金融服務中心，提供創新監理框架與具競爭力的租稅環境；目前已有中國信託（3 月起營運）、台北富邦與兆豐等台資銀行在當地設立分行。金管會表示，將持續透過雙邊與多邊管道，積極與各國金融主管機關建立監理合作網絡，實際能為台灣金融科技業者帶來多少跨境落地機會，仍待後續個案進展檢驗。"
-        ],
-        "sources": [
-          {
-            "name": "Yahoo奇摩財經",
-            "title": "金管會與印度金融服務中心管理局 簽署「金融科技合作協議」",
-            "url": "https://tw.news.yahoo.com/%E9%87%91%E7%AE%A1%E6%9C%83%E8%88%87%E5%8D%B0%E5%BA%A6%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8B%99%E4%B8%AD%E5%BF%83%E7%AE%A1%E7%90%86%E5%B1%80-%E7%B0%BD%E7%BD%B2-%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E5%90%88%E4%BD%9C%E5%8D%94%E8%AD%B0-120405734.html"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-27",
-        "title": "Google Cloud 推出金融與法務專用 Gemini Enterprise AI 方案，主打合規與資安",
-        "paras": [
-          "雲端服務商 Google Cloud 宣布推出專為金融服務與法務領域打造的 Gemini Enterprise 企業級人工智慧（AI）解決方案，整合 AI 代理、產業專屬技能與安全的資料連接器，主打解決通用型 AI 在特定產業難以滿足的合規與資安痛點，鎖定金融、法務等高度受監理的產業客戶。",
-          "對台灣金融科技而言，這反映雲端與 AI 大廠正把「產業專用、內建合規與資安」當成切入金融機構的主要賣點，呼應監理科技（RegTech）與金融資安的需求；以 AI 代理協助風控、法遵與文件處理，也逐漸成為金融業數位轉型的一環。真正的檢驗仍在後頭：此次揭露集中於產品方向，定價、實際採用的金融機構名單，以及在台落地時程都尚未公布，能否被受監理業者放心用於核心流程，還要看後續落地情況。"
-        ],
-        "sources": [
-          {
-            "name": "中央社",
-            "title": "Google Cloud布局企業AI　推金融與法務解決方案",
-            "url": "https://www.cna.com.tw/news/ait/202608260271.aspx"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-27",
-        "title": "台灣數位保險睽違一年重啟後首破蛋，兩業者遞件申設產險與壽險各一家",
-        "paras": [
-          "金管會 27 日證實，繼去年 8 月重新開放「數位保險公司」申設後，近一年來首度有業者正式遞件，兩件申請案分別瞄準數位壽險與數位產險，各為一家。這代表台灣純網保（僅以數位通路提供保險）從政策開放邁入實質推進的第一步，也將補齊繼純網銀之後的另一塊數位金融拼圖。",
-          "對台灣金融科技而言，數位保險公司將檢驗以線上核保、AI 定價、API 對接主流通路等「保險科技（InsurTech）」商業模式，能否在既有壽險與產險巨頭主導的市場中站穩腳步。目前兩家申請人身分、股東結構、資本規模與最終商品皆未揭露，金管會後續審查標準與發照時程也尚未公布，能否真正形成純網保生態圈仍待觀察。"
-        ],
-        "sources": [
-          {
-            "name": "經濟日報",
-            "title": "等了一年…數位保險終破蛋！兩業者正式遞件 產壽各一家",
-            "url": "https://money.udn.com/money/story/5613/9718514"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-26",
-        "title": "奧丁丁集團 PayNow（立吉富線上金流）導入奧義賽博 AI 資安，強化第三方支付主動防禦",
-        "paras": [
-          "奧丁丁集團（OwlTing）旗下第三方支付品牌 PayNow（立吉富線上金流）宣布，導入資安業者奧義賽博（CyCraft）的 AI 資安方案，為其線上金流打造「主動防禦」機制。PayNow 表示，此舉是為因應持續升級的全球金流資安風險，以及金管會 2026 年揭示的六大監理重點，透過 AI 強化對支付流程的威脅偵測與防護。",
-          "對台灣金融科技而言，支付業者把 AI 資安導入金流核心，屬於金融資安與監理科技（RegTech）範疇，反映在數位支付規模擴大、詐騙與攻擊手法翻新之際，第三方支付與電子支付業者逐步把資安主動防禦視為基礎建設的一環。不過此次公開資訊集中於雙方合作方向，實際部署範圍、導入時程與量化成效等細節尚未揭露，後續實際部署與防護成效仍待觀察。"
-        ],
-        "sources": [
-          {
-            "name": "科技新報",
-            "title": "立吉富線上金流導入奧義賽博 AI 資安，打造電子支付主動防禦",
-            "url": "https://infosecu.technews.tw/2026/08/25/paynow-cycraft/"
-          }
-        ],
-        "social": [],
-        "context": []
-      }
-    ]
-  },
   "global": {
     "cover": {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "tier": "top",
-      "title": "紐約證交所母公司 ICE 入股區塊鏈基礎設施商 tZERO，加速打造 NYSE 關聯代幣化證券市場",
+      "title": "花旗、高盛等 21 家全球銀行與資產管理業者合組穩定幣發行公司，主打支付與數位資產結算",
       "paras": [
-        "紐約證交所母公司洲際交易所（Intercontinental Exchange，ICE）宣布與區塊鏈基礎設施商 tZERO 合作，導入其轉讓代理（transfer agent）與券商結算系統，作為 ICE 規劃中 NYSE 關聯代幣化證券（tokenized securities）市場的鏈上結算基礎；ICE 同時將參與 tZERO 最新一輪募資（金額未揭露），並取得其 103 項區塊鏈專利授權。tZERO 預期在符合監理與技術要求後，成為該平台的核准數位轉讓代理與參與者，負責鏈上股權的所有權登錄與合規移轉。",
-        "此舉凸顯華爾街代幣化競賽正從「把股票、債券搬上鏈」轉向更難的結算、所有權記錄與擔保品等底層基礎設施；ICE 也將與 tZERO 探索把代幣化資產用作旗下清算所的擔保品。Citi 預估代幣化證券市場規模到 2030 年上看 5.5 兆美元。ICE 此前已於 3 月找上 BlackRock 代幣化夥伴 Securitize 擔任數位轉讓代理，而 Securitize 與 tZERO 正因專利糾紛互告，反映傳統交易所巨頭與代幣化服務商之間的競逐與整合同時加速。"
+        "包含美國銀行（Bank of America）、花旗（Citi）、高盛（Goldman Sachs）、瑞銀（UBS）在內的 21 家金融機構宣布，將合組一家新公司，發行用於支付與數位資產交易的穩定幣（stablecoin）。新公司尚未命名，預計今年下半年成立，先推出美元計價穩定幣、目標 2027 年上半年上市，之後再擴及其他七大工業國（G7）貨幣，並以歐元代幣為優先；參與者橫跨北美、歐洲、東亞、中東與非洲，還包括 Wells Fargo、Deutsche Bank、Santander、Fidelity、MUFG 與 Standard Bank 等。",
+        "此案源自 2025 年 10 月由 10 家銀行發起、探索以準備金一比一承兌並在公有鏈上流通的數位支付資產計畫，如今擴大為 21 家，並表示將符合美國 GENIUS Act 與歐盟 MiCA 監理框架。這代表大型傳統銀行從旁觀轉為直接下場，正面挑戰目前由 Tether（USDT，約六成市占）與 Circle（USDC，逾兩成）主導、整體規模已達約 3,030 億美元的穩定幣市場；消息傳出後，USDC 發行商 Circle 股價一度下跌逾 4%。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
-        "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm"
+        "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
+        "url": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture"
       },
       {
-        "name": "tZERO",
-        "title": "tZERO and ICE Agree to Collaborate on Infrastructure for Public Tokenized Securities Markets",
-        "url": "https://www.tzero.com/news/tzero-and-ice-agree-to-collaborate-on-infrastructure-for-public-tokenized-securities-markets"
+        "name": "PR Newswire",
+        "title": "Group of Leading International Financial Institutions to Establish Stablecoin Enterprise",
+        "url": "https://www.prnewswire.com/news-releases/group-of-leading-international-financial-institutions-to-establish-stablecoin-enterprise-302866318.html"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-09-01",
+        "title": "紐約證交所母公司 ICE 入股區塊鏈基礎設施商 tZERO，加速打造 NYSE 關聯代幣化證券市場",
+        "paras": [
+          "紐約證交所母公司洲際交易所（Intercontinental Exchange，ICE）宣布與區塊鏈基礎設施商 tZERO 合作，導入其轉讓代理（transfer agent）與券商結算系統，作為 ICE 規劃中 NYSE 關聯代幣化證券（tokenized securities）市場的鏈上結算基礎；ICE 同時將參與 tZERO 最新一輪募資（金額未揭露），並取得其 103 項區塊鏈專利授權。tZERO 預期在符合監理與技術要求後，成為該平台的核准數位轉讓代理與參與者，負責鏈上股權的所有權登錄與合規移轉。",
+          "此舉凸顯華爾街代幣化競賽正從「把股票、債券搬上鏈」轉向更難的結算、所有權記錄與擔保品等底層基礎設施；ICE 也將與 tZERO 探索把代幣化資產用作旗下清算所的擔保品。Citi 預估代幣化證券市場規模到 2030 年上看 5.5 兆美元。ICE 此前已於 3 月找上 BlackRock 代幣化夥伴 Securitize 擔任數位轉讓代理，而 Securitize 與 tZERO 正因專利糾紛互告，反映傳統交易所巨頭與代幣化服務商之間的競逐與整合同時加速。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
+            "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm"
+          },
+          {
+            "name": "tZERO",
+            "title": "tZERO and ICE Agree to Collaborate on Infrastructure for Public Tokenized Securities Markets",
+            "url": "https://www.tzero.com/news/tzero-and-ice-agree-to-collaborate-on-infrastructure-for-public-tokenized-securities-markets"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-09-01",
         "title": "Ethena 推出穩定幣新型銀行 App「Ethena Pay」，整合 6% 美元儲蓄、5% 刷卡回饋與跨境支付",
@@ -583,115 +521,86 @@
         ],
         "social": [],
         "context": []
-      },
+      }
+    ]
+  },
+  "tw": {
+    "cover": {
+      "date": "2026-09-02",
+      "tier": "watch",
+      "title": "本日觀察：台灣今日無明確金融科技重點新聞",
+      "paras": [
+        "今日台灣各主要財經與科技來源以總體經濟與傳統金融題材為主，例如央行連續兩年打房的副作用浮現、學者評估人工智慧（AI）對消費者物價指數（CPI）影響有限、預期 9 月升息機率不高，以及國泰投信相關案件的裁定與人事討論，均未觸及支付、數位銀行或金融基礎設施等核心題材。",
+        "整體而言，台灣今日金融科技領域無重大進展，市場焦點集中在打房政策後續影響、利率與物價等總體經濟議題；相關國際重要進展另見全球欄目。"
+      ]
+    },
+    "sources": [],
+    "coverSocial": [],
+    "context": [],
+    "others": [
       {
-        "date": "2026-08-25",
-        "title": "Revolut 成立 AI 研究部門 Revolut Research，攜 NVIDIA 打造自有金融基礎模型 PRAGMA",
+        "date": "2026-08-28",
+        "title": "金管會與印度 IFSCA 簽署金融科技合作協議，建立雙邊監理轉介與資訊共享機制",
         "paras": [
-          "英國金融科技公司 Revolut 宣布成立專責的 AI 研究部門 Revolut Research，核心是與輝達（NVIDIA）共同打造的自有金融基礎模型（foundation model）PRAGMA。它是一組 encoder 型的 transformer 模型，預訓練資料涵蓋來自逾 100 個國家、約 2,600 萬名用戶的 240 億筆銀行交易事件，用來即時解讀金融行為，支援風控、詐欺偵測、信用風險評估與個人化商品推薦。",
-          "這反映金融機構開始跳過通用大型模型、自建以自身交易資料訓練的「交易基礎模型」，把 AI 直接嵌進核心風控與營運。Revolut 稱早期測試中，PRAGMA 在信用違約辨識的準確度約提升至 2.3 倍、商品推薦命中率提高約四成，並優於既有的專用系統；整套模型跑在 NVIDIA Hopper GPU、cuDF 函式庫與 Nemotron 開源模型上。不過相關成效目前仍屬內部早期測試數據，實際部署後的表現有待驗證。"
+          "金融監督管理委員會（金管會）宣布，已與印度國際金融服務中心管理局（International Financial Services Centres Authority, IFSCA）完成簽署金融科技合作協議，由金管會副主委陳彥良與 IFSCA 主席 K. Rajaraman 在印度舉行的第 19 屆台印經貿對話（ITEC）期間，透過線上交換文件儀式完成，並由我駐印度代表處與印度台北協會（ITA）共同協助促成。協議聚焦三大面向：兩地金融科技業者的監理機關轉介機制、資訊分享，以及分享資訊的保密與使用規範，讓雙方新創與業者在跨境拓展時有正式的監理對接管道。",
+          "這份協議延續金管會與 IFSCA 於 2025 年 12 月簽署的金融合作備忘錄，把合作範圍進一步延伸到金融科技領域。IFSCA 監理的是印度設於古吉拉特邦 GIFT City 的首座國際金融服務中心，提供創新監理框架與具競爭力的租稅環境；目前已有中國信託（3 月起營運）、台北富邦與兆豐等台資銀行在當地設立分行。金管會表示，將持續透過雙邊與多邊管道，積極與各國金融主管機關建立監理合作網絡，實際能為台灣金融科技業者帶來多少跨境落地機會，仍待後續個案進展檢驗。"
         ],
         "sources": [
           {
-            "name": "Revolut",
-            "title": "Revolut announces launch of dedicated AI research division: Revolut Research",
-            "url": "https://www.revolut.com/en-BG/news/revolut_announces_launch_of_dedicated_ai_research_division_revolut_research/"
+            "name": "Yahoo奇摩財經",
+            "title": "金管會與印度金融服務中心管理局 簽署「金融科技合作協議」",
+            "url": "https://tw.news.yahoo.com/%E9%87%91%E7%AE%A1%E6%9C%83%E8%88%87%E5%8D%B0%E5%BA%A6%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8B%99%E4%B8%AD%E5%BF%83%E7%AE%A1%E7%90%86%E5%B1%80-%E7%B0%BD%E7%BD%B2-%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E5%90%88%E4%BD%9C%E5%8D%94%E8%AD%B0-120405734.html"
           }
         ],
         "social": [],
         "context": []
       },
       {
-        "date": "2026-08-25",
-        "title": "加密基礎設施商 Zerohash 二度叩關 OCC 信託銀行牌照，改採範圍更窄的申請",
+        "date": "2026-08-27",
+        "title": "Google Cloud 推出金融與法務專用 Gemini Enterprise AI 方案，主打合規與資安",
         "paras": [
-          "Zerohash 為 Morgan Stanley 旗下 E*Trade、BlackRock、Stripe、Franklin Templeton、Interactive Brokers 與 DraftKings 等提供加密基礎設施。在美國通貨監理署（OCC）上月退回其首次全國信託銀行牌照申請後，該公司迅速提出第二次申請；OCC 退件意味首次申請存在實質缺失，而 Zerohash 表示新申請聚焦範圍明顯縮小、更貼合其預定的業務推出時程。目前申請已進入 OCC 審查，公眾意見徵詢期開放至 9 月 17 日。",
-          "近期多家加密原生公司取得初步信託牌照、兩家遭否決，而 Zerohash 是唯一被退回者。該公司本身已是州級信託銀行，若取得全國信託牌照，將強化其作為傳統金融機構加密後台的地位；此外，其前法遵長在加州提出不當解僱訴訟，主張在揭露多項法遵問題後遭解職，為這次叩關增添變數。"
+          "雲端服務商 Google Cloud 宣布推出專為金融服務與法務領域打造的 Gemini Enterprise 企業級人工智慧（AI）解決方案，整合 AI 代理、產業專屬技能與安全的資料連接器，主打解決通用型 AI 在特定產業難以滿足的合規與資安痛點，鎖定金融、法務等高度受監理的產業客戶。",
+          "對台灣金融科技而言，這反映雲端與 AI 大廠正把「產業專用、內建合規與資安」當成切入金融機構的主要賣點，呼應監理科技（RegTech）與金融資安的需求；以 AI 代理協助風控、法遵與文件處理，也逐漸成為金融業數位轉型的一環。真正的檢驗仍在後頭：此次揭露集中於產品方向，定價、實際採用的金融機構名單，以及在台落地時程都尚未公布，能否被受監理業者放心用於核心流程，還要看後續落地情況。"
         ],
         "sources": [
           {
-            "name": "CoinDesk",
-            "title": "Zerohash back for second effort at OCC trust bank charter",
-            "url": "https://www.coindesk.com/policy/2026/08/25/zerohash-back-for-second-effort-at-occ-trust-bank-charter"
+            "name": "中央社",
+            "title": "Google Cloud布局企業AI　推金融與法務解決方案",
+            "url": "https://www.cna.com.tw/news/ait/202608260271.aspx"
           }
         ],
         "social": [],
         "context": []
       },
       {
-        "date": "2026-08-25",
-        "title": "南韓最大貿易商 POSCO International 把貿易應收帳款搬上 Avalanche，深化代幣化貿易金融",
+        "date": "2026-08-27",
+        "title": "台灣數位保險睽違一年重啟後首破蛋，兩業者遞件申設產險與壽險各一家",
         "paras": [
-          "南韓最大貿易商 POSCO International（浦項國際）宣布，其美國分支與貿易金融平台 Olea、資產擔保金融科技商 Intain 合作，完成一筆把真實貿易應收帳款（trade receivables，賣方交貨後、買方付款前的待收帳款）轉為數位資產的交易。這筆交易記錄於 Intain 建於 Avalanche（AVAX）之上的 Layer-1 區塊鏈；Intain 先以人工智慧比對發票、採購單、折讓單與出貨文件，完成核對後再把應收帳款驗證並登錄上鏈。此案距其上月與 LG CNS 在 Injective 上發行、移轉並結算代幣化應收帳款的試驗僅一個月。POSCO International 年營收約 222 億美元，業務橫跨鋼鐵、能源與電池材料，並在海外設有逾 80 個據點。",
-          "傳統上企業可用應收帳款向銀行融資，但買方、賣方與銀行各自保存紀錄，對帳繁瑣、放款緩慢；把應收帳款放上共享帳本，可建立單一的所有權與狀態紀錄，加快取得資金。這也顯示代幣化正從基金與債券，延伸到支付、擔保品與貿易金融等「把卡在傳統流程裡的營運資金釋放出來」的場景。POSCO、Olea 與 Intain 表示，後續將探索更多代幣化貿易金融應用，包括以穩定幣（stablecoin，錨定法幣的數位代幣）為基礎的跨境結算與數位財資（treasury）工具；不過此次交易金額與後續放量規模均未揭露，實際商用成效仍待觀察。"
+          "金管會 27 日證實，繼去年 8 月重新開放「數位保險公司」申設後，近一年來首度有業者正式遞件，兩件申請案分別瞄準數位壽險與數位產險，各為一家。這代表台灣純網保（僅以數位通路提供保險）從政策開放邁入實質推進的第一步，也將補齊繼純網銀之後的另一塊數位金融拼圖。",
+          "對台灣金融科技而言，數位保險公司將檢驗以線上核保、AI 定價、API 對接主流通路等「保險科技（InsurTech）」商業模式，能否在既有壽險與產險巨頭主導的市場中站穩腳步。目前兩家申請人身分、股東結構、資本規模與最終商品皆未揭露，金管會後續審查標準與發照時程也尚未公布，能否真正形成純網保生態圈仍待觀察。"
         ],
         "sources": [
           {
-            "name": "CoinDesk",
-            "title": "South Korea trade giant POSCO brings trade receivables to Avalanche in latest tokenization move",
-            "url": "https://www.coindesk.com/business/2026/08/25/south-korea-trade-giant-posco-brings-trade-receivables-to-avalanche-in-latest-tokenization-move"
-          },
-          {
-            "name": "Intain（官方新聞室）",
-            "title": "POSCO International, Olea and Intain complete landmark on-chain trade finance transaction",
-            "url": "https://intainft.com/news/posco-international-olea-and-intain-complete-landmark-on-chain-trade-finance-transaction"
+            "name": "經濟日報",
+            "title": "等了一年…數位保險終破蛋！兩業者正式遞件 產壽各一家",
+            "url": "https://money.udn.com/money/story/5613/9718514"
           }
         ],
         "social": [],
         "context": []
       },
       {
-        "date": "2026-08-25",
-        "title": "美國多州銀行公會擬自建全國性區塊鏈網路，把智慧支付、代幣化存款與穩定幣導入銀行自營基礎設施",
+        "date": "2026-08-26",
+        "title": "奧丁丁集團 PayNow（立吉富線上金流）導入奧義賽博 AI 資安，強化第三方支付主動防禦",
         "paras": [
-          "在銀行業與加密產業於華盛頓歷經約一年的政策角力後，美國多個州級銀行公會（state banking associations）宣布，計畫共同打造一個由銀行自營（bank-run）的全國性區塊鏈網路，用以支援智慧支付（smart payments）、代幣化存款（tokenized deposits，銀行存款的數位代幣形式）與穩定幣（stablecoin，錨定法幣的數位代幣）等金融創新。此舉等於由傳統銀行體系集體出面，建立一套由銀行掌控的共享區塊鏈基礎設施，而非把相關業務讓渡給加密原生業者。",
-          "對數位資產與支付基礎設施而言，銀行公會自建區塊鏈軌道，是傳統銀行對穩定幣與代幣化浪潮的一種競爭性回應：與其依附加密業者的公有鏈，銀行選擇把代幣化存款與銀行發行的支付工具，放在自家可控、且較易銜接既有監理框架的網路上。不過目前公開資訊集中於發起意向與方向，實際參與機構、技術架構、上線時程，以及是否與既有清算體系互通等關鍵細節均尚未揭露，能否真正落地並被銀行廣泛採用仍待後續觀察。"
+          "奧丁丁集團（OwlTing）旗下第三方支付品牌 PayNow（立吉富線上金流）宣布，導入資安業者奧義賽博（CyCraft）的 AI 資安方案，為其線上金流打造「主動防禦」機制。PayNow 表示，此舉是為因應持續升級的全球金流資安風險，以及金管會 2026 年揭示的六大監理重點，透過 AI 強化對支付流程的威脅偵測與防護。",
+          "對台灣金融科技而言，支付業者把 AI 資安導入金流核心，屬於金融資安與監理科技（RegTech）範疇，反映在數位支付規模擴大、詐騙與攻擊手法翻新之際，第三方支付與電子支付業者逐步把資安主動防禦視為基礎建設的一環。不過此次公開資訊集中於雙方合作方向，實際部署範圍、導入時程與量化成效等細節尚未揭露，後續實際部署與防護成效仍待觀察。"
         ],
         "sources": [
           {
-            "name": "CoinDesk",
-            "title": "U.S. state banking associations plan to launch their own nationwide blockchain network",
-            "url": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-25",
-        "title": "Coinbase 在自營 Base 網路推出代幣化股票，加入把股權搬上區塊鏈的競賽",
-        "paras": [
-          "美國最大的加密貨幣交易所 Coinbase 在其自營的以太坊 Layer 2 網路 Base 上推出代幣化股票（tokenized stocks），首批標的以美國市值最大的幾檔知名個股為主，讓用戶能在鏈上持有並交易對應真實股權的代幣。相較於此前多由加密新創或中小型平台試水，這次由交易量最大的合規交易所入場，等於把股權代幣化推向更接近主流的規模，讓「把股票搬上鏈」從邊緣實驗變成大型金融平台正面競逐的戰場。",
-          "代幣化股票近月成為加密平台與傳統券商競逐的新戰場：此前 Kraken 已為歐洲客戶開通逾 7,000 檔美股的鏈上與真實股票交易，成為單一平台同售真實美股與代幣化版本的先行者。把股權代幣化的訴求在於接近全天候的交易時間、可程式化的結算流程與跨境可及性，但證券型代幣如何符合各國證券法規、投資人保護與清算交割要求，仍是決定這股趨勢能走多遠的最大變數。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
-            "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-25",
-            "title": "Bitwise 以 Coinbase 代幣化股票推出「自動化代幣投組」（ATP），示範代幣化股權的鏈上資產管理應用",
-            "body": "在 Coinbase 於 Base 推出代幣化美股（首批為 Apple、Nvidia、Meta、Alphabet）隔天，管理規模約 90 億美元、以加密 ETF 聞名的數位資產資產管理商 Bitwise 宣布推出「自動化代幣投組」（Automated Token Portfolios，ATP）。ATP 直接以 Coinbase 這批代幣化美股為成分，由投組技術商 Glider 依 Bitwise 設計的模型自動再平衡，讓美國以外的合格投資人把個股代幣留在自己的加密錢包，毋須透過券商買進 ETF 或基金。首批主題涵蓋 AI、機器人，以及在「七雄」之外再等權納入 SpaceX 的擴充版；投資長 Matt Hougan 形容，過去要取得專業投組模型必須把資產交給基金，ATP 則讓資產留在自己錢包、由模型主動找上門。此舉顯示代幣化股權開始長出「把股票搬上鏈重演交易」以外的資產管理應用。Bitwise 模型另納入 Microsoft、Amazon、Tesla、SpaceX 與 Sandisk 等 Coinbase 尚未代幣化的標的，被外界解讀為其後續可能擴充的線索，惟 ATP 僅限美國以外合格投資人，實際採用與各地監理適用仍待觀察。"
-          }
-        ]
-      },
-      {
-        "date": "2026-08-25",
-        "title": "富蘭克林坦伯頓與香港 HashKey 合作，把美國代幣化貨幣市場基金帶進亞洲",
-        "paras": [
-          "資產管理巨頭富蘭克林坦伯頓（Franklin Templeton）宣布與香港受監理的加密交易所 HashKey 合作，在亞洲分銷其旗艦代幣化貨幣市場基金 Franklin OnChain U.S. Government Money Fund。透過這項合作，亞洲投資人可經由 HashKey 平台取得這檔把美國政府貨幣市場基金份額搬上區塊鏈的產品，讓原本以美國市場為主的鏈上現金管理型基金，首度以受監理通道向亞洲客群開放。",
-          "這是傳統資產管理業者把真實世界資產（real-world assets，RWA）代幣化推向亞洲的又一步。相較於近期市場聚焦的代幣化股票，代幣化貨幣市場基金主打可在鏈上結算、近乎全天候申贖的現金管理工具，被視為機構資金進入鏈上金融的入口之一。不過此類產品在不同司法管轄區如何符合證券與基金監理、投資人適格與跨境分銷規範，仍是決定其能否放量的關鍵。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Franklin Templeton and Hashkey roll out U.S. tokenized money fund in Asia",
-            "url": "https://www.coindesk.com/business/2026/08/25/franklin-templeton-and-hashkey-roll-out-u-s-tokenized-money-fund-in-asia"
+            "name": "科技新報",
+            "title": "立吉富線上金流導入奧義賽博 AI 資安，打造電子支付主動防禦",
+            "url": "https://infosecu.technews.tw/2026/08/25/paynow-cycraft/"
           }
         ],
         "social": [],
@@ -699,5 +608,5 @@
       }
     ]
   },
-  "_generated_at": "2026-09-01T15:52:39Z"
+  "_generated_at": "2026-09-01T18:55:03Z"
 }
