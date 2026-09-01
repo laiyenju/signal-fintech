@@ -109,6 +109,45 @@
     "context": [],
     "others": [
       {
+        "date": "2026-09-01",
+        "title": "倫敦證交所攜手 Kraken 母公司 Payward，將英股前百大企業以 xStocks 代幣化搬上鏈",
+        "paras": [
+          "倫敦證券交易所集團（London Stock Exchange Group, LSEG）與加密貨幣交易所 Kraken 的母公司 Payward 宣布合作，未來數週內把倫敦證交所掛牌市值前 100 大企業的股票，帶上 Payward 的 xStocks 代幣化股票（tokenized equities）框架。xStocks 是與底層股份以一比一擔保發行的代幣化版本，可在中心化交易所、自我保管錢包與各類鏈上應用中全天候（24/7）交易，並追蹤與真實股票相同的價格。相較傳統券商帳戶的股票須在交易時段內、經多層中介於數日內完成清算交割，其代幣化版本可即時、全天候移轉。",
+          "依雙方說法，xStocks 框架推出僅一年多，累計交易量已逾 400 億美元，其中近 200 億美元於鏈上結算，持有人數超過 20 萬。這次合作將讓英股觸及橫跨 110 多國的投資人，但 xStocks 目前尚不開放英國境內投資人；在取得監理核准後，倫敦證交所計畫於其新推出的 24 小時交易場所「LSE 24」掛牌並支援 xStocks 交易，未來範圍可望擴及美國、歐盟、英國與香港的代幣化股票。雙方並將研議由倫敦證交所會員直接在鏈上發行、與傳統股票具同等權利的原生股票代幣。這是繼紐約證交所母公司洲際交易所（ICE）入股 tZERO 打造代幣化證券市場後，又一家主要交易所把真實世界資產（RWA）代幣化推進到自家核心股票市場；不過 LSE plc 執行長 Julia Hoggett 也強調，代幣化必須在維護受監理市場的信任、權利與角色的前提下發展，消息傳出當日 LSEG 股價早盤一度下跌約 2%。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "London Stock Exchange to work with Payward to bring biggest UK stocks onchain",
+            "url": "https://www.coindesk.com/markets/2026/09/01/london-stock-exchange-to-work-with-payward-to-bring-biggest-uk-stocks-onchain"
+          },
+          {
+            "name": "Business Wire",
+            "title": "Payward and London Stock Exchange to Partner to Accelerate UK Equity Markets Through Tokenization",
+            "url": "https://www.businesswire.com/news/home/20260831722008/en/Payward-and-London-Stock-Exchange-to-Partner-to-Accelerate-UK-Equity-Markets-Through-Tokenization"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-09-01",
+        "title": "川普之子 1789 Capital 領投，預測市場 Polymarket 傳完成 10 億美元募資、估值達 210 億美元",
+        "paras": [
+          "據報導，美國總統川普之子小唐納·川普（Donald Trump Jr.）的創投機構 1789 Capital，正領投預測市場（prediction market）平台 Polymarket 一輪 10 億美元的募資，估值達 210 億美元。1789 Capital 發言人 Alexa Henning 表示，該機構此次投入約 3 億美元，加上先前已投入的約 2 億美元；Polymarket 上一輪估值約 150 億美元，意味此輪在數月內把估值推高約四成。Polymarket 與對手 Kalshi 讓用戶針對各種事件結果下注，過去一年業務快速成長。",
+          "川普家族在此領域的布局與產業一同壯大：小唐納·川普 2025 年成為 Kalshi 顧問並取得逾 30 萬美元股份，另擔任 Polymarket 顧問。同期華府政策風向也轉為有利——川普任命、執掌負責監管預測市場的商品期貨交易委員會（CFTC）的 Michael Selig，公開讚揚這類業者，並對試圖加以規範的州政府提告；川普本人今年 5 月也在社群平台 Truth Social 稱預測市場將在他的領導下蓬勃發展。這輪募資凸顯在監理態度轉趨友善下，加密原生的預測市場平台估值急速膨脹，惟目前僅為消息面揭露、尚未由 Polymarket 正式證實，實際交割與後續監理走向仍待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Trump Jr's firm leads $1 billion Polymarket raise at $21 billion value: Report",
+            "url": "https://www.coindesk.com/business/2026/09/01/trump-jr-s-firm-leads-usd1-billion-polymarket-raise-at-usd21-billion-value-report"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-08-31",
         "title": "一鍵結帳金流商 Bolt 估值自 110 億美元崩至 3 億，創辦人以 pay-to-play 過橋募資求生",
         "paras": [
@@ -616,5 +655,5 @@
       }
     ]
   },
-  "_generated_at": "2026-09-01T00:51:39Z"
+  "_generated_at": "2026-09-01T09:53:22Z"
 }
