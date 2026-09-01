@@ -110,6 +110,28 @@
     "others": [
       {
         "date": "2026-09-01",
+        "title": "Ethena 推出穩定幣新型銀行 App「Ethena Pay」，整合 6% 美元儲蓄、5% 刷卡回饋與跨境支付",
+        "paras": [
+          "合成美元穩定幣（stablecoin）發行商 Ethena（原生代幣 ENA）推出消費金融 App「Ethena Pay」，週二（9 月 1 日）於 Apple App Store 上線，定位為「網路貨幣新型銀行（neobank）」。這款 App 把美元儲蓄、卡片消費、跨境轉帳與法幣入金整合於單一介面，主打 6% 美元儲蓄利率與 5% 刷卡回饋，並支援美元、英鎊、歐元的免費入金、當地貨幣，以及與自我保管（self-custodial）穩定幣帳戶連動的法幣國際銀行帳號（IBAN）。整個資金移動、轉帳、支付與結算採用 Avalanche（AVAX）為獨家網路。消息帶動 ENA 在平盤的加密市場中逆勢上漲約 9%。",
+          "這是 Ethena 跨出「純生息美元」業務的最大一步——其合成美元代幣 USDe 規模約 40 億美元，過去收益主要來自加密基差交易（basis trade），上週才改造 ENA 代幣經濟模型，並規劃以股票永續合約（equity perpetuals）作為 USDe 的另一收益來源；今年稍早亦與 Coinbase 合作推出儲蓄產品，打開逾 1 億名用戶的分銷渠道。Ethena Pay 把儲蓄與支付串連，讓用戶在同一 App 內存錢、賺回饋再消費或轉帳，並推出名為「Buy Now Pay Never」的功能，以儲蓄回饋支應消費、不動用本金，反映穩定幣正從交易與生息工具，向日常消費金融與新型銀行場景延伸。不過產品仍屬小規模封測，先開放 400 名早期用戶、9 月間逐週擴大並退出 beta，由單一業者主導，實際採用、回饋利率的可持續性與各地監理適用仍待觀察。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments",
+            "url": "https://www.coindesk.com/business/2026/09/01/ethena-pushes-stablecoins-into-everyday-banking-with-high-yield-savings-cards-and-payments"
+          },
+          {
+            "name": "Ethena（官方公告，X）",
+            "title": "Ethena Pay is live on the App Store",
+            "url": "https://x.com/ethena/status/2094757121959280641"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-09-01",
         "title": "新加坡金管局 MAS 擬修法要求穩定幣 100% 儲備、禁付利息，打造受監理穩定幣結算資產",
         "paras": [
           "新加坡金融管理局（Monetary Authority of Singapore, MAS）提出《支付服務法》（Payment Services Act）修正草案，要求穩定幣（stablecoin，錨定法幣的數位代幣）發行商在任何時候都必須持有至少等於流通代幣 100% 的儲備資產，且須存放於與發行商自有資金分離的帳戶、僅能交由持牌金融機構託管；同時禁止發行商就用戶持有的穩定幣支付利息或其他相關收益。MAS 在諮詢文件中表示，穩定幣應用於支付，而非供大眾當作投資或生息工具，性質不應等同銀行存款；此一禁息立場與美國《GENIUS Act》及歐盟《加密資產市場法規》（MiCA）一致——兩者同樣明文禁止穩定幣付息。",
@@ -677,5 +699,5 @@
       }
     ]
   },
-  "_generated_at": "2026-09-01T12:52:59Z"
+  "_generated_at": "2026-09-01T15:52:39Z"
 }
