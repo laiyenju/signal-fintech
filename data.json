@@ -1,29 +1,46 @@
 {
   "global": {
     "cover": {
-      "date": "2026-09-02",
-      "tier": "top",
-      "title": "花旗、高盛等 21 家全球銀行與資產管理業者合組穩定幣發行公司，主打支付與數位資產結算",
+      "date": "2026-09-03",
+      "tier": "watch",
+      "title": "兩名泰國商人控告 Tether 未經令狀凍結 4,240 萬美元 USDT，挑戰穩定幣發行商的凍結與銷毀權限",
       "paras": [
-        "包含美國銀行（Bank of America）、花旗（Citi）、高盛（Goldman Sachs）、瑞銀（UBS）在內的 21 家金融機構宣布，將合組一家新公司，發行用於支付與數位資產交易的穩定幣（stablecoin）。新公司尚未命名，預計今年下半年成立，先推出美元計價穩定幣、目標 2027 年上半年上市，之後再擴及其他七大工業國（G7）貨幣，並以歐元代幣為優先；參與者橫跨北美、歐洲、東亞、中東與非洲，還包括 Wells Fargo、Deutsche Bank、Santander、Fidelity、MUFG 與 Standard Bank 等。",
-        "此案源自 2025 年 10 月由 10 家銀行發起、探索以準備金一比一承兌並在公有鏈上流通的數位支付資產計畫，如今擴大為 21 家，並表示將符合美國 GENIUS Act 與歐盟 MiCA 監理框架。這代表大型傳統銀行從旁觀轉為直接下場，正面挑戰目前由 Tether（USDT，約六成市占）與 Circle（USDC，逾兩成）主導、整體規模已達約 3,030 億美元的穩定幣市場；消息傳出後，USDC 發行商 Circle 股價一度下跌逾 4%。"
+        "兩名泰國商人 Nutthawat Rukthammachalern 與 Natthawat Kasamvilas 於 8 月 31 日向美國紐約南區聯邦地方法院提告，指控全球最大穩定幣（stablecoin）發行商 Tether，在 2025 年 10 月 30 日橫跨 10 個以太坊（Ethereum）地址、凍結了他們持有的 4,240 萬美元 USDT。原告主張，Tether 僅依據一名美國執法人員的「非正式請求」便先行凍結，直到 2026 年 2 月 19 日才有正式令狀或其他法律程序；兩人稱自己是透過次級市場交易取得這些 USDT，與 Tether 並無直接往來。",
+        "原告要求法院命令 Tether 將相關地址移出黑名單，並在最終沒收裁定作成前，禁止其銷毀被凍結的代幣或向政府控制的錢包補發替代代幣，同時求償並追討 Tether 以支撐這些 USDT 的準備金所賺取的利息等收益。訴狀主張的請求權基礎，包含侵占（conversion）、動產侵害（trespass to chattels）與不當得利（unjust enrichment）。這筆資金疑與美國司法部一起涉及逾 6,100 萬美元 USDT、透過「殺豬盤」（pig-butchering）詐騙洗錢的調查有關，司法部先前曾稱 Tether 協助移轉查扣資產。本案把中心化穩定幣發行商能否在鏈上凍結、甚至銷毀私人錢包代幣的權限邊界搬上法庭，惟原告的所有權主張與政府的指控目前均尚未經法院裁定。"
       ]
     },
     "sources": [
       {
         "name": "CoinDesk",
-        "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
-        "url": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture"
-      },
-      {
-        "name": "PR Newswire",
-        "title": "Group of Leading International Financial Institutions to Establish Stablecoin Enterprise",
-        "url": "https://www.prnewswire.com/news-releases/group-of-leading-international-financial-institutions-to-establish-stablecoin-enterprise-302866318.html"
+        "title": "Lawsuit challenges Tether for allegedly freezing $42.4 million USDT before U.S. warrant",
+        "url": "https://www.coindesk.com/business/2026/09/02/tether-sued-over-alleged-freeze-of-42-million-usdt"
       }
     ],
     "coverSocial": [],
     "context": [],
     "others": [
+      {
+        "date": "2026-09-02",
+        "title": "花旗、高盛等 21 家全球銀行與資產管理業者合組穩定幣發行公司，主打支付與數位資產結算",
+        "paras": [
+          "包含美國銀行（Bank of America）、花旗（Citi）、高盛（Goldman Sachs）、瑞銀（UBS）在內的 21 家金融機構宣布，將合組一家新公司，發行用於支付與數位資產交易的穩定幣（stablecoin）。新公司尚未命名，預計今年下半年成立，先推出美元計價穩定幣、目標 2027 年上半年上市，之後再擴及其他七大工業國（G7）貨幣，並以歐元代幣為優先；參與者橫跨北美、歐洲、東亞、中東與非洲，還包括 Wells Fargo、Deutsche Bank、Santander、Fidelity、MUFG 與 Standard Bank 等。",
+          "此案源自 2025 年 10 月由 10 家銀行發起、探索以準備金一比一承兌並在公有鏈上流通的數位支付資產計畫，如今擴大為 21 家，並表示將符合美國 GENIUS Act 與歐盟 MiCA 監理框架。這代表大型傳統銀行從旁觀轉為直接下場，正面挑戰目前由 Tether（USDT，約六成市占）與 Circle（USDC，逾兩成）主導、整體規模已達約 3,030 億美元的穩定幣市場；消息傳出後，USDC 發行商 Circle 股價一度下跌逾 4%。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
+            "url": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture"
+          },
+          {
+            "name": "PR Newswire",
+            "title": "Group of Leading International Financial Institutions to Establish Stablecoin Enterprise",
+            "url": "https://www.prnewswire.com/news-releases/group-of-leading-international-financial-institutions-to-establish-stablecoin-enterprise-302866318.html"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
       {
         "date": "2026-09-01",
         "title": "美國 SEC 提出納入區塊鏈的證券轉讓代理新規，並定 9/17 圓桌會議探討全天候交易",
@@ -413,152 +430,17 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-26",
-        "title": "Stripe 把一鍵支付工具 Link 接進爆紅 AI 代理 Instinct，推進「代理式商務」金流基礎設施",
-        "paras": [
-          "支付基礎設施商 Stripe 宣布，把旗下一鍵支付工具 Link 接入近期爆紅的 AI 代理（AI agent）Instinct。Instinct 由成立僅約一年的新創 Spear Street Technology 開發、創辦人為 23 歲的 Noah Shinn，目前為邀請制（private beta），使用者以簡訊等文字方式與其互動，讓它代為規劃跨州旅行、採買每週雜貨、購買演唱會門票與取消訂閱等生活事務。Instinct 本週稍早完成 2.5 億美元的 B 輪募資、累計募資達 3.5 億美元，估值升至 25 億美元，由創投機構 Index Ventures 與 Benchmark 共同領投。",
-          "串接 Link 之後，AI 代理不再碰觸使用者的真實卡號——每筆消費須經使用者核准，Link 才生成一次性的虛擬卡完成付款，等於移除先前「把卡片資料交給代理、再由代理自行代收簡訊或電子郵件驗證碼」所衍生的被釣魚（phishing）風險。這反映支付業者正搶佔「AI 代理替人消費」的結帳入口：Stripe 的 Link 已能對接 Claude 等多個代理，Stripe 亦承接 ChatGPT、Gemini 等平台內的結帳。不過代理式商務仍在早期，實際交易可靠度、商戶端相容性與資安防護成效都有待後續驗證。"
-        ],
-        "sources": [
-          {
-            "name": "TechCrunch",
-            "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
-            "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/"
-          },
-          {
-            "name": "Patrick Collison（X）",
-            "title": "Stripe Link now works with Instinct",
-            "url": "https://x.com/patrickc/status/2093385965905842566"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-26",
-        "title": "身分驗證與反詐科技商 Socure 以 52 億美元估值增資並購 Fravity，加碼 AI 代理化反詐與合規",
-        "paras": [
-          "數位身分驗證與反詐欺科技公司 Socure 宣布完成 1.56 億美元募資，由私募機構 Summit Partners 領投，公司估值達 52 億美元，是其自 2021 年 11 月以 45 億美元估值募資以來首度更新估值。Socure 表示目前年化經常性收入（ARR）約 3.64 億美元、年增 63%，淨收入留存率（NDR）達 133%，且已轉為獲利。此輪同時宣布收購新創 Fravity——一家以 AI 代理（AI agent）自動處理詐欺、洗錢防制（AML）與企業客戶審查（KYB）等調查作業的公司，Socure 稱可將每案處理成本降低約 8 成、誤報率最多降低 7 成。",
-          "這反映數位身分、反詐、AML 與 KYB 原本分屬不同供應商的市場，正加速整併為單一平台，並把 AI 代理嵌入過去仰賴人工的合規調查流程（RegTech，監理科技）。收購 Fravity 是 Socure 直接買下「代理層」而非自建，也是繼 2024 年以 1.36 億美元收購 Effectiv 之後、第二度併購源自 Simility 團隊系統的公司。不過 AI 代理式合規的定價模式——過去按 API 呼叫計費，代理則對應可取代的人力成本——仍在摸索，實際導入深度與跨機構採用成效有待觀察。"
-        ],
-        "sources": [
-          {
-            "name": "PYMNTS",
-            "title": "Socure Acquires Fraud Fighter Fravity as Valuation Hits $5.2 Billion",
-            "url": "https://www.pymnts.com/news/investment-tracker/2026/socure-acquires-fraud-fighter-fravity-as-valuation-hits-5-2-billion/"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-26",
-        "title": "LayerZero 推出 ATLAS 交易與結算引擎，跨足代幣化資產交易基礎設施",
-        "paras": [
-          "跨鏈互通協定 LayerZero 推出名為 ATLAS（Aggregated Trading Liquidity and Settlement）的交易與結算引擎，跑在其今年稍早發表的 Zero 區塊鏈上，把交易撮合、清算、結算與風險管理整合於單一系統，定位為交易所與各類平台的後端基礎設施，可支援的市場涵蓋現貨加密、永續期貨，乃至股票、債券、大宗商品與預測市場。ATLAS 本身不設面向散戶的交易介面，交易場所可在保留自有介面與客群的前提下直接串接；LayerZero 稱其 Zero 區塊鏈的合作方包括美國存管信託清算公司（DTCC）、洲際交易所（ICE）與 Google Cloud，並獲造市商 Citadel Securities 策略投資，消息帶動其原生代幣 ZRO 單日大漲逾三成。",
-          "此舉把 LayerZero 的野心從「在不同鏈之間搬移資產」延伸到「資產交易的市場本身」。隨著穩定幣（stablecoin）與代幣化把愈來愈多金融資產搬上鏈，LayerZero 主張既有市場基礎設施把撮合、清算與結算分屬不同系統，並不適合可全天候流通的資產，因而以 ATLAS 主打「中立、高效」的共用後端。系統分為兩種配置：面向加密交易與預測市場的 Open ATLAS，以及讓交易所與金融機構自訂市場規則的 Institutional ATLAS，兩者共用同一套底層引擎。ATLAS 也讓原生代幣 ZRO 與交易活動更直接掛鉤——交易場所可質押 ZRO 換取較高手續費回饋，扣除場所回饋後的手續費另有 75% 用於回購並銷毀 ZRO。這也是 LayerZero 在跨鏈橋業務歷經波折後的轉向——今年 4 月質押協定 Kelp DAO 以其技術打造的跨鏈橋遭駭、損失約 2.92 億美元後，多個專案陸續出走；ATLAS 能否取得交易場所實際採用，仍待後續觀察。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
-            "url": "https://www.coindesk.com/business/2026/08/25/layerzero-unveils-trading-infrastructure-for-crypto-and-tokenized-markets-zro-surges"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-26",
-        "title": "新韓金融攜手 Visa 試行南韓銀行原生穩定幣結算，成首家採用 Visa 企業級穩定幣基礎設施的南韓大型金融集團",
-        "paras": [
-          "南韓五大金融集團之一的新韓金融集團（Shinhan Financial Group）宣布，將與 Visa 合作建置穩定幣（stablecoin，錨定法幣的數位代幣）基礎設施，並開發 AI 驅動的支付模式。據南韓媒體 FNNews 報導，新韓將採用 Visa 於今年 7 月推出的企業級穩定幣平台，驗證發行、匯款與贖回等核心功能，並共同設計專屬南韓市場的商業模式。這是南韓頂級金融集團首度正式採用 Visa 的企業級穩定幣基礎設施、測試一套完整的境內結算堆疊，也讓 Visa 在南韓的銀行原生（bank-native）穩定幣結算基礎設施上，取得領先 Mastercard 的先機。",
-          "雙方另規劃試點，把穩定幣整合進銀行卡支付結算，並擴大企業對企業（B2B）與企業對消費者（B2C）支付場景。新韓金融集團董事長 Jin Ok-dong 表示，將結合新韓的金融能力與 Visa 的全球基礎設施，共同設計新的未來金融模式。此案適逢南韓推進涵蓋穩定幣、虛擬資產服務商（VASP）發照與加密 ETF 的《數位資產基本法》（Digital Asset Basic Act）之際；管理資產約 134 兆韓元（約 1,000 億美元）的新韓近期在數位資產布局動作頻頻，其資產管理部門本月稍早與 Solana 基金會、Etherfuse、Orca 簽署四方協議，測試以韓元計價的代幣化基金。新韓也曾於 4 月與 Solana 合作試行穩定幣支付系統，此次與 Visa 的合作則把重心移向以卡片網路為底的境內結算堆疊；完整結算範圍與各項試點的實測成效仍待後續揭露。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Shinhan and Visa team up to test stablecoin issuance and B2B settlements in South Korea",
-            "url": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure"
-          },
-          {
-            "name": "FNNews",
-            "title": "Shinhan Financial, Visa to jointly build stablecoin infrastructure",
-            "url": "https://en.fnnews.com/news/202608260930143481"
-          }
-        ],
-        "social": [],
-        "context": [
-          {
-            "date": "2026-08-28",
-            "title": "Visa 再與 Upbit 母公司 Dunamu 合作穩定幣與 AI 支付，擴大南韓布局",
-            "body": "繼本週稍早與新韓金融集團簽約後，Visa 再宣布與經營南韓最大加密交易所 Upbit 的母公司 Dunamu 合作，共同探索以穩定幣與人工智慧（AI）為基礎的支付服務。據《韓國先驅報》（Korea Herald），雙方將以開放標準穩定幣 OUSD 研議支付與結算模式，並打造可讓 AI 代理（AI agent）代使用者完成採購的「代理式商務」（agentic commerce）基礎設施。此舉讓 Visa 在擁有至少 1,600 萬名加密用戶的南韓市場再下一城；三星今年 5 月才以約 4.46 億美元入股 Dunamu 4%，資管巨頭 Mirae Asset 也剛揭示 1,090 億美元的加密事業藍圖。Dunamu 執行長吳京錫（Oh Kyung-seok）表示，AI、穩定幣與代幣化是將重塑金融與商業運作的關鍵趨勢。"
-          }
-        ]
-      },
-      {
-        "date": "2026-08-26",
-        "title": "Revolut 推出自有歐元穩定幣 EURR，先於丹麥、波蘭、葡萄牙試點後整合進零售 App",
-        "paras": [
-          "擁有逾 8,000 萬零售客戶、上月員工持股出售估值達 1,150 億美元的歐洲最大金融科技公司 Revolut，發布自有歐元擔保穩定幣（stablecoin）EURR，先向丹麥、波蘭、葡萄牙的部分客戶開放，之後再更廣泛整合進零售 App。Revolut 表示旗下已有逾 1,600 萬名用戶使用加密資產，若全面整合，等於把歐元計價的鏈上資產直接帶到一般消費者早已用於日常銀行業務的入口。",
-          "雖掛 Revolut 品牌，EURR 實際由 Stripe 旗下的 Bridge 依 MiCA 規範發行，該發行方取得電子貨幣機構（EMI）資格並受盧森堡監理機關監督。代幣可按面值贖回，儲備存放於分離帳戶，並在 Ethereum 與 Polygon 上各有智能合約。目前歐元穩定幣僅佔逾 3,000 億美元穩定幣市場不到 8 億美元，Revolut 龐大的用戶基礎為這個仍偏小的市場提供了罕見的主流分銷渠道。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Euro stablecoins get a mainstream push as Revolut begins rolling out EURR in Europe",
-            "url": "https://www.coindesk.com/business/2026/08/26/euro-stablecoins-get-a-mainstream-push-as-revolut-begins-rolling-out-eurr-in-europe"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-26",
-        "title": "日本擬建國家級區塊鏈證券結算系統，把央行準備金代幣化為批發型 CBDC，股票與公債結算縮至近乎即時",
-        "paras": [
-          "據日經（Nikkei）報導，日本金融廳（FSA）、財務省與日本銀行（BOJ，日本央行）將偕主要金融機構，共同開發一套國家級、以區塊鏈為基礎的股票與日本公債（JGB）結算基礎設施。三方預計今夏成立工作小組、最快 2027 年初展開作業，若審核與測試順利，新系統可望於 2030 年代初上線。核心做法是讓銀行把存放於日本央行的部分準備金帳戶餘額轉換為數位代幣，作為僅限金融機構之間使用的「批發型央行數位貨幣」（wholesale CBDC）。",
-          "此舉意在加快結算並留住資金：東京股市目前為成交後兩個營業日（T+2）交割、公債為次日（T+1），新基礎設施可將兩者縮短至近乎即時，讓投資人幾乎可即刻再投資。在美國與歐洲競相以代幣化（tokenization）改造資本市場、華爾街推動全天候代幣化股票之際，日本若不跟進恐流失機構與外資；野村（Nomura）與 Laser Digital 4 月調查亦顯示，近八成日本機構投資人計畫三年內配置加密資產。此計畫已有基礎：三菱日聯（MUFG）本月稍早宣布正以 Canton Network 測試公債鏈上結算的概念驗證（PoC），MUFG、三井住友（SMBC）與瑞穗（Mizuho）三大行也已在進行代幣化股票與公債的試點。日本央行則在 3 月擴大其區塊鏈結算沙盒，並參與國際清算銀行（BIS）跨境代幣化支付的 Project Agorá。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "Japan targets early 2030s launch for blockchain-based stock and bond settlement system",
-            "url": "https://www.coindesk.com/business/2026/08/26/japan-plans-blockchain-settlement-network-for-stocks-and-government-bonds"
-          }
-        ],
-        "social": [],
-        "context": []
-      },
-      {
-        "date": "2026-08-26",
-        "title": "美國 SEC 重啟投顧加密資產託管規則制定，前朝未能落地的修法再度擺上檯面",
-        "paras": [
-          "美國證券交易委員會（SEC）正重新啟動 2023 年一度提出、但在前任主席任內未能推行的加密資產託管規則制定，鎖定投資顧問（investment advisers）能把客戶的加密資產放在哪些機構。SEC 目前對新版方向仍高度保密，只透露會延續「窄化託管範圍、限定合格保管機構」的核心思路。",
-          "對加密基礎設施而言，這條規則將直接改寫美國專業投顧、資產管理公司與家族辦公室管理加密投組時的合規選項，也可能重新劃分 Coinbase Custody、BitGo、Anchorage、Copper 等專業託管商與傳統銀行託管的角色分配。真正的檢驗仍在後頭：SEC 尚未公布正式規則草案、公眾諮詢與生效時程，若最終比照 2023 年方向採「窄範圍合格託管人」定義，將直接影響哪些機構有資格保管客戶加密資產、投顧能否繼續使用非銀行加密託管商。"
-        ],
-        "sources": [
-          {
-            "name": "CoinDesk",
-            "title": "SEC resurrecting U.S. crypto custody rule the previous administration failed to land",
-            "url": "https://www.coindesk.com/news-analysis/2026/08/26/sec-resurrecting-u-s-crypto-custody-rule-the-previous-administration-failed-to-land"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
   "tw": {
     "cover": {
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "tier": "watch",
       "title": "本日觀察：台灣今日無明確金融科技重點新聞",
       "paras": [
-        "今日台灣各主要財經與科技來源以總體經濟與傳統金融題材為主，例如央行連續兩年打房的副作用浮現、學者評估人工智慧（AI）對消費者物價指數（CPI）影響有限、預期 9 月升息機率不高，以及國泰投信相關案件的裁定與人事討論，均未觸及支付、數位銀行或金融基礎設施等核心題材。",
-        "整體而言，台灣今日金融科技領域無重大進展，市場焦點集中在打房政策後續影響、利率與物價等總體經濟議題；相關國際重要進展另見全球欄目。"
+        "今日台灣主要財經與科技來源仍以總體經濟與傳統市場題材為主，包括台股九月開紅盤、多檔 ETF 收盤價創今年新高、渣打銀行大幅上修台灣今年經濟成長率（GDP）預測、外資單週買超台股逾千億元，以及台積電水冷供應鏈與川普半導體關稅框架等，均未觸及支付、數位銀行或金融基礎設施等核心題材。",
+        "今日並無新的重大金融科技事件，既有的金融科技動向多屬先前政策與布局的延續，例如虛擬資產服務相關子法時程、數位保險申設與金融資安等，均已列於本週要聞。相關國際重要進展另見全球欄目。"
       ]
     },
     "sources": [],
@@ -637,25 +519,8 @@
         ],
         "social": [],
         "context": []
-      },
-      {
-        "date": "2026-08-26",
-        "title": "奧丁丁集團 PayNow（立吉富線上金流）導入奧義賽博 AI 資安，強化第三方支付主動防禦",
-        "paras": [
-          "奧丁丁集團（OwlTing）旗下第三方支付品牌 PayNow（立吉富線上金流）宣布，導入資安業者奧義賽博（CyCraft）的 AI 資安方案，為其線上金流打造「主動防禦」機制。PayNow 表示，此舉是為因應持續升級的全球金流資安風險，以及金管會 2026 年揭示的六大監理重點，透過 AI 強化對支付流程的威脅偵測與防護。",
-          "對台灣金融科技而言，支付業者把 AI 資安導入金流核心，屬於金融資安與監理科技（RegTech）範疇，反映在數位支付規模擴大、詐騙與攻擊手法翻新之際，第三方支付與電子支付業者逐步把資安主動防禦視為基礎建設的一環。不過此次公開資訊集中於雙方合作方向，實際部署範圍、導入時程與量化成效等細節尚未揭露，後續實際部署與防護成效仍待觀察。"
-        ],
-        "sources": [
-          {
-            "name": "科技新報",
-            "title": "立吉富線上金流導入奧義賽博 AI 資安，打造電子支付主動防禦",
-            "url": "https://infosecu.technews.tw/2026/08/25/paynow-cycraft/"
-          }
-        ],
-        "social": [],
-        "context": []
       }
     ]
   },
-  "_generated_at": "2026-09-02T06:52:39Z"
+  "_generated_at": "2026-09-02T18:56:00Z"
 }
