@@ -26,6 +26,33 @@
     "others": [
       {
         "date": "2026-09-01",
+        "title": "美國 SEC 提出納入區塊鏈的證券轉讓代理新規，並定 9/17 圓桌會議探討全天候交易",
+        "paras": [
+          "美國證券交易委員會（SEC）主席 Paul Atkins 領導的委員會週二（9 月 1 日）同步推出兩項與區塊鏈相關的市場舉措。其一是提出修訂「轉讓代理」（transfer agent，負責記錄證券所有權變動的機構）規則的草案，明確把區塊鏈技術納入這項傳統服務——隨著鏈上交易即時且公開發生、代幣化證券（tokenized securities）興起，轉讓代理的角色正受到衝擊。這項現代化提案將更新一條數十年未曾變動的規則，涵蓋「在證券發行與股份移轉中使用電子通訊與區塊鏈技術」，並允許以區塊鏈作為交易的正式紀錄，同時對業者在網路安全等面向新增控管，草案開放 60 天公眾意見徵詢。",
+          "SEC 委員 Hester Peirce 點出加密業界關注的核心問題：轉讓代理是否仍須蒐集證券持有人的姓名與實體地址，抑或可改採電子郵件、數位錢包位址等其他識別資訊。另一項舉措則是公布 9 月 17 日「全天候（24 小時）交易」圓桌會議的議程與與會名單，找來 NYSE、Nasdaq、State Street、Citadel Securities、Cboe、美國存管信託清算公司（DTCC）等主要機構，以及較新進場的 Robinhood，討論隔夜監控、收盤價機制與交易清算結算等難題。對長年只在交易時段運作的傳統證券市場而言，全天候交易將是重大一步，加密券商也可能被納入由此衍生的規範。值得一提的是，CoinDesk 母公司、加密平台 Bullish 近期才以 42 億美元收購轉讓代理商 Equiniti。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "SEC proposes transfer agent rule, sets event to figure out round-the-clock U.S. trading",
+            "url": "https://www.coindesk.com/policy/2026/09/01/sec-proposes-transfer-agent-rule-sets-event-to-figure-out-round-the-clock-u-s-trading"
+          },
+          {
+            "name": "美國證券交易委員會（SEC）",
+            "title": "SEC Proposes to Modernize Rules for Registered Transfer Agents",
+            "url": "https://www.sec.gov/newsroom/press-releases/2026-81-sec-proposes-modernize-rules-registered-transfer-agents"
+          },
+          {
+            "name": "美國證券交易委員會（SEC）",
+            "title": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
+            "url": "https://www.sec.gov/newsroom/press-releases/2026-83-sec-announces-agenda-panelists-roundtable-preparations-24-hour-trading"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
+        "date": "2026-09-01",
         "title": "紐約證交所母公司 ICE 入股區塊鏈基礎設施商 tZERO，加速打造 NYSE 關聯代幣化證券市場",
         "paras": [
           "紐約證交所母公司洲際交易所（Intercontinental Exchange，ICE）宣布與區塊鏈基礎設施商 tZERO 合作，導入其轉讓代理（transfer agent）與券商結算系統，作為 ICE 規劃中 NYSE 關聯代幣化證券（tokenized securities）市場的鏈上結算基礎；ICE 同時將參與 tZERO 最新一輪募資（金額未揭露），並取得其 103 項區塊鏈專利授權。tZERO 預期在符合監理與技術要求後，成為該平台的核准數位轉讓代理與參與者，負責鏈上股權的所有權登錄與合規移轉。",
@@ -608,5 +635,5 @@
       }
     ]
   },
-  "_generated_at": "2026-09-01T18:55:03Z"
+  "_generated_at": "2026-09-02T00:51:29Z"
 }
