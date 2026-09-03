@@ -20,6 +20,23 @@
     "context": [],
     "others": [
       {
+        "date": "2026-09-03",
+        "title": "數位銀行 SoFi 與加密交易所 Kraken 互接金融基礎設施，共用銀行與美元清算軌道",
+        "paras": [
+          "美國數位銀行 SoFi 與加密貨幣交易所 Kraken 宣布互相接入對方的金融基礎設施：Kraken 將取得 SoFi 的銀行服務與美元結算（settlement）軌道，SoFi 的客戶則可使用 Kraken 的交易基礎設施。這是傳統數位金融與加密產業彼此跨入對方地盤的又一例。",
+          "對雙方而言，這項合作讓 Kraken 在受監理的美元存取與結算後端得到補強，也讓 SoFi 能在自家平台為客戶擴充加密資產交易能力。這也反映銀行與交易所在支付、結算與交易軌道上逐步整合的趨勢。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "SoFi, Kraken tie up as crypto and banking push into each other's turf",
+            "url": "https://www.coindesk.com/business/2026/09/03/sofi-kraken-tie-up-as-crypto-and-banking-push-into-each-other-s-turf"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-09-02",
         "title": "花旗、高盛等 21 家全球銀行與資產管理業者合組穩定幣發行公司，主打支付與數位資產結算",
         "paras": [
@@ -544,5 +561,5 @@
       }
     ]
   },
-  "_generated_at": "2026-09-03T09:56:04Z"
+  "_generated_at": "2026-09-03T12:53:08Z"
 }
