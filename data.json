@@ -42,6 +42,28 @@
         "context": []
       },
       {
+        "date": "2026-09-02",
+        "title": "紐澤西州成首個請最高法院裁決預測市場的州，聲請調卷挑戰 CEA 對州法的排除效力",
+        "paras": [
+          "美國紐澤西州（New Jersey）於當地時間週二（9 月 2 日）向聯邦最高法院（SCOTUS）聲請調卷令（writ of certiorari），成為首個把預測市場（prediction market）監理爭議提交最高法院的州，請最高法院裁決預測市場究竟應如何受監理。其聲請的核心爭點，是 2010 年的《陶德—法蘭克華爾街改革與消費者保護法》（Dodd-Frank Act）是否排除了各州的規範權；具體而言，就是當體育賭注是在已向美國商品期貨交易委員會（CFTC）登記的市場上、於州轄區內提供時，該州能否加以規範。紐澤西州檢察總長 Jennifer Davenport 主張，預測市場業者「無權在不遵守州法的情況下提供體育賭注」。",
+          "此舉源於各級法院對預測市場體育合約見解不一、開始出現「巡迴法院分裂」（circuit split）：今年 4 月第三巡迴上訴法院以 2 比 1 裁定《商品交易法》（Commodity Exchange Act, CEA）排除紐澤西州的博弈法，讓控告紐澤西州的預測市場業者 Kalshi 在司法上獲勝；但上週第九巡迴上訴法院卻裁定 CEA「很可能未排除」州對體育合約的規範，兩者形成分歧，CFTC 發言人先前也稱該裁定「有待最高法院解決」。這場官司直接牽動 Kalshi、Polymarket 等預測市場平台體育相關產品的合規邊界；不過聲請調卷令並不代表最高法院一定受理，目前尚有數十件州與聯邦法院案件在審理同一問題，最高法院可能選擇等部分案件開始定讞後再介入。"
+        ],
+        "sources": [
+          {
+            "name": "CoinDesk",
+            "title": "New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets",
+            "url": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets"
+          },
+          {
+            "name": "紐澤西州檢察總長辦公室（NJ OAG）",
+            "title": "AG Davenport: SCOTUS Must Resolve States' Authority to Regulate Sports Gambling on Prediction Markets",
+            "url": "https://www.njoag.gov/ag-davenport-scotus-must-resolve-states-authority-to-regulate-sports-gambling-on-prediction-markets/"
+          }
+        ],
+        "social": [],
+        "context": []
+      },
+      {
         "date": "2026-09-01",
         "title": "美國 SEC 提出納入區塊鏈的證券轉讓代理新規，並定 9/17 圓桌會議探討全天候交易",
         "paras": [
@@ -522,5 +544,5 @@
       }
     ]
   },
-  "_generated_at": "2026-09-02T18:56:00Z"
+  "_generated_at": "2026-09-03T09:56:04Z"
 }
